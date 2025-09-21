@@ -1,0 +1,28 @@
+{
+  "name": "fvtt-cyberpunk-red-dlc",
+  "version": "0.0.1",
+  "description": "Cyberpunk RED DLC",
+  "keywords": [
+    "foundryvtt"
+  ],
+  "homepage": "https://gitlab.com/cyberpunk-red-team/fvtt-cyberpunk-red-dlc#readme",
+  "bugs": {
+    "url": "https://gitlab.com/cyberpunk-red-team/fvtt-cyberpunk-red-dlc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/cyberpunk-red-team/fvtt-cyberpunk-red-dlc.git"
+  },
+  "license": "GPL-3.0",
+  "author": "The Project RED Team",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fancy-log": "^2.0.0",
+    "fs-extra": "^11.3.2",
+    "gulp": "^5.0.1"
+  }
+}
