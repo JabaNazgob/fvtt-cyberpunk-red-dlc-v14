@@ -44,4 +44,67 @@ export class FileUtils {
       throw err;
     }
   }
+
+  /**
+   * Sanitizes a string by converting it to a safe filename format.
+   *
+   * This function performs the following transformations:
+   * - Converts diacritical marks and accented characters to their basic Latin equivalents
+   * - Replaces special characters and spaces with underscores
+   * - Removes currency symbols and mathematical operators
+   * - Converts all characters to lowercase
+   * - Removes zero-width characters and other invisible Unicode characters
+   *
+   * @param {string} str - The input string to be sanitized
+   * @returns {string} A cleaned string safe for use as a filename
+   */
+  static sanitizeFilename(str) {
+    return str
+      .replace(/[àáâãäåāăąǻạảấầẩẫậắằẳẵặ]/g, "a")
+      .replace(/[èéêëēĕėęěẹẻẽếềểễệ]/g, "e")
+      .replace(/[ìíîïĩīĭįǐỉịớờởỡợ]/g, "i")
+      .replace(/[òóôõöōŏőơǒǫǭọỏốồổỗộớờởỡợ]/g, "o")
+      .replace(/[ùúûüũūŭůűųưǔǖǘǚǜụủứừửữự]/g, "u")
+      .replace(/[ýÿŷỳỵỷỹ]/g, "y")
+      .replace(/[æǽ]/g, "ae")
+      .replace(/[œ]/g, "oe")
+      .replace(/[ĳ]/g, "ij")
+      .replace(/[ß]/g, "ss")
+      .replace(/[ćçĉċč]/g, "c")
+      .replace(/[ḩĥħ]/g, "h")
+      .replace(/[ĵ]/g, "j")
+      .replace(/[ķ]/g, "k")
+      .replace(/[ĺļľŀł]/g, "l")
+      .replace(/[ńņňñ]/g, "n")
+      .replace(/[ŕŗř]/g, "r")
+      .replace(/[śŝşš]/g, "s")
+      .replace(/[ţťŧ]/g, "t")
+      .replace(/[ŵẃẅẁ]/g, "w")
+      .replace(/[źżž]/g, "z")
+      .replace(/[ÀÁÂÃÄÅĀĂĄǺẠẢẤẦẨẪẬẮẰẲẴẶ]/g, "A")
+      .replace(/[ÈÉÊËĒĔĖĘĚẸẺẼẾỀỂỄỆ]/g, "E")
+      .replace(/[ÌÍÎÏĨĪĬĮǏỈỊỚỜỞỠỢ]/g, "I")
+      .replace(/[ÒÓÔÕÖŌŎŐƠǑǪǬỌỎỐỒỔỖỘỚỜỞỠỢ]/g, "O")
+      .replace(/[ÙÚÛÜŨŪŬŮŰŲƯǓǕǗǙǛỤỦỨỪỬỮỰ]/g, "U")
+      .replace(/[ÝŸŶỲỴỶỸ]/g, "Y")
+      .replace(/[ÆǼ]/g, "AE")
+      .replace(/[Œ]/g, "OE")
+      .replace(/[Ĳ]/g, "IJ")
+      .replace(/[ĆÇĈĊČ]/g, "C")
+      .replace(/[ĤĦḨ]/g, "H")
+      .replace(/[Ĵ]/g, "J")
+      .replace(/[Ķ]/g, "K")
+      .replace(/[ĹĻĽĿŁ]/g, "L")
+      .replace(/[ŃŅŇÑ]/g, "N")
+      .replace(/[ŔŖŘ]/g, "R")
+      .replace(/[ŚŜŞŠ]/g, "S")
+      .replace(/[ŢŤŦ]/g, "T")
+      .replace(/[ŴẂẄẀ]/g, "W")
+      .replace(/[ŹŻŽ]/g, "Z")
+      .replace(/[$€£¥¢]/g, "")
+      .replace(/[+−×÷=≠<>±≤≥]/g, "")
+      .replace(/[^a-z0-9\.]/gi, "_")
+      .replace(/[\u200B-\u200D\uFEFF\u2060-\u2064\s]+/g, "")
+      .toLowerCase();
+  }
 }

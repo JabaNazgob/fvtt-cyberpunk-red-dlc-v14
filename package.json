@@ -15,14 +15,16 @@
   },
   "license": "GPL-3.0",
   "author": "The Project RED Team",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.0",
     "fancy-log": "^2.0.0",
     "fs-extra": "^11.3.2",
-    "gulp": "^5.0.1"
+    "gulp": "^5.0.1",
+    "js-yaml": "^4.1.0"
   }
 }

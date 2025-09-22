@@ -197,6 +197,10 @@ export class Config {
     return DIRS.STATIC_ASSETS;
   }
 
+  static moduleData() {
+    return fs.readJSONSync(path.resolve(DIRS.SRC, MODULE.MANIFEST));
+  }
+
   /**
    * Generates the complete manifest data by combining the source manifest
    * with dynamic values.
@@ -204,9 +208,7 @@ export class Config {
    * @returns {Object} Complete manifest data
    */
   static generateManifestData() {
-    const manifestData = fs.readJSONSync(
-      path.resolve(DIRS.SRC, MODULE.MANIFEST),
-    );
+    const manifestData = this.moduleData();
 
     manifestData.url = MODULE.URL;
     manifestData.manifest = this.#manifestUrl();

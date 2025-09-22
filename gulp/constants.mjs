@@ -9,7 +9,6 @@ export const MODULE = Object.freeze({
 
 export const DIRS = Object.freeze({
   SRC: "src",
-  PACKS: "packs",
   STATIC_ASSETS: Object.freeze(["babele", "icons"]),
 });
 
