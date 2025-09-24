@@ -27,23 +27,23 @@
         "compatibility": {
           "minimum": "v0.89",
           "verified": "v0.89",
-          "maximum": "v0.89"
+          "maximum": "v0.89.2"
         }
       }
     ]
   },
   "packFolders": [
     {
-      "name": "Cyberpunk RED: DLC",
+      "name": "Cyberpunk RED: DLC (Module)",
       "sorting": "m",
-      "packs": ["dlc_micro-chrome"]
+      "packs": ["dlc_mixing-drinks-changing-lives"]
     }
   ],
   "packs": [
     {
-      "name": "dlc_micro-chrome",
-      "label": "Micro Chrome",
-      "path": "packs/dlc_micro-chrome",
+      "name": "dlc_mixing-drinks-changing-lives",
+      "label": "Mixing Drinks-Changing Lives",
+      "path": "packs/dlc_mixing-drinks-changing-lives",
       "type": "Item",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp",
