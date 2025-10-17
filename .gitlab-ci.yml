@@ -1,0 +1,10 @@
+variables:
+  CORE_REPO_REF: v0.92.1
+
+include:
+  - project: "cyberpunk-red-team/cicd-components"
+    ref: main
+    file:
+      - "/jobs/init/config.yml"
+      - "/jobs/init/init.yml"
+      - "/jobs/test/packs.yml"
