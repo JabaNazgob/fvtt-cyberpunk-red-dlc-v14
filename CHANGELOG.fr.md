@@ -1,9 +1,9 @@
 <!-- markdownlint-disable MD024 -->
 
-# Changelog
+# Journal des modifications
 
 ## Version 0.1.0
 
-### New Features
+### Nouvelles fonctionnalités
 
 - Add Mixing Drinks-Saving Lives DLC
