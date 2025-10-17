@@ -2,7 +2,6 @@ import path from "node:path";
 import fs from "fs-extra";
 import log from "./utils/logger.mjs";
 import { FileUtils } from "./utils/FileUtils.mjs";
-import { Config } from "./config.mjs";
 
 /**
  * Cleans the build directory by removing all contents while preserving the
@@ -10,9 +9,9 @@ import { Config } from "./config.mjs";
  *
  * @param {Function} done - Gulp callback to signal task completion
  */
-export function cleanBuildDir(done) {
+export const cleanBuildDir = (config) => (done) => {
   log.debug("Cleaning build directory...");
-  const buildDir = Config.buildDir();
+  const buildDir = config.buildDirPath;
   try {
     fs.emptyDirSync(buildDir);
     log.debug("Cleaned build directory.");
@@ -21,7 +20,7 @@ export function cleanBuildDir(done) {
     log.error(`Error cleaning build directory: ${err}`);
     done(err);
   }
-}
+};
 
 /**
  * Copies static assets from source to build directory. Processes each asset
@@ -29,18 +28,23 @@ export function cleanBuildDir(done) {
  *
  * @param {Function} done - Gulp callback to signal task completion
  */
-export function copyStaticAssets(done) {
+export const copyStaticAssets = (config) => (done) => {
   log.debug("Copying static assets...");
-  const srcdir = Config.srcDir();
-  const destdir = Config.buildDir();
-  const staticassets = Config.staticAssets();
+  const srcDir = config.srcDirPath;
+  const destDir = config.buildDirPath;
+  const staticAssets = config.syncPaths;
 
   try {
-    staticassets.forEach((asset) => {
-      log.debug(`copying '${asset}' to '${destdir}'`);
-      const srcpath = path.resolve(path.join(srcdir, asset));
-      const destpath = path.resolve(path.join(destdir, asset));
-      fs.copySync(srcpath, destpath);
+    staticAssets.forEach((asset) => {
+      const srcPath = path.resolve(path.join(srcDir, asset));
+      const destPath = path.resolve(path.join(destDir, asset));
+
+      if (fs.existsSync(srcPath)) {
+        log.debug(`copying '${asset}' to '${destDir}'`);
+        fs.copySync(srcPath, destPath);
+      } else {
+        log.error(`asset path '${srcPath}' does not exist.`);
+      }
     });
     log.debug("Static assets copied successfully.");
     done();
@@ -48,7 +52,7 @@ export function copyStaticAssets(done) {
     log.error(`Error copying static assets: ${err}`);
     done(err);
   }
-}
+};
 
 /**
  * Builds the module manifest by generating dynamic data and writing it to the
@@ -56,11 +60,38 @@ export function copyStaticAssets(done) {
  *
  * @param {Function} done - Gulp callback to signal task completion
  */
-export function buildManifest(done) {
-  log.debug("build.mjs: buildManifest");
-  const manifestData = Config.generateManifestData();
-  const buildDir = Config.buildDir();
-  const manifestFile = path.join(buildDir, Config.moduleManifestFile());
-  FileUtils.writeJSONFile(manifestFile, manifestData);
+export const buildManifest = (config) => (done) => {
+  const manifestData = config.generateManifest;
+  console.log(JSON.stringify(manifestData, null, 2));
+  const buildDir = config.buildDirPath;
+  const manifestFile = path.basename(config._manifestFile);
+  FileUtils.writeJSONFile(path.join(buildDir, manifestFile), manifestData);
   done();
-}
+};
+
+/**
+ * Generates an environment variables file with module information.
+ * Creates vars.env containing CHANGELOG_FILE, MODULE_ID, MODULE_TITLE, and MODULE_VERSION.
+ *
+ * @param {Function} done - Gulp callback to signal task completion
+ */
+export const generateEnvFile = (config) => (done) => {
+  log.debug("Generating vars.env");
+  const vars = [
+    { key: "CHANGELOG_FILE", value: config.changelogPath },
+    { key: "MODULE_ID", value: config.id },
+    { key: "MODULE_TITLE", value: config.title },
+    { key: "MODULE_VERSION", value: config.version },
+  ];
+
+  const content = vars.map(({ key, value }) => `${key}="${value}"`).join("\n");
+
+  fs.writeFile(config.varsFile, content, (err) => {
+    if (err) {
+      log.error(`Failed to generate ${config.varsFile}:`, err);
+      return done(err);
+    }
+    log.debug(`${config.varsFile} generated successfully`);
+    done();
+  });
+};

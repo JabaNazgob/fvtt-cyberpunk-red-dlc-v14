@@ -4,7 +4,6 @@ import YAML from "js-yaml";
 import * as FoundryPacks from "@foundryvtt/foundryvtt-cli";
 import { FileUtils } from "./FileUtils.mjs";
 import log from "./logger.mjs";
-import { Config } from "../config.mjs";
 
 /**
  * Utility class for processing Foundry VTT packs
@@ -108,12 +107,12 @@ export class PackUtils {
    * @param {Object} packData - The pack metadata
    * @param {string} packDir - The directory containing pack fragments
    */
-  static async #generateBabelFile(packData, packDir) {
+  static async #generateBabelFile(config, packData, packDir) {
     const babelFile = path.resolve(
       path.join(
-        Config.srcDir(),
+        config.srcDirPath,
         "babele",
-        `${Config.moduleData().id}.${packData.name}.json`,
+        `${config.id}.${packData.name}.json`,
       ),
     );
     const babeleData = {
@@ -142,6 +141,25 @@ export class PackUtils {
     }
 
     fs.writeFileSync(babelFile, JSON.stringify(babeleData, null, 2));
+  }
+
+  /**
+   * Determines the fragment directory for a given pack
+   *
+   * @private
+   * @param {Object} packData - The pack metadata
+   * @returns {string} The path to the fragment directory
+   */
+  static #getFragmentDir(config, packData) {
+    const typeDir = packData.path.split("/")[1].split("_")[0];
+    const typeNameDir = packData.path.split("/")[1].split("_")[1];
+    const fragmentDir = path.join(
+      config.srcDirPath,
+      "packs",
+      typeDir,
+      typeNameDir,
+    );
+    return fragmentDir;
   }
 
   /**
@@ -186,10 +204,10 @@ export class PackUtils {
    * @param {string} fragmentDir - The directory containing pack fragments
    * @param {string} packName - The name of the pack to compile
    */
-  static async #compilePack(fragmentDir, packName) {
+  static async #compilePack(config, fragmentDir, packName) {
     await FoundryPacks.compilePack(
       fragmentDir,
-      path.join(Config.buildDir(), "packs", packName),
+      path.join(config.buildDirPath, "packs", packName),
       {
         yaml: true,
       },
@@ -203,54 +221,30 @@ export class PackUtils {
    *
    * @param {Function} done - Callback to signal completion of extraction
    */
-  static async extractPacks(done) {
-    const packs = Config.moduleData().packs;
-    const fragmentDir = path.resolve(path.join(Config.srcDir(), "packs"));
-
-    if (fs.existsSync(fragmentDir)) {
-      fs.rmSync(fragmentDir, { recursive: true });
-    }
-    fs.mkdirSync(fragmentDir);
+  static extractPacks = (config) => async (done) => {
+    const packs = config.manifest.packs;
 
     for (const p of packs) {
-      const packsFragmentDir = PackUtils.#getFragmentDir(p);
-      const packsBuildDir = path.resolve(
-        path.join(Config.buildDir(), "packs", p.name),
-      );
+      const packsFragmentDir = PackUtils.#getFragmentDir(config, p);
+      const packsBuildDir = path.join(config.buildDirPath, "packs", p.name);
       await PackUtils.#extractPack(packsBuildDir, packsFragmentDir);
-      await PackUtils.#generateBabelFile(p, packsFragmentDir);
+      await PackUtils.#generateBabelFile(config, p, packsFragmentDir);
     }
     done();
-  }
-
-  /**
-   * Determines the fragment directory for a given pack
-   *
-   * @private
-   * @param {Object} packData - The pack metadata
-   * @returns {string} The path to the fragment directory
-   */
-  static #getFragmentDir(packData) {
-    const typeDir = packData.path.split("/")[1].split("_")[0];
-    const typeNameDir = packData.path.split("/")[1].split("_")[1];
-    const fragmentDir = path.resolve(
-      path.join(Config.srcDir(), "packs", typeDir, typeNameDir),
-    );
-    return fragmentDir;
-  }
+  };
 
   /**
    * Compiles all packs defined in the module configuration
    *
    * @param {Function} done - Callback to signal completion of compilation
    */
-  static async compilePacks(done) {
-    const packs = Config.moduleData().packs;
+  static compilePacks = (config) => async (done) => {
+    const packs = config.manifest.packs;
 
     for (const p of packs) {
-      const fragmentDir = PackUtils.#getFragmentDir(p);
-      await PackUtils.#compilePack(fragmentDir, p.name);
+      const fragmentDir = PackUtils.#getFragmentDir(config, p);
+      await PackUtils.#compilePack(config, fragmentDir, p.name);
     }
     done();
-  }
+  };
 }

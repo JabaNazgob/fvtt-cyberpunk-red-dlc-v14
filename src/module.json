@@ -2,10 +2,8 @@
   "id": "cyberpunk-red-dlc",
   "title": "Cyberpunk RED - DLC",
   "description": "DLC for the Cyberpunk RED system",
-  "version": "DUMMY_VALUE",
   "url": "https://gitlab.com/cyberpunk-red-team/fvtt-cyberpunk-red-dlc",
   "manifest": "https://gitlab.com/api/v4/projects/74606311/packages/generic/fvtt-cyberpunk-red-dlc/latest/module.json",
-  "download": "DUMMY_VALUE",
   "license": "GPL v3",
   "authors": [
     {

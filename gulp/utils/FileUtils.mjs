@@ -103,7 +103,7 @@ export class FileUtils {
       .replace(/[ŹŻŽ]/g, "Z")
       .replace(/[$€£¥¢]/g, "")
       .replace(/[+−×÷=≠<>±≤≥]/g, "")
-      .replace(/[^a-z0-9\.]/gi, "_")
+      .replace(/[^a-z0-9.]/gi, "_")
       .replace(/[\u200B-\u200D\uFEFF\u2060-\u2064\s]+/g, "")
       .toLowerCase();
   }
