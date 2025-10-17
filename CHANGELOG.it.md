@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD024 -->
 
-# Changelog
+# Registro modifiche
 
 ## Version 0.1.0
 
