@@ -23,6 +23,7 @@ foundryconfig.json
 # Build
 dist/
 docs/
+.cicd/
 
 # Ryan's temp files
 **/foo*

@@ -82,9 +82,10 @@ export const generateEnvFile = (config) => (done) => {
     { key: "MODULE_ID", value: config.id },
     { key: "MODULE_TITLE", value: config.title },
     { key: "MODULE_VERSION", value: config.version },
+    { key: "CORE_REPO_REF", value: config.schemaVersion },
   ];
 
-  const content = vars.map(({ key, value }) => `${key}="${value}"`).join("\n");
+  const content = vars.map(({ key, value }) => `${key}=${value}`).join("\n");
 
   fs.writeFile(config.varsFile, content, (err) => {
     if (err) {

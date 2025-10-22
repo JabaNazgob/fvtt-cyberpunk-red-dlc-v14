@@ -27,7 +27,8 @@
     "fancy-log": "^2.0.0",
     "fs-extra": "^11.3.2",
     "gulp": "^5.0.1",
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.0",
+    "v8r": "^5.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.37.0",

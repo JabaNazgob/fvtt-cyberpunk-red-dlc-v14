@@ -14,6 +14,7 @@ class Config {
   static MANIFEST_FILE = "module.json";
   static CHANGELOG_FILE = "CHANGELOG.md";
   static DEFAULT_VERSION = "v0.0.0dev";
+  static SYSTEM_ID = "cyberpunk-red-core";
   static SRC_DIR = "src";
   static BUILD_DIR = "dist";
   static ASSET_DIRS = [];
@@ -29,10 +30,11 @@ class Config {
   /**
    * Creates a new Config instance with optional configuration overrides.
    * @param {Object} [options={}] - Configuration options to override defaults
-   * @param {string} [options.varFile] - vars file used by gitlab scripts
+   * @param {string} [options.varsFile] - vars file used by gitlab scripts
    * @param {string} [options.foundryConfig] - Path to the foundry config file
    * @param {string} [options.manifestFile] - Path to the manifest file
    * @param {string} [options.changelogFile] - Path to the changelog file
+   * @param {string} [options.systemId] - SystemId used for schemaVersion
    * @param {string} [options.srcDir] - Source directory name
    * @param {string} [options.buildDir] - Build directory name
    * @param {string} [options.assetDirs] - Directories in SRC_DIR to sync to BUILD_DIR
@@ -48,6 +50,7 @@ class Config {
     this._foundryConfig = options.foundryConfig || Config.FOUNDRY_CONFIG;
     this._manifestFile = options.manifestFile || Config.MANIFEST_FILE;
     this._changelogFile = options.changelogFile || Config.CHANGELOG_FILE;
+    this._systemId = options.systemId || Config.SYSTEM_ID;
     this._srcDir = options.srcDir || Config.SRC_DIR;
     this._buildDir = options.buildDir || Config.BUILD_DIR;
     this._assetDirs = options.assetDirs || Config.ASSET_DIRS;
@@ -344,6 +347,29 @@ class Config {
       manifest: gitlab.manifest,
       download: gitlab.download,
     };
+  }
+
+  get schemaVersion() {
+    // if we're in the core repo
+    if (this.manifest.id === this._systemId) {
+      // if we're in an MR use the MR branch
+      if (process.env.CI_MERGE_REQUEST_SOURCE_BRANCH_NAME) {
+        return process.env.CI_MERGE_REQUEST_SOURCE_BRANCH_NAME;
+      }
+    }
+
+    // else we're in another repo, use the manifest to get the latest supported
+    // system version.
+    const systemVersion = this.manifest.relationships.systems.find(
+      (s) => s.id === this._systemId,
+    )?.compatibility?.maximum;
+
+    if (systemVersion) {
+      return systemVersion;
+    }
+
+    // default to "dev" if none of the above resolve
+    return "dev";
   }
 }
 
