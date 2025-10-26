@@ -1,0 +1,41 @@
+_id: spEyCAKJ2cCYV4cd
+_key: "!items!spEyCAKJ2cCYV4cd"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.331"
+  createdTime: 1759614852185
+  duplicateSource: null
+  lastModifiedBy: pLIpYgHBYUznkgBy
+  modifiedTime: 1759629810784
+  systemId: cyberpunk-red-core
+  systemVersion: v0.89.2
+effects: []
+flags: {}
+folder: OXuMYH1jqRNmGurK
+img: modules/cyberpunk-red-dlc/icons/compendium/dlc/drugs/drink_icon.svg
+name: Bloom Light
+ownership:
+  default: 0
+  pLIpYgHBYUznkgBy: 3
+sort: 0
+system:
+  amount: 1
+  brand: ""
+  concealable:
+    concealable: false
+    isConcealed: false
+  consumed: None
+  description:
+    value: >-
+      <p><span style="font-family:Jost">One of a number of drinks the Drink
+      Master 5000 can mix.</span></p>
+  equipped: owned
+  favorite: false
+  price:
+    market: 10
+  revealed: true
+  source:
+    book: MD-CL
+    page: 16
+  usage: toggled
+type: drug

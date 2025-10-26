@@ -25,7 +25,7 @@
         "compatibility": {
           "minimum": "v0.89",
           "verified": "v0.89",
-          "maximum": "v0.89.2"
+          "maximum": "v0.92.1"
         }
       }
     ]
@@ -34,21 +34,109 @@
     {
       "name": "Cyberpunk RED: DLC (Module)",
       "sorting": "m",
-      "packs": ["dlc_mixing-drinks-changing-lives"]
+      "packs": [
+        "dlc_ammo",
+        "dlc_armor",
+        "dlc_clothing",
+        "dlc_cyberware",
+        "dlc_drugs",
+        "dlc_gear",
+        "dlc_programs",
+        "dlc_skills-martial-arts",
+        "dlc_upgrades",
+        "dlc_vehicles",
+        "dlc_weapons"
+      ]
     }
   ],
   "packs": [
     {
-      "name": "dlc_mixing-drinks-changing-lives",
-      "label": "Mixing Drinks-Changing Lives",
-      "path": "packs/dlc_mixing-drinks-changing-lives",
+      "name": "dlc_ammo",
+      "label": "Ammo",
+      "path": "packs/dlc_ammo",
       "type": "Item",
       "system": "cyberpunk-red-core",
-      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_armor",
+      "label": "Armor",
+      "path": "packs/dlc_armor",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_clothing",
+      "label": "Clothing",
+      "path": "packs/dlc_clothing",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_cyberware",
+      "label": "Cyberware",
+      "path": "packs/dlc_cyberware",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_drugs",
+      "label": "Drugs",
+      "path": "packs/dlc_drugs",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_gear",
+      "label": "Gear",
+      "path": "packs/dlc_gear",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_skills-martial-arts",
+      "label": "Skills (Martial Arts)",
+      "path": "packs/dlc_skills-martial-arts",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_programs",
+      "label": "Programs",
+      "path": "packs/dlc_programs",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_upgrades",
+      "label": "Upgrades",
+      "path": "packs/dlc_upgrades",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_vehicles",
+      "label": "Vehicles",
+      "path": "packs/dlc_vehicles",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_weapons",
+      "label": "Weapons",
+      "path": "packs/dlc_weapons",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    }    
   ]
 }
