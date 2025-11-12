@@ -6,4 +6,4 @@
 
 ### Nouvelles fonctionnalités
 
-- Add Mixing Drinks-Saving Lives DLC
+- Ajout du DLC de Mixing Drinks-Saving Lives
