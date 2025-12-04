@@ -2,13 +2,13 @@ _id: TVgFdyPTl0aVAQz5
 _key: "!items!TVgFdyPTl0aVAQz5"
 _stats:
   compendiumSource: null
-  coreVersion: "12.331"
+  coreVersion: "12.343"
   createdTime: 1758760415166
   duplicateSource: null
-  lastModifiedBy: pLIpYgHBYUznkgBy
-  modifiedTime: 1759629052181
+  lastModifiedBy: 5YFn3II1rTe7RKGq
+  modifiedTime: 1765813334031
   systemId: cyberpunk-red-core
-  systemVersion: v0.89.2
+  systemVersion: v0.0.0dev
 effects:
   - _id: zFdBYLMaOnE52EMH
     _key: "!items.effects!TVgFdyPTl0aVAQz5.zFdBYLMaOnE52EMH"
@@ -45,8 +45,7 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
-    img: >-
-      modules/cyberpunk-red-dlc/icons/compendium/dlc/cyberware/animal_behaviour_chip.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/animal_behaviour_chip.svg
     name: Animal Behavior Chip
     origin: >-
       Compendium.cyberpunk-red-dlc.dlc_mixing-drinks-changing-lives.Item.TVgFdyPTl0aVAQz5
@@ -56,10 +55,13 @@ effects:
     tint: "#ffffff"
     transfer: true
     type: base
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "37"
 folder: null
-img: >-
-  modules/cyberpunk-red-dlc/icons/compendium/dlc/cyberware/animal_behaviour_chip.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/animal_behaviour_chip.svg
 name: Animal Behavior Chip
 ownership:
   default: 0

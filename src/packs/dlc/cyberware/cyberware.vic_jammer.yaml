@@ -2,13 +2,13 @@ _id: D7TFt1EHP20nKr8S
 _key: "!items!D7TFt1EHP20nKr8S"
 _stats:
   compendiumSource: null
-  coreVersion: "12.331"
+  coreVersion: "12.343"
   createdTime: 1759594810415
   duplicateSource: null
-  lastModifiedBy: pLIpYgHBYUznkgBy
-  modifiedTime: 1759684923771
+  lastModifiedBy: 5YFn3II1rTe7RKGq
+  modifiedTime: 1765813334029
   systemId: cyberpunk-red-core
-  systemVersion: v0.89.2
+  systemVersion: v0.0.0dev
 effects:
   - _id: E8qjwBDZmIVYcCdw
     _key: "!items.effects!D7TFt1EHP20nKr8S.E8qjwBDZmIVYcCdw"
@@ -45,8 +45,7 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
-    img: >-
-      modules/cyberpunk-red-dlc/icons/compendium/dlc/cyberware/vic_jammer.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/vic_jammer.svg
     name: VIC Jammer
     origin: >-
       Compendium.cyberpunk-red-dlc.dlc_mixing-drinks-changing-lives.Item.D7TFt1EHP20nKr8S
@@ -56,9 +55,13 @@ effects:
     tint: "#ffffff"
     transfer: true
     type: base
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "37"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/compendium/dlc/cyberware/vic_jammer.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/vic_jammer.svg
 name: VIC Jammer
 ownership:
   default: 0

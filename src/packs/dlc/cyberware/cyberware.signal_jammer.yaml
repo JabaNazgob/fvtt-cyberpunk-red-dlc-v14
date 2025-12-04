@@ -2,17 +2,21 @@ _id: 6uuWSi4tV44EJoPi
 _key: "!items!6uuWSi4tV44EJoPi"
 _stats:
   compendiumSource: null
-  coreVersion: "12.331"
+  coreVersion: "12.343"
   createdTime: 1759592923463
   duplicateSource: null
-  lastModifiedBy: pLIpYgHBYUznkgBy
-  modifiedTime: 1759675792142
+  lastModifiedBy: 5YFn3II1rTe7RKGq
+  modifiedTime: 1765813334028
   systemId: cyberpunk-red-core
-  systemVersion: v0.89.2
+  systemVersion: v0.0.0dev
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "37"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/compendium/dlc/cyberware/signal_jammer.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/signal_jammer.svg
 name: Signal Jammer
 ownership:
   default: 0

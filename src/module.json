@@ -32,24 +32,114 @@
   },
   "packFolders": [
     {
-      "name": "Cyberpunk RED: DLC (Module)",
+      "name": "Cyberpunk RED: Black Chrome",
+      "sorting": "m",
+      "packs": [
+        "black-chrome_ammo",
+        "black-chrome_armor",
+        "black-chrome_clothing",
+        "black-chrome_cyberware",
+        "black-chrome_gear",
+        "black-chrome_programs",
+        "black-chrome_rolltables",
+        "black-chrome_upgrades",
+        "black-chrome_vehicles",
+        "black-chrome_weapons"
+      ]
+    },
+    {
+      "name": "Cyberpunk RED: DLC",
       "sorting": "m",
       "packs": [
         "dlc_ammo",
         "dlc_armor",
         "dlc_clothing",
+        "dlc_consumables",
         "dlc_cyberware",
-        "dlc_drugs",
         "dlc_gear",
-        "dlc_programs",
-        "dlc_skills-martial-arts",
+        "dlc_rolltables",
         "dlc_upgrades",
         "dlc_vehicles",
         "dlc_weapons"
       ]
+    },
+    {
+      "name": "Cyberpunk RED: Elflines Online",
+      "sorting": "m",
+      "packs": [
+        "elflines_ammo",
+        "elflines_armor",
+        "elflines_gear",
+        "elflines_macros",
+        "elflines_weapons"
+      ]
     }
   ],
   "packs": [
+    {
+      "name": "black-chrome_ammo",
+      "label": "Ammo",
+      "path": "packs/black-chrome_ammo",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "black-chrome_armor",
+      "label": "Armor",
+      "path": "packs/black-chrome_armor",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "black-chrome_clothing",
+      "label": "Clothing",
+      "path": "packs/black-chrome_clothing",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "black-chrome_cyberware",
+      "label": "Cyberware",
+      "path": "packs/black-chrome_cyberware",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "black-chrome_gear",
+      "label": "Gear",
+      "path": "packs/black-chrome_gear",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "black-chrome_upgrades",
+      "label": "Upgrades",
+      "path": "packs/black-chrome_upgrades",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "black-chrome_vehicles",
+      "label": "Vehicles",
+      "path": "packs/black-chrome_vehicles",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "black-chrome_weapons",
+      "label": "Weapons",
+      "path": "packs/black-chrome_weapons",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
     {
       "name": "dlc_ammo",
       "label": "Ammo",
@@ -75,17 +165,17 @@
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
     },
     {
-      "name": "dlc_cyberware",
-      "label": "Cyberware",
-      "path": "packs/dlc_cyberware",
+      "name": "dlc_consumables",
+      "label": "Consumables",
+      "path": "packs/dlc_consumables",
       "type": "Item",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
     },
     {
-      "name": "dlc_drugs",
-      "label": "Drugs",
-      "path": "packs/dlc_drugs",
+      "name": "dlc_cyberware",
+      "label": "Cyberware",
+      "path": "packs/dlc_cyberware",
       "type": "Item",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
@@ -99,18 +189,10 @@
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
     },
     {
-      "name": "dlc_skills-martial-arts",
-      "label": "Skills (Martial Arts)",
-      "path": "packs/dlc_skills-martial-arts",
-      "type": "Item",
-      "system": "cyberpunk-red-core",
-      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
-    },
-    {
-      "name": "dlc_programs",
-      "label": "Programs",
-      "path": "packs/dlc_programs",
-      "type": "Item",
+      "name": "dlc_rolltables",
+      "label": "Rolltables",
+      "path": "packs/dlc_rolltables",
+      "type": "RollTable",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
     },

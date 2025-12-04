@@ -2,18 +2,21 @@ _id: TCqtHNto4TZa5EPF
 _key: "!items!TCqtHNto4TZa5EPF"
 _stats:
   compendiumSource: null
-  coreVersion: "12.331"
+  coreVersion: "12.343"
   createdTime: 1759590048434
   duplicateSource: null
-  lastModifiedBy: pLIpYgHBYUznkgBy
-  modifiedTime: 1759629743718
+  lastModifiedBy: 5YFn3II1rTe7RKGq
+  modifiedTime: 1765813334138
   systemId: cyberpunk-red-core
-  systemVersion: v0.89.2
+  systemVersion: v0.0.0dev
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "37"
 folder: null
-img: >-
-  modules/cyberpunk-red-dlc/icons/compendium/dlc/upgrades/shining_finger.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/shining_finger.svg
 name: Shining Finger
 ownership:
   default: 0

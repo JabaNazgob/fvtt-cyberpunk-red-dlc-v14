@@ -1,0 +1,26 @@
+{
+  "label": "Gear",
+  "mapping": {},
+  "entries": {
+    "Elflines Online": {
+      "name": "Elflines Online",
+      "description": "<p>A new in-box copy of the hit BDMMORPG Elflines Online.</p>"
+    },
+    "Rank 10 ELO Character": {
+      "name": "Rank 10 ELO Character",
+      "description": "<p>\n A power-leveled Rank 10 ELO character. (ELO Character must be created via the\n Macro and ranked up manually.)\n</p>"
+    },
+    "Rush Revolution": {
+      "name": "Rush Revolution",
+      "description": "<p>Braindance Headset. Required to play Elflines Online.</p>"
+    },
+    "Sacred Herbs": {
+      "name": "Sacred Herbs",
+      "description": "<p>\n Ingesting Sacred Herbs immediately heals HP equal to the user's BODY plus\n their WILL.\n</p>"
+    },
+    "Vial of Poison": {
+      "name": "Vial of Poison",
+      "description": "<p>2d6 damage unless Resist Torture/Drugs. Armor does not apply.</p>"
+    }
+  }
+}

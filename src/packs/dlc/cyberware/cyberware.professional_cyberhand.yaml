@@ -2,18 +2,21 @@ _id: AUQradHgpwzsx7rS
 _key: "!items!AUQradHgpwzsx7rS"
 _stats:
   compendiumSource: null
-  coreVersion: "12.331"
+  coreVersion: "12.343"
   createdTime: 1759456787551
   duplicateSource: null
-  lastModifiedBy: pLIpYgHBYUznkgBy
-  modifiedTime: 1759674352174
+  lastModifiedBy: 5YFn3II1rTe7RKGq
+  modifiedTime: 1765813334028
   systemId: cyberpunk-red-core
-  systemVersion: v0.89.2
+  systemVersion: v0.0.0dev
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "37"
 folder: null
-img: >-
-  modules/cyberpunk-red-dlc/icons/compendium/dlc/cyberware/professional_cyberhand.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/professional_cyberhand.svg
 name: Professional Cyberhand
 ownership:
   default: 0

@@ -2,13 +2,13 @@ _id: Pf0nIIWogwohv3gc
 _key: "!items!Pf0nIIWogwohv3gc"
 _stats:
   compendiumSource: null
-  coreVersion: "12.331"
+  coreVersion: "12.343"
   createdTime: 1759519280173
   duplicateSource: null
-  lastModifiedBy: pLIpYgHBYUznkgBy
-  modifiedTime: 1759629671136
+  lastModifiedBy: 5YFn3II1rTe7RKGq
+  modifiedTime: 1765813334030
   systemId: cyberpunk-red-core
-  systemVersion: v0.89.2
+  systemVersion: v0.0.0dev
 effects:
   - _id: MAlmk7UBNTZtlRrK
     _key: "!items.effects!Pf0nIIWogwohv3gc.MAlmk7UBNTZtlRrK"
@@ -45,8 +45,7 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
-    img: >-
-      modules/cyberpunk-red-dlc/icons/compendium/dlc/cyberware/cyberliver.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/cyberliver.svg
     name: Cyberliver
     origin: >-
       Compendium.cyberpunk-red-dlc.dlc_mixing-drinks-changing-lives.Item.Pf0nIIWogwohv3gc
@@ -56,9 +55,13 @@ effects:
     tint: "#ffffff"
     transfer: true
     type: base
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "37"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/compendium/dlc/cyberware/cyberliver.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/cyberliver.svg
 name: Cyberliver
 ownership:
   default: 0
