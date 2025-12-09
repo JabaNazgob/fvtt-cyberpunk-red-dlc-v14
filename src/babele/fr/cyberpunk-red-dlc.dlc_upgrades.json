@@ -1,0 +1,122 @@
+{
+  "label": "Upgrades",
+  "mapping": {},
+  "entries": {
+    "Aerie": {
+      "name": "Aerie",
+      "description": "<p>Chaque GLACE Corbeau installé détruit les programmes défensifs au lieu de dérezzer.</p>"
+    },
+    "Bottle Dynamo": {
+      "name": "Dynamo de roue",
+      "description": "<p>Une dynamo sur la roue de votre vélo pour convertir l'énergie mécanique en électricité. Charge une batterie (comme utilisée pour les armes) en une heure.</p>"
+    },
+    "Bulletproof Glass": {
+      "name": "Verre pare-balles",
+      "description": "<p>Le verre du carénage est désormais considéré comme un couvert fin avec 7 PS. Se référer aux règles dans CP:R p. 182</p>\n<p>Le vélo nécessite d'abord l'amélioration Carénage pour installer cette mise à niveau.</p>\n"
+    },
+    "Bushido Accelerator": {
+      "name": "Accélérateur Bushido",
+      "description": "<p>Vitesse +3 à toutes les GLACE Noirs tueurs installés.</p>\n"
+    },
+    "Cold-Weather Jacket Lining": {
+      "name": "Doublure de veste pour temps froid",
+      "description": "<p>Amélioration pour toute veste. L'utilisateur ne subira pas de pénalités d'exposition aux températures froides (CP:R p.181).</p>\n"
+    },
+    "Combat Recorder": {
+      "name": "Enregistreur de Combat",
+      "description": "<p>Les données de combat sont inestimables dans le monde réel pour le développement de GLACE.</p>\n<p>Si un autre Netrunner dans la même architecture NET échoue à une sauvegarde contre la mort, les 5 dernières minutes des données de combat de Netrun non incriminantes sont enregistrées dans la console. Les enregistrements peuvent être vendus pour 50eb.</p>\n"
+    },
+    "Cycle Armor": {
+      "name": "Blindé",
+      "description": "<p>Vélo blindé de 7 PS.</p>\n<p>Le vélo nécessite d'abord l'amélioration Cadre renforcé pour installer cette amélioration.</p>"
+    },
+    "Defense Sequencer": {
+      "name": "Séquenceur de défense",
+      "description": "<p>Si un programme d'Armure actif est dérezzé ou détruit, Le Séquenceur de Défense active un autre programme d'Armure installé qui n'a pas encore été utilisé au début du tour du Netrunner.</p>\n"
+    },
+    "Electric Pedal Assist": {
+      "name": "Assistance pédalage électrique",
+      "description": "<p>Système motorisé électrique permettant de pédaler plus facilement, d'augmenter la vitesse, de diminuer la fatigue.</p>\n<p>Augmente la vitesse (narrative) au niveau COR suivant, ou +5MPH (8KPH) si le pilote est déjà au niveau maximum.</p>\n<p>Le cycliste gagne un bonus de +4 aux tests d'endurance lors de son trajet pour résister à la fatigue.</p>\n"
+    },
+    "Enclosure": {
+      "name": "Carénage",
+      "description": "<p>Le vélo devient un trike avec un corps recouvert de fibre de verre et de plastique.</p>\n<p>Cette amélioration ne peut pas être installée avec l'amélioration Cadre pliant.</p>"
+    },
+    "Extended Seat": {
+      "name": "Selle longue",
+      "description": "<p>Une selle rallongée, ajoutant une place pour un passager supplémentaire.</p>"
+    },
+    "Feline Instinct": {
+      "name": "Instinct Félin",
+      "description": "<p>Si un GLACE Tigre à dents de sabre installé détruit un programme, les dégâts qu'inflige ce Tigre à dents de sabre sont augmentés de 1d6 à chaque attaque subséquente pendant la durée du Netrun.</p>"
+    },
+    "Folding Frame": {
+      "name": "Cadre pliant",
+      "description": "<p>Vous pouvez désormais plier votre vélo à la taille d'une grande valise pour faciliter le transport et l'entreposage.</p>\n<p>Vous ne pouvez pas installer cette amélioration avec les améliorations Compartiment caché, Cadre renforcé ou Carénage.</p>"
+    },
+    "Gun Mount": {
+      "name": "Support d'arme",
+      "description": "<p>Un système pour monter un fusil d'assaut, un pistolet-mitrailleur lourd ou un fusil à pompe sur le guidon, ainsi qu'un bouton de tir.</p>\n<p>Tire seulement vers l'avant.</p>\n<p>Le montage et le détachement nécessitent une action.</p>\n"
+    },
+    "Hangry Hangry Dragon": {
+      "name": "Dragon Morfal Morfal",
+      "description": "<p>Chaque fois qu'un GLACE Dragon installé détruit un programme, il regagne son REZ maximum.</p>"
+    },
+    "Hot-Weather Jacket Lining": {
+      "name": "Doublure de veste pour temps chaud",
+      "description": "<p>Amélioration pour toute veste. L'utilisateur ne subira pas de pénalités d'exposition aux températures chaudes (CP:R pg 181).</p>\n<p>Les vagues de chaleur doublent toutes les pénalités dues à une armure plus lourde (NCW pg 5). Par exemple, un utilisateur avec une armure pare-balle moyenne subit une pénalité de -4 en MOUV, DEX et REF pendant une vague de chaleur. La doublure pour temps chaud réduit chacune de ces pénalités de 1.</p>\n"
+    },
+    "Neon Lightning": {
+      "name": "Éclairage néon",
+      "description": "<p>Éclairages en fibre optique sur le cadre et les roues du vélo.</p>\n<p>Considéré comme un Tatouage lumineux quand on est sur ou à proximité du vélo (bonus de +2 en Habillement et Style).</p>\n"
+    },
+    "Perfume Shoppe": {
+      "name": "Parfumerie",
+      "description": "<p>Le GLACE Putois ne prend que 1 emplacement de programme.</p>"
+    },
+    "Reinforced Frame": {
+      "name": "Cadre renforcé",
+      "description": "<p>Le vélo est maintenant plus résistant : +5 PS et le cycliste peut avoir COR 11 ou plus.</p>\n<p>Impossible d'installer cette amélioration avec l'amélioration Cadre pliant.</p>\n"
+    },
+    "Security System": {
+      "name": "Système de sécurité",
+      "description": "<p>Lié à votre Agent pour électrifier votre vélo. Un voleur doit résister à un jet de <strong>Résistance à la torture/drogues SD13</strong> ou lâcher le vélo.</p>\n<p>Le vélo est enregistré avec d'un Nano-Numéro d'Identification de Véhicule.</p>\n"
+    },
+    "Shining Finger": {
+      "name": "Shining Finger",
+      "description": "<p>Agent App.</p><p>A Pornographic application. Charged monthly</p>"
+    },
+    "Smithy": {
+      "name": "Forgeur",
+      "description": "<p>Soyez prêt à tout. Entrez dans une architecture NET pleine de GLACE et vous n'avez pas de programme Sabre à portée de main? Échangez votre programme Bannissement inutile en appuyant sur un bouton.</p>\n<p>Utilisez l'action monde réel pour changer tout les programmes Sabre installés en programmes Bannissement ou vice versa.</p>\n"
+    },
+    "Smuggling Compartment": {
+      "name": "Compartiment caché",
+      "description": "<p>Ajoute un petit espace de stockage caché dans le cadre.</p>\n<p>1 pouce x 6 pouces (2,54cm x 15,24cm)</p>\n<p> Jet de <strong>Dissimuler/Révéler objet SD 17</strong> pour le découvrir.</p>\n<p>Impossible d'installer cette amélioration avec Cadre pliant.</p>\n"
+    },
+    "Snaketrap": {
+      "name": "Piège à Serpent",
+      "description": "<p>Protège contre la première attaque de GLACE (Cobra, Corbeau, ou les effets de Laser corrosif) qui détruirait aléatoirement un programme installé. Cet effet de protection ne peut être utilisé qu'une seule fois par Netrun, même si plusieurs copies de Piège à Serpent sont installées.</p>\n"
+    },
+    "Stunt Frame": {
+      "name": "Cadre Freestyle",
+      "description": "<p>Le vélo perd du poids et gagne en manœuvrabilité.</p>\n<p>Le cycliste obtient un bonus de +2 aux tests de compétence Athlétisme lors de sa conduite et de ses manœuvres.</p>"
+    },
+    "Swamp Mist": {
+      "name": "Brume Marécageuse",
+      "description": "<p>La GLACE Feu Follet inflige 2d6 points de dégâts au lieu de 1d6.</p>\n<p>Restrictions de programme GLACE : seul Feu Follet peut être installé.</p>\n"
+    },
+    "Swifty Clean": {
+      "name": "Nettoyage Rapide",
+      "description": "<p>Le Netrunner peut lancer Camouflage deux fois en une seule action NET et garder le meilleur résultat. Camouflage ne peut être utilisé qu'une seule fois par Netrun lorsque Nettoyage Rapide est installé.</p>"
+    },
+    "Trailer": {
+      "name": "Remorque",
+      "description": "<p>Crochet avec une petite remorque de chargement</p>\n<p>1,5 m x 0,46m.</p>\n<p>Une action est nécessaire pour attacher et détacher la remorque.</p>"
+    },
+    "Waterproof Jacket Lining": {
+      "name": "Doublure imperméable de veste",
+      "description": "<p dir=\"ltr\">Amélioration pour n'importe quelle veste. Mécaniquement similaire à un parapluie, ne sert pas de tenue de plongée.</p>\n<p>Protège contre la Pluie Acide. Pour chaque minute exposée à la pluie d'acide, toutes les armures perdent 1 PA (NCW pg 4).</p>\n<p>+2 aux jets de Résistance à la torture/aux drogues quand exposé aux Pluies de Sang. Les Pluies de Sang sévères appliquent les effets d'un flacon de biotoxine lors d'un jet raté (NCW pg 4).</p>\n"
+    }
+  }
+}

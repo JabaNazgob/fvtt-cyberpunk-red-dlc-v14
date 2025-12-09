@@ -1,0 +1,79 @@
+{
+  "label": "Ammo",
+  "mapping": {},
+  "entries": {
+    "Arrow (Junk)": {
+      "name": "Flecha (Basura)",
+      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+    },
+    "Big Dreem Rounds": {
+      "name": "Rondas de Gran Dreem",
+      "description": "<p>Munición personalizada para la Dreem Adolescente.</p>"
+    },
+    "Heavy Pistol (Junk)": {
+      "name": "Pistola Pesada (Basura)",
+      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+    },
+    "Heavy Pistol (Small Game)": {
+      "name": "Pistola Pesada (Juguete)",
+      "description": "<p>Munición de juguete, no ideal para la gente. Inflige 2d6 menos de daño.</p>"
+    },
+    "M-02 Rounds": {
+      "name": "Rondas M-02",
+      "description": "<p>Rondas de munición perforante de armadura especiales solo para uso en el Rifle Pesado de Sternmeyer M-02. Viene en un tambor de 80.</p>"
+    },
+    "MagnaSlot BatteryBrick": {
+      "name": "Superbateria MagnaSlot",
+      "description": "<p>Paquete de batería que solo se ajusta al Ciberbrazo de Radline Blitzkrieg Lanza-Relámpagos. Se puede recargar en 1 hora.</p>"
+    },
+    "Medium Pistol (Junk)": {
+      "name": "Pistola Media (Basura)",
+      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+    },
+    "Medium Pistol (Small Game)": {
+      "name": "Pistola Media (Juguete)",
+      "description": "<p>Munición de juguete, no ideal para la gente. Inflige 2d6 menos de daño.</p>"
+    },
+    "Nova Model 757 Rounds": {
+      "name": "Rondas del Modelo de Nova 757",
+      "description": "<p>Solo para uso en el Modelo Cityhunter 757 de Nova. Viene en paquetes de 18 en lugar de los 10 normales.</p><p>&nbsp;</p><p>Requiere implante de sistema de puntería, de lo contrario no se disparará. Si falla un ataque único por 4 o menos, tira de nuevo un segundo ataque al mismo DV 1d10+10 (sin atributo normal). Puede añadir suerte. El objetivo puede esquivar el segundo tiro como normal si es capaz de hacerlo</p>"
+    },
+    "Paintball (Biotoxin)": {
+      "name": "Bola de pintura (Biotoxina)",
+      "description": "<p>Poco más que 3 Frascos de Biotoxina atados. No inflige daño directo al golpear.</p>"
+    },
+    "Paintball (Poison)": {
+      "name": "Bola de pintura (Veneno)",
+      "description": "<p>Poco más que 3 Frascos de Biotoxina atados. No inflige daño directo al golpear.</p>"
+    },
+    "Rifle (Junk)": {
+      "name": "Rifle (Basura)",
+      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+    },
+    "Rifle (Small Game)": {
+      "name": "Rifle (Juguete)",
+      "description": "<p>Munición de juguete, no ideal para la gente. Inflige 2d6 menos de daño.</p>"
+    },
+    "Shotgun Slug (Junk)": {
+      "name": "Posta de Escopeta (Basura)",
+      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+    },
+    "Sub-Flechette Rounds": {
+      "name": "Munición Sub-Flechette",
+      "description": "<p>Munición especial para usar solo con la pistola Sub-Flechette de Malorian Arms. Produce ablacion de armadura de 4 CP por golpe.</p>"
+    },
+    "Very Heavy Pistol (Junk)": {
+      "name": "Pistola Muy Pesada (Basura)",
+      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+    },
+    "Very Heavy Pistol (Small Game)": {
+      "name": "Pistola Muy Pesada (Juguete)",
+      "description": "<p>Munición de juguete, no ideal para la gente. Inflige 2d6 menos de daño.</p>"
+    },
+    "Molotov Cocktail": {
+      "name": "Coctél Molotov",
+      "description": "<p>Frágil Granada Incendiaria. Enciende a un objetivo en un fuego mortal (ver CP:R p.180)</p>",
+      "dvTable": "VD Armas arrojadizas"
+    }
+  }
+}

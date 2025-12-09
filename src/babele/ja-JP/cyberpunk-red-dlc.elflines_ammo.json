@@ -1,0 +1,18 @@
+{
+  "label": "Ammo",
+  "mapping": {},
+  "entries": {
+    "Arrow": {
+      "name": "Arrow",
+      "description": "<p>通常弾、特殊機能は何も無い。</p>"
+    },
+    "Elflines Online Playing Cards": {
+      "name": "Elflines Online Playing Cards",
+      "description": "<p>Cards meant to be used as part of playing Elfines Online The Trading Card Game.</p>"
+    },
+    "Poison Arrow": {
+      "name": "Poison Arrow",
+      "description": "<p>攻撃はダメージを与えない。その代わり、命中を受けた“生身の者”は難易度13の〈拷問／薬物抵抗〉判定を行な\nわねばならない。これに失敗した者はHPに直接2d6のダメージを受ける。この弾薬は防具に干渉しないため、防具を損耗しない。</p>"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "label": "Weapons",
+  "mapping": {},
+  "entries": {
+    "Bow": {
+      "name": "Arco",
+      "description": "<p>Arco revitalizado, recargado como parte de una acción de Ataque.</p>",
+      "dvTable": "VD Arcos y Ballestas"
+    },
+    "Dagger": {
+      "name": "Daga",
+      "description": "<p>Un cuchillo apto para un cazador.</p>"
+    },
+    "Duel Caster": {
+      "name": "Lanzador de Duelo",
+      "description": "<p>Una carcasa de plástico y lanzador de cartas para Cartas de ELO. CdT 3 si solo se dispara en tu turno. También se puede cargar con cartas normales, pero hace que el arma sea de Calidad Pobre.</p>",
+      "dvTable": "VD Pistola"
+    },
+    "Greataxe": {
+      "name": "Hacha Grande",
+      "description": "<p>Un poste de madera con una hoja curva en cada lado. Favorecido por grupos de incursión para enfrentamientos cercanos. Requiere 2 manos para manejar incluso por un portador con TCO 8 o superior.</p>"
+    },
+    "Longsword": {
+      "name": "Espada larga",
+      "description": "<p>Un arma afilada con empuñadura. Específicamente diseñado para cortar o empujar. 2 CdT si empuñan dos espadas largas.</p>"
+    },
+    "Scarlet Blackbow": {
+      "name": "ArcoNegro Escarlata",
+      "description": "<p>Un arco revitalizado que debe recargarse después de cada ataque. Si tira 1 en Ataque (Crit fail), el paquete de batería del arco explota. Viene con una carcaída y 6 flechas de goma.</p>",
+      "dvTable": "VD Arcos y Ballestas"
+    },
+    "Shortsword": {
+      "name": "Espada corta",
+      "description": "<p>Arma de filo corta empuñada. Específicamente diseñada para cortar o pinchar. </p>"
+    },
+    "Sword of Arvish": {
+      "name": "Espada de Arvish",
+      "description": "<p>Arma de filo empuñada. Específicamente diseñada para cortar o pinchar. Si tira 1 en el ataque (pifia) el arma aplasta los dedos de su portador.</p>"
+    }
+  }
+}

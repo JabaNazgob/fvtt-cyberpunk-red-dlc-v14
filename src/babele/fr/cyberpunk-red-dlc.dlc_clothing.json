@@ -1,0 +1,10 @@
+{
+  "label": "Clothing",
+  "mapping": {},
+  "entries": {
+    "Superflash Jacket": {
+      "name": "Veste Superflash",
+      "description": "<p>Une belle veste portant une surprise ; en utilisant une action, toute personne portant cette veste peut consommer une batterie pour émettre une lumière aveuglante.</p>\n"
+    }
+  }
+}

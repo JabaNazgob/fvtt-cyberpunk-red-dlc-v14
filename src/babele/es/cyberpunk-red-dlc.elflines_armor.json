@@ -1,0 +1,42 @@
+{
+  "label": "Armor",
+  "mapping": {},
+  "entries": {
+    "Chainmail Armor (Body)": {
+      "name": "Armadura de cota de mallas (Cuerpo)",
+      "description": "<p>Armadura formada por innumerables anillos de metal. -2 a REF, DES y MOV.</p>"
+    },
+    "Chainmail Armor (Head)": {
+      "name": "Armadura de cota de mallas (Cabeza)",
+      "description": "<p>Armadura formada por innumerables anillos de metal para tu cabeza. -2 a REF, DES y MOV.</p>"
+    },
+    "Full Plate Armor (Body)": {
+      "name": "Armadura de placas completa (Cuerpo)",
+      "description": "<p>Armadura de metal para resistir los golpes más poderosos. -4 para REF, DES y MOV.</p>"
+    },
+    "Full Plate Armor (Head)": {
+      "name": "Armadura de placas completa (Cabeza)",
+      "description": "<p>Armadura de metal para resistir los golpes más poderosos a la cabeza. -4 a REF, DES y MOV.</p>"
+    },
+    "Leather Armor (Body)": {
+      "name": "Armadura de cuero (Cuerpo)",
+      "description": "<p>Armadura de cuero sencilla. Sin penalización de armadura.</p>"
+    },
+    "Leather Armor (Head)": {
+      "name": "Armadura de cuero (Cabeza)",
+      "description": "<p>Armadura de cuero sencilla para tu cabeza. Sin penalización de armadura.</p>"
+    },
+    "Shield": {
+      "name": "Escudo",
+      "description": "<p>Requiere un brazo y tiene vida reducida por daño.</p>"
+    },
+    "Studded Leather Armor (Body)": {
+      "name": "Armadura de cuero tachonado (Cuerpo)",
+      "description": "<p>Armadura Estándar de Cuero Tachonado. Sin penalización de armadura.</p>"
+    },
+    "Studded Leather Armor (Head)": {
+      "name": "Armadura de cuero tachonado (Cabeza)",
+      "description": "<p>Armadura Estándar de Cuero Tachonado para tu cabeza. Sin penalización de armadura.</p>"
+    }
+  }
+}

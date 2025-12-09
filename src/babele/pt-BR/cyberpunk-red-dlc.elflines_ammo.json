@@ -1,0 +1,18 @@
+{
+  "label": "Ammo",
+  "mapping": {},
+  "entries": {
+    "Arrow": {
+      "name": "Arrow",
+      "description": "<p>Basic ammo, nothing special.</p>"
+    },
+    "Elflines Online Playing Cards": {
+      "name": "Elflines Online Playing Cards",
+      "description": "<p>Cards meant to be used as part of playing Elfines Online The Trading Card Game.</p>"
+    },
+    "Poison Arrow": {
+      "name": "Flecha Venenosa",
+      "description": "<p>Sem danos imediatos. Faça um teste de Resistência à Tortura/Drogas de VD13, se falhar toma 3d6 de dano direto. Sem ablação.</p>"
+    }
+  }
+}

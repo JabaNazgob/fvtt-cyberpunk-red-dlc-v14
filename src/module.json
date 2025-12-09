@@ -219,6 +219,47 @@
       "type": "Item",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
-    }    
-  ]
+    },
+    {
+      "name": "elflines_ammo",
+      "label": "Ammo",
+      "path": "packs/elflines_ammo",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "elflines_armor",
+      "label": "Armor",
+      "path": "packs/elflines_armor",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "elflines_gear",
+      "label": "Gear",
+      "path": "packs/elflines_gear",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "elflines_macros",
+      "label": "Macros",
+      "path": "packs/elflines_macros",
+      "type": "Macro",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "elflines_weapons",
+      "label": "Weapons",
+      "path": "packs/elflines_weapons",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    }
+  ],
+  "scripts": ["dlc.js"]
 }

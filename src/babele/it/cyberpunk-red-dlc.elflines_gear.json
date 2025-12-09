@@ -1,0 +1,26 @@
+{
+  "label": "Gear",
+  "mapping": {},
+  "entries": {
+    "Elflines Online": {
+      "name": "Elflines Online Macros",
+      "description": "<p>A new in-box copy of the hit BDMMORPG Elflines Online.</p>"
+    },
+    "Rank 10 ELO Character": {
+      "name": "Rank 10 ELO Character",
+      "description": "<p>A power-leveled Rank 10 ELO character. (ELO Character must be created via the Macro and ranked up manually.)</p>"
+    },
+    "Rush Revolution": {
+      "name": "Rush Revolution",
+      "description": "<p>Braindance Headset. Required to play Elflines Online.</p>"
+    },
+    "Sacred Herbs": {
+      "name": "Erbe Sacre",
+      "description": "<p>Ingesting Sacred Herbs immediately heals HP equal to the user's BODY plus their WILL.</p>"
+    },
+    "Vial of Poison": {
+      "name": "Fiala di Veleno",
+      "description": "<p>Una fiala di veleno può essere applicata su un’Arma da Mischia Leggera usando un’Azione. Per i 30 minuti seguenti, l’arma non infligge il normale danno, ma costringe chi viene colpito a effettuare una Prova di Resistere a Tortura/Droghe VD 13. Se fallisce, subisce 3d6 danni diretti ai PF. L’armatura non viene ablata, poiché non viene influenzata.</p>"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "label": "Armor",
+  "mapping": {},
+  "entries": {
+    "Esporma Environment Suit": {
+      "name": "Tenue de protection Esporma",
+      "description": "<p>Combinaison anti-radiations renforcée. Protège le porteur et est livrée avec un réservoir d'oxygène de 30 minutes qui peut être rempli en une heure en air sain.</p>\n<p>Des nanomachines restaurent 1PA chaque heure tant que la tenue ne subit pas de dommage.</p>\n"
+    },
+    "FleshWeave (Armor)": {
+      "name": "Chair tissée (Armure)",
+      "description": "<p>Armure pour le cyberimplant Chair tissée (Armure) de Sycust.</p>\n"
+    },
+    "PackShield": {
+      "name": "Sac bouclier",
+      "description": "<p>Croisement entre un sac à dos de style Cadre Sup et un bouclier ballistique.</p>\n<p>Peut transporter des objets comme un @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Fourre-tout}, et être équipé dans votre main comme un bouclier.</p>\n<p>Offre seulement une protection lorsqu'il est équipé dans une main.</p>\n<p>Ne peut pas être installé dans un @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Bouclier escamotable}.</p>\n"
+    },
+    "Scavenged Armor": {
+      "name": "Armure de récupération",
+      "description": "<p>Une armure légère bricolée pour le corps et qui ne peut être réparé.</p>\n"
+    }
+  }
+}

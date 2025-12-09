@@ -1,0 +1,18 @@
+{
+  "label": "Ammo",
+  "mapping": {},
+  "entries": {
+    "Arrow": {
+      "name": "Flecha",
+      "description": "<p>Munición básica, nada especial.</p>"
+    },
+    "Elflines Online Playing Cards": {
+      "name": "Cartas de Juego de Elflines Online",
+      "description": "<p>Cartas destinadas a ser usadas como parte del juego Elflines Online el Juego de Cartas.</p>"
+    },
+    "Poison Arrow": {
+      "name": "Flecha Venenosa",
+      "description": "<p>Sin daño inmediato. Al golpear, tira Resistir Tortugas/Drogas contra VD13. Al fallar 2d6 de daño a PV sin ablación. </p>"
+    }
+  }
+}

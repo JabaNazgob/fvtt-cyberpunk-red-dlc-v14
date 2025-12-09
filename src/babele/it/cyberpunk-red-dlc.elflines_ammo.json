@@ -1,0 +1,18 @@
+{
+  "label": "Ammo",
+  "mapping": {},
+  "entries": {
+    "Arrow": {
+      "name": "Freccia",
+      "description": "<p>Munizioni di base, niente di speciale.</p>"
+    },
+    "Elflines Online Playing Cards": {
+      "name": "Elflines Online Playing Cards",
+      "description": "<p>Cards meant to be used as part of playing Elfines Online The Trading Card Game.</p>"
+    },
+    "Poison Arrow": {
+      "name": "Freccia Avvelenata",
+      "description": "<p>Nessun danno immediato. Se il bersaglio è colpito sulla carne, una prova di Resistere alla Tortura/Controllo delle Droghe. In caso di falliento 2d6 PF. Nessun Ablazione. </p>"
+    }
+  }
+}

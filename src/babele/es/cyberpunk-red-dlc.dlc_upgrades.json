@@ -1,0 +1,122 @@
+{
+  "label": "Upgrades",
+  "mapping": {},
+  "entries": {
+    "Aerie": {
+      "name": "Aguilera",
+      "description": "<p>Cada Hielo Negro Curvo instalado destruye programas en lugar de desrezearse.</p>"
+    },
+    "Bottle Dynamo": {
+      "name": "Botella Dinamo",
+      "description": "<p>Un dinamo en la rueda de tu bicicleta para convertir la energía mecánica en electricidad. Carga un paquete de pilas (como por ejemplo armas) en una hora.</p>"
+    },
+    "Bulletproof Glass": {
+      "name": "Cristal Antibalas",
+      "description": "<p>El cristal blindado otorga 7 PV.</p>\n<p>La bicicleta primero requiere la actualización de Encuadre para instalar esta actualización.</p>"
+    },
+    "Bushido Accelerator": {
+      "name": "Acelerador Bushido",
+      "description": "<p>+3 Velocidad a todos los Hielos Negros Asesinos instalados.</p>"
+    },
+    "Cold-Weather Jacket Lining": {
+      "name": "Forro de chaqueta para clima frío",
+      "description": "<p>Mejora para cualquier tipo de Chaqueta. El usuario dejará de sufrir penalizaciones de tipo Exposición provenientes del frío (CP:R p. 181).</p>"
+    },
+    "Combat Recorder": {
+      "name": "Grabador de Combate",
+      "description": "<p>Los datos de combate del mundo real son invaluables para el desarrollo del Hielo Negro.</p>\n<p>Si otro Netrunner en la misma Arquitectura de RED falla una Salvación contra la Muerte, los últimos 5 minutos de los datos de combate Netrun no incriminadores se guardan en el Ciberterminal. Las grabaciones pueden ser vendidas por 50ed.</p>"
+    },
+    "Cycle Armor": {
+      "name": "Armadura de Bicicleta",
+      "description": "<p>Bicicleta Blindada con 7 CP.</p>\n<p>La bicicleta primero requiere la actualización de Marco Reforzado para instalar esta actualización.</p>"
+    },
+    "Defense Sequencer": {
+      "name": "Secuenciador de Defensa",
+      "description": "<p>Si un programa de armadura activo es desrezeado o destruido, El secuenciador de defensa activa una copia del programa de armaduras aun sin usar al inicio del turno del Netrunner.</p>"
+    },
+    "Electric Pedal Assist": {
+      "name": "Pedal Eléctrico Asistido",
+      "description": "<p>Sistema motorizado eléctrico que ayuda a pedalear, aumentar la velocidad y reducir el cansancio.</p>\n<p>Hasta el siguiente nivel de velocidad narrativa de velocidad de nivel TCO, o +5MPH (8KPH) si ya está en el nivel superior.</p>\n<p>El jinete obtiene +4 bonificaciones en los Chequeos de Resistencia al montar.</p>"
+    },
+    "Enclosure": {
+      "name": "Encuadre",
+      "description": "<p>La bicicleta se convierte en un triciclo con un cuerpo de fibra de vidrio y plástico.</p>\n<p>No se puede instalar esta actualización con la actualización de Marco Plegable.</p>"
+    },
+    "Extended Seat": {
+      "name": "Asiento Extendido",
+      "description": "<p>An elongated saddle, gaining a seat for a passenger.</p>\n"
+    },
+    "Feline Instinct": {
+      "name": "Instinto Felino",
+      "description": "<p>Si un Hielo Negro Dientes de Sable instalado destruye un programa, añade 1d6 de daño extra a cada ataque subsecuente por la duración del Netrun.</p>"
+    },
+    "Folding Frame": {
+      "name": "Marco Plegable",
+      "description": "<p>Ahora puedes doblar tu bicicleta al tamaño de una maleta grande para facilitar el transporte y almacenamiento.</p>\n<p>No se puede instalar esta actualización con mejoras de Encuadre, Marco Reforzado o Contrabando.</p>"
+    },
+    "Gun Mount": {
+      "name": "Montura de Arma",
+      "description": "<p>Un sistema para conectar un Rifle de Asalto, un SMG pesado o una Escopeta en el manillar, junto con un botón de disparo.</p>\n<p>Dispara solo hacia delante.</p>\n<p>El montaje y el desprendimiento requieren una acción.</p>"
+    },
+    "Hangry Hangry Dragon": {
+      "name": "Dragón Hambriento Enojado",
+      "description": "<p>Cada vez que un Hielo Negro Dragón instalado destruye un programa, recupera el REZ completo.</p>"
+    },
+    "Hot-Weather Jacket Lining": {
+      "name": "Forro de chaqueta para clima cálido",
+      "description": "<p>Mejora para cualquier artículo de moda de tipo Chaqueta. El usuario no sufrirá penalizaciones por exposición debido a las altas temperaturas (CP:R pg 181).&nbsp;</p>\n<p>Las olas de calor duplican todas las penalizaciones de armaduras más pesadas (NCW pág. 5). &nbsp;Por ejemplo, un usuario con Chaqueta Blindada Media recibe una penalización de -4 a MOV, DES y REF durante una ola de calor. El forro de la chaqueta para clima cálido reduce cada una de estas penalizaciones en 1.</p>"
+    },
+    "Neon Lightning": {
+      "name": "Luz de Neón",
+      "description": "<p>Luminarias de fibra óptica en el marco y ruedas de la bicicleta.</p>\n<p>Considerado como un Tatuaje Luminoso, cuando está en o cerca de la bicicleta (ganando +2 a Vestuario y Estilo)</p>"
+    },
+    "Perfume Shoppe": {
+      "name": "Perfumería",
+      "description": "<p>El Hielo Negro Mofeta solo tomará una ranura para instalar.</p>"
+    },
+    "Reinforced Frame": {
+      "name": "Marco Reforzado",
+      "description": "<p>Ahora la bicicleta es más resistente: +5 PD y jinete puede ser TCO 11 o más.</p>\n<p>No se puede instalar esta actualización con la mejora Marco Plegable.</p>"
+    },
+    "Security System": {
+      "name": "Sistema de Seguridad",
+      "description": "<p>Enlazado con tu agente para electrificar tu bicicleta. Un ladrón debe superar una tirada de Resistir Tortura/Drogas VD13 o desmontar la bicicleta.</p>\n<p>Bicicleta está registrada con un Nano-VIN.</p>"
+    },
+    "Shining Finger": {
+      "name": "Shining Finger",
+      "description": "<p>Agent App.</p><p>A Pornographic application. Charged monthly</p>"
+    },
+    "Smithy": {
+      "name": "Herrería",
+      "description": "<p dir=\"ltr\">Esté preparado para cualquier cosa. Entró a una Arquitectura de RED llena de Hielo Negro y usted no tiene un programa de Espada a mano. Intercambia tu inútil Banhammer con la pulsación de un botón.</p>\n<p dir=\"ltr\">Use una Acción de Carne para cambiar todos y cada uno de los Programas de Espada instalados en los Programas de Banhammer o viceversa.</p>\n<p>&nbsp;</p>"
+    },
+    "Smuggling Compartment": {
+      "name": "Compartimiento de Contrabando",
+      "description": "<p>Añade un espacio de almacenamiento oculto pequeño en el marco.</p>\n<p>1 pulgada x 6 pulgadas (2.54cm x 15. 4cm)</p>\n<p>Revelar Objeto VD17 para descubrir.</p>\n<p>No se puede instalar esta actualización con Marco Plegable.</p>"
+    },
+    "Snaketrap": {
+      "name": "Trampa de Serpientes",
+      "description": "<p>Protege contra el primer ataque (efectos Aspid, Cuervo o el efecto Mortal del Veneno) que destruirían un programa instalado aleatoriamente. Este efecto protector puede ser usado solo una vez por Netrun incluso si se instalan varias copias de Trampa de Serpientes.</p>"
+    },
+    "Stunt Frame": {
+      "name": "Marco Acrobático",
+      "description": "<p>La bicicleta pierde peso y gana maniobrabilidad.</p>\n<p>El jinete obtiene una bonificación de +2 a la habilidad de Atletismo al montar y hacer maniobras.</p>"
+    },
+    "Swamp Mist": {
+      "name": "Niebla del Pantano",
+      "description": "<p>El Hielo Negro Fuego Fatuo inflige 2d6 puntos de daño en lugar de 1d6.</p>\n<p>Restricciones del Programa de Hielo Negro: Solo se pueden instalar Fuego Fatuo.</p>"
+    },
+    "Swifty Clean": {
+      "name": "Limpieza Rápida",
+      "description": "<p>El Netrunner puede tirar Camuflaje dos veces en una sola Acción de RED y tomar el resultado más alto. Camuflaje solo puede utilizarse una vez por Netrun cuando se instala Limpieza Rápida.</p>"
+    },
+    "Trailer": {
+      "name": "Remolque",
+      "description": "<p>Gancho con un pequeño remolque de carga.</p>\n<p>5 pies x 1,5 pies (1,5m x 0. 6m).</p>\n<p>Se necesita una acción para conectar y separar el remolque.</p>"
+    },
+    "Waterproof Jacket Lining": {
+      "name": "Forro de chaqueta impermeable",
+      "description": "<p dir=\"ltr\">Actualización para cualquier artículo de moda de tipo Chaqueta. Mecánicamente similar a un paraguas, no sirve como traje de buceo.</p>\n<p>Protege contra la lluvia ácida. Por cada minuto expuesto a la lluvia ácida, toda la armadura sufre ablación de 1 CP (NCW pág. 4).</p>\n<p dir=\"ltr\">+2 a Resistir Tortura/Drogas por exposición a Lluvia de Sangre. Lluvia de Sangre Severa aplica los efectos de un Vial de Biotoxina si falla al resistir (NCW pág. 4).</p>\n<p>&nbsp;</p>"
+    }
+  }
+}

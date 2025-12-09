@@ -62,7 +62,6 @@ export const copyStaticAssets = (config) => (done) => {
  */
 export const buildManifest = (config) => (done) => {
   const manifestData = config.generateManifest;
-  console.log(JSON.stringify(manifestData, null, 2));
   const buildDir = config.buildDirPath;
   const manifestFile = path.basename(config._manifestFile);
   FileUtils.writeJSONFile(path.join(buildDir, manifestFile), manifestData);

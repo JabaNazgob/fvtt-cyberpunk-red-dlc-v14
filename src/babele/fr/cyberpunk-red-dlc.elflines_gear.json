@@ -1,0 +1,26 @@
+{
+  "label": "Gear",
+  "mapping": {},
+  "entries": {
+    "Elflines Online": {
+      "name": "Elflines Online",
+      "description": "<p>Une nouvelle copie in-box du hit BDMMORPG Elflines Online.</p>"
+    },
+    "Rank 10 ELO Character": {
+      "name": "Personnage ELO de rang 10",
+      "description": "<p>Un personnage ELO de niveau 10 (un personnage ELO doit être créé via la Macro et ses niveaux montés manuellement.)</p>\n"
+    },
+    "Rush Revolution": {
+      "name": "Rush Revolution",
+      "description": "<p>Casque de Braindance. Requis pour jouer à Elflines Online.</p>"
+    },
+    "Sacred Herbs": {
+      "name": "Herbes sacrées",
+      "description": "<p>Ingérer des Herbes sacrées soigne immédiatement les PS pour un total de COR+VOL de l'utilisateur.</p>"
+    },
+    "Vial of Poison": {
+      "name": "Fiole de poison",
+      "description": "<p>Inflige 2d6 dégâts qui ne sont pas réduits par l'armure. Pour contrer son effet, on utilise Résistance à la torture/aux drogues.</p>"
+    }
+  }
+}

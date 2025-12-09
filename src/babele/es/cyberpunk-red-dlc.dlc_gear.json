@@ -1,0 +1,206 @@
+{
+  "label": "Gear",
+  "mapping": {},
+  "entries": {
+    "Hummingbird": {
+      "name": "Colibrí",
+      "description": "<p>No frills, just raw processing power.</p>\n<p>2 slots only for Hardware</p>\n<p>+1 to Net Actions each turn.</p>"
+    },
+    "Kaliya": {
+      "name": "Kaliya",
+      "description": "<p>Una opción fantástica para desmantelar a los Netrunners hostiles. Solo espere que no tengan ningún Hielo Negro.</p>\n<p>6 ranuras para programas o hardware, 3 ranuras extra solo para programas de Flak.</p>\n<p>Restricciones para Programas de Defensa o Hielo Negro: Solo se puede instalar Flak y Aspid en cualquier ranura</p>"
+    },
+    "Kerberos": {
+      "name": "Kerberos",
+      "description": "<p dir=\"ltr\">Desata los fuegos del Infierno contra tus rivales.</p>\n<p dir=\"ltr\">6 ranuras para Programas, 5 ranuras para Hardware.</p>\n<p dir=\"ltr\">Las ranuras del programa solo aceptarán el Hielo Negro Perro del Infierno.</p>\n<p>&nbsp;</p>"
+    },
+    "Kestrel 2": {
+      "name": "Kestrel 2",
+      "description": "<p>El Hielo Negro no puede golpear lo que puede atrapar.</p>\n<p>7 ranuras solo para Programas.</p>\n<p>Justo después de Conectarse, el Netrunner puede activar un máximo de 2 programas Speedy Gonzalvez instalados sin una acción RED.</p>"
+    },
+    "Kirama Advanced Deck": {
+      "name": "Terminal Avanzada de Kirama",
+      "description": "<p>Aunque puede que no sea la opción más llamativa, la más fina Ciberterminal de Kirama está equilibrada expertamente y ofrece algunas características de seguridad muy prácticas.</p>\n<p>5 ranura para Programas o Hardware.</p>\n<p>El Netrunner no sufre ningún efecto negativo de una Desconexión Insegura.</p>"
+    },
+    "Kirama Entry Deck": {
+      "name": "Terminal de Entrada de Kirama",
+      "description": "<p>Un Ciberterminal accesible y equilibrado para los novatos Netrunners. Aunque limitado por sus modestas especificaciones de hardware, conserva las características de seguridad avanzadas de las Ciberterminales de bandera de Kirama.</p>\n<p>5 ranuras solo para programas.</p>\n<p>Solo se puede instalar una de cada categoría de Programa a la vez (Ataque, Defensa, Potenciador, Hielo Negro). El Netrunner no sufre ningún efecto negativo de una Desconexión Insegura.</p>"
+    },
+    "Kirama Training Deck": {
+      "name": "Terminal de Entrenamiento de Kirama",
+      "description": "<p>The quintessential starter Cyberdeck. Bargain-bin price with bare-minimum hardware specs.</p>\n<p>5 slots only for Programs.</p>\n<p>Netrunner must be 2m/yds or closer to Access Point to Jack In. All brain damage from Net combat is doubled.</p>"
+    },
+    "MicroMate": {
+      "name": "MicroMate",
+      "description": "<p>Perfecto para Netrunners que solo conocen una velocidad: Todo al ataque, todo el tiempo. Solamente no dejes que te golpeen, te va a doler. Mucho.</p>\n<p>9 ranuras para Programas o Hardware.</p>\n<p>No se aceptarán programas de defensa. Todo el daño cerebral del combate RED se duplicará</p>"
+    },
+    "Microtech Assault": {
+      "name": "Asalto de Microtech",
+      "description": "<p>Relájese y deje que su Hielo Negro haga todo el trabajo pesado.</p>\n<p>4 ranuras para Programas, 5 ranuras para Hardware.</p>\n<p>Las ranuras de programa solo aceptan Hielo Negro</p>"
+    },
+    "Microtech Scout": {
+      "name": "Explorador de Microtech",
+      "description": "<p>5 ranuras para Programas o Hardware.</p>\n<p>El Netrunner puede ejecutar Exploración sin usar una Acción de RED justo después de Conectarse.</p>"
+    },
+    "Microtech Warrior": {
+      "name": "Guerrero de Microtech",
+      "description": "<p>7 ranuras solo para programas.</p>\n<p>El Netrunner puede activar un programa de Armadura sin gastar una Acción de RED justo después de Conectarse.</p>"
+    },
+    "Parraline 6000": {
+      "name": "Parraline 6000",
+      "description": "<p>Todas las opciones de Hardware sin restricciones.</p>\n<p>3 ranuras del programa, 6 ranuras de Hardware</p>"
+    },
+    "Phoenix": {
+      "name": "Fénix",
+      "description": "<p>Nunca más pierdas un Programa.</p>\n<p>6 ranuras para Programas o Hardware.</p>\n<p>Cualquier programa destruido en una sesión de RED se restaura con una Desconexión Segura.</p>"
+    },
+    "Verdant Knight": {
+      "name": "Caballero Verdoso",
+      "description": "<p>La combinación justa de Ciberterminal con Espada, es altamente efectiva contra el Hielo Negro. Solo no tienes que ir mano a mano con un Netrunner hostil.</p>\n<p>9 ranuras solo para programas.</p>\n<p>Los ranuras solo aceptan programas de espada o escudo.</p>"
+    },
+    "Warlock's Book": {
+      "name": "Libro del Brujo",
+      "description": "<p>\n  If you prefer sliding through NET Architectures avoiding Black ICE this is the\n  deck for you.\n</p>\n<p>9 slots to install either Programs or Hardware.</p>\n<p><em>No Attacker or Black ICE Program may be installed.</em></p>\n"
+    },
+    "Integrated Cyberscanner": {
+      "name": "Integrated Cyberscanner",
+      "description": "<p>\n  Can scan an individual within 2m/yds and provide a list of all installed\n  Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or\n  Unique piece of Cyberware is detected.\n</p>\n"
+    },
+    "A Touch of Luxury Furniture Set": {
+      "name": "Set de Muebles con un toque de Lujo",
+      "description": "<p>Este Set de Muebles hace que tu Contenedor de Mercancía casi se sienta como una casa.</p>"
+    },
+    "Bullet To Slug Adapter Casings": {
+      "name": "Casquillo adaptable para balas a perdigones",
+      "description": "<p>Haz que cualquier bala pueda ser disparada como un cartucho de escopeta.</p>\n<p>Una caja de casquillos adaptable para balas a perdigones viene con 10 casquillos.</p>\n<p>Puedes cargar 10 balas en 10 adaptadores usando el dispositivo incluido en una acción. Si se cargan manualmente, se necesita una acción para cargar 1 bala.</p>"
+    },
+    "Cargo Container Chic Furniture Set": {
+      "name": "Set de Muebles Chic para Contenedores de Carga",
+      "description": "<p>Puede ser barato, pero es mobiliario real. Este es el set de muebles inicial para la mayoría de los contenedores de carga.</p>"
+    },
+    "Cybercam EX-1": {
+      "name": "Cybercam EX-1",
+      "description": "<p>\n  Head-mounted camera. A Media presenting a story on a livestream while wearing\n  the Cybercam EX-1 gains +1 Believability when using their role ability. This\n  stacks with evidence based bonuses.\n</p>\n"
+    },
+    "Cyberscanner": {
+      "name": "Cyberscanner",
+      "description": "<p>\n  Can scan an individual within 2m/yds and provide a list of all installed\n  Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or\n  Unique piece of Cyberware is detected.\n</p>\n"
+    },
+    "Delaying Compound": {
+      "name": "Compuesto de Retraso",
+      "description": "<p>Este aditivo retrasa los efectos de un Vial de Veneno o Biotoxina en un minuto o una hora. Mezclar múltiples componentes de retraso no aumenta el período de retraso.</p>"
+    },
+    "Distilling Compound": {
+      "name": "Compuesto de Destilación",
+      "description": "<p>Este aditivo aumenta en 2 la VD para Resistir Torturas/Drogas de Veneno o Viales de Biotoxina. Mezclar múltiples componentes no incrementa el VD de resistencia/fármacos más allá del +2 inicial.</p>"
+    },
+    "Drink Master 5000": {
+      "name": "Drink Master 5000",
+      "description": "<p>A large, cabinet-sized, drink mixing machine seen commonly used in bars.</p>"
+    },
+    "Fire Safe": {
+      "name": "A Prueba de Fuego",
+      "description": "<p>Pequeña caja de seguridad a prueba de fuego hecha de acero grueso.</p>\n<ul>\n<li>50PV</li>\n<li>30cm / 1 pie</li>\n<li>Se puede abrir con una tirada de Abrir Cerraduras de VD15</li>\n</ul>"
+    },
+    "GRAF3": {
+      "name": "GRAF3",
+      "description": "<p>Dron de construcción cuadrúpedo.</p>\n<p>Consulte la descripción completa de la página 59 de Interface Red vol. 1.</p>"
+    },
+    "Hidden Compartment": {
+      "name": "Compartimiento Oculto",
+      "description": "<p>Un pequeño compartimiento oculto dentro del Contenedor de Cargas.</p>\n<ul>\n<li>15.25x30x7. cm </li>\n<li>Se puede encontrar con una tirada de Ocultar/Revelar Objetos de VD15</li>\n</ul>"
+    },
+    "Inline Skates": {
+      "name": "Patines en línea",
+      "description": "<p>¡Son patines en linea! Aumenta el momento en 4 m/yds al realizar la acción de correr, deteniendo el uso de cualquier opción en las piernas del usuario. Puede causar que las tareas físicas se realicen en -2.</p>"
+    },
+    "Ion Cuffs": {
+      "name": "Ion Cuffs",
+      "description": "<p>\n  Handcuffs meant for borgs. Disables any Non-Hardened Cyberware options\n  installed in the limb the cuffs are binding.\n  <span style=\"font-family: Jost\">BODY</span><span class=\"hgKElc\">≥</span\n  ><span style=\"font-family: Jost\">13 can break.</span>\n</p>\n"
+    },
+    "Koff Popper": {
+      "name": "Koff Popper",
+      "description": "<p>De la empresa Continental Brands, el Koff Popper es el único electrodoméstico especial que necesitarás. </p>\n<ul>\n<li>Termos construidos con un pico bertedor Kof Pop </li>\n<li>Contenido líquido 237ml/8oz </li>\n<li>Solo se puede comprar en una tienda Oasis </li>\n</ul>"
+    },
+    "Koff Pops": {
+      "name": "Koff Pops",
+      "description": "<p>Koff Pops usados en la Continental Brands Koff Popper.&nbsp;</p>\n<ul>\n<li>Paquete de 10</li>\n<li>Incluido en Kibble o Estilo de Vida Superior</li>\n</ul>"
+    },
+    "MagViewer": {
+      "name": "MagViewer",
+      "description": "<p>\n  Binoculars meant for spotting. Provides detail up to 800m/yds. Provides the\n  user with an additional +1 to an attack roll with a successful Complimentary\n  Skill Check to assist in attacking a target 51m/yds or farther away in\n  addition to any other Complimentary Skill Checks..\n</p>\n<p>\n  Does not stack with\n  @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping\n  Scope} or\n  @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.\n</p>\n"
+    },
+    "Master Mechanic's Tool Kit": {
+      "name": "Master Mechanic's Tool Kit",
+      "description": "<p>\n  Massive Tool Chest. Provides a +4 to multiple skills when rolling Maker Skill\n  Checks. Large enough to be considered Thick Steel Cover, requires BODY 10 to\n  move.\n</p>\n"
+    },
+    "Mercurius Cyberchair": {
+      "name": "Cibersilla Mercurius",
+      "description": "<p>Una cibersilla increíblemente asequible. Durante su uso el operador MOV base se convierte en 5, con todas las opciones de movimiento regulares disponibles.</p><p>La operación de la cibersilla requiere una mano libre o enchufes de interfaz.</p><p>Si el operador sufre una lesión crítica que reduce su MOV, el MOV de la cibersilla se efectúa en su lugar.</p><p>La cibersilla no puede ser dirigida específicamente, ni puede ser deshabilitada por efectos EMP.</p>"
+    },
+    "MiniMag Speakers": {
+      "name": "MiniMag Speakers",
+      "description": "<p>\n  Small Magnetic Speakers. Can play audio from a connected Agent within\n  100m/yds.\n</p>\n"
+    },
+    "My First GRAF3": {
+      "name": "Mi Primer GRAF3",
+      "description": "<p>Dron personal. Mini GRAF3 que puede ser vinculado a un agente.</p>\n<p>Consulte la descripción completa de la página 61 de Interface Red vol. 1.</p>"
+    },
+    "Osmosis Compound": {
+      "name": "Compuesto de Osmosis",
+      "description": "<p>Este aditivo permite absorber un Vial de Veneno o Biotoxina a través del contacto con la piel. Un vial puede cubrir 2 pies cuadrados cuando se aplica a una superficie y dura una hora. Se puede neutralizar mediante el enjuague con agua.&nbsp;</p>\n<p>El primer objetivo de carne que toca la zona afectada con una parte del cuerpo recibe una dosis del veneno. Un chequeo de Percepción VD17 revela el veneno. Más de una dosis en la misma área de 2 pies cuadrados no tiene efecto añadido.</p>"
+    },
+    "Savannah Eagle": {
+      "name": "Águila de la Sabana",
+      "description": "<p>Dron de defensa aéreo activo.</p>\n<p>Consulte la descripción del combustible en la página 60 de Interface Red vol. 1.</p>"
+    },
+    "Savannah Panther": {
+      "name": "Pantera de la Sabana",
+      "description": "<p>Dron Defensivo Activo.</p>\n<p>Consulte la descripción completa de la página 61 de Interface Red vol. 1.</p>"
+    },
+    "Second-hand Special Furniture Set": {
+      "name": "Set de Muebles Especiales de segunda mano",
+      "description": "<p>Puede que no se vea bonito, pero funciona. Este conjunto de muebles es el mínimo que necesita tu contenedor de carga.</p>"
+    },
+    "Skateboard": {
+      "name": "Patineta",
+      "description": "<p>Las ruedas más chulas a tu alrededor. Aumenta el momento en 4 m/yd al usar la acción de correr en el suelo o en bajada. Puede causar que las tareas físicas se realicen en -2.</p>"
+    },
+    "Smart Vanity": {
+      "name": "Vanidad Inteligente",
+      "description": "<p>Estación de aseo inteligente. Viene completamente equipado con todas las herramientas y maquillaje que necesites.&nbsp;</p>"
+    },
+    "Smartsticks": {
+      "name": "Smartsticks",
+      "description": "<p>\n  <span style=\"font-family: Jost\"\n    >Smart Drum Sticks. Gives the User a +1 bonus to Play Instrument (Drums)\n    Skill Checks while in use. Doesn't stack with other bonuses to Play\n    Instrument.</span\n  >\n</p>\n"
+    },
+    "Solo of Fortune Bodypillow": {
+      "name": "Almohada Corporal de Soldado de Fortuna",
+      "description": "<p>Almohada Corporal con la imagen de un famoso Soldado de los años 2020 (como Morgan Blackhand, BoaBoa Weyland o Adam Smasher).</p>\n<p>20 pulgadas x 54 pulgadas (50,8 cm x 137. 6 cm), excepto la almohada Adam Smasher.</p>"
+    },
+    "Spider Cyberchair": {
+      "name": "Cibersilla Araña",
+      "description": "<p>La cima de las sillas cibernéticas, dando al usuario principal muchas opciones. Mientras lo usa, el MOV base del operador se convierte en 5, con todas las opciones de movimiento regulares restantes disponibles.</p>\n<p>Además, esta cibersilla tiene espacio para 4 opciones de cibermiembro *. Cualquier opción instalada siempre cuenta como emparejada.</p>\n<p>La operación de la cibersilla requiere unas manos, o unos enchufes de interfaz.</p>\n<p>Si el operador sufre una lesión crítica que reduce su MOV, el MOV de la cibersilla se efectúa en su lugar.</p>\n<p>La cibersilla no puede ser dirigida específicamente, ni puede ser deshabilitada a través de efectos EMP.</p>\n<p><em>*Instalar opciones de ciberlimp actualmente no soportadas</em></p>"
+    },
+    "Suzumebachi Assassin Drone": {
+      "name": "Drón Asesino Suzumebachi",
+      "description": "<p>Un pequeño dron con forma de avispa diseñado para asesinatos silenciosos.</p>\n<p>Estadísticas: 6 MOV - 7 CP - 10 PV.</p>\n<p>Se puede neutralizar en 5 minutos con una tirada de Seguridad/Electrónica VD17.</p>\n<p>Programación por defecto:</p>\n<ol>\n<li>Ubicar el objetivo con la cámara integrada.</li>\n<li>Ataque al objetivo con la pistola de dardos hasta que se agote la munición o hasta que el infrarrojo del objetivo&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ya no se detecte calor</li>\n<li>Extraer y devolver al operador</li>\n</ol>\n<p>El dron se controla comúnmente con una Arquitectura de RED.</p>\n<p>Rango:</p>\n<p>Perímetro de un edificio equipado con Arquitectura de RED o a 50 m/yd de una Arquitectura de RED portátil.</p>\n<p>Equipamiento:</p>\n<ul>\n<li>Cámara con modos de luz baja, UV e infrarrojos</li>\n<li>Pistola de dardos con 8 flechas de biotoxinas</li>\n<li>Hipodérmica de Aire</li>\n</ul>"
+    },
+    "The Observer": {
+      "name": "El Observador",
+      "description": "<p>Dron personal. Cámara voladora que puede estar vinculada a un agente.</p>\n<p>Consulte la descripción completa de la página 62 de Interface Red vol. 1.</p>"
+    },
+    "The Transporter": {
+      "name": "El Transportador",
+      "description": "<p>Dron Personal. Dron transportador que puede ser vinculado a un agente.</p>\n<p>Consulte la descripción completa de la página 63 de Interface Red vol. 1.</p>"
+    },
+    "Umbrella": {
+      "name": "Paraguas",
+      "description": "<p>Protege contra la lluvia ácida. Por cada minuto expuesta a la lluvia ácida, todas las armaduras sufren ablación por 1 CP (NCW pg 4).</p>\n<p>+2 para Resistir Tortuga/Droga por la exposición a la Lluvia de Sangre. Lluvia de Sangre Severa aplica los efectos de un Vial de Biotoxina si falla al resistir (NCW pg 4).</p>"
+    },
+    "Wall Art": {
+      "name": "Decoración de Pared",
+      "description": "<p>Póster Barato.</p>"
+    }
+  }
+}

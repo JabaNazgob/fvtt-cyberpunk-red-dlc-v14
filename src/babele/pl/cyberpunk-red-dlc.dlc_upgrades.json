@@ -1,0 +1,122 @@
+{
+  "label": "Upgrades",
+  "mapping": {},
+  "entries": {
+    "Aerie": {
+      "name": "Aerie",
+      "description": "<p>Each installed Raven Black ICE destroys Programs instead of derezzing.</p>"
+    },
+    "Bottle Dynamo": {
+      "name": "Bottle Dynamo",
+      "description": "<p>A dynamo on your bike's wheel for converting mechanical energy into electricity. Charges a battery pack (such as for weapons) in one hour.</p>"
+    },
+    "Bulletproof Glass": {
+      "name": "Bulletproof Glass",
+      "description": "<p>Enclosure glass gains 7 HP.</p>\n<p>Bike first requires the Enclosure upgrade to install this upgrade.</p>"
+    },
+    "Bushido Accelerator": {
+      "name": "Bushido Accelerator",
+      "description": "<p>+3 Speed to all installed Killer Black ICE.</p>"
+    },
+    "Cold-Weather Jacket Lining": {
+      "name": "Cold-Weather Jacket Lining",
+      "description": "<p>Upgrade for any Jacket fashion item. User will not suffer Exposure penalties from cold temperatures (CP:R pg 181).</p>"
+    },
+    "Combat Recorder": {
+      "name": "Combat Recorder",
+      "description": "<p>Real-world Combat data is invaluable for Black ICE development.</p>\n<p>If another Netrunner in the same NET Architecture fails a Death Save, the last 5 minutes of non-self incriminating Netrun combat data is saved to the Cyberdeck. Recordings can be sold for 50eb.</p>"
+    },
+    "Cycle Armor": {
+      "name": "Cycle Armor",
+      "description": "<p>Bicycle Armored with 7 PS.</p>\n<p>Bike first requires the Reinforced Frame upgrade to install this upgrade.</p>"
+    },
+    "Defense Sequencer": {
+      "name": "Defense Sequencer",
+      "description": "<p>If an active Armor Program is derezzed or destroyed, Defense Sequencer activates a yet-unused copy of Armor Program at the start of the Netrunner&rsquo;s turn.</p>"
+    },
+    "Electric Pedal Assist": {
+      "name": "Electric Pedal Assist",
+      "description": "<p>Electric motorised system helping to pedal, increasing speed, lowering tiredness.</p>\n<p>Up to next BODY level speed narrative speed, or +5MPH (8KPH) if rider is already at the top tier.</p>\n<p>Rider get +4 bonus to Endurance Checks when riding.</p>"
+    },
+    "Enclosure": {
+      "name": "Enclosure",
+      "description": "<p>The bike becomes a trike with a covering body of fiberglass and plastic.</p>\n<p>Can't install this Upgrade with the Folding Frame upgrade.</p>"
+    },
+    "Extended Seat": {
+      "name": "Extended Seat",
+      "description": "<p>An elongated saddle, gaining a seat for a passenger.</p>\n"
+    },
+    "Feline Instinct": {
+      "name": "Feline Instinct",
+      "description": "<p>If an installed Sabertooth Black ICE destroys a program, that Sabertooth deals an extra 1d6 of damage on each subsequent attack for the duration of the Netrun.</p>"
+    },
+    "Folding Frame": {
+      "name": "Folding Frame",
+      "description": "<p>You can now fold your bike to the size of a large suitcase for easier transport and storage.</p>\n<p>Can't install this Upgrade with Enclosure, Reinforced Frame, or Smuggling Compartment upgrades.</p>"
+    },
+    "Gun Mount": {
+      "name": "Gun Mount",
+      "description": "<p>A system to attach an Assault Rifle, a Heavy SMG or a Shotgun on the handlebars, along with a firing button.</p>\n<p>Shoots only forwards.</p>\n<p>Mounting and detaching requires one Action.</p>"
+    },
+    "Hangry Hangry Dragon": {
+      "name": "Hangry Hangry Dragon",
+      "description": "<p>Everytime an installed Dragon Black ICE destroys a Program it regains full REZ.</p>"
+    },
+    "Hot-Weather Jacket Lining": {
+      "name": "Hot-Weather Jacket Lining",
+      "description": "<p>Upgrade for any Jacket fashion item. User will not suffer Exposure penalties from hot temperatures (CP:R pg 181).&nbsp;</p>\n<p>Heatwaves double all penalties from heavier armor (NCW pg 5). &nbsp;For example, a user with Medium Armorjack takes a -4 penalty to MOVE, DEX, and REF during a Heatwave. Hot-Weather Jacket Lining decreases each of these penalties by 1.</p>"
+    },
+    "Neon Lightning": {
+      "name": "Neon Lightning",
+      "description": "<p>Fiber-optic lights on bike's frame and wheels.</p>\n<p>Considered as a Light Tattoo when on or near the bike (gaining +2 Wardrobe &amp; Style bonus)</p>"
+    },
+    "Perfume Shoppe": {
+      "name": "Perfume Shoppe",
+      "description": "<p>Skunk Black ICE will only take 1 option slot to install.</p>"
+    },
+    "Reinforced Frame": {
+      "name": "Reinforced Frame",
+      "description": "<p>Bike is now more resistant: +5 SDP and rider can be BODY 11 or more.</p>\n<p>Can't install this Upgrade with Folding Frame Upgrade.</p>"
+    },
+    "Security System": {
+      "name": "Security System",
+      "description": "<p>Linked with your Agent to electrify your bike. A thief must resist DV13 Resist Torture/Drugs or unhand the bike.</p>\n<p>Bike is registered with a Nano-VIN.</p>"
+    },
+    "Shining Finger": {
+      "name": "Shining Finger",
+      "description": "<p>Agent App.</p><p>A Pornographic application. Charged monthly</p>"
+    },
+    "Smithy": {
+      "name": "Smithy",
+      "description": "<p dir=\"ltr\">Be prepared for anything. Enter a NET Architecture full of Black ICE and you don&rsquo;t have have a Sword Program handy? Swap out your useless Banhammer with the press of a button.</p>\n<p dir=\"ltr\">Use Meat Action to change any and all installed Sword Programs into Banhammer Programs or vice versa.</p>\n<p>&nbsp;</p>"
+    },
+    "Smuggling Compartment": {
+      "name": "Smuggling Compartment",
+      "description": "<p>Adds a small hidden storage space in the frame.</p>\n<p>1 inch x 6 inches (2.54cm x 15.24cm)</p>\n<p>DV17 Conceal/Reveal Object check to discover.</p>\n<p>Can't install this Upgrade with Folding Frame.</p>"
+    },
+    "Snaketrap": {
+      "name": "Snaketrap",
+      "description": "<p>Protects against the first attack (Asp, Raven, or Poison Flatline effects) that would destroy a random installed Program. This protective effect can be use only once per Netrun even if multiple copies of Snaketrap are installed.</p>"
+    },
+    "Stunt Frame": {
+      "name": "Stunt Frame",
+      "description": "<p>The bike loses weight and gains maneuverability.</p>\n<p>Rider obtain a +2 bonus to Athletics skill checks when riding and doing maneuvers.</p>"
+    },
+    "Swamp Mist": {
+      "name": "Swamp Mist",
+      "description": "<p>Wisp Black ICE deal 2d6 damage instead of 1d6.</p>\n<p>Black ICE Program restrictions: Only Wisps can be installed.</p>"
+    },
+    "Swifty Clean": {
+      "name": "Swifty Clean",
+      "description": "<p>Netrunner can roll Cloak twice in a single NET Action and take the higher roll. Cloak can only be used once per Netrun when Swifty Clean is installed.</p>"
+    },
+    "Trailer": {
+      "name": "Trailer",
+      "description": "<p>Hook with a small cargo trailer.</p>\n<p>5 feet x 1.5 feet (1.5m x 0.46m).</p>\n<p>An action is needed to attach and detach the trailer.</p>"
+    },
+    "Waterproof Jacket Lining": {
+      "name": "Waterproof Jacket Lining",
+      "description": "<p dir=\"ltr\">Upgrade for any Jacket fashion item. Mechanically similar to an umbrella, does not serve as a wetsuit.&nbsp;</p>\n<p>Protects against Acid Rain. For every minute exposed to Acid Rain, all armor ablates by 1 SP (NCW pg 4).</p>\n<p dir=\"ltr\">+2 to Resist Torture/Drugs Checks from Blood Rain exposure. Severe Blood Rain applies the effects of a Vial of Biotoxin on failed check (NCW pg 4).</p>\n<p>&nbsp;</p>"
+    }
+  }
+}

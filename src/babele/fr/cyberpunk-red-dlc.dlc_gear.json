@@ -1,0 +1,206 @@
+{
+  "label": "Gear",
+  "mapping": {},
+  "entries": {
+    "Hummingbird": {
+      "name": "Colibri",
+      "description": "<p>Pas de fioritures, seulement de la puissance de traitement brute.</p>\n<p>2 emplacements uniquement pour les extensions matérielles.</p>\n<p>+1 aux Actions NET à chaque tour.</p>"
+    },
+    "Kaliya": {
+      "name": "Kaliya",
+      "description": "<p>Une option fantastique pour démanteler les Netrunners hostiles. Espérons juste qu'ils n'aient aucun GLACE.</p>\n<p>6 emplacements pour les programmes ou le matériel, 3 emplacements supplémentaires seulement pour des programmes Tir de barrage.</p>\n<p>Restrictions pour les programmes Défensifs et GLACE : seuls Tir de Barrage et Cobra peuvent être installés dans n'importe quel emplacement.</p>\n"
+    },
+    "Kerberos": {
+      "name": "Cerbère",
+      "description": "<p>Libérez les flammes de l'enfer sur vos rivaux.</p>\n<p>6 emplacements pour les programmes, 5 emplacements pour le matériel.</p>\n<p>Les emplacements de programme n'acceptent que les GLACE Cerbère.</p>\n"
+    },
+    "Kestrel 2": {
+      "name": "Kestrel 2",
+      "description": "<p>Les GLACE ne peuvent pas toucher ce qu'elles ne peuvent pas attraper.</p>\n<p>7 emplacements seulement pour les programmes.</p>\n<p>Juste après la connexion, le Netrunner peut activer un maximum de 2 programmes Speedy Gonzalvez installés sans action NET.</p>\n"
+    },
+    "Kirama Advanced Deck": {
+      "name": "Console avancée Kirama",
+      "description": "<p>Bien que ce ne soit pas le choix le plus fou, la meilleure cyberconsole de Kirama est parfaitement équilibrée et offre des fonctionnalités de sécurité très pratiques.</p>\n<p>5 emplacements pour les programmes ou les extensions.</p>\n<p>Le Netrunner ne subit aucun effet négatif d'une déconnexion non sécurisée.</p>"
+    },
+    "Kirama Entry Deck": {
+      "name": "Console d'entrée de gamme Kirama",
+      "description": "<p>Une cyberconsole abordable et équilibrée pour les Netrunners novices. Bien qu'elle soit limitée par ses modestes spécifications, elle conserve les caractéristiques de sécurité avancées de Kirama.</p>\n<p>5 emplacements seulement pour les programmes.</p>\n<p>Une seule catégorie de programme peut être installée à la fois (Offensif, Défensif, Soutien, ou GLACE). Le Netrunner ne subit aucun effet négatif lors d'une déconnexion non sécurisée.</p>"
+    },
+    "Kirama Training Deck": {
+      "name": "Console d'entraînement Kirama",
+      "description": "<p>La cyberconsole de démarrage. Bon rapport qualité-prix avec spécifications matérielles minimum.</p>\n<p>5 emplacements uniquement pour les programmes.</p>\n<p>Le netrunner doit être à 2m ou plus proche du point d'accès à connecter. Tous les dégâts cérébraux causés en combat Net sont doublés.</p>"
+    },
+    "MicroMate": {
+      "name": "MicroPote",
+      "description": "<p>Parfait pour les Netrunners qui n'ont qu'une seule allure : l'attaque, sans réserve.</p>\n<p>9 emplacements pour les programmes ou le matériel.</p>\n<p>Les emplacements n'acceptent pas les programmes Défensifs. Tous les dommages au cerveau en combat NET sont doublés.</p>\n"
+    },
+    "Microtech Assault": {
+      "name": "Microtech Assaut",
+      "description": "<p>Détendez-vous et laissez votre GLACE faire le plus gros du boulot.</p>\n<p>4 emplacements pour les programmes, 5 emplacements pour le matériel.</p>\n<p>Les emplacements de programme n'acceptent que les GLACES.</p>"
+    },
+    "Microtech Scout": {
+      "name": "Microtech Scout",
+      "description": "<p>5 emplacements pour des programmes ou du matériel.</p>\n<p>Le Netrunner peut lancer Cartographie sans action NET juste après s'être connecté.</p>"
+    },
+    "Microtech Warrior": {
+      "name": "Guerrier Microtech",
+      "description": "<p>7 emplacements uniquement pour les programmes.</p>\n<p>Le Netrunner peut activer un programme d'Armure sans action NET juste après connexion.</p>"
+    },
+    "Parraline 6000": {
+      "name": "Parraline 6000",
+      "description": "<p>Toutes les options matérielles sans aucune restriction.</p>\n<p>3 emplacements de programme, 6 emplacements de matériel.</p>"
+    },
+    "Phoenix": {
+      "name": "Phénix",
+      "description": "<p>Ne perdez plus jamais un programme.</p>\n<p>6 emplacements pour des programmes ou des extensions.</p>\n<p>Tout programme détruit dans une session netrunning est restauré sur une déconnexion sécurisée.</p>"
+    },
+    "Verdant Knight": {
+      "name": "Chevalier Verdoyant",
+      "description": "<p>Le classique épée-et-bouclier sur cyberconsole est très efficace contre les GLACE. Ne planifiez cependant pas de rencontrer un Netrunner hostile.</p>\n<p>9 emplacements uniquement pour les programmes.</p>\n<p>Les emplacements n'acceptent que les programmes Sabre et Bouclier.</p>"
+    },
+    "Warlock's Book": {
+      "name": "Grimoire Du Sorcier",
+      "description": "<p> Si vous préférez glisser à travers les architectures NET, vous n'avez besoin de rien d'autre.</p>\n<p>9 emplacements programmes ou extensions matérielles.</p>\n<p><em>Aucun programme Offensif ni de GLACE installables.</em></p>\n"
+    },
+    "Integrated Cyberscanner": {
+      "name": "Cyberscanner intégré",
+      "description": "<p>Peut scanner un individu à 2m et fournir une liste de toute la cybernétique installée. Nécessite 1 minute de scan. Fait apparaitre une erreur si une pièce de cybernétique est détectée comme étant modifiée, unique ou inconnue.</p>\n"
+    },
+    "A Touch of Luxury Furniture Set": {
+      "name": "Set de meubles Une touche d'élégance",
+      "description": "<p>Avec ce cet ensemble de meubles, votre conteneur ressemble presque à une maison confortable.</p>\n"
+    },
+    "Bullet To Slug Adapter Casings": {
+      "name": "Douilles adaptatrices de balles vers slugs",
+      "description": "<p>Permet de tirer n'importe quelle balle en tant que slug de fusil à pompe.</p>\n<p>Vendue en boîte de 10 douilles adaptatrices.</p>\n<p>Vous pouvez charger en une Action 10 balles dans 10 adaptateurs en utilisant le casier inclus. Si le chargement est effectué balle par balle il faut une Action pour charger 1 adaptateur.</p>"
+    },
+    "Cargo Container Chic Furniture Set": {
+      "name": "Set de meubles Aménagement standard",
+      "description": "<p>C'est peut-être bon marché, mais au moins c'est du vrai meuble. Ensemble de meubles de départ pour la plupart des conteneurs.</p>"
+    },
+    "Cybercam EX-1": {
+      "name": "Cybercam EX-1",
+      "description": "<p>Caméra casque. Un Média couvrant un sujet en live en portant la Cybercam EX-1 gagne +1 en Crédibilité lorsqu'il utilise sa capacité de rôle. Se cumule avec des bonus basés sur la preuve.\n</p>\n"
+    },
+    "Cyberscanner": {
+      "name": "Cyberscanner",
+      "description": "<p>Peut scanner un individu à 2m et fournir une liste de toute la cybernétique installée. Nécessite 1 minute de scan. Fait apparaitre une erreur si une pièce de cybernétique est détectée comme étant modifiée, unique ou inconnue.</p>\n"
+    },
+    "Delaying Compound": {
+      "name": "Composé retardateur",
+      "description": "<p>Cet additif retarde d'une minute ou d'une heure les effets d'une Fiole de Poison ou de Biotoxine. Mixer plusieurs composés retardateur n'augmente pas la période de retard.</p>\n"
+    },
+    "Distilling Compound": {
+      "name": "Composé de Distillation",
+      "description": "<p>Cet additif augmente le SD de 2 aux jets de Résistance à la torture/aux médicaments des fioles de poison ou de biotoxine. Mélanger plusieurs Composés de distillation n'augmente pas le SD à la Résistance à la torture/drogues au-delà du +2 initial.</p>"
+    },
+    "Drink Master 5000": {
+      "name": "Drink Master 5000",
+      "description": "<p>A large, cabinet-sized, drink mixing machine seen commonly used in bars.</p>"
+    },
+    "Fire Safe": {
+      "name": "Coffre-fort ignifugé",
+      "description": "<p>Petit coffre-fort ignifugé en acier épais.</p>\n<ul>\n<li>50PS</li>\n<li>30x30cm</li>\n<li>Peut être forcé avec un jet <strong>SD15 de Crochetage</strong></li>\n</ul>\n"
+    },
+    "GRAF3": {
+      "name": "GRAF3",
+      "description": "<p>Drone quadrupède de construction.</p>\n"
+    },
+    "Hidden Compartment": {
+      "name": "Compartiment caché",
+      "description": "<p>Un petit compartiment caché à l'intérieur du conteneur.</p>\n<ul>\n<li>15x30x7,5 cm</li>\n<li>Peut être trouvé avec un jet <strong>SD15 Dissimuler/révéler objet</strong></li>\n</ul>\n"
+    },
+    "Inline Skates": {
+      "name": "Rollers",
+      "description": "<p>Ce sont des patins à roulettes, ma gueule ! Augmente le mouvement de 4 m/yds lorsque vous utilisez l'Action de Course, mais empêche l'utilisation de toutes les options dans les jambes de l'utilisateur. Peut imposer aux tâches physiques un modificateur de -2.</p>"
+    },
+    "Ion Cuffs": {
+      "name": "Menottes Ion",
+      "description": "<p>Menottes destinées aux borgs. Désactive toutes les cyberoptions non-renforcées installées dans le membre auxquels les menottes sont attachées.\nUn sujet avec COR 13 ou plus peut briser les menottes Ion.</p>\n"
+    },
+    "Koff Popper": {
+      "name": "Koff Popper",
+      "description": "<p>Le Koff Popper de Continental Brands est le seul thermos spécialisé dont vous aurez besoin.</p>\n<ul>\n<li>Thermos avec brasseur Koff Pop intégré</li>\n<li>Contient 237 ml</li>\n<li>Ne peut être acheté que dans une boutique Oasis</li>\n</ul>"
+    },
+    "Koff Pops": {
+      "name": "Koff Pops",
+      "description": "<p>Les capsules Koff Pop sont utilisées avec le Koff Popper de Continental Brands</p>\n<ul>\n<li>Pack de 10</li>\n<li>Inclus dans le style de vie Croquette ou supérieur</li>\n</ul>\n"
+    },
+    "MagViewer": {
+      "name": "MagJumelles",
+      "description": "<p> Binoculaires destinés au repérage. Fournit des détails jusqu'à 800m. Confère à l'utilisateur un bonus d'assistance/repérage de +1 à un jet d'attaque réussi sur une cible à 51 m ou plus.</p>\n<p> Ne se cumule pas avec une lunette de visée.</p>"
+    },
+    "Master Mechanic's Tool Kit": {
+      "name": "Kit d'outils Master Mécanique",
+      "description": "<p>Boite à outils massive offrant +4 aux compétences lors des tests de constructeur.\nAssez grande pour être considérée comme une couverture en acier épais, nécessite un COR de 10 pour être déplacée.</p>\n"
+    },
+    "Mercurius Cyberchair": {
+      "name": "Cybersiège Mercurius",
+      "description": "<p>Un cybersiège incroyablement abordable, offrant d'excellentes fonctionnalités à ce prix. Lors de son utilisation, le MOUV de base de l'opérateur devient 5, et toutes les options de déplacement régulières restent disponibles.</p>\n<p>Le fonctionnement du cybersiège nécessite soit une main libre, soit une prise d'interface.</p>\n<p>Si l'opérateur subit une blessure critique qui réduit son MOUV, le MOUV de la chaise cybernétique est affecté à la place.</p>\n<p>Le cybersiège ne peut pas être ciblé spécifiquement, ni être désactivé par les effets IEM.</p>"
+    },
+    "MiniMag Speakers": {
+      "name": "Haut-parleurs MiniMag",
+      "description": "<p>Petits haut-parleurs magnétiques. Peut jouer de l'audio à partir d'un agent connecté à 100m.\n</p>\n"
+    },
+    "My First GRAF3": {
+      "name": "Mon Premier GRAF3",
+      "description": "<p>Drone personnel. Petit GRAF3 qui peut être relié à un Agent.</p>\n"
+    },
+    "Osmosis Compound": {
+      "name": "Composé d'Osmose",
+      "description": "<p>Cet additif permet d'absorber une Fiole de Poison ou de Biotoxine par contact cutané. Une fiole peut couvrir 20 cm carrés lorsqu'elle est appliquée sur une surface et dure une heure. Peut être neutralisée en rinçant avec de l'eau.</p>\n<p>La première cible à toucher la zone affectée avec de la chair subit le poison. Un test de <strong>Perception SD17</strong> révèle le poison. Plus d'une dose dans la même zone n'a pas d'effet supplémentaire.</p>\n"
+    },
+    "Savannah Eagle": {
+      "name": "Savannah Eagle",
+      "description": "<p>Drone de défense aérienne active.</p>\n"
+    },
+    "Savannah Panther": {
+      "name": "Savannah Panther",
+      "description": "<p>Drone de défense active.</p>\n"
+    },
+    "Second-hand Special Furniture Set": {
+      "name": "Set de meuble Produits d'occasion",
+      "description": "<p>Ça ne semble pas joli, mais c'est fonctionnel. Cet ensemble de meubles style camping est le strict minimum dont votre conteneur a besoin.</p>"
+    },
+    "Skateboard": {
+      "name": "Skateboard",
+      "description": "<p>Les roues les plus cools dans le coin. Augmente le mouvement de 4m/yds lorsque vous utilisez l'action Courir sur terrain plat ou en descente. Peut imposer aux tâches physiques un modificateur de -2.</p>"
+    },
+    "Smart Vanity": {
+      "name": "Coiffeuse intelligente",
+      "description": "<p>Une table de toilette connectée. Elle est entièrement équipée avec tous les accessoires et le maquillage dont vous aurez besoin.</p>\n"
+    },
+    "Smartsticks": {
+      "name": "Smartsticks",
+      "description": "<p>Baguettes connectées intelligentes. Donne à l'utilisateur un bonus de +1 en Instrument (Batterie) quand il joue avec. Ne se cumule pas avec d'autres bonus d'Instrument.</p>"
+    },
+    "Solo of Fortune Bodypillow": {
+      "name": "Traversin Solo of Fortune",
+      "description": "<p>Grand coussin avec l'image d'un Solo célèbre des années 2020 (comme Morgan Blackhand, BoaBoa Weyland, ou Adam Smasher).</p>\n<p>50,8 cm x 137. 6 cm, à l'exception du coussin Adam Smasher qui est considérablement plus grand.</p>"
+    },
+    "Spider Cyberchair": {
+      "name": "Cybersiège Spider",
+      "description": "<p>Le haut de la ligne cybersiège, offrant de nombreuses options. Lors de son utilisation, le MOUV de base de l'opérateur devient 5, et toutes les options de déplacement régulières restent disponibles.</p>\n<p>De plus, ce cybersiège a de la place pour 4 options cybermembres*. Toutes les options installées comptent toujours comme étant par paires.</p>\n<p>Le fonctionnement du cybersiège nécessite soit une main libre, soit une prise d'interface.</p>\n<p>Si l'opérateur subit une blessure critique qui réduit son MOUV, le MOUV du cybersiège est affecté à la place.</p>\n<p>Le cybersiège ne peut pas être ciblé spécifiquement, ni être désactivé par des effets IEM.</p>\n<p><em>*Installation des options de cybermembres actuellement non prise en charge</em></p>"
+    },
+    "Suzumebachi Assassin Drone": {
+      "name": "Drone Assassin Suzumebachi",
+      "description": "<p>Un petit drone en forme de guêpe conçu pour des assassinats silencieux.</p>\n<p>Statistiques : MOUV 6 - PA 7 - PS 10.</p>\n<p>Peut être neutralisé en 5 min avec un jet<strong> SD17 Sécurité électronique.</strong></p>\n<p>Programmation par défaut :</p>\n<ol>\n<li>Localiser la cible à l'aide de la caméra embarquée.</li>\n<li>Attaquer la cible avec un pistolet à fléchettes jusqu'à ce que les munitions soient épuisées ou que les traces infrarouge de la cible ne soient plus détectés</li>\n<li>S'exfiltrer et retour à l'opérateur</li>\n</ol>\n<p>Le Drone est communément contrôlé avec une architecture NET.</p>\n<p>Aire :</p>\n<p>Périmètre d'un bâtiment équipé d'architecture NET ou à 50 m d'une architecture NET.</p>\n<p>Equipement :</p>\n<ul>\n<li>Caméra avec Lumière faible, UV, IR</li>\n<li>Pistolet fléchettes avec 8 flèches Biotoxines</li>\n<li>Hypodair</li>\n</ul>\n"
+    },
+    "The Observer": {
+      "name": "L'Observateur",
+      "description": "<p>Drone personnel. Caméra volante qui peut être reliée à un Agent.</p>\n"
+    },
+    "The Transporter": {
+      "name": "Le Transporteur",
+      "description": "<p>Drone personnel. Drone transporteur qui peut être lié à un Agent.</p>\n"
+    },
+    "Umbrella": {
+      "name": "Parapluie",
+      "description": "<p>Protège contre la pluie acide. Pour chaque minute exposée à la pluie acide, toutes les armures perdent 1 PA (NCW p.4).</p>\n<p>+2 aux jets de Résistance à la torture/aux drogues quand exposé à l'averse sanglante. Une averse sanglante sévère applique les effets d'un empoisonnement aux biotoxines lors d'un jet raté (NCW p.4).</p>\n"
+    },
+    "Wall Art": {
+      "name": "Art mural",
+      "description": "<p>Affiche bon marché.</p>"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "label": "Weapons",
+  "mapping": {},
+  "entries": {
+    "Bow": {
+      "name": "Arc",
+      "description": "<p>Un arc revitalisé, rechargement compris dans l'action d'attaque.</p>",
+      "dvTable": "SD Arcs et arbalètes"
+    },
+    "Dagger": {
+      "name": "Dague",
+      "description": "<p>Un couteau adapté à un chasseur.</p>"
+    },
+    "Duel Caster": {
+      "name": "Duel Caster",
+      "description": "<p>Un boîtier en plastique et un lanceur de cartes pour les cartes ELO. 3 ATT/tour si c'est la seule arme que vous utilisez sur votre tour. Peut également être chargé avec des cartes de jeu normales mais rend l'arme de mauvaise qualité.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Greataxe": {
+      "name": "Hache de guerre",
+      "description": "<p>Un bâton de bois avec une lame incurvée à chaque extrémité. Apprécié par les groupes de raid pour des engagements rapprochés. Nécessite 2 mains pour le manier même par un porteur avec COR 8 ou plus.</p>"
+    },
+    "Longsword": {
+      "name": "Épée longue",
+      "description": "<p>Épée longue. Spécifiquement conçue pour découper et transpercer. 2 Att/round si vous portez deux épées longues.</p>"
+    },
+    "Scarlet Blackbow": {
+      "name": "Scarlet Blackbow",
+      "description": "<p>Un arc revisité qui doit être rechargé après chaque attaque. Si vous lancez 1 lors de l'attaque (échec critique), l'arc est détruit. Il est livré avec un carquois et 6 flèches en caoutchouc.</p>",
+      "dvTable": "SD Arcs et arbalètes"
+    },
+    "Shortsword": {
+      "name": "Épée courte",
+      "description": "<p>Une épée courte. Conçue pour couper et transpercer.</p>"
+    },
+    "Sword of Arvish": {
+      "name": "Épée d'Arvish",
+      "description": "<p>Une épée. Si vous lancez 1 en attaque (échec critique) l'arme inflige la Blessure critique Doigts écrasés au porteur.</p>"
+    }
+  }
+}

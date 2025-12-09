@@ -1,0 +1,152 @@
+{
+  "label": "Weapons",
+  "mapping": {},
+  "entries": {
+    "Aegis": {
+      "name": "Égide",
+      "description": "<p>Cette arme ne peut pas causer de blessures critiques, ne peut pas perforer l'armure, et si elle réduisait une cible à moins de 1 PV, elle la laisserait Inconsciente avec 1 PV à la place.</p>"
+    },
+    "Archimedes": {
+      "name": "Archimède",
+      "description": "<p>Utilise la compétence Pilotage de véhicule aérien au lieu de la compétence Armes lourdes pour tirer, nécessite le cyberimplant Dispositif de visée et ne peut utiliser que des roquettes intelligentes. Il est fourni avec une roquette intelligente à l'achat. Quelle gentillesse.</p>",
+      "dvTable": "SD Lance-roquettes"
+    },
+    "ARS-5 Submachine Gun": {
+      "name": "Pistolet-mitrailleur ARS-5",
+      "description": "<p>Ce pistolet-mitrailleur lourd a la totale : il est équipé d'une liaison smartgun, d'une lunette infrarouge de vision nocturne et d'une lunette de précision*.</p>\n<p><em>*les trois doivent être ajoutés manuellement après avoir acquis l'arme.</em></p>\n",
+      "dvTable": "SD Pistolet-mitrailleur"
+    },
+    "Big Dreem": {
+      "name": "Big Dreem",
+      "description": "<p>Pistolet-mitrailleur exotique. Tir automatique seulement. Même si vous lâchez l'arme, il continuera à tirer automatiquement.</p>",
+      "dvTable": "SD Pistolet-mitrailleur (Tir Automatique)"
+    },
+    "Burst Flamethrower": {
+      "name": "Lance-flammes à rafale",
+      "description": "<p>Peut seulement tirer des chevrotines de fusil à pompe incendiaire, mais les cibles enflammées par cette arme brûlent de 4 PS par tour.<br><br>De plus, cette arme peut consommer toutes ses munitions restantes pour tirer une boule de feu, qui explose de façon similaire à une grenade incendiaire. L’utilisateur de l’arme est également touché par la boule de feu, prenant feu à une intensité Mortelle*.</p>\n<p><em>*Mode de tir spécial non pris en charge actuellement ; devra être appliqué manuellement</em></p>",
+      "dvTable": "SD Fusil à pompe (Slug)"
+    },
+    "Chainknife": {
+      "name": "Couteau tronçonneur",
+      "description": "<p>Prend une action pour le démarrer, mais une fois lancé c'est une arme de mêlée puissante. Quand la chaine ne tourne pas, fait 2d6 de dégâts*.</p>\n<p><em>*Le mode non actif n'est pas supporté, il faut donc réduire manuellement les dégâts.</em></p>"
+    },
+    "Crusher": {
+      "name": "Crusher",
+      "description": "<p>Un pistolet qui tire des chevrotines de fusil à pompe. Comment ne pas aimer ?</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Dragon Flamethrower": {
+      "name": "Crache-feu Dragon",
+      "description": "<p>Un déluge de feu à portée d'index. Ne peut tirer que des Chevrotines incendiaires pour fusil à pompe, mais la cible enflammée par cette arme brûle de 4PS par tour.</p>"
+    },
+    "Enviro-launcher": {
+      "name": "Enviro-lanceur",
+      "description": "<p>Ce lance-roquettes est spécialement conçu pour être tiré une seule fois. Cependant, une fois qu'il a été utilisé, l'utilisateur peut utiliser une action pour briser un flacon attaché au lance-roquette qui libèrera une enzyme qui détruira complètement le lanceur en une heure.</p>",
+      "dvTable": "SD Lance-roquettes"
+    },
+    "Flare Gun": {
+      "name": "Pistolet de détresse",
+      "description": "<p>Comme les munitions de grenades normales, cette arme peut tirer des fusées éclairantes de route*. Elles n'infligent aucun dégât, mais si elles sont tirées dans les airs elles sont visibles à 5 km. Vous ne pouvez pas installer cette arme en cybernétique escamotable.</p>\n<p><em>*Actuellement non pris en charge, il faut donc supprimer manuellement une fusée éclairante de route de l'inventaire de l'utilisateur après avoir tiré</em></p>\n",
+      "dvTable": "SD Lance-grenades"
+    },
+    "Hellbringer": {
+      "name": "Hellbringer",
+      "description": "<p>Quand cette chose tire, vous le savez. S'il est utilisé par quelqu'un avec moins de 10 en COR, le revolver s'enraye. Une action est requise pour la débloquer.</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Hello Cutie 1TruLuv": {
+      "name": "Hello Cutie 1TruLuv",
+      "description": "<p>Fusil de précision exotique. Peut charger des munitions non basiques.</p>\n<p>Équipé d'une lunette de précision, de la vision nocturne et infrarouge*, et un Agent intégré comprenant une IA pseudo petite amie qui peut reconnaître et parler au propriétaire de l'arme.</p>\n<p>Prenez bien soin d'elle/lui et utilisez-la/le et l'arme s'améliorera. Délaissez le/la et vous devrez vous excuser...</p>\n<p><em>* Ces améliorations doivent être installées manuellement après avoir ajouté l'arme à un acteur<br></em></p>",
+      "dvTable": "SD Fusil de précision"
+    },
+    "M-02 Heavy Rifle": {
+      "name": "Fusil Lourd M-02",
+      "description": "<p>Cette arme tire ses propres munitions personnalisées, dont le prix est de 500ed (Onéreux) pour 80 unités de munitions perforantes.</p>",
+      "dvTable": "SD Fusil d'assaut"
+    },
+    "MicroCutie by HelloCutie": {
+      "name": "MicroCutie de HelloCutie",
+      "description": "<p>\n  Un pistolet d'excellente qualité avec un mode de feu unique Hypurrburst™*. Le pistolet ronronne lorsqu'il est utilisé. Le mode de tir Hypurrburst™ est désactivé s'il y a moins de 4 balles dans le chargeur.\n</p>\n<p>En mode Hypurrburst™ ce qui suit s'applique au pistolet :</p>\n<ul>\n  <li>1 attaque/round</li>\n  <li>Ronronnement audible</li>\n  <li>Tire une fois, vide le chargeur, et fait 4d6 points de dégâts</li>\n  <li>Ne peut pas être utilisé pour faire des tirs visés</li>\n</ul>\n<p>\n <em>*Mode de tir spécial non pris en charge actuellement ; devra être manuellement appliqué.</em>\n</p>\n",
+      "dvTable": "SD Pistolet"
+    },
+    "Multiple Ammunition Pistol": {
+      "name": "Revolver à munitions multiples",
+      "description": "<p>Un pistolet très lourd capable de charger jusqu'à 5 types de munitions différentes en même temps*, donnant à l'utilisateur la capacité de choisir celle de son choix à chaque tir.</p>\n<p><em>*N'est pas encore supporté, les joueurs doivent changer manuellement le type de munitions.</em></p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Nomad Air Cannon": {
+      "name": "Canon à air Nomade",
+      "description": "<p>Plutôt que des munitions de fusil à pompe normales, cette arme tire tout liquide avec lequel elle est rechargée. L'acide peut être acheté pour 10eb (bon marché) ce qui réduit de 1 PA toutes les armures portées par la cible. Du poison ou de la biotoxine peuvent également être chargés, mais cela nécessite 3 fioles par tir.</p>\n"
+    },
+    "Nomad Pneumatic Bolt Gun": {
+      "name": "Fusil à verrou pneumatique de Nomade",
+      "description": "<p>Capable de tirer toutes les munitions spéciales, cette arme est toujours aussi versatile que lorsqu'elle a été inventé il y a deux décennies.</p>",
+      "dvTable": "SD Fusil de précision"
+    },
+    "Nova Model 757 Cityhunter": {
+      "name": "Nova Model 757 Cityhunter",
+      "description": "<p>Ce revolver tire ses propres munitions customisées achetées par pack de 18, même si elles coutent le même prix qu'un pack de 10 munitions. Livré avec une liaison smartgun*.</p>\n<p><em>*La liaison smartgun doit être ajoutée après avoir acquis l'arme.</em></p>\n",
+      "dvTable": "SD Pistolet"
+    },
+    "Pocket Launcher": {
+      "name": "Lance-roquettes de poche",
+      "description": "<p>Tant que cette arme est déchargée, elle peut être dissimulée.</p>",
+      "dvTable": "SD Lance-roquettes"
+    },
+    "SDF-45": {
+      "name": "SDF-45",
+      "description": "<p>Ce lance-roquettes ne peut charger que des fusées perforantes et a une portée maximale de 400 m. Quand l'arme tire une roquette à la fois, le MJ choisit l'endroit où elle atterrit. Quand sont tirées deux roquettes à la fois, le MJ choisit l'endroit où les roquettes atterrissent, mais cette fois jusqu'à 50 m de la cible, et avec chaque roquette séparés d'au moins 10 m.</p>\n",
+      "dvTable": "SD Lance-roquettes"
+    },
+    "SportMaster": {
+      "name": "SportMaster",
+      "description": "<p>Un fusil de sport, pour le plaisir, pas les gens. Peut seulement charger des munitions de petit gibier et est incapable de tir automatique et de tir suppressif.</p>",
+      "dvTable": "SD Fusil d'assaut"
+    },
+    "ST-5 Assault Rifle": {
+      "name": "Fusil d'assaut ST-5",
+      "description": "<p>Une arme - relativement - fiable. Si vous obtenez un 1 sur une Attaque (Échec critique) vous devez alors faire un pile ou face : si vous gagnez le fusil tire normalement, si vous perdez le fusil s'enraye et nécessite une action pour le débloquer.</p>",
+      "dvTable": "SD Fusil d'assaut"
+    },
+    "Sub-Flechette Gun": {
+      "name": "Mitrailleuse à fléchettes",
+      "description": "<p>Ce pistolet-mitrailleur ne peut tirer que ses propres munitions perforantes personnalisées, cependant ces munitions perforent les armures de 4 quand elles infligent des dégâts. Livré avec une liaison smartgun*.</p>\n<p><em>*La liaison smartgun doit être ajoutée après avoir acquis l'arme.</em></p>\n",
+      "dvTable": "SD Pistolet-mitrailleur"
+    },
+    "SurvivalMaster": {
+      "name": "SurvivalMaster",
+      "description": "<p>Fusil d'assaut exotique, pas de tir automatique, pas de tir de suppression.</p>",
+      "dvTable": "SD Fusil d'assaut"
+    },
+    "Tactical Umbrella": {
+      "name": "Parapluie tactique",
+      "description": "<p>Un parapluie design avec des armes escamotables. Contient un pistolet lourd de mauvaise qualité (capacité de 2 balles).</p>\n<p>Mode Arme multiple : le Parapluie tactique contient également une arme de mêlée lourde d'excellente qualité.</p>\n<p>Fournit la protection d'un parapluie normal (NCW pg 6)</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "TearJerker": {
+      "name": "TearJerker",
+      "description": "<p>Cette arme ne peut tirer que des munitions Fumigènes ou Lacrymogène.</p>",
+      "dvTable": "SD Lance-grenades"
+    },
+    "Teen Dreem": {
+      "name": "Teen Dreem",
+      "description": "<p>Ce pistolet-mitrailleur peut utiliser le tir automatique et le tir de suppression tant qu'il lui reste au moins 2 balles. Cependant, utiliser l'un de ces modes de tir fera fondre l'arme, la rendant irréparable.</p>\n",
+      "dvTable": "SD Pistolet-mitrailleur"
+    },
+    "Timeless WW1 Rifle to Pistol Conversion": {
+      "name": "Timeless Conversion Fusil 1ereGM en Pistolet",
+      "description": "<p>Pistolet très lourd de qualité médiocre.</p>\n<p>Réarmement manuel de la culasse entre chaque tir (une action).</p>",
+      "dvTable": "SD Pistolet"
+    },
+    "Triple Treat": {
+      "name": "Triple Treat",
+      "description": "<p>\n  Vient avec un lance-grenade exotique sous canon*  qui, comme l'arme principale est de \n  mauvaise qualité, fonctionne comme une arme de mauvaise qualité. Ne peut pas être retiré. Le lance-grenade \net l'arme principale peuvent tout les deux tirer des munitions autres que basiques.\n</p>\n<p><em>*Doit être ajouté manuellement après acquisition de l'arme</em></p>\n",
+      "dvTable": "SD Lance-roquettes"
+    },
+    "WAA Bullpup Assault Weapon": {
+      "name": "Fusil d'assaut bullpup WAA",
+      "description": "<p>Un fusil d'assaut bullpup en service depuis plus de deux décennies. Peut tirer des munitions spéciales et livré avec une liaison smartgun*.</p>\n<p><em>*La liaison smartgun doit être ajoutée après avoir acquis l'arme.</em></p>\n",
+      "dvTable": "SD Fusil d'assaut"
+    }
+  }
+}

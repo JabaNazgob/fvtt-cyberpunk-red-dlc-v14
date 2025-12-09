@@ -1,0 +1,79 @@
+{
+  "label": "Ammo",
+  "mapping": {},
+  "entries": {
+    "Arrow (Junk)": {
+      "name": "Flèche (Camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+    },
+    "Big Dreem Rounds": {
+      "name": "Munitions Big Dreem",
+      "description": "<p>Munitions personnalisées pour TeenDreem.</p>"
+    },
+    "Heavy Pistol (Junk)": {
+      "name": "Pistolet lourd (camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+    },
+    "Heavy Pistol (Small Game)": {
+      "name": "Pistolet Lourd (Petit gibier)",
+      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
+    },
+    "M-02 Rounds": {
+      "name": "Munitions M-02",
+      "description": "<p>Munitions perforantes spéciales à utiliser uniquement pour le fusil lourd Sternmeyer M-02. Vendues dans un tambour de 80 balles.</p>"
+    },
+    "MagnaSlot BatteryBrick": {
+      "name": "Batterie MagnaSlot",
+      "description": "<p>Batterie spécifique au cyberbras Radline Blitzkrieg Lanceur d'Arc. Peut être rechargé en 1 heure.</p>"
+    },
+    "Medium Pistol (Junk)": {
+      "name": "Pistolet moyen (camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+    },
+    "Medium Pistol (Small Game)": {
+      "name": "Pistolet Moyen (Petit gibier)",
+      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
+    },
+    "Nova Model 757 Rounds": {
+      "name": "Munitions pour Nova Model 757",
+      "description": "<p>À utiliser uniquement avec le Nova Model 757 Cityhunter. Viens en pack de 18 au lieu d'un pack de 10.</p>\n\n<p>A besoin d'un implant Dispositif de visée, ou ne tirera pas. S'il rate une Attaque de 4 ou moins, lancez une seconde attaque au même SD 1d10+10 (statistique d'attaque non normale). Ajout possible de Chance. La cible peut esquiver la second attaque normalement si elle en est capable.</p>\n"
+    },
+    "Paintball (Biotoxin)": {
+      "name": "Paintball (Biotoxine)",
+      "description": "<p>Créé à partir de 3 flacons de biotoxine fixées ensemble. N'inflige aucun dégât direct à l'impact.</p>"
+    },
+    "Paintball (Poison)": {
+      "name": "Paintball (poison)",
+      "description": "<p>Créé à partir de 3 fioles de poison fixées ensemble. N'inflige aucun dégât direct à l'impact.</p>\n"
+    },
+    "Rifle (Junk)": {
+      "name": "Fusil (camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+    },
+    "Rifle (Small Game)": {
+      "name": "Fusil (Petit gibier)",
+      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
+    },
+    "Shotgun Slug (Junk)": {
+      "name": "Slug de fusil à pompe (camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+    },
+    "Sub-Flechette Rounds": {
+      "name": "Fléchettes spéciales",
+      "description": "<p>Munitions spéciales qui ne peuvent être utilisées que par la Mitrailleuse à fléchettes Malorian Arms. Perforent l'armure de 4 PA par coup.</p>\n"
+    },
+    "Very Heavy Pistol (Junk)": {
+      "name": "Pistolet très lourd (camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+    },
+    "Very Heavy Pistol (Small Game)": {
+      "name": "Pistolet très lourd (Petit gibier)",
+      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
+    },
+    "Molotov Cocktail": {
+      "name": "Cocktail Molotov",
+      "description": "<p>Grenade incendiaire fragile. Met une cible en feu d'intensité mortelle (voir CP:R p.180)</p>\n",
+      "dvTable": "SD Arme de lancer"
+    }
+  }
+}

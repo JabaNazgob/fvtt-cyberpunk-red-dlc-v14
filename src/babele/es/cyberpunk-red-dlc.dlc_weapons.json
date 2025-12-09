@@ -1,0 +1,152 @@
+{
+  "label": "Weapons",
+  "mapping": {},
+  "entries": {
+    "Aegis": {
+      "name": "Aegis",
+      "description": "<p>Esta arma no puede causar lesiones críticas, no produce ablación de armadura, y si reduce un objetivo a menos de 1 PV, en su lugar los deja Inconsciente en 1 PV.</p>"
+    },
+    "Archimedes": {
+      "name": "Arquímedes",
+      "description": "<p>Usa la Habilidad de Pilotar Vehículos Aéreos en lugar de la Habilidad de Armas Pesadas para disparar, requiere que el implante de sistema de puntería para que alcance el objetivo y solo puede usar Cohetes Inteligentes. No obstante, viene con uno incluido. Qué bonito.</p>",
+      "dvTable": "VD Lanzacohetes"
+    },
+    "ARS-5 Submachine Gun": {
+      "name": "Subfusil ARS-5",
+      "description": "<p>Este SMG pesado es el paquete completo; viene con un conector de arma inteligente, una mira de visión de Infrarroja/Nocturna y una mira de francotirador*.</p><p><em>*Los tres deben ser añadidos manualmente después de adquirir el arma</em></p>",
+      "dvTable": "VD SMG"
+    },
+    "Big Dreem": {
+      "name": "Gran Dreem",
+      "description": "<p>Sub Fusil exótico. Si sueltas el arma, continuará con disparando.</p>",
+      "dvTable": "VD SMG (Automático)"
+    },
+    "Burst Flamethrower": {
+      "name": "Lanzallamas de explosión",
+      "description": "<p>Solo puede disparar proyectiles de escopeta incendiaria, pero los objetivos encendidos por esta arma arden durante un turno recibiendo 4 PV de daño.<br><br>Además, esta arma puede consumir toda la munición restante para disparar una bola de fuego, que explota de forma similar a una granada incendiaria. El usuario del arma también es consumido por la bola de fuego, recibiendo daño mortal por fuego*.</p><p><em>*El modo de fuego especial no está soportado actualmente; tendrá que ser aplicado manualmente</em></p>",
+      "dvTable": "VD Escopeta (Perdigones de escopeta)"
+    },
+    "Chainknife": {
+      "name": "CuchilloCadena",
+      "description": "<p>Toma una acción para acelerar, pero una vez acelerado es una poderosa arma cuerpo a cuerpo. Cuando no está acelerado inflige 2d6 de daño*.</p><p><em>*Modo no acelerado no compatible actualmente, así que tendrá que reducir manualmente el daño</em></p>"
+    },
+    "Crusher": {
+      "name": "Triturador",
+      "description": "<p>Una pistola que dispara cartuchos de perdigones de escopeta. Lo que no hay que amar.</p>",
+      "dvTable": "VD Pistola"
+    },
+    "Dragon Flamethrower": {
+      "name": "Lanzallamas Dragón",
+      "description": "<p>Fuego en la punta de tus dedos. Solo puedes disparar proyectiles de escopeta incendiaria, pero los objetivos encendidos por esta arma se queman por 4 PV por turno.</p>"
+    },
+    "Enviro-launcher": {
+      "name": "Lanzador de Enviro",
+      "description": "<p>Este lanzador de cohetes especialmente diseñado solo puede ser disparado una vez. Sin embargo, una vez que se ha disparado, el usuario puede usar una acción para romper un vial conectado al lanzador, que liberará una enzima que destruirá el lanzador totalmente en una hora.</p>",
+      "dvTable": "VD Lanzacohetes"
+    },
+    "Flare Gun": {
+      "name": "Pistola de Bengalas",
+      "description": "<p>Además de la munición normal de granadas, esta arma puede disparar bengalas*. No causan ningún daño, pero si se dispara al aire se puede ver a partir de 3 millas. No puedes instalar esta arma en implante de arma oculta.</p><p><em>*Actualmente no está soportado, por lo que tendrá que eliminar manualmente una bengala del inventario de actores después de disparar</em></p>",
+      "dvTable": "VD Lanzagranadas"
+    },
+    "Hellbringer": {
+      "name": "Portador del Infierno",
+      "description": "<p>Cuando esto dispara, lo sabrás. Si alguien con menos de TCO 10 dispara esta pistola, se atasca. Se requiere una acción para desatascarla.</p>",
+      "dvTable": "VD Pistola"
+    },
+    "Hello Cutie 1TruLuv": {
+      "name": "Hello Cutie 1TruLuv",
+      "description": "<p>Rifle de francotirador exótico. Puede cargar munición no básica.</p>\n<p>Equipado con una mira de largo alcance y Visión Nocturna*, y Agente integrado que incluye una pseudo novia/o IA que puede reconocer y hablar con el propietario.</p>\n<p>Cuidarlo bien, usarlo regularmente y el arma mejora. Descuídalo y deberás disculparte...</p>\n<p><em>* Estas actualizaciones deben ser instaladas manualmente después de añadir a un actor<br></em></p>",
+      "dvTable": "VD Rifle de Francotirador"
+    },
+    "M-02 Heavy Rifle": {
+      "name": "Rifle Pesado M-02",
+      "description": "<p>Esta arma dispara su propia munición personalizada, con un precio de 500ed (Caro) por 80 rondas de munición Perforadora de armadura.</p>",
+      "dvTable": "VD Rifle de Asalto"
+    },
+    "MicroCutie by HelloCutie": {
+      "name": "MicroCutie by HelloCutie",
+      "description": "<p>\n  An excellent quality pistol with a unique Hypurrburst™ mode fire mode*. The\n  weapon purrs when used. Hypurrburst™ is disabled if less than 4 bullets are in\n  the clip.\n</p>\n<p>When in Hypurrburst™ mode, the following applies</p>\n<ul>\n  <li>MicroCutie is ROF 1</li>\n  <li>Purrs audibly</li>\n  <li>Fires a single shot, drains clip, and does 4d6 damage</li>\n  <li>Cannot be used to make aimed shots</li>\n</ul>\n<p>\n  <em\n    >*Special fire mode not currently supported; will need to be manually\n    applied</em\n  >\n</p>\n",
+      "dvTable": "DV Pistol"
+    },
+    "Multiple Ammunition Pistol": {
+      "name": "Pistola de Munición Múltiple",
+      "description": "<p>Una pistola muy pesada capaz de cargar hasta cinco tipos de munición diferentes a la vez*, con el usuario capaz de elegir entre ellos antes de disparar.</p><p><em>*Actualmente no es compatible, por lo que los usuarios tienen que cambiar manualmente los tipos de munición</em></p>",
+      "dvTable": "VD Pistola"
+    },
+    "Nomad Air Cannon": {
+      "name": "Cañón aéreo nomade",
+      "description": "<p>En lugar de las municiones normales, esta arma dispara cualquier líquido que se coloque en ella. El ácido se puede comprar por 10eb (Barato) que reduce todas las armaduras usadas por el objetivo por 1 SP. También se puede cargar veneno o biotoxina, aunque requiere 3 viales por disparo.</p>"
+    },
+    "Nomad Pneumatic Bolt Gun": {
+      "name": "Cañón de perno pneumático Nomade",
+      "description": "<p>Capaz de disparar todas las municiones no básicas, esta arma sigue siendo tan versátil como cuando fue inventada hace más de dos décadas.</p>",
+      "dvTable": "VD Rifle de Francotirador"
+    },
+    "Nova Model 757 Cityhunter": {
+      "name": "Nova Modelo 757 Cityhunter",
+      "description": "<p>Esta pistola dispara sus propias rondas personalizadas compradas en paquetes de 18, aunque cuestan lo mismo que un paquete de 10. Viene con un conector de arma inteligente*.</p><p><em>*El conector de arma inteligente debe ser añadido manualmente después de adquirir el arma</em></p>",
+      "dvTable": "VD Pistola"
+    },
+    "Pocket Launcher": {
+      "name": "Lanzacohetes de Bolsillo",
+      "description": "<p>Mientras está descarga, esta arma puede ser ocultada.</p>",
+      "dvTable": "VD Lanzacohetes"
+    },
+    "SDF-45": {
+      "name": "SDF-45",
+      "description": "<p>Este lanzador de cohetes solo puede cargar cohetes perforantes de armadura y tiene un rango máximo de 400 m/yds. Cuando se dispara un cohete a la vez, el DJ elige dónde aterrizan. Cuando se disparan dos cohetes a la vez, el DJ elige dónde aterrizan los cohetes, pero esta vez hasta 50 m/yd lejos del objetivo, y con cada cohete de más de 10 m/yds unos de otros.</p>",
+      "dvTable": "VD Lanzacohetes"
+    },
+    "SportMaster": {
+      "name": "Maestro del Deporte",
+      "description": "<p>Un rifle deportivo, para la diversión, no para personas. Solo puede cargar una pequeña munición de juguete y es incapaz de autofuego y fuego supresivo.</p>",
+      "dvTable": "VD Rifle de Asalto"
+    },
+    "ST-5 Assault Rifle": {
+      "name": "Rifle de Asalto ST-5",
+      "description": "<p>A - arma relativamente fiable. Si tira 1 en Ataque (fallo crítico), entonces debe tirar una moneda; si usted gana el tiro sale como de costumbre, mientras que si pierde el arma se atasca y requiere utilizar una acción para desatascar.</p>",
+      "dvTable": "VD Rifle de Asalto"
+    },
+    "Sub-Flechette Gun": {
+      "name": "Arma Sub-Flechette (Subfusil)",
+      "description": "<p>Este SMG solo puede disparar su propia munición perfora blindaje personalizada; sin embargo, esa munición produce ablación de 4 cuando inflige daño. Viene con un conector de arma inteligente*.</p><p><em>*El conector de arma inteligente debe ser añadido manualmente después de adquirir el arma</em></p>",
+      "dvTable": "VD SMG"
+    },
+    "SurvivalMaster": {
+      "name": "Maestro de Supervivencia",
+      "description": "<p>Rifle de Asalto exótico, sin Autofuego, sin Fuego Supresivo.</p>",
+      "dvTable": "VD Rifle de Asalto"
+    },
+    "Tactical Umbrella": {
+      "name": "Paraguas Táctico",
+      "description": "<p>Un paraguas elegante con armas pop-out. Contiene una Pistola Exótica de Calidad Pesada (Carga máxima de 2 balas).</p>\n<p>Múltiples modos de arma: el Paraguas Táctico también contiene una arma cuerpo a cuerpo pesada exótica de calidad excelente.</p>\n<p>Proporciona la protección de un paraguas normal (NCW pg 6)</p>",
+      "dvTable": "VD Pistola"
+    },
+    "TearJerker": {
+      "name": "Bromista-Llorón",
+      "description": "<p>Esta arma solo puede disparar humo o gas lacrimoso</p>",
+      "dvTable": "VD Lanzagranadas"
+    },
+    "Teen Dreem": {
+      "name": "Teen Dreem",
+      "description": "<p>Este SMG puede usar fuego automático y fuego supresivo hasta las últimas 2 balas. Sin embargo, es necesario tener cuidado, ya que usar cualquiera de los modos de disparo fundir la pistola más allá de la reparación.</p>",
+      "dvTable": "VD SMG"
+    },
+    "Timeless WW1 Rifle to Pistol Conversion": {
+      "name": "Rifle de la 1ra Guerra Mundial convertido a Pistola",
+      "description": "<p>Pistolas muy pesadas de mala calidad.</p>\n<p>Rearmado manual del perno entre cada tiro (una acción).</p>",
+      "dvTable": "VD Pistola"
+    },
+    "Triple Treat": {
+      "name": "Amenaza Triple",
+      "description": "<p>\n  Comes with an Exotic Grenade Launcher Underbarrel* which - as the main gun is\n  poor quality - functions as a poor quality weapon. It can't be removed. Both\n  that and the main weapon can fire non-Basic Ammunition.\n</p>\n<p><em>*Must be manually added after acquiring the weapon</em></p>\n",
+      "dvTable": "VD Lanzacohetes"
+    },
+    "WAA Bullpup Assault Weapon": {
+      "name": "Arma de Asalto Bullpup Arasaka WAA",
+      "description": "<p>Un rifle tipo bullpup en funcionamiento desde hace más de dos décadas. Puede disparar munición no básica y viene con un conector de Arma Inteligente*.</p><p><em>*El conector de Arma Inteligente debe ser añadido manualmente después de adquirir el arma</em></p>",
+      "dvTable": "VD Rifle de Asalto"
+    }
+  }
+}
