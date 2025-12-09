@@ -112,6 +112,7 @@ export class PackUtils {
       path.join(
         config.srcDirPath,
         "babele",
+        "en",
         `${config.id}.${packData.name}.json`,
       ),
     );
