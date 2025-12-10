@@ -341,8 +341,12 @@ class Config {
    */
   get generateManifest() {
     const gitlab = this.#generateGitlabUrls();
+    const manifest = { ...this.manifest };
+    if (!Config.CI_COMMIT_TAG) {
+      manifest.relationships = {};
+    }
     return {
-      ...this.manifest,
+      ...manifest,
       url: gitlab.url,
       manifest: gitlab.manifest,
       download: gitlab.download,
