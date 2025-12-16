@@ -7,172 +7,172 @@
       "description": "<p>Chipware. Each chip is imprinted with a single animal psyche. Provides a +4 to Acting checks to impersonate animal's behavior.</p>"
     },
     "Appetite Controller": {
-      "name": "Controlador de Apetito",
-      "description": "<p>Reprime la sensación de hambre. El usuario ignora la pérdida de Humanidad de sanciones por trauma de inanición, pero el usuario todavía puede morir de hambre. Tira Salvación contra la Muerte al comienzo del séptimo día consecutivo sin comer. +1 a las sucesivas tiradas de Salvación contra la Muerte cada día después.</p>\n<p>Requiere Biomonitor.</p>"
+      "name": "Appetite Controller",
+      "description": "<p>\n Suppresses hunger response. User ignores Humanity Loss penalties from\n starvation trauma but User can still starve. Roll a Death Save at start of 7th\n consecutive day without eating. +1 to successive Death Saves each day\n afterwards.\n</p>\n<p>Requires Biomonitor.</p>"
     },
     "Blitzkrieg Arc-Thrower Cyberarm": {
-      "name": "Ciberbrazo de Radline Blitzkrieg Lanza-Relámpagos",
-      "description": "<p>\n  An \"arm\" in name only, the Arc-Thrower is a massive electricity cannon. 0\n  option slots.\n</p>\n<p>\n  The Arc-Thrower is One-Handed Exotic Poor Quality Shotgun that uses Heavy\n  Weapons Skill. Fires \"Shotgun Shell\" electricity blast with 4d6 damage.\n  Critical Injuries are not possible. Armor is not ablated. If target goes under\n  1HP from the blast, target has 1HP and is Unconscious.\n</p>\n<p>\n  Firing the Arc-Thrower consumes a charge from the included Radline MagnaSlot\n  BatteryBrick (100eb). BatteryBrick has a 32 shot capacity and can be recharged\n  in 1 hour. Use an Action to swap in a fresh battery pack even if user has no\n  free hands available. Arc-Thrower does not have a hand attachment.\n</p>\n"
+      "name": "Blitzkrieg Arc-Thrower Cyberarm",
+      "description": "<p>\n An \"arm\" in name only, the Arc-Thrower is a massive electricity cannon. 0\n option slots.\n</p>\n<p>\n The Arc-Thrower is One-Handed Exotic Poor Quality Shotgun that uses Heavy\n Weapons Skill. Fires \"Shotgun Shell\" electricity blast with 4d6 damage.\n Critical Injuries are not possible. Armor is not ablated. If target goes under\n 1HP from the blast, target has 1HP and is Unconscious.\n</p>\n<p>\n Firing the Arc-Thrower consumes a charge from the included Radline MagnaSlot\n BatteryBrick (100eb). BatteryBrick has a 32 shot capacity and can be recharged\n in 1 hour. Use an Action to swap in a fresh battery pack even if user has no\n free hands available. Arc-Thrower does not have a hand attachment.\n</p>"
     },
     "Bodyweight AutoInjector": {
-      "name": "AutoInyector Corporal",
-      "description": "<p>Ciberware corporal interno.</p>\n<p>Utilice una acción para cargar una dosis de drogas callejeras en un receptáculo de almacenamiento subdérmico. Opcionalmente, uno puede configurar un Biomonitor para que automáticamente dosifique el usuario al entrar en combate, sufriendo una lesión crítica, o llegando a un umbral predeterminado del Estado de la Herida.</p>"
+      "name": "Bodyweight AutoInjector",
+      "description": "<p>Internal Body Cyberware.</p>\n<p>\n Use an Action to load one dose of Street Drug into a subdermal storage pod.\n Optionally, one can configure a Biomonitor to automatically dose the user upon\n entering combat, suffering a critical injury, or reaching a predetermined\n Wound State threshold.\n</p>"
     },
     "Bug Eye": {
-      "name": "Ojo Insectoide",
-      "description": "<p>Ciberojo insectoide grande lleno de ranuras de opciones. Borgware.</p>"
+      "name": "Bug Eye",
+      "description": "<p>Large insectoid Cybereye packed with option slots. Borgware.</p>"
     },
     "ChainRipp": {
-      "name": "Motosierra Ripp",
-      "description": "<p>Una motosierra de ciberarma saliente con un puerto de escape integrado. Se puede desplegar y retraerse sin usar una acción. El usuario no puede usar la mano en el ciberbrazo de Motosierra Ripp cuando se activa la sierra.</p>\n<p>Al desplegar, Motosierra Ripp puede ser acelerada como una acción, transformándola en un arma de cuerpo a cuerpo exótica muy pesado de una mano de excelente calidad. La Motosierra Ripp permanece acelerada hasta que se desactive como una Acción.</p>\n<p>En el estado desplegado, pero no acelerado, la Motosierra Ripp es un arma de cuerpo a cuerpo exótica muy pesada de una sola mano. Requiere 4 ranuras de opción de ciberbrazo</p>"
+      "name": "ChainRipp",
+      "description": "<p>\n A popout Cyberarm chainsaw with integreated exhaust port. Can be deployed and\n retracted without an Action. User can not use the hand on the ChainRipp's\n Cyberarm when blade is drawn.\n</p>\n<p>\n When deployed, ChainRipp can be revved as an Action and qualifies as an\n Excellent Quality One-Handed Exotic Very Heavy Melee Weapon. ChainRipp remains\n revved until deactivated as an Action.\n</p>\n<p>\n In the deployed but un-revved state, the ChainRipp is a One-Handed Very Heavy\n Melee Weapon.\n</p>"
     },
     "Chipware Compartment": {
-      "name": "Compartimiento de Chipware",
-      "description": "<p>Te permite ocultar hasta cuatro piezas de chipware, no se requiere Chequeo. La recuperación se hace gastando una acción para girar el ojo en su ranura</p>"
+      "name": "Chipware Compartment",
+      "description": "<p>Lets you conceal up to four pieces of chipware, no Check required.</p>"
     },
     "Combat Jaw": {
-      "name": "Mandíbula de Combate",
-      "description": "<p>Arma Cuerpo a Cuerpo Muy Pesada implantada.</p>\n<p>Consulte la descripción completa de la página 72 de Interface Red vol. 2.</p>"
+      "name": "Combat Jaw",
+      "description": "<p>Implanted Very Heavy Melee Weapon.</p>"
     },
     "Combat Tail": {
-      "name": "Cola de Combate",
-      "description": "<p>Arma Cuerpo a Cuerpo Pesada implantada. Requiere Interfaz Neuronal.</p>\n<p>Consulte la descripción completa de la página 72 de Interface Red vol. 2.</p>"
+      "name": "Combat Tail",
+      "description": "<p>Implanted Heavy Melee Weapon. Requires Neural Link.</p>"
     },
     "Cyberliver": {
       "name": "Cyberliver",
       "description": "<p>A liver enhancement to mitigate alcohol side effects.</p>"
     },
     "Cyberpillow": {
-      "name": "Ciberalmohada",
-      "description": "<p>Una cómoda almohada que sale del ciberbrazo para las siestas sobre la marcha.</p>"
+      "name": "Cyberpillow",
+      "description": "<p>A comfortable Cyberarm popout pillow for naps on the go.</p>"
     },
     "DeathTrance": {
-      "name": "Trance de la Muerte",
-      "description": "<p>Activa como una acción para detener signos de vida como el ritmo cardíaco y la respiración. Para el observador casual, el usuario parece estar muerto. -4 para todas las Acciones en este estado letargo. Se puede desactivar con una acción. El usuario puede experimentar la piel azul o pálida de múltiples usos.</p>\n<p>Tecnología médica VD17 o VD21 (Diagnóstico, Deducción, Percepción) para descubrir que el usuario no está realmente muerto</p>"
+      "name": "DeathTrance",
+      "description": "<p>\n Activate as an action to impede signs of life such as heart rate and\n breathing. To the casual observer, the user appears to be dead. -4 to all\n Actions in this lethargic state. Can be disabled with an Action. User may\n experience bluish or pale skin from multiple uses.\n</p>\n<p>\n <strong>DV17 Medical Tech</strong> or\n <strong>DV21 (Criminology, Deduction, Perception)</strong> Check to discover\n user is not actually dead.\n</p>"
     },
     "External Vidscreen": {
-      "name": "Videopantalla Externa",
-      "description": "<p>Implantada pantalla de vídeo flexible. Utiliza un chip de memoria o un agente vinculado para transmitir vídeo a Videopantalla.</p>"
+      "name": "External Vidscreen",
+      "description": "<p>\n Implanted flexible video screen. Use a socketed Memory Chip or linked Agent to\n stream video to Vidscreen.\n</p>"
     },
     "Extra-Jointed Cyberarm Upgrade": {
-      "name": "Montura de Ciberbrazo Extra-Articulada",
-      "description": "<p>Enhances cyberarm articulation. +2 Contortionist.</p>\n"
+      "name": "Extra-Jointed Cyberarm Upgrade",
+      "description": "<p>Enhances cyberarm articulation. +2 Contortionist.</p>"
     },
     "Extra-Jointed Cyberleg Upgrade": {
-      "name": "Montura de Ciberpierna Extra-Articulada",
-      "description": "<p>Enhances cyberleg articulation. +2 Contortionist.</p>\n"
+      "name": "Extra-Jointed Cyberleg Upgrade",
+      "description": "<p>Enhances cyberleg articulation. +2 Contortionist.</p>"
     },
     "Extreme Biosculpting": {
       "name": "Extreme Biosculpting",
       "description": "<p>A physical conversion to a chosen animal type of human size. Few are willing to carry out the surgery.</p><p>Procedure requires a <strong>DV21 Surgery Check</strong> and materials are 1,000eb</p>"
     },
     "Firebreather": {
-      "name": "Aliento Ígneo",
-      "description": "<p>Escopeta exótica implantada. Solo puede contener un proyectil de escopeta incendiario. </p>\n<p>Consulte la descripción completa de la página 73 del Interface Red vol. 2.</p>"
+      "name": "Firebreather",
+      "description": "<p>Implanted Exotic Shotgun. Can only hold one incendiary shotgun shell.</p>"
     },
     "FleshWeave": {
-      "name": "Tejido Dérmico",
-      "description": "<p>Cyberware corporal externo*. 7 CP para la cabeza y el cuerpo.<br>Armadura de Tejido Dérmico con funcionalidad avanzada de curación automática. Miles de millones de nanobots reparan todo el daño a la armadura de Tejido Dérmico(cuerpo y cabeza) después de 10 minutos de descanso. La armadura no se acumula.</p>\n<p><em>* El Cyberware de Armadura no funciona como armadura en el sistema, por favor añade el elemento \"Tejido Dérmico (Armadura)\" de Sycust al personaje/tipejo para rastrear</em></p>"
+      "name": "FleshWeave",
+      "description": "<p>\n External Body Cyberware*. 7 SP for head and body.<br />Skinweave armor with\n advanced self-healing functionality. Billions of nanobots repair all damage to\n FleshWeave(body and head) armor after 10 minutes of rest. Armor does not\n stack.\n</p>\n<p>\n <em>* Cyberware Armor does not function as armor in the system, please add the\n \"Sycust FleshWeave (Armor)\" item to the character/mook to track</em>\n</p>"
     },
     "Gang Jazzler": {
-      "name": "Noqueador de Pandillas",
-      "description": "<p>Usa una acción de choque para apuñalar a un objetivo agarrado con una aguja electrificada. El objetivo no recibe daño, pero debe hacer un chequeo de Resistencia contra Tortugas/Drogas. Al fallar la comprobación, el objetivo cae inconsciente durante 1 minuto.</p>\n<p>Funciona con un paquete de baterías recargables (50ed). El paquete de batería debe ser recargado durante 1 hora después de cada uso. No es necesario realizar ningún control para ocultar el Noqueador de Pandillas y el paquete de baterías. Se puede instalar en el brazo de la carne si la única pieza de ciberware en ese brazo.</p>"
+      "name": "Gang Jazzler",
+      "description": "<p>\n Use a Choke Action to stab a grappled target with a popout electrified needle.\n The target takes no damage but must make a\n <strong>DV13 Resist Torture/Drugs</strong> Check. On failed check, target\n falls Unconscious for 1 minute.\n</p>\n<p>\n Powered by a rechargeable battery pack (50eb). Battery pack must be recharged\n for 1 hour after each use. No check is necessary to conceal Gang Jazzler and\n battery pack. Can be installed in meat arm if it's the only piece of cyberware\n in that arm.\n</p>"
     },
     "Gas Jet": {
       "name": "Gas Jet",
-      "description": "<p>Opción de ciberbrazo. Toma 2 ranuras de opciones.</p>\n<p>El chorro de gas lanza una ráfaga de 3 dosis de una droga callejera o 3 viales de veneno/biotoxina en un cuadrado de 3x3 justo delante del tiro (similar al ataque de escopeta de perdigones). Se puede utilizar a una mano y es prácticamente indetectable incluso sin una tirada de Ocultar/Revelar Objetos.</p>\n<p>Todos los objetivos susceptibles en el rango sufren los efectos del medicamento o del veneno. Los objetivos equipados con un equipo que neutraliza los ataques de gas (filtros nasales, &amp; máscara de respiración antihumo) no se ven afectados. El Gas Jet debe cargarse con 3 dosis más antes de disparar de nuevo.</p>"
+      "description": "<p>Cyberarm Option. Takes 2 option slots.</p>\n<p>\n Gas Jet sprays a burst of 3 doses of a Street Drug or 3 Vials of\n Poison/Biotoxin into a 3x3 square directly in front of the shooter (similar to\n Shotgun Shell attack). Can be used one-handed and is virtually undetectable\n even without a Conceal check.\n</p>\n<p>\n All susceptible targets in range suffer the effects of the drug or poison.\n Targets equipped with gear that neutralizes gas attacks (Nasal Filters &amp;\n Anti-Smog Breathing Mask) are not affected. Gas Jet must be loaded with 3 more\n doses after each shot before firing again.\n</p>"
     },
     "Heuristic Health Monitor": {
-      "name": "Seguidor Heurístico de la Salud",
-      "description": "<p>Requiere Biomonitor. Puede conocer PV de un vistazo. (Vea el Cromo Negro 19 para más detalles)</p>"
+      "name": "Heuristic Health Monitor",
+      "description": "<p>Requires biomonitor. Can know HP at a glance.</p>"
     },
     "Holo Projector Palm": {
-      "name": "Holo-Proyector de mano",
-      "description": "<p>Proyecta un pequeño holograma desde la palma del usuario. El usuario puede interactuar con el holograma para controlar las funciones de un agente vinculado. Se puede instalar en el brazo de la carne si es la única pieza de ciberware en ese brazo.</p>"
+      "name": "Holo Projector Palm",
+      "description": "<p>\n Projects a small hologram from the User’s palm. User can interact with\n hologram to control a linked Agent’s functions. Can be installed in meat\n arm if it’s the only piece of cyberware in that arm.\n</p>"
     },
     "Kill Display": {
-      "name": "Contador de Muertes",
-      "description": "<p>Contador alfanumérico subdermal que brilla claramente a través de la piel. Usa un agente vinculado para personalizar la salida. Comúnmente usado como contador de bajas.<br>Califica como un Tatuaje Luminoso. +2 Vestimenta y Estilo cuando el usuario tenga 3 o más Tatuajes Luminosos.</p>"
+      "name": "Kill Display",
+      "description": "<p>\n Subdermal Alphanumeric display that shines clearly through the skin. Use a\n linked Agent to customize the output. Commonly used as “kill\n counter.”<br />Qualifies as a Light Tattoo. +2 Wardrobe and Style when\n the user has 3 or more Light Tattoos.\n</p>"
     },
     "Lead's Turn-On-Show-Off Nails": {
-      "name": "Uñas Luminosas de Lead",
-      "description": "<p>Uñas iluminadas personalizables para cada punta de los dedos. Incluye herramientas para crear patrones personalizados. Los patrones de uñas se pueden descargar del CitiNet y sincronizar con un agente vinculado.<br>Califica como un Tatuaje Luminoso. +2 Vestimenta y Estilo cuando el usuario tiene 3 o más Tatuajes Luminosos.</p>"
+      "name": "Lead's Turn-On-Show-Off Nails",
+      "description": "<p>\n Customizable illuminated nail for each fingertip. Includes pen tools for\n creating custom patterns. Nail patterns can be downloaded from the CitiNet and\n synced with a linked Agent.<br />Qualifies as a Light Tattoo. +2 Wardrobe and\n Style when the user has 3 or more Light Tattoos.\n</p>"
     },
     "MicroWaldo": {
       "name": "MicroWaldo",
-      "description": "<p>Una colección de instrumentos y sondas montados en las muñecas para facilitar la cirugía.<br>+1 Técnica Médica.</p>\n<p>Toma una ranura de Opción de Ciberbrazo y una ranura de Opción de Enlace Neural.</p>"
+      "description": "<p>\n A wrist-mounted collection of instruments and probes to facilitate surgery.<br />+1\n to Medtech Surgery Checks.\n</p>\n<p>Takes up 1 Cyberarm Option slot and 1 Neural Link Option slot.</p>"
     },
     "MIRD113 Gun Hand": {
       "name": "MIRD113 Gun Hand",
       "description": "<p>A hand replacement with each finger housing a concealed gun barrel. An Exotic weapon but able to use non-basic ammo.</p>"
     },
     "MonoVision": {
-      "name": "MonoVisión",
-      "description": "<p>\n  Single-optic Cybereye visor that takes the place of two meat eyes. Too large\n  for a MultiOptic Mount.\n</p>\n<p>\n  Cybereye Options are always \"paired\" even if there is only one of each type.\n  Penalties from Lost Eye Critical Injury are doubled if the target solely\n  relies on the Monovision for sight.\n</p>\n<p>Borgware.</p>\n"
+      "name": "MonoVision",
+      "description": "<p>\n Single-optic Cybereye visor that takes the place of two meat eyes. Too large\n for a MultiOptic Mount.\n</p>\n<p>\n Cybereye Options are always \"paired\" even if there is only one of each type.\n Penalties from Lost Eye Critical Injury are doubled if the target solely\n relies on the Monovision for sight.\n</p>\n<p>Borgware.</p>"
     },
     "Mood Eye": {
-      "name": "Ojo Animado",
-      "description": "<p>Lentes oculares que cambian de color. El color depende de un conector neuronal que escanea el humor. VD 21 de Actuación para simular un estado de ánimo y cambiar el color en consecuencia. Las lentes se pueden desactivar sin una acción.</p>\n<ul>\n<li>Rojo: Furia</li>\n<li>Azul: Pena</li>\n<li>Amarillo: Terror</li>\n<li>Rosa: Exitado</li>\n<li>Verde: Envidia</li>\n<li>Gray: Muerto</li>\n</ul>\n<p>Fashionware. Requiere Conector Neuronal.</p>"
+      "name": "Mood Eye",
+      "description": "<p>\n Color-shifting eye lenses. Color is dependent on Neural Link \"mood\" scans.\n <strong>DV 21 Acting</strong> check to fake a mood scan and change color\n accordingly. Lenses can be deactivated without an action.\n</p>\n<ul>\n <li>Red: Rage</li>\n <li>Blue: Sorrow</li>\n <li>Yellow: Terror</li>\n <li>Pink: Horny</li>\n <li>Green: Envy</li>\n <li>Gray: Flatlined</li>\n</ul>\n<p>Fashionware. Requires Neural Link.</p>"
     },
     "OptiShield": {
-      "name": "Escudo Óptico",
-      "description": "<p>Lentes espejadas retractables incrustadas. Cuando se activa como acción, el usuario es inmune a efectos negativos de luz brillante, como por ejemplo de granadas cegadoras.</p>"
+      "name": "OptiShield",
+      "description": "<p>\n Embedded retractable Mirrorshades. When activated as an Action, user is immune\n to negative effects of bright light, such as from flashbangs.\n</p>"
     },
     "PerfectFit Cyberfoot": {
-      "name": "Ciberpie CalcePerfecto",
-      "description": "<p>Ajusta el tamaño de los pies para encajar perfectamente con cualquier calzado. El usuario puede ignorar las penalizaciones por llevar calzado, que de lo contrario sería incómodo o impracticable.<br>Se puede instalar en la pierna de carne si es la única pieza de ciberware de esa pierna.</p>"
+      "name": "PerfectFit Cyberfoot",
+      "description": "<p>\n Adjust foot size to perfectly fit any footwear. User can ignore penalties for\n wearing footwear that would otherwise be uncomfortable or impracticable.<br />Can\n be installed in meat leg if it’s the only piece of cyberware in that\n leg.\n</p>"
     },
     "PersonalPak KibbleWarmer": {
-      "name": "Calentador de Paquetes de Kibble Personal",
-      "description": "<p>Compartimento interno con un elemento de calefacción de alta potencia, ideal para calentar comidas pre-empaquetadas.</p>"
+      "name": "PersonalPak KibbleWarmer",
+      "description": "<p>\n Internal compartment with a high-powered heating element, ideal for warming up\n pre-packaged meals.\n</p>"
     },
     "Poser Chip": {
-      "name": "Chip Imitador",
-      "description": "<p>Chipware. Permite al usuario imitar sin esfuerzo los patrones de voz y la personalidad preprogramada. Ciberware de edición estándar para Pandillas de Imitadores.</p>\n<ul>\n<li>+4 a Chequeos de Actuación al imitar esa personalidad específica.</li>\n<li>+5 a Chequeos de Actuación con Roleplay convincente.</li>\n</ul>\n<p>Los Chips de Imitación que vienen programados con innumerables horas de imágenes de celebridades cuestan 500ed. Chips de Imitación más personalizados programados con más de 10 horas de imágenes de un coste individual privado de 1000ed.</p>"
+      "name": "Poser Chip",
+      "description": "<p>\n Chipware. Allows User to effortlessly mimic speech patterns and mannerisms of\n a pre-programmed personality. Standard-issue Cyberware for Poser Gangs.\n</p>\n<ul>\n <li>+4 to Acting Checks when imitating that specific personality.</li>\n <li>+5 to Acting Checks with convincing Roleplay.</li>\n</ul>\n<p>\n Poser Chips programmed with countless hours of celebrity footage cost 500eb.\n More personalized Poser Chips programmed with 10+ hours of footage of a\n private individual cost 1000eb.\n</p>"
     },
     "Professional Cyberhand": {
       "name": "Professional Cyberhand",
       "description": "<p>A cyberhand capable of wireless interface and up to 50% typing speed increase.</p>"
     },
     "Pursuit Security Inc. Personal Shredder": {
-      "name": "Triturador Personal de Pursuit Security Inc.",
-      "description": "<p>Triturador de papel de alto impacto, puede ser ocultado. Tiene un compartimento de almacenamiento interno para los residuos de papel.</p>"
+      "name": "Pursuit Security Inc. Personal Shredder",
+      "description": "<p>\n Heavy duty paper shredder, can be concealed. Features an internal storage for\n paper shreds.\n</p>"
     },
     "Reflex Co-Processor": {
-      "name": "Co-Procesador Reflex",
-      "description": "<p>Implante Neuronal. Niega el requisito de REF para esquivar balas. (Ver cromo negro pg. 21 para más detalles)</p>"
+      "name": "Reflex Co-Processor",
+      "description": "<p>Neuralware. Negates REF requirement to dodge bullets.</p>"
     },
     "Romanova Cyberlegs": {
-      "name": "Ciberpiernas Romanova",
-      "description": "<p>Ciberpiernas de alta moda con cuchillas integradas en cada talón. Las cuchillas no pueden ser eliminadas.</p>\n<p>Ciberpiernas emparejadas, 1000eb para ambas piernas. Cada pierna tiene 3 ranuras para las opciones de Ciberpierna. Tira solo una vez para registrar la perdida de humanidad del par de piernas. Cada pierna puede sufrir lesiones críticas separadas y debe ser reparada individualmente.</p>"
+      "name": "Romanova Cyberlegs",
+      "description": "<p>\n High fashion Cyberlegs with integrated Talon Foot blades in each heel. Blades\n can not be removed.\n</p>\n<p>\n Paired Cyberlegs, 1000eb for both legs. Each leg has 3 slots for Cyberleg or\n Cyberlimb Options. Roll Humanity Loss once for the pair of legs. Each leg can\n suffer separate Critical Injuries and must be repaired individually.\n</p>"
     },
     "Signal Jammer": {
       "name": "Signal Jammer",
       "description": "<p>Produces a jammer field over 6m/yd by 6m/yd (3x3 squares). Any wireless transmission attempt must succeed at a <strong>DV13 Electronics/Security Tech</strong> <strong>Check</strong> Action.</p>"
     },
     "Smart Lens": {
-      "name": "Lente Inteligente",
-      "description": "<p>Da a un usuario una única opción de ciberóptico. Puede usar una lente inteligente por ojo.</p>"
+      "name": "Smart Lens",
+      "description": "<p>Gives a user a single Cybereye Option. Can use one Smart Lens per eye.</p>"
     },
     "Sponsored Covering (Cyberarm)": {
-      "name": "Cobertura Patrocinada (Ciberbrazo)",
-      "description": "<p>Gana 20ed mensualmente al llevar un anuncio luminoso en tu Ciberbrazo. El usuario puede ser responsable de pagar la cuota de instalación. El patrocinio corporativo puede ser revocado si se violan los términos, tales como oscurecer el anuncio con ropa o envolverse en actividades inapropiadas.</p>\n<p>No se puede instalar en el brazo de carne.</p>"
+      "name": "Sponsored Covering (Cyberarm)",
+      "description": "<p>\n Earn 20eb monthly by sporting a light-up advertisement on your Cyberarm. User\n may be responsible for paying the installation fee. Corporate sponsorship may\n be revoked if the terms are violated, such as obscuring the advertisement with\n clothing or engaging in “off-brand” activities.\n</p>\n<p>Can not be installed in Meat arm.</p>"
     },
     "Sponsored Covering (Cyberleg)": {
-      "name": "Cobertura Patrocinada (Ciberpierna)",
-      "description": "<p>Gana 20ed mensualmente al llevar un anuncio luminoso en tu Ciberpierna. El usuario puede ser responsable de pagar la cuota de instalación. El patrocinio corporativo puede ser revocado si se violan los términos, tales como oscurecer el anuncio con ropa o envolverse en actividades inapropiadas.</p>\n<p>No se puede instalar en el brazo de carne.</p>"
+      "name": "Sponsored Covering (Cyberleg)",
+      "description": "<p>\n Earn 20eb monthly by sporting a light-up advertisement on your Cyberleg. User\n may be responsible for paying the installation fee. Corporate sponsorship may\n be revoked if the terms are violated, such as obscuring the advertisement with\n clothing or engaging in “off-brand” activities.\n</p>\n<p>Can not be installed in Meat leg.</p>"
     },
     "VIC Jammer": {
       "name": "VIC Jammer",
       "description": "<p>An eye jammer that scrambles digital optics.</p>"
     },
     "Watch-Man": {
-      "name": "Mira-Man",
-      "description": "<p>\n  Internal Agent with retractable screen on the user's forearm. Requires a\n  Cyberarm.\n</p>\n"
+      "name": "Watch-Man",
+      "description": "<p>\n Internal Agent with retractable screen on the user's forearm. Requires a\n Cyberarm.\n</p>"
     },
     "Xtra-Dex Smart Glove": {
       "name": "Xtra-Dex Smart Glove",
-      "description": "<p>\n  A Smart Glove with Cyberfinger support. Has 2 Option Slots for Cyberarm\n  Options and is treated as a\n  @UUID[Compendium.cyberpunk-red-core.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular\n  Finger Cyberhand} for the sake of installing the 5 supported Cyberfingers*.\n</p>\n<p>\n  Requires Interface Plugs to access Cyberarm/Cyberfinger Options installed in\n  the glove.\n</p>\n<p>*Modular Finger Cyberhand must be added after Installation.</p>\n"
+      "description": "<p>\n A Smart Glove with Cyberfinger support. Has 2 Option Slots for Cyberarm\n Options and is treated as a\n @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular\n Finger Cyberhand} for the sake of installing the 5 supported Cyberfingers*.\n</p>\n<p>\n Requires Interface Plugs to access Cyberarm/Cyberfinger Options installed in\n the glove.\n</p>\n<p>*Modular Finger Cyberhand must be added after Installation.</p>"
     }
   }
 }

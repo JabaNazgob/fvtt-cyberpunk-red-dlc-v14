@@ -4,7 +4,7 @@
   "entries": {
     "Arrow (Junk)": {
       "name": "Arrow (Junk)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.</p>"
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Big Dreem Rounds": {
       "name": "Big Dreem Rounds",
@@ -12,7 +12,7 @@
     },
     "Heavy Pistol (Junk)": {
       "name": "Heavy Pistol (Junk)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with more than 1SP.</p>"
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with more than 1SP.\n</p>"
     },
     "Heavy Pistol (Small Game)": {
       "name": "Heavy Pistol (Small Game)",
@@ -20,15 +20,15 @@
     },
     "M-02 Rounds": {
       "name": "M-02 Rounds",
-      "description": "<p>Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle. Comes in a drum of 80.</p>"
+      "description": "<p>\n Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n Comes in a drum of 80.\n</p>"
     },
     "MagnaSlot BatteryBrick": {
       "name": "MagnaSlot BatteryBrick",
-      "description": "<p>Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can be recharged in 1 hour.</p>"
+      "description": "<p>\n Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can\n be recharged in 1 hour.\n</p>"
     },
     "Medium Pistol (Junk)": {
       "name": "Medium Pistol (Junk)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.</p>"
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Medium Pistol (Small Game)": {
       "name": "Medium Pistol (Small Game)",
@@ -36,19 +36,19 @@
     },
     "Nova Model 757 Rounds": {
       "name": "Nova Model 757 Rounds",
-      "description": "<p>For use only in the Nova Model 757 Cityhunter. Comes in packs of 18 instead of the normal 10.</p>\n<p>&nbsp;</p>\n<p>Req Targeting Scope Cyberware, otherwise won't fire. If miss single attack by 4 or less, roll second attack at same DV 1d10+10 (not normal stat). Can add luck. Target can dodge the second roll as normal if able to do so.</p>"
+      "description": "<p>\n For use only in the Nova Model 757 Cityhunter. Comes in packs of 18 instead of\n the normal 10.\n</p>\n\n<p>\n Req Targeting Scope Cyberware, otherwise won't fire. If miss single attack by\n 4 or less, roll second attack at same DV 1d10+10 (not normal stat). Can add\n luck. Target can dodge the second roll as normal if able to do so.\n</p>"
     },
     "Paintball (Biotoxin)": {
-      "name": "Paintball (Biotossina)",
-      "description": "<p>Created from 3 Vials of Biotoxin strapped together. Deals no direct damage on hit.</p>"
+      "name": "Paintball (Biotoxin)",
+      "description": "<p>\n Created from 3 Vials of Biotoxin strapped together. Deals no direct damage on\n hit.\n</p>"
     },
     "Paintball (Poison)": {
-      "name": "Paintball (Veleno)",
-      "description": "<p>Created from 3 Vials of Poison strapped together. Deals no direct damage on hit.</p>"
+      "name": "Paintball (Poison)",
+      "description": "<p>\n Created from 3 Vials of Poison strapped together. Deals no direct damage on\n hit.\n</p>"
     },
     "Rifle (Junk)": {
       "name": "Rifle (Junk)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.</p>"
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Rifle (Small Game)": {
       "name": "Rifle (Small Game)",
@@ -56,15 +56,15 @@
     },
     "Shotgun Slug (Junk)": {
       "name": "Shotgun Slug (Junk)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.</p>"
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Sub-Flechette Rounds": {
       "name": "Sub-Flechette Rounds",
-      "description": "<p>Special ammo to only be used with the Malorian Arms Sub-Flechette Gun. Ablates armor by 4 SP per hit.</p>"
+      "description": "<p>\n Special ammo to only be used with the Malorian Arms Sub-Flechette Gun. Ablates\n armor by 4 SP per hit.\n</p>"
     },
     "Very Heavy Pistol (Junk)": {
       "name": "Very Heavy Pistol (Junk)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.</p>"
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Very Heavy Pistol (Small Game)": {
       "name": "Very Heavy Pistol (Small Game)",
@@ -72,8 +72,7 @@
     },
     "Molotov Cocktail": {
       "name": "Molotov Cocktail",
-      "description": "<p>Fragile Incendiary Grenade. Set a target Deadly on Fire (see CP:R p.180)</p>",
-      "dvTable": "VD Arma da Lancio"
+      "description": "<p>Fragile Incendiary Grenade. Set a target Deadly on Fire (see CP:R p.180)</p>"
     }
   }
 }

@@ -3,77 +3,76 @@
   "mapping": {},
   "entries": {
     "Arrow (Junk)": {
-      "name": "Стрела (хлам)",
-      "description": "<p>Хламные патроны; дешёвые, но наносят на 1d6 меньше урона любой цели, у которой больше 1ОС.</p>"
+      "name": "Arrow (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Big Dreem Rounds": {
-      "name": "Патроны для «Большой мечты»",
-      "description": "<p>Специальные патроны для «Большой мечты».</p>"
+      "name": "Big Dreem Rounds",
+      "description": "<p>Custom Ammo for the Teen Dreem.</p>"
     },
     "Heavy Pistol (Junk)": {
-      "name": "Для пистолета крупного калибра (хлам)",
-      "description": "<p>Хламные патроны; дешёвые, но наносят на 1d6 меньше урона любой цели, у которой больше 1ОС.</p>"
+      "name": "Heavy Pistol (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with more than 1SP.\n</p>"
     },
     "Heavy Pistol (Small Game)": {
-      "name": "Для пистолета крупного калибра (на мелкую дичь)",
-      "description": "<p>Патрон на мелкую дичь. Против людей не очень эффективно. Наносит на 2d6 меньше урона.</p>"
+      "name": "Heavy Pistol (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "M-02 Rounds": {
-      "name": "Патроны для М-02",
-      "description": "<p>Специальные бронебойные патроны для крупнокалиберной винтовки Штернмейер М-02. Идёт в комплекте с барабанным магазином на 80 патронов.</p>"
+      "name": "M-02 Rounds",
+      "description": "<p>\n Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n Comes in a drum of 80.\n</p>"
     },
     "MagnaSlot BatteryBrick": {
-      "name": "Аккумулятор «МагнаСлот»",
-      "description": "<p>Аккумулятор, который можно использовать только в «Киберруке-дугомёте „Блицкриг“». Время зарядки — один час.</p>"
+      "name": "MagnaSlot BatteryBrick",
+      "description": "<p>\n Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can\n be recharged in 1 hour.\n</p>"
     },
     "Medium Pistol (Junk)": {
-      "name": "Для пистолета среднего калибра (хлам)",
-      "description": "<p>Хламные патроны; дешёвые, но наносят на 1d6 меньше урона любой цели, у которой больше 1ОС.</p>"
+      "name": "Medium Pistol (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Medium Pistol (Small Game)": {
-      "name": "Для пистолета среднего калибра (на мелкую дичь)",
-      "description": "<p>Патрон на мелкую дичь. Против людей не очень эффективно. Наносит на 2d6 меньше урона.</p>"
+      "name": "Medium Pistol (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "Nova Model 757 Rounds": {
-      "name": "Боеприпас для Нова Модель 757",
-      "description": "<p>Только для использования с Моделью 757 «Городской охотник». В одном наборе 18 патронов вместо обычных десяти.</p>\n<p>&nbsp;</p>\n<p>Требует киберимплант «Прицел», иначе не выстрелит. Если у одиночного выстрела выпал промах на четыре или меньше, нужно провести ещё один бросок атаки с той же СЛ, но к броску добавляется 10 вместо обычного показателя характеристики. Можно использовать УДЧ. Цель может увернуться от такого выстрела как обычно.</p>"
+      "name": "Nova Model 757 Rounds",
+      "description": "<p>\n For use only in the Nova Model 757 Cityhunter. Comes in packs of 18 instead of\n the normal 10.\n</p>\n\n<p>\n Req Targeting Scope Cyberware, otherwise won't fire. If miss single attack by\n 4 or less, roll second attack at same DV 1d10+10 (not normal stat). Can add\n luck. Target can dodge the second roll as normal if able to do so.\n</p>"
     },
     "Paintball (Biotoxin)": {
-      "name": "Пейнтбольные шарики (с биотоксином)",
-      "description": "<p>Можно собрать из трёх ампул с биотоксином. При попадании не наносит непосредственного урона.</p>"
+      "name": "Paintball (Biotoxin)",
+      "description": "<p>\n Created from 3 Vials of Biotoxin strapped together. Deals no direct damage on\n hit.\n</p>"
     },
     "Paintball (Poison)": {
-      "name": "Пейнтбольные шарики (с ядом)",
-      "description": "<p>Можно собрать из трёх ампул с ядом. При попадании не наносит непосредственного урона.</p>"
+      "name": "Paintball (Poison)",
+      "description": "<p>\n Created from 3 Vials of Poison strapped together. Deals no direct damage on\n hit.\n</p>"
     },
     "Rifle (Junk)": {
-      "name": "Винтовочный (хлам)",
-      "description": "<p>Хламные патроны; дешёвые, но наносят на 1d6 меньше урона любой цели, у которой больше 1ОС.</p>"
+      "name": "Rifle (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Rifle (Small Game)": {
-      "name": "Винтовочный (на мелкую дичь)",
-      "description": "<p>Патрон на мелкую дичь. Против людей не очень эффективно. Наносит на 2d6 меньше урона.</p>"
+      "name": "Rifle (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "Shotgun Slug (Junk)": {
-      "name": "Жакан (хлам)",
-      "description": "<p>Хламные патроны; дешёвые, но наносят на 1d6 меньше урона любой цели, у которой больше 1ОС.</p>"
+      "name": "Shotgun Slug (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Sub-Flechette Rounds": {
-      "name": "Боеприпас для пистолета-флешеттомёта",
-      "description": "<p>Особый боеприпас только для использования с пистолетом-флешеттомётом. Повреждает броню на 4 ОС за попадание.</p>"
+      "name": "Sub-Flechette Rounds",
+      "description": "<p>\n Special ammo to only be used with the Malorian Arms Sub-Flechette Gun. Ablates\n armor by 4 SP per hit.\n</p>"
     },
     "Very Heavy Pistol (Junk)": {
-      "name": "Для пистолета сверхкрупного калибра (хлам)",
-      "description": "<p>Хламные патроны; дешёвые, но наносят на 1d6 меньше урона любой цели, у которой больше 1ОС.</p>"
+      "name": "Very Heavy Pistol (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Very Heavy Pistol (Small Game)": {
-      "name": "Для пистолета сверхкрупного калибра (на мелкую дичь)",
-      "description": "<p>Патрон на мелкую дичь. Против людей не очень эффективно. Наносит на 2d6 меньше урона.</p>"
+      "name": "Very Heavy Pistol (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "Molotov Cocktail": {
-      "name": "Коктейль Молотова",
-      "description": "<p>Хрупкая зажигательная граната. Поджигает цель на уровень «Смертельный» (см. Основную книгу правил, стр. 180)</p>",
-      "dvTable": "СЛ Метательное оружие"
+      "name": "Molotov Cocktail",
+      "description": "<p>Fragile Incendiary Grenade. Set a target Deadly on Fire (see CP:R p.180)</p>"
     }
   }
 }

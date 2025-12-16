@@ -3,16 +3,16 @@
   "mapping": {},
   "entries": {
     "Arrow": {
-      "name": "Flecha",
-      "description": "<p>Munición básica, nada especial.</p>"
+      "name": "Arrow",
+      "description": "<p>Basic ammo, nothing special.</p>"
     },
     "Elflines Online Playing Cards": {
-      "name": "Cartas de Juego de Elflines Online",
-      "description": "<p>Cartas destinadas a ser usadas como parte del juego Elflines Online el Juego de Cartas.</p>"
+      "name": "Elflines Online Playing Cards",
+      "description": "<p>\n Cards meant to be used as part of playing Elfines Online The Trading Card\n Game.\n</p>"
     },
     "Poison Arrow": {
-      "name": "Flecha Venenosa",
-      "description": "<p>Sin daño inmediato. Al golpear, tira Resistir Tortugas/Drogas contra VD13. Al fallar 2d6 de daño a PV sin ablación. </p>"
+      "name": "Poison Arrow",
+      "description": "<p>\n No immediate damage. If meat target hit,\n <strong>DV13 Resist Torture/Drugs</strong> Check. On a fail 2d6 damage to HP.\n No Ablation.\n</p>"
     }
   }
 }

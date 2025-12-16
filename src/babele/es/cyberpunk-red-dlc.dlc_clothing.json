@@ -3,8 +3,8 @@
   "mapping": {},
   "entries": {
     "Superflash Jacket": {
-      "name": "Chaqueta Superflash",
-      "description": "<p>Una bonita chaqueta que contiene una sorpresa; con una acción, cualquier persona que use esta chaqueta puede consumir una batería para encender una luz cegadora. Trata como una granada de Flashbang sin la lesión de oído crítica, centrada en el portador.</p>"
+      "name": "Superflash Jacket",
+      "description": "<p>\n A nice jacket carrying a surprise; using an action anyone wearing this jacket\n can consume a battery to let off a blinding light.\n</p>"
     }
   }
 }

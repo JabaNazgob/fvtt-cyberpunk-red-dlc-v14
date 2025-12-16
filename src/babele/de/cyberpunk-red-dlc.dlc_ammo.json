@@ -3,77 +3,76 @@
   "mapping": {},
   "entries": {
     "Arrow (Junk)": {
-      "name": "Pfeil (Schrott)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.</p>"
+      "name": "Arrow (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Big Dreem Rounds": {
-      "name": "Big Dreem Munition",
-      "description": "<p>Spezielle Munition für die Teen Dreem.</p>"
+      "name": "Big Dreem Rounds",
+      "description": "<p>Custom Ammo for the Teen Dreem.</p>"
     },
     "Heavy Pistol (Junk)": {
-      "name": "Schwere Pistole (Schrott)",
-      "description": "<p>Schrottmunition; billig, aber verursacht 1d6 weniger Schaden gegen jeden mit 1 SW Panzerung oder mehr.</p>"
+      "name": "Heavy Pistol (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with more than 1SP.\n</p>"
     },
     "Heavy Pistol (Small Game)": {
-      "name": "Schwere Pistole (Kleinwild)",
-      "description": "<p>Kleinwildmunition; nicht gut gegen Leute. Verursacht 2d6 weniger Schaden.</p>"
+      "name": "Heavy Pistol (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "M-02 Rounds": {
-      "name": "M-02 Munition",
-      "description": "<p>Spezielle panzerbrechende Munition, nur für die Verwendung mit dem Schweren Sturmgewehr Sternmeyer M-02. Trommel von 80 Schuss.</p>"
+      "name": "M-02 Rounds",
+      "description": "<p>\n Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n Comes in a drum of 80.\n</p>"
     },
     "MagnaSlot BatteryBrick": {
       "name": "MagnaSlot BatteryBrick",
-      "description": "<p>Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can be recharged in 1 hour.</p>"
+      "description": "<p>\n Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can\n be recharged in 1 hour.\n</p>"
     },
     "Medium Pistol (Junk)": {
-      "name": "Mittelschwere Pistole (Schrott)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.</p>"
+      "name": "Medium Pistol (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Medium Pistol (Small Game)": {
-      "name": "Mittelschwere Pistole (Kleinwild)",
-      "description": "<p>Kleinwildmunition; nicht gut gegen Leute. Verursacht 2d6 weniger Schaden.</p>"
+      "name": "Medium Pistol (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "Nova Model 757 Rounds": {
-      "name": "Nova Model 757 Munition",
-      "description": "<p>Nur für die Verwendung mit Nova Model 757 Cityhunter. Jeweils 18er-Packungen statt der normalen mit 10 Schuss.</p>\n<p>&nbsp;</p>\n<p>Benötigt Zielerfassung-Cyberware zum Abschießen. Wenn ein Einzelschuss um 4 oder weniger verfehlt, wirf einen zweiten Angriff gegen den selben SG mittels 1d10+10 (ohne deine eigenen Werte zu nutzen, GLK kann wie normal genutzt werden). Das Ziel kann wie gewohnt versuchen, dem zweiten Schuss auszuweichen, wenn es dazu in der Lage ist.</p>"
+      "name": "Nova Model 757 Rounds",
+      "description": "<p>\n For use only in the Nova Model 757 Cityhunter. Comes in packs of 18 instead of\n the normal 10.\n</p>\n\n<p>\n Req Targeting Scope Cyberware, otherwise won't fire. If miss single attack by\n 4 or less, roll second attack at same DV 1d10+10 (not normal stat). Can add\n luck. Target can dodge the second roll as normal if able to do so.\n</p>"
     },
     "Paintball (Biotoxin)": {
-      "name": "Farbkugel (Biotoxin)",
-      "description": "<p>Aus 3 Flaschen Biotoxin zusammengebastelt. Verursacht bei Treffern keinen direkten Schaden.</p>"
+      "name": "Paintball (Biotoxin)",
+      "description": "<p>\n Created from 3 Vials of Biotoxin strapped together. Deals no direct damage on\n hit.\n</p>"
     },
     "Paintball (Poison)": {
-      "name": "Farbkugel (Gift)",
-      "description": "<p>Aus 3 Flaschen Gift zusammengebastelt. Verursacht bei Treffern keinen direkten Schaden.</p>"
+      "name": "Paintball (Poison)",
+      "description": "<p>\n Created from 3 Vials of Poison strapped together. Deals no direct damage on\n hit.\n</p>"
     },
     "Rifle (Junk)": {
-      "name": "Gewehr (Schrott)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.</p>"
+      "name": "Rifle (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Rifle (Small Game)": {
-      "name": "Gewehr (Kleinwild)",
-      "description": "<p>Kleinwildmunition; nicht gut gegen Leute. Verursacht 2d6 weniger Schaden.</p>"
+      "name": "Rifle (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "Shotgun Slug (Junk)": {
-      "name": "Flintenpatrone (Schrott)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.</p>"
+      "name": "Shotgun Slug (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Sub-Flechette Rounds": {
-      "name": "Sub-Flechette-Munition",
-      "description": "<p>Spezielle Munition für die Malorian Arms Sub-Flechette-Maschinenpistole. Trägt Panzerung um 4 SW pro Treffer ab.</p>"
+      "name": "Sub-Flechette Rounds",
+      "description": "<p>\n Special ammo to only be used with the Malorian Arms Sub-Flechette Gun. Ablates\n armor by 4 SP per hit.\n</p>"
     },
     "Very Heavy Pistol (Junk)": {
-      "name": "Sehr schwere Pistole (Schrott)",
-      "description": "<p>Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.</p>"
+      "name": "Very Heavy Pistol (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Very Heavy Pistol (Small Game)": {
-      "name": "Sehr Schwere Pistole (Kleinwild)",
-      "description": "<p>Kleinwildmunition; nicht gut gegen Leute. Verursacht 2d6 weniger Schaden.</p>"
+      "name": "Very Heavy Pistol (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "Molotov Cocktail": {
-      "name": "Molotowcocktail",
-      "description": "<p>Empfindliche Brandgranate. Ziel gilt als Tödlich Brennend. (Siehe CP:R S. 180)</p>",
-      "dvTable": "SG Wurfwaffe"
+      "name": "Molotov Cocktail",
+      "description": "<p>Fragile Incendiary Grenade. Set a target Deadly on Fire (see CP:R p.180)</p>"
     }
   }
 }

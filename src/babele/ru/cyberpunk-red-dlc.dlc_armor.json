@@ -3,20 +3,20 @@
   "mapping": {},
   "entries": {
     "Esporma Environment Suit": {
-      "name": "Скафандр от Эспорма",
-      "description": "<p>Бронированный костюм индивидуальной защиты. Предохраняет от излучения и идёт в комплекте с кислородным баллоном, которого хватает на 30 минут. Баллон заполнится вновь, если провести час на свежем воздухе.</p>\n<p>Наномашины восстанавливают 1ОС каждый час, пока броня не получает повреждений.</p>"
+      "name": "Esporma Environment Suit",
+      "description": "<p>\n Armored Radiation Suit. Protects the wearer from Radiation and comes with an\n Oxygen Tank that lasts for 30 minutes which can be refilled by spending an\n hour in clean air.\n</p>\n<p>Nanomachines restore 1SP every hour SP isn't lost on the armor</p>"
     },
     "FleshWeave (Armor)": {
-      "name": "Вплетение в плоть (броня)",
-      "description": "<p>Предмет брони для киберимпланта «Вплетение в плоть»</p>"
+      "name": "FleshWeave (Armor)",
+      "description": "<p>Armor Item for Sycust FleshWeave Cyberware.</p>"
     },
     "PackShield": {
-      "name": "КомпактЩит",
-      "description": "<p>Гибрид Рюкзака в деловом стиле и Пуленепробиваемого щита.</p>\n<p>В нём можно носить вещи как в @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Дорожной сумке} или использовать в качестве щита.</p>\n<p>Предоставляет защиту только если взят в руку.</p>\n<p>Нельзя установить в @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Выдвижной щит}.</p>"
+      "name": "PackShield",
+      "description": "<p>Businesswear Backpack Bulletproof Shield hybrid.</p>\n<p>\n Can carry items like a\n @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},\n and be equipped in your hand like a shield.\n</p>\n<p>Only provides protection when equipped in a hand.</p>\n<p>\n Cannot be installed in\n @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup\n Shield}.\n</p>"
     },
     "Scavenged Armor": {
-      "name": "Перелатанная броня",
-      "description": "<p>Перелатанный лёгкий бронекостюм, который невозможно починить. Полные правила на стр. 4 Чёрного хрома плюс.</p>"
+      "name": "Scavenged Armor",
+      "description": "<p>\n A scavenged set of Light Armorjack body armor that is unable to be repaired.\n</p>"
     }
   }
 }

@@ -3,77 +3,76 @@
   "mapping": {},
   "entries": {
     "Arrow (Junk)": {
-      "name": "Flecha (Basura)",
-      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+      "name": "Arrow (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Big Dreem Rounds": {
-      "name": "Rondas de Gran Dreem",
-      "description": "<p>Munición personalizada para la Dreem Adolescente.</p>"
+      "name": "Big Dreem Rounds",
+      "description": "<p>Custom Ammo for the Teen Dreem.</p>"
     },
     "Heavy Pistol (Junk)": {
-      "name": "Pistola Pesada (Basura)",
-      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+      "name": "Heavy Pistol (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with more than 1SP.\n</p>"
     },
     "Heavy Pistol (Small Game)": {
-      "name": "Pistola Pesada (Juguete)",
-      "description": "<p>Munición de juguete, no ideal para la gente. Inflige 2d6 menos de daño.</p>"
+      "name": "Heavy Pistol (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "M-02 Rounds": {
-      "name": "Rondas M-02",
-      "description": "<p>Rondas de munición perforante de armadura especiales solo para uso en el Rifle Pesado de Sternmeyer M-02. Viene en un tambor de 80.</p>"
+      "name": "M-02 Rounds",
+      "description": "<p>\n Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n Comes in a drum of 80.\n</p>"
     },
     "MagnaSlot BatteryBrick": {
-      "name": "Superbateria MagnaSlot",
-      "description": "<p>Paquete de batería que solo se ajusta al Ciberbrazo de Radline Blitzkrieg Lanza-Relámpagos. Se puede recargar en 1 hora.</p>"
+      "name": "MagnaSlot BatteryBrick",
+      "description": "<p>\n Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can\n be recharged in 1 hour.\n</p>"
     },
     "Medium Pistol (Junk)": {
-      "name": "Pistola Media (Basura)",
-      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+      "name": "Medium Pistol (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Medium Pistol (Small Game)": {
-      "name": "Pistola Media (Juguete)",
-      "description": "<p>Munición de juguete, no ideal para la gente. Inflige 2d6 menos de daño.</p>"
+      "name": "Medium Pistol (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "Nova Model 757 Rounds": {
-      "name": "Rondas del Modelo de Nova 757",
-      "description": "<p>Solo para uso en el Modelo Cityhunter 757 de Nova. Viene en paquetes de 18 en lugar de los 10 normales.</p><p>&nbsp;</p><p>Requiere implante de sistema de puntería, de lo contrario no se disparará. Si falla un ataque único por 4 o menos, tira de nuevo un segundo ataque al mismo DV 1d10+10 (sin atributo normal). Puede añadir suerte. El objetivo puede esquivar el segundo tiro como normal si es capaz de hacerlo</p>"
+      "name": "Nova Model 757 Rounds",
+      "description": "<p>\n For use only in the Nova Model 757 Cityhunter. Comes in packs of 18 instead of\n the normal 10.\n</p>\n\n<p>\n Req Targeting Scope Cyberware, otherwise won't fire. If miss single attack by\n 4 or less, roll second attack at same DV 1d10+10 (not normal stat). Can add\n luck. Target can dodge the second roll as normal if able to do so.\n</p>"
     },
     "Paintball (Biotoxin)": {
-      "name": "Bola de pintura (Biotoxina)",
-      "description": "<p>Poco más que 3 Frascos de Biotoxina atados. No inflige daño directo al golpear.</p>"
+      "name": "Paintball (Biotoxin)",
+      "description": "<p>\n Created from 3 Vials of Biotoxin strapped together. Deals no direct damage on\n hit.\n</p>"
     },
     "Paintball (Poison)": {
-      "name": "Bola de pintura (Veneno)",
-      "description": "<p>Poco más que 3 Frascos de Biotoxina atados. No inflige daño directo al golpear.</p>"
+      "name": "Paintball (Poison)",
+      "description": "<p>\n Created from 3 Vials of Poison strapped together. Deals no direct damage on\n hit.\n</p>"
     },
     "Rifle (Junk)": {
-      "name": "Rifle (Basura)",
-      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+      "name": "Rifle (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Rifle (Small Game)": {
-      "name": "Rifle (Juguete)",
-      "description": "<p>Munición de juguete, no ideal para la gente. Inflige 2d6 menos de daño.</p>"
+      "name": "Rifle (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "Shotgun Slug (Junk)": {
-      "name": "Posta de Escopeta (Basura)",
-      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+      "name": "Shotgun Slug (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Sub-Flechette Rounds": {
-      "name": "Munición Sub-Flechette",
-      "description": "<p>Munición especial para usar solo con la pistola Sub-Flechette de Malorian Arms. Produce ablacion de armadura de 4 CP por golpe.</p>"
+      "name": "Sub-Flechette Rounds",
+      "description": "<p>\n Special ammo to only be used with the Malorian Arms Sub-Flechette Gun. Ablates\n armor by 4 SP per hit.\n</p>"
     },
     "Very Heavy Pistol (Junk)": {
-      "name": "Pistola Muy Pesada (Basura)",
-      "description": "<p>Munición basura; barata, pero inflige 1d6 menos de daño a cualquiera con más de 1CP.</p>"
+      "name": "Very Heavy Pistol (Junk)",
+      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
     },
     "Very Heavy Pistol (Small Game)": {
-      "name": "Pistola Muy Pesada (Juguete)",
-      "description": "<p>Munición de juguete, no ideal para la gente. Inflige 2d6 menos de daño.</p>"
+      "name": "Very Heavy Pistol (Small Game)",
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
     "Molotov Cocktail": {
-      "name": "Coctél Molotov",
-      "description": "<p>Frágil Granada Incendiaria. Enciende a un objetivo en un fuego mortal (ver CP:R p.180)</p>",
-      "dvTable": "VD Armas arrojadizas"
+      "name": "Molotov Cocktail",
+      "description": "<p>Fragile Incendiary Grenade. Set a target Deadly on Fire (see CP:R p.180)</p>"
     }
   }
 }

@@ -3,16 +3,16 @@
   "mapping": {},
   "entries": {
     "Arrow": {
-      "name": "Стрела",
-      "description": "<p>Обычный боеприпас, ничего особенного.</p>"
+      "name": "Arrow",
+      "description": "<p>Basic ammo, nothing special.</p>"
     },
     "Elflines Online Playing Cards": {
-      "name": "Карточки «Эльфлайнс Онлайн»",
-      "description": "<p>Карточки для коллекционной карточной игры «Эльфлайнс Онлайн»</p>"
+      "name": "Elflines Online Playing Cards",
+      "description": "<p>\n Cards meant to be used as part of playing Elfines Online The Trading Card\n Game.\n</p>"
     },
     "Poison Arrow": {
-      "name": "Отравленная стрела",
-      "description": "<p>При попадании не наносит урон, но необходимо пройти проверку <strong>Сопротивления пыткам/препаратам СЛ13</strong>. В случае провала цель получает 2d6 урона здоровью. Броня не получает повреждение.</p>"
+      "name": "Poison Arrow",
+      "description": "<p>\n No immediate damage. If meat target hit,\n <strong>DV13 Resist Torture/Drugs</strong> Check. On a fail 2d6 damage to HP.\n No Ablation.\n</p>"
     }
   }
 }

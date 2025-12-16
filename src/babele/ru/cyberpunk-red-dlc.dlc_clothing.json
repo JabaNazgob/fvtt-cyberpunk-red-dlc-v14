@@ -3,8 +3,8 @@
   "mapping": {},
   "entries": {
     "Superflash Jacket": {
-      "name": "Куртка «Супервспышка»",
-      "description": "<p>Отличная куртка с сюрпризом. Потратив одну батарею, одетый в эту куртку персонаж может ослепить всех вокруг.</p>"
+      "name": "Superflash Jacket",
+      "description": "<p>\n A nice jacket carrying a surprise; using an action anyone wearing this jacket\n can consume a battery to let off a blinding light.\n</p>"
     }
   }
 }

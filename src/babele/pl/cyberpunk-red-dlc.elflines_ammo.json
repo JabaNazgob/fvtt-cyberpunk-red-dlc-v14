@@ -8,11 +8,11 @@
     },
     "Elflines Online Playing Cards": {
       "name": "Elflines Online Playing Cards",
-      "description": "<p>Cards meant to be used as part of playing Elfines Online The Trading Card Game.</p>"
+      "description": "<p>\n Cards meant to be used as part of playing Elfines Online The Trading Card\n Game.\n</p>"
     },
     "Poison Arrow": {
-      "name": "Strzała Trująca",
-      "description": "<p>Brak natychmiastowych obrażeń. Przy trafieniu cel rzuca PT13 Odporność na tortury/narkotyki. Przy niepowodzeniu 2k6 obrażeń do PW. Bez uszkodzenia pancerza.</p>"
+      "name": "Poison Arrow",
+      "description": "<p>\n No immediate damage. If meat target hit,\n <strong>DV13 Resist Torture/Drugs</strong> Check. On a fail 2d6 damage to HP.\n No Ablation.\n</p>"
     }
   }
 }

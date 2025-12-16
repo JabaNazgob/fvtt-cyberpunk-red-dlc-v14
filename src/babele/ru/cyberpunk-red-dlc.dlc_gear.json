@@ -3,204 +3,204 @@
   "mapping": {},
   "entries": {
     "Hummingbird": {
-      "name": "Колибри",
-      "description": "<p>Никакой мишуры, голая вычислительная мощность.</p>\n<p>Два слота только под аппаратное обеспечение</p>\n<p>+1 сетевое действие каждый ход.</p>"
+      "name": "Hummingbird",
+      "description": "<p>No frills, just raw processing power.</p>\n<p>2 slots only for Hardware</p>\n<p>+1 to NET Actions each turn.</p>"
     },
     "Kaliya": {
-      "name": "Калия",
-      "description": "<p>Превосходный вариант для того, чтобы разбирать вражеских нетраннеров. Главное, чтобы у них чёрного льда с собой не было.</p>\n<p>Шесть слотов для программ или аппаратного обеспечения, три дополнительных слота только для программы «Фейерверк».</p>\n<p>Ограничения для программ защиты и чёрного льда: в слоты можно установить только программы «Фейерверк» и «Аспид»</p>"
+      "name": "Kaliya",
+      "description": "<p>\n A fantastic option for dismantling hostile Netrunners. Just hope they\n don’t have any Black ICE.\n</p>\n<p>6 slots for Programs or Hardware, 3 extra slots only for Flak programs.</p>\n<p>\n Restrictions for Defender Programs and Black ICE: Only Flak and Asp can be\n installed in any slot.\n</p>"
     },
     "Kerberos": {
-      "name": "Кербер",
-      "description": "<p>Обрушь геенну огненную на соперников.</p>\n<p>Шесть слотов для программ, пять слотов для аппаратного обеспечения.</p>\n<p>В слоты для программ можно установить только чёрный лёд «Адская гончая».</p>"
+      "name": "Kerberos",
+      "description": "<p>Unleash the fires of Hell upon your rivals.</p>\n<p>6 slots for Programs, 5 slots for Hardware.</p>\n<p>Program slots will only accept Hellhound Black ICE.</p>"
     },
     "Kestrel 2": {
-      "name": "Пустельга 2",
-      "description": "<p>Чёрный лёд не попадёт по тому, до чего не сможет добраться.</p>\n<p>Семь слотов только для программ.</p>\n<p>Непосредственно перед подключением нетраннер может запустить до двух установленных программ «Быстрый Гонзалвес» без сетевого действия.</p>"
+      "name": "Kestrel 2",
+      "description": "<p>Black ICE can’t hit what they can’t catch.</p>\n<p>7 slots only for Programs.</p>\n<p>\n Right after Jacking In, Netrunner can activate a maximum of 2 installed Speedy\n Gonzalvez Programs without a NET Action.\n</p>"
     },
     "Kirama Advanced Deck": {
-      "name": "Продвинутая дека Кирама",
-      "description": "<p>Может быть и не самое помпезное устройство на рынке, но эта кибердека от Кирама обладает превосходной сборкой и оборудована полезными функциями безопасности.</p>\n<p>Пять слотов для программ или аппаратного обеспечения.</p>\n<p>Нетраннер не получает негативных эффектов от небезопасного отключения.</p>"
+      "name": "Kirama Advanced Deck",
+      "description": "<p>\n Though it may not be the flashiest choice, Kirama’s finest Cyberdeck is\n expertly balanced and offers some highly practical safety features.\n</p>\n<p>5 slots for Programs or Hardware.</p>\n<p>Netrunner suffers no negative effects from an Unsafe Jack Out.</p>"
     },
     "Kirama Entry Deck": {
-      "name": "Начальная дека Кирама",
-      "description": "<p>Качественная кибердека в доступном ценовом сегменте для начинающих нетраннеров. Железо не самое последнее, но функции безопасности такие же, как на флагманских кибердеках Кирама.</p>\n<p>Пять слотов только для программ.</p>\n<p>Можно установить только одну программу каждой категории (атака, защита, усиление, чёрный лёд). Нетраннер не получает негативных эффектов от небезопасного отключения.</p>"
+      "name": "Kirama Entry Deck",
+      "description": "<p>\n An affordable and balanced Cyberdeck for novice Netrunners. Though limited by\n its modest hardware specs, it retains the advanced safety features of\n Kirama’s flagship Cyberdecks.\n</p>\n<p>5 slots only for Programs.</p>\n<p>\n Only one of each Program category can be installed at a time (Attacker,\n Defender, Booster, Black ICE). Netrunner suffers no negative effects from an\n Unsafe Jack Out.\n</p>"
     },
     "Kirama Training Deck": {
-      "name": "Учебная дека Кирама",
-      "description": "<p>Хрестоматийный пример кибердеки для начинающих. Стоит как уценка, минимальный функционал.</p>\n<p>Пять слотов только для программ.</p>\n<p>Нетраннер должен быть на 2 м/ярд ближе к точке доступа для подключения. Урон по мозгу от сетевого боя удваивается.</p>"
+      "name": "Kirama Training Deck",
+      "description": "<p>\n The quintessential starter Cyberdeck. Bargain-bin price with bare-minimum\n hardware specs.\n</p>\n<p>5 slots only for Programs.</p>\n<p>\n Netrunner must be 2m/yds or closer to Access Point to Jack In. All brain\n damage from NET combat is doubled.\n</p>"
     },
     "MicroMate": {
-      "name": "МикроДруг",
-      "description": "<p>Идеально для нетраннеров, у которых только один режим: беги и мочи. Главное, чтобы не прилетело — будет больно. Очень.</p>\n<p>Девять слотов для программ и аппаратного обеспечения.</p>\n<p>В слоты нельзя установить программы защиты. Урон по мозгу от сетевого боя удваивается.</p>"
+      "name": "MicroMate",
+      "description": "<p>\n Perfect for Netrunners who only know one speed: All offense, all the time.\n Just don't get hit, it's going to hurt. A lot.\n</p>\n<p>9 slots for Programs or Hardware.</p>\n<p>\n Slots will not accept Defender Programs. All brain damage from NET combat is\n doubled.\n</p>"
     },
     "Microtech Assault": {
-      "name": "«Штурм» от Майкротех",
-      "description": "<p>Расслабься. Пусть чёрный лёд сделает всю тяжёлую работу за тебя.</p>\n<p>Четыре слота для программ, пять слотов для аппаратного обеспечения</p>\n<p>В слоты для программ можно установить только чёрный лёд.</p>"
+      "name": "Microtech Assault",
+      "description": "<p>Relax and let your Black ICE do all the heavy lifting.</p>\n<p>4 slots for Programs, 5 slots for Hardware.</p>\n<p>Program slots only accept Black ICE.</p>"
     },
     "Microtech Scout": {
-      "name": "«Разведчик» от Майкротех",
-      "description": "<p>Пять слотов для программ или аппаратного обеспечения.</p>\n<p>Нетраннер может сделать проверку следопыта без сетевого действия сразу после подключения.</p>"
+      "name": "Microtech Scout",
+      "description": "<p>5 slots for Programs or Hardware.</p>\n<p>\n Netrunner can roll Pathfinder without a NET Action right after Jacking In.\n</p>"
     },
     "Microtech Warrior": {
-      "name": "«Воин» от Майкротех",
-      "description": "<p>Семь слотов только для программ.</p>\n<p>Нетраннер может включить одну программу «Доспехи» без сетевого действия сразу после подключения.</p>"
+      "name": "Microtech Warrior",
+      "description": "<p>7 Slots only for Programs.</p>\n<p>\n Netrunner can activate one Armor Program without a NET Action right after\n Jacking In.\n</p>"
     },
     "Parraline 6000": {
-      "name": "Парралайн 6000",
-      "description": "<p>Ставь железа сколько влезет.</p>\n<p>Три слота для программ, шесть слотов для аппаратного обеспечения.</p>"
+      "name": "Parraline 6000",
+      "description": "<p>All the Hardware options with none of the restrictions.</p>\n<p>3 Program slots, 6 Hardware slots.</p>"
     },
     "Phoenix": {
-      "name": "Феникс",
-      "description": "<p>Больше ты никогда не потеряешь программу.</p>\n<p>Шесть слотов для программ или аппаратного обеспечения.</p>\n<p>Любая уничтоженная во время подключения к сети программа восстанавливается после отключения.</p>"
+      "name": "Phoenix",
+      "description": "<p>Never lose a Program again.</p>\n<p>6 slots for Programs or Hardware.</p>\n<p>\n Any Program destroyed in a netrunning session is restored upon a safe Jack\n Out.\n</p>"
     },
     "Verdant Knight": {
-      "name": "Юный рыцарь",
-      "description": "<p>Классическая, незамысловатая кибердека, идеально подходящая для борьбы с чёрным льдом. Главное не напороться на вражеского нетраннера.</p>\n<p>Девять слотов только для программ.</p>\n<p>Можно установить только программы «Щит» и «Меч».</p>"
+      "name": "Verdant Knight",
+      "description": "<p>\n The classic sword-and-board Cyberdeck build is highly effective against Black\n ICE. Just don’t plan on going toe-to-toe with a hostile Netrunner.\n</p>\n<p>9 slots only for Programs.</p>\n<p>Slots only accept Sword or Shield Programs.</p>"
     },
     "Warlock's Book": {
-      "name": "Фолиант чернокнижника",
-      "description": "<p>Если твой стиль — словно по льду проехать через архитектуру, то это твой выбор.</p>\n<p>Девять слотов для программ или аппаратного обеспечения.</p>\n<p><em>Нельзя установить атакующие программы и чёрный лёд.</em></p>"
+      "name": "Warlock's Book",
+      "description": "<p>\n If you prefer sliding through NET Architectures avoiding Black ICE this is the\n deck for you.\n</p>\n<p>9 slots to install either Programs or Hardware.</p>\n<p><em>No Attacker or Black ICE Program may be installed.</em></p>"
     },
     "Integrated Cyberscanner": {
-      "name": "Интегрированный киберсканер",
-      "description": "<p>Может просканировать человека на расстоянии до 2 м/ярд и предоставить полный перечень установленных киберимплантов, процесс занимает одну минуту. В случае обнаружении экранированных, улучшенных способностями Техника или уникальных киберимплантов, сканер возвращает ошибку.</p>"
+      "name": "Integrated Cyberscanner",
+      "description": "<p>\n Can scan an individual within 2m/yds and provide a list of all installed\n Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or\n Unique piece of Cyberware is detected.\n</p>"
     },
     "A Touch of Luxury Furniture Set": {
-      "name": "Набор мебели «Нотка роскоши»",
-      "description": "<p>С этим набором мебели в грузовом контейнере чувствуешь себя почти как дома.</p>"
+      "name": "A Touch of Luxury Furniture Set",
+      "description": "<p>This Furniture Set makes your Cargo Container almost feel like a home.</p>"
     },
     "Bullet To Slug Adapter Casings": {
-      "name": "Гильза-переходник гильзы с патрона на жакан",
-      "description": "<p>Любым патроном теперь можно стрелять как жаканом.</p>\n<p>В одной коробке десять таких гильз.</p>\n<p>При помощи прилагаемого устройства за действие можно загрузить десять патронов в десять гильз. При зарядке вручную, на каждый патрон потребуется действие.</p>"
+      "name": "Bullet To Slug Adapter Casings",
+      "description": "<p>Make any bullet able to be fired as a shotgun slug.</p>\n<p>A box of Bullet to Slug Adapter Casings comes with 10 casings.</p>\n<p>\n You can load 10 bullets into 10 adapters using the included jig in an Action.\n If loading by hand it takes an Action to load 1 bullet.\n</p>"
     },
     "Cargo Container Chic Furniture Set": {
-      "name": "Набор мебели «Для грузовых контейнеров»",
-      "description": "<p>Дешёвая, но всё-таки настоящая мебель. Такой мебелью оснащено большинство грузовых контейнеров.</p>"
+      "name": "Cargo Container Chic Furniture Set",
+      "description": "<p>\n It might be cheap, but it is real furniture. This is the starting Furniture\n Set for most cargo containers.\n</p>"
     },
     "Cybercam EX-1": {
-      "name": "Киберкамера EX-1",
-      "description": "<p>Камера, установленная на голове. Журналист, ведущий прямую трансляцию при помощи Киберкамеры EX-1 получает +1 к достоверности при использовании своей способности роли. Этот бонус складывается с бонусами на основе доказательств.</p>"
+      "name": "Cybercam EX-1",
+      "description": "<p>\n Head-mounted camera. A Media presenting a story on a livestream while wearing\n the Cybercam EX-1 gains +1 Believability when using their role ability. This\n stacks with evidence based bonuses.\n</p>"
     },
     "Cyberscanner": {
-      "name": "Киберсканер",
-      "description": "<p>Может просканировать человека на расстоянии до 2 м/ярд и предоставить полный перечень установленных киберимплантов, процесс занимает одну минуту. В случае обнаружении экранированных, улучшенных способностями Техника или уникальных киберимплантов, сканер возвращает ошибку.</p>"
+      "name": "Cyberscanner",
+      "description": "<p>\n Can scan an individual within 2m/yds and provide a list of all installed\n Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or\n Unique piece of Cyberware is detected.\n</p>"
     },
     "Delaying Compound": {
-      "name": "Задерживающая добавка",
-      "description": "<p>Эта добавка задерживает эффект яда или биотоксина на минуту или на час. Добавление нескольких задерживающих добавок не увеличивает период задержки.</p>"
+      "name": "Delaying Compound",
+      "description": "<p>\n This additive delays the effects of a Poison or Biotoxin Vial by a minute or\n an hour. Mixing multiple Delaying Compounds does not increase delay period.\n</p>"
     },
     "Distilling Compound": {
-      "name": "Очищающая добавка",
-      "description": "<p>Эта добавка увеличивает СЛ проверки сопротивления пыткам/препаратам для ампул с ядом или с биотоксином на 2. Добавление нескольких очищающих добавок не увеличивает сложность проверки.</p>"
+      "name": "Distilling Compound",
+      "description": "<p>\n This additive increases the Resist Torture/Drugs DV of Poison or Biotoxin\n Vials by 2. Mixing multiple Distilling Compounds does not increase Resist\n Torture/Drugs DV beyond the initial +2.\n</p>"
     },
     "Drink Master 5000": {
       "name": "Drink Master 5000",
       "description": "<p>A large, cabinet-sized, drink mixing machine seen commonly used in bars.</p>"
     },
     "Fire Safe": {
-      "name": "Несгораемый сейф",
-      "description": "<p>Небольшой огнеупорный ящик из толстолистовой стали на замке.</p>\n<ul>\n<li>50ПЗ</li>\n<li>30 см / 1 фут</li>\n<li>Замок можно вскрыть проверкой <strong>взлома замков СЛ15</strong></li>\n</ul>"
+      "name": "Fire Safe",
+      "description": "<p>Small fireproof lockbox made of Thick Steel.</p>\n<ul>\n <li>50HP</li>\n <li>30cm / 1ft</li>\n <li>Can be picked with a <strong>DV15 Pick Lock</strong> Skill Check</li>\n</ul>"
     },
     "GRAF3": {
       "name": "GRAF3",
-      "description": "<p>Четырёхногий строительный дрон.</p>"
+      "description": "<p>Quadruped construction drone.</p>"
     },
     "Hidden Compartment": {
-      "name": "Секретный отсек",
-      "description": "<p>Небольшой секретный отсек в грузовом контейнере.</p>\n<ul>\n<li>15,25х30х7,5 см / 6х12х3 дюймов</li>\n<li>Замок можно вскрыть проверкой <strong>взлома замков СЛ15</strong></li>\n</ul>"
+      "name": "Hidden Compartment",
+      "description": "<p>A small hidden compartment inside the Cargo Container.</p>\n<ul>\n <li>15.25x30x7.5cm / 6x12x3in</li>\n <li>\n Can be found with a <strong>DV15 Conceal/Reveal Object</strong> Skill Check\n </li>\n</ul>"
     },
     "Inline Skates": {
-      "name": "Роликовые коньки",
-      "description": "<p>Роликовые коньки, детка! Увеличивают скорость на 4 м/ярд для действия бега, при этом другие расширения ног перестают работать. Могут создавать помехи для физического труда со штрафом -2.</p>"
+      "name": "Inline Skates",
+      "description": "<p>\n They're roller skates baby! Increases moment by 4 m/yds when using the Run\n Action, though stopping the use of any options in the user's legs. May cause\n physical tasks to be done at -2.\n</p>"
     },
     "Ion Cuffs": {
-      "name": "Ионные наручники",
-      "description": "<p>Наручники для боргов. Деактивирует любые неэкранированные расширения киберимплантов, установленные в конечность, на которую надеты наручники. Можно сломать при показателе ТЕЛ 13.</p>"
+      "name": "Ion Cuffs",
+      "description": "<p>\n Handcuffs meant for borgs. Disables any Non-Hardened Cyberware options\n installed in the limb the cuffs are binding.\n BODY≥13 can break.\n</p>"
     },
     "Koff Popper": {
-      "name": "Коффоварка",
-      "description": "<p>«Коффоварка» от Континентал брэндз заменит для вас все остальные термосы.</p>\n<ul>\n<li>Термос со встроенной «коффоваркой»</li>\n<li>Объём: 237 мл/8 унций</li>\n<li>Продаются только в магазинах «Оазис»</li>\n</ul>"
+      "name": "Koff Popper",
+      "description": "<p>\n The Continental Brands Koff Popper is the only specialty thermos you'll need.\n</p>\n<ul>\n <li>Thermos with built in Kof Pop brewer</li>\n <li>Holds 237ml/8oz</li>\n <li>Can only be purchased at an Oasis store</li>\n</ul>"
     },
     "Koff Pops": {
-      "name": "Пастилки коффо",
-      "description": "<p>Пастилки коффо используются в «Коффоварке» от Континентал брэндз.</p>\n<ul>\n<li>Упаковка 10 шт.</li>\n<li>Включено в уровень жизни «Комбикорм» и выше</li>\n</ul>"
+      "name": "Koff Pops",
+      "description": "<p>Koff Pops used with the Continental Brands Koff Popper.</p>\n<ul>\n <li>Pack of 10</li>\n <li>Included in Kibble or higher lifestyle</li>\n</ul>"
     },
     "MagViewer": {
       "name": "MagViewer",
-      "description": "<p>Бинокль, предназначенный для обнаружения. Позволяет в подробностях разглядеть цель на расстоянии до 800 м/ярд. Пользователь получает дополнительные +1 на бросок атаки про успешной проверке смежного навыка во время атаки цели на расстоянии не менее 51 м/ярд в дополнение к другим проверкам смежных навыков.</p>\n<p>Эффект не складывается с @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Снайперским прицелом} или @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{Телеоптикой}.</p>"
+      "description": "<p>\n Binoculars meant for spotting. Provides detail up to 800m/yds. Provides the\n user with an additional +1 to an attack roll with a successful Complimentary\n Skill Check to assist in attacking a target 51m/yds or farther away in\n addition to any other Complimentary Skill Checks..\n</p>\n<p>\n Does not stack with\n @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping\n Scope} or\n @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.\n</p>"
     },
     "Master Mechanic's Tool Kit": {
-      "name": "Набор инструментов механика-виртуоза",
-      "description": "<p>Огромный ящик с инструментами. Добавляет +4 к ряду навыков при проверке способности Умелец. Достаточно большой, чтобы считаться за Укрытие из толстой стали. Чтобы сдвинуть, требуется ТЕЛ 10.</p>"
+      "name": "Master Mechanic's Tool Kit",
+      "description": "<p>\n Massive Tool Chest. Provides a +4 to multiple skills when rolling Maker Skill\n Checks. Large enough to be considered Thick Steel Cover, requires BODY 10 to\n move.\n</p>"
     },
     "Mercurius Cyberchair": {
-      "name": "Киберкресло «Меркурий»",
-      "description": "<p>Невероятно доступное киберкресло, обладающее отличным функционалом за приемлемую стоимость.</p>\n<p>Киберкресло нельзя назначить отдельной целью, а так же нельзя вывести из строя с помощью ЭМИ.</p>\n<p>Если оператор получает критическое ранение, снижающее его СКО, это влияет на киберкресло, а не на оператора.</p>\n<p>Киберкресло нельзя назначить отдельной целью, а так же нельзя вывести из строя с помощью ЭМИ.</p>"
+      "name": "Mercurius Cyberchair",
+      "description": "<p>\n An impressively affordable cyberchair, offering great features at this price\n point. While using it the operator's base MOVE becomes 5, with all regular\n movement options remaining available.\n</p>\n<p>\n Operation of the cyberchair requires either a free hand, or interface plugs.\n</p>\n<p>\n If the operator suffers a critical injury that reduces their MOVE, the MOVE of\n the cyberchair is instead effected.\n</p>\n<p>\n The cyberchair cannot be targeted specifically, nor can it be disabled via EMP\n effects.\n</p>"
     },
     "MiniMag Speakers": {
-      "name": "Динамики MiniMag",
-      "description": "<p>Небольшие магнитные динамики. Могут воспроизводить аудио с присоединённого агента в радиусе 100 м/ярд.</p>"
+      "name": "MiniMag Speakers",
+      "description": "<p>\n Small Magnetic Speakers. Can play audio from a connected Agent within\n 100m/yds.\n</p>"
     },
     "My First GRAF3": {
-      "name": "Мой первый GRAF3",
-      "description": "<p>Дрон для личного пользования. Маленький GRAF3, который можно подключить к агенту.</p>"
+      "name": "My First GRAF3",
+      "description": "<p>Personal Drone. Tiny GRAF3 that can be linked to an Agent.</p>"
     },
     "Osmosis Compound": {
-      "name": "Осмотическая добавка",
-      "description": "<p>Эта добавка позволяет ампуле с ядом или с биотоксином подействовать через кожу. Одной ампулы хватит, чтобы покрыть два квадратных метра (0,2 м<sup>2</sup>), срок действия — один час. Легко смывается водой.</p>\n<p>Первая мясная цель, коснувшаяся поражённую площадь мясной частью тела, получает отравления. Чтобы обнаружить яд нужна проверка <strong>внимательности СЛ17</strong>. Дополнительное покрытие одной и той же поверхности не принесёт результата.</p>"
+      "name": "Osmosis Compound",
+      "description": "<p>\n This additive allows a Vial of Poison or Biotoxin to be absorbed through skin\n contact. One vial can cover 2 square feet when applied to a surface and lasts\n for one hour. Can be neutralized by rinsing with water.\n</p>\n<p>\n The first meat target to touch the affected area with a meat body part is\n dosed with the poison. A <strong>DV17 Perception</strong> check reveals the\n poison. More than one dose in the same 2 square foot area has no added effect.\n</p>"
     },
     "Savannah Eagle": {
-      "name": "Саванновый орёл",
-      "description": "<p>Боевой воздушный оборонный дрон.</p>"
+      "name": "Savannah Eagle",
+      "description": "<p>Active Airborne Defense Drone.</p>"
     },
     "Savannah Panther": {
-      "name": "Саванновая пантера",
-      "description": "<p>Боевой оборонный дрон.</p>"
+      "name": "Savannah Panther",
+      "description": "<p>Active Defense Drone.</p>"
     },
     "Second-hand Special Furniture Set": {
-      "name": "Набор мебели «Б/У» (Большая удача)",
-      "description": "<p>На вид она может быть не очень, но свою функцию выполняет. Минимальный набор мебели, необходимый грузовому контейнеру.</p>"
+      "name": "Second-hand Special Furniture Set",
+      "description": "<p>\n It may not look pretty, but it works. This furniture Set is the bare minimum\n your Cargo Container needs.\n</p>"
     },
     "Skateboard": {
-      "name": "Скейтборд",
-      "description": "<p>Круче быть не может. Увеличивает скорость на 4 м/ярд при движении на ровной поверхности или с уклоном вниз. Может создавать помехи для физического труда со штрафом -2.</p>"
+      "name": "Skateboard",
+      "description": "<p>\n The coolest wheels around. Increases moment by 4 m/yds when using the Run\n Action on level or downwards ground. May cause physical tasks to be done at\n -2.\n</p>"
     },
     "Smart Vanity": {
-      "name": "Умный туалетный столик",
-      "description": "<p>Умная установка для ухода за собой. В комплекте идут все необходимые инструменты и принадлежности.</p>"
+      "name": "Smart Vanity",
+      "description": "<p>\n Smart grooming station. Comes fully equipped with any tools and makeup you'll\n need.\n</p>"
     },
     "Smartsticks": {
-      "name": "Умные палочки",
-      "description": "<p>Умные барабанные палочки. Дают пользователю бонус +1 к проверкам навыка Игра на инструменте (ударные). Не складывается с другими бонусами к навыку Игра на инструменте.</p>"
+      "name": "Smartsticks",
+      "description": "<p>\n Smart Drum Sticks. Gives the User a +1 bonus to Play Instrument (Drums)\n Skill Checks while in use. Doesn't stack with other bonuses to Play\n Instrument.\n</p>"
     },
     "Solo of Fortune Bodypillow": {
-      "name": "Дакимакура «Соло удачи»",
-      "description": "<p>Дакимакура с изображением известного соло из 2020-х (например Моргана Блэкхэнда, Боа-Боа Уэйланда или Адама Смэшера).</p>\n<p>20 дюймов x 54 дюйма (50,8 см x 137,16 см), за исключением дакимакуры Адама Смэшера, которая намного больше.</p>"
+      "name": "Solo of Fortune Bodypillow",
+      "description": "<p>\n Bodypillow with the image of a famous Solo from the 2020s (such as Morgan\n Blackhand, BoaBoa Weyland, or Adam Smasher).\n</p>\n<p>\n 20 inches x 54 inches (50.8 cm x 137.16 cm), except for the Adam Smasher\n pillow which is considerably larger.\n</p>"
     },
     "Spider Cyberchair": {
-      "name": "Киберкресло «Паук»",
-      "description": "<p>Самая совершенная модель киберкресел, обладающая самым широким функционалом. Во время использования басовая СКО оператора становится равна 5, при этом все прочие доступные способы передвижения остаются доступны.</p>\n<p>Дополнительно, в это киберкресло можно установить до четырёх дополнительных киберконечностей*. Киберконечности должны устанавливаться парно.</p>\n<p>Оператору киберкресла для управления нужны или свободные руки, или нейроинтерфейс.</p>\n<p>Если оператор получает критическое ранение, снижающее его СКО, это влияет на киберкресло, а не на оператора.</p>\n<p>Киберкресло нельзя назначить отдельной целью, а так же нельзя вывести из строя с помощью ЭМИ.</p>\n<p><em>*Установка киберконечностей на данный момент не поддерживается</em></p>"
+      "name": "Spider Cyberchair",
+      "description": "<p>\n The top of the line cyberchair, giving the premier user many options. While\n using it the operator's base MOVE becomes 5, with all regular movement options\n remaining available.\n</p>\n<p>\n Additionally, this cyberchair has room for 4 cyberlimb options*. Any options\n installed always count as being paired.\n</p>\n<p>\n Operation of the cyberchair requires either a free hand, or interface plugs.\n</p>\n<p>\n If the operator suffers a critical injury that reduces their MOVE, the MOVE of\n the cyberchair is instead effected.\n</p>\n<p>\n The cyberchair cannot be targeted specifically, nor can it be disabled via EMP\n effects.\n</p>\n<p><em>*Installing cyberlimb options currently not supported</em></p>"
     },
     "Suzumebachi Assassin Drone": {
-      "name": "Дрон-убийца «Судзумэбати»",
-      "description": "<p>Маленький дрон, исполненный в виде осы, предназначенный для незаметных убийств.</p>\n<p>Параметры: 6 СКО - 7ОС - 10ПЗ.</p>\n<p>Можно обезвредить за пять минут проверкой электроники/безопасности СЛ17.</p>\n<p>Базовая программа:</p>\n<ol>\n<li>Обнаружить цель при помощи встроенной камеры.</li>\n<li>Стрелять по цели из дротикомёта до тех пор, пока не закончатся или цель не станет видно в инфракрасном свете.</li>\n<li>Покинуть место и вернуться к оператору</li>\n</ol>\n<p>Дрон обычно управляется посредством архитектуры сети.</p>\n<p>Радиус:</p>\n<p>Периметр здания с архитектурой сети или 50 м/ярд от портативной архитектуры сети.</p>\n<p>Нагрузка:</p>\n<ul>\n<li>Камера с режимом обзора при низком освещении и в инфракрасном спектре</li>\n<li>Дротикомёт и восемь стрел с биотоксином</li>\n<li>Пневмошприц</li>\n</ul>"
+      "name": "Suzumebachi Assassin Drone",
+      "description": "<p>A small wasp-shaped drone designed for silent assassinations.</p>\n<p>Stats: 6 MOVE - 7SP - 10HP.</p>\n<p>\n Can be neutralized in 5 min with a\n <strong>DV17 Electronic/Security Tech</strong> check.\n</p>\n<p>Default Programming:</p>\n<ol>\n <li>Locate target using onboard camera.</li>\n <li>\n Attack target with dartgun until ammo is depleted or target's infrared\n signature no longer detected\n </li>\n <li>Exfiltrate and return to operator</li>\n</ol>\n<p>Drone is commonly controlled with a NET Architecture.</p>\n<p>Range:</p>\n<p>\n Perimeter of a NET Architecture-equipped building or 50m/yds away from a\n portable NET Architecture.\n</p>\n<p>Loadout:</p>\n<ul>\n <li>Camera with low Light, UV, Infrared modes</li>\n <li>Dartgun with 8 Biotoxin Arrows</li>\n <li>Airhypo</li>\n</ul>"
     },
     "The Observer": {
-      "name": "Наблюдатель",
-      "description": "<p>Дрон для личного пользования. Летающая камера, которую можно подключить к агенту.</p>"
+      "name": "The Observer",
+      "description": "<p>Personal Drone. Flying camera that can be linked to an Agent.</p>"
     },
     "The Transporter": {
-      "name": "Перевозчик",
-      "description": "<p>Дрон для личного пользования. Транспортный дрон, который можно подключить к агенту.</p>"
+      "name": "The Transporter",
+      "description": "<p>Personal Drone. Transporter Drone that can be linked to an Agent.</p>"
     },
     "Umbrella": {
-      "name": "Зонт",
-      "description": "<p>Защищает от кислотных дождей. За каждую минуту проведённую под кислотным дождём, броня получает повреждение 1 ОС (Погода Найт-Сити, стр. 4).</p>\n<p>+2 к проверкам сопротивления пыткам/препаратам при попадании под кровавый дождь. Сильный кровавый дождь накладывает эффект ампулы с биотоксином при провале проверки (Погода Найт-Сити, стр 4).</p>"
+      "name": "Umbrella",
+      "description": "<p>\n Protects against Acid Rain. For every minute exposed to Acid Rain, all armor\n ablates by 1 SP (NCW pg 4).\n</p>\n<p>\n +2 to Resist Torture/Drugs Checks from Blood Rain exposure. Severe Blood Rain\n applies the effects of a Vial of Biotoxin on failed check (NCW pg 4).\n</p>"
     },
     "Wall Art": {
-      "name": "Настенная картина",
-      "description": "<p>Дешёвый плакат.</p>"
+      "name": "Wall Art",
+      "description": "<p>Cheap poster.</p>"
     }
   }
 }

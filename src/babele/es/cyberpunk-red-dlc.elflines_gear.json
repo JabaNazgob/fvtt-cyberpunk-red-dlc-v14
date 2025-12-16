@@ -4,23 +4,23 @@
   "entries": {
     "Elflines Online": {
       "name": "Elflines Online",
-      "description": "<p>Una nueva copia en caja del juegazo BDMMORPG Elflines Online.</p>"
+      "description": "<p>A new in-box copy of the hit BDMMORPG Elflines Online.</p>"
     },
     "Rank 10 ELO Character": {
-      "name": "Personaje Rango 10 de ELO",
-      "description": "<p>Un personaje ELO de rango 10 de poder. (El personaje de ELO debe ser creado a través de la Macro y subido de rango manualmente.)</p>"
+      "name": "Rank 10 ELO Character",
+      "description": "<p>\n A power-leveled Rank 10 ELO character. (ELO Character must be created via the\n Macro and ranked up manually.)\n</p>"
     },
     "Rush Revolution": {
-      "name": "Revolución Apresurada",
-      "description": "<p>Dispositivo de Danza Cerebral para jugar a Elflines Online.</p>"
+      "name": "Rush Revolution",
+      "description": "<p>Braindance Headset. Required to play Elflines Online.</p>"
     },
     "Sacred Herbs": {
-      "name": "Hierbas sagradas",
-      "description": "<p>Ingerir Hierbas Sagradas cura inmediatamente a PV igual al TCO del usuario más su VOL.</p>"
+      "name": "Sacred Herbs",
+      "description": "<p>\n Ingesting Sacred Herbs immediately heals HP equal to the user's BODY plus\n their WILL.\n</p>"
     },
     "Vial of Poison": {
-      "name": "Frasco de veneno",
-      "description": "<p>2d6 de daño a menos que resistan a la tortuga/drogas. La armadura no se aplica.</p>"
+      "name": "Vial of Poison",
+      "description": "<p>2d6 damage unless Resist Torture/Drugs. Armor does not apply.</p>"
     }
   }
 }

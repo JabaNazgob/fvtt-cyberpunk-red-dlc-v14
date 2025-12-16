@@ -8,11 +8,11 @@
     },
     "Elflines Online Playing Cards": {
       "name": "Elflines Online Playing Cards",
-      "description": "<p>Cards meant to be used as part of playing Elfines Online The Trading Card Game.</p>"
+      "description": "<p>\n Cards meant to be used as part of playing Elfines Online The Trading Card\n Game.\n</p>"
     },
     "Poison Arrow": {
       "name": "Poison Arrow",
-      "description": "<p>No immediate damage. If meat target hit, DV13 Resist Torture/Drugs Check. On a fail 2d6 damage to HP. No Ablation. </p>"
+      "description": "<p>\n No immediate damage. If meat target hit,\n <strong>DV13 Resist Torture/Drugs</strong> Check. On a fail 2d6 damage to HP.\n No Ablation.\n</p>"
     }
   }
 }

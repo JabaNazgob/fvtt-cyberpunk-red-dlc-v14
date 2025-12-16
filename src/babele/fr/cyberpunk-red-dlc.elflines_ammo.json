@@ -3,16 +3,16 @@
   "mapping": {},
   "entries": {
     "Arrow": {
-      "name": "Flèche",
-      "description": "<p>Munition standard, rien de spécial.</p>"
+      "name": "Arrow",
+      "description": "<p>Basic ammo, nothing special.</p>"
     },
     "Elflines Online Playing Cards": {
-      "name": "Cartes de jeu Elflines Online",
-      "description": "<p>Cartes destinées à être utilisées dans le cadre du jeu de cartes à collectionner Elfines Online.</p>\n"
+      "name": "Elflines Online Playing Cards",
+      "description": "<p>\n Cards meant to be used as part of playing Elfines Online The Trading Card\n Game.\n</p>"
     },
     "Poison Arrow": {
-      "name": "Flèche empoisonnée",
-      "description": "<p>L'attaque n'inflige aucun dégât immédiat. Quiconque est touché par l'attaque doit à la place effectuer un jet de <strong>Résistance à la torture/aux drogues SD 13.</strong> En cas d'échec 2d6 points de dégâts aux PS. L'armure de la cible n'est pas perforée.</p>\n"
+      "name": "Poison Arrow",
+      "description": "<p>\n No immediate damage. If meat target hit,\n <strong>DV13 Resist Torture/Drugs</strong> Check. On a fail 2d6 damage to HP.\n No Ablation.\n</p>"
     }
   }
 }

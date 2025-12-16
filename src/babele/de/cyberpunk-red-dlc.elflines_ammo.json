@@ -8,11 +8,11 @@
     },
     "Elflines Online Playing Cards": {
       "name": "Elflines Online Playing Cards",
-      "description": "<p>Cards meant to be used as part of playing Elfines Online The Trading Card Game.</p>"
+      "description": "<p>\n Cards meant to be used as part of playing Elfines Online The Trading Card\n Game.\n</p>"
     },
     "Poison Arrow": {
-      "name": "Giftmunition - Pfeil",
-      "description": "<p>Der Angriff richtet keinen Schaden an. Das Ziel muss eine Probe auf Folter/Drogen widerstehen, mit SG 13 abzulegen. Scheitert die Probe, erleidet das Ziel 2W6 direkten Schaden an seinen TP. Panzerung wird nicht abgetragen.</p>"
+      "name": "Poison Arrow",
+      "description": "<p>\n No immediate damage. If meat target hit,\n <strong>DV13 Resist Torture/Drugs</strong> Check. On a fail 2d6 damage to HP.\n No Ablation.\n</p>"
     }
   }
 }

@@ -8,7 +8,7 @@
     },
     "Rank 10 ELO Character": {
       "name": "Rank 10 ELO Character",
-      "description": "<p>A power-leveled Rank 10 ELO character. (ELO Character must be created via the Macro and ranked up manually.)</p>"
+      "description": "<p>\n A power-leveled Rank 10 ELO character. (ELO Character must be created via the\n Macro and ranked up manually.)\n</p>"
     },
     "Rush Revolution": {
       "name": "Rush Revolution",
@@ -16,11 +16,11 @@
     },
     "Sacred Herbs": {
       "name": "Sacred Herbs",
-      "description": "<p>Ingesting Sacred Herbs immediately heals HP equal to the user's BODY plus their WILL.</p>"
+      "description": "<p>\n Ingesting Sacred Herbs immediately heals HP equal to the user's BODY plus\n their WILL.\n</p>"
     },
     "Vial of Poison": {
-      "name": "Flasche mit Gift",
-      "description": "<p>Richtet 2W6 Schaden an. Widerstand durch Folter/Drogen widerstehen. Nicht durch Panzerung beeinträchtigt.</p>"
+      "name": "Vial of Poison",
+      "description": "<p>2d6 damage unless Resist Torture/Drugs. Armor does not apply.</p>"
     }
   }
 }

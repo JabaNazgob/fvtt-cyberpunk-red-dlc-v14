@@ -3,39 +3,39 @@
   "mapping": {},
   "entries": {
     "Chainmail Armor (Body)": {
-      "name": "Cotta di Maglia (Corpo)",
+      "name": "Chainmail Armor (Body)",
       "description": "<p>Armor made up of innumerable metal rings. -2 to REF, DEX, and MOVE.</p>"
     },
     "Chainmail Armor (Head)": {
-      "name": "Cotta di Maglia (Testa)",
-      "description": "<p>Armor made up of innumerable metal rings for your head. -2 to REF, DEX, and MOVE.</p>"
+      "name": "Chainmail Armor (Head)",
+      "description": "<p>\n Armor made up of innumerable metal rings for your head. -2 to REF, DEX, and\n MOVE.\n</p>"
     },
     "Full Plate Armor (Body)": {
-      "name": "Armatura di Piastre (Corpo)",
-      "description": "<p>Armatura placcata in metallo per resistere ai colpi più potenti. -4 a RIF, DES e VEL.</p>"
+      "name": "Full Plate Armor (Body)",
+      "description": "<p>\n Metal plated armor to resist the most powerful hits. -4 to REF, DEX, and MOVE.\n</p>"
     },
     "Full Plate Armor (Head)": {
-      "name": "Armatura di Piastre (Testa)",
-      "description": "<p>Armatura placcata in metallo per resistere ai colpi più potenti sulla testa. -4 a RIF, DES e VEL.</p>"
+      "name": "Full Plate Armor (Head)",
+      "description": "<p>\n Metal plated armor to resist the most powerful hits to your head. -4 to REF,\n DEX, and MOVE.\n</p>"
     },
     "Leather Armor (Body)": {
-      "name": "Armatura di Cuoio (Corpo)",
-      "description": "<p>Armatura in pelle semplice. Nessuna penalità.</p>"
+      "name": "Leather Armor (Body)",
+      "description": "<p>Simple Leather armor. No armor penalty.</p>"
     },
     "Leather Armor (Head)": {
-      "name": "Armatura di Cuoio (Testa)",
-      "description": "<p>Armatura in pelle semplice per la tua testa. Nessuna penalità.</p>"
+      "name": "Leather Armor (Head)",
+      "description": "<p>Simple Leather armor for your head. No armor penalty.</p>"
     },
     "Shield": {
-      "name": "Scudo",
-      "description": "<p>Richiede l'utilizzo di un braccio e ha 10 HP ridotti dai danni subiti.</p>"
+      "name": "Shield",
+      "description": "<p>Requires an arm and has HP that is reduced by damage.</p>"
     },
     "Studded Leather Armor (Body)": {
-      "name": "Armatura di Cuoio Borchiato (Corpo)",
+      "name": "Studded Leather Armor (Body)",
       "description": "<p>Standard Studded Leather Armor. No armor penalty.</p>"
     },
     "Studded Leather Armor (Head)": {
-      "name": "Armatura di Cuoio Borchiato (Testa)",
+      "name": "Studded Leather Armor (Head)",
       "description": "<p>Standard Studded Leather Armor for your head. No armor penalty.</p>"
     }
   }

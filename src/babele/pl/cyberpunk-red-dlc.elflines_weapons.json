@@ -3,9 +3,8 @@
   "mapping": {},
   "entries": {
     "Bow": {
-      "name": "Łuk",
-      "description": "<p>A revitalized bow, reloaded as part of an Attack Action.</p>",
-      "dvTable": "PT Łuki i kusze"
+      "name": "Bow",
+      "description": "<p>A revitalized bow, reloaded as part of an Attack Action.</p>"
     },
     "Dagger": {
       "name": "Dagger",
@@ -13,29 +12,27 @@
     },
     "Duel Caster": {
       "name": "Duel Caster",
-      "description": "<p>A plastic housing and card launcher for ELO Cards. ROF 3 if only weapon fired on your turn. Can also be loaded with normal playing cards but makes the weapon Poor Quality.</p>",
-      "dvTable": "PT Pistolety"
+      "description": "<p>\n A plastic housing and card launcher for ELO Cards. ROF 3 if only weapon fired\n on your turn. Can also be loaded with normal playing cards but makes the\n weapon Poor Quality.\n</p>"
     },
     "Greataxe": {
       "name": "Greataxe",
-      "description": "<p>A wooden pole with a curved blade on each side. Favoured by raid parties for close engagements. Requires 2 hands to wield even by a wielder with Body 8 or higher.</p>"
+      "description": "<p>\n A wooden pole with a curved blade on each side. Favoured by raid parties for\n close engagements. Requires 2 hands to wield even by a wielder with Body 8 or\n higher.\n</p>"
     },
     "Longsword": {
       "name": "Longsword",
-      "description": "<p>A bladed, hilted weapon. Specifically designed for cutting or thrusting. 2 ROF if wielding two longswords.</p>"
+      "description": "<p>\n A bladed, hilted weapon. Specifically designed for cutting or thrusting. 2 ROF\n if wielding two longswords.\n</p>"
     },
     "Scarlet Blackbow": {
       "name": "Scarlet Blackbow",
-      "description": "<p>A revitalized bow that must be reloaded after every attack. If you roll 1 on Attack (Crit fail) the bow's battery pack explodes. Comes bundeled with a Quiver and 6 Rubber Arrows.</p>",
-      "dvTable": "PT Łuki i kusze"
+      "description": "<p>\n A revitalized bow that must be reloaded after every attack. If you roll 1 on\n Attack (Crit fail) the bow's battery pack explodes. Comes bundeled with a\n Quiver and 6 Rubber Arrows.\n</p>"
     },
     "Shortsword": {
       "name": "Shortsword",
-      "description": "<p>A short bladed, hilted weapon. Specifically designed for cutting or thrusting.</p>"
+      "description": "<p>\n A short bladed, hilted weapon. Specifically designed for cutting or thrusting.\n</p>"
     },
     "Sword of Arvish": {
       "name": "Sword of Arvish",
-      "description": "<p>A bladed, hilted weapon. Specifically designed for cutting or thrusting. If you roll 1 on Attack (Crit Fail) the weapon crushes the wielder's fingers.</p>"
+      "description": "<p>\n A bladed, hilted weapon. Specifically designed for cutting or thrusting. If\n you roll 1 on Attack (Crit Fail) the weapon crushes the wielder's fingers.\n</p>"
     }
   }
 }

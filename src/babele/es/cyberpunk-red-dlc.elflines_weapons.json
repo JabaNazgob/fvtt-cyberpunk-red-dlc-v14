@@ -3,39 +3,36 @@
   "mapping": {},
   "entries": {
     "Bow": {
-      "name": "Arco",
-      "description": "<p>Arco revitalizado, recargado como parte de una acción de Ataque.</p>",
-      "dvTable": "VD Arcos y Ballestas"
+      "name": "Bow",
+      "description": "<p>A revitalized bow, reloaded as part of an Attack Action.</p>"
     },
     "Dagger": {
-      "name": "Daga",
-      "description": "<p>Un cuchillo apto para un cazador.</p>"
+      "name": "Dagger",
+      "description": "<p>A knife fit for a hunter.</p>"
     },
     "Duel Caster": {
-      "name": "Lanzador de Duelo",
-      "description": "<p>Una carcasa de plástico y lanzador de cartas para Cartas de ELO. CdT 3 si solo se dispara en tu turno. También se puede cargar con cartas normales, pero hace que el arma sea de Calidad Pobre.</p>",
-      "dvTable": "VD Pistola"
+      "name": "Duel Caster",
+      "description": "<p>\n A plastic housing and card launcher for ELO Cards. ROF 3 if only weapon fired\n on your turn. Can also be loaded with normal playing cards but makes the\n weapon Poor Quality.\n</p>"
     },
     "Greataxe": {
-      "name": "Hacha Grande",
-      "description": "<p>Un poste de madera con una hoja curva en cada lado. Favorecido por grupos de incursión para enfrentamientos cercanos. Requiere 2 manos para manejar incluso por un portador con TCO 8 o superior.</p>"
+      "name": "Greataxe",
+      "description": "<p>\n A wooden pole with a curved blade on each side. Favoured by raid parties for\n close engagements. Requires 2 hands to wield even by a wielder with Body 8 or\n higher.\n</p>"
     },
     "Longsword": {
-      "name": "Espada larga",
-      "description": "<p>Un arma afilada con empuñadura. Específicamente diseñado para cortar o empujar. 2 CdT si empuñan dos espadas largas.</p>"
+      "name": "Longsword",
+      "description": "<p>\n A bladed, hilted weapon. Specifically designed for cutting or thrusting. 2 ROF\n if wielding two longswords.\n</p>"
     },
     "Scarlet Blackbow": {
-      "name": "ArcoNegro Escarlata",
-      "description": "<p>Un arco revitalizado que debe recargarse después de cada ataque. Si tira 1 en Ataque (Crit fail), el paquete de batería del arco explota. Viene con una carcaída y 6 flechas de goma.</p>",
-      "dvTable": "VD Arcos y Ballestas"
+      "name": "Scarlet Blackbow",
+      "description": "<p>\n A revitalized bow that must be reloaded after every attack. If you roll 1 on\n Attack (Crit fail) the bow's battery pack explodes. Comes bundeled with a\n Quiver and 6 Rubber Arrows.\n</p>"
     },
     "Shortsword": {
-      "name": "Espada corta",
-      "description": "<p>Arma de filo corta empuñada. Específicamente diseñada para cortar o pinchar. </p>"
+      "name": "Shortsword",
+      "description": "<p>\n A short bladed, hilted weapon. Specifically designed for cutting or thrusting.\n</p>"
     },
     "Sword of Arvish": {
-      "name": "Espada de Arvish",
-      "description": "<p>Arma de filo empuñada. Específicamente diseñada para cortar o pinchar. Si tira 1 en el ataque (pifia) el arma aplasta los dedos de su portador.</p>"
+      "name": "Sword of Arvish",
+      "description": "<p>\n A bladed, hilted weapon. Specifically designed for cutting or thrusting. If\n you roll 1 on Attack (Crit Fail) the weapon crushes the wielder's fingers.\n</p>"
     }
   }
 }

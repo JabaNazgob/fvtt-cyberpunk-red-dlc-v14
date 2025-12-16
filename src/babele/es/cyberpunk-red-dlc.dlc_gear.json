@@ -3,204 +3,204 @@
   "mapping": {},
   "entries": {
     "Hummingbird": {
-      "name": "Colibrí",
-      "description": "<p>No frills, just raw processing power.</p>\n<p>2 slots only for Hardware</p>\n<p>+1 to Net Actions each turn.</p>"
+      "name": "Hummingbird",
+      "description": "<p>No frills, just raw processing power.</p>\n<p>2 slots only for Hardware</p>\n<p>+1 to NET Actions each turn.</p>"
     },
     "Kaliya": {
       "name": "Kaliya",
-      "description": "<p>Una opción fantástica para desmantelar a los Netrunners hostiles. Solo espere que no tengan ningún Hielo Negro.</p>\n<p>6 ranuras para programas o hardware, 3 ranuras extra solo para programas de Flak.</p>\n<p>Restricciones para Programas de Defensa o Hielo Negro: Solo se puede instalar Flak y Aspid en cualquier ranura</p>"
+      "description": "<p>\n A fantastic option for dismantling hostile Netrunners. Just hope they\n don’t have any Black ICE.\n</p>\n<p>6 slots for Programs or Hardware, 3 extra slots only for Flak programs.</p>\n<p>\n Restrictions for Defender Programs and Black ICE: Only Flak and Asp can be\n installed in any slot.\n</p>"
     },
     "Kerberos": {
       "name": "Kerberos",
-      "description": "<p dir=\"ltr\">Desata los fuegos del Infierno contra tus rivales.</p>\n<p dir=\"ltr\">6 ranuras para Programas, 5 ranuras para Hardware.</p>\n<p dir=\"ltr\">Las ranuras del programa solo aceptarán el Hielo Negro Perro del Infierno.</p>\n<p>&nbsp;</p>"
+      "description": "<p>Unleash the fires of Hell upon your rivals.</p>\n<p>6 slots for Programs, 5 slots for Hardware.</p>\n<p>Program slots will only accept Hellhound Black ICE.</p>"
     },
     "Kestrel 2": {
       "name": "Kestrel 2",
-      "description": "<p>El Hielo Negro no puede golpear lo que puede atrapar.</p>\n<p>7 ranuras solo para Programas.</p>\n<p>Justo después de Conectarse, el Netrunner puede activar un máximo de 2 programas Speedy Gonzalvez instalados sin una acción RED.</p>"
+      "description": "<p>Black ICE can’t hit what they can’t catch.</p>\n<p>7 slots only for Programs.</p>\n<p>\n Right after Jacking In, Netrunner can activate a maximum of 2 installed Speedy\n Gonzalvez Programs without a NET Action.\n</p>"
     },
     "Kirama Advanced Deck": {
-      "name": "Terminal Avanzada de Kirama",
-      "description": "<p>Aunque puede que no sea la opción más llamativa, la más fina Ciberterminal de Kirama está equilibrada expertamente y ofrece algunas características de seguridad muy prácticas.</p>\n<p>5 ranura para Programas o Hardware.</p>\n<p>El Netrunner no sufre ningún efecto negativo de una Desconexión Insegura.</p>"
+      "name": "Kirama Advanced Deck",
+      "description": "<p>\n Though it may not be the flashiest choice, Kirama’s finest Cyberdeck is\n expertly balanced and offers some highly practical safety features.\n</p>\n<p>5 slots for Programs or Hardware.</p>\n<p>Netrunner suffers no negative effects from an Unsafe Jack Out.</p>"
     },
     "Kirama Entry Deck": {
-      "name": "Terminal de Entrada de Kirama",
-      "description": "<p>Un Ciberterminal accesible y equilibrado para los novatos Netrunners. Aunque limitado por sus modestas especificaciones de hardware, conserva las características de seguridad avanzadas de las Ciberterminales de bandera de Kirama.</p>\n<p>5 ranuras solo para programas.</p>\n<p>Solo se puede instalar una de cada categoría de Programa a la vez (Ataque, Defensa, Potenciador, Hielo Negro). El Netrunner no sufre ningún efecto negativo de una Desconexión Insegura.</p>"
+      "name": "Kirama Entry Deck",
+      "description": "<p>\n An affordable and balanced Cyberdeck for novice Netrunners. Though limited by\n its modest hardware specs, it retains the advanced safety features of\n Kirama’s flagship Cyberdecks.\n</p>\n<p>5 slots only for Programs.</p>\n<p>\n Only one of each Program category can be installed at a time (Attacker,\n Defender, Booster, Black ICE). Netrunner suffers no negative effects from an\n Unsafe Jack Out.\n</p>"
     },
     "Kirama Training Deck": {
-      "name": "Terminal de Entrenamiento de Kirama",
-      "description": "<p>The quintessential starter Cyberdeck. Bargain-bin price with bare-minimum hardware specs.</p>\n<p>5 slots only for Programs.</p>\n<p>Netrunner must be 2m/yds or closer to Access Point to Jack In. All brain damage from Net combat is doubled.</p>"
+      "name": "Kirama Training Deck",
+      "description": "<p>\n The quintessential starter Cyberdeck. Bargain-bin price with bare-minimum\n hardware specs.\n</p>\n<p>5 slots only for Programs.</p>\n<p>\n Netrunner must be 2m/yds or closer to Access Point to Jack In. All brain\n damage from NET combat is doubled.\n</p>"
     },
     "MicroMate": {
       "name": "MicroMate",
-      "description": "<p>Perfecto para Netrunners que solo conocen una velocidad: Todo al ataque, todo el tiempo. Solamente no dejes que te golpeen, te va a doler. Mucho.</p>\n<p>9 ranuras para Programas o Hardware.</p>\n<p>No se aceptarán programas de defensa. Todo el daño cerebral del combate RED se duplicará</p>"
+      "description": "<p>\n Perfect for Netrunners who only know one speed: All offense, all the time.\n Just don't get hit, it's going to hurt. A lot.\n</p>\n<p>9 slots for Programs or Hardware.</p>\n<p>\n Slots will not accept Defender Programs. All brain damage from NET combat is\n doubled.\n</p>"
     },
     "Microtech Assault": {
-      "name": "Asalto de Microtech",
-      "description": "<p>Relájese y deje que su Hielo Negro haga todo el trabajo pesado.</p>\n<p>4 ranuras para Programas, 5 ranuras para Hardware.</p>\n<p>Las ranuras de programa solo aceptan Hielo Negro</p>"
+      "name": "Microtech Assault",
+      "description": "<p>Relax and let your Black ICE do all the heavy lifting.</p>\n<p>4 slots for Programs, 5 slots for Hardware.</p>\n<p>Program slots only accept Black ICE.</p>"
     },
     "Microtech Scout": {
-      "name": "Explorador de Microtech",
-      "description": "<p>5 ranuras para Programas o Hardware.</p>\n<p>El Netrunner puede ejecutar Exploración sin usar una Acción de RED justo después de Conectarse.</p>"
+      "name": "Microtech Scout",
+      "description": "<p>5 slots for Programs or Hardware.</p>\n<p>\n Netrunner can roll Pathfinder without a NET Action right after Jacking In.\n</p>"
     },
     "Microtech Warrior": {
-      "name": "Guerrero de Microtech",
-      "description": "<p>7 ranuras solo para programas.</p>\n<p>El Netrunner puede activar un programa de Armadura sin gastar una Acción de RED justo después de Conectarse.</p>"
+      "name": "Microtech Warrior",
+      "description": "<p>7 Slots only for Programs.</p>\n<p>\n Netrunner can activate one Armor Program without a NET Action right after\n Jacking In.\n</p>"
     },
     "Parraline 6000": {
       "name": "Parraline 6000",
-      "description": "<p>Todas las opciones de Hardware sin restricciones.</p>\n<p>3 ranuras del programa, 6 ranuras de Hardware</p>"
+      "description": "<p>All the Hardware options with none of the restrictions.</p>\n<p>3 Program slots, 6 Hardware slots.</p>"
     },
     "Phoenix": {
-      "name": "Fénix",
-      "description": "<p>Nunca más pierdas un Programa.</p>\n<p>6 ranuras para Programas o Hardware.</p>\n<p>Cualquier programa destruido en una sesión de RED se restaura con una Desconexión Segura.</p>"
+      "name": "Phoenix",
+      "description": "<p>Never lose a Program again.</p>\n<p>6 slots for Programs or Hardware.</p>\n<p>\n Any Program destroyed in a netrunning session is restored upon a safe Jack\n Out.\n</p>"
     },
     "Verdant Knight": {
-      "name": "Caballero Verdoso",
-      "description": "<p>La combinación justa de Ciberterminal con Espada, es altamente efectiva contra el Hielo Negro. Solo no tienes que ir mano a mano con un Netrunner hostil.</p>\n<p>9 ranuras solo para programas.</p>\n<p>Los ranuras solo aceptan programas de espada o escudo.</p>"
+      "name": "Verdant Knight",
+      "description": "<p>\n The classic sword-and-board Cyberdeck build is highly effective against Black\n ICE. Just don’t plan on going toe-to-toe with a hostile Netrunner.\n</p>\n<p>9 slots only for Programs.</p>\n<p>Slots only accept Sword or Shield Programs.</p>"
     },
     "Warlock's Book": {
-      "name": "Libro del Brujo",
-      "description": "<p>\n  If you prefer sliding through NET Architectures avoiding Black ICE this is the\n  deck for you.\n</p>\n<p>9 slots to install either Programs or Hardware.</p>\n<p><em>No Attacker or Black ICE Program may be installed.</em></p>\n"
+      "name": "Warlock's Book",
+      "description": "<p>\n If you prefer sliding through NET Architectures avoiding Black ICE this is the\n deck for you.\n</p>\n<p>9 slots to install either Programs or Hardware.</p>\n<p><em>No Attacker or Black ICE Program may be installed.</em></p>"
     },
     "Integrated Cyberscanner": {
       "name": "Integrated Cyberscanner",
-      "description": "<p>\n  Can scan an individual within 2m/yds and provide a list of all installed\n  Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or\n  Unique piece of Cyberware is detected.\n</p>\n"
+      "description": "<p>\n Can scan an individual within 2m/yds and provide a list of all installed\n Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or\n Unique piece of Cyberware is detected.\n</p>"
     },
     "A Touch of Luxury Furniture Set": {
-      "name": "Set de Muebles con un toque de Lujo",
-      "description": "<p>Este Set de Muebles hace que tu Contenedor de Mercancía casi se sienta como una casa.</p>"
+      "name": "A Touch of Luxury Furniture Set",
+      "description": "<p>This Furniture Set makes your Cargo Container almost feel like a home.</p>"
     },
     "Bullet To Slug Adapter Casings": {
-      "name": "Casquillo adaptable para balas a perdigones",
-      "description": "<p>Haz que cualquier bala pueda ser disparada como un cartucho de escopeta.</p>\n<p>Una caja de casquillos adaptable para balas a perdigones viene con 10 casquillos.</p>\n<p>Puedes cargar 10 balas en 10 adaptadores usando el dispositivo incluido en una acción. Si se cargan manualmente, se necesita una acción para cargar 1 bala.</p>"
+      "name": "Bullet To Slug Adapter Casings",
+      "description": "<p>Make any bullet able to be fired as a shotgun slug.</p>\n<p>A box of Bullet to Slug Adapter Casings comes with 10 casings.</p>\n<p>\n You can load 10 bullets into 10 adapters using the included jig in an Action.\n If loading by hand it takes an Action to load 1 bullet.\n</p>"
     },
     "Cargo Container Chic Furniture Set": {
-      "name": "Set de Muebles Chic para Contenedores de Carga",
-      "description": "<p>Puede ser barato, pero es mobiliario real. Este es el set de muebles inicial para la mayoría de los contenedores de carga.</p>"
+      "name": "Cargo Container Chic Furniture Set",
+      "description": "<p>\n It might be cheap, but it is real furniture. This is the starting Furniture\n Set for most cargo containers.\n</p>"
     },
     "Cybercam EX-1": {
       "name": "Cybercam EX-1",
-      "description": "<p>\n  Head-mounted camera. A Media presenting a story on a livestream while wearing\n  the Cybercam EX-1 gains +1 Believability when using their role ability. This\n  stacks with evidence based bonuses.\n</p>\n"
+      "description": "<p>\n Head-mounted camera. A Media presenting a story on a livestream while wearing\n the Cybercam EX-1 gains +1 Believability when using their role ability. This\n stacks with evidence based bonuses.\n</p>"
     },
     "Cyberscanner": {
       "name": "Cyberscanner",
-      "description": "<p>\n  Can scan an individual within 2m/yds and provide a list of all installed\n  Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or\n  Unique piece of Cyberware is detected.\n</p>\n"
+      "description": "<p>\n Can scan an individual within 2m/yds and provide a list of all installed\n Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or\n Unique piece of Cyberware is detected.\n</p>"
     },
     "Delaying Compound": {
-      "name": "Compuesto de Retraso",
-      "description": "<p>Este aditivo retrasa los efectos de un Vial de Veneno o Biotoxina en un minuto o una hora. Mezclar múltiples componentes de retraso no aumenta el período de retraso.</p>"
+      "name": "Delaying Compound",
+      "description": "<p>\n This additive delays the effects of a Poison or Biotoxin Vial by a minute or\n an hour. Mixing multiple Delaying Compounds does not increase delay period.\n</p>"
     },
     "Distilling Compound": {
-      "name": "Compuesto de Destilación",
-      "description": "<p>Este aditivo aumenta en 2 la VD para Resistir Torturas/Drogas de Veneno o Viales de Biotoxina. Mezclar múltiples componentes no incrementa el VD de resistencia/fármacos más allá del +2 inicial.</p>"
+      "name": "Distilling Compound",
+      "description": "<p>\n This additive increases the Resist Torture/Drugs DV of Poison or Biotoxin\n Vials by 2. Mixing multiple Distilling Compounds does not increase Resist\n Torture/Drugs DV beyond the initial +2.\n</p>"
     },
     "Drink Master 5000": {
       "name": "Drink Master 5000",
       "description": "<p>A large, cabinet-sized, drink mixing machine seen commonly used in bars.</p>"
     },
     "Fire Safe": {
-      "name": "A Prueba de Fuego",
-      "description": "<p>Pequeña caja de seguridad a prueba de fuego hecha de acero grueso.</p>\n<ul>\n<li>50PV</li>\n<li>30cm / 1 pie</li>\n<li>Se puede abrir con una tirada de Abrir Cerraduras de VD15</li>\n</ul>"
+      "name": "Fire Safe",
+      "description": "<p>Small fireproof lockbox made of Thick Steel.</p>\n<ul>\n <li>50HP</li>\n <li>30cm / 1ft</li>\n <li>Can be picked with a <strong>DV15 Pick Lock</strong> Skill Check</li>\n</ul>"
     },
     "GRAF3": {
       "name": "GRAF3",
-      "description": "<p>Dron de construcción cuadrúpedo.</p>\n<p>Consulte la descripción completa de la página 59 de Interface Red vol. 1.</p>"
+      "description": "<p>Quadruped construction drone.</p>"
     },
     "Hidden Compartment": {
-      "name": "Compartimiento Oculto",
-      "description": "<p>Un pequeño compartimiento oculto dentro del Contenedor de Cargas.</p>\n<ul>\n<li>15.25x30x7. cm </li>\n<li>Se puede encontrar con una tirada de Ocultar/Revelar Objetos de VD15</li>\n</ul>"
+      "name": "Hidden Compartment",
+      "description": "<p>A small hidden compartment inside the Cargo Container.</p>\n<ul>\n <li>15.25x30x7.5cm / 6x12x3in</li>\n <li>\n Can be found with a <strong>DV15 Conceal/Reveal Object</strong> Skill Check\n </li>\n</ul>"
     },
     "Inline Skates": {
-      "name": "Patines en línea",
-      "description": "<p>¡Son patines en linea! Aumenta el momento en 4 m/yds al realizar la acción de correr, deteniendo el uso de cualquier opción en las piernas del usuario. Puede causar que las tareas físicas se realicen en -2.</p>"
+      "name": "Inline Skates",
+      "description": "<p>\n They're roller skates baby! Increases moment by 4 m/yds when using the Run\n Action, though stopping the use of any options in the user's legs. May cause\n physical tasks to be done at -2.\n</p>"
     },
     "Ion Cuffs": {
       "name": "Ion Cuffs",
-      "description": "<p>\n  Handcuffs meant for borgs. Disables any Non-Hardened Cyberware options\n  installed in the limb the cuffs are binding.\n  <span style=\"font-family: Jost\">BODY</span><span class=\"hgKElc\">≥</span\n  ><span style=\"font-family: Jost\">13 can break.</span>\n</p>\n"
+      "description": "<p>\n Handcuffs meant for borgs. Disables any Non-Hardened Cyberware options\n installed in the limb the cuffs are binding.\n BODY≥13 can break.\n</p>"
     },
     "Koff Popper": {
       "name": "Koff Popper",
-      "description": "<p>De la empresa Continental Brands, el Koff Popper es el único electrodoméstico especial que necesitarás. </p>\n<ul>\n<li>Termos construidos con un pico bertedor Kof Pop </li>\n<li>Contenido líquido 237ml/8oz </li>\n<li>Solo se puede comprar en una tienda Oasis </li>\n</ul>"
+      "description": "<p>\n The Continental Brands Koff Popper is the only specialty thermos you'll need.\n</p>\n<ul>\n <li>Thermos with built in Kof Pop brewer</li>\n <li>Holds 237ml/8oz</li>\n <li>Can only be purchased at an Oasis store</li>\n</ul>"
     },
     "Koff Pops": {
       "name": "Koff Pops",
-      "description": "<p>Koff Pops usados en la Continental Brands Koff Popper.&nbsp;</p>\n<ul>\n<li>Paquete de 10</li>\n<li>Incluido en Kibble o Estilo de Vida Superior</li>\n</ul>"
+      "description": "<p>Koff Pops used with the Continental Brands Koff Popper.</p>\n<ul>\n <li>Pack of 10</li>\n <li>Included in Kibble or higher lifestyle</li>\n</ul>"
     },
     "MagViewer": {
       "name": "MagViewer",
-      "description": "<p>\n  Binoculars meant for spotting. Provides detail up to 800m/yds. Provides the\n  user with an additional +1 to an attack roll with a successful Complimentary\n  Skill Check to assist in attacking a target 51m/yds or farther away in\n  addition to any other Complimentary Skill Checks..\n</p>\n<p>\n  Does not stack with\n  @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping\n  Scope} or\n  @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.\n</p>\n"
+      "description": "<p>\n Binoculars meant for spotting. Provides detail up to 800m/yds. Provides the\n user with an additional +1 to an attack roll with a successful Complimentary\n Skill Check to assist in attacking a target 51m/yds or farther away in\n addition to any other Complimentary Skill Checks..\n</p>\n<p>\n Does not stack with\n @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping\n Scope} or\n @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.\n</p>"
     },
     "Master Mechanic's Tool Kit": {
       "name": "Master Mechanic's Tool Kit",
-      "description": "<p>\n  Massive Tool Chest. Provides a +4 to multiple skills when rolling Maker Skill\n  Checks. Large enough to be considered Thick Steel Cover, requires BODY 10 to\n  move.\n</p>\n"
+      "description": "<p>\n Massive Tool Chest. Provides a +4 to multiple skills when rolling Maker Skill\n Checks. Large enough to be considered Thick Steel Cover, requires BODY 10 to\n move.\n</p>"
     },
     "Mercurius Cyberchair": {
-      "name": "Cibersilla Mercurius",
-      "description": "<p>Una cibersilla increíblemente asequible. Durante su uso el operador MOV base se convierte en 5, con todas las opciones de movimiento regulares disponibles.</p><p>La operación de la cibersilla requiere una mano libre o enchufes de interfaz.</p><p>Si el operador sufre una lesión crítica que reduce su MOV, el MOV de la cibersilla se efectúa en su lugar.</p><p>La cibersilla no puede ser dirigida específicamente, ni puede ser deshabilitada por efectos EMP.</p>"
+      "name": "Mercurius Cyberchair",
+      "description": "<p>\n An impressively affordable cyberchair, offering great features at this price\n point. While using it the operator's base MOVE becomes 5, with all regular\n movement options remaining available.\n</p>\n<p>\n Operation of the cyberchair requires either a free hand, or interface plugs.\n</p>\n<p>\n If the operator suffers a critical injury that reduces their MOVE, the MOVE of\n the cyberchair is instead effected.\n</p>\n<p>\n The cyberchair cannot be targeted specifically, nor can it be disabled via EMP\n effects.\n</p>"
     },
     "MiniMag Speakers": {
       "name": "MiniMag Speakers",
-      "description": "<p>\n  Small Magnetic Speakers. Can play audio from a connected Agent within\n  100m/yds.\n</p>\n"
+      "description": "<p>\n Small Magnetic Speakers. Can play audio from a connected Agent within\n 100m/yds.\n</p>"
     },
     "My First GRAF3": {
-      "name": "Mi Primer GRAF3",
-      "description": "<p>Dron personal. Mini GRAF3 que puede ser vinculado a un agente.</p>\n<p>Consulte la descripción completa de la página 61 de Interface Red vol. 1.</p>"
+      "name": "My First GRAF3",
+      "description": "<p>Personal Drone. Tiny GRAF3 that can be linked to an Agent.</p>"
     },
     "Osmosis Compound": {
-      "name": "Compuesto de Osmosis",
-      "description": "<p>Este aditivo permite absorber un Vial de Veneno o Biotoxina a través del contacto con la piel. Un vial puede cubrir 2 pies cuadrados cuando se aplica a una superficie y dura una hora. Se puede neutralizar mediante el enjuague con agua.&nbsp;</p>\n<p>El primer objetivo de carne que toca la zona afectada con una parte del cuerpo recibe una dosis del veneno. Un chequeo de Percepción VD17 revela el veneno. Más de una dosis en la misma área de 2 pies cuadrados no tiene efecto añadido.</p>"
+      "name": "Osmosis Compound",
+      "description": "<p>\n This additive allows a Vial of Poison or Biotoxin to be absorbed through skin\n contact. One vial can cover 2 square feet when applied to a surface and lasts\n for one hour. Can be neutralized by rinsing with water.\n</p>\n<p>\n The first meat target to touch the affected area with a meat body part is\n dosed with the poison. A <strong>DV17 Perception</strong> check reveals the\n poison. More than one dose in the same 2 square foot area has no added effect.\n</p>"
     },
     "Savannah Eagle": {
-      "name": "Águila de la Sabana",
-      "description": "<p>Dron de defensa aéreo activo.</p>\n<p>Consulte la descripción del combustible en la página 60 de Interface Red vol. 1.</p>"
+      "name": "Savannah Eagle",
+      "description": "<p>Active Airborne Defense Drone.</p>"
     },
     "Savannah Panther": {
-      "name": "Pantera de la Sabana",
-      "description": "<p>Dron Defensivo Activo.</p>\n<p>Consulte la descripción completa de la página 61 de Interface Red vol. 1.</p>"
+      "name": "Savannah Panther",
+      "description": "<p>Active Defense Drone.</p>"
     },
     "Second-hand Special Furniture Set": {
-      "name": "Set de Muebles Especiales de segunda mano",
-      "description": "<p>Puede que no se vea bonito, pero funciona. Este conjunto de muebles es el mínimo que necesita tu contenedor de carga.</p>"
+      "name": "Second-hand Special Furniture Set",
+      "description": "<p>\n It may not look pretty, but it works. This furniture Set is the bare minimum\n your Cargo Container needs.\n</p>"
     },
     "Skateboard": {
-      "name": "Patineta",
-      "description": "<p>Las ruedas más chulas a tu alrededor. Aumenta el momento en 4 m/yd al usar la acción de correr en el suelo o en bajada. Puede causar que las tareas físicas se realicen en -2.</p>"
+      "name": "Skateboard",
+      "description": "<p>\n The coolest wheels around. Increases moment by 4 m/yds when using the Run\n Action on level or downwards ground. May cause physical tasks to be done at\n -2.\n</p>"
     },
     "Smart Vanity": {
-      "name": "Vanidad Inteligente",
-      "description": "<p>Estación de aseo inteligente. Viene completamente equipado con todas las herramientas y maquillaje que necesites.&nbsp;</p>"
+      "name": "Smart Vanity",
+      "description": "<p>\n Smart grooming station. Comes fully equipped with any tools and makeup you'll\n need.\n</p>"
     },
     "Smartsticks": {
       "name": "Smartsticks",
-      "description": "<p>\n  <span style=\"font-family: Jost\"\n    >Smart Drum Sticks. Gives the User a +1 bonus to Play Instrument (Drums)\n    Skill Checks while in use. Doesn't stack with other bonuses to Play\n    Instrument.</span\n  >\n</p>\n"
+      "description": "<p>\n Smart Drum Sticks. Gives the User a +1 bonus to Play Instrument (Drums)\n Skill Checks while in use. Doesn't stack with other bonuses to Play\n Instrument.\n</p>"
     },
     "Solo of Fortune Bodypillow": {
-      "name": "Almohada Corporal de Soldado de Fortuna",
-      "description": "<p>Almohada Corporal con la imagen de un famoso Soldado de los años 2020 (como Morgan Blackhand, BoaBoa Weyland o Adam Smasher).</p>\n<p>20 pulgadas x 54 pulgadas (50,8 cm x 137. 6 cm), excepto la almohada Adam Smasher.</p>"
+      "name": "Solo of Fortune Bodypillow",
+      "description": "<p>\n Bodypillow with the image of a famous Solo from the 2020s (such as Morgan\n Blackhand, BoaBoa Weyland, or Adam Smasher).\n</p>\n<p>\n 20 inches x 54 inches (50.8 cm x 137.16 cm), except for the Adam Smasher\n pillow which is considerably larger.\n</p>"
     },
     "Spider Cyberchair": {
-      "name": "Cibersilla Araña",
-      "description": "<p>La cima de las sillas cibernéticas, dando al usuario principal muchas opciones. Mientras lo usa, el MOV base del operador se convierte en 5, con todas las opciones de movimiento regulares restantes disponibles.</p>\n<p>Además, esta cibersilla tiene espacio para 4 opciones de cibermiembro *. Cualquier opción instalada siempre cuenta como emparejada.</p>\n<p>La operación de la cibersilla requiere unas manos, o unos enchufes de interfaz.</p>\n<p>Si el operador sufre una lesión crítica que reduce su MOV, el MOV de la cibersilla se efectúa en su lugar.</p>\n<p>La cibersilla no puede ser dirigida específicamente, ni puede ser deshabilitada a través de efectos EMP.</p>\n<p><em>*Instalar opciones de ciberlimp actualmente no soportadas</em></p>"
+      "name": "Spider Cyberchair",
+      "description": "<p>\n The top of the line cyberchair, giving the premier user many options. While\n using it the operator's base MOVE becomes 5, with all regular movement options\n remaining available.\n</p>\n<p>\n Additionally, this cyberchair has room for 4 cyberlimb options*. Any options\n installed always count as being paired.\n</p>\n<p>\n Operation of the cyberchair requires either a free hand, or interface plugs.\n</p>\n<p>\n If the operator suffers a critical injury that reduces their MOVE, the MOVE of\n the cyberchair is instead effected.\n</p>\n<p>\n The cyberchair cannot be targeted specifically, nor can it be disabled via EMP\n effects.\n</p>\n<p><em>*Installing cyberlimb options currently not supported</em></p>"
     },
     "Suzumebachi Assassin Drone": {
-      "name": "Drón Asesino Suzumebachi",
-      "description": "<p>Un pequeño dron con forma de avispa diseñado para asesinatos silenciosos.</p>\n<p>Estadísticas: 6 MOV - 7 CP - 10 PV.</p>\n<p>Se puede neutralizar en 5 minutos con una tirada de Seguridad/Electrónica VD17.</p>\n<p>Programación por defecto:</p>\n<ol>\n<li>Ubicar el objetivo con la cámara integrada.</li>\n<li>Ataque al objetivo con la pistola de dardos hasta que se agote la munición o hasta que el infrarrojo del objetivo&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ya no se detecte calor</li>\n<li>Extraer y devolver al operador</li>\n</ol>\n<p>El dron se controla comúnmente con una Arquitectura de RED.</p>\n<p>Rango:</p>\n<p>Perímetro de un edificio equipado con Arquitectura de RED o a 50 m/yd de una Arquitectura de RED portátil.</p>\n<p>Equipamiento:</p>\n<ul>\n<li>Cámara con modos de luz baja, UV e infrarrojos</li>\n<li>Pistola de dardos con 8 flechas de biotoxinas</li>\n<li>Hipodérmica de Aire</li>\n</ul>"
+      "name": "Suzumebachi Assassin Drone",
+      "description": "<p>A small wasp-shaped drone designed for silent assassinations.</p>\n<p>Stats: 6 MOVE - 7SP - 10HP.</p>\n<p>\n Can be neutralized in 5 min with a\n <strong>DV17 Electronic/Security Tech</strong> check.\n</p>\n<p>Default Programming:</p>\n<ol>\n <li>Locate target using onboard camera.</li>\n <li>\n Attack target with dartgun until ammo is depleted or target's infrared\n signature no longer detected\n </li>\n <li>Exfiltrate and return to operator</li>\n</ol>\n<p>Drone is commonly controlled with a NET Architecture.</p>\n<p>Range:</p>\n<p>\n Perimeter of a NET Architecture-equipped building or 50m/yds away from a\n portable NET Architecture.\n</p>\n<p>Loadout:</p>\n<ul>\n <li>Camera with low Light, UV, Infrared modes</li>\n <li>Dartgun with 8 Biotoxin Arrows</li>\n <li>Airhypo</li>\n</ul>"
     },
     "The Observer": {
-      "name": "El Observador",
-      "description": "<p>Dron personal. Cámara voladora que puede estar vinculada a un agente.</p>\n<p>Consulte la descripción completa de la página 62 de Interface Red vol. 1.</p>"
+      "name": "The Observer",
+      "description": "<p>Personal Drone. Flying camera that can be linked to an Agent.</p>"
     },
     "The Transporter": {
-      "name": "El Transportador",
-      "description": "<p>Dron Personal. Dron transportador que puede ser vinculado a un agente.</p>\n<p>Consulte la descripción completa de la página 63 de Interface Red vol. 1.</p>"
+      "name": "The Transporter",
+      "description": "<p>Personal Drone. Transporter Drone that can be linked to an Agent.</p>"
     },
     "Umbrella": {
-      "name": "Paraguas",
-      "description": "<p>Protege contra la lluvia ácida. Por cada minuto expuesta a la lluvia ácida, todas las armaduras sufren ablación por 1 CP (NCW pg 4).</p>\n<p>+2 para Resistir Tortuga/Droga por la exposición a la Lluvia de Sangre. Lluvia de Sangre Severa aplica los efectos de un Vial de Biotoxina si falla al resistir (NCW pg 4).</p>"
+      "name": "Umbrella",
+      "description": "<p>\n Protects against Acid Rain. For every minute exposed to Acid Rain, all armor\n ablates by 1 SP (NCW pg 4).\n</p>\n<p>\n +2 to Resist Torture/Drugs Checks from Blood Rain exposure. Severe Blood Rain\n applies the effects of a Vial of Biotoxin on failed check (NCW pg 4).\n</p>"
     },
     "Wall Art": {
-      "name": "Decoración de Pared",
-      "description": "<p>Póster Barato.</p>"
+      "name": "Wall Art",
+      "description": "<p>Cheap poster.</p>"
     }
   }
 }

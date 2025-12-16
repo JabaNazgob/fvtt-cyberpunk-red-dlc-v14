@@ -3,24 +3,24 @@
   "mapping": {},
   "entries": {
     "Elflines Online": {
-      "name": "Эльфлайнс Онлайн",
-      "description": "<p>Новая запечатанная копия популярнейшей BDMMORPG «Эльфлайнс Онлайн».</p>"
+      "name": "Elflines Online",
+      "description": "<p>A new in-box copy of the hit BDMMORPG Elflines Online.</p>"
     },
     "Rank 10 ELO Character": {
-      "name": "Персонаж ЭЛО десятого уровня",
-      "description": "<p>«Персонаж для ЭЛО десятого уровня» (Персонажей для ЭЛО нужно создавать при помощи макроса и прокачивать вручную).</p>"
+      "name": "Rank 10 ELO Character",
+      "description": "<p>\n A power-leveled Rank 10 ELO character. (ELO Character must be created via the\n Macro and ranked up manually.)\n</p>"
     },
     "Rush Revolution": {
-      "name": "Раш Революшн",
-      "description": "<p>Очки для брейндансов. Необходимы для игры в «Эльфлайнс Онлайн».</p>"
+      "name": "Rush Revolution",
+      "description": "<p>Braindance Headset. Required to play Elflines Online.</p>"
     },
     "Sacred Herbs": {
-      "name": "Священные травы",
-      "description": "<p>Приём священных трав внутрь мгновенно излечивает ПЗ в количестве, равном ТЕЛ + ВОЛЯ.</p>"
+      "name": "Sacred Herbs",
+      "description": "<p>\n Ingesting Sacred Herbs immediately heals HP equal to the user's BODY plus\n their WILL.\n</p>"
     },
     "Vial of Poison": {
-      "name": "Ампула с ядом",
-      "description": "<p>2d6 урона при провале проверки сопротивления пыткам/препаратам. Броня не учитывается.</p>"
+      "name": "Vial of Poison",
+      "description": "<p>2d6 damage unless Resist Torture/Drugs. Armor does not apply.</p>"
     }
   }
 }

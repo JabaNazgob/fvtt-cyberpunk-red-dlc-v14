@@ -4,7 +4,7 @@
   "entries": {
     "Esporma Environment Suit": {
       "name": "Esporma Environment Suit",
-      "description": "<p>\n  Armored Radiation Suit. Protects the wearer from Radiation and comes with an\n  Oxygen Tank that lasts for 30 minutes which can be refilled by spending an\n  hour in clean air.\n</p>\n<p>Nanomachines restore 1SP every hour SP isn't lost on the armor</p>\n"
+      "description": "<p>\n Armored Radiation Suit. Protects the wearer from Radiation and comes with an\n Oxygen Tank that lasts for 30 minutes which can be refilled by spending an\n hour in clean air.\n</p>\n<p>Nanomachines restore 1SP every hour SP isn't lost on the armor</p>"
     },
     "FleshWeave (Armor)": {
       "name": "FleshWeave (Armor)",
@@ -12,11 +12,11 @@
     },
     "PackShield": {
       "name": "PackShield",
-      "description": "<p>Businesswear Backpack Bulletproof Shield hybrid.</p>\n<p>\n  Can carry items like a\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},\n  and be equipped in your hand like a shield.\n</p>\n<p>Only provides protection when equipped in a hand.</p>\n<p>\n  Cannot be installed in\n  @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup\n  Shield}.\n</p>\n"
+      "description": "<p>Businesswear Backpack Bulletproof Shield hybrid.</p>\n<p>\n Can carry items like a\n @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},\n and be equipped in your hand like a shield.\n</p>\n<p>Only provides protection when equipped in a hand.</p>\n<p>\n Cannot be installed in\n @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup\n Shield}.\n</p>"
     },
     "Scavenged Armor": {
       "name": "Scavenged Armor",
-      "description": "<p>A scavenged set of Light Armorjack body armor that is unable to be repaired. Refer to full item description on BC+ pg. 4.</p>"
+      "description": "<p>\n A scavenged set of Light Armorjack body armor that is unable to be repaired.\n</p>"
     }
   }
 }

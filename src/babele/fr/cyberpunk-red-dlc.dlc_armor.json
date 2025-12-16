@@ -3,20 +3,20 @@
   "mapping": {},
   "entries": {
     "Esporma Environment Suit": {
-      "name": "Tenue de protection Esporma",
-      "description": "<p>Combinaison anti-radiations renforcée. Protège le porteur et est livrée avec un réservoir d'oxygène de 30 minutes qui peut être rempli en une heure en air sain.</p>\n<p>Des nanomachines restaurent 1PA chaque heure tant que la tenue ne subit pas de dommage.</p>\n"
+      "name": "Esporma Environment Suit",
+      "description": "<p>\n Armored Radiation Suit. Protects the wearer from Radiation and comes with an\n Oxygen Tank that lasts for 30 minutes which can be refilled by spending an\n hour in clean air.\n</p>\n<p>Nanomachines restore 1SP every hour SP isn't lost on the armor</p>"
     },
     "FleshWeave (Armor)": {
-      "name": "Chair tissée (Armure)",
-      "description": "<p>Armure pour le cyberimplant Chair tissée (Armure) de Sycust.</p>\n"
+      "name": "FleshWeave (Armor)",
+      "description": "<p>Armor Item for Sycust FleshWeave Cyberware.</p>"
     },
     "PackShield": {
-      "name": "Sac bouclier",
-      "description": "<p>Croisement entre un sac à dos de style Cadre Sup et un bouclier ballistique.</p>\n<p>Peut transporter des objets comme un @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Fourre-tout}, et être équipé dans votre main comme un bouclier.</p>\n<p>Offre seulement une protection lorsqu'il est équipé dans une main.</p>\n<p>Ne peut pas être installé dans un @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Bouclier escamotable}.</p>\n"
+      "name": "PackShield",
+      "description": "<p>Businesswear Backpack Bulletproof Shield hybrid.</p>\n<p>\n Can carry items like a\n @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},\n and be equipped in your hand like a shield.\n</p>\n<p>Only provides protection when equipped in a hand.</p>\n<p>\n Cannot be installed in\n @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup\n Shield}.\n</p>"
     },
     "Scavenged Armor": {
-      "name": "Armure de récupération",
-      "description": "<p>Une armure légère bricolée pour le corps et qui ne peut être réparé.</p>\n"
+      "name": "Scavenged Armor",
+      "description": "<p>\n A scavenged set of Light Armorjack body armor that is unable to be repaired.\n</p>"
     }
   }
 }
