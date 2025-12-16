@@ -1,4 +1,5 @@
 import fs from "fs-extra";
+import path from "path";
 import log from "./logger.mjs";
 
 /**
@@ -106,5 +107,34 @@ export class FileUtils {
       .replace(/[^a-z0-9.]/gi, "_")
       .replace(/[\u200B-\u200D\uFEFF\u2060-\u2064\s]+/g, "")
       .toLowerCase();
+  }
+
+  static async findFilesByExt(searchPath, ext) {
+    if (!searchPath) {
+      throw new Error("searchPath parameter is required");
+    }
+    if (!ext) {
+      throw new Error("ext parameter is required");
+    }
+
+    const files = [];
+    const targetExt = ext.startsWith(".") ? ext : `.${ext}`;
+
+    async function search(dir) {
+      const entries = await fs.readdir(dir, { withFileTypes: true });
+
+      for (const entry of entries) {
+        const fullPath = path.join(dir, entry.name);
+
+        if (entry.isDirectory()) {
+          await search(fullPath);
+        } else if (entry.isFile() && path.extname(entry.name) === targetExt) {
+          files.push(fullPath);
+        }
+      }
+    }
+
+    await search(searchPath);
+    return files;
   }
 }
