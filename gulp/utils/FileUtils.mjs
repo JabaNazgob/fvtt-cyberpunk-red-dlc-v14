@@ -8,22 +8,23 @@ import log from "./logger.mjs";
  */
 export class FileUtils {
   /**
-   * Creates a directory if it doesn't exist. Logs success at debug level and
-   * errors at error level.
+   * Determines if a file is temporary and should be ignored by watchers.
+   * Filters out editor temp files, backup files, and atomic write
+   * intermediates.
    *
-   * @param {string} path - The directory path to create
-   * @throws {Error} If directory creation fails
+   * @static
+   * @param {string} file - File path to check
+   * @param {string[]} patterns - Array of patterns to match against
+   * @returns {boolean} True if file matches any temporary pattern
    */
-  static createDir(path) {
-    try {
-      if (!fs.existsSync(path)) {
-        fs.mkdirSync(path);
-        log.debug(`FileUtils.mjs: Created directory: ${path}`);
+  static isTemporaryFile(file, patterns) {
+    const filename = path.basename(file);
+    return patterns.some((pattern) => {
+      if (pattern.includes(".")) {
+        return filename.includes(pattern);
       }
-    } catch (err) {
-      log.error(`FileUtils.mjs: Failed to create directory ${path}: ${err}`);
-      throw err;
-    }
+      return filename.endsWith(pattern);
+    });
   }
 
   /**
@@ -47,14 +48,37 @@ export class FileUtils {
   }
 
   /**
+   * Writes text content to a file. Logs success at debug level and errors
+   * at error level.
+   *
+   * @param {string} path - The file path to write to
+   * @param {string} content - The text content to write
+   * @param {string} [encoding="utf-8"] - File encoding
+   * @throws {Error} If file writing fails
+   */
+  static writeTextFile(path, content, encoding = "utf-8") {
+    try {
+      fs.writeFileSync(path, content, encoding);
+      log.debug(`FileUtils.mjs: Wrote text file: ${path}`);
+    } catch (err) {
+      log.error(`FileUtils.mjs: Failed to write text file ${path}: ${err}`);
+      throw err;
+    }
+  }
+
+  /**
    * Sanitizes a string by converting it to a safe filename format.
    *
    * This function performs the following transformations:
-   * - Converts diacritical marks and accented characters to their basic Latin equivalents
+   * - Converts diacritical marks and accented characters to their basic
+   *   Latin equivalents
+   * - Removes parentheses, quotes, and similar characters
    * - Replaces special characters and spaces with underscores
    * - Removes currency symbols and mathematical operators
    * - Converts all characters to lowercase
    * - Removes zero-width characters and other invisible Unicode characters
+   *
+   * Order of operation is important here!
    *
    * @param {string} str - The input string to be sanitized
    * @returns {string} A cleaned string safe for use as a filename
@@ -103,22 +127,39 @@ export class FileUtils {
       .replace(/[ŴẂẄẀ]/g, "W")
       .replace(/[ŹŻŽ]/g, "Z")
       .replace(/[$€£¥¢]/g, "")
+      .replace(/[()'"]/g, "")
       .replace(/[+−×÷=≠<>±≤≥]/g, "")
       .replace(/[^a-z0-9.]/gi, "_")
       .replace(/[\u200B-\u200D\uFEFF\u2060-\u2064\s]+/g, "")
       .toLowerCase();
   }
 
-  static async findFilesByExt(searchPath, ext) {
+  /**
+   * Recursively searches a directory for files matching multiple extensions.
+   * Walks the directory tree once and returns all matching file paths.
+   * Performs a single directory traversal for better performance when
+   * searching for multiple file types.
+   *
+   * @async
+   * @param {string} searchPath - The directory path to search
+   * @param {string[]} exts - Array of file extensions to search for (with
+   *                          or without leading dots)
+   * @returns {Promise<string[]>} Array of absolute file paths matching any
+   *                              of the provided extensions
+   * @throws {Error} If searchPath or exts parameters are not provided
+   */
+  static async findFilesByExts(searchPath, exts) {
     if (!searchPath) {
       throw new Error("searchPath parameter is required");
     }
-    if (!ext) {
-      throw new Error("ext parameter is required");
+    if (!exts || !Array.isArray(exts) || exts.length === 0) {
+      throw new Error("exts parameter must be a non-empty array");
     }
 
     const files = [];
-    const targetExt = ext.startsWith(".") ? ext : `.${ext}`;
+    const targetExts = exts.map((ext) =>
+      ext.startsWith(".") ? ext : `.${ext}`,
+    );
 
     async function search(dir) {
       const entries = await fs.readdir(dir, { withFileTypes: true });
@@ -128,7 +169,10 @@ export class FileUtils {
 
         if (entry.isDirectory()) {
           await search(fullPath);
-        } else if (entry.isFile() && path.extname(entry.name) === targetExt) {
+        } else if (
+          entry.isFile() &&
+          targetExts.includes(path.extname(entry.name))
+        ) {
           files.push(fullPath);
         }
       }

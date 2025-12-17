@@ -4,8 +4,11 @@ install:
 clean:
   npx gulp cleanBuildDir
 
-build:
+build: clean
   npx gulp build
+
+watch: clean build
+  npx gulp watch
 
 extractPacks:
   npx gulp extractPacks

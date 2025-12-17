@@ -18,6 +18,9 @@ gulp.task("extractPacks", PackUtils.extractPacks(config));
 gulp.task("compilePacks", PackUtils.compilePacks(config));
 gulp.task("processImages", ImageTools.processImages(config));
 
+gulp.task("watchImages", ImageTools.watchImages(config));
+gulp.task("watchStaticAssets", BuildTools.watchStaticAssets(config));
+
 export const build = gulp.series(
   "generateEnvFile",
   "cleanBuildDir",
@@ -26,3 +29,5 @@ export const build = gulp.series(
   "copyStaticAssets",
   "compilePacks",
 );
+
+export const watch = gulp.parallel("watchImages", "watchStaticAssets");

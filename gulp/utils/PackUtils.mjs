@@ -62,6 +62,8 @@ export class PackUtils {
    * Removes unwanted characters, normalizes formatting, and trims
    * whitespace
    *
+   * Order of operations is important!
+   *
    * @private
    * @param {string} str - The input description string
    * @returns {string} The sanitized description
@@ -182,7 +184,6 @@ export class PackUtils {
     };
 
     try {
-      log.debug(`Extracting pack '${path.basename(inputDir)}'`);
       await FoundryPacks.extractPack(inputDir, outputDir, {
         yaml: true,
         yamlOptions: yamlOptions,
@@ -190,9 +191,8 @@ export class PackUtils {
         transformEntry: (entry) => PackUtils.#transformEntry(entry),
       });
     } catch (error) {
-      console.error(
-        `Error extracting pack from ${inputDir} to ${outputDir}:`,
-        error,
+      log.error(
+        `Error extracting pack from ${inputDir} to ${outputDir}: ${error.message}`,
       );
       throw error;
     }
@@ -216,22 +216,35 @@ export class PackUtils {
   }
 
   /**
-   * Extracts all packs defined in the module configuration
-   * Clears existing fragment directory and generates new fragments
-   * and Babele files
+   * Extracts all packs defined in the module configuration. Clears
+   * existing fragment directories before extraction and clears Babele
+   * translation files before regeneration.
    *
    * @param {Function} done - Callback to signal completion of extraction
    */
   static extractPacks = (config) => async (done) => {
     const packs = config.manifest.packs;
+    const babelDir = path.join(config.srcDirPath, "babele", "en");
 
-    for (const p of packs) {
-      const packsFragmentDir = PackUtils.#getFragmentDir(config, p);
-      const packsBuildDir = path.join(config.buildDirPath, "packs", p.name);
-      await PackUtils.#extractPack(packsBuildDir, packsFragmentDir);
-      await PackUtils.#generateBabelFile(config, p, packsFragmentDir);
+    try {
+      // Clear Babele en directory before generating new files
+      fs.emptyDirSync(babelDir);
+
+      for (const p of packs) {
+        const packsFragmentDir = PackUtils.#getFragmentDir(config, p);
+        const packsBuildDir = path.join(config.buildDirPath, "packs", p.name);
+
+        // Clear fragment directory before extracting
+        fs.emptyDirSync(packsFragmentDir);
+
+        await PackUtils.#extractPack(packsBuildDir, packsFragmentDir);
+        await PackUtils.#generateBabelFile(config, p, packsFragmentDir);
+      }
+      done();
+    } catch (error) {
+      log.error(`Error during pack extraction: ${error.message}`);
+      done(error);
     }
-    done();
   };
 
   /**

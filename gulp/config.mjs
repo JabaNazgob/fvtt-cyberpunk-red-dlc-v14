@@ -19,6 +19,8 @@ class Config {
   static BUILD_DIR = "dist";
   static ASSET_DIRS = [];
   static ASSET_FILES = [];
+  static IMAGE_EXTS = [".svg", ".png", ".webp"];
+  static TEMP_FILE_PATTERNS = [".tmp.", "~", ".swp", ".swo", ".orig", ".bak"];
   static CI = process.env.CI || false;
   static CI_COMMIT_TAG = process.env.CI_COMMIT_TAG || undefined;
   static GITLAB_CI = process.env.GITLAB_CI || false;
@@ -39,6 +41,7 @@ class Config {
    * @param {string} [options.buildDir] - Build directory name
    * @param {string} [options.assetDirs] - Directories in SRC_DIR to sync to BUILD_DIR
    * @param {string} [options.assetFiles] - Files in SRC_DIR to sync to BUILD_DIR
+   * @param {string[]} [options.imageExts] - Array of supported image file extensions
    * @param {string} [options.defaultVersion] - Default version string
    * @param {string} [options.gitlabHost] - GitLab host URL
    * @param {string} [options.gitlabProjectId] - GitLab project ID
@@ -55,6 +58,9 @@ class Config {
     this._buildDir = options.buildDir || Config.BUILD_DIR;
     this._assetDirs = options.assetDirs || Config.ASSET_DIRS;
     this._assetFiles = options.assetFiles || Config.ASSET_FILES;
+    this._imageExts = options.imageExts || Config.IMAGE_EXTS;
+    this._tempFilePatterns =
+      options.tempFilePatterns || Config.TEMP_FILE_PATTERNS;
     this._defaultVersion = options.defaultVersion || Config.DEFAULT_VERSION;
     this._gitlabHost = options.gitlabHost || Config.GITLAB_HOST;
     this._gitlabProjectId = options.gitlabProjectId || Config.GITLAB_PROJECT_ID;
@@ -117,16 +123,22 @@ class Config {
    * @throws {Error} If manifest cannot be parsed as valid JSON
    */
   #loadFoundryConfig() {
+    if (this._cachedFoundryConfig !== undefined) {
+      return this._cachedFoundryConfig;
+    }
+
     try {
       const filePath = path.join(this.root, this._foundryConfig);
       const fileContent = fs.readFileSync(filePath, "utf-8");
       const config = JSON.parse(fileContent);
+      this._cachedFoundryConfig = config;
       return config;
     } catch (error) {
       if (error.code === "ENOENT") {
         log(
           `${chalk.yellow("WARNING")} ${this._foundryConfig} not found. Using defaults.`,
         );
+        this._cachedFoundryConfig = {};
         return {};
       } else if (error instanceof SyntaxError) {
         throw new Error(
@@ -308,6 +320,25 @@ class Config {
    */
   get syncPaths() {
     return [...this._assetDirs, ...this._assetFiles];
+  }
+
+  /**
+   * Gets the supported image file extensions for processing.
+   *
+   * @returns {string[]} Array of supported image extensions (e.g., [".svg", ".png", ".webp"])
+   */
+  get imageExts() {
+    return [...this._imageExts];
+  }
+
+  /**
+   * Gets the temporary file patterns to ignore during watching.
+   *
+   * @returns {string[]} Array of temporary file patterns (e.g.,
+   *                    [".tmp.", "~", ".swp", ".swo", ".orig", ".bak"])
+   */
+  get tempFilePatterns() {
+    return [...this._tempFilePatterns];
   }
 
   /**
