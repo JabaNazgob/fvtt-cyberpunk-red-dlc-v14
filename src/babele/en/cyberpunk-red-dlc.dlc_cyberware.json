@@ -6,6 +6,10 @@
       "name": "Animal Behavior Chip",
       "description": "<p>Chipware. Each chip is imprinted with a single animal psyche. Provides a +4 to Acting checks to impersonate animal's behavior.</p>"
     },
+    "Appetite Controller": {
+      "name": "Appetite Controller",
+      "description": "<p>\n Suppresses hunger response. User ignores Humanity Loss penalties from\n starvation trauma but User can still starve. Roll a Death Save at start of 7th\n consecutive day without eating. +1 to successive Death Saves each day\n afterwards.\n</p>\n<p>Requires Biomonitor.</p>"
+    },
     "Blitzkrieg Arc-Thrower Cyberarm": {
       "name": "Blitzkrieg Arc-Thrower Cyberarm",
       "description": "<p>\n An \"arm\" in name only, the Arc-Thrower is a massive electricity cannon. 0\n option slots.\n</p>\n<p>\n The Arc-Thrower is One-Handed Exotic Poor Quality Shotgun that uses Heavy\n Weapons Skill. Fires \"Shotgun Shell\" electricity blast with 4d6 damage.\n Critical Injuries are not possible. Armor is not ablated. If target goes under\n 1HP from the blast, target has 1HP and is Unconscious.\n</p>\n<p>\n Firing the Arc-Thrower consumes a charge from the included Radline MagnaSlot\n BatteryBrick (100eb). BatteryBrick has a 32 shot capacity and can be recharged\n in 1 hour. Use an Action to swap in a fresh battery pack even if user has no\n free hands available. Arc-Thrower does not have a hand attachment.\n</p>"
@@ -97,6 +101,10 @@
     "Mood Eye": {
       "name": "Mood Eye",
       "description": "<p>\n Color-shifting eye lenses. Color is dependent on Neural Link \"mood\" scans.\n <strong>DV 21 Acting</strong> check to fake a mood scan and change color\n accordingly. Lenses can be deactivated without an action.\n</p>\n<ul>\n <li>Red: Rage</li>\n <li>Blue: Sorrow</li>\n <li>Yellow: Terror</li>\n <li>Pink: Horny</li>\n <li>Green: Envy</li>\n <li>Gray: Flatlined</li>\n</ul>\n<p>Fashionware. Requires Neural Link.</p>"
+    },
+    "NeuTongue": {
+      "name": "NeuTongue",
+      "description": "<p>\n Simulates flavor sensations. Use a linked Agent to customize flavor profiles.\n Can be deactivated without an Action. No sense of taste when deactivated.\n</p>\n<p>Replaces Meat tongue.</p>"
     },
     "OptiShield": {
       "name": "OptiShield",

@@ -10,6 +10,10 @@
       "name": "Big Dreem Rounds",
       "description": "<p>Custom Ammo for the Teen Dreem.</p>"
     },
+    "Harpoons": {
+      "name": "Harpoons",
+      "description": "<p>Additional harpoons for use with the SlamDance Ballistic Harpoon Launcher.</p>"
+    },
     "Heavy Pistol (Junk)": {
       "name": "Heavy Pistol (Junk)",
       "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with more than 1SP.\n</p>"
