@@ -1,0 +1,176 @@
+_id: 5dJegR6eRVZRGBl8
+_key: "!items!5dJegR6eRVZRGBl8"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1766431859642
+  duplicateSource: null
+  lastModifiedBy: IMREvhAZtigyN7Gy
+  modifiedTime: 1766431859642
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects:
+  - _id: v0xsRlpn5u7PKXEr
+    _key: "!items.effects!5dJegR6eRVZRGBl8.v0xsRlpn5u7PKXEr"
+    _stats:
+      compendiumSource: null
+      coreVersion: "12.343"
+      createdTime: null
+      duplicateSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: cyberpunk-red-core
+      systemVersion: v0.0.0dev
+    changes:
+      - key: bonuses.electronicsAndSecurityTech
+        mode: 2
+        priority: null
+        value: "4"
+    description: ""
+    disabled: false
+    duration:
+      combat: null
+      rounds: null
+      seconds: null
+      startRound: null
+      startTime: null
+      startTurn: null
+      turns: null
+    flags:
+      cyberpunk-red-core:
+        changes:
+          cats:
+            "0": skill
+          situational:
+            "0":
+              isSituational: true
+              onByDefault: false
+    img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/crunch_whistle.svg
+    name: Crunch Whistle
+    origin: Item.y5vFf2GfC5u24miH
+    sort: 0
+    statuses: []
+    system: {}
+    tint: "#ffffff"
+    transfer: true
+    type: base
+flags: {}
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/crunch_whistle.svg
+name: Crunch Whistle
+ownership:
+  IMREvhAZtigyN7Gy: 3
+  default: 0
+sort: 0
+system:
+  ammoVariety: []
+  attackmod: 0
+  brand: ""
+  canIgnoreArmor: false
+  concealable:
+    concealable: false
+    isConcealed: false
+  critFailEffect: jammed
+  damage: 1d6
+  description:
+    value: >-
+      <p>Connects your cyberdeck to a breacher.</p><p>When this upgrade is
+      installed, a Netrunner may add their Interface Rank to the result when
+      hacking an agent. <em>(Active Effect requires manual
+      configuration)</em></p>
+  favorite: false
+  fireModes:
+    autoFire: 0
+    suppressiveFire: false
+  handsReq: 0
+  ignoreArmorPercent: 0
+  ignoreBelowSP: 0
+  installLocation: mall
+  installedItems:
+    allowed: false
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 3
+    usedSlots: 0
+  isElectronic: true
+  isRanged: false
+  magazine:
+    ammoData: {}
+    max: 0
+    value: 0
+  modifiers:
+    Wardrobe & Style:
+      isSituational: false
+      onByDefault: false
+      value: null
+    attackmod:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    bodySp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    cool:
+      isSituational: false
+      onByDefault: false
+      value: null
+    damage:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    headSp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    magazine:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    rof:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    sdp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    seats:
+      isSituational: false
+      onByDefault: false
+      value: null
+    secondaryWeapon:
+      configured: false
+    shieldHp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    slots:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    speedCombat:
+      isSituational: false
+      onByDefault: false
+      value: null
+  price:
+    market: 100
+  providesHardening: false
+  revealed: true
+  rof: 1
+  size: 1
+  source:
+    book: ""
+    page: 0
+  type: cyberdeck
+  unarmedAutomaticCalculation: true
+  usage: equipped
+  usesType: magazine
+  weaponSkill: Handgun
+type: itemUpgrade

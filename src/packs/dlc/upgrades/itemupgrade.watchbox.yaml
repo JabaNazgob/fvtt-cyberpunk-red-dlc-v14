@@ -1,0 +1,132 @@
+_id: VVnUM641cIpuB4nV
+_key: "!items!VVnUM641cIpuB4nV"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1768430944264
+  duplicateSource: null
+  lastModifiedBy: IMREvhAZtigyN7Gy
+  modifiedTime: 1768430944264
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: null
+img: systems/cyberpunk-red-core/icons/compendium/default/Default_Program.svg
+name: WatchBox
+ownership:
+  IMREvhAZtigyN7Gy: 3
+  default: 0
+sort: 0
+system:
+  ammoVariety: []
+  attackmod: 0
+  brand: No/Brainer
+  canIgnoreArmor: false
+  concealable:
+    concealable: false
+    isConcealed: false
+  critFailEffect: jammed
+  damage: 1d6
+  description:
+    value: >-
+      <p><strong>App:</strong> Turns your agent into an alarm
+      system.</p><blockquote><p>Requires 5 minutes to scan and establish a
+      security perimeter. The alarm is triggered by loud noises, bright lights,
+      and movement.</p><p><strong>DV13 Stealth Check</strong> to avoid
+      detection.</p></blockquote>
+  favorite: false
+  fireModes:
+    autoFire: 0
+    suppressiveFire: false
+  handsReq: 0
+  ignoreArmorPercent: 0
+  ignoreBelowSP: 0
+  installLocation: mall
+  installedItems:
+    allowed: false
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 3
+    usedSlots: 0
+  isElectronic: false
+  isRanged: false
+  magazine:
+    ammoData: {}
+    max: 0
+    value: 0
+  modifiers:
+    Wardrobe & Style:
+      isSituational: false
+      onByDefault: false
+      value: null
+    attackmod:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    bodySp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    cool:
+      isSituational: false
+      onByDefault: false
+      value: null
+    damage:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    headSp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    magazine:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    rof:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    sdp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    seats:
+      isSituational: false
+      onByDefault: false
+      value: null
+    secondaryWeapon:
+      configured: false
+    shieldHp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    slots:
+      isSituational: false
+      onByDefault: false
+      value: null
+    speedCombat:
+      isSituational: false
+      onByDefault: false
+      value: null
+  price:
+    market: 50
+  providesHardening: false
+  revealed: true
+  rof: 1
+  size: 0
+  source:
+    book: AAA
+    page: 8
+  type: gear
+  unarmedAutomaticCalculation: true
+  usage: toggled
+  usesType: magazine
+  weaponSkill: Handgun
+type: itemUpgrade

@@ -81,6 +81,10 @@
       "name": "Drone Remote",
       "description": "<p>Allows you to control a drone with your mind instead of your agent.</p>\n<p><em>Increases maximum broadcast range to 20m/yds.</em></p>\n"
     },
+    "EBM PiR2": {
+      "name": "EBM PiR2",
+      "description": "<p>Built in agent. Audio only but can be linked with other cybergear.</p><blockquote><p><strong>Excellent Quality</strong> <strong>Internal Agent</strong></p><ul><li><p>Remote Hacking DV 24 / Physical Hacking DV 21</p></li></ul></blockquote>"
+    },
     "External Vidscreen": {
       "name": "External Vidscreen",
       "description": "<p>\n  Implanted flexible video screen. Use a socketed Memory Chip or linked Agent to\n  stream video to Vidscreen.\n</p>\n",
@@ -139,6 +143,10 @@
       "name": "Lead's Turn-On-Show-Off Nails",
       "description": "<p>\n  Customizable illuminated nail for each fingertip. Includes pen tools for\n  creating custom patterns. Nail patterns can be downloaded from the CitiNet and\n  synced with a linked Agent.<br />Qualifies as a Light Tattoo. +2 Wardrobe and\n  Style when the user has 3 or more Light Tattoos.\n</p>\n",
       "dvTable": ""
+    },
+    "Mediaware BrainGen": {
+      "name": "Mediaware BrainGen",
+      "description": "<p>Built in agent. Audio only but can be linked with other cybergear.</p><blockquote><p><strong>Poor Quality</strong> <strong>Internal Agent</strong></p><ul><li><p>Remote Hacking DV 17 / Physical Hacking DV 15</p></li></ul></blockquote>"
     },
     "MicroWaldo": {
       "name": "MicroWaldo",
@@ -202,6 +210,10 @@
       "name": "Pursuit Security Inc. Personal Shredder",
       "description": "<p>\n  Heavy duty paper shredder, can be concealed. Features an internal storage for\n  paper shreds.\n</p>\n",
       "dvTable": ""
+    },
+    "Raven Microcybernetics Drake": {
+      "name": "Raven Microcybernetics Drake",
+      "description": "<p>Built in agent. Audio only but can be linked with other cybergear.</p><blockquote><p><strong>Standard Quality</strong> <strong>Internal Agent</strong></p><ul><li><p>Remote Hacking DV 21 / Physical Hacking DV 17</p></li></ul></blockquote>"
     },
     "Realskinn™ Faceplate": {
       "name": "Realskinn™ Faceplate",
