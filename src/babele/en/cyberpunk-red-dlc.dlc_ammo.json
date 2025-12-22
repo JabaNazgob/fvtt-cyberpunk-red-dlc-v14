@@ -22,10 +22,6 @@
       "name": "Heavy Pistol (Small Game)",
       "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
     },
-    "M-02 Rounds": {
-      "name": "M-02 Rounds",
-      "description": "<p>\n Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n Comes in a drum of 80.\n</p>"
-    },
     "MagnaSlot BatteryBrick": {
       "name": "MagnaSlot BatteryBrick",
       "description": "<p>\n Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can\n be recharged in 1 hour.\n</p>"
@@ -37,6 +33,10 @@
     "Medium Pistol (Small Game)": {
       "name": "Medium Pistol (Small Game)",
       "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
+    },
+    "M-02 Rounds": {
+      "name": "M-02 Rounds",
+      "description": "<p>\n Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n Comes in a drum of 80.\n</p>"
     },
     "Nova Model 757 Rounds": {
       "name": "Nova Model 757 Rounds",

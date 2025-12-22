@@ -14,6 +14,14 @@
       "name": "PackShield",
       "description": "<p>Businesswear Backpack Bulletproof Shield hybrid.</p>\n<p>\n Can carry items like a\n @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},\n and be equipped in your hand like a shield.\n</p>\n<p>Only provides protection when equipped in a hand.</p>\n<p>\n Cannot be installed in\n @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup\n Shield}.\n</p>"
     },
+    "Roller Derby Helmet": {
+      "name": "Roller Derby Helmet",
+      "description": "<p>Regulation uniform derby padding required for all league sanctioned events.</p>"
+    },
+    "Roller Derby Padding": {
+      "name": "Roller Derby Padding",
+      "description": "<p>Regulation uniform derby padding required for all league sanctioned events.</p>"
+    },
     "Scavenged Armor": {
       "name": "Scavenged Armor",
       "description": "<p>\n A scavenged set of Light Armorjack body armor that is unable to be repaired.\n</p>"
