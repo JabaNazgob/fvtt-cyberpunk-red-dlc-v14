@@ -42,6 +42,10 @@
       "name": "Enviro-launcher",
       "description": "<p>\n This specially engineered rocket launcher is only capable of being fired once.\n However, once it has been fired the user can use an action to break of a vial\n attached to the launcher, which will release an enzyme that will destroy the\n launcher totally within an hour.\n</p>"
     },
+    "Fire Extinguisher": {
+      "name": "Fire Extinguisher",
+      "description": "<p>A two-handed exotic very heavy pistol that extinguishes burning objects and edgerunners.</p><p><em>Maximum Range 6m/yds, roll combat damage only when fighting fires.</em></p>"
+    },
     "Flare Gun": {
       "name": "Flare Gun",
       "description": "<p>\n As well as normal Grenade Ammunition, this weapon can fire road flares*. They\n don't deal any damage, but if fired into the air can be seen from 3 miles. You\n cannot install this weapon in Pop-up Cyberware.\n</p>\n<p>\n <em>*Currently not supported so will need to manually delete a road flare from\n actors inventory after firing</em>\n</p>"
