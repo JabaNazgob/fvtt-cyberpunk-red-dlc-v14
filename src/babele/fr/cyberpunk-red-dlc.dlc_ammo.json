@@ -1,78 +1,78 @@
 {
-  "label": "Ammo",
+  "label": "Munitions",
   "mapping": {},
   "entries": {
     "Arrow (Junk)": {
-      "name": "Arrow (Junk)",
-      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
+      "name": "Flèche (Camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
     },
     "Big Dreem Rounds": {
-      "name": "Big Dreem Rounds",
-      "description": "<p>Custom Ammo for the Teen Dreem.</p>"
+      "name": "Munitions Big Dreem",
+      "description": "<p>Munitions personnalisées pour TeenDreem.</p>"
     },
     "Heavy Pistol (Junk)": {
-      "name": "Heavy Pistol (Junk)",
-      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with more than 1SP.\n</p>"
+      "name": "Pistolet lourd (camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
     },
     "Heavy Pistol (Small Game)": {
-      "name": "Heavy Pistol (Small Game)",
-      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
+      "name": "Pistolet Lourd (Petit gibier)",
+      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
     },
     "M-02 Rounds": {
-      "name": "M-02 Rounds",
-      "description": "<p>\n Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n Comes in a drum of 80.\n</p>"
+      "name": "Munitions M-02",
+      "description": "<p>Munitions perforantes spéciales à utiliser uniquement pour le fusil lourd Sternmeyer M-02. Vendues dans un tambour de 80 balles.</p>"
     },
     "MagnaSlot BatteryBrick": {
-      "name": "MagnaSlot BatteryBrick",
-      "description": "<p>\n Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can\n be recharged in 1 hour.\n</p>"
+      "name": "Batterie MagnaSlot",
+      "description": "<p>Batterie spécifique au cyberbras Radline Blitzkrieg Lanceur d'Arc. Peut être rechargé en 1 heure.</p>"
     },
     "Medium Pistol (Junk)": {
-      "name": "Medium Pistol (Junk)",
-      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
+      "name": "Pistolet moyen (camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
     },
     "Medium Pistol (Small Game)": {
-      "name": "Medium Pistol (Small Game)",
-      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
+      "name": "Pistolet Moyen (Petit gibier)",
+      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
     },
     "Nova Model 757 Rounds": {
-      "name": "Nova Model 757 Rounds",
-      "description": "<p>\n For use only in the Nova Model 757 Cityhunter. Comes in packs of 18 instead of\n the normal 10.\n</p>\n\n<p>\n Req Targeting Scope Cyberware, otherwise won't fire. If miss single attack by\n 4 or less, roll second attack at same DV 1d10+10 (not normal stat). Can add\n luck. Target can dodge the second roll as normal if able to do so.\n</p>"
+      "name": "Munitions pour Nova Model 757",
+      "description": "<p>À utiliser uniquement avec le Nova Model 757 Cityhunter. Viens en pack de 18 au lieu d'un pack de 10.</p>\n\n<p>A besoin d'un implant Dispositif de visée, ou ne tirera pas. S'il rate une Attaque de 4 ou moins, lancez une seconde attaque au même SD 1d10+10 (statistique d'attaque non normale). Ajout possible de Chance. La cible peut esquiver la second attaque normalement si elle en est capable.</p>\n"
     },
     "Paintball (Biotoxin)": {
-      "name": "Paintball (Biotoxin)",
-      "description": "<p>\n Created from 3 Vials of Biotoxin strapped together. Deals no direct damage on\n hit.\n</p>"
+      "name": "Paintball (Biotoxine)",
+      "description": "<p>Créé à partir de 3 flacons de biotoxine fixées ensemble. N'inflige aucun dégât direct à l'impact.</p>"
     },
     "Paintball (Poison)": {
-      "name": "Paintball (Poison)",
-      "description": "<p>\n Created from 3 Vials of Poison strapped together. Deals no direct damage on\n hit.\n</p>"
+      "name": "Paintball (poison)",
+      "description": "<p>Créé à partir de 3 fioles de poison fixées ensemble. N'inflige aucun dégât direct à l'impact.</p>\n"
     },
     "Rifle (Junk)": {
-      "name": "Rifle (Junk)",
-      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
+      "name": "Fusil (camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
     },
     "Rifle (Small Game)": {
-      "name": "Rifle (Small Game)",
-      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
+      "name": "Fusil (Petit gibier)",
+      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
     },
     "Shotgun Slug (Junk)": {
-      "name": "Shotgun Slug (Junk)",
-      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
+      "name": "Slug de fusil à pompe (camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
     },
     "Sub-Flechette Rounds": {
-      "name": "Sub-Flechette Rounds",
-      "description": "<p>\n Special ammo to only be used with the Malorian Arms Sub-Flechette Gun. Ablates\n armor by 4 SP per hit.\n</p>"
+      "name": "Fléchettes spéciales",
+      "description": "<p>Munitions spéciales qui ne peuvent être utilisées que par la Mitrailleuse à fléchettes Malorian Arms. Perforent l'armure de 4 PA par coup.</p>\n"
     },
     "Very Heavy Pistol (Junk)": {
-      "name": "Very Heavy Pistol (Junk)",
-      "description": "<p>\n Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>"
+      "name": "Pistolet très lourd (camelote)",
+      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
     },
     "Very Heavy Pistol (Small Game)": {
-      "name": "Very Heavy Pistol (Small Game)",
-      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>"
+      "name": "Pistolet très lourd (Petit gibier)",
+      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
     },
     "Molotov Cocktail": {
-      "name": "Molotov Cocktail",
-      "description": "<p>Fragile Incendiary Grenade. Set a target Deadly on Fire (see CP:R p.180)</p>"
+      "name": "Cocktail Molotov",
+      "description": "<p>Grenade incendiaire fragile. Met une cible en feu d'intensité mortelle (voir CP:R p.180)</p>\n"
     }
   }
 }

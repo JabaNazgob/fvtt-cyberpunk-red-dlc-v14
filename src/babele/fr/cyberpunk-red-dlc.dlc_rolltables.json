@@ -1,49 +1,49 @@
 {
-  "label": "Rolltables",
+  "label": "Table des SD",
   "mapping": {},
   "entries": {
     "Achievements and Loot Boxes": {
-      "name": "Achievements and Loot Boxes",
+      "name": "Accomplissements et Caisses de Butin",
       "description": ""
     },
     "A Box Bound Tightly in Rope": {
-      "name": "A Box Bound Tightly in Rope",
+      "name": "Une boîte serrée dans une corde",
       "description": ""
     },
     "A Box Covered in Chipped Paint": {
-      "name": "A Box Covered in Chipped Paint",
+      "name": "Une boîte recouverte de peinture écaillée",
       "description": ""
     },
     "A Box Dripping Wet With Fluid": {
-      "name": "A Box Dripping Wet With Fluid",
+      "name": "Une boîte dégoulinante de liquide",
       "description": ""
     },
     "A Box Freezing Cold To The Touch": {
-      "name": "A Box Freezing Cold To The Touch",
+      "name": "Une boite glaciale au toucher",
       "description": ""
     },
     "A Box Handsomely Gift Wrapped": {
-      "name": "A Box Handsomely Gift Wrapped",
+      "name": "Une boite emballée dans un beau papier",
       "description": ""
     },
     "A Box Marked With A Lime Green X": {
-      "name": "A Box Marked With A Lime Green X",
+      "name": "Une boîte marquée avec un X vert fluo",
       "description": ""
     },
     "A Box Melted Out Of Shape": {
-      "name": "A Box Melted Out Of Shape",
+      "name": "Une boite à la forme fondue",
       "description": ""
     },
     "A Box Reeking Of Oil": {
-      "name": "A Box Reeking Of Oil",
+      "name": "Une boîte empestant l'huile",
       "description": ""
     },
     "A Box Sealed With A Lipstick Kiss": {
-      "name": "A Box Sealed With A Lipstick Kiss",
+      "name": "Une boîte scellée d'un baiser de rouge à lèvres",
       "description": ""
     },
     "A Box Showing Signs Of Repair": {
-      "name": "A Box Showing Signs Of Repair",
+      "name": "Une boîte montrant des signes de réparation",
       "description": ""
     }
   }

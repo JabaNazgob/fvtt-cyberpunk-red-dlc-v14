@@ -1,26 +1,26 @@
 {
-  "label": "Gear",
+  "label": "Attirail",
   "mapping": {},
   "entries": {
     "Elflines Online": {
       "name": "Elflines Online",
-      "description": "<p>A new in-box copy of the hit BDMMORPG Elflines Online.</p>"
+      "description": "<p>Une nouvelle copie in-box du hit BDMMORPG Elflines Online.</p>"
     },
     "Rank 10 ELO Character": {
-      "name": "Rank 10 ELO Character",
-      "description": "<p>\n A power-leveled Rank 10 ELO character. (ELO Character must be created via the\n Macro and ranked up manually.)\n</p>"
+      "name": "Personnage ELO de rang 10",
+      "description": "<p>Un personnage ELO de niveau 10 (un personnage ELO doit être créé via la Macro et ses niveaux montés manuellement.)</p>\n"
     },
     "Rush Revolution": {
       "name": "Rush Revolution",
-      "description": "<p>Braindance Headset. Required to play Elflines Online.</p>"
+      "description": "<p>Casque de Braindance. Requis pour jouer à Elflines Online.</p>"
     },
     "Sacred Herbs": {
-      "name": "Sacred Herbs",
-      "description": "<p>\n Ingesting Sacred Herbs immediately heals HP equal to the user's BODY plus\n their WILL.\n</p>"
+      "name": "Herbes sacrées",
+      "description": "<p>Ingérer des Herbes sacrées soigne immédiatement les PS pour un total de COR+VOL de l'utilisateur.</p>"
     },
     "Vial of Poison": {
-      "name": "Vial of Poison",
-      "description": "<p>2d6 damage unless Resist Torture/Drugs. Armor does not apply.</p>"
+      "name": "Fiole de poison",
+      "description": "<p>Inflige 2d6 dégâts qui ne sont pas réduits par l'armure. Pour contrer son effet, on utilise Résistance à la torture/aux drogues.</p>"
     }
   }
 }
