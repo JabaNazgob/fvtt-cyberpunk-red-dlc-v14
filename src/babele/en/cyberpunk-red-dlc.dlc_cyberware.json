@@ -50,6 +50,10 @@
       "name": "DeathTrance",
       "description": "<p>\n Activate as an action to impede signs of life such as heart rate and\n breathing. To the casual observer, the user appears to be dead. -4 to all\n Actions in this lethargic state. Can be disabled with an Action. User may\n experience bluish or pale skin from multiple uses.\n</p>\n<p>\n <strong>DV17 Medical Tech</strong> or\n <strong>DV21 (Criminology, Deduction, Perception)</strong> Check to discover\n user is not actually dead.\n</p>"
     },
+    "Drone Remote": {
+      "name": "Drone Remote",
+      "description": "<p>Allows you to control a drone with your mind instead of your agent.</p><p><em>Increases maximum broadcast range to 20m/yds.</em></p>"
+    },
     "External Vidscreen": {
       "name": "External Vidscreen",
       "description": "<p>\n Implanted flexible video screen. Use a socketed Memory Chip or linked Agent to\n stream video to Vidscreen.\n</p>"

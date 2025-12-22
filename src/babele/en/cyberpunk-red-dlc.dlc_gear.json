@@ -154,6 +154,10 @@
       "name": "Osmosis Compound",
       "description": "<p>\n This additive allows a Vial of Poison or Biotoxin to be absorbed through skin\n contact. One vial can cover 2 square feet when applied to a surface and lasts\n for one hour. Can be neutralized by rinsing with water.\n</p>\n<p>\n The first meat target to touch the affected area with a meat body part is\n dosed with the poison. A <strong>DV17 Perception</strong> check reveals the\n poison. More than one dose in the same 2 square foot area has no added effect.\n</p>"
     },
+    "Power Chord": {
+      "name": "Power Chord",
+      "description": "<p>Shred righteous bars with this electric guitar.</p><ul><li><p>Enable the supplied active effect only if your musician has a base skill rank of 16 in @UUID[Compendium.cyberpunk-red-core.core_skills-play-instrument.Item.WS1dbopsk9h1uTSn]{Play Instrument (Guitar)}.</p></li><li><p>Non-Rockerboys suffer the @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.IKKcCgHU1lBJ4wVd]{Crushed Fingers} injury if they play this instrument longer than 10 minutes.</p></li><li><p>Cannot be damaged by fire or any weapon that deals less than 6d6.</p></li><li><p>Tech-Upgradable</p></li></ul>"
+    },
     "Roller Derby Skates": {
       "name": "Roller Derby Skates",
       "description": "<p>A pair of Leage approved quad-skates.</p><p><em>Increases movement by 4m/yds when running.</em></p>"
