@@ -32,7 +32,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>Armor Item for Dragoon Plating, Metalgear Cyberware.</p>
+    value: >-
+      <p>Armor plates compatible with Dragoon Plating, Metalgear cyberware.
+      Dragoon Plating can be removed, and summoned back within 6m/y as an
+      action.</p><p><em>Imposes -3 armor penalty while equiped.</em></p>
   equipped: owned
   favorite: false
   headLocation:
@@ -51,7 +54,7 @@ system:
   isShield: false
   penalty: 3
   price:
-    market: 0
+    market: 5000
   providesHardening: false
   revealed: true
   shieldHitPoints:

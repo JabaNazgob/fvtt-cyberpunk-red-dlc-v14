@@ -38,11 +38,8 @@ system:
     value: >-
       <p>Requires BODY 16 or higher unless using a Full Body Conversion.
       Borgware. External Body Cyberware*. Head and Body Armor SP18 and recovers
-      1SP/day. User incurs an Armor Penalty of -3 while worn. Plating can be
-      removed, and summoned within 6m/y with an action. Armor does not
-      stack.</p><p><em>* Cyberware Armor does not function as armor in the
-      system, please add the "Dragoon Plating, Metalgear" item to the
-      character/mook to track</em></p>
+      1SP/day.</p><p>Comes with one set of detatchable Dragoon Armor Plates,
+      additonal plates sold seperately.</p>
   dvTable: ""
   favorite: false
   fireModes:

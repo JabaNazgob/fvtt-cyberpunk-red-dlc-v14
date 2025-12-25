@@ -4,11 +4,11 @@
   "entries": {
     "Dragoon Plating": {
       "name": "Dragoon Plating",
-      "description": "<p>Armor Item for Dragoon Plating Cyberware.</p>"
+      "description": "<p>Armor plates compatible with Dragoon Plating cyberware. Dragoon Plating can be removed, and summoned back within 6m/y as an action.</p><p><em>Imposes -2 armor penalty while equiped.</em></p>"
     },
     "Dragoon Plating (Metalgear)": {
       "name": "Dragoon Plating (Metalgear)",
-      "description": "<p>Armor Item for Dragoon Plating, Metalgear Cyberware.</p>"
+      "description": "<p>Armor plates compatible with Dragoon Plating, Metalgear cyberware. Dragoon Plating can be removed, and summoned back within 6m/y as an action.</p><p><em>Imposes -3 armor penalty while equiped.</em></p>"
     },
     "Esporma Environment Suit": {
       "name": "Esporma Environment Suit",
