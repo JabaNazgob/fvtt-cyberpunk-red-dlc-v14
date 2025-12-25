@@ -130,6 +130,10 @@
       "name": "Koff Pops",
       "description": "<p>Koff Pops used with the Continental Brands Koff Popper.</p>\n<ul>\n <li>Pack of 10</li>\n <li>Included in Kibble or higher lifestyle</li>\n</ul>"
     },
+    "Linear Frame Ω (Omega)": {
+      "name": "Linear Frame Ω (Omega)",
+      "description": "<p>Exoskeleton. Requires 3 Interface Plugs. Increases BODY to 16 while plugged in. No changes to your HP or Deathsave.</p>"
+    },
     "MagViewer": {
       "name": "MagViewer",
       "description": "<p>\n Binoculars meant for spotting. Provides detail up to 800m/yds. Provides the\n user with an additional +1 to an attack roll with a successful Complimentary\n Skill Check to assist in attacking a target 51m/yds or farther away in\n addition to any other Complimentary Skill Checks..\n</p>\n<p>\n Does not stack with\n @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping\n Scope} or\n @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.\n</p>"
