@@ -99,9 +99,11 @@ system:
   favorite: false
   installedItems:
     allowed: true
-    allowedTypes: []
+    allowedTypes:
+      - cyberware
+      - itemUpgrade
     list: []
-    slots: 0
+    slots: 5
     usedSlots: 0
   isElectronic: false
   price:

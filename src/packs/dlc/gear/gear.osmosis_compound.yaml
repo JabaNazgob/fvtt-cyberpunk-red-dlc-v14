@@ -43,8 +43,9 @@ system:
   equipped: owned
   favorite: false
   installedItems:
-    allowed: true
-    allowedTypes: []
+    allowed: false
+    allowedTypes:
+      - itemUpgrade
     list: []
     slots: 0
     usedSlots: 0

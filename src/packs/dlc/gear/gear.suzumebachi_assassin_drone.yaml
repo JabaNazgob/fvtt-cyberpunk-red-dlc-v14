@@ -60,9 +60,9 @@ system:
   equipped: owned
   favorite: false
   installedItems:
-    allowed: true
+    allowed: false
     allowedTypes:
-      - itemUpgrade
+      - item upgrade
     list: []
     slots: 3
     usedSlots: 0

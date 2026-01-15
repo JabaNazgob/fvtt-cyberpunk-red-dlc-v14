@@ -130,7 +130,7 @@ system:
   equipped: owned
   favorite: false
   installedItems:
-    allowed: true
+    allowed: false
     allowedTypes:
       - itemUpgrade
     list: []
