@@ -51,9 +51,8 @@ system:
     allowed: false
     allowedTypes:
       - itemUpgrade
-      - ammo
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: false
   isRanged: false
@@ -128,7 +127,7 @@ system:
   providesHardening: false
   revealed: true
   rof: 1
-  size: 1
+  size: 0
   source:
     book: BC
     page: 13
