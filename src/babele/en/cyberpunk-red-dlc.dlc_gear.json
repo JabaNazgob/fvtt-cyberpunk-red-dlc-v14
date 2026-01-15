@@ -62,10 +62,6 @@
       "name": "Warlock's Book",
       "description": "<p>\n If you prefer sliding through NET Architectures avoiding Black ICE this is the\n deck for you.\n</p>\n<p>9 slots to install either Programs or Hardware.</p>\n<p><em>No Attacker or Black ICE Program may be installed.</em></p>"
     },
-    "Integrated Cyberscanner": {
-      "name": "Integrated Cyberscanner",
-      "description": "<p>\n Can scan an individual within 2m/yds and provide a list of all installed\n Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or\n Unique piece of Cyberware is detected.\n</p>"
-    },
     "A Touch of Luxury Furniture Set": {
       "name": "A Touch of Luxury Furniture Set",
       "description": "<p>This Furniture Set makes your Cargo Container almost feel like a home.</p>"

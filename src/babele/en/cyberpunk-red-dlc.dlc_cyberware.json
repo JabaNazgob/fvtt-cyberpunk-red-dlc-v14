@@ -102,6 +102,10 @@
       "name": "Implanted Linear Frame Ω (Omega)",
       "description": "<p>Increases your BODY stat to 16 (adjusting your HP and Wound Threshold and Death Save). Counts as two installations for the purposes of Maximum HL.</p>"
     },
+    "Integrated Cyberscanner": {
+      "name": "Integrated Cyberscanner",
+      "description": "<p>\n Can scan an individual within 2m/yds and provide a list of all installed\n Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or\n Unique piece of Cyberware is detected.\n</p>"
+    },
     "Kill Display": {
       "name": "Kill Display",
       "description": "<p>\n Subdermal Alphanumeric display that shines clearly through the skin. Use a\n linked Agent to customize the output. Commonly used as “kill\n counter.”<br />Qualifies as a Light Tattoo. +2 Wardrobe and Style when\n the user has 3 or more Light Tattoos.\n</p>"
