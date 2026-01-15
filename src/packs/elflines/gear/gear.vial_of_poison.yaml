@@ -34,7 +34,7 @@ system:
   equipped: owned
   favorite: false
   installedItems:
-    allowed: true
+    allowed: false
     allowedTypes: []
     list: []
     slots: 0

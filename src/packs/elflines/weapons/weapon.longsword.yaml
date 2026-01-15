@@ -48,7 +48,7 @@ system:
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
   installedItems:
-    allowed: true
+    allowed: false
     allowedTypes: []
     list: []
     slots: 0

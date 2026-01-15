@@ -38,7 +38,7 @@ system:
     ablation: 0
     sp: 4
   installedItems:
-    allowed: true
+    allowed: false
     allowedTypes: []
     list: []
     slots: 0
