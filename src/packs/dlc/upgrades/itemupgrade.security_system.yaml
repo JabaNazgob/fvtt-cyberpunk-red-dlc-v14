@@ -49,11 +49,11 @@ system:
   ignoreBelowSP: 0
   installLocation: mall
   installedItems:
-    allowed: true
+    allowed: false
     allowedTypes:
       - itemUpgrade
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: true
   isRanged: false
