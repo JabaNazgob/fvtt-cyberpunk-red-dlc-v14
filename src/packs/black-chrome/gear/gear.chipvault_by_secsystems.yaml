@@ -37,11 +37,12 @@ system:
   equipped: owned
   favorite: false
   installedItems:
-    allowed: false
+    allowed: true
     allowedTypes:
+      - cyberware
       - itemUpgrade
     list: []
-    slots: 0
+    slots: 8
     usedSlots: 0
   isElectronic: false
   price:

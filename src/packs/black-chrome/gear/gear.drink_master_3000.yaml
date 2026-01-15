@@ -37,11 +37,11 @@ system:
   equipped: owned
   favorite: false
   installedItems:
-    allowed: false
+    allowed: true
     allowedTypes:
-      - itemUpgrade
+      - ammo
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: true
   price:

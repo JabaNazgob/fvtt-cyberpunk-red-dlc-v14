@@ -89,8 +89,9 @@ system:
     allowed: true
     allowedTypes:
       - itemUpgrade
+      - cyberware
     list: []
-    slots: 3
+    slots: 1
     usedSlots: 0
   isElectronic: false
   price:
