@@ -1,0 +1,54 @@
+_id: e7x9MAbybJSEy09n
+_key: "!items!e7x9MAbybJSEy09n"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1768587923428
+  duplicateSource: null
+  lastModifiedBy: IMREvhAZtigyN7Gy
+  modifiedTime: 1768587923428
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 37
+      previous: "36"
+folder: null
+img: icons/containers/boxes/box-gift-blue.webp
+name: A Box Bound Tightly In Rope
+ownership:
+  IMREvhAZtigyN7Gy: 3
+  default: 0
+sort: 0
+system:
+  amount: 1
+  brand: ""
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: >-
+      <p>Roll once from
+      @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uq1cseo3a1hAx7Pg]{A
+      Box Bound Tightly in Rope}</p>
+  equipped: owned
+  favorite: false
+  installedItems:
+    allowed: true
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 3
+    usedSlots: 0
+  isElectronic: false
+  price:
+    market: 100
+  providesHardening: false
+  revealed: true
+  source:
+    book: ""
+    page: 0
+  usage: toggled
+type: gear

@@ -62,6 +62,46 @@
       "name": "Warlock's Book",
       "description": "<p>\n  If you prefer sliding through NET Architectures avoiding Black ICE this is the\n  deck for you.\n</p>\n<p>9 slots to install either Programs or Hardware.</p>\n<p><em>No Attacker or Black ICE Program may be installed.</em></p>\n"
     },
+    "A Box Bound Tightly In Rope": {
+      "name": "A Box Bound Tightly In Rope",
+      "description": "<p>Roll once from @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uq1cseo3a1hAx7Pg]{A Box Bound Tightly in Rope}</p>"
+    },
+    "A Box Covered In Chipped Paint": {
+      "name": "A Box Covered In Chipped Paint",
+      "description": "<p>Roll once from @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.xWZowpQzG7fpmoP7]{A Box Covered in Chipped Paint}</p>"
+    },
+    "A Box Dripping Wet With Fluid": {
+      "name": "A Box Dripping Wet With Fluid",
+      "description": "<p>Roll once from @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.zRHyYnlEqNlTA4l5]{A Box Dripping Wet With Fluid}</p>"
+    },
+    "A Box Freezing Cold To The Touch": {
+      "name": "A Box Freezing Cold To The Touch",
+      "description": "<p>Roll once from @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.VszxZ4TJjQ8FGuoc]{A Box Freezing Cold To The Touch}</p>"
+    },
+    "A Box Handsomely Gift Wrapped": {
+      "name": "A Box Handsomely Gift Wrapped",
+      "description": "<p>Roll once from @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.4S3emhUCIIDNoTAg]{A Box Handsomely Gift Wrapped}</p>"
+    },
+    "A Box Marked With A Lime Green X": {
+      "name": "A Box Marked With A Lime Green X",
+      "description": "<p>Roll once from @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.T6pocp9VStxtFPzP]{A Box Marked With A Lime Green X}</p>"
+    },
+    "A Box Melted Out Of Shape": {
+      "name": "A Box Melted Out Of Shape",
+      "description": "<p>Roll once from @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.bOtq937SNIahmbeK]{A Box Melted Out Of Shape}</p>"
+    },
+    "A Box Reeking Of Oil": {
+      "name": "A Box Reeking Of Oil",
+      "description": "<p>Roll once from @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.EVPuZ21eNOpEycGQ]{A Box Reeking Of Oil}</p>"
+    },
+    "A Box Sealed With A Lipstick Kiss": {
+      "name": "A Box Sealed With A Lipstick Kiss",
+      "description": "<p>Roll once from @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.McQc33tLYAp7djIV]{A Box Sealed With A Lipstick Kiss}</p>"
+    },
+    "A Box Showing Signs Of Repair": {
+      "name": "A Box Showing Signs Of Repair",
+      "description": "<p>Roll once from @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.WmWdGRlhzhA2ZcmV]{A Box Showing Signs Of Repair}</p>"
+    },
     "A Touch of Luxury Furniture Set": {
       "name": "A Touch of Luxury Furniture Set",
       "description": "<p>This Furniture Set makes your Cargo Container almost feel like a home.</p>\n"
