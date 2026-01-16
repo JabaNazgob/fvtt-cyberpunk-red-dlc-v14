@@ -21,8 +21,9 @@ Includes all content from:
 - Hornets Pharmacy
 - Micro Chrome
 - Midnight with the Upload
-- Mixing Drinks-Saving Lives DLC
+- Mixing Drinks-Saving Lives
 - Must Have Cyberware Deals
+- Spinning Your Wheels
 - Woodchippers Garage
 
 Includes currently supported content from:
