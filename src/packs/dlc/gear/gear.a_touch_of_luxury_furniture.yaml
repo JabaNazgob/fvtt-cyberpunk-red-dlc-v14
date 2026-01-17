@@ -1,5 +1,14 @@
 _id: hBZ1Wwu7nw2foURO
 _key: "!items!hBZ1Wwu7nw2foURO"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1764855410179
+  duplicateSource: null
+  lastModifiedBy: IMREvhAZtigyN7Gy
+  modifiedTime: 1768613828120
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -7,7 +16,7 @@ flags:
       current: 38
       previous: "37"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/gear/furniture-set.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/touch-of-luxury.svg
 name: A Touch of Luxury Furniture Set
 ownership:
   default: 0
@@ -20,7 +29,7 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >
+    value: >-
       <p>This Furniture Set makes your Cargo Container almost feel like a
       home.</p>
   equipped: owned

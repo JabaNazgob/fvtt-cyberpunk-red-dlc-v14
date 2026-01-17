@@ -1,5 +1,14 @@
 _id: ViR7w7mbissI2QPl
 _key: "!items!ViR7w7mbissI2QPl"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1764855420657
+  duplicateSource: null
+  lastModifiedBy: IMREvhAZtigyN7Gy
+  modifiedTime: 1768613845041
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -7,7 +16,7 @@ flags:
       current: 38
       previous: "37"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/gear/furniture-set.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/second-hand-special.svg
 name: Second-hand Special Furniture Set
 ownership:
   default: 0
@@ -20,10 +29,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |
+    value: |-
       <p>
-        It may not look pretty, but it works. This furniture Set is the bare minimum
-        your Cargo Container needs.
+       It may not look pretty, but it works. This furniture Set is the bare minimum
+       your Cargo Container needs.
       </p>
   equipped: owned
   favorite: false
