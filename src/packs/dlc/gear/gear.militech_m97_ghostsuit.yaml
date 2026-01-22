@@ -1,0 +1,46 @@
+_id: HEXletyRVEk1qUJD
+_key: "!items!HEXletyRVEk1qUJD"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1769120214784
+  duplicateSource: null
+  lastModifiedBy: IMREvhAZtigyN7Gy
+  modifiedTime: 1769120214784
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/militech-m97-ghostsuit.svg
+name: Militech M97 Ghostsuit
+ownership:
+  IMREvhAZtigyN7Gy: 3
+  default: 0
+sort: 0
+system:
+  amount: 1
+  brand: Militech
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: ""
+  equipped: owned
+  favorite: false
+  installedItems:
+    allowed: false
+    allowedTypes: []
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: true
+  price:
+    market: 5000
+  providesHardening: false
+  revealed: true
+  source:
+    book: GQ
+    page: 6
+  usage: toggled
+type: gear

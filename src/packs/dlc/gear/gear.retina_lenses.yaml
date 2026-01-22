@@ -1,0 +1,50 @@
+_id: Zhzd8zCuEb2sdgQ6
+_key: "!items!Zhzd8zCuEb2sdgQ6"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1769120214784
+  duplicateSource: null
+  lastModifiedBy: IMREvhAZtigyN7Gy
+  modifiedTime: 1769120214784
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/retina-lenses.svg
+name: Retina Lenses
+ownership:
+  IMREvhAZtigyN7Gy: 3
+  default: 0
+sort: 0
+system:
+  amount: 1
+  brand: ""
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: >-
+      <p>A fabricated lens imprinted with a copy of somebody's retinal patterns.
+      You must provide the Techie with a valid retinal pattern prior to
+      fabrication.</p><blockquote><p>Capable of fooling Retinal
+      Scanners.</p></blockquote>
+  equipped: owned
+  favorite: false
+  installedItems:
+    allowed: false
+    allowedTypes: []
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: false
+  price:
+    market: 500
+  providesHardening: false
+  revealed: true
+  source:
+    book: GQ
+    page: 7
+  usage: toggled
+type: gear

@@ -1,0 +1,88 @@
+_id: 79KkJbQ1yyFmK1lz
+_key: "!items!79KkJbQ1yyFmK1lz"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1769120192317
+  duplicateSource: null
+  lastModifiedBy: IMREvhAZtigyN7Gy
+  modifiedTime: 1769120192317
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects:
+  - _id: s6cgY3iqWkqubzDs
+    _key: "!items.effects!79KkJbQ1yyFmK1lz.s6cgY3iqWkqubzDs"
+    _stats:
+      compendiumSource: null
+      coreVersion: "12.343"
+      createdTime: null
+      duplicateSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: cyberpunk-red-core
+      systemVersion: v0.0.0dev
+    changes:
+      - key: bonuses.humanPerception
+        mode: 2
+        priority: null
+        value: "-2"
+    description: ""
+    disabled: true
+    duration:
+      combat: null
+      rounds: null
+      seconds: null
+      startRound: null
+      startTime: null
+      startTurn: null
+      turns: null
+    flags:
+      cyberpunk-red-core:
+        changes:
+          cats:
+            "0": skill
+          situational:
+            "0":
+              isSituational: false
+              onByDefault: false
+    img: modules/cyberpunk-red-dlc/icons/dlc/drugs/nymph-perfume.svg
+    name: Nymph Perfume
+    origin: Item.GT1hl71EnU9staWi
+    sort: 0
+    statuses: []
+    system: {}
+    tint: "#ffffff"
+    transfer: true
+    type: base
+flags: {}
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/drugs/nymph-perfume.svg
+name: Nymph Perfume
+ownership:
+  IMREvhAZtigyN7Gy: 3
+  default: 0
+sort: 0
+system:
+  amount: 50
+  brand: Biotechnica
+  concealable:
+    concealable: true
+    isConcealed: false
+  consumed: Nymph Perfume
+  description:
+    value: >-
+      <p><strong>Inhaled Pheromones</strong> linger for 1 hour. Anyone who
+      spends 3 rounds within 6m/yds of the source must make a Resist
+      Torture/Drugs check or become confused for 1 hour.</p><blockquote><p>Nasal
+      Filters and other similar devices prevent this drug from being
+      inhaled.</p></blockquote>
+  equipped: owned
+  favorite: false
+  price:
+    market: 500
+  revealed: true
+  source:
+    book: GC
+    page: 6
+  usage: snorted
+type: drug

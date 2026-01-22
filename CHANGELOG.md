@@ -19,6 +19,7 @@ Includes all content from:
 - Chasing the Rabbit
 - Dreaded Punknaught
 - Exotics of 2045 (Interface RED vol 2)
+- Going Quiet
 - Hope Reborn Plus
 - Hornets Pharmacy
 - Micro Chrome

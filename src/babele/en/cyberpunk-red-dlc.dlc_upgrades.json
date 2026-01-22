@@ -9,30 +9,10 @@
       "description": "<p>Each installed Raven Black ICE destroys Programs instead of derezzing.</p>\n",
       "dvTable": ""
     },
-    "Ask Alex Anything": {
-      "name": "Ask Alex Anything",
-      "description": "<p>\n  <strong>App:</strong> Allows users to search for information on the CitiNet.\n</p>\n<p>Pre-Installed on all agents by default.</p>\n"
-    },
-    "BabelChat": {
-      "name": "BabelChat",
-      "description": "<p>\n  <strong>App:</strong> Allows users to send and receive text and video\n  messages.\n</p>\n<p>Pre-Installed on all agents by default.</p>\n"
-    },
-    "BangMe!": {
-      "name": "BangMe!",
-      "description": "<p><strong>App:</strong> Online banking and peer to peer payment system.</p>\n"
-    },
-    "Big SAAI": {
-      "name": "Big SAAI",
-      "description": "<p>\n  <strong>App:</strong> Grants a +1 bonus to your agent's Library Search\n  functions.\n</p>\n"
-    },
     "Bottle Dynamo": {
       "name": "Bottle Dynamo",
       "description": "<p>\n  A dynamo on your bike's wheel for converting mechanical energy into\n  electricity. Charges a battery pack (such as for weapons) in one hour.\n</p>\n",
       "dvTable": ""
-    },
-    "Brainwasher": {
-      "name": "Brainwasher",
-      "description": "<p><strong>App:</strong> Provides basic therapy.</p>\n<blockquote>\n  <p>\n    Use for 1 week before receiving therapy, then roll [[/r 1d10 #Brainwasher\n    Therapy]]\n  </p>\n  <ul>\n    <li>\n      <p>\n        <strong>On even results:</strong> Therapy is takes 1 less day to\n        complete.\n      </p>\n    </li>\n    <li>\n      <p>\n        <strong>On odd results:</strong> Therapy is takes 1 more day to\n        complete.\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
     },
     "Bulletproof Glass": {
       "name": "Bulletproof Glass",
@@ -44,18 +24,6 @@
       "description": "<p>+3 Speed to all installed Killer Black ICE.</p>\n",
       "dvTable": ""
     },
-    "Buzzsaw Arm": {
-      "name": "Buzzsaw Arm",
-      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  9<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Acts as a <strong>Very Heavy Melee Weapon</strong>, chooose location: Front,\n  Rear, Side\n</p>\n<blockquote>\n  <p>A passenger must use their Action to extend or retract the arm.</p>\n</blockquote>\n"
-    },
-    "Catapult": {
-      "name": "Catapult",
-      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  A <strong>Heavy Weapon</strong> mounted on the roof that can launch any object\n  the size of a person.\n</p>\n<blockquote>\n  <p>\n    Any individual launched by the catapult must make a\n    <strong>DV 15 Athletics Check</strong> to land safely on the ground or the\n    person takes <strong>2d6 damage</strong> directly to their HP.\n  </p>\n</blockquote>\n"
-    },
-    "Cockpit Glass": {
-      "name": "Cockpit Glass",
-      "description": "<p>\n  <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>\n  15<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Protects the driver and occupants with\n  <strong>Thick Bulletproof Glass</strong> 30(HP).\n</p>\n"
-    },
     "Cold-Weather Jacket Lining": {
       "name": "Cold-Weather Jacket Lining",
       "description": "<p>\n  Upgrade for any Jacket fashion item. User will not suffer Exposure penalties\n  from cold temperatures (CP:R pg 181).\n</p>\n",
@@ -65,22 +33,6 @@
       "name": "Combat Recorder",
       "description": "<p>Real-world Combat data is invaluable for Black ICE development.</p>\n<p>\n  If another Netrunner in the same NET Architecture fails a Death Save, the last\n  5 minutes of non-self incriminating Netrun combat data is saved to the\n  Cyberdeck. Recordings can be sold for 50eb.\n</p>\n",
       "dvTable": ""
-    },
-    "Combat Spikes": {
-      "name": "Combat Spikes",
-      "description": "<p>\n  <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Increases ramming damage by <strong>2d6</strong> when boosted by\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.n51IrwLux1v0fY78]{NOS}.\n</p>\n<blockquote>\n  <p>\n    Constructing this upgrade a second time increases the damage from\n    <strong>2d6 &gt; 3d6</strong>\n  </p>\n</blockquote>\n"
-    },
-    "Crunch Whistle": {
-      "name": "Crunch Whistle",
-      "description": "<p>Connects your cyberdeck to a breacher.</p>\n<p>\n  When this upgrade is installed, a Netrunner may add their Interface Rank to\n  the result when hacking an agent.\n  <em>(Active Effect requires manual configuration)</em>\n</p>\n"
-    },
-    "Cuddlefish Outfit (Costly)": {
-      "name": "Cuddlefish Outfit (Costly)",
-      "description": "<p>\n  A cute outfit for your Captain Cuddlefish Ultra Snag-Em! Prized by collectors.\n</p>\n"
-    },
-    "Cuddlefish Outfit (Default)": {
-      "name": "Cuddlefish Outfit (Default)",
-      "description": "<p>\n  A cute outfit for your Captain Cuddlefish Ultra Snag-Em! Collect them all!\n</p>\n"
     },
     "Cycle Armor": {
       "name": "Cycle Armor",
@@ -97,10 +49,6 @@
       "description": "<p>\n  Electric motorised system helping to pedal, increasing speed, lowering\n  tiredness.\n</p>\n<p>\n  Increases the bicycle's Speed (narrative) to the next BODY tier or adds\n  5MPH/8KPH to Speed (narrative) if already at the highest BODY tier.\n</p>\n<p>\n  Rider get +4 bonus to Endurance Checks to resisting exhaustion when riding.\n</p>\n",
       "dvTable": ""
     },
-    "Elflines Online Elftracker": {
-      "name": "Elflines Online Elftracker",
-      "description": "<p>\n  <strong>App:</strong> A companion app for ELO that allows users to track and\n  in-game stats and connect with other players.\n</p>\n"
-    },
     "Enclosure": {
       "name": "Enclosure",
       "description": "<p>The bike becomes a trike with a covering body of fiberglass and plastic.</p>\n<p>Can't install this Upgrade with the Folding Frame upgrade.</p>\n",
@@ -110,14 +58,6 @@
       "name": "Extended Seat",
       "description": "<p>An elongated saddle, gaining a seat for a passenger.</p>\n",
       "dvTable": ""
-    },
-    "Extra AV-4 Engine": {
-      "name": "Extra AV-4 Engine",
-      "description": "<p>\n  <strong>Construction Time:</strong> 2 days<br /><strong>Salvage DV:</strong>\n  15<br /><strong>Construction Modifier:</strong> +2\n</p>\n<hr />\n<p>\n  An Extra AV-4 Engine can be added for each Extra Chassis installed into your\n  Punknaught Core.\n</p>\n"
-    },
-    "Extra Chassis": {
-      "name": "Extra Chassis",
-      "description": "<p>\n  <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +2\n</p>\n<hr />\n<p>Only 3 Extra Chassis can be installed onto a Punknaught Core.</p>\n<blockquote>\n  <p>Each Extra Chassis increases ramming damage by 1d6.</p>\n</blockquote>\n"
     },
     "Feline Instinct": {
       "name": "Feline Instinct",
@@ -134,6 +74,10 @@
       "description": "<p>\n  A system to attach an Assault Rifle, a Heavy SMG or a Shotgun on the\n  handlebars, along with a firing button.\n</p>\n<p>Shoots only forwards.</p>\n<p>Mounting and detaching requires one Action.</p>\n",
       "dvTable": ""
     },
+    "Handprint Scanner": {
+      "name": "Handprint Scanner",
+      "description": "<p><strong>App</strong> Use your agent to scan a handprint by making a DV13 Criminology Check.</p><blockquote><p>Scanning a full handprint takes 3 rounds. 5 partial prints may be combined to create a full handprint.</p></blockquote>"
+    },
     "Hangry Hangry Dragon": {
       "name": "Hangry Hangry Dragon",
       "description": "<p>\n  Everytime an installed Dragon Black ICE destroys a Program it regains full\n  REZ.\n</p>\n",
@@ -144,36 +88,24 @@
       "description": "<p>\n  Upgrade for any Jacket fashion item. User will not suffer Exposure penalties\n  from hot temperatures (CP:R pg 181).\n</p>\n<p>\n  Heatwaves double all penalties from heavier armor (NCW pg 5). For example, a\n  user with Medium Armorjack takes a -4 penalty to MOVE, DEX, and REF during a\n  Heatwave. Hot-Weather Jacket Lining decreases each of these penalties by 1.\n</p>\n",
       "dvTable": ""
     },
-    "HusTool": {
-      "name": "HusTool",
-      "description": "<p>\n  <strong>App:</strong> Find odd jobs and get paid! Jobs take 30 minutes to\n  complete and pay 10eb.\n</p>\n<blockquote>\n  <p>Available jobs are determined by the GM, roll [[/r 1d10 #HusTool]]</p>\n  <ul>\n    <li>\n      <p>\n        <strong>On a 1:</strong> Factors outside of your control prevent you\n        from finishing the errand.\n      </p>\n      <ul>\n        <li><p>You waste your time and don't get paid.</p></li>\n      </ul>\n    </li>\n    <li>\n      <p>\n        <strong>On a 10:</strong> The errand is completed, but you encounter\n        trouble.\n      </p>\n      <ul>\n        <li><p>GM rolls on an appropriate encounter table.</p></li>\n      </ul>\n    </li>\n  </ul>\n</blockquote>\n"
-    },
     "Neon Lightning": {
       "name": "Neon Lightning",
       "description": "<p>Fiber-optic lights on bike's frame and wheels.</p>\n<p>\n  Considered as a Light Tattoo when on or near the bike (gaining +2 Wardrobe\n  &amp; Style bonus)\n</p>\n",
       "dvTable": ""
-    },
-    "NOS": {
-      "name": "NOS",
-      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +2\n</p>\n<hr />\n<p>\n  Boost the Punknaught's speed and gain an extra\n  <strong>Move Action</strong> for one turn.\n</p>\n<blockquote>\n  <p>\n    May be installed multiple times. Each tank only provides one turn of boost.\n  </p>\n</blockquote>\n"
     },
     "Perfume Shoppe": {
       "name": "Perfume Shoppe",
       "description": "<p>Skunk Black ICE will only take 1 option slot to install.</p>\n",
       "dvTable": ""
     },
-    "Punknaught Armor": {
-      "name": "Punknaught Armor",
-      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Provides <strong>SP13</strong> armor to your Punknaught.\n  <strong>Preem</strong> attacks made against your Punknaught ignore this armor\n  unless this upgrade has been installed twice.\n</p>\n"
-    },
     "Reinforced Frame": {
       "name": "Reinforced Frame",
       "description": "<p>Bike is now more resistant: +5 SDP and rider can be BODY 11 or more.</p>\n<p>Can't install this Upgrade with Folding Frame Upgrade.</p>\n",
       "dvTable": ""
     },
-    "Roach Race": {
-      "name": "Roach Race",
-      "description": "<p><strong>App:</strong> A retro sidescroller game from Poland.</p>\n"
+    "Retina Scanner": {
+      "name": "Retina Scanner",
+      "description": "<p><strong>App</strong> Use your agent to scan an eye, requires a camera or MicroVideo upgrade.</p><blockquote><p>Copying a retinal patern takes 5 rounds and may require a number of DV13 Brawling Checks to restrain an unwilling subject.</p></blockquote>"
     },
     "Security System": {
       "name": "Security System",
@@ -199,10 +131,6 @@
       "description": "<p>\n  Protects against the first attack (Asp, Raven, or Poison Flatline effects)\n  that would destroy a random installed Program. This protective effect can be\n  use only once per Netrun even if multiple copies of Snaketrap are installed.\n</p>\n",
       "dvTable": ""
     },
-    "Spike Strip Launcher": {
-      "name": "Spike Strip Launcher",
-      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  9<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  This <strong>Heavy Weapon</strong> launches a coil of metal spikes from the\n  rear of your Punknaught.\n</p>\n<blockquote>\n  <p>\n    Drivers following behind you must make a\n    <strong>DV17 Drive Land Vehicle</strong> check to avoid\n    <strong>4d6</strong> weak point damage.\n  </p>\n</blockquote>\n"
-    },
     "Stunt Frame": {
       "name": "Stunt Frame",
       "description": "<p>The bike loses weight and gains maneuverability.</p>\n<p>\n  Rider obtain a +2 bonus to Athletics skill checks when riding and doing\n  maneuvers.\n</p>\n",
@@ -218,31 +146,15 @@
       "description": "<p>\n  Netrunner can roll Cloak twice in a single NET Action and take the higher\n  roll. Cloak can only be used once per Netrun when Swifty Clean is installed.\n</p>\n",
       "dvTable": ""
     },
-    "The Garden": {
-      "name": "The Garden",
-      "description": "<p>\n  <strong>App:</strong> A free social media platform hosted by Ziggurat. Users\n  require an account to comment or publish content.\n</p>\n"
-    },
     "Trailer": {
       "name": "Trailer",
       "description": "<p>Hook with a small cargo trailer.</p>\n<p>5 feet x 1.5 feet (1.5m x 0.46m).</p>\n<p>An action is needed to attach and detach the trailer.</p>\n",
       "dvTable": ""
     },
-    "Turret": {
-      "name": "Turret",
-      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Adds a swivel mount that can support any\n  <strong>2-handed ranged weapon</strong> you already own. This upgrade may be\n  constructed 3 times for each chassis installed into your Punknaught.\n</p>\n<blockquote>\n  <p>\n    A passenger riding the Punknaught may use their Action to fire or reload the\n    weapon.\n  </p>\n</blockquote>\n"
-    },
-    "WatchBox": {
-      "name": "WatchBox",
-      "description": "<p><strong>App:</strong> Turns your agent into an alarm system.</p>\n<blockquote>\n  <p>\n    Requires 5 minutes to scan and establish a security perimeter. The alarm is\n    triggered by loud noises, bright lights, and movement.\n  </p>\n  <p><strong>DV13 Stealth Check</strong> to avoid detection.</p>\n</blockquote>\n"
-    },
     "Waterproof Jacket Lining": {
       "name": "Waterproof Jacket Lining",
       "description": "<p>\n  Upgrade for any Jacket fashion item. Mechanically similar to an umbrella, does\n  not serve as a wetsuit.\n</p>\n<p>\n  Protects against Acid Rain. For every minute exposed to Acid Rain, all armor\n  ablates by 1 SP (NCW pg 4).\n</p>\n<p>\n  +2 to Resist Torture/Drugs Checks from Blood Rain exposure. Severe Blood Rain\n  applies the effects of a Vial of Biotoxin on failed check (NCW pg 4).\n</p>\n",
       "dvTable": ""
-    },
-    "ZPost": {
-      "name": "ZPost",
-      "description": "<p><strong>App:</strong> Allows users to organize, send, and receive emails.</p>\n<p>Pre-Installed on all agents by default.</p>\n"
     }
   }
 }

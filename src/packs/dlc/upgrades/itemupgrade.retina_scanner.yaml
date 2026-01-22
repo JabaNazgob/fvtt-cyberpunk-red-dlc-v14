@@ -1,0 +1,130 @@
+_id: Fp8DIZUbleRVEVZh
+_key: "!items!Fp8DIZUbleRVEVZh"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1769120238108
+  duplicateSource: null
+  lastModifiedBy: IMREvhAZtigyN7Gy
+  modifiedTime: 1769120238108
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/retina-scanner.svg
+name: Retina Scanner
+ownership:
+  IMREvhAZtigyN7Gy: 3
+  default: 0
+sort: 0
+system:
+  ammoVariety: []
+  attackmod: 0
+  brand: ""
+  canIgnoreArmor: false
+  concealable:
+    concealable: false
+    isConcealed: false
+  critFailEffect: jammed
+  damage: 1d6
+  description:
+    value: >-
+      <p><strong>App</strong> Use your agent to scan an eye, requires a camera
+      or MicroVideo upgrade.</p><blockquote><p>Copying a retinal patern takes 5
+      rounds and may require a number of DV13 Brawling Checks to restrain an
+      unwilling subject.</p></blockquote>
+  favorite: false
+  fireModes:
+    autoFire: 0
+    suppressiveFire: false
+  handsReq: 0
+  ignoreArmorPercent: 0
+  ignoreBelowSP: 0
+  installLocation: mall
+  installedItems:
+    allowed: false
+    allowedTypes: []
+    list: []
+    slots: 3
+    usedSlots: 0
+  isElectronic: false
+  isRanged: false
+  magazine:
+    ammoData: {}
+    max: 0
+    value: 0
+  modifiers:
+    Wardrobe & Style:
+      isSituational: false
+      onByDefault: false
+      value: null
+    attackmod:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    bodySp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    cool:
+      isSituational: false
+      onByDefault: false
+      value: null
+    damage:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    headSp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    magazine:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    rof:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    sdp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    seats:
+      isSituational: false
+      onByDefault: false
+      value: null
+    secondaryWeapon:
+      configured: false
+    shieldHp:
+      isSituational: false
+      onByDefault: false
+      value: null
+    slots:
+      isSituational: false
+      onByDefault: false
+      value: null
+    speedCombat:
+      isSituational: false
+      onByDefault: false
+      value: null
+  price:
+    market: 50
+  providesHardening: false
+  revealed: true
+  rof: 1
+  size: 0
+  source:
+    book: GQ
+    page: 7
+  type: gear
+  unarmedAutomaticCalculation: true
+  usage: toggled
+  usesType: magazine
+  weaponSkill: Handgun
+type: itemUpgrade

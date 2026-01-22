@@ -1,0 +1,48 @@
+_id: XEK7G9rFcgswq9Ke
+_key: "!items!XEK7G9rFcgswq9Ke"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1769120214784
+  duplicateSource: null
+  lastModifiedBy: IMREvhAZtigyN7Gy
+  modifiedTime: 1769120214784
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/zetatech-tank-commander-headset.svg
+name: Zetatch Tank Commander Headset
+ownership:
+  IMREvhAZtigyN7Gy: 3
+  default: 0
+sort: 0
+system:
+  amount: 1
+  brand: Zetatech
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: >-
+      <p>Radio headset with throat mic and earbud perfect for covert
+      operations.</p>
+  equipped: owned
+  favorite: false
+  installedItems:
+    allowed: false
+    allowedTypes: []
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: true
+  price:
+    market: 100
+  providesHardening: false
+  revealed: true
+  source:
+    book: GQ
+    page: 7
+  usage: toggled
+type: gear

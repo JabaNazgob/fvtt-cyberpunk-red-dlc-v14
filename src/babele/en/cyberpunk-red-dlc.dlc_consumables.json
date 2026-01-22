@@ -74,6 +74,10 @@
       "name": "Moonblast",
       "description": "<p>One of a number of drinks the Drink Master 5000 can mix.</p>\n"
     },
+    "Nymph Perfume": {
+      "name": "Nymph Perfume",
+      "description": "<p><strong>Inhaled Pheromones</strong> linger for 1 hour. Anyone who spends 3 rounds within 6m/yds of the source must make a Resist Torture/Drugs check or become confused for 1 hour.</p><blockquote><p>Nasal Filters and other similar devices prevent this drug from being inhaled.</p></blockquote>"
+    },
     "Piano Man": {
       "name": "Piano Man",
       "description": "<p>One of a number of drinks the Drink Master 5000 can mix.</p>\n"
