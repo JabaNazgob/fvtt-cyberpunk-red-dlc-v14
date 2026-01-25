@@ -4,6 +4,8 @@ import fs from "fs-extra";
 import log from "./utils/logger.mjs";
 import { FileUtils } from "./utils/FileUtils.mjs";
 
+// foo
+
 /**
  * Cleans the build directory by removing all contents while preserving
  * the directory itself. This is typically run at the start of a full
