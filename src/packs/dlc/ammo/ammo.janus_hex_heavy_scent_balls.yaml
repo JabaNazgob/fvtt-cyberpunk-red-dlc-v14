@@ -1,0 +1,57 @@
+_id: ZpPvMg14E4R4BWPV
+_key: "!items!ZpPvMg14E4R4BWPV"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1769375927025
+  duplicateSource: null
+  lastModifiedBy: eMgDDuUqplwN8vV7
+  modifiedTime: 1769375927025
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "24"
+  scene-packer:
+    hash: 5bdaed87bff14d2ea060129efd4e69b22f3c4c55
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball-default.svg
+name: Janus Hex Heavy Scent Balls
+ownership:
+  default: 0
+  eMgDDuUqplwN8vV7: 3
+sort: 0
+system:
+  ablationValue: 1
+  amount: 4
+  brand: Sanroo
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: >-
+      <p>Pack of 4 Janus Hex Heavy Scent Balls.</p><blockquote><p>Requires Maker
+      Rank 6 or higher to Fabricate or Modify.</p></blockquote>
+  favorite: false
+  installLocation: mall
+  overrides:
+    autofire:
+      minimum: 3
+      mode: none
+      value: -1
+    damage:
+      minimum: 1d6
+      mode: set
+      value: 1d6
+  price:
+    market: 20
+  size: 0
+  source:
+    book: 12DoC
+    page: 4
+  type: teargas
+  variety: paintball
+type: ammo

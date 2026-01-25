@@ -120,6 +120,14 @@
       "description": "<p>\n  External Body Cyberware*. Requires Body 10 or an FBC. Head and Body Armor SP13\n  and recovers 1SP/day. Armor does not stack. Requires BODY 10. Incurs an Armor\n  Penalty of -2 unless the user is in an FBC or has BODY 14.\n</p>\n<p>\n  <em\n    >* Cyberware Armor does not function as armor in the system, please add the\n    \"Subdermal Armor\" item to the character/mook to track</em\n  >\n</p>\n",
       "dvTable": ""
     },
+    "Hello Cutie Mono-Paw": {
+      "name": "Hello Cutie Mono-Paw",
+      "description": "<p>Cyberarm Option. A concealable <strong>Excellent Quality Medium Melee Weapon</strong> that deals 1d6 damage and ignores armor lower than SP11.</p>"
+    },
+    "Hello Cutie Sparkle-Ize": {
+      "name": "Hello Cutie Sparkle-Ize",
+      "description": "<p>Must be Paired: Create a powerful beam of light up to 25m/yd that illuminates your surroundings.</p><blockquote><p>Use an action to force a target to make a <strong>DV15 Resist/Torture Drugs Check</strong> or suffer @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged Eye} critical injury.</p></blockquote>"
+    },
     "Holo Projector Palm": {
       "name": "Holo Projector Palm",
       "description": "<p>\n  Projects a small hologram from the User's palm. User can interact with\n  hologram to control a linked Agent's functions. Can be installed in meat arm\n  if it's the only piece of cyberware in that arm.\n</p>\n",

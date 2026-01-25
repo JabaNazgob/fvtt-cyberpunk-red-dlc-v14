@@ -1,0 +1,58 @@
+_id: OJlwfumihj820YAA
+_key: "!items!OJlwfumihj820YAA"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1769375927025
+  duplicateSource: null
+  lastModifiedBy: eMgDDuUqplwN8vV7
+  modifiedTime: 1769375927025
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "24"
+  scene-packer:
+    hash: 6def667cec8c8eea18f750fbb4511c639d5420a7
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball-default.svg
+name: Ouchie ModBall
+ownership:
+  default: 0
+  eMgDDuUqplwN8vV7: 3
+sort: 0
+system:
+  ablationValue: 0
+  amount: 1
+  brand: ""
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: >-
+      <p>Acts as
+      @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Poison}
+      Ammunition.</p>
+  favorite: false
+  installLocation: mall
+  overrides:
+    autofire:
+      minimum: 3
+      mode: none
+      value: -1
+    damage:
+      minimum: 1d6
+      mode: none
+      value: 3d6
+  price:
+    market: 10
+  size: 0
+  source:
+    book: 12DoC
+    page: 5
+  type: poison
+  variety: paintball
+type: ammo

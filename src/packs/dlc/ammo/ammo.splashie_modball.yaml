@@ -1,0 +1,57 @@
+_id: ICi9awVbdgYTvWKw
+_key: "!items!ICi9awVbdgYTvWKw"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1769375927025
+  duplicateSource: null
+  lastModifiedBy: eMgDDuUqplwN8vV7
+  modifiedTime: 1769375927025
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "24"
+  scene-packer:
+    hash: 3e217bbcff2ddf4ad6a4ee3d429034956ac33c3c
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball-default.svg
+name: Splashie ModBall
+ownership:
+  default: 0
+  eMgDDuUqplwN8vV7: 3
+sort: 0
+system:
+  ablationValue: 0
+  amount: 1
+  brand: Sanroo
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: >-
+      <p>Balls of colourful, but highly combustible paint; keep away from open
+      flames.</p>
+  favorite: false
+  installLocation: mall
+  overrides:
+    autofire:
+      minimum: 3
+      mode: none
+      value: -1
+    damage:
+      minimum: 1d6
+      mode: none
+      value: 3d6
+  price:
+    market: 5
+  size: 0
+  source:
+    book: 12DoC
+    page: 6
+  type: basic
+  variety: paintball
+type: ammo

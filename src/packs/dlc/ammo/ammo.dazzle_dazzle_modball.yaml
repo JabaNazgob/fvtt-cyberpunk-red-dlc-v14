@@ -1,0 +1,58 @@
+_id: 7Lp715zDms6aDXtb
+_key: "!items!7Lp715zDms6aDXtb"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1769375927025
+  duplicateSource: null
+  lastModifiedBy: eMgDDuUqplwN8vV7
+  modifiedTime: 1769375927025
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "24"
+  scene-packer:
+    hash: 30716c0675621c30e3f3f12fc5fba8f4cec8b9dc
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball-default.svg
+name: Dazzle Dazzle ModBall
+ownership:
+  default: 0
+  eMgDDuUqplwN8vV7: 3
+sort: 0
+system:
+  ablationValue: 0
+  amount: 1
+  brand: Sanroo
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: >-
+      <p>Acts as a single target
+      @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.e8gDMbdK1oPKwhqW]{Flashbang}.
+      Can ignite flamable surfaces.</p>
+  favorite: false
+  installLocation: mall
+  overrides:
+    autofire:
+      minimum: 3
+      mode: none
+      value: -1
+    damage:
+      minimum: 1d6
+      mode: none
+      value: 3d6
+  price:
+    market: 10
+  size: 0
+  source:
+    book: 12DoC
+    page: 5
+  type: flashbang
+  variety: paintball
+type: ammo

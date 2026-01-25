@@ -1,0 +1,83 @@
+_id: g7lNPRaJsniCFbN3
+_key: "!items!g7lNPRaJsniCFbN3"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1769375945832
+  duplicateSource: null
+  lastModifiedBy: eMgDDuUqplwN8vV7
+  modifiedTime: 1769375945832
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 38
+      previous: "24"
+  scene-packer:
+    hash: 3a88609d8e79f0149801a7b303450f32c9a96f5f
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/hello-cutie-mono-paw.svg
+name: Hello Cutie Mono-Paw
+ownership:
+  default: 0
+  eMgDDuUqplwN8vV7: 3
+sort: 0
+system:
+  ammoVariety: []
+  attackmod: 1
+  brand: Sanroo
+  canIgnoreArmor: true
+  concealable:
+    concealable: true
+    isConcealed: true
+  core: false
+  critFailEffect: jammed
+  damage: 1d6
+  description:
+    value: >-
+      <p>Cyberarm Option. A concealable <strong>Excellent Quality Medium Melee
+      Weapon</strong> that deals 1d6 damage and ignores armor lower than
+      SP11.</p>
+  dvTable: ""
+  favorite: false
+  fireModes:
+    autoFire: 0
+    suppressiveFire: false
+  humanityLoss:
+    roll: 2d6
+    static: 7
+  ignoreArmorPercent: 50
+  ignoreBelowSP: 11
+  installLocation: hospital
+  installedItems:
+    allowed: false
+    allowedTypes: []
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: true
+  isFoundational: false
+  isRanged: false
+  isWeapon: true
+  magazine:
+    ammoData: null
+    max: 0
+    value: 0
+  price:
+    market: 500
+  providesHardening: false
+  revealed: true
+  rof: 1
+  size: 0
+  source:
+    book: 12DoC
+    page: 6
+  type: cyberArm
+  unarmedAutomaticCalculation: true
+  usage: toggled
+  usesType: magazine
+  weaponSkill: Melee Weapon
+  weaponType: medMelee
+type: cyberware
