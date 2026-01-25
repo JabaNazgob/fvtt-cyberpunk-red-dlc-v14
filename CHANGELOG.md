@@ -9,6 +9,7 @@
 Includes all content from:
 
 - 12 Days of Cybermas
+- 12 Days of Cutiemas
 - 12 Days of Gearmas
 - Achievements and Loot Boxes
 - All About Agents
