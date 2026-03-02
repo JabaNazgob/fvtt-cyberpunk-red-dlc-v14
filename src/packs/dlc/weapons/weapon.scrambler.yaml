@@ -1,0 +1,69 @@
+_id: hWKdkikIzRPXGjzL
+_key: "!items!hWKdkikIzRPXGjzL"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1772380744584
+  duplicateSource: null
+  lastModifiedBy: IMmQeDHuejnDb1W4
+  modifiedTime: 1772396942627
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: null
+img: systems/cyberpunk-red-core/icons/compendium/default/Default_Weapon.svg
+name: Scrambler
+ownership:
+  IMmQeDHuejnDb1W4: 3
+  default: 0
+sort: 0
+system:
+  ammoVariety: []
+  attackmod: 0
+  brand: ""
+  canIgnoreArmor: false
+  concealable:
+    concealable: false
+    isConcealed: false
+  critFailEffect: jammed
+  damage: "0"
+  description:
+    value: >-
+      <p>Exotic Very Heavy Pistol. Deals no damage and instead on a hit
+      instantly kills a Biodrone. Can not be reloaded.</p>
+  dvTable: DV Pistol
+  equipped: owned
+  favorite: false
+  fireModes:
+    autoFire: 0
+    suppressiveFire: false
+  handsReq: 1
+  ignoreArmorPercent: 0
+  ignoreBelowSP: 0
+  installedItems:
+    allowed: true
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 0
+    usedSlots: 0
+  isRanged: true
+  magazine:
+    ammoData: {}
+    max: 8
+    value: 0
+  price:
+    market: 1000
+  quality: standard
+  revealed: true
+  rof: 1
+  source:
+    book: TotRSS
+    page: 110
+  unarmedAutomaticCalculation: true
+  usage: toggled
+  usesType: magazine
+  weaponSkill: Handgun
+  weaponType: vHeavyPistol
+type: weapon

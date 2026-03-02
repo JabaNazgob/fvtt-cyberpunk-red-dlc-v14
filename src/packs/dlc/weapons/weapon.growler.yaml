@@ -1,0 +1,72 @@
+_id: X4SWCsdrRq7Dt5cg
+_key: "!items!X4SWCsdrRq7Dt5cg"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1770404374525
+  duplicateSource: null
+  lastModifiedBy: IMmQeDHuejnDb1W4
+  modifiedTime: 1772396983845
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: null
+img: systems/cyberpunk-red-core/icons/compendium/weapons/RocketLauncher.svg
+name: Growler
+ownership:
+  IMmQeDHuejnDb1W4: 3
+  default: 0
+sort: 0
+system:
+  ammoVariety: []
+  attackmod: 0
+  brand: Militech
+  canIgnoreArmor: false
+  concealable:
+    concealable: false
+    isConcealed: false
+  critFailEffect: jammed
+  damage: ""
+  description:
+    value: >-
+      <p>An Exotic Rocket Launcher. Anything with a biological brain must make a
+      <strong>DV 19 Resist Torture/Drugs Check</strong> or suffer a
+      @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.oi3MEn9Y8zdbooNe]{Brain
+      Injury} Critical Injury. Reloading takes 2 Actions. Required BODY 11+
+      unless mounted.</p>
+  dvTable: DV Rocket Launcher
+  equipped: owned
+  favorite: false
+  fireModes:
+    autoFire: 0
+    suppressiveFire: false
+  handsReq: 2
+  ignoreArmorPercent: 0
+  ignoreBelowSP: 0
+  installedItems:
+    allowed: true
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 3
+    usedSlots: 0
+  isRanged: true
+  magazine:
+    ammoData: {}
+    max: 1
+    value: 0
+  price:
+    market: 10000
+  quality: standard
+  revealed: true
+  rof: 1
+  source:
+    book: TotRSS
+    page: 71
+  unarmedAutomaticCalculation: true
+  usage: toggled
+  usesType: magazine
+  weaponSkill: Heavy Weapons
+  weaponType: rocketLauncher
+type: weapon

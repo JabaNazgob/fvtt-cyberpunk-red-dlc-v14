@@ -1,0 +1,47 @@
+_id: mj6S0OfcrKUQKC1v
+_key: "!items!mj6S0OfcrKUQKC1v"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1772397107023
+  duplicateSource: null
+  lastModifiedBy: IMmQeDHuejnDb1W4
+  modifiedTime: 1772405702290
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/armor/flippers.svg
+name: Flippers
+ownership:
+  IMmQeDHuejnDb1W4: 3
+  default: 0
+sort: 0
+system:
+  amount: 1
+  brand: ""
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: <p>A set of diving fins. Negates swimming movement penalty.</p>
+  equipped: owned
+  favorite: false
+  installedItems:
+    allowed: false
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: false
+  price:
+    market: 0
+  providesHardening: false
+  revealed: true
+  source:
+    book: TotRSS
+    page: 57
+  usage: toggled
+type: gear
