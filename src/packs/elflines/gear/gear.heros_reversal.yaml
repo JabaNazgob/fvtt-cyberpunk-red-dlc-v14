@@ -1,0 +1,51 @@
+_id: o54WkafI88fYwiGq
+_key: "!items!o54WkafI88fYwiGq"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1776985526134
+  duplicateSource: Item.EarZ4znDjBrcoU16
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1776985526134
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: RD2lqqoGCEVmvfeN
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-king-hearts.svg
+name: Hero's Reversal
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+sort: 0
+system:
+  amount: 1
+  brand: Elflines Online TCG
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: >-
+      <p>A face card for building an Elflines Online-TCG
+      deck.</p><blockquote><p>TCG card items are provided for use as loot and
+      not for actual play. GM's are encouraged to configure their own decks
+      using Foundry's <strong>Card Stack</strong> feature.</p></blockquote>
+  equipped: owned
+  favorite: false
+  installedItems:
+    allowed: false
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: false
+  price:
+    market: 5
+  providesHardening: false
+  revealed: true
+  source:
+    book: ELO-TCG
+    page: 6
+  usage: toggled
+type: gear

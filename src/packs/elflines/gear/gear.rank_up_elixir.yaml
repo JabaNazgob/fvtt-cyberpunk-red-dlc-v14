@@ -1,0 +1,51 @@
+_id: ZXPgWb7PVs7cmQSw
+_key: "!items!ZXPgWb7PVs7cmQSw"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1776985526134
+  duplicateSource: Item.odO8JeHrzMjvvqg1
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1776985526134
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: Ld94WnhHrzIRpK8Y
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+name: Rank Up Elixir
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+sort: 500000
+system:
+  amount: 1
+  brand: Elflines Online TCG
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: >-
+      <p>Scan this single use code using the ELO Elftracker to enhance your
+      character's rank!</p><p><span style="font-size:.25rem">▌ ▌█▌█▌▌█▌▌▌█▌
+      ▌█▌▌▌ ▌█▌▌▌█▌▌ █▌█▌▌▌▌ █▌▌ █▌▌█▌▌█▌ ▌▌▌█▌▌█▌█▌▌ ▌▌ █▌▌█▌▌█▌▌█▌ ▌▌▌█▌▌▌
+      █▌▌█▌▌ █▌▌▌ ▌█▌▌█▌▌█▌▌ █▌▌█▌▌▌█▌ ▌▌ ▌█▌█▌▌</span></p>
+  equipped: owned
+  favorite: false
+  installedItems:
+    allowed: false
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: false
+  price:
+    market: 20
+  providesHardening: false
+  revealed: true
+  source:
+    book: ELO-TCG
+    page: 7
+  usage: toggled
+type: gear

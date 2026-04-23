@@ -71,6 +71,7 @@
         "elflines_ammo",
         "elflines_armor",
         "elflines_gear",
+        "elflines_rolltables",
         "elflines_macros",
         "elflines_weapons"
       ]
@@ -250,6 +251,14 @@
       "label": "Gear",
       "path": "packs/elflines/gear",
       "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "elflines_rolltables",
+      "label": "Rolltables",
+      "path": "packs/elflines_rolltables",
+      "type": "RollTable",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
     },

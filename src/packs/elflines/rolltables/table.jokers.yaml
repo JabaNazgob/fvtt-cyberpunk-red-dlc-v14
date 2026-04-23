@@ -1,0 +1,167 @@
+_id: EB899IIEKiFCEvGf
+_key: "!tables!EB899IIEKiFCEvGf"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1776986764740
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1776987747103
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+description: <p>A random ELO Joker</p>
+displayRoll: false
+flags: {}
+folder: null
+formula: 2d6
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+name: Jokers
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+replacement: true
+results:
+  - _id: Ybd2uXm8pFt85ORh
+    _key: "!tables.results!EB899IIEKiFCEvGf.Ybd2uXm8pFt85ORh"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: M2VfO2gN3P0coEZw
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 8
+      - 8
+    text: 10 Sacred Herbs
+    type: pack
+    weight: 1
+  - _id: QBIyN6w5Mcj0ZURC
+    _key: "!tables.results!EB899IIEKiFCEvGf.QBIyN6w5Mcj0ZURC"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: WUCzN0E2M5WzD5op
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 7
+      - 7
+    text: 500 Gold Coins
+    type: pack
+    weight: 1
+  - _id: fvix14WErqursOGb
+    _key: "!tables.results!EB899IIEKiFCEvGf.fvix14WErqursOGb"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: HS9aSsjOwjZBBxaY
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 4
+      - 4
+    text: Duel Flag
+    type: pack
+    weight: 1
+  - _id: jwMRKTMW6u76BhTQ
+    _key: "!tables.results!EB899IIEKiFCEvGf.jwMRKTMW6u76BhTQ"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: QvHdLdm6fS3DlSeF
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 12
+      - 12
+    text: Dungeonstone
+    type: pack
+    weight: 1
+  - _id: 3uXBjiWptI9Vho3g
+    _key: "!tables.results!EB899IIEKiFCEvGf.3uXBjiWptI9Vho3g"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: ZXPgWb7PVs7cmQSw
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 10
+      - 10
+    text: Rank Up Elixir
+    type: pack
+    weight: 1
+  - _id: LTlucJht7CbCEggG
+    _key: "!tables.results!EB899IIEKiFCEvGf.LTlucJht7CbCEggG"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: BkCnJKrEPJczGKOE
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 6
+      - 6
+    text: Revive Sickness Cure
+    type: pack
+    weight: 1
+  - _id: BULuk9tJ67jUiUFX
+    _key: "!tables.results!EB899IIEKiFCEvGf.BULuk9tJ67jUiUFX"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: DQzdPsBLtAipRKmc
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 2
+      - 2
+    text: Super Repair Hammer
+    type: pack
+    weight: 1
+  - _id: HGpH2lLwcL0UBJAS
+    _key: "!tables.results!EB899IIEKiFCEvGf.HGpH2lLwcL0UBJAS"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: 9azR9AhRXXBRPQLG
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 11
+      - 11
+    text: Tiny Draglin
+    type: pack
+    weight: 1
+  - _id: rgBxPaGcY1YwrlE5
+    _key: "!tables.results!EB899IIEKiFCEvGf.rgBxPaGcY1YwrlE5"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: qQGZzdnJkAKDzbq9
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 3
+      - 3
+    text: Tiny Tent
+    type: pack
+    weight: 1
+  - _id: vfuHtL812xUKaWGe
+    _key: "!tables.results!EB899IIEKiFCEvGf.vfuHtL812xUKaWGe"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: KQQ7MAe13VlEwFgZ
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 5
+      - 5
+    text: Weapon Glow Vial
+    type: pack
+    weight: 1
+  - _id: 4BuYNyHVjt6MsNyw
+    _key: "!tables.results!EB899IIEKiFCEvGf.4BuYNyHVjt6MsNyw"
+    documentCollection: cyberpunk-red-dlc.elflines_gear
+    documentId: odO8JeHrzMjvvqg1
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    range:
+      - 9
+      - 9
+    text: Weapon Polish
+    type: pack
+    weight: 1
+sort: 100000

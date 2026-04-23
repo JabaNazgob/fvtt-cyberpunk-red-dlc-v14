@@ -1,0 +1,50 @@
+_id: syVsfq29eqqEAj3s
+_key: "!items!syVsfq29eqqEAj3s"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1776985526134
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1776986917060
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: MgaT7aTvtcZaSWIj
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-booster-box.svg
+name: Booster Box
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+sort: 200000
+system:
+  amount: 1
+  brand: Elflines Online TCG
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: >-
+      <p>A box of 10 ELO-TCG
+      @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.nEITubqXVIVK36c2]{Booster
+      Packs}.</p>
+  equipped: owned
+  favorite: false
+  installedItems:
+    allowed: false
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: false
+  price:
+    market: 100
+  providesHardening: false
+  revealed: true
+  source:
+    book: ELO-TCG
+    page: 2
+  usage: toggled
+type: gear

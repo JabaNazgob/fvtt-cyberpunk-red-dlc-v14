@@ -1,0 +1,18 @@
+{
+  "label": "Rolltables",
+  "mapping": {},
+  "entries": {
+    "Face Cards": {
+      "name": "Face Cards",
+      "description": ""
+    },
+    "Jokers": {
+      "name": "Jokers",
+      "description": ""
+    },
+    "Numbered Cards": {
+      "name": "Numbered Cards",
+      "description": ""
+    }
+  }
+}
