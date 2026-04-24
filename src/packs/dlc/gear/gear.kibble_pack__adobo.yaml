@@ -1,0 +1,51 @@
+_id: 3sPFKPS6uEUUAYgA
+_key: "!items!3sPFKPS6uEUUAYgA"
+_stats:
+  compendiumSource: Compendium.cyberpunk-red-core.core_gear.Item.YBkdTQgnZDOhRq90
+  coreVersion: "12.343"
+  createdTime: 1777064927369
+  duplicateSource: Item.XzWgl3I4ZN4fQNnK
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1777064927369
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 33
+      previous: "24"
+folder: 5xErAUL6upQVKfZ1
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_adobo.svg
+name: "Kibble Pack: Adobo"
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+sort: 2000000
+system:
+  amount: 1
+  brand: ""
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: <p>One meal.</p>
+  equipped: owned
+  favorite: false
+  installedItems:
+    allowed: false
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: false
+  price:
+    market: 10
+  providesHardening: false
+  revealed: true
+  source:
+    book: CtR
+    page: 14
+  usage: toggled
+type: gear
