@@ -23,6 +23,7 @@ Includes all content from:
 - Midnight with the Upload
 - Mixing Drinks-Saving Lives
 - Must Have Cyberware Deals
+- Night City Tarot
 - Spinning Your Wheels
 - Woodchippers Garage
 
