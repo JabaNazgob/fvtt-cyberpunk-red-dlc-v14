@@ -1,0 +1,138 @@
+_id: n51IrwLux1v0fY78
+_key: "!items!n51IrwLux1v0fY78"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1777136214434
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1777136255508
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags: {}
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/punknaught_nos.svg
+name: NOS
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+sort: 0
+system:
+  ammoVariety: []
+  attackmod: 0
+  brand: Salvaged
+  canIgnoreArmor: false
+  concealable:
+    concealable: false
+    isConcealed: false
+  critFailEffect: jammed
+  damage: 1d6
+  description:
+    value: >-
+      <p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage
+      DV:</strong> 13<br /><strong>Construction Modifier:</strong> +2</p><hr
+      /><p>Boost the Punknaught's speed and gain an extra <strong>Move
+      Action</strong> for one turn.</p><blockquote><p>May be installed multiple
+      times. Each tank only provides one turn of boost.</p></blockquote>
+  favorite: false
+  fireModes:
+    autoFire: 0
+    suppressiveFire: false
+  handsReq: 0
+  ignoreArmorPercent: 0
+  ignoreBelowSP: 0
+  installLocation: mall
+  installedItems:
+    allowed: false
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: false
+  isRanged: false
+  magazine:
+    ammoData: {}
+    max: 0
+    value: 0
+  modifiers:
+    Wardrobe & Style:
+      isSituational: false
+      onByDefault: false
+      value: null
+    attackmod:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    bodySp:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    cool:
+      isSituational: false
+      onByDefault: false
+      value: null
+    damage:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    headSp:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    magazine:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    rof:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    sdp:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    seats:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    secondaryWeapon:
+      configured: false
+    shieldHp:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+    slots:
+      isSituational: false
+      onByDefault: false
+      value: null
+    speedCombat:
+      isSituational: false
+      onByDefault: false
+      type: modifier
+      value: null
+  price:
+    market: 0
+  providesHardening: false
+  revealed: true
+  rof: 1
+  size: 0
+  source:
+    book: DP
+    page: 5
+  type: vehicle
+  unarmedAutomaticCalculation: true
+  usage: toggled
+  usesType: magazine
+  weaponSkill: Handgun
+type: itemUpgrade

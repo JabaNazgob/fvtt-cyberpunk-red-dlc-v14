@@ -17,6 +17,7 @@ Includes all content from:
 - Black Chrome
 - Black Chrome Plus
 - Chasing the Rabbit
+- Dreaded Punknaught
 - Exotics of 2045 (Interface RED vol 2)
 - Hope Reborn Plus
 - Hornets Pharmacy
