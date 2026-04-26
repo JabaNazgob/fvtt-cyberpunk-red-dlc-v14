@@ -1,5 +1,5 @@
-_id: Pj3nZU2coYUGIjR3
-_key: "!items!Pj3nZU2coYUGIjR3"
+_id: nXXpBRL5oKLzdTVC
+_key: "!items!nXXpBRL5oKLzdTVC"
 effects: []
 flags:
   cyberpunk-red-core:
@@ -7,17 +7,17 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/upgrades/bulletproof_glass.svg
-name: Bulletproof Glass
+img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/reinforced-tires.svg
+name: Reinforced Tires
 ownership:
+  GhPkzdD89HrVDo6W: 3
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
   attackmod: 0
   brand: ""
-  canIgnoreArmor: true
+  canIgnoreArmor: false
   concealable:
     concealable: false
     isConcealed: false
@@ -28,19 +28,21 @@ system:
     count: 2
     threshold: 0
   description:
-    value: |
-      <p>
-        Enclosure glass is now considered thin cover with 7 HP. Refer to the cover
-        rules in CP:R, pg. 182.
-      </p>
-      <p>Bike first requires the Enclosure upgrade to install this upgrade.</p>
-  dvTable: ""
+    value: >
+      <p><strong>Moto Rank Required:</strong> 1</p>
+
+      <p><strong>Availability:</strong> All Land Vehicles</p>
+
+      <hr />
+
+      <p>Hardens a vehicle's tires and prevents any bonus damage from aimed
+      shots.</p>
   favorite: false
   fireModes:
     autoFire: 0
     suppressiveFire: false
   handsReq: 0
-  ignoreArmorPercent: 50
+  ignoreArmorPercent: 0
   ignoreBelowSP: 0
   ignoredByBrowser: false
   installLocation: mall
@@ -54,7 +56,7 @@ system:
   isElectronic: false
   isRanged: false
   magazine:
-    ammoData: null
+    ammoData: {}
     max: 0
     value: 0
   modifiers:
@@ -98,7 +100,7 @@ system:
       isSituational: false
       onByDefault: false
       type: modifier
-      value: 0
+      value: null
     seats:
       isSituational: false
       onByDefault: false
@@ -120,20 +122,17 @@ system:
       type: modifier
       value: null
   price:
-    market: 50
+    market: 0
   providesHardening: false
   revealed: true
   rof: 1
-  size: 1
+  size: 0
   sources:
-    - book: Spinning Your Wheels
-      page: 4
-    - book: Interface RED v3
-      page: 78
+    - book: 12 Days of Vehiclemas
+      page: 16
   type: vehicle
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine
-  weaponSkill: ""
-  weaponType: ""
+  weaponSkill: Handgun
 type: itemUpgrade

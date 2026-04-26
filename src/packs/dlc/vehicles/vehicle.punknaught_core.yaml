@@ -40,7 +40,7 @@ system:
       - itemUpgrade
     list:
       - furhpPyqMli2p65g
-    slots: 3
+    slots: 0
     usedSlots: 0
   price:
     market: 0
