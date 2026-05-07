@@ -5,14 +5,14 @@ _stats:
   coreVersion: "12.343"
   createdTime: 1768430941659
   duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768430941659
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778105075196
   systemId: cyberpunk-red-core
   systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/default/Default_Program.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/app_hustool.svg
 name: HusTool
 ownership:
   IMREvhAZtigyN7Gy: 3

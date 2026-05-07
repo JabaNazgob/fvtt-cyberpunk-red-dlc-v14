@@ -5,14 +5,14 @@ _stats:
   coreVersion: "12.343"
   createdTime: 1768430942411
   duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768430942411
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778104189816
   systemId: cyberpunk-red-core
   systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/default/Default_Program.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/app_roach-race.svg
 name: Roach Race
 ownership:
   IMREvhAZtigyN7Gy: 3

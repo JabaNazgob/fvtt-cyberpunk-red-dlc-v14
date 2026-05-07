@@ -5,8 +5,8 @@ _stats:
   coreVersion: "12.343"
   createdTime: 1768430939284
   duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768430939284
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778108029539
   systemId: cyberpunk-red-core
   systemVersion: v0.0.0dev
 effects:
@@ -56,7 +56,7 @@ effects:
     type: base
 flags: {}
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/default/Default_Program.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/app_big-saai.svg
 name: Big SAAI
 ownership:
   IMREvhAZtigyN7Gy: 3

@@ -5,14 +5,14 @@ _stats:
   coreVersion: "12.343"
   createdTime: 1768430940047
   duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768430940047
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778107019964
   systemId: cyberpunk-red-core
   systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/default/Default_Program.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/app_brainwasher.svg
 name: Brainwasher
 ownership:
   IMREvhAZtigyN7Gy: 3
