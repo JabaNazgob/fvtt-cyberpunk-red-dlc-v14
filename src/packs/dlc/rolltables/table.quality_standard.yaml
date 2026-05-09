@@ -1,0 +1,328 @@
+_id: wnzQtN7zXjvmMNLA
+_key: "!tables!wnzQtN7zXjvmMNLA"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1778356105383
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778447777568
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+description: <p>Random weapon type provided by Gunpath.</p><p>Toggles Temple, pg. 16</p>
+displayRoll: false
+flags:
+  exportSource:
+    coreVersion: "12.343"
+    system: cyberpunk-red-core
+    systemVersion: v0.0.0dev
+    world: devmodule
+folder: KmmkVwS79ivnwu2W
+formula: 1d60
+img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+name: Quality-Standard
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+replacement: true
+results:
+  - _id: 7A6oz0ZUuiJu3NsN
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.7A6oz0ZUuiJu3NsN"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: VwuC5ZtcKsqtFHms
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/mediumPistol.svg
+    range:
+      - 1
+      - 6
+    text: Medium Pistol
+    type: pack
+    weight: 1
+  - _id: N1UykdzmtlxlA60G
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.N1UykdzmtlxlA60G"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: Y433cjlB1uVHPysk
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/heavyPistol.svg
+    range:
+      - 7
+      - 12
+    text: Heavy Pistol
+    type: pack
+    weight: 1
+  - _id: v7eMN5lmsRj0uOGO
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.v7eMN5lmsRj0uOGO"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: 4L05qIZxsy0uDSHz
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol.svg
+    range:
+      - 13
+      - 18
+    text: Very Heavy Pistol
+    type: pack
+    weight: 1
+  - _id: guY6dYovIW1x9dU2
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.guY6dYovIW1x9dU2"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: FdWzIROFGFrpvFMj
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/SMG.svg
+    range:
+      - 19
+      - 24
+    text: SMG
+    type: pack
+    weight: 1
+  - _id: jT53ZL0zGB68Qmvr
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.jT53ZL0zGB68Qmvr"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: nFXxinLVjYA06z1K
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/heavySMG.svg
+    range:
+      - 25
+      - 30
+    text: Heavy SMG
+    type: pack
+    weight: 1
+  - _id: rUiUgHR3P4DOfzpt
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.rUiUgHR3P4DOfzpt"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: PJhu6eY766OegZBo
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun.svg
+    range:
+      - 31
+      - 36
+    text: Shotgun
+    type: pack
+    weight: 1
+  - _id: vsHUmIXnZ5xrdmOS
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.vsHUmIXnZ5xrdmOS"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: riJDKdjhCWwkW4MO
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/SniperRifle.svg
+    range:
+      - 43
+      - 48
+    text: Sniper Rifle
+    type: pack
+    weight: 1
+  - _id: 8mqKuRDM16YbrSar
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.8mqKuRDM16YbrSar"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: ID2GHK84vddEHgX8
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 4
+      - 6
+    text: Upgrades-Handgun-Medium
+    type: pack
+    weight: 1
+  - _id: CNDDPBpmy5lq3CUw
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.CNDDPBpmy5lq3CUw"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: 1KyWLf2dVdjQtSDT
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 28
+      - 30
+    text: Upgrades-Handgun-HSMG
+    type: pack
+    weight: 1
+  - _id: CfYf2q7cPUjz4jS7
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.CfYf2q7cPUjz4jS7"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: oW9TB4DYtsdBCHcp
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 22
+      - 24
+    text: Upgrades-Handgun-SMG
+    type: pack
+    weight: 1
+  - _id: ya3JJQ7HSgBv6AZ9
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.ya3JJQ7HSgBv6AZ9"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: 4DfchYZeEgbhZ4NL
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 16
+      - 18
+    text: Upgrades-Handgun-VHeavy
+    type: pack
+    weight: 1
+  - _id: dP6gY6Xqw0y2uZ0A
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.dP6gY6Xqw0y2uZ0A"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: 6foQgB6keUY92Wsk
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 10
+      - 12
+    text: Upgrades-Handgun-Heavy
+    type: pack
+    weight: 1
+  - _id: CX7mXEyepPZJH5We
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.CX7mXEyepPZJH5We"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: QrQNdHTuEDxrfIxS
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/AssaultRifle.svg
+    range:
+      - 37
+      - 42
+    text: Assault Rifle
+    type: pack
+    weight: 1
+  - _id: 5qh3SkecXXCLpD1Q
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.5qh3SkecXXCLpD1Q"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: n8wOKWrJUC0ZS5jg
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/Bow.svg
+    range:
+      - 49
+      - 51
+    text: Bow
+    type: pack
+    weight: 1
+  - _id: r2uSzoghZkS7270l
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.r2uSzoghZkS7270l"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: BWLryyUI4fVpD70G
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/Crossbow.svg
+    range:
+      - 52
+      - 54
+    text: Crossbow
+    type: pack
+    weight: 1
+  - _id: BeXgRttE4WQeYOdX
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.BeXgRttE4WQeYOdX"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: oDUEyZMGGDHSVNJo
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 34
+      - 36
+    text: Upgrades-Shoulder-Shotgun
+    type: pack
+    weight: 1
+  - _id: F1njzII7hCY3pwD8
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.F1njzII7hCY3pwD8"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: PTeaydhFSodkshDu
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 40
+      - 42
+    text: Upgrades-Shoulder-Assault
+    type: pack
+    weight: 1
+  - _id: szw88JTrYPALkbUW
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.szw88JTrYPALkbUW"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: Rqovv2G6xKO0TFwU
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 46
+      - 48
+    text: Upgrades-Shoulder-Sniper
+    type: pack
+    weight: 1
+  - _id: xJfXp3N1FZtCDf5t
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.xJfXp3N1FZtCDf5t"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: SYVlWtjzWbG4XEfi
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 52
+      - 54
+    text: Upgrades-Archery
+    type: pack
+    weight: 1
+  - _id: WrEFT69l0x52DBhW
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.WrEFT69l0x52DBhW"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: KgqUdz9Fs55747gv
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/GrenadeLauncher.svg
+    range:
+      - 55
+      - 58
+    text: Grenade Launcher
+    type: pack
+    weight: 1
+  - _id: dwkAfh5hDVMaAq5J
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.dwkAfh5hDVMaAq5J"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: Ni28NtWNPp2juhS1
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 57
+      - 58
+    text: Upgrades-Launcher-Grenade
+    type: pack
+    weight: 1
+  - _id: UIHThDSxl3HL9qck
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.UIHThDSxl3HL9qck"
+    documentCollection: cyberpunk-red-core.core_weapons
+    documentId: Fl6F6x2PstAthge7
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/weapons/RocketLauncher.svg
+    range:
+      - 59
+      - 60
+    text: Rocket Launcher
+    type: pack
+    weight: 1
+  - _id: dVVd5ngShgWsdqUA
+    _key: "!tables.results!wnzQtN7zXjvmMNLA.dVVd5ngShgWsdqUA"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: fOAb4m9Vmy71p7BQ
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 60
+      - 60
+    text: Upgrades-Launcher-Rocket
+    type: pack
+    weight: 1
+sort: 1000000

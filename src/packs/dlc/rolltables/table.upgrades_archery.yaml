@@ -1,0 +1,79 @@
+_id: SYVlWtjzWbG4XEfi
+_key: "!tables!SYVlWtjzWbG4XEfi"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1778358372343
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778447660745
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+description: >-
+  <p>Random archery upgrades provided by Gunpath.</p><p>Toggles Temple, pg.
+  18</p>
+displayRoll: false
+flags: {}
+folder: KmmkVwS79ivnwu2W
+formula: 1d6
+img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+name: Upgrades-Archery
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+replacement: true
+results:
+  - _id: hj6DO3Hu0YTYXUUF
+    _key: "!tables.results!SYVlWtjzWbG4XEfi.hj6DO3Hu0YTYXUUF"
+    documentCollection: cyberpunk-red-dlc.dlc_upgrades
+    documentId: vX1a56BegwIc5tJF
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/grapple-gun-underbarrel.svg
+    range:
+      - 1
+      - 1
+    text: Grapple Gun Underbarrel
+    type: pack
+    weight: 1
+  - _id: 9iiWSfk9RDVKpXQE
+    _key: "!tables.results!SYVlWtjzWbG4XEfi.9iiWSfk9RDVKpXQE"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: pEXcsIk1FYMNdbUc
+    drawn: false
+    flags: {}
+    img: >-
+      systems/cyberpunk-red-core/icons/compendium/upgrades/infrared_nightvision_scope.svg
+    range:
+      - 2
+      - 3
+    text: Infrared Nightvision Scope
+    type: pack
+    weight: 1
+  - _id: 6P5aIORRfwCZ6bwh
+    _key: "!tables.results!SYVlWtjzWbG4XEfi.6P5aIORRfwCZ6bwh"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: BC8S1sdK0QGdyHNC
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/upgrades/smartgun_link.svg
+    range:
+      - 4
+      - 4
+    text: Smartgun Link
+    type: pack
+    weight: 1
+  - _id: V4v7IJyclDRFZOOO
+    _key: "!tables.results!SYVlWtjzWbG4XEfi.V4v7IJyclDRFZOOO"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: Ryex0KHeeDzPQwmN
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/upgrades/sniping_scope.svg
+    range:
+      - 5
+      - 6
+    text: Sniping Scope
+    type: pack
+    weight: 1
+sort: 100000

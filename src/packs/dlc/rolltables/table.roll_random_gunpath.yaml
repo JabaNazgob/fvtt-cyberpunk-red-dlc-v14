@@ -1,0 +1,65 @@
+_id: sYTB08m4O6gvMyI8
+_key: "!tables!sYTB08m4O6gvMyI8"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1778356506742
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778449962252
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+description: >-
+  <p>Create a random weapon via the Gunpath method.</p><p>Toggles Temple, pg.
+  14-19</p>
+displayRoll: false
+flags: {}
+folder: t5BgQPsL3501UGfC
+formula: "1"
+img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/roll-gunpath.svg
+name: Roll Random Gunpath
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+replacement: true
+results:
+  - _id: gtk2TbVKohl3uiPB
+    _key: "!tables.results!sYTB08m4O6gvMyI8.gtk2TbVKohl3uiPB"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: aIGB3mAQ7QWCQBJ0
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 1
+      - 1
+    text: Weapon-Name
+    type: pack
+    weight: 1
+  - _id: u60VEa4Hm2drSh7E
+    _key: "!tables.results!sYTB08m4O6gvMyI8.u60VEa4Hm2drSh7E"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: gzuEbVDRUHBZpuUL
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 1
+      - 1
+    text: Weapon-Manufacturer
+    type: pack
+    weight: 1
+  - _id: LEQ6FmNlhDq84wBO
+    _key: "!tables.results!sYTB08m4O6gvMyI8.LEQ6FmNlhDq84wBO"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: YLkXeYJxEWEdAG5I
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    range:
+      - 1
+      - 1
+    text: Weapon-Quality
+    type: pack
+    weight: 1
+sort: 100000

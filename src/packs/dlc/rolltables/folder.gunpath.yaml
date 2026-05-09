@@ -1,0 +1,19 @@
+_id: t5BgQPsL3501UGfC
+_key: "!folders!t5BgQPsL3501UGfC"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1778356091412
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778356091412
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+color: null
+description: ""
+flags: {}
+folder: null
+name: Gunpath
+sort: 0
+sorting: a
+type: RollTable

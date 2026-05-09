@@ -1,0 +1,50 @@
+_id: 4pyXZHjSVn1qJscO
+_key: "!tables!4pyXZHjSVn1qJscO"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1778357955907
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778447736201
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+description: ""
+displayRoll: false
+flags: {}
+folder: KmmkVwS79ivnwu2W
+formula: 1d6
+img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+name: Option-Bayonet
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+replacement: true
+results:
+  - _id: VBkOa3oopt1HLhYJ
+    _key: "!tables.results!4pyXZHjSVn1qJscO.VBkOa3oopt1HLhYJ"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: xRA275R527XLwaBJ
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/upgrades/bayonet.svg
+    range:
+      - 1
+      - 5
+    text: Bayonet
+    type: pack
+    weight: 1
+  - _id: 58yVVzjoOgqrmR22
+    _key: "!tables.results!4pyXZHjSVn1qJscO.58yVVzjoOgqrmR22"
+    documentCollection: cyberpunk-red-dlc.dlc_upgrades
+    documentId: 5SEXfIt0muRpGrE5
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/airhypo-bayonet.svg
+    range:
+      - 6
+      - 6
+    text: Airhypo Bayonet
+    type: pack
+    weight: 1
+sort: 700000

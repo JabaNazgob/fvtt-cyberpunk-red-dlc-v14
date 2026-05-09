@@ -1,0 +1,161 @@
+_id: PTeaydhFSodkshDu
+_key: "!tables!PTeaydhFSodkshDu"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1778358208009
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778447681213
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+description: >-
+  <p>Random shoulder arms upgrades provided by Gunpath.</p><p>Toggles Temple,
+  pg. 17</p>
+displayRoll: false
+flags: {}
+folder: KmmkVwS79ivnwu2W
+formula: 1d10
+img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+name: Upgrades-Shoulder-Assault
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+replacement: true
+results:
+  - _id: eB03trK7irJCHZ2M
+    _key: "!tables.results!PTeaydhFSodkshDu.eB03trK7irJCHZ2M"
+    documentCollection: cyberpunk-red-dlc.dlc_rolltables
+    documentId: 4pyXZHjSVn1qJscO
+    drawn: false
+    flags: {}
+    img: icons/svg/d20-grey.svg
+    range:
+      - 1
+      - 1
+    text: Option-Bayonet
+    type: pack
+    weight: 1
+  - _id: lYumwS5Sp6crQne6
+    _key: "!tables.results!PTeaydhFSodkshDu.lYumwS5Sp6crQne6"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: mtYBtYyjuFKOMngN
+    drawn: false
+    flags: {}
+    img: >-
+      systems/cyberpunk-red-core/icons/compendium/upgrades/generic_drum_magazine.svg
+    range:
+      - 2
+      - 2
+    text: Drum Magazine (Assault Rifle)
+    type: pack
+    weight: 1
+  - _id: NK5FS7TQPrtV5obX
+    _key: "!tables.results!PTeaydhFSodkshDu.NK5FS7TQPrtV5obX"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: s3oETYXA2wnTnrk1
+    drawn: false
+    flags: {}
+    img: >-
+      systems/cyberpunk-red-core/icons/compendium/upgrades/generic_extended_magazine.svg
+    range:
+      - 3
+      - 3
+    text: Extended Magazine (Assault Rifle)
+    type: pack
+    weight: 1
+  - _id: XaektZhX2owafVmH
+    _key: "!tables.results!PTeaydhFSodkshDu.XaektZhX2owafVmH"
+    documentCollection: cyberpunk-red-dlc.dlc_upgrades
+    documentId: vX1a56BegwIc5tJF
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/grapple-gun-underbarrel.svg
+    range:
+      - 4
+      - 4
+    text: Grapple Gun Underbarrel
+    type: pack
+    weight: 1
+  - _id: PD0Qj7cijx2mUgb4
+    _key: "!tables.results!PTeaydhFSodkshDu.PD0Qj7cijx2mUgb4"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: x6mYA3IJZaNK00nv
+    drawn: false
+    flags: {}
+    img: >-
+      systems/cyberpunk-red-core/icons/compendium/upgrades/grenade_launcher_underbarrel.svg
+    range:
+      - 5
+      - 5
+    text: Grenade Launcher Underbarrel
+    type: pack
+    weight: 1
+  - _id: IRymmwb778ntDh19
+    _key: "!tables.results!PTeaydhFSodkshDu.IRymmwb778ntDh19"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: pEXcsIk1FYMNdbUc
+    drawn: false
+    flags: {}
+    img: >-
+      systems/cyberpunk-red-core/icons/compendium/upgrades/infrared_nightvision_scope.svg
+    range:
+      - 6
+      - 6
+    text: Infrared Nightvision Scope
+    type: pack
+    weight: 1
+  - _id: X9jOB3o79yfwxe99
+    _key: "!tables.results!PTeaydhFSodkshDu.X9jOB3o79yfwxe99"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: aFg1nXhz37e1C2YP
+    drawn: false
+    flags: {}
+    img: >-
+      systems/cyberpunk-red-core/icons/compendium/upgrades/shotgun_underbarrel.svg
+    range:
+      - 7
+      - 7
+    text: Shotgun Underbarrel
+    type: pack
+    weight: 1
+  - _id: CIaxtT4smIvfhTC3
+    _key: "!tables.results!PTeaydhFSodkshDu.CIaxtT4smIvfhTC3"
+    documentCollection: cyberpunk-red-dlc.dlc_upgrades
+    documentId: qElWreojgrHxJ1iR
+    drawn: false
+    flags: {}
+    img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/silencer.svg
+    range:
+      - 8
+      - 8
+    text: Silencer
+    type: pack
+    weight: 1
+  - _id: xtCkoSnwCE2MPG2R
+    _key: "!tables.results!PTeaydhFSodkshDu.xtCkoSnwCE2MPG2R"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: BC8S1sdK0QGdyHNC
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/upgrades/smartgun_link.svg
+    range:
+      - 9
+      - 9
+    text: Smartgun Link
+    type: pack
+    weight: 1
+  - _id: QXXMiHE3plza6HNd
+    _key: "!tables.results!PTeaydhFSodkshDu.QXXMiHE3plza6HNd"
+    documentCollection: cyberpunk-red-core.core_upgrades
+    documentId: Ryex0KHeeDzPQwmN
+    drawn: false
+    flags: {}
+    img: systems/cyberpunk-red-core/icons/compendium/upgrades/sniping_scope.svg
+    range:
+      - 10
+      - 10
+    text: Sniping Scope
+    type: pack
+    weight: 1
+sort: 575000
