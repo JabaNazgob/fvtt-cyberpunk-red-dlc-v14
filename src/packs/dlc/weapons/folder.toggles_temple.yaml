@@ -1,0 +1,19 @@
+_id: J5fPtsa4sbv81jc4
+_key: "!folders!J5fPtsa4sbv81jc4"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1778345064778
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778345064778
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+color: null
+description: ""
+flags: {}
+folder: null
+name: Toggles Temple
+sort: 0
+sorting: a
+type: Item
