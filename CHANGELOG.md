@@ -29,6 +29,7 @@ Includes all content from:
 - Night City Tarot
 - Night City Weather
 - Spinning Your Wheels
+- Toggles Temple
 - Woodchippers Garage
 
 Includes currently supported content from:
