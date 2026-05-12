@@ -6,7 +6,7 @@ _stats:
   createdTime: null
   duplicateSource: null
   lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778347023121
+  modifiedTime: 1778543255320
   systemId: cyberpunk-red-core
   systemVersion: v0.0.0dev
 effects: []
@@ -33,11 +33,9 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
-      <p>
-       A standard-issue assault rifle. If you roll 1 on Attack (Crit fail) the gun
-       jams and requires using an action to clear.
-      </p>
+    value: >-
+      <p>A poor quality assault rifle. If you roll 1 on Attack (Crit fail) the
+      gun jams and requires using an action to clear.</p>
   dvTable: DV Assault Rifle
   equipped: owned
   favorite: false

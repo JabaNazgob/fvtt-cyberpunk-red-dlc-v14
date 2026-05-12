@@ -1,0 +1,79 @@
+_id: yehWU4vWVwQJAXoq
+_key: "!items!yehWU4vWVwQJAXoq"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1778537422006
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778537422006
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 33
+      previous: "24"
+folder: Med6qqMKsXwE3Yd0
+img: systems/cyberpunk-red-core/icons/compendium/weapons/mediumPistol_poor.svg
+name: Faisal's Escape Plan
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+sort: 0
+system:
+  ammoVariety:
+    - medPistol
+  attackmod: 0
+  brand: Faisal's Customs
+  canIgnoreArmor: false
+  concealable:
+    concealable: true
+    isConcealed: false
+  critFailEffect: jammed
+  damage: 2d6
+  description:
+    value: >-
+      <p>A concealable, medium-sized pistol. If you roll 1 on Attack (Crit fail)
+      the gun jams and requires using an action to clear.</p><blockquote><p>Can
+      be thrown as if it were a
+      @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Smoke
+      Grenade}. When thrown, any installed attatchments and loaded ammunition
+      are Destroyed Beyond Repair.</p></blockquote>
+  dvTable: DV Pistol
+  equipped: owned
+  favorite: false
+  fireModes:
+    autoFire: 0
+    suppressiveFire: false
+  handsReq: 1
+  ignoreArmorPercent: 0
+  ignoreBelowSP: 0
+  installedItems:
+    allowed: true
+    allowedTypes:
+      - itemUpgrade
+      - ammo
+    list: []
+    slots: 3
+    usedSlots: 0
+  isRanged: true
+  magazine:
+    ammoData: null
+    max: 12
+    value: 0
+  price:
+    market: 60
+  quality: poor
+  revealed: true
+  rof: 2
+  source:
+    book: TT
+    page: 3
+  unarmedAutomaticCalculation: true
+  usage: equipped
+  usesType: magazine
+  weaponSkill: Handgun
+  weaponType: medPistol
+type: weapon

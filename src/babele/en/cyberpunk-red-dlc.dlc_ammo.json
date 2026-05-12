@@ -12,9 +12,21 @@
       "name": "Big Dreem Rounds",
       "description": "<p>Custom Ammo for the Teen Dreem.</p>\n"
     },
-    "Dazzle Dazzle ModBall": {
-      "name": "Dazzle Dazzle ModBall",
-      "description": "<p>\n  Acts as a single target\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.e8gDMbdK1oPKwhqW]{Flashbang}.\n  Can ignite flamable surfaces.\n</p>\n"
+    "ElectroMag (Basic-Shell)": {
+      "name": "ElectroMag (Basic-Shell)",
+      "description": "<p>Magnetic ammo designed for the SlamDance ElectroMag.</p>"
+    },
+    "ElectroMag (Basic-Slug)": {
+      "name": "ElectroMag (Basic-Slug)",
+      "description": "<p>Basic ammo, nothing special.</p>"
+    },
+    "ElectroMag (Incendiary-Shell)": {
+      "name": "ElectroMag (Incendiary-Shell)",
+      "description": "<p>\n If damage dealt to target they are set alight. Target takes 2 damage to HP at\n end of their turn unless they use action to extinguish flames. Does not stack.\n</p>"
+    },
+    "ElectroMag (Incendiary-Slug)": {
+      "name": "ElectroMag (Incendiary-Slug)",
+      "description": "<p>\n If damage dealt to target they are set alight. Target takes 2 damage to HP at\n end of their turn unless they use action to extinguish flames. Does not stack.\n</p>"
     },
     "Fire Extinguisher Charges": {
       "name": "Fire Extinguisher Charges",
@@ -32,14 +44,6 @@
       "name": "Heavy Pistol (Small Game)",
       "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>\n"
     },
-    "Hello Cutie Chromatic Rave Grenade": {
-      "name": "Hello Cutie Chromatic Rave Grenade",
-      "description": "<p>\n  @UUID[Compendium.cyberpunk-red-core.core_weapons.Item.29p2bEfPcAWHpsTY]{A\n  Thrown Weapon} that sticks to surfaces and plays a musical laser light show\n  before exploding into colorful smoke and glitter.\n</p>\n<blockquote>\n  <ul>\n    <li><p>Cannot be loaded into grenade launchers.</p></li>\n    <li>\n      <p>\n        Causes 2 rounds of distraction that impose a\n        <strong>-2 penalty</strong> to all checks for everyone within 10m/yd if\n        they fail a <strong>DV13 Concentration Check</strong>.\n      </p>\n    </li>\n    <li>\n      <p>\n        After 2 rounds the grenade detonates like a\n        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Grenade\n        (Smoke)}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
-    },
-    "Janus Hex Heavy Scent Balls": {
-      "name": "Janus Hex Heavy Scent Balls",
-      "description": "<p>Pack of 4 Janus Hex Heavy Scent Balls.</p>\n<blockquote>\n  <p>Requires Maker Rank 6 or higher to Fabricate or Modify.</p>\n</blockquote>\n"
-    },
     "MagnaSlot BatteryBrick": {
       "name": "MagnaSlot BatteryBrick",
       "description": "<p>\n  Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can\n  be recharged in 1 hour.\n</p>\n"
@@ -51,10 +55,6 @@
     "Medium Pistol (Small Game)": {
       "name": "Medium Pistol (Small Game)",
       "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>\n"
-    },
-    "Mega Ouchie ModBall": {
-      "name": "Mega Ouchie ModBall",
-      "description": "<p>\n  Acts as\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Biotoxin}\n  Ammunition\n</p>\n"
     },
     "M-02 Rounds": {
       "name": "M-02 Rounds",
@@ -87,14 +87,6 @@
     "Shotgun Slug (Junk)": {
       "name": "Shotgun Slug (Junk)",
       "description": "<p>\n  Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>\n"
-    },
-    "Slippy ModBall": {
-      "name": "Slippy ModBall",
-      "description": "<p>Balls filled with a slippery lubricant.</p>\n<ul>\n  <li>\n    <p>\n      Covers a 2m/yd<sup>2 </sup>surface that requires a\n      <strong>DV13 Athletic Check</strong> to avoid falling Prone when entering\n      or occupying the covered area.\n    </p>\n  </li>\n  <li>\n    <p>\n      Targets receive a +1 Bonus to <strong>Contortionist Checks</strong> made\n      to escape a grapple.\n    </p>\n  </li>\n</ul>\n"
-    },
-    "Splashie ModBall": {
-      "name": "Splashie ModBall",
-      "description": "<p>\n  Balls of colourful, but highly combustible paint; keep away from open flames.\n</p>\n"
     },
     "Sub-Flechette Rounds": {
       "name": "Sub-Flechette Rounds",

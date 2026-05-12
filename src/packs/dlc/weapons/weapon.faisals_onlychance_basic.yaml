@@ -1,0 +1,130 @@
+_id: YB4NohwRN5BSO7RE
+_key: "!items!YB4NohwRN5BSO7RE"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1778542804377
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778542804377
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags:
+  cprInstallTree:
+    - _id: 5dYL5AvMHXkjluXz
+      _stats:
+        compendiumSource: Compendium.cyberpunk-red-core.core_ammo.Item.YFnV9OetCCRru5Ky
+        coreVersion: "12.343"
+        createdTime: 1778540880670
+        duplicateSource: null
+        lastModifiedBy: GhPkzdD89HrVDo6W
+        modifiedTime: 1778540880670
+        systemId: cyberpunk-red-core
+        systemVersion: v0.0.0dev
+      effects: []
+      flags:
+        cyberpunk-red-core:
+          _migration:
+            current: 39
+            previous: "38"
+      folder: null
+      img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_slug_basic.svg
+      name: Shotgun Slug (Basic)
+      ownership:
+        GhPkzdD89HrVDo6W: 3
+        default: 0
+      sort: 0
+      system:
+        ablationValue: 1
+        amount: 0
+        brand: ""
+        concealable:
+          concealable: true
+          isConcealed: false
+        description:
+          value: <p>Basic ammo, nothing special.</p>
+        favorite: false
+        installLocation: mall
+        overrides:
+          autofire:
+            minimum: 3
+            mode: none
+            value: -1
+          damage:
+            minimum: 1d6
+            mode: none
+            value: 3d6
+        price:
+          market: 10
+        size: 0
+        source:
+          book: Core
+          page: 345
+        type: basic
+        variety: shotgunSlug
+      type: ammo
+  cyberpunk-red-core:
+    _migration:
+      current: 33
+      previous: "24"
+folder: BKpbrVAy1KKpXtaU
+img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun_poor.svg
+name: Faisal's OnlyChance (Basic)
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+sort: 0
+system:
+  ammoVariety:
+    - shotgunShell
+    - shotgunSlug
+  attackmod: 0
+  brand: Faisal's Customs
+  canIgnoreArmor: false
+  concealable:
+    concealable: false
+    isConcealed: false
+  critFailEffect: jammed
+  damage: 5d6
+  description:
+    value: >-
+      <p>A disposable shotgun that cannot be reloaded. If you roll 1 on Attack
+      (Crit fail) the gun jams and requires using an action to clear.</p>
+  dvTable: DV Shotgun (Slug)
+  equipped: owned
+  favorite: false
+  fireModes:
+    autoFire: 0
+    suppressiveFire: false
+  handsReq: 2
+  ignoreArmorPercent: 0
+  ignoreBelowSP: 0
+  installedItems:
+    allowed: true
+    allowedTypes:
+      - itemUpgrade
+      - ammo
+    list:
+      - 5dYL5AvMHXkjluXz
+    slots: 3
+    usedSlots: 0
+  isRanged: true
+  magazine:
+    ammoData: null
+    max: 4
+    value: 4
+  price:
+    market: 20
+  quality: poor
+  revealed: true
+  rof: 1
+  source:
+    book: TT
+    page: 8
+  unarmedAutomaticCalculation: true
+  usage: equipped
+  usesType: magazine
+  weaponSkill: Shoulder Arms
+  weaponType: shotgun
+type: weapon

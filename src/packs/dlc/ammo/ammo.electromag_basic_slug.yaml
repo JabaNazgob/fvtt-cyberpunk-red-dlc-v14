@@ -1,0 +1,53 @@
+_id: CCEXsWo665wo7cD3
+_key: "!items!CCEXsWo665wo7cD3"
+_stats:
+  compendiumSource: null
+  coreVersion: "12.343"
+  createdTime: 1778542227348
+  duplicateSource: null
+  lastModifiedBy: GhPkzdD89HrVDo6W
+  modifiedTime: 1778542227348
+  systemId: cyberpunk-red-core
+  systemVersion: v0.0.0dev
+effects: []
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 39
+      previous: "38"
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/slamdance_slug_basic.svg
+name: ElectroMag (Basic-Slug)
+ownership:
+  GhPkzdD89HrVDo6W: 3
+  default: 0
+sort: 0
+system:
+  ablationValue: 1
+  amount: 10
+  brand: ""
+  concealable:
+    concealable: true
+    isConcealed: false
+  description:
+    value: <p>Basic ammo, nothing special.</p>
+  favorite: false
+  installLocation: mall
+  overrides:
+    autofire:
+      minimum: 3
+      mode: none
+      value: -1
+    damage:
+      minimum: 1d6
+      mode: none
+      value: 3d6
+  price:
+    market: 10
+  size: 0
+  source:
+    book: Core
+    page: 345
+  type: basic
+  variety: custom
+type: ammo

@@ -6,7 +6,7 @@ _stats:
   createdTime: null
   duplicateSource: null
   lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778347083814
+  modifiedTime: 1778544206385
   systemId: cyberpunk-red-core
   systemVersion: v0.0.0dev
 effects: []
@@ -33,12 +33,9 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
-      <p>
-       A collapsible bow branded with the Eagletech logo, reloaded as part of an
-       Attack action.
-      </p>
-      <p>+1 to Attack check.</p>
+    value: >-
+      <p>An excellent quality recurve bow , reloaded as part of an Attack
+      action. +1 to Attack check.</p>
   dvTable: DV Bows & Crossbows
   equipped: owned
   favorite: false

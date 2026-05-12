@@ -6,7 +6,7 @@ _stats:
   createdTime: null
   duplicateSource: null
   lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778347029876
+  modifiedTime: 1778543255320
   systemId: cyberpunk-red-core
   systemVersion: v0.0.0dev
 effects: []
@@ -33,7 +33,7 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: <p>A standard-issue assault rifle. +1 to Attack.</p>
+    value: <p>An excellent quality assault rifle. +1 to Attack.</p>
   dvTable: DV Assault Rifle
   equipped: owned
   favorite: false

@@ -6,7 +6,7 @@ _stats:
   createdTime: null
   duplicateSource: null
   lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778347056194
+  modifiedTime: 1778543747233
   systemId: cyberpunk-red-core
   systemVersion: v0.0.0dev
 effects: []
@@ -33,10 +33,9 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
-      <p>
-       A long-distance sniper rifle. Holds 4 bullets in a magazine. +1 to Attack.
-      </p>
+    value: >-
+      <p>A long-distance sniper rifle. Holds 4 bullets in a magazine. +1 to
+      Attack.</p>
   dvTable: DV Sniper Rifle
   equipped: owned
   favorite: false
