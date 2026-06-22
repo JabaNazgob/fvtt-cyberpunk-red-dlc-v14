@@ -206,7 +206,7 @@ class Config {
     const groupUrl = `${baseUrl}/${this._gitlabGroupName}`;
     const projectUrl = `${groupUrl}/${this._gitlabProjectName}`;
     const apiUrl = `${baseUrl}/api/v4`;
-    const packageUrl = `${apiUrl}/projects/${this._gitlabProjectId}/generic/${this.id}`;
+    const packageUrl = `${apiUrl}/projects/${this._gitlabProjectId}/packages/generic/${this.id}`;
     const manifestUrl = `${packageUrl}/latest/${manifestFile}`;
     const zipUrl = `${packageUrl}/${this.version}/${zipFile}`;
 
