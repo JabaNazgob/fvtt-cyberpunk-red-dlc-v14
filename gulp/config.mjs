@@ -266,26 +266,29 @@ class Config {
   }
 
   /**
-   * Gets the build directory path
+   * Gets the build directory path. When a Foundry data path is available the
+   * build deploys into `<dataPath>/Data/<type>s/<id>`; otherwise it falls back
+   * to the configured build directory. The data path is resolved, in order,
+   * from the `FOUNDRY_DATA_PATH` env var (used by the test harness for an
+   * isolated dir), then `foundryconfig.json`'s top-level `dataPath`, then its
+   * nested `foundry.dataPath` block.
    *
    * @returns {string} Resolved path to build directory
    */
   get buildDirPath() {
     const config = this.#loadFoundryConfig();
-    if (config) {
-      if (config.dataPath) {
-        const moduleType = path.basename(
-          this._manifestFile,
-          path.extname(this._manifestFile),
-        );
-        const distPath = path.join(
-          config.dataPath,
-          "Data",
-          `${moduleType}s`,
-          this.id,
-        );
-        return path.resolve(distPath);
-      }
+    const dataPath =
+      process.env.FOUNDRY_DATA_PATH ||
+      config?.dataPath ||
+      config?.foundry?.dataPath;
+    if (dataPath) {
+      const moduleType = path.basename(
+        this._manifestFile,
+        path.extname(this._manifestFile),
+      );
+      return path.resolve(
+        path.join(dataPath, "Data", `${moduleType}s`, this.id),
+      );
     }
     return path.resolve(this.root, this._buildDir);
   }
