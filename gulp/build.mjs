@@ -1,10 +1,8 @@
 import path from "node:path";
-import { watch } from "gulp";
 import fs from "fs-extra";
 import log from "./utils/logger.mjs";
 import { FileUtils } from "./utils/FileUtils.mjs";
-
-// foo
+import DataUtils from "./utils/DataUtils.mjs";
 
 /**
  * Cleans the build directory by removing all contents while preserving
@@ -29,34 +27,44 @@ export const cleanBuildDir = (config) => (done) => {
 };
 
 /**
- * Copies static assets from source to build directory. Processes each
- * configured asset synchronously and maintains directory structure.
- * Assets are defined in the config.syncPaths array.
+ * Copies static assets from source to build directory. Finds all files
+ * matching configured extensions and copies them while preserving
+ * directory structure.
  *
  * @param {Object} config - Build configuration object
  * @param {string} config.srcDirPath - Source directory path
  * @param {string} config.buildDirPath - Build directory path
- * @param {string[]} config.syncPaths - Array of asset directories/files
+ * @param {string[]} config.staticExts - Array of file extensions to copy
+ * @param {string[]} config.excludeDirs - Array of directories to exclude
  * @returns {Function} Gulp task function that accepts a done callback
  */
-export const copyStaticAssets = (config) => (done) => {
+export const copyStaticAssets = (config) => async (done) => {
   log.debug("Copying static assets...");
-  const srcDir = config.srcDirPath;
-  const destDir = config.buildDirPath;
-  const staticAssets = config.syncPaths;
+
+  // Manifest files are handled by buildManifest task
+  const excludedFiles = ["system.json", "module.json"];
 
   try {
-    staticAssets.forEach((asset) => {
-      const srcPath = path.resolve(path.join(srcDir, asset));
-      const destPath = path.resolve(path.join(destDir, asset));
+    const allFiles = await FileUtils.findFilesByExts(
+      config.srcDirPath,
+      config.staticExts,
+      config.excludeDirs,
+    );
 
-      if (fs.existsSync(srcPath)) {
-        log.debug(`copying '${asset}' to '${destDir}'`);
-        fs.copySync(srcPath, destPath);
-      } else {
-        log.error(`asset path '${srcPath}' does not exist.`);
-      }
-    });
+    const files = allFiles.filter(
+      (file) => !excludedFiles.includes(path.basename(file)),
+    );
+
+    for (const file of files) {
+      const relativePath = path.relative(config.srcDirPath, file);
+      log.debug(`copying '${relativePath}' to '${config.buildDirPath}'`);
+      FileUtils.copyFilePreservingStructure(
+        file,
+        config.srcDirPath,
+        config.buildDirPath,
+      );
+    }
+
     log.debug("Static assets copied successfully.");
     done();
   } catch (err) {
@@ -66,43 +74,8 @@ export const copyStaticAssets = (config) => (done) => {
 };
 
 /**
- * Determines which configured asset directory a file belongs to.
- *
- * @private
- * @param {string} file - File path to check
- * @param {string} srcDir - Source directory path
- * @param {string[]} syncPaths - Array of configured asset paths
- * @returns {string|null} The asset path if file is within one, null
- *                        otherwise
- */
-function findAssetForFile(file, srcDir, syncPaths) {
-  const normalizedFile = path.normalize(file);
-
-  for (const asset of syncPaths) {
-    const assetPath = path.normalize(path.join(srcDir, asset));
-    const normalizedAssetPath = path.normalize(assetPath);
-
-    // Exact match for individual files
-    if (normalizedFile === normalizedAssetPath) {
-      return asset;
-    }
-
-    // Check if file is within this asset directory path
-    const relativePath = path.relative(normalizedAssetPath, normalizedFile);
-
-    // If relative path doesn't start with "..", file is within the
-    // asset directory
-    if (!relativePath.startsWith("..") && !path.isAbsolute(relativePath)) {
-      return asset;
-    }
-  }
-
-  return null;
-}
-
-/**
- * Watch task for static assets during development. Monitors configured
- * asset directories and individual files for additions, modifications,
+ * Watch task for static assets during development. Monitors files
+ * matching configured extensions for additions, modifications,
  * and deletions. Copies and removes files for fast incremental builds.
  * Debounces rapid file changes to ensure the latest version is
  * processed.
@@ -115,90 +88,46 @@ function findAssetForFile(file, srcDir, syncPaths) {
  * @param {Object} config - Build configuration object
  * @param {string} config.srcDirPath - Source directory path
  * @param {string} config.buildDirPath - Build directory path
- * @param {string[]} config.syncPaths - Array of asset directories/files
+ * @param {string[]} config.staticExts - Array of file extensions to watch
+ * @param {string[]} config.excludeDirs - Array of directories to exclude
  * @returns {Function} Gulp task function that returns a watcher object
  */
 export const watchStaticAssets = (config) => () => {
-  const srcDir = config.srcDirPath;
-  const destDir = config.buildDirPath;
-  const syncPaths = config.syncPaths;
-  const tempPatterns = config.tempFilePatterns;
+  // Manifest files are handled by buildManifest task
+  const excludedFiles = ["system.json", "module.json"];
 
-  const watchPatterns = syncPaths.map((asset) => {
-    const assetPath = path.join(srcDir, asset);
-    const isFile = fs.existsSync(assetPath) && fs.statSync(assetPath).isFile();
-    return isFile ? assetPath : path.join(assetPath, "**/*");
-  });
+  const isExcludedFile = (file) => excludedFiles.includes(path.basename(file));
 
-  const watcher = watch(watchPatterns);
-  const debounceTimers = new Map();
-  const debounceDelay = 50;
-
-  watcher
-    .on("add", (file) => {
-      if (FileUtils.isTemporaryFile(file, tempPatterns)) {
-        return;
-      }
-      try {
-        const asset = findAssetForFile(file, srcDir, syncPaths);
-        if (asset) {
-          const relPath = path.relative(srcDir, file);
-          log.info(`[asset] Added: ${relPath}`);
-          const srcPath = file;
-          const destPath = path.join(destDir, relPath);
-          fs.ensureDirSync(path.dirname(destPath));
-          fs.copySync(srcPath, destPath);
-        }
-      } catch (error) {
-        log.error(`Failed to copy: ${error.message}`);
-      }
-    })
-    .on("change", (file) => {
-      if (FileUtils.isTemporaryFile(file, tempPatterns)) {
-        return;
-      }
-      const relPath = path.relative(srcDir, file);
-      log.info(`[asset] Changed: ${relPath}`);
-      clearTimeout(debounceTimers.get(file));
-      debounceTimers.set(
+  return FileUtils.createExtensionWatcher({
+    srcDir: config.srcDirPath,
+    exts: config.staticExts,
+    excludeDirs: config.excludeDirs,
+    label: "asset",
+    onAdd: (file) => {
+      if (isExcludedFile(file)) return;
+      FileUtils.copyFilePreservingStructure(
         file,
-        setTimeout(() => {
-          try {
-            const asset = findAssetForFile(file, srcDir, syncPaths);
-            if (asset) {
-              const srcPath = file;
-              const destPath = path.join(destDir, relPath);
-              fs.ensureDirSync(path.dirname(destPath));
-              fs.copySync(srcPath, destPath);
-            }
-          } catch (error) {
-            log.error(`Failed to copy: ${error.message}`);
-          } finally {
-            debounceTimers.delete(file);
-          }
-        }, debounceDelay),
+        config.srcDirPath,
+        config.buildDirPath,
       );
-    })
-    .on("unlink", (file) => {
-      if (FileUtils.isTemporaryFile(file, tempPatterns)) {
-        return;
-      }
-      try {
-        const asset = findAssetForFile(file, srcDir, syncPaths);
-        if (asset) {
-          const relPath = path.relative(srcDir, file);
-          log.info(`[asset] Deleted: ${relPath}`);
-          const destPath = path.join(destDir, relPath);
-          if (fs.existsSync(destPath)) {
-            fs.removeSync(destPath);
-          }
-        }
-      } catch (error) {
-        log.error(`Failed to delete: ${error.message}`);
-      }
-    });
-
-  return watcher;
+    },
+    onChange: (file) => {
+      if (isExcludedFile(file)) return;
+      FileUtils.copyFilePreservingStructure(
+        file,
+        config.srcDirPath,
+        config.buildDirPath,
+      );
+    },
+    onDelete: (file) => {
+      if (isExcludedFile(file)) return;
+      FileUtils.deleteFilePreservingStructure(
+        file,
+        config.srcDirPath,
+        config.buildDirPath,
+      );
+    },
+  });
 };
 
 /**
@@ -231,18 +160,64 @@ export const buildManifest = (config) => (done) => {
 };
 
 /**
- * Generates an environment variables file with module information.
- * Creates vars.env containing CHANGELOG_FILE, MODULE_ID, MODULE_TITLE,
- * MODULE_VERSION, and CORE_REPO_REF. This file is used by CI/CD scripts
- * and build processes to access module metadata.
+ * Generates the devMode module from defaults deep-merged with the `devMode`
+ * key of `foundryconfig.json`, writing an ES module that default-exports the
+ * merged object. Disabled by default; enable via the `devMode` config option.
+ * Keeping the defaults in consumer config keeps this task project-agnostic.
+ *
+ * @param {Object} config - Build configuration object
+ * @param {Object} config.devMode - DevMode options
+ * @param {boolean} config.devMode.enabled - Whether to generate the module
+ * @param {string} config.devMode.outPath - Output path relative to buildDir
+ * @param {Object} config.devMode.defaults - Default devMode object
+ * @param {Object} config.foundryConfig - Parsed foundryconfig.json
+ * @param {string} config.buildDirPath - Build directory path
+ * @returns {Function} Gulp task function that accepts a done callback
+ */
+export const generateDevMode = (config) => (done) => {
+  if (!config.devMode.enabled) {
+    log.debug("DevMode generation disabled, skipping generateDevMode.");
+    done();
+    return;
+  }
+
+  try {
+    const merged = DataUtils.deepMerge(
+      config.devMode.defaults,
+      config.foundryConfig.devMode || {},
+    );
+    const content =
+      "// Auto-generated during build - DO NOT EDIT\n" +
+      `const DEV_MODE = ${JSON.stringify(merged, null, 2)};\n` +
+      "export default DEV_MODE;\n";
+
+    const outPath = path.join(config.buildDirPath, config.devMode.outPath);
+    fs.ensureDirSync(path.dirname(outPath));
+    FileUtils.writeTextFile(outPath, content);
+    done();
+  } catch (error) {
+    log.error(`Error generating devMode: ${error.message}`);
+    done(error);
+  }
+};
+
+/**
+ * Generates an environment variables file with module and release
+ * information. Creates vars.env containing module metadata (CHANGELOG_FILE,
+ * MODULE_ID, MODULE_TITLE, MODULE_VERSION) and release vars (RELEASE_NAME,
+ * ZIP_FILE, REPO_URL, MODULE_MANIFEST_URL, MODULE_DOWNLOAD_URL). This file is
+ * the single source of these values for the CI/CD release scripts.
  *
  * @param {Object} config - Build configuration object
  * @param {string} config.changelogPath - Path to changelog file
  * @param {string} config.id - Module ID from manifest
  * @param {string} config.title - Module title from manifest
  * @param {string} config.version - Module version string
- * @param {string} config.schemaVersion - Core repository reference/
- *                                        schema version
+ * @param {string} config.releaseName - Release archive base name
+ * @param {string} config.zipName - Release zip file name
+ * @param {string} config.repoUrl - GitLab generic package base URL
+ * @param {string} config.manifestUrl - Latest manifest URL
+ * @param {string} config.downloadUrl - Versioned download (zip) URL
  * @param {string} config.varsFile - Path where vars.env should be
  *                                   written
  * @returns {Function} Gulp task function that accepts a done callback
@@ -254,7 +229,13 @@ export const generateEnvFile = (config) => (done) => {
       { key: "MODULE_ID", value: config.id },
       { key: "MODULE_TITLE", value: config.title },
       { key: "MODULE_VERSION", value: config.version },
-      { key: "CORE_REPO_REF", value: config.schemaVersion },
+      // Release vars consumed by the CI release scripts, derived here so the
+      // scripts stay config-agnostic and just read vars.env.
+      { key: "RELEASE_NAME", value: config.releaseName },
+      { key: "ZIP_FILE", value: config.zipName },
+      { key: "REPO_URL", value: config.repoUrl },
+      { key: "MODULE_MANIFEST_URL", value: config.manifestUrl },
+      { key: "MODULE_DOWNLOAD_URL", value: config.downloadUrl },
     ];
 
     const content = vars.map(({ key, value }) => `${key}=${value}`).join("\n");

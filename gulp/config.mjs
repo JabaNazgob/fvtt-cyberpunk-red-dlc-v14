@@ -11,16 +11,29 @@ class Config {
   // Set defaults if no options passed.
   static VARS_FILE = "vars.env";
   static FOUNDRY_CONFIG = "foundryconfig.json";
-  static MANIFEST_FILE = "module.json";
+  static MANIFEST_FILE = "src/module.json";
   static CHANGELOG_FILE = "CHANGELOG.md";
   static DEFAULT_VERSION = "v0.0.0dev";
-  static SYSTEM_ID = "cyberpunk-red-core";
   static SRC_DIR = "src";
   static BUILD_DIR = "dist";
-  static ASSET_DIRS = [];
-  static ASSET_FILES = [];
+  static STATIC_EXTS = [".json", ".hbs", ".css", ".js"];
+  static EXCLUDE_DIRS = [];
   static IMAGE_EXTS = [".svg", ".png", ".webp"];
-  static TEMP_FILE_PATTERNS = [".tmp.", "~", ".swp", ".swo", ".orig", ".bak"];
+  static BABELE = { enabled: false, dir: "babele" };
+  static CSS = { enabled: false, entry: "css/main.css", out: "css/main.css" };
+  static CHANGELOG = { enabled: false, packName: "changelog" };
+  static DEV_MODE = {
+    enabled: false,
+    outPath: "modules/system/devMode.js",
+    defaults: {},
+  };
+  static PACKS = {
+    transformEntry: null,
+    transformName: null,
+    excludePacks: [],
+    stats: false,
+    lastModifiedBy: "0000000000000000",
+  };
   static CI = process.env.CI || false;
   static CI_COMMIT_TAG = process.env.CI_COMMIT_TAG || undefined;
   static GITLAB_CI = process.env.GITLAB_CI || false;
@@ -36,12 +49,31 @@ class Config {
    * @param {string} [options.foundryConfig] - Path to the foundry config file
    * @param {string} [options.manifestFile] - Path to the manifest file
    * @param {string} [options.changelogFile] - Path to the changelog file
-   * @param {string} [options.systemId] - SystemId used for schemaVersion
    * @param {string} [options.srcDir] - Source directory name
    * @param {string} [options.buildDir] - Build directory name
-   * @param {string} [options.assetDirs] - Directories in SRC_DIR to sync to BUILD_DIR
-   * @param {string} [options.assetFiles] - Files in SRC_DIR to sync to BUILD_DIR
+   * @param {string[]} [options.staticExts] - File extensions to copy to build
+   * @param {string[]} [options.excludeDirs] - Directories to exclude (applies to both static assets and images)
    * @param {string[]} [options.imageExts] - Array of supported image file extensions
+   * @param {Object} [options.babele] - Babele translation file generation options
+   * @param {boolean} [options.babele.enabled] - Whether to generate Babele files (default: false)
+   * @param {string} [options.babele.dir] - Directory for Babele files relative to srcDir (default: "babele")
+   * @param {Object} [options.css] - CSS/PostCSS pipeline options
+   * @param {boolean} [options.css.enabled] - Whether to compile CSS with PostCSS (default: false)
+   * @param {string} [options.css.entry] - Entry CSS file relative to srcDir (default: "css/main.css")
+   * @param {string} [options.css.out] - Output CSS file relative to buildDir (default: "css/main.css")
+   * @param {Object} [options.changelog] - Changelog journal generation options
+   * @param {boolean} [options.changelog.enabled] - Whether to build changelog journals (default: false)
+   * @param {string} [options.changelog.packName] - Manifest pack name to write journals into (default: "changelog")
+   * @param {Object} [options.devMode] - DevMode module generation options
+   * @param {boolean} [options.devMode.enabled] - Whether to generate the devMode module (default: false)
+   * @param {string} [options.devMode.outPath] - Output path relative to buildDir (default: "modules/system/devMode.js")
+   * @param {Object} [options.devMode.defaults] - Default devMode object merged under foundryconfig's devMode
+   * @param {Object} [options.packs] - Pack extract/compile options
+   * @param {Function} [options.packs.transformEntry] - Hook to clean/transform each entry on compile
+   * @param {Function} [options.packs.transformName] - Hook to name each fragment on extract
+   * @param {string[]} [options.packs.excludePacks] - Pack names to skip when generating Babele files
+   * @param {boolean} [options.packs.stats] - Whether to stamp `_stats` on entries during compile (default: false)
+   * @param {string} [options.packs.lastModifiedBy] - Identity stamped into `_stats.lastModifiedBy`
    * @param {string} [options.defaultVersion] - Default version string
    * @param {string} [options.gitlabHost] - GitLab host URL
    * @param {string} [options.gitlabProjectId] - GitLab project ID
@@ -53,14 +85,16 @@ class Config {
     this._foundryConfig = options.foundryConfig || Config.FOUNDRY_CONFIG;
     this._manifestFile = options.manifestFile || Config.MANIFEST_FILE;
     this._changelogFile = options.changelogFile || Config.CHANGELOG_FILE;
-    this._systemId = options.systemId || Config.SYSTEM_ID;
     this._srcDir = options.srcDir || Config.SRC_DIR;
     this._buildDir = options.buildDir || Config.BUILD_DIR;
-    this._assetDirs = options.assetDirs || Config.ASSET_DIRS;
-    this._assetFiles = options.assetFiles || Config.ASSET_FILES;
+    this._staticExts = options.staticExts || Config.STATIC_EXTS;
+    this._excludeDirs = options.excludeDirs || Config.EXCLUDE_DIRS;
     this._imageExts = options.imageExts || Config.IMAGE_EXTS;
-    this._tempFilePatterns =
-      options.tempFilePatterns || Config.TEMP_FILE_PATTERNS;
+    this._babele = { ...Config.BABELE, ...options.babele };
+    this._css = { ...Config.CSS, ...options.css };
+    this._changelog = { ...Config.CHANGELOG, ...options.changelog };
+    this._devMode = { ...Config.DEV_MODE, ...options.devMode };
+    this._packs = { ...Config.PACKS, ...options.packs };
     this._defaultVersion = options.defaultVersion || Config.DEFAULT_VERSION;
     this._gitlabHost = options.gitlabHost || Config.GITLAB_HOST;
     this._gitlabProjectId = options.gitlabProjectId || Config.GITLAB_PROJECT_ID;
@@ -182,6 +216,7 @@ class Config {
 
     const output = {
       url: url,
+      repoUrl: packageUrl,
       manifest: manifest,
       download: download,
     };
@@ -314,12 +349,21 @@ class Config {
   }
 
   /**
-   * Gets the paths to sync from source to build directory.
+   * Gets the static file extensions to copy during build.
    *
-   * @returns {string[]} Array of sync paths
+   * @returns {string[]} Array of static file extensions (e.g., [".json", ".hbs", ".css", ".js"])
    */
-  get syncPaths() {
-    return [...this._assetDirs, ...this._assetFiles];
+  get staticExts() {
+    return [...this._staticExts];
+  }
+
+  /**
+   * Gets the directories to exclude from static asset and image processing.
+   *
+   * @returns {string[]} Array of directory names/paths to exclude
+   */
+  get excludeDirs() {
+    return [...this._excludeDirs];
   }
 
   /**
@@ -332,13 +376,68 @@ class Config {
   }
 
   /**
-   * Gets the temporary file patterns to ignore during watching.
+   * Gets the Babele translation file generation options.
    *
-   * @returns {string[]} Array of temporary file patterns (e.g.,
-   *                    [".tmp.", "~", ".swp", ".swo", ".orig", ".bak"])
+   * @returns {Object} Babele options with enabled and dir properties
    */
-  get tempFilePatterns() {
-    return [...this._tempFilePatterns];
+  get babele() {
+    return { ...this._babele };
+  }
+
+  /**
+   * Gets the CSS/PostCSS pipeline options.
+   *
+   * @returns {Object} CSS options with enabled, entry, and out properties
+   */
+  get css() {
+    return { ...this._css };
+  }
+
+  /**
+   * Gets whether the build is running in a CI environment.
+   *
+   * @returns {boolean} True when running under CI
+   */
+  get ci() {
+    return Boolean(Config.CI);
+  }
+
+  /**
+   * Gets the changelog journal generation options.
+   *
+   * @returns {Object} Changelog options with enabled and packName properties
+   */
+  get changelog() {
+    return { ...this._changelog };
+  }
+
+  /**
+   * Gets the devMode module generation options.
+   *
+   * @returns {Object} DevMode options with enabled, outPath, and defaults
+   */
+  get devMode() {
+    return { ...this._devMode };
+  }
+
+  /**
+   * Gets the parsed `foundryconfig.json` (or an empty object when absent).
+   *
+   * @returns {Object} Parsed foundry config
+   */
+  get foundryConfig() {
+    return this.#loadFoundryConfig();
+  }
+
+  /**
+   * Gets the pack processing options (extract/compile hooks, Babele
+   * exclusions, and `_stats` stamping). The returned object preserves the
+   * original hook function references.
+   *
+   * @returns {Object} Pack options
+   */
+  get packs() {
+    return { ...this._packs };
   }
 
   /**
@@ -356,6 +455,41 @@ class Config {
    */
   get zipName() {
     return this.#generateZipName();
+  }
+
+  /**
+   * Gets the release name (zip basename without extension), used as the
+   * top-level directory name inside the release archive.
+   * @returns {string} The release name
+   */
+  get releaseName() {
+    return `${this.id}-${this.version}`;
+  }
+
+  /**
+   * Gets the GitLab generic package base URL for this project's package.
+   * Release artifacts are uploaded under `{repoUrl}/{version}/{file}` and the
+   * latest manifest under `{repoUrl}/latest/{manifest}`.
+   * @returns {string} The package base URL
+   */
+  get repoUrl() {
+    return this.#generateGitlabUrls().repoUrl;
+  }
+
+  /**
+   * Gets the `latest` manifest URL for this project's package.
+   * @returns {string} The manifest URL
+   */
+  get manifestUrl() {
+    return this.#generateGitlabUrls().manifest;
+  }
+
+  /**
+   * Gets the versioned download (zip) URL for this project's package.
+   * @returns {string} The download URL
+   */
+  get downloadUrl() {
+    return this.#generateGitlabUrls().download;
   }
 
   /**
@@ -382,29 +516,6 @@ class Config {
       manifest: gitlab.manifest,
       download: gitlab.download,
     };
-  }
-
-  get schemaVersion() {
-    // if we're in the core repo
-    if (this.manifest.id === this._systemId) {
-      // if we're in an MR use the MR branch
-      if (process.env.CI_MERGE_REQUEST_SOURCE_BRANCH_NAME) {
-        return process.env.CI_MERGE_REQUEST_SOURCE_BRANCH_NAME;
-      }
-    }
-
-    // else we're in another repo, use the manifest to get the latest supported
-    // system version.
-    const systemVersion = this.manifest.relationships.systems.find(
-      (s) => s.id === this._systemId,
-    )?.compatibility?.maximum;
-
-    if (systemVersion) {
-      return systemVersion;
-    }
-
-    // default to "dev" if none of the above resolve
-    return "dev";
   }
 }
 

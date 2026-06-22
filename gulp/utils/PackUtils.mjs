@@ -10,6 +10,73 @@ import log from "./logger.mjs";
  */
 export class PackUtils {
   /**
+   * Generates a random alphanumeric id of the given length, used for journal
+   * and page ids when building pack fragments from non-Foundry sources (e.g.
+   * the changelog journal).
+   *
+   * @param {number} length - The length of the id to generate
+   * @returns {string} A random alphanumeric id
+   */
+  static generateId(length) {
+    const characters =
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    let result = "";
+    for (let i = 0; i < length; i += 1) {
+      result += characters.charAt(
+        Math.floor(Math.random() * characters.length),
+      );
+    }
+    return result;
+  }
+
+  /**
+   * Builds a Foundry `_stats` block from the build configuration
+   * (core/system versions, timestamps, and the configured build identity).
+   *
+   * @private
+   * @param {Object} config - Build configuration object
+   * @returns {Object} A `_stats` metadata object
+   */
+  static #buildStats(config) {
+    const timestamp = Date.now();
+    return {
+      coreVersion: config.manifest?.compatibility?.minimum,
+      createdTime: timestamp,
+      lastModifiedBy: config.packs.lastModifiedBy,
+      modifiedTime: timestamp,
+      systemVersion: config.version,
+    };
+  }
+
+  /**
+   * Returns a copy of the entry with a Foundry `_stats` block stamped on it.
+   * Used when generating pack fragments that Foundry would otherwise expect to
+   * carry provenance metadata (e.g. the changelog journal).
+   *
+   * @param {Object} config - Build configuration object
+   * @param {Object} data - The pack entry to stamp
+   * @returns {Object} A new object with the original data plus `_stats`
+   */
+  static generateStats(config, data) {
+    return { ...data, _stats: PackUtils.#buildStats(config) };
+  }
+
+  /**
+   * Resolves a dot-separated path within an object, returning undefined if any
+   * segment is missing. Used to read Babele mapping source fields.
+   *
+   * @private
+   * @param {Object} obj - The object to read from
+   * @param {string} dotPath - Dot-separated path (e.g. "system.dvTable")
+   * @returns {*} The value at the path, or undefined
+   */
+  static #getByPath(obj, dotPath) {
+    return dotPath
+      .split(".")
+      .reduce((acc, key) => (acc == null ? undefined : acc[key]), obj);
+  }
+
+  /**
    * Generates a sanitized filename for a pack fragment based on its data
    *
    * @private
@@ -103,17 +170,20 @@ export class PackUtils {
   }
 
   /**
-   * Generates a Babel translation file for a pack
+   * Generates a Babele translation file for a pack. RollTable packs emit their
+   * results (keyed by range); other packs emit name + description plus any
+   * extra fields declared in `packs.babeleMappings` (e.g. an item's `dvTable`).
    *
    * @private
-   * @param {Object} packData - The pack metadata
+   * @param {Object} config - Build configuration object
+   * @param {Object} packData - The pack metadata (manifest pack entry)
    * @param {string} packDir - The directory containing pack fragments
    */
   static async #generateBabelFile(config, packData, packDir) {
     const babelFile = path.resolve(
       path.join(
         config.srcDirPath,
-        "babele",
+        config.babele.dir,
         "en",
         `${config.id}.${packData.name}.json`,
       ),
@@ -123,22 +193,45 @@ export class PackUtils {
       mapping: {},
       entries: {},
     };
+    const mappings = config.packs.babeleMappings || {};
+    const isTable = packData.type === "RollTable";
     const files = fs.readdirSync(packDir);
 
     for (const file of files) {
       log.debug(`Processing pack fragment '${packData.name}/${file}'`);
-      const fragmentData = fs.readFileSync(path.join(packDir, file), "utf-8");
-      const data = YAML.load(fragmentData);
-
+      const data = YAML.load(
+        fs.readFileSync(path.join(packDir, file), "utf-8"),
+      );
       const entryName = data.name;
-      const entryDescription = data.system?.description?.value
-        ? data.system.description.value
-        : "";
+
+      if (isTable) {
+        const results = {};
+        for (const result of data.results || []) {
+          const key = Array.isArray(result.range)
+            ? result.range.join("-")
+            : String(result.range);
+          results[key] = result.text ? result.text : "";
+        }
+        babeleData.entries[entryName] = { name: entryName, results: [results] };
+        continue;
+      }
 
       const entry = {
         name: entryName,
-        description: entryDescription,
+        description: data.system?.description?.value
+          ? data.system.description.value
+          : "",
       };
+
+      // Extract any additional translatable fields declared by the consumer
+      // (e.g. { dvTable: "system.dvTable" }), recording the field→path mapping.
+      for (const [field, srcPath] of Object.entries(mappings)) {
+        const value = PackUtils.#getByPath(data, srcPath);
+        if (value !== undefined) {
+          entry[field] = value;
+          babeleData.mapping[field] = srcPath;
+        }
+      }
 
       babeleData.entries[entryName] = entry;
     }
@@ -147,34 +240,34 @@ export class PackUtils {
   }
 
   /**
-   * Determines the fragment directory for a given pack
+   * Determines the source fragment directory for a given pack. The pack's
+   * `path` (e.g. "packs/black-chrome/armor") is the single source of truth: the
+   * YAML source lives at `<srcDir>/<pack.path>` and the compiled pack at
+   * `<buildDir>/<pack.path>`, so packs are grouped consistently and no flat
+   * `source_type` directory is ever created.
    *
-   * @private
-   * @param {Object} packData - The pack metadata
-   * @returns {string} The path to the fragment directory
+   * @param {Object} config - Build configuration object
+   * @param {Object} packData - The pack metadata (manifest pack entry)
+   * @returns {string} The path to the source fragment directory
    */
-  static #getFragmentDir(config, packData) {
-    const typeDir = packData.path.split("/")[1].split("_")[0];
-    const typeNameDir = packData.path.split("/")[1].split("_")[1];
-    const fragmentDir = path.join(
-      config.srcDirPath,
-      "packs",
-      typeDir,
-      typeNameDir,
-    );
-    return fragmentDir;
+  static fragmentDir(config, packData) {
+    return path.join(config.srcDirPath, packData.path);
   }
 
   /**
-   * Extracts a Foundry VTT pack into individual YAML fragments
+   * Extracts a Foundry VTT pack into individual YAML fragments. The consumer
+   * may override fragment naming (`packs.transformName`) and entry cleaning
+   * (`packs.transformEntry`); otherwise the built-in name/sanitize helpers are
+   * used.
    *
    * @private
+   * @param {Object} config - Build configuration object
    * @param {string} inputDir - The source directory of the pack
    * @param {string} outputDir - The target directory for extracted
    * fragments
    * @throws {Error} If extraction fails
    */
-  static async #extractPack(inputDir, outputDir) {
+  static async #extractPack(config, inputDir, outputDir) {
     const yamlOptions = {
       indent: 2,
       sortKeys: true,
@@ -183,34 +276,56 @@ export class PackUtils {
       quotingType: '"',
     };
 
+    const { transformName, transformEntry } = config.packs;
+
     try {
       await FoundryPacks.extractPack(inputDir, outputDir, {
         yaml: true,
         yamlOptions: yamlOptions,
-        transformName: (entry) => PackUtils.#getFragmentName(entry),
-        transformEntry: (entry) => PackUtils.#transformEntry(entry),
+        transformName:
+          transformName || ((entry) => PackUtils.#getFragmentName(entry)),
+        transformEntry:
+          transformEntry || ((entry) => PackUtils.#transformEntry(entry)),
       });
     } catch (error) {
-      log.error(
-        `Error extracting pack from ${inputDir} to ${outputDir}: ${error.message}`,
-      );
+      error.packDir = inputDir;
       throw error;
     }
   }
 
   /**
-   * Compiles pack fragments back into a Foundry VTT pack
+   * Compiles pack fragments back into a Foundry VTT pack. Each entry is run
+   * through the consumer's optional `packs.transformEntry` hook (returning
+   * false discards it) and, when `packs.stats` is enabled, has a fresh
+   * `_stats` block stamped on it.
    *
    * @private
+   * @param {Object} config - Build configuration object
    * @param {string} fragmentDir - The directory containing pack fragments
-   * @param {string} packName - The name of the pack to compile
+   * @param {Object} packData - The pack metadata (manifest pack entry)
    */
-  static async #compilePack(config, fragmentDir, packName) {
+  static async #compilePack(config, fragmentDir, packData) {
+    if (!fs.existsSync(fragmentDir)) {
+      log.error(`Fragment directory: ${fragmentDir} does not exist.`);
+      return;
+    }
+
+    const { transformEntry, stats } = config.packs;
+
     await FoundryPacks.compilePack(
       fragmentDir,
-      path.join(config.buildDirPath, "packs", packName),
+      path.join(config.buildDirPath, packData.path),
       {
         yaml: true,
+        transformEntry: async (doc) => {
+          if (transformEntry && (await transformEntry(doc)) === false) {
+            return false;
+          }
+          if (stats) {
+            doc._stats = PackUtils.#buildStats(config);
+          }
+          return undefined;
+        },
       },
     );
   }
@@ -224,26 +339,47 @@ export class PackUtils {
    */
   static extractPacks = (config) => async (done) => {
     const packs = config.manifest.packs;
-    const babelDir = path.join(config.srcDirPath, "babele", "en");
+    const babeleEnabled = config.babele.enabled;
+    const babelDir = path.join(config.srcDirPath, config.babele.dir, "en");
+    const excludePacks = config.packs.excludePacks || [];
 
     try {
       // Clear Babele en directory before generating new files
-      fs.emptyDirSync(babelDir);
+      if (babeleEnabled) {
+        fs.emptyDirSync(babelDir);
+      }
 
       for (const p of packs) {
-        const packsFragmentDir = PackUtils.#getFragmentDir(config, p);
-        const packsBuildDir = path.join(config.buildDirPath, "packs", p.name);
+        const packsFragmentDir = PackUtils.fragmentDir(config, p);
+        const packsBuildDir = path.join(config.buildDirPath, p.path);
 
         // Clear fragment directory before extracting
         fs.emptyDirSync(packsFragmentDir);
 
-        await PackUtils.#extractPack(packsBuildDir, packsFragmentDir);
-        await PackUtils.#generateBabelFile(config, p, packsFragmentDir);
+        await PackUtils.#extractPack(config, packsBuildDir, packsFragmentDir);
+        if (babeleEnabled && !excludePacks.includes(p.name)) {
+          await PackUtils.#generateBabelFile(config, p, packsFragmentDir);
+        }
       }
       done();
     } catch (error) {
-      log.error(`Error during pack extraction: ${error.message}`);
-      done(error);
+      // LevelDB lock errors occur when Foundry VTT is still running
+      if (
+        error.message.includes("Iterator is not open") ||
+        error.message.includes("LOCK")
+      ) {
+        log.error(
+          `Cannot access pack at ${error.packDir}. Is Foundry VTT still running? Close Foundry and try again.`,
+        );
+        const silent = new Error("");
+        silent.name = "";
+        silent.stack = "";
+        silent.showStack = false;
+        done(silent);
+      } else {
+        log.error(`Error during pack extraction: ${error.message}`);
+        done(error);
+      }
     }
   };
 
@@ -256,8 +392,8 @@ export class PackUtils {
     const packs = config.manifest.packs;
 
     for (const p of packs) {
-      const fragmentDir = PackUtils.#getFragmentDir(config, p);
-      await PackUtils.#compilePack(config, fragmentDir, p.name);
+      const fragmentDir = PackUtils.fragmentDir(config, p);
+      await PackUtils.#compilePack(config, fragmentDir, p);
     }
     done();
   };

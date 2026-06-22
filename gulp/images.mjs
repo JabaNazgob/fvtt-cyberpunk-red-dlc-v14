@@ -1,5 +1,4 @@
 import path from "node:path";
-import { watch } from "gulp";
 import { optimize } from "svgo";
 import fs from "fs-extra";
 import log from "./utils/logger.mjs";
@@ -7,8 +6,10 @@ import { FileUtils } from "./utils/FileUtils.mjs";
 
 /**
  * Processes SVG files by optimizing them with SVGO and copying to build
- * directory. Applies standardized dimensions (512x512) and removes
- * unnecessary elements. Blocking operation - completes before returning.
+ * directory.
+ *
+ * Attempts to read width/height from viewBox to explicitly set the
+ * width/height, uses a fallback of 512x512.
  *
  * @private
  * @param {string[]} files - Array of SVG file paths to process
@@ -19,8 +20,8 @@ import { FileUtils } from "./utils/FileUtils.mjs";
  * @throws {Error} If file reading, optimization, or writing fails
  */
 function _processSvgs(files, srcDir, buildDir) {
-  const width = 512;
-  const height = 512;
+  const fallbackWidth = 512;
+  const fallbackHeight = 512;
   const svgConfig = {
     multipass: true,
     plugins: [
@@ -31,12 +32,19 @@ function _processSvgs(files, srcDir, buildDir) {
       "removeUselessDefs",
       "convertStyleToAttrs",
       {
-        name: "CPRSetDimensions",
+        name: "CRPCBuildSetDimensions",
         type: "visitor",
         fn: () => ({
           element: {
             enter: (node) => {
+              let width = fallbackWidth;
+              let height = fallbackHeight;
               if (node.name === "svg") {
+                if (node.attributes.viewBox) {
+                  const parts = node.attributes.viewBox.split(" ");
+                  width = parts[2];
+                  height = parts[3];
+                }
                 if (node.attributes.width === undefined) {
                   node.attributes.width = width.toString();
                 }
@@ -185,6 +193,7 @@ function _deleteFile(file, srcDir, buildDir, imageExts) {
  * @param {string} config.buildDirPath - Build directory path
  * @param {string[]} config.imageExts - Array of supported image
  *                                      extensions
+ * @param {string[]} config.excludeDirs - Array of directories to exclude
  * @returns {Function} Gulp task function that accepts a done callback
  */
 export const processImages = (config) => async (done) => {
@@ -192,6 +201,7 @@ export const processImages = (config) => async (done) => {
     const allFiles = await FileUtils.findFilesByExts(
       config.srcDirPath,
       config.imageExts,
+      config.excludeDirs,
     );
 
     const svgFiles = allFiles.filter((file) => file.endsWith(".svg"));
@@ -229,80 +239,35 @@ export const processImages = (config) => async (done) => {
  * @param {string} config.buildDirPath - Build directory path
  * @param {string[]} config.imageExts - Array of supported image
  *                                      extensions
+ * @param {string[]} config.excludeDirs - Array of directories to exclude
  * @returns {Function} Gulp task function that returns a watcher object
  */
 export const watchImages = (config) => () => {
-  const srcPattern = config.imageExts.map((ext) =>
-    path.join(config.srcDirPath, `**/*${ext}`),
-  );
-  const tempPatterns = config.tempFilePatterns;
-
-  const watcher = watch(srcPattern);
-  const debounceTimers = new Map();
-  const debounceDelay = 50; // milliseconds
-
-  watcher
-    .on("add", (file) => {
-      if (FileUtils.isTemporaryFile(file, tempPatterns)) {
-        return;
-      }
-      const relPath = path.relative(config.srcDirPath, file);
-      log.info(`[image] Added: ${relPath}`);
-      try {
-        _processFile(
-          file,
-          config.srcDirPath,
-          config.buildDirPath,
-          config.imageExts,
-        );
-      } catch (error) {
-        log.error(`Failed to process: ${error.message}`);
-      }
-    })
-    .on("change", (file) => {
-      if (FileUtils.isTemporaryFile(file, tempPatterns)) {
-        return;
-      }
-      const relPath = path.relative(config.srcDirPath, file);
-      log.info(`[image] Changed: ${relPath}`);
-      // debounce to handle potential race conditions like git operations
-      // which change files rapidly
-      clearTimeout(debounceTimers.get(file));
-      debounceTimers.set(
+  return FileUtils.createExtensionWatcher({
+    srcDir: config.srcDirPath,
+    exts: config.imageExts,
+    excludeDirs: config.excludeDirs,
+    label: "image",
+    onAdd: (file) =>
+      _processFile(
         file,
-        setTimeout(() => {
-          try {
-            _processFile(
-              file,
-              config.srcDirPath,
-              config.buildDirPath,
-              config.imageExts,
-            );
-          } catch (error) {
-            log.error(`Failed to process: ${error.message}`);
-          } finally {
-            debounceTimers.delete(file);
-          }
-        }, debounceDelay),
-      );
-    })
-    .on("unlink", (file) => {
-      if (FileUtils.isTemporaryFile(file, tempPatterns)) {
-        return;
-      }
-      const relPath = path.relative(config.srcDirPath, file);
-      log.info(`[image] Deleted: ${relPath}`);
-      try {
-        _deleteFile(
-          file,
-          config.srcDirPath,
-          config.buildDirPath,
-          config.imageExts,
-        );
-      } catch (error) {
-        log.error(`Failed to delete: ${error.message}`);
-      }
-    });
-
-  return watcher;
+        config.srcDirPath,
+        config.buildDirPath,
+        config.imageExts,
+      ),
+    onChange: (file) =>
+      _processFile(
+        file,
+        config.srcDirPath,
+        config.buildDirPath,
+        config.imageExts,
+      ),
+    onDelete: (file) =>
+      _deleteFile(
+        file,
+        config.srcDirPath,
+        config.buildDirPath,
+        config.imageExts,
+      ),
+  });
 };
