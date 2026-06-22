@@ -30,6 +30,9 @@ const ITEMS_WITH_EFFECTS = [
 /** Valid non-"owned"/"carried" usage values, defaulted to "equipped". */
 const DEFAULT_USAGE = "equipped";
 
+/** Physical-possession usages that compendium items should never carry. */
+const PHYSICAL_USAGE = ["owned", "carried"];
+
 /**
  * Extracts the pack type (e.g. "items") from a LevelDB key such as
  * "!items!abc" or "!items.effects!abc.def".
@@ -125,8 +128,12 @@ function normalizeItem(entry) {
 
   if (ITEMS_WITH_EFFECTS.includes(entry.type)) {
     entry.system.revealed = true;
-    // usage must never be 'owned'/'carried'; default to 'equipped'.
-    if (!("usage" in entry.system) || entry.system.usage === "owned") {
+    // usage must never be a physical-possession state on a compendium item;
+    // default those (and a missing value) to 'equipped'.
+    if (
+      !("usage" in entry.system) ||
+      PHYSICAL_USAGE.includes(entry.system.usage)
+    ) {
       entry.system.usage = DEFAULT_USAGE;
     }
   } else {
