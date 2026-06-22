@@ -80,8 +80,10 @@ export class ChangelogUtils {
     const sections = ChangelogUtils.markdownToJson(markdown, 2);
     const journalId = PackUtils.generateId(16);
     const langSlug = FileUtils.sanitizeFilename(lang);
-    const pagesList = [];
 
+    // Pages are embedded in the journal document (one fragment per journal), as
+    // the Foundry CLI expects — it derives the per-page LevelDB keys on compile.
+    const pages = [];
     for (const entry of sections) {
       const version = ChangelogUtils.getVersion(entry.heading);
       if (version === "Unknown") {
@@ -95,6 +97,8 @@ export class ChangelogUtils {
         name: version,
         type: "text",
         _id: pageId,
+        // Embedded children still need their own `_key`; the CLI walks the
+        // whole document hierarchy and reads `_key` on every node.
         _key: `!journal.pages!${journalId}.${pageId}`,
         title: { show: true },
         image: {},
@@ -105,20 +109,14 @@ export class ChangelogUtils {
         ownership: { default: -1 },
         flags: {},
       };
-      const finalPage = PackUtils.generateStats(config, page);
-      pagesList.push(pageId);
-
-      fs.writeFileSync(
-        path.resolve(outDir, `page.${langSlug}.${version}.yaml`),
-        YAML.dump(finalPage),
-      );
+      pages.push(PackUtils.generateStats(config, page));
     }
 
     const journal = {
       _id: journalId,
       _key: `!journal!${journalId}`,
       name: `Changelog ${lang}`,
-      pages: pagesList,
+      pages,
       flags: {
         core: {
           viewMode: "JournalSheet.VIEW_MODES.MULTIPLE",
@@ -130,7 +128,7 @@ export class ChangelogUtils {
       YAML.dump(journal),
     );
     log.debug(
-      `Generated changelog journal for '${lang}' (${pagesList.length} pages).`,
+      `Generated changelog journal for '${lang}' (${pages.length} pages).`,
     );
   }
 }
