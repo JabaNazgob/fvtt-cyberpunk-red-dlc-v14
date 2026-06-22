@@ -5,6 +5,13 @@ include:
   - project: "cyberpunk-red-team/cicd-components"
     ref: main
     file:
+      # Shared config: default image, stages, and the `.cprc-rules` ruleset.
       - "/jobs/init/config.yml"
+      # Init: npm ci + generate vars.env, validate vars.
       - "/jobs/init/init.yml"
+      # Tests
       - "/jobs/test/packs.yml"
+      - "/jobs/test/code-formatting.yml"
+      # Release (default-branch merges and tags)
+      - "/jobs/release/build-artifacts.yml"
+      - "/jobs/release/publish.yml"
