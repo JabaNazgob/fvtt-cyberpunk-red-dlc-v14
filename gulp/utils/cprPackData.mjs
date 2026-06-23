@@ -139,9 +139,12 @@ function coerceNumbers(entry) {
  * @returns {Promise<void>}
  */
 export async function cprTransformEntry(entry) {
-  // Document-level metadata (author/folder/ownership/sort/flags/_stats/...) is
-  // intentionally NOT stripped — fragments are complete Foundry documents.
-  // `_stats` is overridden with a generated block on both extract and compile.
+  // Document-level metadata (author/folder/ownership/sort/flags/...) is kept —
+  // fragments are complete Foundry documents. `_stats` is the exception: it is
+  // build-time provenance, so it's dropped from source and stamped only when
+  // compiling the packs.
+  delete entry._stats;
+
   if (entry._key && getPackType(entry._key) === "items") {
     normalizeItem(entry);
 

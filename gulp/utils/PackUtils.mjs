@@ -276,9 +276,7 @@ export class PackUtils {
       quotingType: '"',
     };
 
-    const { transformName, transformEntry, stats } = config.packs;
-    const cleanEntry =
-      transformEntry || ((entry) => PackUtils.#transformEntry(entry));
+    const { transformName, transformEntry } = config.packs;
 
     try {
       await FoundryPacks.extractPack(inputDir, outputDir, {
@@ -286,13 +284,8 @@ export class PackUtils {
         yamlOptions: yamlOptions,
         transformName:
           transformName || ((entry) => PackUtils.#getFragmentName(entry)),
-        transformEntry: async (entry) => {
-          if ((await cleanEntry(entry)) === false) return false;
-          // Stamp a generated `_stats` into the source fragment too, so the
-          // committed data is complete and consistent (also done on compile).
-          if (stats) entry._stats = PackUtils.#buildStats(config);
-          return undefined;
-        },
+        transformEntry:
+          transformEntry || ((entry) => PackUtils.#transformEntry(entry)),
       });
     } catch (error) {
       error.packDir = inputDir;
