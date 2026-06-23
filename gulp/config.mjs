@@ -142,9 +142,13 @@ class Config {
       return manifest;
     } catch (error) {
       if (error.code === "ENOENT") {
-        throw new Error(`Manifest file not found: ${error.path}`);
+        throw new Error(`Manifest file not found: ${error.path}`, {
+          cause: error,
+        });
       } else if (error instanceof SyntaxError) {
-        throw new Error(`Invalid JSON in manifest file: ${error.message}`);
+        throw new Error(`Invalid JSON in manifest file: ${error.message}`, {
+          cause: error,
+        });
       }
       throw error;
     }
@@ -177,6 +181,9 @@ class Config {
       } else if (error instanceof SyntaxError) {
         throw new Error(
           `Invalid JSON in Foundry Config file: ${error.message}`,
+          {
+            cause: error,
+          },
         );
       }
       throw error;
