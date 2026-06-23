@@ -1,6 +1,3 @@
-variables:
-  CORE_REPO_REF: v0.92.1
-
 include:
   - project: "cyberpunk-red-team/cicd-components"
     ref: main
@@ -9,9 +6,15 @@ include:
       - "/jobs/init/config.yml"
       # Init: npm ci + generate vars.env, validate vars.
       - "/jobs/init/init.yml"
-      # Tests
-      - "/jobs/test/packs.yml"
       - "/jobs/test/code-formatting.yml"
       # Release (default-branch merges and tags)
       - "/jobs/release/build-artifacts.yml"
       - "/jobs/release/publish.yml"
+
+  # Validate packs against the cyberpunk-red-core schema, at the system version
+  # declared in src/module.json (relationships.systems compatibility.maximum).
+  - project: "cyberpunk-red-team/cicd-components"
+    ref: main
+    file: "/jobs/test/packs.yml"
+    inputs:
+      system_repo: "cyberpunk-red-team/fvtt-cyberpunk-red-core"
