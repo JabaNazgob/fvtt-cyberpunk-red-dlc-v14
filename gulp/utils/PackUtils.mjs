@@ -236,7 +236,9 @@ export class PackUtils {
       babeleData.entries[entryName] = entry;
     }
 
-    fs.writeFileSync(babelFile, JSON.stringify(babeleData, null, 2));
+    // Trailing newline so the generated file is Prettier-clean (matches what
+    // the en source is checked against).
+    fs.writeFileSync(babelFile, `${JSON.stringify(babeleData, null, 2)}\n`);
   }
 
   /**

@@ -261,7 +261,5 @@
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
     }
   ],
-  "scripts": [
-    "dlc.js"
-  ]
+  "scripts": ["dlc.js"]
 }

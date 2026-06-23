@@ -6,10 +6,17 @@ include:
       - "/jobs/init/config.yml"
       # Init: npm ci + generate vars.env, validate vars.
       - "/jobs/init/init.yml"
-      - "/jobs/test/code-formatting.yml"
-      # Release (default-branch merges and tags)
+      # Release (run on tags)
       - "/jobs/release/build-artifacts.yml"
       - "/jobs/release/publish.yml"
+
+  # Scope prettier to the source we format (en babele included; translations
+  # and other generated/vendored files excluded).
+  - project: "cyberpunk-red-team/cprc-cicd"
+    ref: dev
+    file: "/jobs/test/code-formatting.yml"
+    inputs:
+      paths: "gulpfile.mjs gulp/*.mjs src/*.js src/**/*.yaml src/*.json src/**/*.json src/babele/en/*.json"
 
   # Validate packs against the cyberpunk-red-core schema, at the system version
   # declared in src/module.json (relationships.systems compatibility.maximum).
