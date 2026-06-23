@@ -31,6 +31,7 @@ class Config {
     transformEntry: null,
     transformName: null,
     excludePacks: [],
+    generatedPacks: [],
     stats: false,
     lastModifiedBy: "0000000000000000",
   };
@@ -72,6 +73,7 @@ class Config {
    * @param {Function} [options.packs.transformEntry] - Hook to clean/transform each entry on compile
    * @param {Function} [options.packs.transformName] - Hook to name each fragment on extract
    * @param {string[]} [options.packs.excludePacks] - Pack names to skip when generating Babele files
+   * @param {string[]} [options.packs.generatedPacks] - Pack names produced by other build tasks; skipped entirely on extract (never round-tripped)
    * @param {boolean} [options.packs.stats] - Whether to stamp `_stats` on entries during compile (default: false)
    * @param {string} [options.packs.lastModifiedBy] - Identity stamped into `_stats.lastModifiedBy`
    * @param {string} [options.defaultVersion] - Default version string

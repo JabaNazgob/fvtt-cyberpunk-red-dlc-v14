@@ -210,7 +210,12 @@ export class PackUtils {
           const key = Array.isArray(result.range)
             ? result.range.join("-")
             : String(result.range);
-          results[key] = result.text ? result.text : "";
+          // Foundry v13 renamed TableResult `text` to `description`. Text
+          // results carry their value in `description`; document results
+          // (e.g. critical-injury tables) carry it in `name`. Fall back to
+          // legacy `text` for older documents.
+          results[key] =
+            result.description || result.name || result.text || "";
         }
         babeleData.entries[entryName] = { name: entryName, results: [results] };
         continue;
@@ -344,6 +349,7 @@ export class PackUtils {
     const babeleEnabled = config.babele.enabled;
     const babelDir = path.join(config.srcDirPath, config.babele.dir, "en");
     const excludePacks = config.packs.excludePacks || [];
+    const generatedPacks = config.packs.generatedPacks || [];
 
     try {
       // Clear Babele en directory before generating new files
@@ -352,6 +358,12 @@ export class PackUtils {
       }
 
       for (const p of packs) {
+        // Packs produced by other build tasks (e.g. the changelog journal)
+        // are never round-tripped through extraction.
+        if (generatedPacks.includes(p.name)) {
+          continue;
+        }
+
         const packsFragmentDir = PackUtils.fragmentDir(config, p);
         const packsBuildDir = path.join(config.buildDirPath, p.path);
 
