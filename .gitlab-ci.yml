@@ -25,3 +25,7 @@ include:
     file: "/jobs/test/packs.yml"
     inputs:
       system_repo: "cyberpunk-red-team/fvtt-cyberpunk-red-core"
+      # TEMPORARY: validate against the in-flight schema branch until the
+      # complete-document schema work merges to the system's default branch.
+      # Revert to the manifest-declared version once that lands.
+      system_ref: "ryanw/ci-porting"
