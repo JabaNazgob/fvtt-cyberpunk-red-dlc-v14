@@ -1,6 +1,6 @@
 include:
-  - project: "cyberpunk-red-team/cicd-components"
-    ref: main
+  - project: "cyberpunk-red-team/cprc-cicd"
+    ref: dev
     file:
       # Shared config: default image, stages, and the `.cprc-rules` ruleset.
       - "/jobs/init/config.yml"
@@ -13,8 +13,8 @@ include:
 
   # Validate packs against the cyberpunk-red-core schema, at the system version
   # declared in src/module.json (relationships.systems compatibility.maximum).
-  - project: "cyberpunk-red-team/cicd-components"
-    ref: main
+  - project: "cyberpunk-red-team/cprc-cicd"
+    ref: dev
     file: "/jobs/test/packs.yml"
     inputs:
       system_repo: "cyberpunk-red-team/fvtt-cyberpunk-red-core"
