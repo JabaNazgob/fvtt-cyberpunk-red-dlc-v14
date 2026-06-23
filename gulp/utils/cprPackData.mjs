@@ -71,37 +71,6 @@ function cleanString(str) {
 }
 
 /**
- * Removes Foundry metadata keys we never ship in compendium content.
- *
- * @param {Object} entry - The pack entry (mutated in place)
- */
-function stripMetadata(entry) {
-  delete entry.author;
-
-  if (entry.flags) {
-    delete entry.flags.exportSource;
-    if (entry.flags.core) {
-      delete entry.flags.core.sourceId;
-      if (Object.keys(entry.flags.core).length === 0) {
-        delete entry.flags.core;
-      }
-    }
-    if (Object.keys(entry.flags).length === 0) {
-      delete entry.flags;
-    }
-  }
-
-  // _stats is regenerated on compile; folders/ownership/etc. aren't shipped.
-  delete entry._stats;
-  delete entry.folder;
-  delete entry.origin;
-  delete entry.ownership;
-  delete entry.sort;
-  delete entry.permission;
-  delete entry.tint;
-}
-
-/**
  * Applies item-specific normalization: removes stray runtime fields, fixes
  * weapon/cyberware quirks, and enforces `revealed`/`usage` for effect-bearing
  * item types.
@@ -122,23 +91,17 @@ function normalizeItem(entry) {
     entry.system.ammoVariety = entry.system.ammoVariety.filter((i) => i !== "");
   }
 
-  if (entry.type === "cyberware" && !entry.system.isWeapon) {
-    delete entry.system.critFailEffect;
-  }
-
+  // Effect-bearing items must be revealed and must never carry a
+  // physical-possession usage on a compendium item. Model fields are not
+  // deleted — fragments are complete documents.
   if (ITEMS_WITH_EFFECTS.includes(entry.type)) {
     entry.system.revealed = true;
-    // usage must never be a physical-possession state on a compendium item;
-    // default those (and a missing value) to 'equipped'.
     if (
       !("usage" in entry.system) ||
       PHYSICAL_USAGE.includes(entry.system.usage)
     ) {
       entry.system.usage = DEFAULT_USAGE;
     }
-  } else {
-    delete entry.system?.revealed;
-    delete entry.system?.usage;
   }
 }
 
@@ -176,8 +139,9 @@ function coerceNumbers(entry) {
  * @returns {Promise<void>}
  */
 export async function cprTransformEntry(entry) {
-  stripMetadata(entry);
-
+  // Document-level metadata (author/folder/ownership/sort/flags/_stats/...) is
+  // intentionally NOT stripped — fragments are complete Foundry documents.
+  // `_stats` is overridden with a generated block on both extract and compile.
   if (entry._key && getPackType(entry._key) === "items") {
     normalizeItem(entry);
 
