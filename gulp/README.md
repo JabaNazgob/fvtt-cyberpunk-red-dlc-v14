@@ -297,6 +297,8 @@ Pack processing is customizable through the `packs` option:
 - `stats: true` + `lastModifiedBy` — stamp a `_stats` block on each entry during
   compile.
 - `excludePacks` — pack names to skip when generating Babele files.
+- `generatedPacks` — pack names produced by other build tasks (e.g. the changelog
+  journal); skipped entirely on extract so generated content is never round-tripped.
 - `babeleMappings` — extra translatable item fields to extract, as
   `{ field: "dot.path" }` (e.g. `{ dvTable: "system.dvTable" }`). RollTable packs
   automatically emit their results.

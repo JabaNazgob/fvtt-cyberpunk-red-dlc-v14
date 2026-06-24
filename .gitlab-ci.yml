@@ -29,3 +29,10 @@ include:
       # complete-document schema work merges to the system's default branch.
       # Revert to the manifest-declared version once that lands.
       system_ref: "ryanw/ci-porting"
+
+  # Block manual edits to the vendored cprc-build gulp subtree.
+  - project: "cyberpunk-red-team/cprc-cicd"
+    ref: dev
+    file: "/jobs/test/subtree-guard.yml"
+    inputs:
+      component_repo: "cyberpunk-red-team/cprc-build"
