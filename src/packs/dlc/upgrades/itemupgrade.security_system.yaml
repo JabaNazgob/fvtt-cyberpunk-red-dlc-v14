@@ -1,14 +1,5 @@
 _id: KeZK6VNDIqcmUX0p
 _key: "!items!KeZK6VNDIqcmUX0p"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857966335
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334137
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Linked with your Agent to electrify your bike. A thief must resist
-       <strong>DV13 Resist Torture/Drugs</strong> or unhand the bike.
+        Linked with your Agent to electrify your bike. A thief must resist
+        <strong>DV13 Resist Torture/Drugs</strong> or unhand the bike.
       </p>
       <p>Bike is registered with a Nano-VIN.</p>
   dvTable: ""

@@ -1,14 +1,5 @@
 _id: dnfLVJnDKlEdLkpy
 _key: "!items!dnfLVJnDKlEdLkpy"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764854542558
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334248
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: |-
+    value: |
       <p>
-       Exotic SMG. Autofire only. Even if you drop the weapon, it will continue to
-       Autofire.
+        Exotic SMG. Autofire only. Even if you drop the weapon, it will continue to
+        Autofire.
       </p>
   dvTable: DV SMG (Autofire)
   equipped: owned

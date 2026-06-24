@@ -1,14 +1,5 @@
 _id: Pf0nIIWogwohv3gc
 _key: "!items!Pf0nIIWogwohv3gc"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1759519280173
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334030
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: MAlmk7UBNTZtlRrK
     _key: "!items.effects!Pf0nIIWogwohv3gc.MAlmk7UBNTZtlRrK"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.331"
       createdTime: 1759519550081
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: pLIpYgHBYUznkgBy
       modifiedTime: 1759629692202
       systemId: cyberpunk-red-core
@@ -79,7 +71,8 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p>A liver enhancement to mitigate alcohol side effects.</p>
+    value: |
+      <p>A liver enhancement to mitigate alcohol side effects.</p>
   favorite: false
   fireModes:
     autoFire: 0
@@ -119,4 +112,5 @@ system:
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine
+  weaponSkill: Handgun
 type: cyberware

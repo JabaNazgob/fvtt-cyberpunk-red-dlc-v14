@@ -1,14 +1,5 @@
 _id: Cq0h1I75g6Q4NM1h
 _key: "!items!Cq0h1I75g6Q4NM1h"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856803996
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334356
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,8 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p>A knife fit for a hunter.</p>
+    value: |
+      <p>A knife fit for a hunter.</p>
   dvTable: ""
   equipped: owned
   favorite: false

@@ -1,14 +1,5 @@
 _id: bDif9oZ2gb46jAx3
 _key: "!items!bDif9oZ2gb46jAx3"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764854570635
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334100
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,12 +20,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>Make any bullet able to be fired as a shotgun slug.</p>
       <p>A box of Bullet to Slug Adapter Casings comes with 10 casings.</p>
       <p>
-       You can load 10 bullets into 10 adapters using the included jig in an Action.
-       If loading by hand it takes an Action to load 1 bullet.
+        You can load 10 bullets into 10 adapters using the included jig in an Action.
+        If loading by hand it takes an Action to load 1 bullet.
       </p>
   equipped: owned
   favorite: false

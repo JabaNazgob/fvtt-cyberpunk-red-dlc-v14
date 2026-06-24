@@ -1,14 +1,5 @@
 _id: hX7MARVQ4DYhZhKN
 _key: "!items!hX7MARVQ4DYhZhKN"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856872370
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334356
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: |-
+    value: |
       <p>
-       A bladed, hilted weapon. Specifically designed for cutting or thrusting. If
-       you roll 1 on Attack (Crit Fail) the weapon crushes the wielder's fingers.
+        A bladed, hilted weapon. Specifically designed for cutting or thrusting. If
+        you roll 1 on Attack (Crit Fail) the weapon crushes the wielder's fingers.
       </p>
   dvTable: ""
   equipped: owned

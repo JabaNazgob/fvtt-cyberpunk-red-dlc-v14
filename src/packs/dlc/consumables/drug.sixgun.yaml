@@ -1,14 +1,5 @@
 _id: ka6ccQeTt7ud3pFi
 _key: "!items!ka6ccQeTt7ud3pFi"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857453266
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333993
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: bSalB1is9PwUW4HE
     _key: "!items.effects!ka6ccQeTt7ud3pFi.bSalB1is9PwUW4HE"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -77,6 +69,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -121,6 +114,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -194,24 +188,24 @@ system:
     isConcealed: false
   consumed: Sixgun Primary
   description:
-    value: |-
+    value: |
       <p>Leave meatspace behind and supercharge your synapses.</p>
       <p><strong>Primary Effect</strong></p>
       <p>Dose lasts 4 hours.</p>
       <ul>
-       <li>+2 to Speed while Netrunning</li>
-       <li>-2 To MOVE (Minimum 1)</li>
-       <li>-2 To REF to a (Minimum 1)</li>
-       <li>
-       User does not suffer the penalties of an Unsafe Jack Out unless forced to
-       Jack Out by a program.
-       </li>
-       <li>User can burn 1 Humanity for 1 additional NET Action once per turn.</li>
+        <li>+2 to Speed while Netrunning</li>
+        <li>-2 To MOVE (Minimum 1)</li>
+        <li>-2 To REF to a (Minimum 1)</li>
+        <li>
+          User does not suffer the penalties of an Unsafe Jack Out unless forced to
+          Jack Out by a program.
+        </li>
+        <li>User can burn 1 Humanity for 1 additional NET Action once per turn.</li>
       </ul>
       <p><strong>Secondary (DV17)</strong></p>
       <p>Unless under Primary Effect</p>
       <ul>
-       <li>-2 to Speed while Netrunning</li>
+        <li>-2 to Speed while Netrunning</li>
       </ul>
   equipped: owned
   favorite: false

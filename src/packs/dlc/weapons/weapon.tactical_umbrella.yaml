@@ -1,14 +1,5 @@
 _id: pNkckh9tZBwSBxA2
 _key: "!items!pNkckh9tZBwSBxA2"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857895782
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334249
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,14 +25,14 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: |-
+    value: |
       <p>
-       A stylish umbrella with pop-out weapons. Contains a Poor Quality Exotic Heavy
-       Pistol (2 bullet capacity).
+        A stylish umbrella with pop-out weapons. Contains a Poor Quality Exotic Heavy
+        Pistol (2 bullet capacity).
       </p>
       <p>
-       Multiple Weapon Modes: Tactical Umbrella also contains an Excellent Quality
-       Exotic Heavy Melee Weapon.
+        Multiple Weapon Modes: Tactical Umbrella also contains an Excellent Quality
+        Exotic Heavy Melee Weapon.
       </p>
       <p>Provides the protection of a normal umbrella (NCW pg 6)</p>
   dvTable: DV Pistol

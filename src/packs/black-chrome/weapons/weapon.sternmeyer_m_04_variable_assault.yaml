@@ -1,14 +1,5 @@
 _id: LrmIgdYrPbDUw2mw
 _key: "!items!LrmIgdYrPbDUw2mw"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858822738
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333881
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       The Sternmeyer M-04 Variable Assault is a Poor Quality Exotic Assault Rifle
-       with a custom Grenade Launcher underbarrel*.
+        The Sternmeyer M-04 Variable Assault is a Poor Quality Exotic Assault Rifle
+        with a custom Grenade Launcher underbarrel*.
       </p>
       <p><em>*Grenade Launcher must be manually added.</em></p>
   dvTable: DV Assault Rifle

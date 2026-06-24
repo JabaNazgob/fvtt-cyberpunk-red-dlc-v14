@@ -1,14 +1,5 @@
 _id: jM0d8EgkRSHrIccX
 _key: "!items!jM0d8EgkRSHrIccX"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857846195
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334032
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,10 +26,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Heavy duty paper shredder, can be concealed. Features an internal storage for
-       paper shreds.
+        Heavy duty paper shredder, can be concealed. Features an internal storage for
+        paper shreds.
       </p>
   dvTable: ""
   favorite: false

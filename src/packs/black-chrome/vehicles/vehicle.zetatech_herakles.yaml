@@ -1,14 +1,5 @@
 _id: wRaA0B8aAjqntqsX
 _key: "!items!wRaA0B8aAjqntqsX"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858771290
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333836
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,7 +19,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>AV4 type troop transport, armored and armed.</p>
+    value: |
+      <p>AV4 type troop transport, armored and armed.</p>
   favorite: false
   installedItems:
     allowed: true

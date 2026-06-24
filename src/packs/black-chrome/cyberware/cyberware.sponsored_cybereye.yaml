@@ -1,14 +1,5 @@
 _id: BYDAED1axkFYm1h9
 _key: "!items!BYDAED1axkFYm1h9"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858658694
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333734
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       A replacement eye. Chyron comes pre-installed*. User randomly experiences
-       random ads.
+        A replacement eye. Chyron comes pre-installed*. User randomly experiences
+        random ads.
       </p>
       <p><em>*Chyron must be added after installation</em></p>
   dvTable: ""

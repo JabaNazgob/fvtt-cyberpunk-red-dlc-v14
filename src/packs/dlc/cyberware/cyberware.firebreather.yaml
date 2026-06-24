@@ -1,14 +1,5 @@
 _id: ETXZYwKcuDZ8Iw1B
 _key: "!items!ETXZYwKcuDZ8Iw1B"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857370454
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334029
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,10 +26,10 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: >-
+    value: >
       <p>Implanted Exotic Shotgun. Can only hold one incendiary shotgun
       shell.</p>
-  dvTable: ""
+  dvTable: DV Shotgun (Slug)
   favorite: false
   fireModes:
     autoFire: 0

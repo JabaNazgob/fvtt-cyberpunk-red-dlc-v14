@@ -1,14 +1,5 @@
 _id: eK3VQaeSd2DFYJ9z
 _key: "!items!eK3VQaeSd2DFYJ9z"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858770229
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333834
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,7 +19,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>AV4 style Aerodyne, civilian model.</p>
+    value: |
+      <p>AV4 style Aerodyne, civilian model.</p>
   favorite: false
   installedItems:
     allowed: true

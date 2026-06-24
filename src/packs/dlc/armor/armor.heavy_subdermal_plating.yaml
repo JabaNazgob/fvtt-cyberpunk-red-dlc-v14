@@ -1,14 +1,5 @@
 _id: kEMGWjMaYcA4rGyJ
 _key: "!items!kEMGWjMaYcA4rGyJ"
-_stats:
-  compendiumSource: Compendium.cyberpunk-red-core.core_armor.Item.M96Dfx18YqvhlIgb
-  coreVersion: "12.343"
-  createdTime: 1766622149124
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1766622149124
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: 9PK2vj45rcvv0oMM
     _key: "!items.effects!kEMGWjMaYcA4rGyJ.9PK2vj45rcvv0oMM"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -92,7 +84,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>Armor Item for Subdermal Armor Cyberware.</p>
+    value: |
+      <p>Armor Item for Subdermal Armor Cyberware.</p>
   equipped: owned
   favorite: false
   headLocation:

@@ -1,14 +1,5 @@
 _id: nsK7GNeDIwpNiGu4
 _key: "!items!nsK7GNeDIwpNiGu4"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858804950
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333883
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,11 +26,11 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       The Midnight Arms Beast Shotgun is an Exotic Shotgun. Its magazine holds 40
-       rounds. Requires BODY 10 or higher (unless mounted) when fired or the User
-       will suffer the consequences.
+        The Midnight Arms Beast Shotgun is an Exotic Shotgun. Its magazine holds 40
+        rounds. Requires BODY 10 or higher (unless mounted) when fired or the User
+        will suffer the consequences.
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned

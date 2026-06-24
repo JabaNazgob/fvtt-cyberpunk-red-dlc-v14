@@ -1,14 +1,5 @@
 _id: PJZmDEjwaM5RWguB
 _key: "!items!PJZmDEjwaM5RWguB"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857788876
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334098
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,10 +19,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       If you prefer sliding through NET Architectures avoiding Black ICE this is the
-       deck for you.
+        If you prefer sliding through NET Architectures avoiding Black ICE this is the
+        deck for you.
       </p>
       <p>9 slots to install either Programs or Hardware.</p>
       <p><em>No Attacker or Black ICE Program may be installed.</em></p>

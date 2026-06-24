@@ -1,14 +1,5 @@
 _id: QbTwGu5hr1Ty9tlp
 _key: "!items!QbTwGu5hr1Ty9tlp"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857746365
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334099
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,15 +19,15 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       The quintessential starter Cyberdeck. Bargain-bin price with bare-minimum
-       hardware specs.
+        The quintessential starter Cyberdeck. Bargain-bin price with bare-minimum
+        hardware specs.
       </p>
       <p>5 slots only for Programs.</p>
       <p>
-       Netrunner must be 2m/yds or closer to Access Point to Jack In. All brain
-       damage from NET combat is doubled.
+        Netrunner must be 2m/yds or closer to Access Point to Jack In. All brain
+        damage from NET combat is doubled.
       </p>
   equipped: owned
   favorite: false

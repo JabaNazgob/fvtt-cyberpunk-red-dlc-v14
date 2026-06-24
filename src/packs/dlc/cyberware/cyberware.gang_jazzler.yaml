@@ -1,14 +1,5 @@
 _id: U8SdGzK5sIdWHaQ1
 _key: "!items!U8SdGzK5sIdWHaQ1"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858057783
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334031
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,18 +25,18 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Use a Choke Action to stab a grappled target with a popout electrified needle.
-       The target takes no damage but must make a
-       <strong>DV13 Resist Torture/Drugs</strong> Check. On failed check, target
-       falls Unconscious for 1 minute.
+        Use a Choke Action to stab a grappled target with a popout electrified needle.
+        The target takes no damage but must make a
+        <strong>DV13 Resist Torture/Drugs</strong> Check. On failed check, target
+        falls Unconscious for 1 minute.
       </p>
       <p>
-       Powered by a rechargeable battery pack (50eb). Battery pack must be recharged
-       for 1 hour after each use. No check is necessary to conceal Gang Jazzler and
-       battery pack. Can be installed in meat arm if it's the only piece of cyberware
-       in that arm.
+        Powered by a rechargeable battery pack (50eb). Battery pack must be recharged
+        for 1 hour after each use. No check is necessary to conceal Gang Jazzler and
+        battery pack. Can be installed in meat arm if it's the only piece of cyberware
+        in that arm.
       </p>
   dvTable: ""
   favorite: false

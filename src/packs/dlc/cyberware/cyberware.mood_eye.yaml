@@ -1,14 +1,5 @@
 _id: z6SGFU2FVhXqFpvT
 _key: "!items!z6SGFU2FVhXqFpvT"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857839586
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334034
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,19 +25,19 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Color-shifting eye lenses. Color is dependent on Neural Link "mood" scans.
-       <strong>DV 21 Acting</strong> check to fake a mood scan and change color
-       accordingly. Lenses can be deactivated without an action.
+        Color-shifting eye lenses. Color is dependent on Neural Link "mood" scans.
+        <strong>DV 21 Acting</strong> check to fake a mood scan and change color
+        accordingly. Lenses can be deactivated without an action.
       </p>
       <ul>
-       <li>Red: Rage</li>
-       <li>Blue: Sorrow</li>
-       <li>Yellow: Terror</li>
-       <li>Pink: Horny</li>
-       <li>Green: Envy</li>
-       <li>Gray: Flatlined</li>
+        <li>Red: Rage</li>
+        <li>Blue: Sorrow</li>
+        <li>Yellow: Terror</li>
+        <li>Pink: Horny</li>
+        <li>Green: Envy</li>
+        <li>Gray: Flatlined</li>
       </ul>
       <p>Fashionware. Requires Neural Link.</p>
   dvTable: ""

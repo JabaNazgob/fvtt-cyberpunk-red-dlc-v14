@@ -1,14 +1,5 @@
 _id: 1VndXRKaCuKQp49H
 _key: "!items!1VndXRKaCuKQp49H"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858829935
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333879
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: |-
+    value: |
       <p>
-       Blade and pike, this steel and composite ice axe can help you climb ice walls
-       while also doing serious damage in a fight.
+        Blade and pike, this steel and composite ice axe can help you climb ice walls
+        while also doing serious damage in a fight.
       </p>
       <p>Can be used as both a melee and ranged weapon.</p>
   dvTable: DV Thrown Weapon

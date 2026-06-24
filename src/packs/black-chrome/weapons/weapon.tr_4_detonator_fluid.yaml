@@ -1,14 +1,5 @@
 _id: my1ugVO4a5VjJSuH
 _key: "!items!my1ugVO4a5VjJSuH"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858829082
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333883
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,8 @@ system:
   critFailEffect: jammed
   damage: 6d6
   description:
-    value: <p>Must be poured into a fuel tank vehicle to explode.</p>
+    value: |
+      <p>Must be poured into a fuel tank vehicle to explode.</p>
   dvTable: ""
   equipped: owned
   favorite: false

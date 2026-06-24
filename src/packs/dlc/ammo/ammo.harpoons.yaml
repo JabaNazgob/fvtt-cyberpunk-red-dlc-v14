@@ -1,14 +1,5 @@
 _id: HqaKGQpp5VMV5UNU
 _key: "!items!HqaKGQpp5VMV5UNU"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1766188819534
-  duplicateSource: null
-  lastModifiedBy: Oh50kk1fqzkpjwxb
-  modifiedTime: 1766188819534
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -21,14 +12,15 @@ sort: 0
 system:
   ablationValue: 1
   amount: 1
-  brand: SlamDance
+  brand: Slamdance Inc.
   concealable:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Additional harpoons for use with the SlamDance Ballistic Harpoon
-      Launcher.</p>
+    value: |
+      <p>
+        Additional harpoons for use with the SlamDance Ballistic Harpoon Launcher.
+      </p>
   favorite: false
   installLocation: mall
   overrides:

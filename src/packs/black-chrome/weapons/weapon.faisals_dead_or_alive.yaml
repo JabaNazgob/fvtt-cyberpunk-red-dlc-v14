@@ -1,14 +1,5 @@
 _id: Zp90Q36fQ769vmhp
 _key: "!items!Zp90Q36fQ769vmhp"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858789838
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333882
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,10 +26,10 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       The Faisal's Dead Or Alive is a Poor Quality Exotic Shotgun with an integrated
-       Poor Quality Net Launcher.
+        The Faisal's Dead Or Alive is a Poor Quality Exotic Shotgun with an integrated
+        Poor Quality Net Launcher.
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned

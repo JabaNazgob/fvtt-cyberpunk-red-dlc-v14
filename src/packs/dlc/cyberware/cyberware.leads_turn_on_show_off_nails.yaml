@@ -1,14 +1,5 @@
 _id: 37RCGTuozpxgA9EN
 _key: "!items!37RCGTuozpxgA9EN"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857838221
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334028
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,12 +25,12 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Customizable illuminated nail for each fingertip. Includes pen tools for
-       creating custom patterns. Nail patterns can be downloaded from the CitiNet and
-       synced with a linked Agent.<br />Qualifies as a Light Tattoo. +2 Wardrobe and
-       Style when the user has 3 or more Light Tattoos.
+        Customizable illuminated nail for each fingertip. Includes pen tools for
+        creating custom patterns. Nail patterns can be downloaded from the CitiNet and
+        synced with a linked Agent.<br />Qualifies as a Light Tattoo. +2 Wardrobe and
+        Style when the user has 3 or more Light Tattoos.
       </p>
   dvTable: ""
   favorite: false

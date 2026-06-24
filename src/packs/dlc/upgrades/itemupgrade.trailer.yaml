@@ -1,14 +1,5 @@
 _id: BHsWIPyufXZR7ncC
 _key: "!items!BHsWIPyufXZR7ncC"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857990309
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334136
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Hook with a small cargo trailer.</p>
       <p>5 feet x 1.5 feet (1.5m x 0.46m).</p>
       <p>An action is needed to attach and detach the trailer.</p>

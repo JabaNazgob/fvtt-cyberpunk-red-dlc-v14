@@ -1,14 +1,5 @@
 _id: LUc8nYLERP5vhxyT
 _key: "!items!LUc8nYLERP5vhxyT"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764855417360
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334098
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,14 +20,14 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       The Continental Brands Koff Popper is the only specialty thermos you'll need.
+        The Continental Brands Koff Popper is the only specialty thermos you'll need.
       </p>
       <ul>
-       <li>Thermos with built in Kof Pop brewer</li>
-       <li>Holds 237ml/8oz</li>
-       <li>Can only be purchased at an Oasis store</li>
+        <li>Thermos with built in Kof Pop brewer</li>
+        <li>Holds 237ml/8oz</li>
+        <li>Can only be purchased at an Oasis store</li>
       </ul>
   equipped: owned
   favorite: false

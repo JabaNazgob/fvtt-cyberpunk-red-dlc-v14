@@ -1,14 +1,5 @@
 _id: 1O4nQzf7gVLVwqnL
 _key: "!items!1O4nQzf7gVLVwqnL"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858813672
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333878
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,8 @@ system:
   critFailEffect: jammed
   damage: 6d6
   description:
-    value: <p>Explosive look-alike of an electrical plug adapter.</p>
+    value: |
+      <p>Explosive look-alike of an electrical plug adapter.</p>
   dvTable: ""
   equipped: owned
   favorite: false

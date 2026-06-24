@@ -1,14 +1,5 @@
 _id: IZwINpYpfLLAq5zb
 _key: "!items!IZwINpYpfLLAq5zb"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856826348
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334282
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,11 +21,11 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       No immediate damage. If meat target hit,
-       <strong>DV13 Resist Torture/Drugs</strong> Check. On a fail 2d6 damage to HP.
-       No Ablation.
+        No immediate damage. If meat target hit,
+        <strong>DV13 Resist Torture/Drugs</strong> Check. On a fail 2d6 damage to HP.
+        No Ablation.
       </p>
   favorite: false
   installLocation: mall

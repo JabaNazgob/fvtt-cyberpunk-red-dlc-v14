@@ -1,14 +1,5 @@
 _id: jw0vFLgoAnSWMpNW
 _key: "!items!jw0vFLgoAnSWMpNW"
-_stats:
-  compendiumSource: Compendium.cyberpunk-red-core.core_cyberware.Item.2XhNJ80rCSvxAenP
-  coreVersion: "12.343"
-  createdTime: 1766622333986
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1766622333986
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: sate0Jnbsdj9xuX7
     _key: "!items.effects!jw0vFLgoAnSWMpNW.sate0Jnbsdj9xuX7"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -88,10 +80,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Increases your BODY stat to 16 (adjusting your HP and Wound Threshold
-      and Death Save). Counts as two installations for the purposes of Maximum
-      HL.</p>
+    value: |
+      <p>
+        Increases your BODY stat to 16 (adjusting your HP and Wound Threshold and
+        Death Save). Counts as two installations for the purposes of Maximum HL.
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

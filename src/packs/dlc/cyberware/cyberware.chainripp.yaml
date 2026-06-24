@@ -1,14 +1,5 @@
 _id: OXYFhzH96WZkrAX7
 _key: "!items!OXYFhzH96WZkrAX7"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858031173
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334030
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,20 +25,20 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       A popout Cyberarm chainsaw with integreated exhaust port. Can be deployed and
-       retracted without an Action. User can not use the hand on the ChainRipp's
-       Cyberarm when blade is drawn.
+        A popout Cyberarm chainsaw with integreated exhaust port. Can be deployed and
+        retracted without an Action. User can not use the hand on the ChainRipp's
+        Cyberarm when blade is drawn.
       </p>
       <p>
-       When deployed, ChainRipp can be revved as an Action and qualifies as an
-       Excellent Quality One-Handed Exotic Very Heavy Melee Weapon. ChainRipp remains
-       revved until deactivated as an Action.
+        When deployed, ChainRipp can be revved as an Action and qualifies as an
+        Excellent Quality One-Handed Exotic Very Heavy Melee Weapon. ChainRipp remains
+        revved until deactivated as an Action.
       </p>
       <p>
-       In the deployed but un-revved state, the ChainRipp is a One-Handed Very Heavy
-       Melee Weapon.
+        In the deployed but un-revved state, the ChainRipp is a One-Handed Very Heavy
+        Melee Weapon.
       </p>
   dvTable: ""
   favorite: false

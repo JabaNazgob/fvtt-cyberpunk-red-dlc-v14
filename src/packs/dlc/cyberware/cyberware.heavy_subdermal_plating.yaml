@@ -1,14 +1,5 @@
 _id: JZWQbhT7YjmqZIt6
 _key: "!items!JZWQbhT7YjmqZIt6"
-_stats:
-  compendiumSource: Compendium.cyberpunk-red-core.core_cyberware.Item.O5GmxTYCrrs8uWAd
-  coreVersion: "12.343"
-  createdTime: 1766622580764
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1766622580764
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core:
@@ -35,13 +26,18 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>External Body Cyberware*. Requires Body 10 or an FBC. Head and Body
-      Armor SP13 and recovers 1SP/day. Armor does not stack. Requires BODY 10.
-      Incurs an Armor Penalty of -2 unless the user is in an FBC or has BODY
-      14.</p><p><em>* Cyberware Armor does not function as armor in the system,
-      please add the "Subdermal Armor" item to the character/mook to
-      track</em></p>
+    value: |
+      <p>
+        External Body Cyberware*. Requires Body 10 or an FBC. Head and Body Armor SP13
+        and recovers 1SP/day. Armor does not stack. Requires BODY 10. Incurs an Armor
+        Penalty of -2 unless the user is in an FBC or has BODY 14.
+      </p>
+      <p>
+        <em
+          >* Cyberware Armor does not function as armor in the system, please add the
+          "Subdermal Armor" item to the character/mook to track</em
+        >
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

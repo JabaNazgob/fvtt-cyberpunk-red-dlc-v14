@@ -1,14 +1,5 @@
 _id: AUQradHgpwzsx7rS
 _key: "!items!AUQradHgpwzsx7rS"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1759456787551
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334028
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -25,7 +16,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Dynalar
+  brand: Dynalar Technologies
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -34,9 +25,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>A cyberhand capable of wireless interface and up to 50% typing speed
-      increase.</p>
+    value: |
+      <p>
+        A cyberhand capable of wireless interface and up to 50% typing speed increase.
+      </p>
   favorite: false
   fireModes:
     autoFire: 0
@@ -76,4 +68,5 @@ system:
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine
+  weaponSkill: Handgun
 type: cyberware

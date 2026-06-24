@@ -1,14 +1,5 @@
 _id: Www5jXWJlfhyuAzn
 _key: "!items!Www5jXWJlfhyuAzn"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858793743
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333882
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 8d6
   description:
-    value: |-
+    value: |
       <p>
-       The GunMart Engage Rocket Launcher is a Poor Quality Exotic Rocket Launcher.
-       It explodes on a Critical Failure or when unloading the weapon.
+        The GunMart Engage Rocket Launcher is a Poor Quality Exotic Rocket Launcher.
+        It explodes on a Critical Failure or when unloading the weapon.
       </p>
   dvTable: DV Rocket Launcher
   equipped: owned

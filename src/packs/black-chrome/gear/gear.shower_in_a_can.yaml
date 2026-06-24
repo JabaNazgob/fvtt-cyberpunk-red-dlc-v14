@@ -1,14 +1,5 @@
 _id: hKYCFn6oovt6pBwF
 _key: "!items!hKYCFn6oovt6pBwF"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858693438
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333778
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,7 +20,8 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: <p>Spray Deodorant. Desinfects and deodorize. One use per can.</p>
+    value: |
+      <p>Spray Deodorant. Desinfects and deodorize. One use per can.</p>
   equipped: owned
   favorite: false
   installedItems:

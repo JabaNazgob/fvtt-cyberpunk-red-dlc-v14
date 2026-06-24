@@ -1,14 +1,5 @@
 _id: oYcEZ8R8qVoalhyI
 _key: "!items!oYcEZ8R8qVoalhyI"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858652271
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333738
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,10 +26,10 @@ system:
   critFailEffect: jammed
   damage: "0"
   description:
-    value: |-
+    value: |
       <p>
-       A concealable exotic net launcher. Can't hold anything with this hand while
-       activated.
+        A concealable exotic net launcher. Can't hold anything with this hand while
+        activated.
       </p>
   dvTable: DV Shotgun (Slug)
   favorite: false

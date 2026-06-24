@@ -1,15 +1,5 @@
 _id: EVPuZ21eNOpEycGQ
 _key: "!tables!EVPuZ21eNOpEycGQ"
-_stats:
-  compendiumSource: >-
-    Compendium.cyberpunk-red-core.dlc_achievements-and-loot-boxes.RollTable.EVPuZ21eNOpEycGQ
-  coreVersion: "12.343"
-  createdTime: 1764855217580
-  duplicateSource: null
-  lastModifiedBy: rRCcEOJu9poJ2EaX
-  modifiedTime: 1764855217580
-  systemId: cyberpunk-red-core
-  systemVersion: v0.92.1
 description: >-
   Source: Achievements and Loot Boxes pg.6
 
@@ -28,223 +18,359 @@ replacement: true
 results:
   - _id: c8kczOYMAPkdJJZu
     _key: "!tables.results!EVPuZ21eNOpEycGQ.c8kczOYMAPkdJJZu"
-    documentCollection: cyberpunk-red-dlc.black-chrome_weapons
-    documentId: IxXIb9gFdbjUCPZW
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_weapons.IxXIb9gFdbjUCPZW
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun_poor.svg
+    name: Bubba Buster
     range:
       - 1
       - 1
-    text: Bubba Buster
-    type: pack
+    type: document
     weight: 1
   - _id: sMGT5QJTr2JoaHgO
     _key: "!tables.results!EVPuZ21eNOpEycGQ.sMGT5QJTr2JoaHgO"
-    documentCollection: cyberpunk-red-dlc.black-chrome_weapons
-    documentId: DroG3PMwgQcJ3hmk
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_weapons.DroG3PMwgQcJ3hmk
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/weapons/heavyPistol_poor.svg
+    name: Overlord Handcannon
     range:
       - 2
       - 2
-    text: Overlord Handcannon
-    type: pack
+    type: document
     weight: 1
   - _id: kz89JnQ3RCyhFbVY
     _key: "!tables.results!EVPuZ21eNOpEycGQ.kz89JnQ3RCyhFbVY"
-    documentCollection: cyberpunk-red-core.core_clothing
-    documentId: CcIZ23rub5QtcOHJ
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_clothing.Item.CcIZ23rub5QtcOHJ
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/clothing/generic_footwear.svg
+    name: Nomad Leathers Footwear
     range:
       - 3
       - 3
-    text: Nomad Leathers Footwear
-    type: pack
+    type: document
     weight: 1
   - _id: K3bztoOWw2ezSKmM
     _key: "!tables.results!EVPuZ21eNOpEycGQ.K3bztoOWw2ezSKmM"
-    documentCollection: cyberpunk-red-core.core_weapons-branded
-    documentId: fUo0HrfEC83Wb7wj
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_weapons-branded.Item.fUo0HrfEC83Wb7wj
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/weapons/SniperRifle_poor.svg
+    name: Snipe-Star
     range:
       - 4
       - 4
-    text: Snipe-Star
-    type: pack
+    type: document
     weight: 1
   - _id: a2XoRw49dC8Dt2IJ
     _key: "!tables.results!EVPuZ21eNOpEycGQ.a2XoRw49dC8Dt2IJ"
-    documentCollection: cyberpunk-red-core.core_upgrades
-    documentId: Ryex0KHeeDzPQwmN
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/upgrades/sniping_scope.svg
+    name: Sniping Scope
     range:
       - 5
       - 5
-    text: Sniping Scope
-    type: pack
+    type: document
     weight: 1
   - _id: Lgih56AQ2Ri3pdIp
     _key: "!tables.results!EVPuZ21eNOpEycGQ.Lgih56AQ2Ri3pdIp"
-    documentCollection: cyberpunk-red-core.core_upgrades
-    documentId: BC8S1sdK0QGdyHNC
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/upgrades/smartgun_link.svg
+    name: Smartgun Link
     range:
       - 6
       - 6
-    text: Smartgun Link
-    type: pack
+    type: document
     weight: 1
   - _id: wh6KYBkGZw27bFbm
     _key: "!tables.results!EVPuZ21eNOpEycGQ.wh6KYBkGZw27bFbm"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: qRKLIX7yU2n83JKJ
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.qRKLIX7yU2n83JKJ
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_slug_rubber.png
+    name: Shotgun Slug (Rubber)
     range:
       - 1
       - 1
-    text: Shotgun Slug (Rubber)
-    type: pack
+    type: document
     weight: 1
   - _id: gpfHm54HW5ObDwZ4
     _key: "!tables.results!EVPuZ21eNOpEycGQ.gpfHm54HW5ObDwZ4"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: WOJD6hQVUVEK8AsJ
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.WOJD6hQVUVEK8AsJ
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_rubber.png
+    name: Heavy Pistol (Rubber)
     range:
       - 2
       - 2
-    text: Heavy Pistol (Rubber)
-    type: pack
+    type: document
     weight: 1
   - _id: N9ekZIXIfInTrPpW
     _key: "!tables.results!EVPuZ21eNOpEycGQ.N9ekZIXIfInTrPpW"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: qA9wmNHuGLsxBtRB
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.qA9wmNHuGLsxBtRB
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_rubber.png
+    name: Rifle (Rubber)
     range:
       - 4
       - 4
-    text: Rifle (Rubber)
-    type: pack
+    type: document
     weight: 1
   - _id: T2hNqzWfHWOwFkMu
     _key: "!tables.results!EVPuZ21eNOpEycGQ.T2hNqzWfHWOwFkMu"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: YFnV9OetCCRru5Ky
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.YFnV9OetCCRru5Ky
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_slug_basic.png
+    name: Shotgun Slug (Basic)
     range:
       - 1
       - 1
-    text: Shotgun Slug (Basic)
-    type: pack
+    type: document
     weight: 1
   - _id: lVprHXowLxjCn19x
     _key: "!tables.results!EVPuZ21eNOpEycGQ.lVprHXowLxjCn19x"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: mkI1KpjAOUz9PxRM
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.mkI1KpjAOUz9PxRM
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_shell_basic.png
+    name: Shotgun Shell (Basic)
     range:
       - 1
       - 1
-    text: Shotgun Shell (Basic)
-    type: pack
+    type: document
     weight: 1
   - _id: UxRULDYLMrncy00U
     _key: "!tables.results!EVPuZ21eNOpEycGQ.UxRULDYLMrncy00U"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: jmia1vHSv6bdQEVP
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.jmia1vHSv6bdQEVP
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_basic.png
+    name: Heavy Pistol (Basic)
     range:
       - 2
       - 2
-    text: Heavy Pistol (Basic)
-    type: pack
+    type: document
     weight: 1
   - _id: gOnjhynVoYirZk59
     _key: "!tables.results!EVPuZ21eNOpEycGQ.gOnjhynVoYirZk59"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: J3NfMgRdqoUwFDDs
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.J3NfMgRdqoUwFDDs
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_basic.png
+    name: Rifle (Basic)
     range:
       - 4
       - 4
-    text: Rifle (Basic)
-    type: pack
+    type: document
     weight: 1
   - _id: SvLnvAPXVREj9wYw
     _key: "!tables.results!EVPuZ21eNOpEycGQ.SvLnvAPXVREj9wYw"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: BEj2oUj2UOKgBFDz
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.BEj2oUj2UOKgBFDz
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_armorpiercing.png
+    name: Rifle (Armor-Piercing)
     range:
       - 4
       - 4
-    text: Rifle (Armor-Piercing)
-    type: pack
+    type: document
     weight: 1
   - _id: 8RgqsaxOfx94sg4g
     _key: "!tables.results!EVPuZ21eNOpEycGQ.8RgqsaxOfx94sg4g"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: mDk8gPTM1ENRcB0K
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.mDk8gPTM1ENRcB0K
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_expansive.png
+    name: Rifle (Expansive)
     range:
       - 4
       - 4
-    text: Rifle (Expansive)
-    type: pack
+    type: document
     weight: 1
   - _id: aK7ISDmsutmrgUzX
     _key: "!tables.results!EVPuZ21eNOpEycGQ.aK7ISDmsutmrgUzX"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: U6VMjZRYgJMlMSsg
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.U6VMjZRYgJMlMSsg
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_incendiary.png
+    name: Rifle (Incendiary)
     range:
       - 4
       - 4
-    text: Rifle (Incendiary)
-    type: pack
+    type: document
     weight: 1
   - _id: kS0gv3dhDDFIavj5
     _key: "!tables.results!EVPuZ21eNOpEycGQ.kS0gv3dhDDFIavj5"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: n3AunwSvl6L44MRF
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.n3AunwSvl6L44MRF
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_smart.png
+    name: Rifle (Smart)
     range:
       - 4
       - 4
-    text: Rifle (Smart)
-    type: pack
+    type: document
     weight: 1
 sort: 0

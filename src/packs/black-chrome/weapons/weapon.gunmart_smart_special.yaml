@@ -1,14 +1,5 @@
 _id: RwZUbGdbyp5KTEc5
 _key: "!items!RwZUbGdbyp5KTEc5"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858794418
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333882
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: |-
+    value: |
       <p>
-       The GunMart Smart Special is a Poor Quality Exotic Heavy Pistol with an
-       integrated Smartgun Link*.
+        The GunMart Smart Special is a Poor Quality Exotic Heavy Pistol with an
+        integrated Smartgun Link*.
       </p>
       <p><em>*Must be manually added after acquiring the weapon</em></p>
   dvTable: DV Pistol

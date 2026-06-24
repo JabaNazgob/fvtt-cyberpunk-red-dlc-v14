@@ -1,14 +1,5 @@
 _id: yoTV7C3y1qXrXklA
 _key: "!items!yoTV7C3y1qXrXklA"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857376160
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334034
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: <p>Implanted Very Heavy Melee Weapon.</p>
+    value: |
+      <p>Implanted Very Heavy Melee Weapon.</p>
   dvTable: ""
   favorite: false
   fireModes:

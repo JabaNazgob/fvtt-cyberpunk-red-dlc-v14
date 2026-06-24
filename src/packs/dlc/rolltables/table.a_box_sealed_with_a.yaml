@@ -1,15 +1,5 @@
 _id: McQc33tLYAp7djIV
 _key: "!tables!McQc33tLYAp7djIV"
-_stats:
-  compendiumSource: >-
-    Compendium.cyberpunk-red-core.dlc_achievements-and-loot-boxes.RollTable.McQc33tLYAp7djIV
-  coreVersion: "12.343"
-  createdTime: 1764855217580
-  duplicateSource: null
-  lastModifiedBy: rRCcEOJu9poJ2EaX
-  modifiedTime: 1764855217580
-  systemId: cyberpunk-red-core
-  systemVersion: v0.92.1
 description: >-
   Source: Achievements and Loot Boxes pg.6
 
@@ -28,93 +18,148 @@ replacement: true
 results:
   - _id: qARQwKszLKCxPfQz
     _key: "!tables.results!McQc33tLYAp7djIV.qARQwKszLKCxPfQz"
-    documentCollection: cyberpunk-red-core.core_weapons
-    documentId: UlNLm2tio4pdgOgV
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_weapons.Item.UlNLm2tio4pdgOgV
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/weapons/CombatKnife.svg
+    name: Combat Knife
     range:
       - 1
       - 1
-    text: Combat Knife
-    type: pack
+    type: document
     weight: 1
   - _id: l2HE2AEJWDP4KWxL
     _key: "!tables.results!McQc33tLYAp7djIV.l2HE2AEJWDP4KWxL"
-    documentCollection: cyberpunk-red-dlc.black-chrome_ammo
-    documentId: KPSBX2Ns6cj6JC4v
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_ammo.KPSBX2Ns6cj6JC4v
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_flashbang.png
+    name: Shuriken Tornado Grenade
     range:
       - 3
       - 3
-    text: Shuriken Tornado Grenade
-    type: pack
+    type: document
     weight: 1
   - _id: Z4X7w54H3NbzzFwz
     _key: "!tables.results!McQc33tLYAp7djIV.Z4X7w54H3NbzzFwz"
-    documentCollection: cyberpunk-red-core.core_clothing
-    documentId: zbGmb4qw3DWOX9c5
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_clothing.Item.zbGmb4qw3DWOX9c5
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/clothing/generic_footwear.svg
+    name: Asia Pop Footwear
     range:
       - 4
       - 4
-    text: Asia Pop Footwear
-    type: pack
+    type: document
     weight: 1
   - _id: iQoEKgujgMhvPqeP
     _key: "!tables.results!McQc33tLYAp7djIV.iQoEKgujgMhvPqeP"
-    documentCollection: ""
-    documentId: null
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: 2 Businesswear Tops
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/clothing/generic_top.svg
+    name: ""
     range:
       - 5
       - 5
-    text: 2 Businesswear Tops
     type: text
     weight: 1
   - _id: xkhT1oZHM1csCCb0
     _key: "!tables.results!McQc33tLYAp7djIV.xkhT1oZHM1csCCb0"
-    documentCollection: cyberpunk-red-dlc.black-chrome_weapons
-    documentId: MVZoOzbbPrkBkj53
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_weapons.MVZoOzbbPrkBkj53
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/weapons/CombatKnife.svg
+    name: White Hornet Tanto
     range:
       - 6
       - 6
-    text: White Hornet Tanto
-    type: pack
+    type: document
     weight: 1
   - _id: O7yueN1blyInPhr9
     _key: "!tables.results!McQc33tLYAp7djIV.O7yueN1blyInPhr9"
-    documentCollection: cyberpunk-red-core.core_cyberware
-    documentId: AAzvZil3N8CJfwW8
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_cyberware.Item.AAzvZil3N8CJfwW8
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/cyberware/mr_studd.svg
+    name: Mr. Studd Sexual Implant
     range:
       - 2
       - 2
-    text: Mr. Studd Sexual Implant
-    type: pack
+    type: document
     weight: 1
   - _id: KiNstFkzGSpxEExo
     _key: "!tables.results!McQc33tLYAp7djIV.KiNstFkzGSpxEExo"
-    documentCollection: cyberpunk-red-core.core_clothing
-    documentId: 0NrP4N71Kcvywx31
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_clothing.Item.0NrP4N71Kcvywx31
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/clothing/generic_top.svg
+    name: Businesswear Top
     range:
       - 5
       - 5
-    text: Businesswear Top
-    type: pack
+    type: document
     weight: 1
 sort: 0

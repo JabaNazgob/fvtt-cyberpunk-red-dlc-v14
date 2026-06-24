@@ -1,14 +1,5 @@
 _id: h8mS30jnIMvWNOst
 _key: "!items!h8mS30jnIMvWNOst"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1759518734284
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334032
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,15 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>A physical conversion to a chosen animal type of human size. Few are
-      willing to carry out the surgery.</p><p>Procedure requires a <strong>DV21
-      Surgery Check</strong> and materials are 1,000eb</p>
+    value: |
+      <p>
+        A physical conversion to a chosen animal type of human size. Few are willing
+        to carry out the surgery.
+      </p>
+      <p>
+        Procedure requires a <strong>DV21 Surgery Check</strong> and materials are
+        1,000eb
+      </p>
   favorite: false
   fireModes:
     autoFire: 0
@@ -77,4 +73,5 @@ system:
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine
+  weaponSkill: Handgun
 type: cyberware

@@ -1,14 +1,5 @@
 _id: 2BWPnJqXqz2kCjwy
 _key: "!items!2BWPnJqXqz2kCjwy"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857683455
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334135
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,11 +24,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       If an active Armor Program is derezzed or destroyed, Defense Sequencer
-       activates a yet-unused copy of Armor Program at the start of the
-       Netrunner’s turn.
+        If an active Armor Program is derezzed or destroyed, Defense Sequencer
+        activates a yet-unused copy of Armor Program at the start of the Netrunner's
+        turn.
       </p>
   dvTable: ""
   favorite: false

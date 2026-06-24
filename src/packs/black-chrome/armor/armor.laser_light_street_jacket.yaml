@@ -1,14 +1,5 @@
 _id: fyi3U9v6On4r1iiO
 _key: "!items!fyi3U9v6On4r1iiO"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858572283
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333679
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -32,9 +23,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Urban Flash-styled Light Armorjack that counts as a Light Tattoo while worn.
+        Urban Flash-styled Light Armorjack that counts as a Light Tattoo while worn.
       </p>
   equipped: owned
   favorite: false

@@ -1,14 +1,5 @@
 _id: i3ctRyHXpcva3ccw
 _key: "!items!i3ctRyHXpcva3ccw"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857768484
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334101
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,7 +19,7 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>All the Hardware options with none of the restrictions.</p>
       <p>3 Program slots, 6 Hardware slots.</p>
   equipped: owned

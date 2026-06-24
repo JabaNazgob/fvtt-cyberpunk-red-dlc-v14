@@ -1,14 +1,5 @@
 _id: eIoxfi6GHKCnjAG5
 _key: "!items!eIoxfi6GHKCnjAG5"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858767560
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333834
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,7 +19,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>A Compact Groundcar equipped for off-road travel.</p>
+    value: |
+      <p>A Compact Groundcar equipped for off-road travel.</p>
   favorite: false
   installedItems:
     allowed: true

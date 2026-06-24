@@ -1,14 +1,5 @@
 _id: KNY6BomYkUOkpctH
 _key: "!items!KNY6BomYkUOkpctH"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764855299041
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334098
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,7 +20,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>Personal Drone. Transporter Drone that can be linked to an Agent.</p>
+    value: |
+      <p>Personal Drone. Transporter Drone that can be linked to an Agent.</p>
   equipped: owned
   favorite: false
   installedItems:

@@ -1,14 +1,5 @@
 _id: 2LaYl7hRn5V8cGUd
 _key: "!items!2LaYl7hRn5V8cGUd"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858677547
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333776
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,10 +20,10 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Can hold up to 8 pieces of Chipware. Chipware stored inside are immune to EMP
-       effects.
+        Can hold up to 8 pieces of Chipware. Chipware stored inside are immune to EMP
+        effects.
       </p>
   equipped: owned
   favorite: false

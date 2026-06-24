@@ -1,14 +1,5 @@
 _id: Q8XG4TMqvwqMfaZK
 _key: "!items!Q8XG4TMqvwqMfaZK"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858750343
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333834
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,7 +19,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>Three wheeled Roadbike.</p>
+    value: |
+      <p>Three wheeled Roadbike.</p>
   favorite: false
   installedItems:
     allowed: true

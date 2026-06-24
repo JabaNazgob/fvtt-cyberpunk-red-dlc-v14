@@ -1,14 +1,5 @@
 _id: HrXBoDWGob5w8Wz4
 _key: "!items!HrXBoDWGob5w8Wz4"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857935563
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334136
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,8 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p>An elongated saddle, gaining a seat for a passenger.</p>
+    value: |
+      <p>An elongated saddle, gaining a seat for a passenger.</p>
   dvTable: ""
   favorite: false
   fireModes:

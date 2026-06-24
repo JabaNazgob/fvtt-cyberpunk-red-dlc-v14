@@ -1,15 +1,5 @@
 _id: WmWdGRlhzhA2ZcmV
 _key: "!tables!WmWdGRlhzhA2ZcmV"
-_stats:
-  compendiumSource: >-
-    Compendium.cyberpunk-red-core.dlc_achievements-and-loot-boxes.RollTable.WmWdGRlhzhA2ZcmV
-  coreVersion: "12.343"
-  createdTime: 1764855217580
-  duplicateSource: null
-  lastModifiedBy: rRCcEOJu9poJ2EaX
-  modifiedTime: 1764855217580
-  systemId: cyberpunk-red-core
-  systemVersion: v0.92.1
 description: >-
   Source: Achievements and Loot Boxes pg.6
 
@@ -28,80 +18,128 @@ replacement: true
 results:
   - _id: eSMmjYuRfPdHRHK2
     _key: "!tables.results!WmWdGRlhzhA2ZcmV.eSMmjYuRfPdHRHK2"
-    documentCollection: cyberpunk-red-dlc.black-chrome_weapons
-    documentId: 1VndXRKaCuKQp49H
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_weapons.1VndXRKaCuKQp49H
     drawn: false
     flags: {}
     img: null
+    name: Utility Tomahawk
     range:
       - 1
       - 1
-    text: Utility Tomahawk
-    type: pack
+    type: document
     weight: 1
   - _id: NAW6SeAGHYRp9Qgx
     _key: "!tables.results!WmWdGRlhzhA2ZcmV.NAW6SeAGHYRp9Qgx"
-    documentCollection: cyberpunk-red-dlc.dlc_cyberware
-    documentId: ViH7d2nQAg0dLQuD
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_cyberware.ViH7d2nQAg0dLQuD
     drawn: false
     flags: {}
     img: null
+    name: Holo Projector Palm
     range:
       - 2
       - 2
-    text: Holo Projector Palm
-    type: pack
+    type: document
     weight: 1
   - _id: XFxM9lyMYSCxHQqS
     _key: "!tables.results!WmWdGRlhzhA2ZcmV.XFxM9lyMYSCxHQqS"
-    documentCollection: cyberpunk-red-core.core_gear
-    documentId: GPgc2QczR4H1rYPj
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_gear.Item.GPgc2QczR4H1rYPj
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
+    name: Techtool
     range:
       - 3
       - 3
-    text: Techtool
-    type: pack
+    type: document
     weight: 1
   - _id: ALhnacS6Hjr3pHNH
     _key: "!tables.results!WmWdGRlhzhA2ZcmV.ALhnacS6Hjr3pHNH"
-    documentCollection: cyberpunk-red-core.core_gear
-    documentId: Lo7rXsc5ToQf2KlN
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_gear.Item.Lo7rXsc5ToQf2KlN
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/gear/audio_recorder.svg
+    name: Audio Recorder
     range:
       - 4
       - 4
-    text: Audio Recorder
-    type: pack
+    type: document
     weight: 1
   - _id: ye7viJCwPjZqFjih
     _key: "!tables.results!WmWdGRlhzhA2ZcmV.ye7viJCwPjZqFjih"
-    documentCollection: cyberpunk-red-core.core_ammo
-    documentId: tivSfxqoNYnBlNah
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.tivSfxqoNYnBlNah
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_armorpiercing.png
+    name: Grenade (Armor-Piercing)
     range:
       - 5
       - 5
-    text: Grenade (Armor-Piercing)
-    type: pack
+    type: document
     weight: 1
   - _id: YPH6EdW6lvbn2VLj
     _key: "!tables.results!WmWdGRlhzhA2ZcmV.YPH6EdW6lvbn2VLj"
-    documentCollection: cyberpunk-red-core.core_cyberware
-    documentId: 2EvWIW0HXwoBK6xq
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_cyberware.Item.2EvWIW0HXwoBK6xq
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/cyberware/techscanner.svg
+    name: Techscanner
     range:
       - 6
       - 6
-    text: Techscanner
-    type: pack
+    type: document
     weight: 1
 sort: 0

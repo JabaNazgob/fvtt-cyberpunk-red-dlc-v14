@@ -1,14 +1,5 @@
 _id: cU6gNT7lw2gaTBAC
 _key: "!items!cU6gNT7lw2gaTBAC"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858096391
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334100
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,11 +21,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Head-mounted camera. A Media presenting a story on a livestream while wearing
-       the Cybercam EX-1 gains +1 Believability when using their role ability. This
-       stacks with evidence based bonuses.
+        Head-mounted camera. A Media presenting a story on a livestream while wearing
+        the Cybercam EX-1 gains +1 Believability when using their role ability. This
+        stacks with evidence based bonuses.
       </p>
   equipped: owned
   favorite: false

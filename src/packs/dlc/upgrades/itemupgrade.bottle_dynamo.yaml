@@ -1,14 +1,5 @@
 _id: P3PN6f1l6o4s3b0J
 _key: "!items!P3PN6f1l6o4s3b0J"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857916420
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334137
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       A dynamo on your bike's wheel for converting mechanical energy into
-       electricity. Charges a battery pack (such as for weapons) in one hour.
+        A dynamo on your bike's wheel for converting mechanical energy into
+        electricity. Charges a battery pack (such as for weapons) in one hour.
       </p>
   dvTable: ""
   favorite: false

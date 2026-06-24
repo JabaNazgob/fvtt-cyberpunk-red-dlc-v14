@@ -1,14 +1,5 @@
 _id: 9M5ejkYuKFozoro7
 _key: "!items!9M5ejkYuKFozoro7"
-_stats:
-  compendiumSource: Compendium.cyberpunk-red-core.core_cyberware.Item.aEG91CA3amfU0Q8U
-  coreVersion: "12.343"
-  createdTime: 1766622603500
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1766622603500
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core:
@@ -35,10 +26,12 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Negates all penalties related to movement in Zero Gravity. Runs off
-      fuel tanks that cost 100eb, must be replaced after 24 hours of
-      use.</p><p>Requires 2 Cyberlegs, and must be paired.</p>
+    value: |
+      <p>
+        Negates all penalties related to movement in Zero Gravity. Runs off fuel tanks
+        that cost 100eb, must be replaced after 24 hours of use.
+      </p>
+      <p>Requires 2 Cyberlegs, and must be paired.</p>
   dvTable: ""
   favorite: false
   fireModes:

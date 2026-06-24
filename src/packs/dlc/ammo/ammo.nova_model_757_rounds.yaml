@@ -1,14 +1,5 @@
 _id: Gxesk4mgq9yMNJKw
 _key: "!items!Gxesk4mgq9yMNJKw"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858184700
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333917
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,16 +21,16 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       For use only in the Nova Model 757 Cityhunter. Comes in packs of 18 instead of
-       the normal 10.
+        For use only in the Nova Model 757 Cityhunter. Comes in packs of 18 instead of
+        the normal 10.
       </p>
 
       <p>
-       Req Targeting Scope Cyberware, otherwise won't fire. If miss single attack by
-       4 or less, roll second attack at same DV 1d10+10 (not normal stat). Can add
-       luck. Target can dodge the second roll as normal if able to do so.
+        Req Targeting Scope Cyberware, otherwise won't fire. If miss single attack by
+        4 or less, roll second attack at same DV 1d10+10 (not normal stat). Can add
+        luck. Target can dodge the second roll as normal if able to do so.
       </p>
   favorite: false
   installLocation: mall

@@ -1,14 +1,5 @@
 _id: YMu6SNA9VbtKHFL8
 _key: "!items!YMu6SNA9VbtKHFL8"
-_stats:
-  compendiumSource: Compendium.cyberpunk-red-core.core_cyberware.Item.O5GmxTYCrrs8uWAd
-  coreVersion: "12.343"
-  createdTime: 1766622560597
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1766622560597
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core:
@@ -35,11 +26,15 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Requires BODY 16 or higher unless using a Full Body Conversion.
-      Borgware. External Body Cyberware*. Head and Body Armor SP18 and recovers
-      1SP/day.</p><p>Comes with one set of detatchable Dragoon Armor Plates,
-      additonal plates sold seperately.</p>
+    value: |
+      <p>
+        Requires BODY 16 or higher unless using a Full Body Conversion. Borgware.
+        External Body Cyberware*. Head and Body Armor SP18 and recovers 1SP/day.
+      </p>
+      <p>
+        Comes with one set of detatchable Dragoon Armor Plates, additonal plates sold
+        seperately.
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

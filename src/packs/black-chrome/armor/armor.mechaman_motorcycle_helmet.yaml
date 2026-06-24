@@ -1,14 +1,5 @@
 _id: r3uE9rEiOK1PQ9kr
 _key: "!items!r3uE9rEiOK1PQ9kr"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858574473
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333679
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,14 +22,16 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       A Kevlar motorcycle helmet with integrated smart glasses that come with Chyron
-       and Low Light / IR / UV pre-installed*.
+        A Kevlar motorcycle helmet with integrated smart glasses that come with Chyron
+        and Low Light / IR / UV pre-installed*.
       </p>
       <p>
-       <em>*Smart Glasses and associated cyberware must be manually added and
-       installed after acquring the armor.</em>
+        <em
+          >*Smart Glasses and associated cyberware must be manually added and
+          installed after acquring the armor.</em
+        >
       </p>
   equipped: owned
   favorite: false

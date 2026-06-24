@@ -1,14 +1,5 @@
 _id: 6w3JLFVB9VIOmCmI
 _key: "!items!6w3JLFVB9VIOmCmI"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856807743
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334307
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,10 +22,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Metal plated armor to resist the most powerful hits to your head. -4 to REF,
-       DEX, and MOVE.
+        Metal plated armor to resist the most powerful hits to your head. -4 to REF,
+        DEX, and MOVE.
       </p>
   equipped: owned
   favorite: false

@@ -1,14 +1,5 @@
 _id: EpnkbYJED7yNCwcy
 _key: "!items!EpnkbYJED7yNCwcy"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858207731
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334246
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,14 +25,14 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       Rather than normal shotgun ammunition, this weapon fires whatever liquid is
-       placed into it. Acid can be bought for 10eb (Cheap) that reduces all armour
-       worn by the target by 1 SP. Poison or Biotoxin can also be loaded, though
-       requires 3 vials per shot.
+        Rather than normal shotgun ammunition, this weapon fires whatever liquid is
+        placed into it. Acid can be bought for 10eb (Cheap) that reduces all armour
+        worn by the target by 1 SP. Poison or Biotoxin can also be loaded, though
+        requires 3 vials per shot.
       </p>
-  dvTable: ""
+  dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false
   fireModes:

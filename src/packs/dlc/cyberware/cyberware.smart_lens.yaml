@@ -1,14 +1,5 @@
 _id: rUSdivkoD9THJXNy
 _key: "!items!rUSdivkoD9THJXNy"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857493783
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334033
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
+    value: >
       <p>Gives a user a single Cybereye Option. Can use one Smart Lens per
       eye.</p>
   dvTable: ""

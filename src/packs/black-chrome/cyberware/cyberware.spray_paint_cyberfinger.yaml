@@ -1,14 +1,5 @@
 _id: LvFvoVzl06GzOVi0
 _key: "!items!LvFvoVzl06GzOVi0"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858659634
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333735
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Cyberfinger functioning as a spray can. Can only be installed on a modular
-       finger cyberhand.
+        Cyberfinger functioning as a spray can. Can only be installed on a modular
+        finger cyberhand.
       </p>
   dvTable: ""
   favorite: false

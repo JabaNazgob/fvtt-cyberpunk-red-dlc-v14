@@ -1,14 +1,5 @@
 _id: 062x3IuaFgsjMV5X
 _key: "!items!062x3IuaFgsjMV5X"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858797108
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333878
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       Two Handed Exotic Very Heavy Melee Weapon. When wielded by the correct user
-       the weapon ignores armor less than 7 SP.
+        Two Handed Exotic Very Heavy Melee Weapon. When wielded by the correct user
+        the weapon ignores armor less than 7 SP.
       </p>
   dvTable: ""
   equipped: owned

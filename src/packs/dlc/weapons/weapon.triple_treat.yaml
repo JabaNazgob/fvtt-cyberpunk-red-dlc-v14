@@ -1,14 +1,5 @@
 _id: 8wVlu4VqXbhL0XKA
 _key: "!items!8wVlu4VqXbhL0XKA"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858216499
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334245
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,11 +25,11 @@ system:
   critFailEffect: jammed
   damage: 8d6
   description:
-    value: |-
+    value: |
       <p>
-       Comes with an Exotic Grenade Launcher Underbarrel* which - as the main gun is
-       poor quality - functions as a poor quality weapon. It can't be removed. Both
-       that and the main weapon can fire non-Basic Ammunition.
+        Comes with an Exotic Grenade Launcher Underbarrel* which - as the main gun is
+        poor quality - functions as a poor quality weapon. It can't be removed. Both
+        that and the main weapon can fire non-Basic Ammunition.
       </p>
       <p><em>*Must be manually added after acquiring the weapon</em></p>
   dvTable: DV Rocket Launcher

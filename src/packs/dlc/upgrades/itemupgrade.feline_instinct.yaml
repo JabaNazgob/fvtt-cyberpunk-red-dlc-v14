@@ -1,14 +1,5 @@
 _id: BaeRhbjlaBcA4Bjz
 _key: "!items!BaeRhbjlaBcA4Bjz"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857685676
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334136
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,11 +24,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       If an installed Sabertooth Black ICE destroys a program, that Sabertooth deals
-       an extra 1d6 of damage on each subsequent attack for the duration of the
-       Netrun.
+        If an installed Sabertooth Black ICE destroys a program, that Sabertooth deals
+        an extra 1d6 of damage on each subsequent attack for the duration of the
+        Netrun.
       </p>
   dvTable: ""
   favorite: false

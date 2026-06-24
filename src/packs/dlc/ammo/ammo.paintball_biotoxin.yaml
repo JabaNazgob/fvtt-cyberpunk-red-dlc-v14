@@ -1,14 +1,5 @@
 _id: oZCZLAUVwbWZnHgj
 _key: "!items!oZCZLAUVwbWZnHgj"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858209299
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333918
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,10 +21,10 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Created from 3 Vials of Biotoxin strapped together. Deals no direct damage on
-       hit.
+        Created from 3 Vials of Biotoxin strapped together. Deals no direct damage on
+        hit.
       </p>
   favorite: false
   installLocation: mall

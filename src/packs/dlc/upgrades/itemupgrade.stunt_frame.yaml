@@ -1,14 +1,5 @@
 _id: QW3t9BOscyXw681t
 _key: "!items!QW3t9BOscyXw681t"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857985243
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334138
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,11 +24,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>The bike loses weight and gains maneuverability.</p>
       <p>
-       Rider obtain a +2 bonus to Athletics skill checks when riding and doing
-       maneuvers.
+        Rider obtain a +2 bonus to Athletics skill checks when riding and doing
+        maneuvers.
       </p>
   dvTable: ""
   favorite: false

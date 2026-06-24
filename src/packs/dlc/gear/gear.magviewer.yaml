@@ -1,14 +1,5 @@
 _id: NTD1wXId7S541HTe
 _key: "!items!NTD1wXId7S541HTe"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858112674
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334098
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,18 +20,18 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Binoculars meant for spotting. Provides detail up to 800m/yds. Provides the
-       user with an additional +1 to an attack roll with a successful Complimentary
-       Skill Check to assist in attacking a target 51m/yds or farther away in
-       addition to any other Complimentary Skill Checks..
+        Binoculars meant for spotting. Provides detail up to 800m/yds. Provides the
+        user with an additional +1 to an attack roll with a successful Complimentary
+        Skill Check to assist in attacking a target 51m/yds or farther away in
+        addition to any other Complimentary Skill Checks..
       </p>
       <p>
-       Does not stack with
-       @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping
-       Scope} or
-       @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.
+        Does not stack with
+        @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping
+        Scope} or
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.
       </p>
   equipped: owned
   favorite: false
@@ -59,5 +50,5 @@ system:
   source:
     book: 12DoGear
     page: 4
-  usage: carried
+  usage: equipped
 type: gear

@@ -1,14 +1,5 @@
 _id: rRM8ArZ4RlX7EnBh
 _key: "!items!rRM8ArZ4RlX7EnBh"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858068626
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333918
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,10 +21,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can
-       be recharged in 1 hour.
+        Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can
+        be recharged in 1 hour.
       </p>
   favorite: false
   installLocation: mall

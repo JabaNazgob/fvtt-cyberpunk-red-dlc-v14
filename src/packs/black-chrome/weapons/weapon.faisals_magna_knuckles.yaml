@@ -1,14 +1,5 @@
 _id: 6uCUKRntpkVSnRkw
 _key: "!items!6uCUKRntpkVSnRkw"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858790459
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333879
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: |-
+    value: |
       <p>
-       One Handed Exotic Medium Melee Weapon. Battery powered EMP effect which can
-       deactivate cyberware.
+        One Handed Exotic Medium Melee Weapon. Battery powered EMP effect which can
+        deactivate cyberware.
       </p>
   dvTable: ""
   equipped: owned

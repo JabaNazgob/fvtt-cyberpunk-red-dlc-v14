@@ -1,14 +1,5 @@
 _id: YLYKK3N4631dbRwt
 _key: "!items!YLYKK3N4631dbRwt"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858815317
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333882
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,7 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: |-
+    value: |
       <p>Battery powered glove.</p>
       <p>One Handed Exotic Combination Stun Baton and Microwaver.</p>
   dvTable: ""

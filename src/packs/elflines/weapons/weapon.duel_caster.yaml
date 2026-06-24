@@ -1,14 +1,5 @@
 _id: dB1xFjNIIdZ536Km
 _key: "!items!dB1xFjNIIdZ536Km"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856880046
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334356
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,11 +25,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       A plastic housing and card launcher for ELO Cards. ROF 3 if only weapon fired
-       on your turn. Can also be loaded with normal playing cards but makes the
-       weapon Poor Quality.
+        A plastic housing and card launcher for ELO Cards. ROF 3 if only weapon fired
+        on your turn. Can also be loaded with normal playing cards but makes the
+        weapon Poor Quality.
       </p>
   dvTable: DV Pistol
   equipped: owned

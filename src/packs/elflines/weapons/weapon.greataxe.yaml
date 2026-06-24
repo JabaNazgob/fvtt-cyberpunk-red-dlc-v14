@@ -1,14 +1,5 @@
 _id: syV8GagEmOsAOMkj
 _key: "!items!syV8GagEmOsAOMkj"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856811848
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334357
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,11 +24,11 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       A wooden pole with a curved blade on each side. Favoured by raid parties for
-       close engagements. Requires 2 hands to wield even by a wielder with Body 8 or
-       higher.
+        A wooden pole with a curved blade on each side. Favoured by raid parties for
+        close engagements. Requires 2 hands to wield even by a wielder with Body 8 or
+        higher.
       </p>
   dvTable: ""
   equipped: owned

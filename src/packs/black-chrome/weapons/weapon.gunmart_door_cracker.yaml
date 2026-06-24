@@ -1,14 +1,5 @@
 _id: xuxITCWhHzvdr7Yi
 _key: "!items!xuxITCWhHzvdr7Yi"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858793090
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333884
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,8 @@ system:
   critFailEffect: jammed
   damage: 6d6
   description:
-    value: <p>Cheap explosive item, small area of effect.</p>
+    value: |
+      <p>Cheap explosive item, small area of effect.</p>
   dvTable: ""
   equipped: owned
   favorite: false

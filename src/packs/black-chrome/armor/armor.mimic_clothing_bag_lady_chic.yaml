@@ -1,14 +1,5 @@
 _id: B5ZeRQkidYDBAP9w
 _key: "!items!B5ZeRQkidYDBAP9w"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858576000
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333677
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,9 +22,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Light Armorjack made from a Mimic Clothing Kit and "Bag Lady Chic" clothing.
+        Light Armorjack made from a Mimic Clothing Kit and "Bag Lady Chic" clothing.
       </p>
   equipped: owned
   favorite: false

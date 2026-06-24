@@ -1,14 +1,5 @@
 _id: yI9sUHnAIXGYncg9
 _key: "!items!yI9sUHnAIXGYncg9"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858115742
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334102
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: eLAjuE7xaYrcbIzN
     _key: "!items.effects!yI9sUHnAIXGYncg9.eLAjuE7xaYrcbIzN"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -121,11 +113,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Massive Tool Chest. Provides a +4 to multiple skills when rolling Maker Skill
-       Checks. Large enough to be considered Thick Steel Cover, requires BODY 10 to
-       move.
+        Massive Tool Chest. Provides a +4 to multiple skills when rolling Maker Skill
+        Checks. Large enough to be considered Thick Steel Cover, requires BODY 10 to
+        move.
       </p>
   equipped: owned
   favorite: false
@@ -144,5 +136,5 @@ system:
   source:
     book: 12DoGear
     page: 3
-  usage: carried
+  usage: equipped
 type: gear

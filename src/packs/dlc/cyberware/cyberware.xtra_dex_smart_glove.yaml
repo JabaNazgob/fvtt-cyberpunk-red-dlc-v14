@@ -1,14 +1,5 @@
 _id: YaBhjpiiLwydzqGt
 _key: "!items!YaBhjpiiLwydzqGt"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858142865
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334031
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,16 +25,16 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       A Smart Glove with Cyberfinger support. Has 2 Option Slots for Cyberarm
-       Options and is treated as a
-       @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular
-       Finger Cyberhand} for the sake of installing the 5 supported Cyberfingers*.
+        A Smart Glove with Cyberfinger support. Has 2 Option Slots for Cyberarm
+        Options and is treated as a
+        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular
+        Finger Cyberhand} for the sake of installing the 5 supported Cyberfingers*.
       </p>
       <p>
-       Requires Interface Plugs to access Cyberarm/Cyberfinger Options installed in
-       the glove.
+        Requires Interface Plugs to access Cyberarm/Cyberfinger Options installed in
+        the glove.
       </p>
       <p>*Modular Finger Cyberhand must be added after Installation.</p>
   dvTable: ""

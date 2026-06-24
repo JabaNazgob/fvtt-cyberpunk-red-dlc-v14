@@ -1,14 +1,5 @@
 _id: tthUaY2iqrpUlO44
 _key: "!items!tthUaY2iqrpUlO44"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858819355
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333884
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       The Sanroo Hello Cutie Ultra-K8 Assault Pistol is an Excellent Quality Exotic
-       Very Heavy Pistol with an Excellent Quality Heavy SMG mode.
+        The Sanroo Hello Cutie Ultra-K8 Assault Pistol is an Excellent Quality Exotic
+        Very Heavy Pistol with an Excellent Quality Heavy SMG mode.
       </p>
   dvTable: DV Pistol
   equipped: owned

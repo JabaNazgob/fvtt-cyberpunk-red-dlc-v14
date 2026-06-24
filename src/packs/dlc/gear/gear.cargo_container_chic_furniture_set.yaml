@@ -1,14 +1,5 @@
 _id: bN0IlqYtNMj0uF0B
 _key: "!items!bN0IlqYtNMj0uF0B"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764855411556
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334100
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,10 +20,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       It might be cheap, but it is real furniture. This is the starting Furniture
-       Set for most cargo containers.
+        It might be cheap, but it is real furniture. This is the starting Furniture
+        Set for most cargo containers.
       </p>
   equipped: owned
   favorite: false

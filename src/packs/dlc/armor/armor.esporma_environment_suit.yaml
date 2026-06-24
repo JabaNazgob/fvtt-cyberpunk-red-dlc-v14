@@ -1,14 +1,5 @@
 _id: EPsdOtdiTfe50lFB
 _key: "!items!EPsdOtdiTfe50lFB"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858103649
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333942
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,11 +22,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Armored Radiation Suit. Protects the wearer from Radiation and comes with an
-       Oxygen Tank that lasts for 30 minutes which can be refilled by spending an
-       hour in clean air.
+        Armored Radiation Suit. Protects the wearer from Radiation and comes with an
+        Oxygen Tank that lasts for 30 minutes which can be refilled by spending an
+        hour in clean air.
       </p>
       <p>Nanomachines restore 1SP every hour SP isn't lost on the armor</p>
   equipped: owned

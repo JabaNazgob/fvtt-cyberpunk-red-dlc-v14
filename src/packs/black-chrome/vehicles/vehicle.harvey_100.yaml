@@ -1,14 +1,5 @@
 _id: wNTiJOENNGnDLTgt
 _key: "!items!wNTiJOENNGnDLTgt"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858752810
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333835
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,7 +19,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>A classic Roadbike.</p>
+    value: |
+      <p>A classic Roadbike.</p>
   favorite: false
   installedItems:
     allowed: true

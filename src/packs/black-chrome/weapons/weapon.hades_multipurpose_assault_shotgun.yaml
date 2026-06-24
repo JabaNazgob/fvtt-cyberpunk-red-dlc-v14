@@ -1,14 +1,5 @@
 _id: GVG933xxERHQztLs
 _key: "!items!GVG933xxERHQztLs"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858795683
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333880
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,10 +26,10 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       The Hades Multipurpose Assault Shotgun is an Exotic Shotgun. The magazine
-       holds 16 shots.
+        The Hades Multipurpose Assault Shotgun is an Exotic Shotgun. The magazine
+        holds 16 shots.
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned

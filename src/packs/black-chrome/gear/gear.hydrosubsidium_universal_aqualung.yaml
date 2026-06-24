@@ -1,14 +1,5 @@
 _id: THuhq91qOtXUZCrf
 _key: "!items!THuhq91qOtXUZCrf"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858682805
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333778
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,10 +20,10 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       When worn, User can breathe underwater as long as within 10 m/yards of the
-       surface.
+        When worn, User can breathe underwater as long as within 10 m/yards of the
+        surface.
       </p>
   equipped: owned
   favorite: false

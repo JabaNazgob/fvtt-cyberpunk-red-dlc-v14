@@ -1,14 +1,5 @@
 _id: QLmJalY4Tf3ZqXV5
 _key: "!items!QLmJalY4Tf3ZqXV5"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764855294269
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334099
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,7 +20,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>Active Airborne Defense Drone.</p>
+    value: |
+      <p>Active Airborne Defense Drone.</p>
   equipped: owned
   favorite: false
   installedItems:

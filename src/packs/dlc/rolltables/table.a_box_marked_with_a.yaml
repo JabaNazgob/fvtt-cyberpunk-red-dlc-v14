@@ -1,15 +1,5 @@
 _id: T6pocp9VStxtFPzP
 _key: "!tables!T6pocp9VStxtFPzP"
-_stats:
-  compendiumSource: >-
-    Compendium.cyberpunk-red-core.dlc_achievements-and-loot-boxes.RollTable.T6pocp9VStxtFPzP
-  coreVersion: "12.343"
-  createdTime: 1764855217580
-  duplicateSource: null
-  lastModifiedBy: rRCcEOJu9poJ2EaX
-  modifiedTime: 1764855217580
-  systemId: cyberpunk-red-core
-  systemVersion: v0.92.1
 description: >-
   Source: Achievements and Loot Boxes pg.6
 
@@ -28,93 +18,148 @@ replacement: true
 results:
   - _id: JMQL50Vwsp7AMmWo
     _key: "!tables.results!T6pocp9VStxtFPzP.JMQL50Vwsp7AMmWo"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: yobTPhOaGRpfkjz8
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.yobTPhOaGRpfkjz8
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/gear/memory_chip.svg
+    name: Elflines Online
     range:
       - 1
       - 1
-    text: Elflines Online
-    type: pack
+    type: document
     weight: 1
   - _id: r6fFsAFxIRq1HriP
     _key: "!tables.results!T6pocp9VStxtFPzP.r6fFsAFxIRq1HriP"
-    documentCollection: ""
-    documentId: null
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: 2 Disposable Cell Phones
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/gear/disposable_cellphone.svg
+    name: ""
     range:
       - 2
       - 2
-    text: 2 Disposable Cell Phones
     type: text
     weight: 1
   - _id: a6fZu5y7jIoTN38p
     _key: "!tables.results!T6pocp9VStxtFPzP.a6fZu5y7jIoTN38p"
-    documentCollection: cyberpunk-red-dlc.black-chrome_cyberware
-    documentId: f9u0uhwRBcunP0gz
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_cyberware.f9u0uhwRBcunP0gz
     drawn: false
     flags: {}
     img: null
+    name: Modular Finger Cyberhand
     range:
       - 3
       - 3
-    text: Modular Finger Cyberhand
-    type: pack
+    type: document
     weight: 1
   - _id: g0YvDqhptZVY8bIh
     _key: "!tables.results!T6pocp9VStxtFPzP.g0YvDqhptZVY8bIh"
-    documentCollection: cyberpunk-red-core.core_clothing
-    documentId: Q7LFdojJFEIRaLlN
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_clothing.Item.Q7LFdojJFEIRaLlN
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/clothing/generic_jewelry.svg
+    name: Leisurewear Jewelry
     range:
       - 4
       - 4
-    text: Leisurewear Jewelry
-    type: pack
+    type: document
     weight: 1
   - _id: lcpBqFf1ztvwm6ZJ
     _key: "!tables.results!T6pocp9VStxtFPzP.lcpBqFf1ztvwm6ZJ"
-    documentCollection: cyberpunk-red-core.core_gear
-    documentId: GqYz689ddSKQHMen
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_gear.Item.GqYz689ddSKQHMen
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/gear/agent.svg
+    name: Agent
     range:
       - 5
       - 5
-    text: Agent
-    type: pack
+    type: document
     weight: 1
   - _id: X7XamnHpkEyA1BOt
     _key: "!tables.results!T6pocp9VStxtFPzP.X7XamnHpkEyA1BOt"
-    documentCollection: cyberpunk-red-core.core_gear
-    documentId: it4Mfyti7WPpuuYE
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_gear.Item.it4Mfyti7WPpuuYE
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/gear/smart_glasses.svg
+    name: Smart Glasses
     range:
       - 6
       - 6
-    text: Smart Glasses
-    type: pack
+    type: document
     weight: 1
   - _id: bEJSghOjTTcHngHW
     _key: "!tables.results!T6pocp9VStxtFPzP.bEJSghOjTTcHngHW"
-    documentCollection: cyberpunk-red-core.core_gear
-    documentId: OjMJ2SyoMr4VWmnm
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_gear.Item.OjMJ2SyoMr4VWmnm
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/gear/disposable_cellphone.svg
+    name: Disposable Cell Phone
     range:
       - 2
       - 2
-    text: Disposable Cell Phone
-    type: pack
+    type: document
     weight: 1
 sort: 0

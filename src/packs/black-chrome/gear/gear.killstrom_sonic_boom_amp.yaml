@@ -1,14 +1,5 @@
 _id: NoN4GJNgu6tE6mqd
 _key: "!items!NoN4GJNgu6tE6mqd"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858684964
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333778
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,10 +20,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       While linked to an instrument, the User can take an Action to make everyone
-       nearby make a Resist Torture/Drugs Check.
+        While linked to an instrument, the User can take an Action to make everyone
+        nearby make a Resist Torture/Drugs Check.
       </p>
   equipped: owned
   favorite: false

@@ -1,14 +1,5 @@
 _id: R3HxQCBBkQ7iHOzY
 _key: "!items!R3HxQCBBkQ7iHOzY"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764855418762
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334099
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,11 +20,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>Koff Pops used with the Continental Brands Koff Popper.</p>
       <ul>
-       <li>Pack of 10</li>
-       <li>Included in Kibble or higher lifestyle</li>
+        <li>Pack of 10</li>
+        <li>Included in Kibble or higher lifestyle</li>
       </ul>
   equipped: owned
   favorite: false

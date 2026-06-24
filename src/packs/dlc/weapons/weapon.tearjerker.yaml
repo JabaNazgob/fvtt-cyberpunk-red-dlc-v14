@@ -1,14 +1,5 @@
 _id: puBNVffqHLoGXXnd
 _key: "!items!puBNVffqHLoGXXnd"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858215108
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334250
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,7 +26,8 @@ system:
   critFailEffect: jammed
   damage: 6d6
   description:
-    value: <p>This weapon can only fire Smoke or Teargas Ammunition.</p>
+    value: |
+      <p>This weapon can only fire Smoke or Teargas Ammunition.</p>
   dvTable: DV Grenade Launcher
   equipped: owned
   favorite: false

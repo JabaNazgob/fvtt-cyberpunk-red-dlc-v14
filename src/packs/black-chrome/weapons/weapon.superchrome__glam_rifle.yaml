@@ -1,14 +1,5 @@
 _id: 3WelrloimwsNI29P
 _key: "!items!3WelrloimwsNI29P"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858823664
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333879
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: toZ7L2JATaPu0yPl
     _key: "!items.effects!3WelrloimwsNI29P.toZ7L2JATaPu0yPl"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -78,14 +70,16 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       The Superchrome® Glam Rifle is an Exotic Assault Rifle. It gives the user a +2
-       bonus to Wardrobe and Style when equipped.
+        The Superchrome® Glam Rifle is an Exotic Assault Rifle. It gives the user a +2
+        bonus to Wardrobe and Style when equipped.
       </p>
       <p>
-       <em>*Note: Superchrome effects do not stack and will need to be managed in the
-       Effects tab if multiple Superchrome items are installed.</em>
+        <em
+          >*Note: Superchrome effects do not stack and will need to be managed in the
+          Effects tab if multiple Superchrome items are installed.</em
+        >
       </p>
   dvTable: DV Assault Rifle
   equipped: owned

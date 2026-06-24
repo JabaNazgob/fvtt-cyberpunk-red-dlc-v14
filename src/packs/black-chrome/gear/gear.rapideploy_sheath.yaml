@@ -1,14 +1,5 @@
 _id: G7KBZHlRtEBGD6JY
 _key: "!items!G7KBZHlRtEBGD6JY"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858691452
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333777
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: g80WDTq4XGjrJgJc
     _key: "!items.effects!G7KBZHlRtEBGD6JY.g80WDTq4XGjrJgJc"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -74,10 +66,10 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Gives the User a +2 bonus to their Conceal/Reveal Skill Check if used to
-       conceal a weapon already capable of concealment.
+        Gives the User a +2 bonus to their Conceal/Reveal Skill Check if used to
+        conceal a weapon already capable of concealment.
       </p>
   equipped: owned
   favorite: false

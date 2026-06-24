@@ -1,14 +1,5 @@
 _id: qQO7cw9BbGNNken1
 _key: "!items!qQO7cw9BbGNNken1"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856794954
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334282
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,7 +21,8 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: <p>Basic ammo, nothing special.</p>
+    value: |
+      <p>Basic ammo, nothing special.</p>
   favorite: false
   installLocation: mall
   overrides:

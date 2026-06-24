@@ -1,14 +1,5 @@
 _id: rl7LT2WYItMqMoLm
 _key: "!items!rl7LT2WYItMqMoLm"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1759518202043
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334102
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,7 +20,7 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
+    value: >
       <p>A large, cabinet-sized, drink mixing machine seen commonly used in
       bars.</p>
   equipped: owned

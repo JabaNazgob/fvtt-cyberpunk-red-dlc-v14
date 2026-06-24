@@ -1,14 +1,5 @@
 _id: PuGtYLlDTvSiBEKz
 _key: "!items!PuGtYLlDTvSiBEKz"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857731476
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334098
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,10 +19,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Though it may not be the flashiest choice, Kirama’s finest Cyberdeck is
-       expertly balanced and offers some highly practical safety features.
+        Though it may not be the flashiest choice, Kirama's finest Cyberdeck is
+        expertly balanced and offers some highly practical safety features.
       </p>
       <p>5 slots for Programs or Hardware.</p>
       <p>Netrunner suffers no negative effects from an Unsafe Jack Out.</p>

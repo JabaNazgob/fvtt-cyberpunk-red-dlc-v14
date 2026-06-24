@@ -1,14 +1,5 @@
 _id: BEEWtOZvjXxgHvd2
 _key: "!items!BEEWtOZvjXxgHvd2"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858735841
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333805
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,11 +25,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Agent App.</p>
       <p>
-       +1 bonus to all Local Expert Skills Checks related to communities and
-       neighborhoods for that city.
+        +1 bonus to all Local Expert Skills Checks related to communities and
+        neighborhoods for that city.
       </p>
   dvTable: ""
   favorite: false

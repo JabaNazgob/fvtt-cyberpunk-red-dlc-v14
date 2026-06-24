@@ -1,14 +1,5 @@
 _id: f9u0uhwRBcunP0gz
 _key: "!items!f9u0uhwRBcunP0gz"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858649370
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333737
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Requires cyberarm. Comes with 5 cyberfingers*.</p>
       <p>*Fingers must be added after installation</p>
   dvTable: ""

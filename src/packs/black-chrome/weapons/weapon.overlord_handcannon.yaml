@@ -1,14 +1,5 @@
 _id: DroG3PMwgQcJ3hmk
 _key: "!items!DroG3PMwgQcJ3hmk"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858814497
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333880
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: |-
+    value: |
       <p>
-       The Overlord Handcannon is a Poor Quality Exotic Heavy Pistol with a ROF of 1.
-       It may give a +1 bonus to Facedowns in certain situations.
+        The Overlord Handcannon is a Poor Quality Exotic Heavy Pistol with a ROF of 1.
+        It may give a +1 bonus to Facedowns in certain situations.
       </p>
   dvTable: DV Pistol
   equipped: owned

@@ -1,14 +1,5 @@
 _id: WanZL37uS6qD7acP
 _key: "!items!WanZL37uS6qD7acP"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858797718
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333882
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: |-
+    value: |
       <p>
-       Mono-Shuriken whose orb center contains a kinetic and solar motor allowing the
-       star to spin on itself and vibrate.
+        Mono-Shuriken whose orb center contains a kinetic and solar motor allowing the
+        star to spin on itself and vibrate.
       </p>
       <p>Can be used as both a melee and ranged weapon.</p>
   dvTable: DV Thrown Weapon

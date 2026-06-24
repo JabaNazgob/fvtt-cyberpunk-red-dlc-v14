@@ -1,14 +1,5 @@
 _id: OzfbjQ3nPCCf6BQQ
 _key: "!items!OzfbjQ3nPCCf6BQQ"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858589529
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333678
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -32,10 +23,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Kevlar Body Armor that comes with two pre-installed medium melee weapons*
-       always considered drawn as long as the armor is equipped.
+        Kevlar Body Armor that comes with two pre-installed medium melee weapons*
+        always considered drawn as long as the armor is equipped.
       </p>
       <p><em>*Must be manually added after acquiring the armor.</em></p>
   equipped: owned

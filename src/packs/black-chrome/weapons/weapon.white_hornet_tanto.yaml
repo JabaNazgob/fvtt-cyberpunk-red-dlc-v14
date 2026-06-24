@@ -1,14 +1,5 @@
 _id: MVZoOzbbPrkBkj53
 _key: "!items!MVZoOzbbPrkBkj53"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858831712
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333881
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,7 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: |-
+    value: |
       <p>One Handed Exotic Medium Melee Weapon.</p>
       <p>Can render target unconscious rather than dead.</p>
   dvTable: ""

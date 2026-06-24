@@ -1,14 +1,5 @@
 _id: 81qxDB83rnxGNjdK
 _key: "!items!81qxDB83rnxGNjdK"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857972515
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334136
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Adds a small hidden storage space in the frame.</p>
       <p>1 inch x 6 inches (2.54cm x 15.24cm)</p>
       <p><strong>DV17 Conceal/Reveal Object</strong> check to discover.</p>

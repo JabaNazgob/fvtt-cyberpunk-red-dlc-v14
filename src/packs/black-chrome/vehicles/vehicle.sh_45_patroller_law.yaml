@@ -1,14 +1,5 @@
 _id: KQw6UltgErhRC89e
 _key: "!items!KQw6UltgErhRC89e"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858759992
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333834
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,7 +19,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>One seat Gyrocopter. Police version, with mounted Machine Gun.</p>
+    value: |
+      <p>One seat Gyrocopter. Police version, with mounted Machine Gun.</p>
   favorite: false
   installedItems:
     allowed: true

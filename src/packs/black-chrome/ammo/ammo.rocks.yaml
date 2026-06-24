@@ -1,14 +1,5 @@
 _id: ZsltnSIORaBm5bh6
 _key: "!items!ZsltnSIORaBm5bh6"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858528591
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333649
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,11 +21,11 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Ammunition that can be used with the Nomad Rocker if of small enough size.
-       Ammunition is considered free and available if small rocks are able to be
-       collected in the area the user is in.
+        Ammunition that can be used with the Nomad Rocker if of small enough size.
+        Ammunition is considered free and available if small rocks are able to be
+        collected in the area the user is in.
       </p>
   favorite: false
   installLocation: mall

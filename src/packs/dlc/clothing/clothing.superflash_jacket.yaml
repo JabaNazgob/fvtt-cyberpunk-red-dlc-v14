@@ -1,14 +1,5 @@
 _id: CJB0sTptAOnLoEfu
 _key: "!items!CJB0sTptAOnLoEfu"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857660728
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333963
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,10 +20,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       A nice jacket carrying a surprise; using an action anyone wearing this jacket
-       can consume a battery to let off a blinding light.
+        A nice jacket carrying a surprise; using an action anyone wearing this jacket
+        can consume a battery to let off a blinding light.
       </p>
   equipped: owned
   favorite: false

@@ -1,14 +1,5 @@
 _id: 5n9vsR9685ti1ffI
 _key: "!items!5n9vsR9685ti1ffI"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858761528
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333833
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,9 +19,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       A one seat Gyrocopter which can be folded to the size of a large suitcase.
+        A one seat Gyrocopter which can be folded to the size of a large suitcase.
       </p>
   favorite: false
   installedItems:

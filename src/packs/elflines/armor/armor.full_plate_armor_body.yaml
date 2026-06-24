@@ -1,14 +1,5 @@
 _id: N2bk4F8YVgALbUH7
 _key: "!items!N2bk4F8YVgALbUH7"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856806237
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334308
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,9 +22,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Metal plated armor to resist the most powerful hits. -4 to REF, DEX, and MOVE.
+        Metal plated armor to resist the most powerful hits. -4 to REF, DEX, and MOVE.
       </p>
   equipped: owned
   favorite: false

@@ -1,14 +1,5 @@
 _id: 0SNhtwJWwKfeSfRu
 _key: "!items!0SNhtwJWwKfeSfRu"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857781203
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334135
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,11 +24,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Protects against the first attack (Asp, Raven, or Poison Flatline effects)
-       that would destroy a random installed Program. This protective effect can be
-       use only once per Netrun even if multiple copies of Snaketrap are installed.
+        Protects against the first attack (Asp, Raven, or Poison Flatline effects)
+        that would destroy a random installed Program. This protective effect can be
+        use only once per Netrun even if multiple copies of Snaketrap are installed.
       </p>
   dvTable: ""
   favorite: false

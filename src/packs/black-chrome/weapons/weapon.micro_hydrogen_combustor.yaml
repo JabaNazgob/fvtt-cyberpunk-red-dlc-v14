@@ -1,14 +1,5 @@
 _id: uyBRdbvnCDcFdO82
 _key: "!items!uyBRdbvnCDcFdO82"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858804195
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333884
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 6d6
   description:
-    value: |-
+    value: |
       <p>
-       A small explosive that detonates after being immersed in a liquid. Is both
-       armor piercing and creates a large cloud of smoke.
+        A small explosive that detonates after being immersed in a liquid. Is both
+        armor piercing and creates a large cloud of smoke.
       </p>
   dvTable: ""
   equipped: owned

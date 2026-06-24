@@ -1,14 +1,5 @@
 _id: U47JzJJylGt7DGaB
 _key: "!items!U47JzJJylGt7DGaB"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858696048
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333778
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,7 +20,8 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: <p>Lubricant in a helpfully sized can.</p>
+    value: |
+      <p>Lubricant in a helpfully sized can.</p>
   equipped: owned
   favorite: false
   installedItems:

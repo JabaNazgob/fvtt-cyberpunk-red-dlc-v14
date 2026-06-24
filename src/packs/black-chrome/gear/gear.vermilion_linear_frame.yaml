@@ -1,14 +1,5 @@
 _id: QE785D3EE383knl6
 _key: "!items!QE785D3EE383knl6"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858698941
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333778
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: ooPd6s81jF5J1lpO
     _key: "!items.effects!QE785D3EE383knl6.ooPd6s81jF5J1lpO"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -74,14 +66,14 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>Exoskeleton.</p>
       <ul>
-       <li>Requires 2 Interface Plugs</li>
-       <li>Increases BODY to 12 while plugged in</li>
-       <li>No changes to your HP or Deathsave</li>
-       <li>No movement penalty for jumping</li>
-       <li>Operates as if paired Skate Feet are installed</li>
+        <li>Requires 2 Interface Plugs</li>
+        <li>Increases BODY to 12 while plugged in</li>
+        <li>No changes to your HP or Deathsave</li>
+        <li>No movement penalty for jumping</li>
+        <li>Operates as if paired Skate Feet are installed</li>
       </ul>
   equipped: owned
   favorite: false

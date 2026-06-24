@@ -1,14 +1,5 @@
 _id: zfpSCTCQTsEBBtVg
 _key: "!items!zfpSCTCQTsEBBtVg"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858806311
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333885
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,11 +25,13 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: |-
+    value: |
       <p>The Militech Mastiff SMG is an Exotic Two-Handed SMG and Shotgun*.</p>
       <p>
-       <em>*Treat this as an SMG with an Underbarrel Shotgun, the upgrade must be
-       added manually.</em>
+        <em
+          >*Treat this as an SMG with an Underbarrel Shotgun, the upgrade must be
+          added manually.</em
+        >
       </p>
   dvTable: DV SMG
   equipped: owned

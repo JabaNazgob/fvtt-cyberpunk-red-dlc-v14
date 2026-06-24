@@ -1,14 +1,5 @@
 _id: RhnvvJ4iS6D88Scz
 _key: "!items!RhnvvJ4iS6D88Scz"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858580525
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333678
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,9 +22,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Light Armorjack made from a Mimic Clothing Kit and "High Fashion" clothing.
+        Light Armorjack made from a Mimic Clothing Kit and "High Fashion" clothing.
       </p>
   equipped: owned
   favorite: false

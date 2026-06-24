@@ -1,14 +1,5 @@
 _id: R3b9aNqHxWIAo4tX
 _key: "!items!R3b9aNqHxWIAo4tX"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858640399
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333735
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: B5UD7QmiTRg3jyFR
     _key: "!items.effects!R3b9aNqHxWIAo4tX.B5UD7QmiTRg3jyFR"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -80,14 +72,14 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <ul>
-       <li>Requires BODY 8, 2 Grafted Muscle and Bone Lace</li>
-       <li>
-       Increases BODY stat to 12 (adjusting your HP, Wound Threshold, and Death
-       Save)
-       </li>
-       <li>Ignores the normal movement penalty for climbing and swimming</li>
+        <li>Requires BODY 8, 2 Grafted Muscle and Bone Lace</li>
+        <li>
+          Increases BODY stat to 12 (adjusting your HP, Wound Threshold, and Death
+          Save)
+        </li>
+        <li>Ignores the normal movement penalty for climbing and swimming</li>
       </ul>
   dvTable: ""
   favorite: false

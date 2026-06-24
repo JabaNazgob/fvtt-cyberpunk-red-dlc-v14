@@ -1,14 +1,5 @@
 _id: hoHJUv9O3dPEZk2m
 _key: "!items!hoHJUv9O3dPEZk2m"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858079611
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334032
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Internal Agent with retractable screen on the user's forearm. Requires a
-       Cyberarm.
+        Internal Agent with retractable screen on the user's forearm. Requires a
+        Cyberarm.
       </p>
   dvTable: ""
   favorite: false

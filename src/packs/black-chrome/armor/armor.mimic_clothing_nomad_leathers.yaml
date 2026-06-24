@@ -1,14 +1,5 @@
 _id: Zp4KJsajg98V6NOv
 _key: "!items!Zp4KJsajg98V6NOv"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858582460
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333678
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,9 +22,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Light Armorjack made from a Mimic Clothing Kit and "Nomad Leathers" clothing.
+        Light Armorjack made from a Mimic Clothing Kit and "Nomad Leathers" clothing.
       </p>
   equipped: owned
   favorite: false

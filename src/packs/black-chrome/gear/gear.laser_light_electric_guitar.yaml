@@ -1,14 +1,5 @@
 _id: GMouAyDuNb6QJ4a4
 _key: "!items!GMouAyDuNb6QJ4a4"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858687316
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333777
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: pXuqlBa6lrqAAf82
     _key: "!items.effects!GMouAyDuNb6QJ4a4.pXuqlBa6lrqAAf82"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -75,11 +67,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Electric Guitar that gives the User a +1 to their Play Instrument (Guitar)
-       Skill Check. This guitar also counts as one installation of Light Tattoo
-       Fashionware while worn.
+        Electric Guitar that gives the User a +1 to their Play Instrument (Guitar)
+        Skill Check. This guitar also counts as one installation of Light Tattoo
+        Fashionware while worn.
       </p>
   equipped: owned
   favorite: false

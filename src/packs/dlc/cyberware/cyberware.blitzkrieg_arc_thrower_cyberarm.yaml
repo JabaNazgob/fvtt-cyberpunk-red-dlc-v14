@@ -1,14 +1,5 @@
 _id: mqxZ6A9U0LhaDwJm
 _key: "!items!mqxZ6A9U0LhaDwJm"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858022264
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334033
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -36,24 +27,24 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       An "arm" in name only, the Arc-Thrower is a massive electricity cannon. 0
-       option slots.
+        An "arm" in name only, the Arc-Thrower is a massive electricity cannon. 0
+        option slots.
       </p>
       <p>
-       The Arc-Thrower is One-Handed Exotic Poor Quality Shotgun that uses Heavy
-       Weapons Skill. Fires "Shotgun Shell" electricity blast with 4d6 damage.
-       Critical Injuries are not possible. Armor is not ablated. If target goes under
-       1HP from the blast, target has 1HP and is Unconscious.
+        The Arc-Thrower is One-Handed Exotic Poor Quality Shotgun that uses Heavy
+        Weapons Skill. Fires "Shotgun Shell" electricity blast with 4d6 damage.
+        Critical Injuries are not possible. Armor is not ablated. If target goes under
+        1HP from the blast, target has 1HP and is Unconscious.
       </p>
       <p>
-       Firing the Arc-Thrower consumes a charge from the included Radline MagnaSlot
-       BatteryBrick (100eb). BatteryBrick has a 32 shot capacity and can be recharged
-       in 1 hour. Use an Action to swap in a fresh battery pack even if user has no
-       free hands available. Arc-Thrower does not have a hand attachment.
+        Firing the Arc-Thrower consumes a charge from the included Radline MagnaSlot
+        BatteryBrick (100eb). BatteryBrick has a 32 shot capacity and can be recharged
+        in 1 hour. Use an Action to swap in a fresh battery pack even if user has no
+        free hands available. Arc-Thrower does not have a hand attachment.
       </p>
-  dvTable: ""
+  dvTable: DV Shotgun (Slug)
   favorite: false
   fireModes:
     autoFire: 0

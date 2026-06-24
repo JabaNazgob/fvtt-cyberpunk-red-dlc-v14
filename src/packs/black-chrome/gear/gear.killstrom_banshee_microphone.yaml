@@ -1,14 +1,5 @@
 _id: seglg544pSg95OjB
 _key: "!items!seglg544pSg95OjB"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858684274
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333779
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: nmfV8HiXPcYsChjv
     _key: "!items.effects!seglg544pSg95OjB.nmfV8HiXPcYsChjv"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -75,11 +67,11 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Wireless Microphone Headset. Gives the User a +2 bonus to Play Instrument
-       (Singing) Skill Checks while worn. Doesn't stack with other bonuses to Play
-       Instrument.
+        Wireless Microphone Headset. Gives the User a +2 bonus to Play Instrument
+        (Singing) Skill Checks while worn. Doesn't stack with other bonuses to Play
+        Instrument.
       </p>
   equipped: owned
   favorite: false

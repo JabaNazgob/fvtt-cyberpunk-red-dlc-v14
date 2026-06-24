@@ -1,14 +1,5 @@
 _id: DH4W3aiKxj7aQA9D
 _key: "!items!DH4W3aiKxj7aQA9D"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858137179
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334097
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: rjfZ3ca2n4Su5tQJ
     _key: "!items.effects!DH4W3aiKxj7aQA9D.rjfZ3ca2n4Su5tQJ"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -73,11 +65,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Smart Drum Sticks. Gives the User a +1 bonus to Play Instrument (Drums)
-       Skill Checks while in use. Doesn't stack with other bonuses to Play
-       Instrument.
+        Smart Drum Sticks. Gives the User a +1 bonus to Play Instrument (Drums) Skill
+        Checks while in use. Doesn't stack with other bonuses to Play Instrument.
       </p>
   equipped: owned
   favorite: false
@@ -96,5 +87,5 @@ system:
   source:
     book: 12DoGear
     page: 2
-  usage: carried
+  usage: equipped
 type: gear

@@ -1,14 +1,5 @@
 _id: hqxjHYkBe9mLzl2B
 _key: "!items!hqxjHYkBe9mLzl2B"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858651111
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333737
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,10 +26,10 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: |-
+    value: |
       <p>
-       Cyberfinger that holds a concealed Exotic Heavy Pistol. Can only be installed
-       on a modular finger cyberhand.
+        Cyberfinger that holds a concealed Exotic Heavy Pistol. Can only be installed
+        on a modular finger cyberhand.
       </p>
   dvTable: DV Pistol
   favorite: false

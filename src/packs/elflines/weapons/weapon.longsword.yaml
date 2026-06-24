@@ -1,14 +1,5 @@
 _id: 9ZQqizz1ulgcqnec
 _key: "!items!9ZQqizz1ulgcqnec"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856817444
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334355
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: |-
+    value: |
       <p>
-       A bladed, hilted weapon. Specifically designed for cutting or thrusting. 2 ROF
-       if wielding two longswords.
+        A bladed, hilted weapon. Specifically designed for cutting or thrusting. 2 ROF
+        if wielding two longswords.
       </p>
   dvTable: ""
   equipped: owned

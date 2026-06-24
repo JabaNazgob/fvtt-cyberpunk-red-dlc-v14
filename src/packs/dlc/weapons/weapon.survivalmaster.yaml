@@ -1,14 +1,5 @@
 _id: 5boGB9jFKUJ9cSMR
 _key: "!items!5boGB9jFKUJ9cSMR"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764854549160
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334245
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: <p>Exotic Assault Rifle, no Autofire, no Suppressive Fire.</p>
+    value: |
+      <p>Exotic Assault Rifle, no Autofire, no Suppressive Fire.</p>
   dvTable: DV Assault Rifle
   equipped: owned
   favorite: false

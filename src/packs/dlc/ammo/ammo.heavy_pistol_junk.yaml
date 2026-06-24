@@ -1,14 +1,5 @@
 _id: 2yCAIxsvTactJtVF
 _key: "!items!2yCAIxsvTactJtVF"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764854458326
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333917
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,9 +21,9 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Junk ammo; cheap but deals 1d6 less damage against anyone with more than 1SP.
+        Junk ammo; cheap but deals 1d6 less damage against anyone with more than 1SP.
       </p>
   favorite: false
   installLocation: mall

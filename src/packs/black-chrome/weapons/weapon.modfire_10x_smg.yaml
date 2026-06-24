@@ -1,14 +1,5 @@
 _id: hRvni7utn2zcjSWH
 _key: "!items!hRvni7utn2zcjSWH"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858812021
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333883
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,15 +25,17 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: |-
+    value: |
       <p>
-       The ModFire 10X is an Exotic Heavy Pistol. Can also be transformed into an
-       Exotic SMG or an Exotic Assault Rifle, assuming the user has all the needed
-       parts*.
+        The ModFire 10X is an Exotic Heavy Pistol. Can also be transformed into an
+        Exotic SMG or an Exotic Assault Rifle, assuming the user has all the needed
+        parts*.
       </p>
       <p>
-       <em>*Each Modfire 10X mode is treated as a separate weapon type, refer to
-       Weapons compendium for Black Chrome.</em>
+        <em
+          >*Each Modfire 10X mode is treated as a separate weapon type, refer to
+          Weapons compendium for Black Chrome.</em
+        >
       </p>
   dvTable: DV SMG
   equipped: owned

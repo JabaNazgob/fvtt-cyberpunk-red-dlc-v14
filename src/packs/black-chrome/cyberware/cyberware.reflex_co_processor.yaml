@@ -1,14 +1,5 @@
 _id: 0z0v50kDAgHvMquv
 _key: "!items!0z0v50kDAgHvMquv"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858654629
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333733
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Neuralware.</p>
       <p>Negates REF requirement to dodge bullets.</p>
   dvTable: ""

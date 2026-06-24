@@ -1,14 +1,5 @@
 _id: iQMwC5XITZSDn4mz
 _key: "!items!iQMwC5XITZSDn4mz"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858629026
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333737
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: 07oWqLTtRifNsjsz
     _key: "!items.effects!iQMwC5XITZSDn4mz.07oWqLTtRifNsjsz"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -80,7 +72,8 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p>Enchances cyberarm articulation. +2 Contortionist.</p>
+    value: |
+      <p>Enchances cyberarm articulation. +2 Contortionist.</p>
   dvTable: ""
   favorite: false
   fireModes:

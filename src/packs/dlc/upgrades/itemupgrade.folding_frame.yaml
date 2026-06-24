@@ -1,14 +1,5 @@
 _id: BMtpB0IpvAp6xon8
 _key: "!items!BMtpB0IpvAp6xon8"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857940504
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334136
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,14 +24,14 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       You can now fold your bike to the size of a large suitcase for easier
-       transport and storage.
+        You can now fold your bike to the size of a large suitcase for easier
+        transport and storage.
       </p>
       <p>
-       Can't install this Upgrade with Enclosure, Reinforced Frame, or Smuggling
-       Compartment upgrades.
+        Can't install this Upgrade with Enclosure, Reinforced Frame, or Smuggling
+        Compartment upgrades.
       </p>
   dvTable: ""
   favorite: false

@@ -1,14 +1,5 @@
 _id: pcQ6FsBuHHIWNDlP
 _key: "!items!pcQ6FsBuHHIWNDlP"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858697003
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333779
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,7 +20,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>Can carry many easily accessible items that YOU need to stay safe.</p>
+    value: |
+      <p>Can carry many easily accessible items that YOU need to stay safe.</p>
   equipped: owned
   favorite: false
   installedItems:

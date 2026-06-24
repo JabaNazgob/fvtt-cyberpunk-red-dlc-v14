@@ -1,14 +1,5 @@
 _id: Kgs5sQHSRjKHZIMN
 _key: "!items!Kgs5sQHSRjKHZIMN"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858074825
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334029
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Embedded retractable Mirrorshades. When activated as an Action, user is immune
-       to negative effects of bright light, such as from flashbangs.
+        Embedded retractable Mirrorshades. When activated as an Action, user is immune
+        to negative effects of bright light, such as from flashbangs.
       </p>
   dvTable: ""
   favorite: false

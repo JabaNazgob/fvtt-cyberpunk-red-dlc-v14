@@ -1,14 +1,5 @@
 _id: rkLqCqLvZ26DyYDz
 _key: "!items!rkLqCqLvZ26DyYDz"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857775018
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334101
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,12 +19,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>Never lose a Program again.</p>
       <p>6 slots for Programs or Hardware.</p>
       <p>
-       Any Program destroyed in a netrunning session is restored upon a safe Jack
-       Out.
+        Any Program destroyed in a netrunning session is restored upon a safe Jack
+        Out.
       </p>
   equipped: owned
   favorite: false

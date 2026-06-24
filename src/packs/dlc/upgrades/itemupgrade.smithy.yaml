@@ -1,14 +1,5 @@
 _id: 4lQ54pxcVlCLKaie
 _key: "!items!4lQ54pxcVlCLKaie"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857779301
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334136
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,15 +24,15 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Be prepared for anything. Enter a NET Architecture full of Black ICE and you
-       don’t have have a Sword Program handy? Swap out your useless Banhammer
-       with the press of a button.
+        Be prepared for anything. Enter a NET Architecture full of Black ICE and you
+        don't have have a Sword Program handy? Swap out your useless Banhammer with
+        the press of a button.
       </p>
       <p>
-       Use Meat Action to change any and all installed Sword Programs into Banhammer
-       Programs or vice versa.
+        Use Meat Action to change any and all installed Sword Programs into Banhammer
+        Programs or vice versa.
       </p>
   dvTable: ""
   favorite: false

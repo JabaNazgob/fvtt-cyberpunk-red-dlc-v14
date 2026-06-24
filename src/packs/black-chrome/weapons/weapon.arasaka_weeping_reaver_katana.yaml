@@ -1,14 +1,5 @@
 _id: Ifp6KgNYeZ0wfKSN
 _key: "!items!Ifp6KgNYeZ0wfKSN"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858788006
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333880
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,13 +24,13 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>Excellent Quality Two Handed Exotic Very Heavy Melee Weapon.</p>
       <p>Contains three doses of specific fluids for blade coating:</p>
       <ul>
-       <li>Arasaka Fire (can ignite target)</li>
-       <li>Arasaka Acid (ablates armor)</li>
-       <li>Arasaka Wound Salt (applies a second critical injury)</li>
+        <li>Arasaka Fire (can ignite target)</li>
+        <li>Arasaka Acid (ablates armor)</li>
+        <li>Arasaka Wound Salt (applies a second critical injury)</li>
       </ul>
   dvTable: ""
   equipped: owned

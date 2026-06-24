@@ -1,14 +1,5 @@
 _id: k4nLy56kpKLTctaO
 _key: "!items!k4nLy56kpKLTctaO"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857726449
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334101
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,12 +19,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
-      <p>Black ICE can’t hit what they can’t catch.</p>
+    value: |
+      <p>Black ICE can't hit what they can't catch.</p>
       <p>7 slots only for Programs.</p>
       <p>
-       Right after Jacking In, Netrunner can activate a maximum of 2 installed Speedy
-       Gonzalvez Programs without a NET Action.
+        Right after Jacking In, Netrunner can activate a maximum of 2 installed Speedy
+        Gonzalvez Programs without a NET Action.
       </p>
   equipped: owned
   favorite: false

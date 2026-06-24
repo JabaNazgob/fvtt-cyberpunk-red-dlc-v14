@@ -1,14 +1,5 @@
 _id: iNxJ842m5FbiSAjs
 _key: "!items!iNxJ842m5FbiSAjs"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858039652
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334032
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: kB6GUQnlCqmGRO71
     _key: "!items.effects!iNxJ842m5FbiSAjs.kB6GUQnlCqmGRO71"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -78,17 +70,17 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Activate as an action to impede signs of life such as heart rate and
-       breathing. To the casual observer, the user appears to be dead. -4 to all
-       Actions in this lethargic state. Can be disabled with an Action. User may
-       experience bluish or pale skin from multiple uses.
+        Activate as an action to impede signs of life such as heart rate and
+        breathing. To the casual observer, the user appears to be dead. -4 to all
+        Actions in this lethargic state. Can be disabled with an Action. User may
+        experience bluish or pale skin from multiple uses.
       </p>
       <p>
-       <strong>DV17 Medical Tech</strong> or
-       <strong>DV21 (Criminology, Deduction, Perception)</strong> Check to discover
-       user is not actually dead.
+        <strong>DV17 Medical Tech</strong> or
+        <strong>DV21 (Criminology, Deduction, Perception)</strong> Check to discover
+        user is not actually dead.
       </p>
   dvTable: ""
   favorite: false

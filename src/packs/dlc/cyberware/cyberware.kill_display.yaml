@@ -1,14 +1,5 @@
 _id: jSq3PCutxWhieWDS
 _key: "!items!jSq3PCutxWhieWDS"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857836625
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334033
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: 1fWLaLfOgxS4KuFZ
     _key: "!items.effects!jSq3PCutxWhieWDS.1fWLaLfOgxS4KuFZ"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -79,12 +71,12 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Subdermal Alphanumeric display that shines clearly through the skin. Use a
-       linked Agent to customize the output. Commonly used as “kill
-       counter.”<br />Qualifies as a Light Tattoo. +2 Wardrobe and Style when
-       the user has 3 or more Light Tattoos.
+        Subdermal Alphanumeric display that shines clearly through the skin. Use a
+        linked Agent to customize the output. Commonly used as "kill counter."<br />Qualifies
+        as a Light Tattoo. +2 Wardrobe and Style when the user has 3 or more Light
+        Tattoos.
       </p>
   dvTable: ""
   favorite: false

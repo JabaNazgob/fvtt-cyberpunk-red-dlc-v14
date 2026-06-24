@@ -1,14 +1,5 @@
 _id: 9diHOp9hSafmHRqC
 _key: "!items!9diHOp9hSafmHRqC"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858507003
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333649
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,10 +21,10 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Coating for Arasaka Weeping Reaver Katana only. Ignites target. Multiple
-       effects do not stack.
+        Coating for Arasaka Weeping Reaver Katana only. Ignites target. Multiple
+        effects do not stack.
       </p>
   favorite: false
   installLocation: mall

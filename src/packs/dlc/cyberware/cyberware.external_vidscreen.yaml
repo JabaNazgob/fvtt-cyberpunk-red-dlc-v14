@@ -1,14 +1,5 @@
 _id: FcOy1Vf6drgZQC9n
 _key: "!items!FcOy1Vf6drgZQC9n"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857833358
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334029
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Implanted flexible video screen. Use a socketed Memory Chip or linked Agent to
-       stream video to Vidscreen.
+        Implanted flexible video screen. Use a socketed Memory Chip or linked Agent to
+        stream video to Vidscreen.
       </p>
   dvTable: ""
   favorite: false

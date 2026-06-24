@@ -1,14 +1,5 @@
 _id: k9wdC3XNapYdQq4m
 _key: "!items!k9wdC3XNapYdQq4m"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858627249
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333737
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Borgware. Requires cyberarm. Comes with 8 cyberfingers*.</p>
       <p>*Fingers must be added after installation</p>
   dvTable: ""

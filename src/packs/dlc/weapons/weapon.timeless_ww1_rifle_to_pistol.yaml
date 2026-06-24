@@ -1,14 +1,5 @@
 _id: 8X8llGr7eUD7KMmP
 _key: "!items!8X8llGr7eUD7KMmP"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764854551211
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334245
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,7 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>Poor Quality Very Heavy Pistol.</p>
       <p>Manual rearming of the bolt between each shot (one Action).</p>
   dvTable: DV Pistol

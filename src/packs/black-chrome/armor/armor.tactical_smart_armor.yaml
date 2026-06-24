@@ -1,14 +1,5 @@
 _id: 5TCY5tMvyCOuzB6l
 _key: "!items!5TCY5tMvyCOuzB6l"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858590715
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333677
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,10 +22,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
+    value: >
       <p>
-       A full set of medium armorjack with integrated smart glasses*. -2 to REF, DEX,
-       and MOVE.
+        A full set of medium armorjack with integrated smart glasses*. -2 to REF, DEX,
+        and MOVE.
       </p>
 
       <p><em>*Smart Glasses must be manually added after acquiring the

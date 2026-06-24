@@ -1,14 +1,5 @@
 _id: 6n9UMTK8mY6yDFB2
 _key: "!items!6n9UMTK8mY6yDFB2"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858661342
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333733
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p>Cyberfinger. Can only be installed on a modular finger cyberhand.</p>
+    value: |
+      <p>Cyberfinger. Can only be installed on a modular finger cyberhand.</p>
   dvTable: ""
   favorite: false
   fireModes:

@@ -1,14 +1,5 @@
 _id: 6uuWSi4tV44EJoPi
 _key: "!items!6uuWSi4tV44EJoPi"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1759592923463
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334028
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,12 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Produces a jammer field over 6m/yd by 6m/yd (3x3 squares). Any wireless
-      transmission attempt must succeed at a <strong>DV13 Electronics/Security
-      Tech</strong> <strong>Check</strong> Action.</p>
+    value: |
+      <p>
+        Produces a jammer field over 6m/yd by 6m/yd (3x3 squares). Any wireless
+        transmission attempt must succeed at a
+        <strong>DV13 Electronics/Security Tech</strong> <strong>Check</strong> Action.
+      </p>
   favorite: false
   fireModes:
     autoFire: 0
@@ -77,4 +70,5 @@ system:
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine
+  weaponSkill: Handgun
 type: cyberware

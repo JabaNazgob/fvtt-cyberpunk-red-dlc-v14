@@ -1,14 +1,5 @@
 _id: YHhTX03AJFe0cS5N
 _key: "!items!YHhTX03AJFe0cS5N"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858175860
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334246
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       When this things shoots, you know about it. If fired by someone with less than
-       10 BODY, this pistol jams. An action is required to unjam it.
+        When this things shoots, you know about it. If fired by someone with less than
+        10 BODY, this pistol jams. An action is required to unjam it.
       </p>
   dvTable: DV Pistol
   equipped: owned

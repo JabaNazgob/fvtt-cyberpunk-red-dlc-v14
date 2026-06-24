@@ -1,14 +1,5 @@
 _id: ZWoM763wXSI3njJA
 _key: "!items!ZWoM763wXSI3njJA"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764855656843
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333942
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,9 +22,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       A scavenged set of Light Armorjack body armor that is unable to be repaired.
+        A scavenged set of Light Armorjack body armor that is unable to be repaired.
       </p>
   equipped: owned
   favorite: false

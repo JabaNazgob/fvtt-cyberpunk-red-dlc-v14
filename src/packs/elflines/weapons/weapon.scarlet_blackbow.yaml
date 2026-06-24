@@ -1,14 +1,5 @@
 _id: nv81kP4MF4lTR7Iw
 _key: "!items!nv81kP4MF4lTR7Iw"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856873679
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334356
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,11 +25,11 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       A revitalized bow that must be reloaded after every attack. If you roll 1 on
-       Attack (Crit fail) the bow's battery pack explodes. Comes bundeled with a
-       Quiver and 6 Rubber Arrows.
+        A revitalized bow that must be reloaded after every attack. If you roll 1 on
+        Attack (Crit fail) the bow's battery pack explodes. Comes bundeled with a
+        Quiver and 6 Rubber Arrows.
       </p>
   dvTable: DV Bows & Crossbows
   equipped: owned

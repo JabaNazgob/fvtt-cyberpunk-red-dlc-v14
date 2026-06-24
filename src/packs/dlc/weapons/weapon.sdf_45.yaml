@@ -1,14 +1,5 @@
 _id: tk2g10vp4EdMXLPK
 _key: "!items!tk2g10vp4EdMXLPK"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858213982
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334250
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,13 +25,13 @@ system:
   critFailEffect: jammed
   damage: 8d6
   description:
-    value: |-
+    value: |
       <p>
-       This rocket launcher can only load Armor-Piercing rockets, and has a maximum
-       range of 400 m/yds. When fired one rocket at a time, the GM chooses where they
-       rockets land. When fired two rockets at a time, the GM chooses where the
-       rockets land but this time up to 50 m/yds away from the target, and with each
-       rocket more than 10 m/yds from each other.
+        This rocket launcher can only load Armor-Piercing rockets, and has a maximum
+        range of 400 m/yds. When fired one rocket at a time, the GM chooses where they
+        rockets land. When fired two rockets at a time, the GM chooses where the
+        rockets land but this time up to 50 m/yds away from the target, and with each
+        rocket more than 10 m/yds from each other.
       </p>
   dvTable: DV Rocket Launcher
   equipped: owned

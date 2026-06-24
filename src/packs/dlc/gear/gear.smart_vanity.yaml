@@ -1,14 +1,5 @@
 _id: bRHD97cVlO7rcie7
 _key: "!items!bRHD97cVlO7rcie7"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764855422055
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334100
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,10 +20,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Smart grooming station. Comes fully equipped with any tools and makeup you'll
-       need.
+        Smart grooming station. Comes fully equipped with any tools and makeup you'll
+        need.
       </p>
   equipped: owned
   favorite: false

@@ -1,14 +1,5 @@
 _id: h8e6qjzoo0JLaNOe
 _key: "!items!h8e6qjzoo0JLaNOe"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857931247
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334139
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,17 +24,17 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Electric motorised system helping to pedal, increasing speed, lowering
-       tiredness.
+        Electric motorised system helping to pedal, increasing speed, lowering
+        tiredness.
       </p>
       <p>
-       Increases the bicycle's Speed (narrative) to the next BODY tier or adds
-       5MPH/8KPH to Speed (narrative) if already at the highest BODY tier.
+        Increases the bicycle's Speed (narrative) to the next BODY tier or adds
+        5MPH/8KPH to Speed (narrative) if already at the highest BODY tier.
       </p>
       <p>
-       Rider get +4 bonus to Endurance Checks to resisting exhaustion when riding.
+        Rider get +4 bonus to Endurance Checks to resisting exhaustion when riding.
       </p>
   dvTable: ""
   favorite: false

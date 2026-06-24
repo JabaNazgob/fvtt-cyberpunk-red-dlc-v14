@@ -1,14 +1,5 @@
 _id: TVgFdyPTl0aVAQz5
 _key: "!items!TVgFdyPTl0aVAQz5"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1758760415166
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334031
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: zFdBYLMaOnE52EMH
     _key: "!items.effects!TVgFdyPTl0aVAQz5.zFdBYLMaOnE52EMH"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.331"
       createdTime: 1758840720027
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: pLIpYgHBYUznkgBy
       modifiedTime: 1759629106266
       systemId: cyberpunk-red-core
@@ -79,9 +71,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Chipware. Each chip is imprinted with a single animal psyche. Provides
-      a +4 to Acting checks to impersonate animal's behavior.</p>
+    value: |
+      <p>
+        Chipware. Each chip is imprinted with a single animal psyche. Provides a +4 to
+        Acting checks to impersonate animal's behavior.
+      </p>
   favorite: false
   fireModes:
     autoFire: 0
@@ -121,4 +115,5 @@ system:
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine
+  weaponSkill: Handgun
 type: cyberware

@@ -1,14 +1,5 @@
 _id: eOYoIDcKCerXeoyb
 _key: "!items!eOYoIDcKCerXeoyb"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858760774
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333834
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,9 +19,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       A High Performance Groundcar which is large, armored and has a military look.
+        A High Performance Groundcar which is large, armored and has a military look.
       </p>
   favorite: false
   installedItems:

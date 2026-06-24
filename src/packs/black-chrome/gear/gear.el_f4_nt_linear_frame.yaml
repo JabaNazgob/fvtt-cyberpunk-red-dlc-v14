@@ -1,14 +1,5 @@
 _id: yK1OjwJXiEvjPnS5
 _key: "!items!yK1OjwJXiEvjPnS5"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858679948
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333779
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: Gf4ERKzJBc62fK3p
     _key: "!items.effects!yK1OjwJXiEvjPnS5.Gf4ERKzJBc62fK3p"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -74,12 +66,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>Exoskeleton.</p>
       <ul>
-       <li>Increases BODY to 12 while equipped</li>
-       <li>Does not affect HP or Deathsave</li>
-       <li>Has pre-installed pair of Techtools</li>
+        <li>Increases BODY to 12 while equipped</li>
+        <li>Does not affect HP or Deathsave</li>
+        <li>Has pre-installed pair of Techtools</li>
       </ul>
   equipped: owned
   favorite: false

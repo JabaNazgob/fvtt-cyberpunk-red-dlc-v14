@@ -1,14 +1,5 @@
 _id: myBn6xsxyEKDcoYc
 _key: "!items!myBn6xsxyEKDcoYc"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764854556586
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334101
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,14 +20,14 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Bodypillow with the image of a famous Solo from the 2020s (such as Morgan
-       Blackhand, BoaBoa Weyland, or Adam Smasher).
+        Bodypillow with the image of a famous Solo from the 2020s (such as Morgan
+        Blackhand, BoaBoa Weyland, or Adam Smasher).
       </p>
       <p>
-       20 inches x 54 inches (50.8 cm x 137.16 cm), except for the Adam Smasher
-       pillow which is considerably larger.
+        20 inches x 54 inches (50.8 cm x 137.16 cm), except for the Adam Smasher
+        pillow which is considerably larger.
       </p>
   equipped: owned
   favorite: false

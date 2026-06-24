@@ -1,14 +1,5 @@
 _id: 0otxxiItP76VGlGt
 _key: "!items!0otxxiItP76VGlGt"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858832812
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333878
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       Armored large stone chisel glove, covering from hand to shoulder. Requires
-       interface plugs. Can be used both for demolition and brawling.
+        Armored large stone chisel glove, covering from hand to shoulder. Requires
+        interface plugs. Can be used both for demolition and brawling.
       </p>
   dvTable: ""
   equipped: owned

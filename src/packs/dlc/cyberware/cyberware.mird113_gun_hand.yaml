@@ -1,14 +1,5 @@
 _id: jUgKtC1UW35ywBY6
 _key: "!items!jUgKtC1UW35ywBY6"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1759521581941
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334033
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,9 +26,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>A hand replacement with each finger housing a concealed gun barrel. An
-      Exotic weapon but able to use non-basic ammo.</p>
+    value: |
+      <p>
+        A hand replacement with each finger housing a concealed gun barrel. An Exotic
+        weapon but able to use non-basic ammo.
+      </p>
   dvTable: DV Pistol
   favorite: false
   fireModes:

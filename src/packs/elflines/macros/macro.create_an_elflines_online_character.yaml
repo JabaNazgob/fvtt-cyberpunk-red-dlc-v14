@@ -1,14 +1,5 @@
 _id: YI3MVPWwjfWK4Woa
 _key: "!macros!YI3MVPWwjfWK4Woa"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856892702
-  duplicateSource: null
-  lastModifiedBy: rRCcEOJu9poJ2EaX
-  modifiedTime: 1764856892702
-  systemId: cyberpunk-red-core
-  systemVersion: v0.92.1
 author: rRCcEOJu9poJ2EaX
 command: >-
   // Set the following to the name of your character to be created

@@ -1,14 +1,5 @@
 _id: gR3ICJgM9CtZnGlr
 _key: "!items!gR3ICJgM9CtZnGlr"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858653809
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333737
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p>Internal cyberware. Grants immunity to whiplash.</p>
+    value: |
+      <p>Internal cyberware. Grants immunity to whiplash.</p>
   dvTable: ""
   favorite: false
   fireModes:

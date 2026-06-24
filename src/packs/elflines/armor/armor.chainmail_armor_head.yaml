@@ -1,14 +1,5 @@
 _id: kZy1Hr5L1oUdY3k8
 _key: "!items!kZy1Hr5L1oUdY3k8"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856802084
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334308
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,10 +22,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Armor made up of innumerable metal rings for your head. -2 to REF, DEX, and
-       MOVE.
+        Armor made up of innumerable metal rings for your head. -2 to REF, DEX, and
+        MOVE.
       </p>
   equipped: owned
   favorite: false

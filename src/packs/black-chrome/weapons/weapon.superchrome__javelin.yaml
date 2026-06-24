@@ -1,14 +1,5 @@
 _id: OHMbhkYy7we5ieIL
 _key: "!items!OHMbhkYy7we5ieIL"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858824496
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333882
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: DyNsjXqBcOOWFdG9
     _key: "!items.effects!OHMbhkYy7we5ieIL.DyNsjXqBcOOWFdG9"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -78,14 +70,16 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       The Superchrome® Javelin is an Exotic Sniper Rifle. Gives the user a +2 bonus
-       to Wardrobe and Style when equipped.
+        The Superchrome® Javelin is an Exotic Sniper Rifle. Gives the user a +2 bonus
+        to Wardrobe and Style when equipped.
       </p>
       <p>
-       <em>*Note: Superchrome effects do not stack and will need to be managed in the
-       Effects tab if multiple Superchrome items are installed.</em>
+        <em
+          >*Note: Superchrome effects do not stack and will need to be managed in the
+          Effects tab if multiple Superchrome items are installed.</em
+        >
       </p>
   dvTable: DV Sniper Rifle
   equipped: owned

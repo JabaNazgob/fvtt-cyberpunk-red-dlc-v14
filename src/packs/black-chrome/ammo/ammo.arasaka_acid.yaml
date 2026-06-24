@@ -1,14 +1,5 @@
 _id: wIMBD44ZU3iJ6jNI
 _key: "!items!wIMBD44ZU3iJ6jNI"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858504600
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333649
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,7 +21,7 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: >-
+    value: >
       <p>Coating for Arasaka Weeping Reaver Katana only. Improves ablation
       effect.</p>
   favorite: false

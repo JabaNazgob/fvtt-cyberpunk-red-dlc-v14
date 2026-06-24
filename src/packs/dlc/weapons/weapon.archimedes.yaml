@@ -1,14 +1,5 @@
 _id: xuffoWmepDctyMhs
 _key: "!items!xuffoWmepDctyMhs"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858198813
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334250
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,11 +26,11 @@ system:
   critFailEffect: jammed
   damage: 8d6
   description:
-    value: |-
+    value: |
       <p>
-       Uses the Pilot Air Vehicle Skill instead of the Heavy Weapons Skill to fire,
-       requires the has Targeting Scope Cyberware, and can only use Smart Rockets. It
-       does come with one Smart Rocket included however. How nice.
+        Uses the Pilot Air Vehicle Skill instead of the Heavy Weapons Skill to fire,
+        requires the has Targeting Scope Cyberware, and can only use Smart Rockets. It
+        does come with one Smart Rocket included however. How nice.
       </p>
   dvTable: DV Rocket Launcher
   equipped: owned

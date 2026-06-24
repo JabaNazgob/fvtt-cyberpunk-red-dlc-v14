@@ -1,14 +1,5 @@
 _id: bg4RE0OZvNBUshSL
 _key: "!items!bg4RE0OZvNBUshSL"
-_stats:
-  compendiumSource: Compendium.cyberpunk-red-core.core_cyberware.Item.aEG91CA3amfU0Q8U
-  coreVersion: "12.343"
-  createdTime: 1766622594268
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1766622594268
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: OYXxOcbgjNEOsE16
     _key: "!items.effects!bg4RE0OZvNBUshSL.OYXxOcbgjNEOsE16"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -83,10 +75,14 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Transform a Cyberleg into a Cyberarm as an action.</p><p><em>-4 MOVE
-      penalty while transformed unless in Zero-G. Cannot install cyberarm
-      upgrades.</em></p>
+    value: |
+      <p>Transform a Cyberleg into a Cyberarm as an action.</p>
+      <p>
+        <em
+          >-4 MOVE penalty while transformed unless in Zero-G. Cannot install cyberarm
+          upgrades.</em
+        >
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

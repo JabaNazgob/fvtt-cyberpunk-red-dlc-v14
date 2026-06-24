@@ -1,14 +1,5 @@
 _id: vBtkLoClI8oQWXLx
 _key: "!items!vBtkLoClI8oQWXLx"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857844267
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334034
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Internal compartment with a high-powered heating element, ideal for warming up
-       pre-packaged meals.
+        Internal compartment with a high-powered heating element, ideal for warming up
+        pre-packaged meals.
       </p>
   dvTable: ""
   favorite: false

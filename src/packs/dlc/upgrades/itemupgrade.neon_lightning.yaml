@@ -1,14 +1,5 @@
 _id: PtsNxe8ZldUu1hRm
 _key: "!items!PtsNxe8ZldUu1hRm"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857963287
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334137
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,11 +24,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Fiber-optic lights on bike's frame and wheels.</p>
       <p>
-       Considered as a Light Tattoo when on or near the bike (gaining +2 Wardrobe
-       &amp; Style bonus)
+        Considered as a Light Tattoo when on or near the bike (gaining +2 Wardrobe
+        &amp; Style bonus)
       </p>
   dvTable: ""
   favorite: false

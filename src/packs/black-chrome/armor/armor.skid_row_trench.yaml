@@ -1,14 +1,5 @@
 _id: xVE36X9aE4m3mRza
 _key: "!items!xVE36X9aE4m3mRza"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858588390
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333679
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,10 +22,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Flak Body Armor that looks like a trench coat in exchange for less protection.
-       -4 to REF, DEX, and MOVE.
+        Flak Body Armor that looks like a trench coat in exchange for less protection.
+        -4 to REF, DEX, and MOVE.
       </p>
   equipped: owned
   favorite: false

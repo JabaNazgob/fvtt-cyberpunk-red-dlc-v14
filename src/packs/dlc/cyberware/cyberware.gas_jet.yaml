@@ -1,14 +1,5 @@
 _id: ELLIHejsxsklkxkC
 _key: "!items!ELLIHejsxsklkxkC"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857431436
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334029
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,19 +25,19 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Cyberarm Option. Takes 2 option slots.</p>
       <p>
-       Gas Jet sprays a burst of 3 doses of a Street Drug or 3 Vials of
-       Poison/Biotoxin into a 3x3 square directly in front of the shooter (similar to
-       Shotgun Shell attack). Can be used one-handed and is virtually undetectable
-       even without a Conceal check.
+        Gas Jet sprays a burst of 3 doses of a Street Drug or 3 Vials of
+        Poison/Biotoxin into a 3x3 square directly in front of the shooter (similar to
+        Shotgun Shell attack). Can be used one-handed and is virtually undetectable
+        even without a Conceal check.
       </p>
       <p>
-       All susceptible targets in range suffer the effects of the drug or poison.
-       Targets equipped with gear that neutralizes gas attacks (Nasal Filters &amp;
-       Anti-Smog Breathing Mask) are not affected. Gas Jet must be loaded with 3 more
-       doses after each shot before firing again.
+        All susceptible targets in range suffer the effects of the drug or poison.
+        Targets equipped with gear that neutralizes gas attacks (Nasal Filters &amp;
+        Anti-Smog Breathing Mask) are not affected. Gas Jet must be loaded with 3 more
+        doses after each shot before firing again.
       </p>
   dvTable: ""
   favorite: false

@@ -1,14 +1,5 @@
 _id: MGWv5ebRm7FzFt9C
 _key: "!items!MGWv5ebRm7FzFt9C"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858812862
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333881
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       The Nomad Rocker is a Poor Quality Exotic Very Heavy Pistol that fires rocks.
-       Ammo is free for this weapon.
+        The Nomad Rocker is a Poor Quality Exotic Very Heavy Pistol that fires rocks.
+        Ammo is free for this weapon.
       </p>
   dvTable: DV Pistol
   equipped: owned

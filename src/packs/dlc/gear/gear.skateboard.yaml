@@ -1,14 +1,5 @@
 _id: 5I7hkCleUNdrgRoI
 _key: "!items!5I7hkCleUNdrgRoI"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857969640
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334097
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,11 +20,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       The coolest wheels around. Increases moment by 4 m/yds when using the Run
-       Action on level or downwards ground. May cause physical tasks to be done at
-       -2.
+        The coolest wheels around. Increases moment by 4 m/yds when using the Run
+        Action on level or downwards ground. May cause physical tasks to be done at
+        -2.
       </p>
   equipped: owned
   favorite: false

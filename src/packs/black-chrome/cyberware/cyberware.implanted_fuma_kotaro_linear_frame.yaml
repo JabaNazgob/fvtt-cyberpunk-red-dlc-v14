@@ -1,14 +1,5 @@
 _id: nH3p5XdyArI2faqK
 _key: "!items!nH3p5XdyArI2faqK"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858639483
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333737
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: 0kAtEuSpu0FoTiwE
     _key: "!items.effects!nH3p5XdyArI2faqK.0kAtEuSpu0FoTiwE"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -80,28 +72,28 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: |-
+    value: |
       <ul>
-       <li>Requires BODY 8, 2 Grafted Muscle and Bone Lace</li>
-       <li>
-       Increases BODY stat to 12 (adjusting your HP, Wound Threshold, and Death
-       Save)
-       </li>
-       <li>Increase Stealth +2</li>
-       <li>Drawing and sheathing the frame's weapons does not require an Action</li>
-       <li>
-       A Conceal check is not required for the weapons concealed in the frame.
-       </li>
-       <li>
-       <p>Frame has one of two weapon options*:</p>
-       <ul>
-       <li>Two excellent quality exotic heavy melee weapons</li>
-       <li>
-       One excellent quality light melee weapon and one excellent quality
-       exotic very heavy melee weapon
-       </li>
-       </ul>
-       </li>
+        <li>Requires BODY 8, 2 Grafted Muscle and Bone Lace</li>
+        <li>
+          Increases BODY stat to 12 (adjusting your HP, Wound Threshold, and Death
+          Save)
+        </li>
+        <li>Increase Stealth +2</li>
+        <li>Drawing and sheathing the frame's weapons does not require an Action</li>
+        <li>
+          A Conceal check is not required for the weapons concealed in the frame.
+        </li>
+        <li>
+          <p>Frame has one of two weapon options*:</p>
+          <ul>
+            <li>Two excellent quality exotic heavy melee weapons</li>
+            <li>
+              One excellent quality light melee weapon and one excellent quality
+              exotic very heavy melee weapon
+            </li>
+          </ul>
+        </li>
       </ul>
       <p><em>* Must be manually added.</em></p>
   dvTable: ""

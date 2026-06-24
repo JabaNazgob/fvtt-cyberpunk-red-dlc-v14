@@ -1,14 +1,5 @@
 _id: NfrakevKusMULu6P
 _key: "!items!NfrakevKusMULu6P"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858631278
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333735
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: AEPyx9yDuDjD5ncB
     _key: "!items.effects!NfrakevKusMULu6P.AEPyx9yDuDjD5ncB"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -80,7 +72,8 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p>Enchances cyberleg articulation. +2 Contortionist.</p>
+    value: |
+      <p>Enchances cyberleg articulation. +2 Contortionist.</p>
   dvTable: ""
   favorite: false
   fireModes:

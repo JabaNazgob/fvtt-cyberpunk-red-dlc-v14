@@ -1,14 +1,5 @@
 _id: cUgtpdroFgBBJGam
 _key: "!items!cUgtpdroFgBBJGam"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858172704
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334247
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: <p>A pistol that fires shotgun shells. What's not to love.</p>
+    value: |
+      <p>A pistol that fires shotgun shells. What's not to love.</p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

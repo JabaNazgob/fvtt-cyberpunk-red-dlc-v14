@@ -1,14 +1,5 @@
 _id: wNBD9RPisrschAMX
 _key: "!items!wNBD9RPisrschAMX"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858105328
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334102
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,11 +25,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Can scan an individual within 2m/yds and provide a list of all installed
-       Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or
-       Unique piece of Cyberware is detected.
+        Can scan an individual within 2m/yds and provide a list of all installed
+        Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or
+        Unique piece of Cyberware is detected.
       </p>
   dvTable: ""
   favorite: false

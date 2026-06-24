@@ -1,14 +1,5 @@
 _id: gbp8WiY21LEcNnif
 _key: "!items!gbp8WiY21LEcNnif"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856876360
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334282
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,10 +21,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Cards meant to be used as part of playing Elfines Online The Trading Card
-       Game.
+        Cards meant to be used as part of playing Elfines Online The Trading Card
+        Game.
       </p>
   favorite: false
   installLocation: mall

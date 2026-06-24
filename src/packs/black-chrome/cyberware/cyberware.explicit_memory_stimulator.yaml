@@ -1,14 +1,5 @@
 _id: VSw96UuPdlXfu7Hy
 _key: "!items!VSw96UuPdlXfu7Hy"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858628110
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333736
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: 7nCq8wHHINN9Rmt7
     _key: "!items.effects!VSw96UuPdlXfu7Hy.7nCq8wHHINN9Rmt7"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -80,7 +72,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Chipware.</p>
       <p>Enhances memorization. +2 Concentration while installed.</p>
   dvTable: ""

@@ -1,14 +1,5 @@
 _id: xJbPj5c7LFu8b5eU
 _key: "!items!xJbPj5c7LFu8b5eU"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858820234
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333884
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,7 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: |-
+    value: |
       <p>Excellent Quality One Handed Exotic Medium Melee Weapon.</p>
       <p>A glove with a short retractable blade.</p>
   dvTable: ""

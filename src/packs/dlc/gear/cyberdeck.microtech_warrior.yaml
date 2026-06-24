@@ -1,14 +1,5 @@
 _id: 6SLvZUo4JER4sFWn
 _key: "!items!6SLvZUo4JER4sFWn"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857762787
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334097
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,11 +19,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>7 Slots only for Programs.</p>
       <p>
-       Netrunner can activate one Armor Program without a NET Action right after
-       Jacking In.
+        Netrunner can activate one Armor Program without a NET Action right after
+        Jacking In.
       </p>
   equipped: owned
   favorite: false

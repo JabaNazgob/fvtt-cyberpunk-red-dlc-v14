@@ -1,14 +1,5 @@
 _id: w1g8ZF7tOuo2gLfr
 _key: "!items!w1g8ZF7tOuo2gLfr"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858636820
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333739
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Internal Cyberware.</p>
       <p>All internal cyberware is not affected by EMP effects.</p>
   dvTable: ""

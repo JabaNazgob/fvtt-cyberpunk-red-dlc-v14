@@ -1,14 +1,5 @@
 _id: XDMhclpr1Elz9CFY
 _key: "!items!XDMhclpr1Elz9CFY"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858576922
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333678
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,7 +22,7 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
+    value: >
       <p>Light Armorjack made from a Mimic Clothing Kit and "Bohemian"
       clothing.</p>
   equipped: owned

@@ -1,14 +1,5 @@
 _id: G52izEikFPz8IftP
 _key: "!items!G52izEikFPz8IftP"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857757809
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334098
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,10 +19,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>5 slots for Programs or Hardware.</p>
       <p>
-       Netrunner can roll Pathfinder without a NET Action right after Jacking In.
+        Netrunner can roll Pathfinder without a NET Action right after Jacking In.
       </p>
   equipped: owned
   favorite: false

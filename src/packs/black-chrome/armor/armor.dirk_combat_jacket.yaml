@@ -1,14 +1,5 @@
 _id: O455ilkzLFqzgtYE
 _key: "!items!O455ilkzLFqzgtYE"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858569720
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333678
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,10 +22,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Leisurewear-styled Light Armorjack and the ability to conceal two standard
-       magazines without a check.
+        Leisurewear-styled Light Armorjack and the ability to conceal two standard
+        magazines without a check.
       </p>
   equipped: owned
   favorite: false

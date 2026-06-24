@@ -1,14 +1,5 @@
 _id: KPSBX2Ns6cj6JC4v
 _key: "!items!KPSBX2Ns6cj6JC4v"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858523874
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333649
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,10 +21,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       A literal explosion of shurikens. Armor Piercing grenade. Each shuriken from
-       explosion deals individual damage.
+        A literal explosion of shurikens. Armor Piercing grenade. Each shuriken from
+        explosion deals individual damage.
       </p>
   favorite: false
   installLocation: mall

@@ -1,14 +1,5 @@
 _id: iaDD8BqMah0gQAkE
 _key: "!items!iaDD8BqMah0gQAkE"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858568888
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333679
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,7 +22,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>Light Armorjack that looks like businesswear.</p>
+    value: |
+      <p>Light Armorjack that looks like businesswear.</p>
   equipped: owned
   favorite: false
   headLocation:

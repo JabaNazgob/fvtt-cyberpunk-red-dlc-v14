@@ -1,14 +1,5 @@
 _id: TCqtHNto4TZa5EPF
 _key: "!items!TCqtHNto4TZa5EPF"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1759590048434
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334138
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,9 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p>Agent App.</p><p>A Pornographic application. Charged monthly</p>
+    value: |
+      <p>Agent App.</p>
+      <p>A Pornographic application. Charged monthly</p>
   favorite: false
   fireModes:
     autoFire: 0
@@ -127,4 +120,5 @@ system:
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine
+  weaponSkill: Handgun
 type: itemUpgrade

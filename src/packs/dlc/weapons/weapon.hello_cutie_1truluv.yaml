@@ -1,14 +1,5 @@
 _id: okVi2Gn9qk8KH7sD
 _key: "!items!okVi2Gn9qk8KH7sD"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764854544354
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334249
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,19 +25,21 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>Exotic Sniper Rifle. Can load non basic ammunition.</p>
       <p>
-       Equipped with a Sniping Scope and Infrared Night Vision Scope*, and built-in
-       Agent which includes a pseudo AI girlfriend who can recognize and talk to the
-       owner.
+        Equipped with a Sniping Scope and Infrared Night Vision Scope*, and built-in
+        Agent which includes a pseudo AI girlfriend who can recognize and talk to the
+        owner.
       </p>
       <p>
-       Take good care of it/her and use it/her regularly and the weapon improves.
-       Neglect it/her and you'll have to apologize...
+        Take good care of it/her and use it/her regularly and the weapon improves.
+        Neglect it/her and you'll have to apologize...
       </p>
       <p>
-       <em>* These upgrades need to be installed manually after adding to an actor<br /></em>
+        <em
+          >* These upgrades need to be installed manually after adding to an actor<br
+        /></em>
       </p>
   dvTable: DV Sniper Rifle
   equipped: owned

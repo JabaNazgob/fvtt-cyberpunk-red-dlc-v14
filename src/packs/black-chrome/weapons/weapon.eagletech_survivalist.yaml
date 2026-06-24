@@ -1,14 +1,5 @@
 _id: 7q61PwpWp0KM6vYb
 _key: "!items!7q61PwpWp0KM6vYb"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858789119
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333879
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       The Eagletech Survivalist is a 2-in-1 Crossbow and Assault RIfle. It is
-       incapable of Autofire. It comes with an integrated Sniping Scope*.
+        The Eagletech Survivalist is a 2-in-1 Crossbow and Assault RIfle. It is
+        incapable of Autofire. It comes with an integrated Sniping Scope*.
       </p>
       <p><em>*Must be manually applied after purchase</em></p>
   dvTable: DV Bows & Crossbows

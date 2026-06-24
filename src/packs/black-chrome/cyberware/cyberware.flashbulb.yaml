@@ -1,14 +1,5 @@
 _id: aGxQy3sWYa5M9bLd
 _key: "!items!aGxQy3sWYa5M9bLd"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858633371
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333736
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: <p>Requires cyberarm. User can attempt to blind anyone within 25m/yds.</p>
+    value: |
+      <p>Requires cyberarm. User can attempt to blind anyone within 25m/yds.</p>
   dvTable: ""
   favorite: false
   fireModes:

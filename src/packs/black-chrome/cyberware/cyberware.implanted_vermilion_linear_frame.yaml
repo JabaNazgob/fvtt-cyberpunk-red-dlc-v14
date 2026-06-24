@@ -1,14 +1,5 @@
 _id: vuq1KEbsMjpOTqhl
 _key: "!items!vuq1KEbsMjpOTqhl"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858641369
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333738
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: n1T1ojrhz0na565t
     _key: "!items.effects!vuq1KEbsMjpOTqhl.n1T1ojrhz0na565t"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -80,15 +72,15 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <ul>
-       <li>Requires BODY 8, 2 Grafted Muscle and Bone Lace</li>
-       <li>
-       Increases BODY stat to 12 (adjusting your HP, Wound Threshold, and Death
-       Save)
-       </li>
-       <li>No movement penalty for jumping</li>
-       <li>Operates as if paired Skate Feet are installed</li>
+        <li>Requires BODY 8, 2 Grafted Muscle and Bone Lace</li>
+        <li>
+          Increases BODY stat to 12 (adjusting your HP, Wound Threshold, and Death
+          Save)
+        </li>
+        <li>No movement penalty for jumping</li>
+        <li>Operates as if paired Skate Feet are installed</li>
       </ul>
   dvTable: ""
   favorite: false

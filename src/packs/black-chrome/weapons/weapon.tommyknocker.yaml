@@ -1,14 +1,5 @@
 _id: 61MgW9KsLYKJVtbA
 _key: "!items!61MgW9KsLYKJVtbA"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858828264
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333879
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,11 +25,11 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       The Tommyknocker is a combo Exotic Very Heavy Pistol and Poor Quality Shotgun.
-       Requires BODY 10 or to be held in two hands when firing, otherwise the user
-       drops the weapon to the ground.
+        The Tommyknocker is a combo Exotic Very Heavy Pistol and Poor Quality Shotgun.
+        Requires BODY 10 or to be held in two hands when firing, otherwise the user
+        drops the weapon to the ground.
       </p>
   dvTable: DV Pistol
   equipped: owned

@@ -1,14 +1,5 @@
 _id: yt1g8o7UtSzkWtwW
 _key: "!items!yt1g8o7UtSzkWtwW"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1759614894899
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333994
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,7 +21,8 @@ system:
     isConcealed: false
   consumed: None
   description:
-    value: <p>One of a number of drinks the Drink Master 5000 can mix</p>
+    value: |
+      <p>One of a number of drinks the Drink Master 5000 can mix</p>
   equipped: owned
   favorite: false
   price:

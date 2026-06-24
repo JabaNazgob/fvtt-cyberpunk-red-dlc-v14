@@ -1,14 +1,5 @@
 _id: 8Az7bJTWSZSK577k
 _key: "!items!8Az7bJTWSZSK577k"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858044207
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334028
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,16 +25,18 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       External Body Cyberware*. 7 SP for head and body.<br />Skinweave armor with
-       advanced self-healing functionality. Billions of nanobots repair all damage to
-       FleshWeave(body and head) armor after 10 minutes of rest. Armor does not
-       stack.
+        External Body Cyberware*. 7 SP for head and body.<br />Skinweave armor with
+        advanced self-healing functionality. Billions of nanobots repair all damage to
+        FleshWeave(body and head) armor after 10 minutes of rest. Armor does not
+        stack.
       </p>
       <p>
-       <em>* Cyberware Armor does not function as armor in the system, please add the
-       "Sycust FleshWeave (Armor)" item to the character/mook to track</em>
+        <em
+          >* Cyberware Armor does not function as armor in the system, please add the
+          "Sycust FleshWeave (Armor)" item to the character/mook to track</em
+        >
       </p>
   dvTable: ""
   favorite: false

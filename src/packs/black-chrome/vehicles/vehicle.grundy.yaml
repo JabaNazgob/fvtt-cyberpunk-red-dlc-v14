@@ -1,14 +1,5 @@
 _id: q1iVXiJtU7rRtseq
 _key: "!items!q1iVXiJtU7rRtseq"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858751233
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333835
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,7 +19,7 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
+    value: >
       <p>Armored industrial looking Compact Grouncar, with a powerful combat
       plow.</p>
   favorite: false

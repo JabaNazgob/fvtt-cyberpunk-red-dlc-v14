@@ -1,14 +1,5 @@
 _id: 398a6e2GP6Vie9Lr
 _key: "!items!398a6e2GP6Vie9Lr"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858799143
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333879
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 6d6
   description:
-    value: <p>Memory chip, but explosive when plugged into Neuralware.</p>
+    value: |
+      <p>Memory chip, but explosive when plugged into Neuralware.</p>
   dvTable: ""
   equipped: owned
   favorite: false

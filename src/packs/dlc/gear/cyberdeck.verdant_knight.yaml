@@ -1,14 +1,5 @@
 _id: omSuV3gSqbIedBhs
 _key: "!items!omSuV3gSqbIedBhs"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857786948
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334101
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,10 +19,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       The classic sword-and-board Cyberdeck build is highly effective against Black
-       ICE. Just don’t plan on going toe-to-toe with a hostile Netrunner.
+        The classic sword-and-board Cyberdeck build is highly effective against Black
+        ICE. Just don't plan on going toe-to-toe with a hostile Netrunner.
       </p>
       <p>9 slots only for Programs.</p>
       <p>Slots only accept Sword or Shield Programs.</p>

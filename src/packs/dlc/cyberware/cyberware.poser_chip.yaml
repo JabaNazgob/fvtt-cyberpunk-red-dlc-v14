@@ -1,14 +1,5 @@
 _id: P19OmJOcdgjhgjLm
 _key: "!items!P19OmJOcdgjhgjLm"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858076354
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334030
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: wCVnIEpRw7zhqmZD
     _key: "!items.effects!P19OmJOcdgjhgjLm.wCVnIEpRw7zhqmZD"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -61,6 +53,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -122,19 +115,19 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Chipware. Allows User to effortlessly mimic speech patterns and mannerisms of
-       a pre-programmed personality. Standard-issue Cyberware for Poser Gangs.
+        Chipware. Allows User to effortlessly mimic speech patterns and mannerisms of
+        a pre-programmed personality. Standard-issue Cyberware for Poser Gangs.
       </p>
       <ul>
-       <li>+4 to Acting Checks when imitating that specific personality.</li>
-       <li>+5 to Acting Checks with convincing Roleplay.</li>
+        <li>+4 to Acting Checks when imitating that specific personality.</li>
+        <li>+5 to Acting Checks with convincing Roleplay.</li>
       </ul>
       <p>
-       Poser Chips programmed with countless hours of celebrity footage cost 500eb.
-       More personalized Poser Chips programmed with 10+ hours of footage of a
-       private individual cost 1000eb.
+        Poser Chips programmed with countless hours of celebrity footage cost 500eb.
+        More personalized Poser Chips programmed with 10+ hours of footage of a
+        private individual cost 1000eb.
       </p>
   dvTable: ""
   favorite: false

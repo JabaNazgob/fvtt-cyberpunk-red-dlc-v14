@@ -1,14 +1,5 @@
 _id: k3up6yJN3q19RqOj
 _key: "!items!k3up6yJN3q19RqOj"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858624143
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333737
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,10 +26,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       A cheap socket for a single installation of chipware. Damage to the head sends
-       the installed chipware 30 m/yds away, potentially breaking it.
+        A cheap socket for a single installation of chipware. Damage to the head sends
+        the installed chipware 30 m/yds away, potentially breaking it.
       </p>
   dvTable: ""
   favorite: false

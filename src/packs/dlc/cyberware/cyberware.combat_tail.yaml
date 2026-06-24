@@ -1,14 +1,5 @@
 _id: VFGaOCbuOSyWbkbJ
 _key: "!items!VFGaOCbuOSyWbkbJ"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857374596
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334031
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: <p>Implanted Heavy Melee Weapon. Requires Neural Link.</p>
+    value: |
+      <p>Implanted Heavy Melee Weapon. Requires Neural Link.</p>
   dvTable: ""
   favorite: false
   fireModes:

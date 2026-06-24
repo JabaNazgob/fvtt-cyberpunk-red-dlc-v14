@@ -1,14 +1,5 @@
 _id: N2JO2RGnXWvrGjGf
 _key: "!items!N2JO2RGnXWvrGjGf"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858799962
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333881
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -36,7 +27,8 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: <p>The KTech TechHammer is an Exotic Shotgun/Rocket Launcher.</p>
+    value: |
+      <p>The KTech TechHammer is an Exotic Shotgun/Rocket Launcher.</p>
   dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false

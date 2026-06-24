@@ -1,14 +1,5 @@
 _id: kwurvxruvvm0VxRI
 _key: "!items!kwurvxruvvm0VxRI"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858787403
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333883
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,11 +25,11 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       The Arasaka Prototype Variable Assault Rifle is an Excellent Quality Exotic
-       Assault Rifle. Assuming you have all the parts, it can use an alternate unique
-       railgun mode.
+        The Arasaka Prototype Variable Assault Rifle is an Excellent Quality Exotic
+        Assault Rifle. Assuming you have all the parts, it can use an alternate unique
+        railgun mode.
       </p>
   dvTable: DV Assault Rifle
   equipped: owned

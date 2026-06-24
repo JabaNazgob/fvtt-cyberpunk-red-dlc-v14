@@ -1,14 +1,5 @@
 _id: ubOjhMgg2hwaZGZy
 _key: "!items!ubOjhMgg2hwaZGZy"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1766435558208
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1766435558208
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: PTF6h6IzRLqq27fc
     _key: "!items.effects!ubOjhMgg2hwaZGZy.PTF6h6IzRLqq27fc"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -69,9 +61,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>A pair of Leage approved quad-skates.</p><p><em>Increases movement by
-      4m/yds when running.</em></p>
+    value: |
+      <p>A pair of Leage approved quad-skates.</p>
+      <p><em>Increases movement by 4m/yds when running.</em></p>
   equipped: owned
   favorite: false
   installedItems:

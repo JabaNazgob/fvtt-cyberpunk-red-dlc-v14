@@ -1,14 +1,5 @@
 _id: EDyAgDm44dFXiBKE
 _key: "!items!EDyAgDm44dFXiBKE"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857427960
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334098
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,11 +20,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       This additive increases the Resist Torture/Drugs DV of Poison or Biotoxin
-       Vials by 2. Mixing multiple Distilling Compounds does not increase Resist
-       Torture/Drugs DV beyond the initial +2.
+        This additive increases the Resist Torture/Drugs DV of Poison or Biotoxin
+        Vials by 2. Mixing multiple Distilling Compounds does not increase Resist
+        Torture/Drugs DV beyond the initial +2.
       </p>
   equipped: owned
   favorite: false

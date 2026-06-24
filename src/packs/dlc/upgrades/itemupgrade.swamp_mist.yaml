@@ -1,14 +1,5 @@
 _id: djaT25YA4Jug9WfX
 _key: "!items!djaT25YA4Jug9WfX"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857783454
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334139
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>Wisp Black ICE deal 2d6 damage instead of 1d6.</p>
       <p>Black ICE Program restrictions: Only Wisps can be installed.</p>
   dvTable: ""

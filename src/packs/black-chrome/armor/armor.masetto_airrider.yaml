@@ -1,14 +1,5 @@
 _id: D4kiUBYevT8JBVz2
 _key: "!items!D4kiUBYevT8JBVz2"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858573740
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333677
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,10 +22,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Kevlar Body Armor that ignores the Whiplash critical injury from car crashes
-       as long as the armor's CO<sub>2</sub> tank is full*.
+        Kevlar Body Armor that ignores the Whiplash critical injury from car crashes
+        as long as the armor's CO<sub>2</sub> tank is full*.
       </p>
       <p><em>*Must be manually added after acquiring the armor.</em></p>
   equipped: owned

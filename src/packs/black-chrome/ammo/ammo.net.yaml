@@ -1,14 +1,5 @@
 _id: etGQrEprF1AboZmt
 _key: "!items!etGQrEprF1AboZmt"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858526632
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333649
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,13 +21,13 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>Net for the net launcher that grapples the target on hit.</p>
       <p>
-       On hit, grapples target. Target can escape with a
-       <strong>DV13 Contortionist Check</strong> (net victim only) or a
-       <strong>DV13 Brawling Check</strong> which can be attempted by anyone. Net can
-       also be destroyed.
+        On hit, grapples target. Target can escape with a
+        <strong>DV13 Contortionist Check</strong> (net victim only) or a
+        <strong>DV13 Brawling Check</strong> which can be attempted by anyone. Net can
+        also be destroyed.
       </p>
   favorite: false
   installLocation: mall

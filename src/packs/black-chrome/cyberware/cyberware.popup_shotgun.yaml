@@ -1,14 +1,5 @@
 _id: A8TUvYw4Ysv7tqpL
 _key: "!items!A8TUvYw4Ysv7tqpL"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858653066
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333734
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -36,10 +27,10 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       A concealable shotgun. Comes with a smartgun link pre-installed*. Can't hold
-       anything with this hand while activated.
+        A concealable shotgun. Comes with a smartgun link pre-installed*. Can't hold
+        anything with this hand while activated.
       </p>
       <p><em>* Smart Link must be manually added.</em></p>
   dvTable: DV Shotgun (Slug)

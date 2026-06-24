@@ -1,14 +1,5 @@
 _id: Zl2vI7SNhP0jFhkl
 _key: "!items!Zl2vI7SNhP0jFhkl"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858577804
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333678
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,9 +22,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Light Armorjack made from a Mimic Clothing Kit and "Businesswear" clothing.
+        Light Armorjack made from a Mimic Clothing Kit and "Businesswear" clothing.
       </p>
   equipped: owned
   favorite: false

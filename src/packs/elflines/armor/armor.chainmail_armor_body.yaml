@@ -1,14 +1,5 @@
 _id: N0XtKbgIohJmwa5R
 _key: "!items!N0XtKbgIohJmwa5R"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856800622
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334307
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,7 +22,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>Armor made up of innumerable metal rings. -2 to REF, DEX, and MOVE.</p>
+    value: |
+      <p>Armor made up of innumerable metal rings. -2 to REF, DEX, and MOVE.</p>
   equipped: owned
   favorite: false
   headLocation:

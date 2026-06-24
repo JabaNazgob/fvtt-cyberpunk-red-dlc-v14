@@ -1,14 +1,5 @@
 _id: zDjspn0R9fgRILpv
 _key: "!items!zDjspn0R9fgRILpv"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764856846082
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334331
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,10 +20,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Ingesting Sacred Herbs immediately heals HP equal to the user's BODY plus
-       their WILL.
+        Ingesting Sacred Herbs immediately heals HP equal to the user's BODY plus
+        their WILL.
       </p>
   equipped: owned
   favorite: false

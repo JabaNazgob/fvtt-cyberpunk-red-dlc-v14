@@ -1,14 +1,5 @@
 _id: Kv5ZtZPYDeTUBv06
 _key: "!items!Kv5ZtZPYDeTUBv06"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858662168
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333734
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p>Can fully repair skinweave or subdermal armor once a day.</p>
+    value: |
+      <p>Can fully repair skinweave or subdermal armor once a day.</p>
   dvTable: ""
   favorite: false
   fireModes:

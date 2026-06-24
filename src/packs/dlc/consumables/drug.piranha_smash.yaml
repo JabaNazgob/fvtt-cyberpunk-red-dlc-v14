@@ -1,14 +1,5 @@
 _id: wAUReVQtYbe3TNSj
 _key: "!items!wAUReVQtYbe3TNSj"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764854618899
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333994
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: Ns4hlbJVhX0j1thK
     _key: "!items.effects!wAUReVQtYbe3TNSj.Ns4hlbJVhX0j1thK"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -101,6 +93,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -199,38 +192,38 @@ system:
     isConcealed: false
   consumed: Piranha Smash Primary
   description:
-    value: |-
+    value: |
       <p>
-       Looks like smash but it's smash with a lime flavor. And a lower risk of
-       addiction.
+        Looks like smash but it's smash with a lime flavor. And a lower risk of
+        addiction.
       </p>
       <p><strong>Primary Effect</strong></p>
       <p>Dose lasts 4 hours.</p>
       <p>
-       The user feels happy and satisfied, receiving a temporary modifier of +2 to
-       the following skills
+        The user feels happy and satisfied, receiving a temporary modifier of +2 to
+        the following skills
       </p>
       <ul>
-       <li>Acting</li>
-       <li>Dance</li>
-       <li>Contortionist</li>
-       <li>Conversation</li>
-       <li>Human Perception</li>
-       <li>Persuasion</li>
+        <li>Acting</li>
+        <li>Dance</li>
+        <li>Contortionist</li>
+        <li>Conversation</li>
+        <li>Human Perception</li>
+        <li>Persuasion</li>
       </ul>
       <p><strong>Secondary Effect (DV9)</strong></p>
       <p>
-       When the dose wears off, the user rolls
-       <strong>WILL + Resist Torture/Drugs + 1d10 against Secondary DV</strong>.
+        When the dose wears off, the user rolls
+        <strong>WILL + Resist Torture/Drugs + 1d10 against Secondary DV</strong>.
       </p>
       <p>If this fails, they take a -2 to the following skills</p>
       <ul>
-       <li>Acting</li>
-       <li>Dance</li>
-       <li>Contortionist</li>
-       <li>Conversation</li>
-       <li>Human Perception</li>
-       <li>Persuasion</li>
+        <li>Acting</li>
+        <li>Dance</li>
+        <li>Contortionist</li>
+        <li>Conversation</li>
+        <li>Human Perception</li>
+        <li>Persuasion</li>
       </ul>
   equipped: owned
   favorite: false

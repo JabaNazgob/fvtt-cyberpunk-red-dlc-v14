@@ -1,14 +1,5 @@
 _id: WyKK67Ii0oOYOS3d
 _key: "!items!WyKK67Ii0oOYOS3d"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857749654
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334099
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,15 +19,15 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Perfect for Netrunners who only know one speed: All offense, all the time.
-       Just don't get hit, it's going to hurt. A lot.
+        Perfect for Netrunners who only know one speed: All offense, all the time.
+        Just don't get hit, it's going to hurt. A lot.
       </p>
       <p>9 slots for Programs or Hardware.</p>
       <p>
-       Slots will not accept Defender Programs. All brain damage from NET combat is
-       doubled.
+        Slots will not accept Defender Programs. All brain damage from NET combat is
+        doubled.
       </p>
   equipped: owned
   favorite: false

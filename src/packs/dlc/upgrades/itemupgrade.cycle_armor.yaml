@@ -1,14 +1,5 @@
 _id: RrWmVcAavS9KFH1T
 _key: "!items!RrWmVcAavS9KFH1T"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857923765
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334138
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
+    value: >
       <p>Bicycle Armored with 7 SP.</p>
 
       <p>Bike first requires the Reinforced Frame upgrade to install this

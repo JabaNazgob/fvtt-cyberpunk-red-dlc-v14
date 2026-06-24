@@ -1,14 +1,5 @@
 _id: eZM7VjirAA4bTsni
 _key: "!items!eZM7VjirAA4bTsni"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858191400
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334248
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,11 +25,11 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: |-
+    value: |
       <p>
-       This SMG can use Autofire and Suppressive Fire all the way down to it's last 2
-       bullets. Caution is required however, as using either firing mode well melt
-       the gun beyond repair.
+        This SMG can use Autofire and Suppressive Fire all the way down to it's last 2
+        bullets. Caution is required however, as using either firing mode well melt
+        the gun beyond repair.
       </p>
   dvTable: DV SMG
   equipped: owned

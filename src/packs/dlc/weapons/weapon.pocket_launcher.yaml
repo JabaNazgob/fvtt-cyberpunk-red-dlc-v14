@@ -1,14 +1,5 @@
 _id: mHKNifoCC2mNhT45
 _key: "!items!mHKNifoCC2mNhT45"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858212750
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334248
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 8d6
   description:
-    value: <p>While unloaded, this weapon can be concealed.</p>
+    value: |
+      <p>While unloaded, this weapon can be concealed.</p>
   dvTable: DV Rocket Launcher
   equipped: owned
   favorite: false

@@ -1,14 +1,5 @@
 _id: ViH7d2nQAg0dLQuD
 _key: "!items!ViH7d2nQAg0dLQuD"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857835238
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334031
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,11 +25,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Projects a small hologram from the User’s palm. User can interact with
-       hologram to control a linked Agent’s functions. Can be installed in meat
-       arm if it’s the only piece of cyberware in that arm.
+        Projects a small hologram from the User's palm. User can interact with
+        hologram to control a linked Agent's functions. Can be installed in meat arm
+        if it's the only piece of cyberware in that arm.
       </p>
   dvTable: ""
   favorite: false

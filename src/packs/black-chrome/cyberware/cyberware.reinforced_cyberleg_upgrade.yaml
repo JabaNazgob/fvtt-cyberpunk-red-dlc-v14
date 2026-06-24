@@ -1,14 +1,5 @@
 _id: XFC4oT7IIWlWDnCI
 _key: "!items!XFC4oT7IIWlWDnCI"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858657888
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333736
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
+    value: >
       <p>Requires cyberleg. The cyberleg this is installed on cannot be
       broken.</p>
   dvTable: ""

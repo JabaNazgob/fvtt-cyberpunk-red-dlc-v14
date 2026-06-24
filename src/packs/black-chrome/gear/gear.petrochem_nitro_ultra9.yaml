@@ -1,14 +1,5 @@
 _id: oMgMhUUI35PyKJ50
 _key: "!items!oMgMhUUI35PyKJ50"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858690467
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333779
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,10 +20,10 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       Can be poured into a Vehicle's tank to refill it as an Action. Gives bonuses
-       to movement at the expense of safety.
+        Can be poured into a Vehicle's tank to refill it as an Action. Gives bonuses
+        to movement at the expense of safety.
       </p>
   equipped: owned
   favorite: false

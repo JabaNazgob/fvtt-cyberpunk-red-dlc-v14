@@ -1,14 +1,5 @@
 _id: 2ea71NL50IBcCcJZ
 _key: "!items!2ea71NL50IBcCcJZ"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857475372
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333989
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: oiotWhajDFYb5QQm
     _key: "!items.effects!2ea71NL50IBcCcJZ.oiotWhajDFYb5QQm"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -114,13 +106,13 @@ system:
     isConcealed: false
   consumed: Veritas Primary
   description:
-    value: |-
+    value: |
       <p>Dose lasts 10 minutes.</p>
       <p>MedTech pharmaceutical.</p>
       <p>
-       Target must make a <strong>DV17 Resist Torture/Drugs</strong> check. On failed
-       check, target suffers -5 to Acting, Concentration, Conversation, Deduction,
-       Human Perception, and Persuasion Checks
+        Target must make a <strong>DV17 Resist Torture/Drugs</strong> check. On failed
+        check, target suffers -5 to Acting, Concentration, Conversation, Deduction,
+        Human Perception, and Persuasion Checks
       </p>
   equipped: owned
   favorite: false

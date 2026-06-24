@@ -1,14 +1,5 @@
 _id: ag2NOC3S5eOUqQRT
 _key: "!items!ag2NOC3S5eOUqQRT"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858624953
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333736
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       Cyberfinger that can be used to conceal two rounds of ammunition of any type.
-       Can only be installed on a modular finger cyberhand.
+        Cyberfinger that can be used to conceal two rounds of ammunition of any type.
+        Can only be installed on a modular finger cyberhand.
       </p>
   dvTable: ""
   favorite: false

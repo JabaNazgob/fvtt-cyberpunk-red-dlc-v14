@@ -1,14 +1,5 @@
 _id: 6PfH7lBjCD2wEZ6M
 _key: "!items!6PfH7lBjCD2wEZ6M"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858642412
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333733
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
+    value: >
       <p>Requires Cyberdeck (Hardwired), adds an extra slot to the
       cyberdeck.</p>
   dvTable: ""

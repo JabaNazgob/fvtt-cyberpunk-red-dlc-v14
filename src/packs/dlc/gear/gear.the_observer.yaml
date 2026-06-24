@@ -1,14 +1,5 @@
 _id: 2PlaTDusjlJvl1aD
 _key: "!items!2PlaTDusjlJvl1aD"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764855297610
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334097
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,7 +20,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>Personal Drone. Flying camera that can be linked to an Agent.</p>
+    value: |
+      <p>Personal Drone. Flying camera that can be linked to an Agent.</p>
   equipped: owned
   favorite: false
   installedItems:

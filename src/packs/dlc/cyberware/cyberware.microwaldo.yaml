@@ -1,14 +1,5 @@
 _id: dd2lvP5sNl3Qp7Qr
 _key: "!items!dd2lvP5sNl3Qp7Qr"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858071948
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334031
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: BqEOeo2lOAM4tOGG
     _key: "!items.effects!dd2lvP5sNl3Qp7Qr.BqEOeo2lOAM4tOGG"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -80,10 +72,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: |-
+    value: |
       <p>
-       A wrist-mounted collection of instruments and probes to facilitate surgery.<br />+1
-       to Medtech Surgery Checks.
+        A wrist-mounted collection of instruments and probes to facilitate surgery.<br />+1
+        to Medtech Surgery Checks.
       </p>
       <p>Takes up 1 Cyberarm Option slot and 1 Neural Link Option slot.</p>
   dvTable: ""

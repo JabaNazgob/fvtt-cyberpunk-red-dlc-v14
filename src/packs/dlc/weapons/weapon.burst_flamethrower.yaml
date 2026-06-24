@@ -1,14 +1,5 @@
 _id: ZvjhbBWnWQQduup0
 _key: "!items!ZvjhbBWnWQQduup0"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858200044
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334247
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,19 +26,21 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       Can only fire Incendiary Shotgun Shells, but targets ignited by this weapon
-       burn for 4HP a turn.
+        Can only fire Incendiary Shotgun Shells, but targets ignited by this weapon
+        burn for 4HP a turn.
       </p>
       <p>
-       Additionally, this weapon can consume all it's remaining ammo to shoot a
-       fireball, which explodes in a similar fashion to an incendiary grenade. The
-       user of the weapon is also consumed by the fireball, getting Deadly on Fire*.
+        Additionally, this weapon can consume all it's remaining ammo to shoot a
+        fireball, which explodes in a similar fashion to an incendiary grenade. The
+        user of the weapon is also consumed by the fireball, getting Deadly on Fire*.
       </p>
       <p>
-       <em>*Special fire mode not currently supported; will need to be manually
-       applied</em>
+        <em
+          >*Special fire mode not currently supported; will need to be manually
+          applied</em
+        >
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned

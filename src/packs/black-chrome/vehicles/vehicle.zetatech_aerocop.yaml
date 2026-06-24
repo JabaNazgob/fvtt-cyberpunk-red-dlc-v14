@@ -1,14 +1,5 @@
 _id: 6I91wpBkczPpDkZt
 _key: "!items!6I91wpBkczPpDkZt"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858768420
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333833
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -28,7 +19,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>AV4 type Aerodyne. Police version.</p>
+    value: |
+      <p>AV4 type Aerodyne. Police version.</p>
   favorite: false
   installedItems:
     allowed: true

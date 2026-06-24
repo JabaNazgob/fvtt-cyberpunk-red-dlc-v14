@@ -1,14 +1,5 @@
 _id: D7TFt1EHP20nKr8S
 _key: "!items!D7TFt1EHP20nKr8S"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1759594810415
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334029
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: E8qjwBDZmIVYcCdw
     _key: "!items.effects!D7TFt1EHP20nKr8S.E8qjwBDZmIVYcCdw"
@@ -17,6 +8,7 @@ effects:
       coreVersion: "12.331"
       createdTime: 1759594935536
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: pLIpYgHBYUznkgBy
       modifiedTime: 1759684951667
       systemId: cyberpunk-red-core
@@ -79,7 +71,8 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p>An eye jammer that scrambles digital optics.</p>
+    value: |
+      <p>An eye jammer that scrambles digital optics.</p>
   favorite: false
   fireModes:
     autoFire: 0
@@ -119,4 +112,5 @@ system:
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine
+  weaponSkill: Handgun
 type: cyberware

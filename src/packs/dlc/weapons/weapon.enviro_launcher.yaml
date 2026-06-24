@@ -1,14 +1,5 @@
 _id: aqyQqrLUiN9iTv3v
 _key: "!items!aqyQqrLUiN9iTv3v"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764858201359
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334247
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,12 +25,12 @@ system:
   critFailEffect: jammed
   damage: 8d6
   description:
-    value: |-
+    value: |
       <p>
-       This specially engineered rocket launcher is only capable of being fired once.
-       However, once it has been fired the user can use an action to break of a vial
-       attached to the launcher, which will release an enzyme that will destroy the
-       launcher totally within an hour.
+        This specially engineered rocket launcher is only capable of being fired once.
+        However, once it has been fired the user can use an action to break of a vial
+        attached to the launcher, which will release an enzyme that will destroy the
+        launcher totally within an hour.
       </p>
   dvTable: DV Rocket Launcher
   equipped: owned

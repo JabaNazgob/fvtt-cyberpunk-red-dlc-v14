@@ -1,14 +1,5 @@
 _id: DP2OBdCL01QtUk1p
 _key: "!items!DP2OBdCL01QtUk1p"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764854477816
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813333917
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,7 +21,8 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: <p>Small game ammo; not great for people. Deals 2d6 less damage.</p>
+    value: |
+      <p>Small game ammo; not great for people. Deals 2d6 less damage.</p>
   favorite: false
   installLocation: mall
   overrides:

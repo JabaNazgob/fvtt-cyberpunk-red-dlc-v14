@@ -1,14 +1,5 @@
 _id: 1Uv3Sr204rM82du8
 _key: "!items!1Uv3Sr204rM82du8"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1764857957678
-  duplicateSource: null
-  lastModifiedBy: 5YFn3II1rTe7RKGq
-  modifiedTime: 1765813334097
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,11 +20,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       They're roller skates baby! Increases moment by 4 m/yds when using the Run
-       Action, though stopping the use of any options in the user's legs. May cause
-       physical tasks to be done at -2.
+        They're roller skates baby! Increases moment by 4 m/yds when using the Run
+        Action, though stopping the use of any options in the user's legs. May cause
+        physical tasks to be done at -2.
       </p>
   equipped: owned
   favorite: false
