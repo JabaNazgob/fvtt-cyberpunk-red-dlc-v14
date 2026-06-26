@@ -2,7 +2,8 @@ _id: JZWQbhT7YjmqZIt6
 _key: "!items!JZWQbhT7YjmqZIt6"
 effects: []
 flags:
-  core: {}
+  core:
+    sourceId: Compendium.cyberpunk-red-core.core_cyberware.Item.O5GmxTYCrrs8uWAd
   scene-packer:
     hash: 57125ab5c54eda891b3a3fd872cbe8473e39f33c
 folder: null
@@ -27,16 +28,16 @@ system:
   description:
     value: |
       <p>
-        External Body Cyberware*. Requires Body 10 or an FBC. Head and Body Armor SP13
-        and recovers 1SP/day. Armor does not stack. Requires BODY 10. Incurs an Armor
-        Penalty of -2 unless the user is in an FBC or has BODY 14.
+        <strong>External Body Borgware</strong> requires BODY 10 or FBC. Protects
+        user's head &amp; body with integrated SP13 armor.
       </p>
-      <p>
-        <em
-          >* Cyberware Armor does not function as armor in the system, please add the
-          "Subdermal Armor" item to the character/mook to track</em
-        >
-      </p>
+      <blockquote>
+        <p>
+          Add
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_armor.Item.kEMGWjMaYcA4rGyJ]{Heavy
+          Subdermal Plating} to track SP
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:
@@ -71,9 +72,9 @@ system:
   rof: 1
   size: 1
   source:
-    book: Core
-    page: 364
-  type: cyberwareExternal
+    book: Going Metal
+    page: 107
+  type: borgware
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine

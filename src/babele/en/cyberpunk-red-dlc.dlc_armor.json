@@ -20,7 +20,7 @@
     },
     "Heavy Subdermal Plating": {
       "name": "Heavy Subdermal Plating",
-      "description": "<p>Armor Item for Subdermal Armor Cyberware.</p>\n"
+      "description": "<p>Armor Item for Subdermal Armor Cyberware.</p>\n<blockquote>\n  <p>Note: Remove -2 armor penalty for users with BODY 14 or FBC</p>\n</blockquote>\n"
     },
     "PackShield": {
       "name": "PackShield",

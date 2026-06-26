@@ -117,7 +117,7 @@
     },
     "Heavy Subdermal Plating": {
       "name": "Heavy Subdermal Plating",
-      "description": "<p>\n  External Body Cyberware*. Requires Body 10 or an FBC. Head and Body Armor SP13\n  and recovers 1SP/day. Armor does not stack. Requires BODY 10. Incurs an Armor\n  Penalty of -2 unless the user is in an FBC or has BODY 14.\n</p>\n<p>\n  <em\n    >* Cyberware Armor does not function as armor in the system, please add the\n    \"Subdermal Armor\" item to the character/mook to track</em\n  >\n</p>\n",
+      "description": "<p>\n  <strong>External Body Borgware</strong> requires BODY 10 or FBC. Protects\n  user's head &amp; body with integrated SP13 armor.\n</p>\n<blockquote>\n  <p>\n    Add\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_armor.Item.kEMGWjMaYcA4rGyJ]{Heavy\n    Subdermal Plating} to track SP\n  </p>\n</blockquote>\n",
       "dvTable": ""
     },
     "Hello Cutie Mono-Paw": {
