@@ -25,6 +25,7 @@ Includes all content from:
 - Mixing Drinks-Saving Lives
 - Must Have Cyberware Deals
 - Night City Tarot
+- Night City Weather
 - Spinning Your Wheels
 - Woodchippers Garage
 

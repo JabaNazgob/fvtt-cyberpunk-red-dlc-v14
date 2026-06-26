@@ -60,7 +60,8 @@
         "dlc_rolltables",
         "dlc_upgrades",
         "dlc_vehicles",
-        "dlc_weapons"
+        "dlc_weapons",
+        "dlc_weather-effects"
       ]
     },
     {
@@ -216,6 +217,14 @@
       "name": "dlc_weapons",
       "label": "Weapons",
       "path": "packs/dlc/weapons",
+      "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_weather-effects",
+      "label": "Weather Effects",
+      "path": "packs/dlc_weather-effects",
       "type": "Item",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
