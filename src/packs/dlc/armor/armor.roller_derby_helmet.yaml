@@ -34,9 +34,9 @@ system:
     list: []
     slots: 0
     usedSlots: 0
-  isBodyLocation: true
+  isBodyLocation: false
   isElectronic: false
-  isHeadLocation: false
+  isHeadLocation: true
   isShield: false
   penalty: 0
   price:
