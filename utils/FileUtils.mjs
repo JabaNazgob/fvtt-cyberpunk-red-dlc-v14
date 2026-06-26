@@ -1,5 +1,6 @@
 import fs from "fs-extra";
 import path from "path";
+import { watch } from "gulp";
 import log from "./logger.mjs";
 
 /**
@@ -7,26 +8,6 @@ import log from "./logger.mjs";
  * handling.
  */
 export class FileUtils {
-  /**
-   * Determines if a file is temporary and should be ignored by watchers.
-   * Filters out editor temp files, backup files, and atomic write
-   * intermediates.
-   *
-   * @static
-   * @param {string} file - File path to check
-   * @param {string[]} patterns - Array of patterns to match against
-   * @returns {boolean} True if file matches any temporary pattern
-   */
-  static isTemporaryFile(file, patterns) {
-    const filename = path.basename(file);
-    return patterns.some((pattern) => {
-      if (pattern.includes(".")) {
-        return filename.includes(pattern);
-      }
-      return filename.endsWith(pattern);
-    });
-  }
-
   /**
    * Writes data to a JSON file with pretty printing. Logs success at debug
    * level and errors at error level.
@@ -144,11 +125,12 @@ export class FileUtils {
    * @param {string} searchPath - The directory path to search
    * @param {string[]} exts - Array of file extensions to search for (with
    *                          or without leading dots)
+   * @param {string[]} [excludeDirs=[]] - Array of directory names/paths to exclude
    * @returns {Promise<string[]>} Array of absolute file paths matching any
    *                              of the provided extensions
    * @throws {Error} If searchPath or exts parameters are not provided
    */
-  static async findFilesByExts(searchPath, exts) {
+  static async findFilesByExts(searchPath, exts, excludeDirs = []) {
     if (!searchPath) {
       throw new Error("searchPath parameter is required");
     }
@@ -166,9 +148,21 @@ export class FileUtils {
 
       for (const entry of entries) {
         const fullPath = path.join(dir, entry.name);
+        const relativePath = path.relative(searchPath, fullPath);
 
         if (entry.isDirectory()) {
-          await search(fullPath);
+          // Skip hidden directories and node_modules
+          if (entry.name.startsWith(".") || entry.name === "node_modules") {
+            continue;
+          }
+          // Skip user-configured excluded directories
+          const isExcluded = excludeDirs.some(
+            (excl) =>
+              relativePath === excl || relativePath.startsWith(excl + path.sep),
+          );
+          if (!isExcluded) {
+            await search(fullPath);
+          }
         } else if (
           entry.isFile() &&
           targetExts.includes(path.extname(entry.name))
@@ -180,5 +174,132 @@ export class FileUtils {
 
     await search(searchPath);
     return files;
+  }
+
+  /**
+   * Copies a file from source to destination, preserving directory structure.
+   * Example: copyFilePreservingStructure("src/foo/bar/baz.js", "src", "dist")
+   *          → creates "dist/foo/bar/baz.js"
+   *
+   * @static
+   * @param {string} file - Absolute path to the source file
+   * @param {string} srcDir - Source directory root
+   * @param {string} destDir - Destination directory root
+   */
+  static copyFilePreservingStructure(file, srcDir, destDir) {
+    const relativePath = path.relative(srcDir, file);
+    const destPath = path.join(destDir, relativePath);
+    fs.ensureDirSync(path.dirname(destPath));
+    fs.copySync(file, destPath);
+  }
+
+  /**
+   * Deletes a file from destination, using relative path from source.
+   * Example: deleteFilePreservingStructure("src/foo/bar/baz.js", "src", "dist")
+   *          → deletes "dist/foo/bar/baz.js"
+   *
+   * @static
+   * @param {string} file - Absolute path to the source file
+   * @param {string} srcDir - Source directory root
+   * @param {string} destDir - Destination directory root
+   */
+  static deleteFilePreservingStructure(file, srcDir, destDir) {
+    const relativePath = path.relative(srcDir, file);
+    const destPath = path.join(destDir, relativePath);
+    if (fs.existsSync(destPath)) {
+      fs.removeSync(destPath);
+    }
+  }
+
+  /**
+   * Creates a file watcher for specified extensions with standard event handling.
+   * Used by both static assets and images watchers.
+   *
+   * @static
+   * @param {Object} options - Watcher options
+   * @param {string} options.srcDir - Source directory to watch
+   * @param {string[]} options.exts - File extensions to watch
+   * @param {string[]} [options.excludeDirs=[]] - Directories to exclude
+   * @param {Function} options.onAdd - Handler for added files (file) => void
+   * @param {Function} options.onChange - Handler for changed files (file) => void
+   * @param {Function} options.onDelete - Handler for deleted files (file) => void
+   * @param {string} options.label - Log label (e.g., "asset", "image")
+   * @returns {FSWatcher} Gulp file watcher
+   */
+  static createExtensionWatcher(options) {
+    const {
+      srcDir,
+      exts,
+      excludeDirs = [],
+      onAdd,
+      onChange,
+      onDelete,
+      label,
+    } = options;
+
+    const srcPattern = exts.map((ext) => path.join(srcDir, `**/*${ext}`));
+    const watcher = watch(srcPattern);
+    const debounceTimers = new Map();
+    const debounceDelay = 50;
+
+    function isExcluded(file) {
+      const relativePath = path.relative(srcDir, file);
+      // Check for hidden directories or node_modules in path
+      const pathParts = relativePath.split(path.sep);
+      if (
+        pathParts.some(
+          (part) => part.startsWith(".") || part === "node_modules",
+        )
+      ) {
+        return true;
+      }
+      // Check user-configured exclusions
+      return excludeDirs.some(
+        (excl) =>
+          relativePath.startsWith(excl + path.sep) || relativePath === excl,
+      );
+    }
+
+    watcher
+      .on("add", (file) => {
+        if (isExcluded(file)) return;
+        const relPath = path.relative(srcDir, file);
+        log.info(`[${label}] Added: ${relPath}`);
+        try {
+          onAdd(file);
+        } catch (e) {
+          log.error(`Failed to process: ${e.message}`);
+        }
+      })
+      .on("change", (file) => {
+        if (isExcluded(file)) return;
+        const relPath = path.relative(srcDir, file);
+        log.info(`[${label}] Changed: ${relPath}`);
+        clearTimeout(debounceTimers.get(file));
+        debounceTimers.set(
+          file,
+          setTimeout(() => {
+            try {
+              onChange(file);
+            } catch (e) {
+              log.error(`Failed to process: ${e.message}`);
+            } finally {
+              debounceTimers.delete(file);
+            }
+          }, debounceDelay),
+        );
+      })
+      .on("unlink", (file) => {
+        if (isExcluded(file)) return;
+        const relPath = path.relative(srcDir, file);
+        log.info(`[${label}] Deleted: ${relPath}`);
+        try {
+          onDelete(file);
+        } catch (e) {
+          log.error(`Failed to delete: ${e.message}`);
+        }
+      });
+
+    return watcher;
   }
 }
