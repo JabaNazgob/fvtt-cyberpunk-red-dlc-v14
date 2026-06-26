@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!dd2lvP5sNl3Qp7Qr.BqEOeo2lOAM4tOGG"
     _stats:
       compendiumSource: null
-      coreVersion: "13.351"
+      coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -14,7 +14,7 @@ effects:
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
     changes:
-      - key: bonuses.surgery
+      - key: bonuses.surgerySkill
         mode: 2
         priority: null
         value: "1"
@@ -38,7 +38,7 @@ effects:
               isSituational: false
               onByDefault: false
     img: >-
-      systems/cyberpunk-red-core/icons/compendium/the_12_days_of_cybermas/raven_microcybernetics_microwaldo.svg
+      modules/cyberpunk-red-dlc/icons/dlc/cyberware/raven_microcybernetics_microwaldo.svg
     name: Raven Microcybernetics MicroWaldo
     origin: null
     sort: 0
