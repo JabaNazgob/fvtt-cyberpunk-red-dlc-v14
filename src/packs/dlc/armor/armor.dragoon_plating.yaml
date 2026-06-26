@@ -2,8 +2,7 @@ _id: 8cIb7t0rAaC64HEt
 _key: "!items!8cIb7t0rAaC64HEt"
 effects: []
 flags:
-  core:
-    sourceId: Compendium.cyberpunk-red-core.core_armor.Item.M96Dfx18YqvhlIgb
+  core: {}
   scene-packer:
     hash: 3f5b6add2830f72cb54f1723377bad9f60753b50
 folder: null

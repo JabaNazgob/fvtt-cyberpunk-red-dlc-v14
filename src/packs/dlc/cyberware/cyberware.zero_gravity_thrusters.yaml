@@ -2,8 +2,7 @@ _id: 9M5ejkYuKFozoro7
 _key: "!items!9M5ejkYuKFozoro7"
 effects: []
 flags:
-  core:
-    sourceId: Compendium.cyberpunk-red-core.core_cyberware.Item.aEG91CA3amfU0Q8U
+  core: {}
   scene-packer:
     hash: cc664b9af47a0aa06fcd7e8940d9266da7bb3b37
 folder: null

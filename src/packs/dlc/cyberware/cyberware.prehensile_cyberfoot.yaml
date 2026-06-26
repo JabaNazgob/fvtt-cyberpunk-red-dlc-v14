@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!bg4RE0OZvNBUshSL.OYXxOcbgjNEOsE16"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -51,8 +51,7 @@ effects:
     transfer: true
     type: base
 flags:
-  core:
-    sourceId: Compendium.cyberpunk-red-core.core_cyberware.Item.aEG91CA3amfU0Q8U
+  core: {}
   scene-packer:
     hash: 486043fce142d484977e02e1d874038a9774bc8a
 folder: null
