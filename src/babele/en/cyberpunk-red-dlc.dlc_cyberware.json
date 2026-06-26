@@ -266,7 +266,7 @@
     },
     "Zero Gravity Thrusters": {
       "name": "Zero Gravity Thrusters",
-      "description": "<p>\n  Negates all penalties related to movement in Zero Gravity. Runs off fuel tanks\n  that cost 100eb, must be replaced after 24 hours of use.\n</p>\n<p>Requires 2 Cyberlegs, and must be paired.</p>\n",
+      "description": "<p>\n  Negates all penalties related to movement in Zero Gravity. Runs off\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.bktOKB09aEQNj9cP]{fuel tanks}\n  that cost 100eb, must be replaced after 24 hours of use.\n</p>\n<p>Requires 2 Cyberlegs, and must be paired.</p>\n",
       "dvTable": ""
     }
   }

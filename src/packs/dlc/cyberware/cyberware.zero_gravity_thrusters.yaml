@@ -2,7 +2,8 @@ _id: 9M5ejkYuKFozoro7
 _key: "!items!9M5ejkYuKFozoro7"
 effects: []
 flags:
-  core: {}
+  core:
+    sourceId: Compendium.cyberpunk-red-core.core_cyberware.Item.aEG91CA3amfU0Q8U
   scene-packer:
     hash: cc664b9af47a0aa06fcd7e8940d9266da7bb3b37
 folder: null
@@ -27,7 +28,8 @@ system:
   description:
     value: |
       <p>
-        Negates all penalties related to movement in Zero Gravity. Runs off fuel tanks
+        Negates all penalties related to movement in Zero Gravity. Runs off
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.bktOKB09aEQNj9cP]{fuel tanks}
         that cost 100eb, must be replaced after 24 hours of use.
       </p>
       <p>Requires 2 Cyberlegs, and must be paired.</p>
