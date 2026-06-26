@@ -1,14 +1,5 @@
 _id: T2ZONCLN6EZmYm8b
 _key: "!items!T2ZONCLN6EZmYm8b"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768587923428
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768587923428
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core: {}
@@ -30,10 +21,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Roll once from
-      @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.xWZowpQzG7fpmoP7]{A
-      Box Covered in Chipped Paint}</p>
+    value: |
+      <p>
+        Roll once from
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.xWZowpQzG7fpmoP7]{A
+        Box Covered in Chipped Paint}
+      </p>
   equipped: owned
   favorite: false
   installedItems:

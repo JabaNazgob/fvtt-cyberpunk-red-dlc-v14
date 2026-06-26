@@ -1,14 +1,5 @@
 _id: e7x9MAbybJSEy09n
 _key: "!items!e7x9MAbybJSEy09n"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768587923428
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768587923428
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,10 +20,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Roll once from
-      @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uq1cseo3a1hAx7Pg]{A
-      Box Bound Tightly in Rope}</p>
+    value: |
+      <p>
+        Roll once from
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uq1cseo3a1hAx7Pg]{A
+        Box Bound Tightly in Rope}
+      </p>
   equipped: owned
   favorite: false
   installedItems:
