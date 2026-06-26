@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!G7KBZHlRtEBGD6JY.g80WDTq4XGjrJgJc"
     _stats:
       compendiumSource: null
-      coreVersion: "13.351"
+      coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -37,8 +37,7 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
-    img: >-
-      systems/cyberpunk-red-core/icons/compendium/black-chrome/rapideploy-sheath.svg
+    img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/rapideploy-sheath.svg
     name: RapiDeploy Sheath
     origin: null
     sort: 0

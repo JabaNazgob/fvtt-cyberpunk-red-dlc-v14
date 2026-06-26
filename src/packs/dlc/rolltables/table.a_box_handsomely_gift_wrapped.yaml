@@ -116,8 +116,7 @@ results:
       Compendium.cyberpunk-red-core.dlc_must-have-cyberware-deals.mTL4ZsBLRd6dO7Hv
     drawn: false
     flags: {}
-    img: >-
-      systems/cyberpunk-red-core/icons/compendium/must_have_cyberware_deals/neutongue.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/neutongue.svg
     name: NeuTongue
     range:
       - 5

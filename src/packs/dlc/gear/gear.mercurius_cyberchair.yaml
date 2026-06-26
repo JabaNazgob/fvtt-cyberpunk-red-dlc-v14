@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!XbKkA6CrI42pvdcz.G7BqXlan9qseMytK"
     _stats:
       compendiumSource: null
-      coreVersion: "13.351"
+      coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -37,7 +37,7 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/cyberchairs/cyberchair.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/cyberchair.svg
     name: Mercurius Cyberchair
     origin: null
     sort: 0

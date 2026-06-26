@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!VSw96UuPdlXfu7Hy.7nCq8wHHINN9Rmt7"
     _stats:
       compendiumSource: null
-      coreVersion: "13.351"
+      coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -38,7 +38,7 @@ effects:
               isSituational: false
               onByDefault: false
     img: >-
-      systems/cyberpunk-red-core/icons/compendium/black-chrome/explicit-memory-stimulator.svg
+      modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/explicit-memory-stimulator.svg
     name: Explicit Memory Stimulator
     origin: null
     sort: 0

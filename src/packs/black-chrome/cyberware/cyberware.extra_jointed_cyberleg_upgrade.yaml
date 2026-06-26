@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!NfrakevKusMULu6P.AEPyx9yDuDjD5ncB"
     _stats:
       compendiumSource: null
-      coreVersion: "13.351"
+      coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -38,7 +38,7 @@ effects:
               isSituational: false
               onByDefault: false
     img: >-
-      systems/cyberpunk-red-core/icons/compendium/black-chrome/extra-joined-cyberleg.svg
+      modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/extra-joined-cyberleg.svg
     name: Extra-Jointed Cyberleg
     origin: null
     sort: 0

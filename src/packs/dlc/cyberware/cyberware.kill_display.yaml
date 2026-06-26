@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!jSq3PCutxWhieWDS.1fWLaLfOgxS4KuFZ"
     _stats:
       compendiumSource: null
-      coreVersion: "13.351"
+      coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -37,8 +37,7 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
-    img: >-
-      systems/cyberpunk-red-core/icons/compendium/must_have_cyberware_deals/kill_display.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/kill_display.svg
     name: Kill Display
     origin: null
     sort: 0
