@@ -1,6 +1,7 @@
 import fs from "fs-extra";
 import path from "path";
 import YAML from "js-yaml";
+import prettier from "prettier";
 import * as FoundryPacks from "@foundryvtt/foundryvtt-cli";
 import { FileUtils } from "./FileUtils.mjs";
 import log from "./logger.mjs";
@@ -241,9 +242,19 @@ export class PackUtils {
       babeleData.entries[entryName] = entry;
     }
 
-    // Trailing newline so the generated file is Prettier-clean (matches what
-    // the en source is checked against).
-    fs.writeFileSync(babelFile, `${JSON.stringify(babeleData, null, 2)}\n`);
+    // Format through Prettier (resolving the consumer's config) so the output
+    // is byte-identical to what the en source is checked against. JSON.stringify
+    // alone diverges on edge cases — e.g. an empty results map serializes as a
+    // multi-line `[\n  {}\n]`, which Prettier collapses to `[{}]`.
+    const prettierOptions = (await prettier.resolveConfig(babelFile)) || {};
+    const formatted = await prettier.format(
+      JSON.stringify(babeleData, null, 2),
+      {
+        ...prettierOptions,
+        parser: "json",
+      },
+    );
+    fs.writeFileSync(babelFile, formatted);
   }
 
   /**
