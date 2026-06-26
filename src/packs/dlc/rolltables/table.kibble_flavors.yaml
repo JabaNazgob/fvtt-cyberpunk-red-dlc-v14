@@ -1,14 +1,5 @@
 _id: wYySmunH9lfLbhN9
 _key: "!tables!wYySmunH9lfLbhN9"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777065071113
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777065071113
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 description: <p>Collecting the Random, pg 14.</p>
 displayRoll: false
 flags: {}
@@ -23,263 +14,463 @@ replacement: true
 results:
   - _id: vMrAfvKwhbIagD1G
     _key: "!tables.results!wYySmunH9lfLbhN9.vMrAfvKwhbIagD1G"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: rlNyStGfm6D2xr5B
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.rlNyStGfm6D2xr5B
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_fizzy.svg
+    name: "Kibble Pack: Fizzy"
     range:
       - 1
       - 5
-    text: "Kibble Pack: Fizzy"
-    type: pack
+    type: document
     weight: 1
   - _id: Tp9ksqRqlLjrVNzE
     _key: "!tables.results!wYySmunH9lfLbhN9.Tp9ksqRqlLjrVNzE"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: 5iSimIMh2IoXsAtN
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.5iSimIMh2IoXsAtN
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_chili-lime.svg
+    name: "Kibble Pack: Chili Lime"
     range:
       - 6
       - 10
-    text: "Kibble Pack: Chili Lime"
-    type: pack
+    type: document
     weight: 1
   - _id: UHAdZWmqZhkUYYpa
     _key: "!tables.results!wYySmunH9lfLbhN9.UHAdZWmqZhkUYYpa"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: DIm8NQiitM1C8GSO
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.DIm8NQiitM1C8GSO
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_protien.svg
+    name: "Kibble Pack: Protein"
     range:
       - 11
       - 15
-    text: "Kibble Pack: Protein"
-    type: pack
+    type: document
     weight: 1
   - _id: atzmTLP8aUJqBxLO
     _key: "!tables.results!wYySmunH9lfLbhN9.atzmTLP8aUJqBxLO"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: 9rzemFBOwDETIw93
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.9rzemFBOwDETIw93
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_sport-flakes.svg
+    name: "Kibble Pack: Sport Flakes"
     range:
       - 16
       - 20
-    text: "Kibble Pack: Sport Flakes"
-    type: pack
+    type: document
     weight: 1
   - _id: En7acY68vSpWvYKW
     _key: "!tables.results!wYySmunH9lfLbhN9.En7acY68vSpWvYKW"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: 3BCAl3FH5WoXoj65
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.3BCAl3FH5WoXoj65
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_extra-fluffly-pancake.svg
+    name: "Kibble Pack: Extra Fluffy Pankcake"
     range:
       - 21
       - 25
-    text: "Kibble Pack: Extra Fluffy Pankcake"
-    type: pack
+    type: document
     weight: 1
   - _id: XiHIawrZFlUVecQs
     _key: "!tables.results!wYySmunH9lfLbhN9.XiHIawrZFlUVecQs"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: kuoDVpjBuTFgANJO
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.kuoDVpjBuTFgANJO
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_sport-mix.svg
+    name: "Kibble Pack: SportMix"
     range:
       - 26
       - 30
-    text: "Kibble Pack: SportMix"
-    type: pack
+    type: document
     weight: 1
   - _id: Zwvrv2xuWow1qdOO
     _key: "!tables.results!wYySmunH9lfLbhN9.Zwvrv2xuWow1qdOO"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: EMxRhM83WT5OW0di
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.EMxRhM83WT5OW0di
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_fruit-fantasy.svg
+    name: "Kibble Pack: Fruit Fantasy"
     range:
       - 31
       - 35
-    text: "Kibble Pack: Fruit Fantasy"
-    type: pack
+    type: document
     weight: 1
   - _id: RFfAdBaX6xZrS98I
     _key: "!tables.results!wYySmunH9lfLbhN9.RFfAdBaX6xZrS98I"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: XCJPLAm2af8g3Qu6
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.XCJPLAm2af8g3Qu6
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_popcorn.svg
+    name: "Kibble Pack: Buttered Popcorn"
     range:
       - 36
       - 40
-    text: "Kibble Pack: Buttered Popcorn"
-    type: pack
+    type: document
     weight: 1
   - _id: 6ai0pr0W3Y2sc0d5
     _key: "!tables.results!wYySmunH9lfLbhN9.6ai0pr0W3Y2sc0d5"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: 8iSPV6k4DDpuQSJ0
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.8iSPV6k4DDpuQSJ0
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_popcorn.svg
+    name: "Kibble Pack: Caramel Crunch Popcorn"
     range:
       - 41
       - 45
-    text: "Kibble Pack: Caramel Crunch Popcorn"
-    type: pack
+    type: document
     weight: 1
   - _id: uZSPGDa8SI8tJVh0
     _key: "!tables.results!wYySmunH9lfLbhN9.uZSPGDa8SI8tJVh0"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: pezF9uxVd5Aw1fdb
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.pezF9uxVd5Aw1fdb
     drawn: false
     flags: {}
     img: >-
       modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_bacon-cheddar-dumpburger.svg
+    name: "Kibble Pack: Bacon Cheddar Dumpburger"
     range:
       - 46
       - 50
-    text: "Kibble Pack: Bacon Cheddar Dumpburger"
-    type: pack
+    type: document
     weight: 1
   - _id: gBD9HPa6ldkSyKla
     _key: "!tables.results!wYySmunH9lfLbhN9.gBD9HPa6ldkSyKla"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: dgNcmxlZpc7axkTM
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.dgNcmxlZpc7axkTM
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_kiwi.svg
+    name: "Kibble Pack: Kiwi"
     range:
       - 51
       - 55
-    text: "Kibble Pack: Kiwi"
-    type: pack
+    type: document
     weight: 1
   - _id: emUgiOGRhVQWurtZ
     _key: "!tables.results!wYySmunH9lfLbhN9.emUgiOGRhVQWurtZ"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: L5KojceTIlU7KBYZ
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.L5KojceTIlU7KBYZ
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_cheese.svg
+    name: "Kibble Pack: Cheese"
     range:
       - 56
       - 60
-    text: "Kibble Pack: Cheese"
-    type: pack
+    type: document
     weight: 1
   - _id: LaWp6agg7nKi2U9U
     _key: "!tables.results!wYySmunH9lfLbhN9.LaWp6agg7nKi2U9U"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: utlIezHCXq9uU94d
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.utlIezHCXq9uU94d
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_lemon-ginger.svg
+    name: "Kibble Pack: Lemon Ginger"
     range:
       - 61
       - 65
-    text: "Kibble Pack: Lemon Ginger"
-    type: pack
+    type: document
     weight: 1
   - _id: pQFCkeGAHkJOmqxo
     _key: "!tables.results!wYySmunH9lfLbhN9.pQFCkeGAHkJOmqxo"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: xU58NmF0JkASSUi1
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.xU58NmF0JkASSUi1
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_aromatic-beef.svg
+    name: "Kibble Pack: Aromatic Beef"
     range:
       - 66
       - 70
-    text: "Kibble Pack: Aromatic Beef"
-    type: pack
+    type: document
     weight: 1
   - _id: EAk4V6jKel6moejt
     _key: "!tables.results!wYySmunH9lfLbhN9.EAk4V6jKel6moejt"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: 8keI3U3DQ6yQ8eey
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.8keI3U3DQ6yQ8eey
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_paprika.svg
+    name: "Kibble Pack: Paprika"
     range:
       - 71
       - 75
-    text: "Kibble Pack: Paprika"
-    type: pack
+    type: document
     weight: 1
   - _id: xscsXanJGH2omFOv
     _key: "!tables.results!wYySmunH9lfLbhN9.xscsXanJGH2omFOv"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: OP7XEHcZCH89bBVS
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.OP7XEHcZCH89bBVS
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_pinaple-pizza.svg
+    name: "Kibble Pack: Pineapple Pizza"
     range:
       - 76
       - 80
-    text: "Kibble Pack: Pineapple Pizza"
-    type: pack
+    type: document
     weight: 1
   - _id: JA5opKSFNaK2jMgx
     _key: "!tables.results!wYySmunH9lfLbhN9.JA5opKSFNaK2jMgx"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: 3ozrdrj4LH5AAS3x
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.3ozrdrj4LH5AAS3x
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_collagen-boost.svg
+    name: "Kibble Pack: Collagen Boost"
     range:
       - 81
       - 85
-    text: "Kibble Pack: Collagen Boost"
-    type: pack
+    type: document
     weight: 1
   - _id: 1DR51kcFbPki2UqQ
     _key: "!tables.results!wYySmunH9lfLbhN9.1DR51kcFbPki2UqQ"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: 254Jzbn6Jz8VDsUK
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.254Jzbn6Jz8VDsUK
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_xxl.svg
+    name: "Kibble Pack: XXL Kibbles"
     range:
       - 86
       - 90
-    text: "Kibble Pack: XXL Kibbles"
-    type: pack
+    type: document
     weight: 1
   - _id: l56lPcChClEF9E3G
     _key: "!tables.results!wYySmunH9lfLbhN9.l56lPcChClEF9E3G"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: XzWgl3I4ZN4fQNnK
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.XzWgl3I4ZN4fQNnK
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_mystery.svg
+    name: "Kibble Pack: Mystery"
     range:
       - 91
       - 95
-    text: "Kibble Pack: Mystery"
-    type: pack
+    type: document
     weight: 1
   - _id: RycNl6ZMRDv1jJf9
     _key: "!tables.results!wYySmunH9lfLbhN9.RycNl6ZMRDv1jJf9"
-    documentCollection: cyberpunk-red-dlc.dlc_gear
-    documentId: 3sPFKPS6uEUUAYgA
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_gear.Item.3sPFKPS6uEUUAYgA
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/kibble_adobo.svg
+    name: "Kibble Pack: Adobo"
     range:
       - 96
       - 100
-    text: "Kibble Pack: Adobo"
-    type: pack
+    type: document
     weight: 1
 sort: 0

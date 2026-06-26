@@ -1,14 +1,5 @@
 _id: XzWgl3I4ZN4fQNnK
 _key: "!items!XzWgl3I4ZN4fQNnK"
-_stats:
-  compendiumSource: Compendium.cyberpunk-red-core.core_gear.Item.YBkdTQgnZDOhRq90
-  coreVersion: "12.343"
-  createdTime: 1777064927369
-  duplicateSource: Item.254Jzbn6Jz8VDsUK
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777065122240
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,10 +20,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>One meal. Which
-      @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.wYySmunH9lfLbhN9]{Kibble
-      Flavor} will it be?</p>
+    value: |
+      <p>
+        One meal. Which
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.wYySmunH9lfLbhN9]{Kibble
+        Flavor} will it be?
+      </p>
   equipped: owned
   favorite: false
   installedItems:

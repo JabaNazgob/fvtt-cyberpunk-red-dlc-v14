@@ -1,14 +1,5 @@
 _id: 8keI3U3DQ6yQ8eey
 _key: "!items!8keI3U3DQ6yQ8eey"
-_stats:
-  compendiumSource: Compendium.cyberpunk-red-core.core_gear.Item.YBkdTQgnZDOhRq90
-  coreVersion: "12.343"
-  createdTime: 1777064927369
-  duplicateSource: Item.xU58NmF0JkASSUi1
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777064927369
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -29,7 +20,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>One meal.</p>
+    value: |
+      <p>One meal.</p>
   equipped: owned
   favorite: false
   installedItems:
