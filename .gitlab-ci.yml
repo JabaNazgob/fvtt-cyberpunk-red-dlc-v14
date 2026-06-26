@@ -25,10 +25,11 @@ include:
     file: "/jobs/test/packs.yml"
     inputs:
       system_repo: "cyberpunk-red-team/fvtt-cyberpunk-red-core"
-      # TEMPORARY: validate against the in-flight schema branch until the
-      # complete-document schema work merges to the system's default branch.
-      # Revert to the manifest-declared version once that lands.
-      system_ref: "ryanw/ci-porting"
+      # TEMPORARY: validate against system `dev`, which now carries the
+      # complete-document schema (merged via core!1537). Remove this override
+      # once the next system release ships, after which packs validate against
+      # the manifest-declared version (src/module.json compatibility.maximum).
+      system_ref: "dev"
 
   # Block manual edits to the vendored cprc-build gulp subtree.
   - project: "cyberpunk-red-team/cprc-cicd"
