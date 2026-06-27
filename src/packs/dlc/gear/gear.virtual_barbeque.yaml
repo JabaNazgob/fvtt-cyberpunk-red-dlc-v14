@@ -1,14 +1,5 @@
 _id: N6y0XcIox6kGvxZy
 _key: "!items!N6y0XcIox6kGvxZy"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768613494975
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768613494975
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core: {}
@@ -35,9 +26,9 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Live the Beaverville dream without the Beaverville
-      pricetag.</p><blockquote><p>Fun for up to 6 players.</p></blockquote>
+    value: |
+      <p>Live the Beaverville dream without the Beaverville pricetag.</p>
+      <blockquote><p>Fun for up to 6 players.</p></blockquote>
   equipped: owned
   favorite: false
   installedItems:

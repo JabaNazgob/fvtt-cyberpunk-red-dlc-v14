@@ -1,14 +1,5 @@
 _id: wkDaWgeQVFXJhdz1
 _key: "!items!wkDaWgeQVFXJhdz1"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768612232139
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768612575091
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core: {}
@@ -35,7 +26,8 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: <p>Now made from real coffee beans! Makes 24 cups.</p>
+    value: |
+      <p>Now made from real coffee beans! Makes 24 cups.</p>
   equipped: owned
   favorite: false
   installedItems:

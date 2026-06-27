@@ -1,14 +1,5 @@
 _id: OuewlDX1XfT8mmGK
 _key: "!items!OuewlDX1XfT8mmGK"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768613359382
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768613359382
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core: {}
@@ -35,9 +26,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Pressure-wash the stress away.</p><blockquote><p>Using this shower
-      deals 1 damage to an unarmored target.</p></blockquote>
+    value: |
+      <p>Pressure-wash the stress away.</p>
+      <blockquote>
+        <p>Using this shower deals 1 damage to an unarmored target.</p>
+      </blockquote>
   equipped: owned
   favorite: false
   installedItems:

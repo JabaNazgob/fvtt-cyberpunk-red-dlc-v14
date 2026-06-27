@@ -1,14 +1,5 @@
 _id: IizzYraJkeh80uML
 _key: "!items!IizzYraJkeh80uML"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768612555785
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768612555785
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core: {}
@@ -35,9 +26,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Transforms bland kibble into a delicious hot meal. (Unflavored Kibble
-      sold separately.)</p>
+    value: |
+      <p>
+        Transforms bland kibble into a delicious hot meal. (Unflavored Kibble sold
+        separately.)
+      </p>
   equipped: owned
   favorite: false
   installedItems:

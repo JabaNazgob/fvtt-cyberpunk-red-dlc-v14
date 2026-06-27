@@ -1,14 +1,5 @@
 _id: ydQ403sJ3s2tKnqY
 _key: "!items!ydQ403sJ3s2tKnqY"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768614687134
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768614811584
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core: {}
@@ -17,7 +8,7 @@ flags:
       current: 37
       previous: "36"
 folder: null
-img: modules/datapool-image-library/icons/furniture-apartment-excellent.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/desirous-decoration.svg
 name: Desirous Decoration Furniture Set
 ownership:
   GSQleko03XTBUGW9: 3
@@ -31,9 +22,11 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: >-
-      <p>This Furniture Set is not just a small collection of art and matching
-      furniture, it's an investment in personal comfort.</p>
+    value: |
+      <p>
+        This Furniture Set is not just a small collection of art and matching
+        furniture, it's an investment in personal comfort.
+      </p>
   equipped: owned
   favorite: false
   installedItems:

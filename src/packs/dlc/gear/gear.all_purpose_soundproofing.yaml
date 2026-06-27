@@ -1,14 +1,5 @@
 _id: tpK0u0yP8UVNRqfM
 _key: "!items!tpK0u0yP8UVNRqfM"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768613270200
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768613301461
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core: {}
@@ -30,15 +21,16 @@ ownership:
 sort: 0
 system:
   amount: 1
-  brand: K-Tech
+  brand: KTech
   concealable:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Enjoy peace and quiet in even the loudest
-      neighborhood.</p><blockquote><p>Does not prevent Amplified Hearing
-      cyberware from eavesdropping.</p></blockquote>
+    value: |
+      <p>Enjoy peace and quiet in even the loudest neighborhood.</p>
+      <blockquote>
+        <p>Does not prevent Amplified Hearing cyberware from eavesdropping.</p>
+      </blockquote>
   equipped: owned
   favorite: false
   installedItems:

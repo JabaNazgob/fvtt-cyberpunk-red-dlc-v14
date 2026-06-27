@@ -1,14 +1,5 @@
 _id: quOaTomjQ0D2w0iP
 _key: "!items!quOaTomjQ0D2w0iP"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768614686225
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768614806150
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core: {}
@@ -17,7 +8,7 @@ flags:
       current: 37
       previous: "36"
 folder: null
-img: modules/datapool-image-library/icons/furniture-apartment-poor.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/creative-couture.svg
 name: Creative Couture Furniture Set
 ownership:
   GSQleko03XTBUGW9: 3
@@ -31,9 +22,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Furnished with military surplus gear and recycled materials. The bare
-      minimum needed to furnish your apartment.</p>
+    value: |
+      <p>
+        Furnished with military surplus gear and recycled materials. The bare minimum
+        needed to furnish your apartment.
+      </p>
   equipped: owned
   favorite: false
   installedItems:
