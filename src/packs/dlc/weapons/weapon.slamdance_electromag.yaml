@@ -17,7 +17,7 @@ system:
   ammoVariety:
     - custom
   attackmod: 0
-  brand: SlamDance
+  brand: Slamdance Inc.
   canIgnoreArmor: false
   concealable:
     concealable: false

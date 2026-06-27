@@ -111,6 +111,11 @@
       "description": "<p>\n  Can only fire Incendiary Shotgun Shells, but targets ignited by this weapon\n  burn for 4HP a turn.\n</p>\n<p>\n  Additionally, this weapon can consume all it's remaining ammo to shoot a\n  fireball, which explodes in a similar fashion to an incendiary grenade. The\n  user of the weapon is also consumed by the fireball, getting Deadly on Fire*.\n</p>\n<p>\n  <em\n    >*Special fire mode not currently supported; will need to be manually\n    applied</em\n  >\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
+    "Captain Cuddlefish Ultra Snag-Em": {
+      "name": "Captain Cuddlefish Ultra Snag-Em",
+      "description": "<p>\n  <strong>Exotic Light Melee Weapon</strong> Buy and equip collectible outfits\n  for your Captain Cuddlefish! (Sold separately.)\n</p>\n<blockquote>\n  <p>\n    Able to make melee attacks up to 10 m/yds away. Grants a +2 bonus to aimed\n    shots against held items when using this weapon.\n  </p>\n</blockquote>\n",
+      "dvTable": "DV Thrown Weapon"
+    },
     "Chadran Arms City Reaper": {
       "name": "Chadran Arms City Reaper",
       "description": "<p>\n  A heavy SMG. Due to its size it can't be concealed. If you roll 1 on Attack\n  (Crit fail) the gun jams and requires using an action to clear.\n</p>\n",
@@ -326,6 +331,16 @@
       "description": "<p>Exotic Sniper Rifle. Can load non basic ammunition.</p>\n<p>\n  Equipped with a Sniping Scope and Infrared Night Vision Scope*, and built-in\n  Agent which includes a pseudo AI girlfriend who can recognize and talk to the\n  owner.\n</p>\n<p>\n  Take good care of it/her and use it/her regularly and the weapon improves.\n  Neglect it/her and you'll have to apologize...\n</p>\n<p>\n  <em\n    >* These upgrades need to be installed manually after adding to an actor<br\n  /></em>\n</p>\n",
       "dvTable": "DV Sniper Rifle"
     },
+    "Hello Cutie Fisher Kitty": {
+      "name": "Hello Cutie Fisher Kitty",
+      "description": "<p>\n  <strong>Exotic Heavy Pistol (50m/yd Max Range)</strong> Fires mini-harpoons\n  that cannot cause critcal injuries. Each mini-harpoon sticks to its target\n  regardless of damage dealt, and removing a mini-harpoon takes 1 Action. All\n  retractable mini-harpoons are dislodged and recovered when using an action to\n  reloading the weapon.\n</p>\n<blockquote>\n  <p>\n    The user may use an action to electrify the cables connected to each\n    mini-harpoon and deal [[/r 2d6#Electric Damage (Ignores Armor)]] damage\n    directly to any connected target's HP. If a target is connected by 3 or more\n    mini-harpoons they take [[/r 3d6#Electric Damage (Ignores Armor)]] damage\n    instead.\n  </p>\n</blockquote>\n",
+      "dvTable": "DV Bows & Crossbows"
+    },
+    "Hello Cutie Gun-Gun Friend-Friend": {
+      "name": "Hello Cutie Gun-Gun Friend-Friend",
+      "description": "<p>\n  <strong>Excellent Quality Assault Rifle</strong> that can conceal another\n  one-handed gun inside Gun-Gun Friend-Friend's frame as an action*. Contains\n  two available upgrade slots that do not affect the concealed weapon.\n</p>\n<p>\n  *Currently unsupported, make a note on any weapon you \"install\" into this gun.\n</p>\n",
+      "dvTable": "DV Assault Rifle"
+    },
     "Hello Cutie Happy Dancer": {
       "name": "Hello Cutie Happy Dancer",
       "description": "<p>A heavy SMG. Due to its size it can't be concealed. +1 to Attack.</p>\n",
@@ -335,6 +350,31 @@
       "name": "Hello Cutie Hidden Cougar",
       "description": "<p>\n  A concealable heavy SMG. +1 to Attack. Incompatible with any magazine\n  upgrades.\n</p>\n",
       "dvTable": "DV SMG"
+    },
+    "Hello Cutie Hypurr-Hammer": {
+      "name": "Hello Cutie Hypurr-Hammer",
+      "description": "<p>\n  <strong>Two-Handed Very Heavy Melee Weapon</strong> requires BODY 9 or higher\n  to wield effectively. Comes in 4 styles: Bengal, Egyptian Mau, Sphinx, and\n  Ussuri.\n</p>\n<blockquote>\n  <ul>\n    <li><p>Does not halve SP like normal melee weapons.</p></li>\n    <li>\n      <p>\n        User rolls twice and chooses the outcome when determining critical\n        injuries.\n      </p>\n    </li>\n    <li><p>Users with Body 8 or less deal 1d6 less damage.</p></li>\n  </ul>\n</blockquote>\n",
+      "dvTable": ""
+    },
+    "Hello Cutie Janus Hex": {
+      "name": "Hello Cutie Janus Hex",
+      "description": "<p>\n  <strong>Excellent Quality Very Heavy Pistol</strong> that shoots proprietary\n  Scent Balls. Incompatible with all magazine upgrades.\n</p>\n<blockquote>\n  <p>\n    Targets with meat eyes must suffer -3 penalty to ranged attack and\n    perception checks unless they succeed a\n    <strong>DV 15 Resist Drugs/Torture check</strong>, in which case the penalty\n    is reduced by 2.\n  </p>\n</blockquote>\n",
+      "dvTable": "DV Pistol"
+    },
+    "Hello Cutie Modball Gun": {
+      "name": "Hello Cutie Modball Gun",
+      "description": "<p>\n  <strong>Medium Pistol</strong> that shoots ModBalls. Incompatible with\n  magazine upgrades.\n</p>\n<blockquote>\n  <p>\n    ModBall ammo can be purchased or created with a ModBall Construction Kit.\n  </p>\n</blockquote>\n",
+      "dvTable": "DV Pistol"
+    },
+    "Hello Cutie My Friend The Ocelot": {
+      "name": "Hello Cutie My Friend The Ocelot",
+      "description": "<p>\n  <strong>Excellent Quality Shotgun</strong> that has an alternate SMG style\n  auto fire mode*.\n</p>\n<blockquote>\n  <p>Uses only Shotgun Slug Ammunition, cannot install magazine upgrades.</p>\n</blockquote>\n<p>*Alternate weapon fire modes are currently not supported.</p>\n",
+      "dvTable": "DV Shotgun (Slug)"
+    },
+    "Hello Cutie Thundercat Bat": {
+      "name": "Hello Cutie Thundercat Bat",
+      "description": "<p>\n  <strong>Excellent Quality Exotic Two-handed Medium Melee Weapon</strong> Comes\n  with an integrated speaker that plays beloved baseball sound effects.\n</p>\n<blockquote>\n  <ul>\n    <li>\n      <p>\n        Both user and target suffer the\n        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qRkCxq0KTuBnw2wj]{Damaged\n        Ear} critical injury if they fail a\n        <strong>DV15 Resist Torture/Drugs Check.</strong>\n      </p>\n    </li>\n    <li>\n      <p>\n        Target is knocked unconscious if damage dealt would reduce them to under\n        1 HP. Doesn't cause Critical Injuries or ablate armor.\n      </p>\n    </li>\n  </ul>\n</blockquote>\n",
+      "dvTable": ""
     },
     "IMI UZ 2045 Pro": {
       "name": "IMI UZ 2045 Pro",
