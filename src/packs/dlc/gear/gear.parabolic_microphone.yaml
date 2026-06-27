@@ -1,14 +1,5 @@
 _id: zrHcEmuNtABJGLeu
 _key: "!items!zrHcEmuNtABJGLeu"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769120214784
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1769120214784
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -25,9 +16,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>A handheld microphone that allows the user to amplify sounds up to
-      30m/yds away.</p>
+    value: |
+      <p>
+        A handheld microphone that allows the user to amplify sounds up to 30m/yds
+        away.
+      </p>
   equipped: owned
   favorite: false
   installedItems:

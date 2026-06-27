@@ -1,14 +1,5 @@
 _id: 3wSNPvr9ivgiblPE
 _key: "!items!3wSNPvr9ivgiblPE"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769120214784
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1769120214784
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -25,12 +16,20 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: >-
-      <p>A double-syringe that contains a pair of corrosive chemicals capable of
-      eating through solid objects.</p><blockquote><p>Requires 2 rounds to apply
-      Binary Compound to a 2m/yd<sup>2</sup> surface.</p><p>Binary Compound
-      remains chemically active for 6 rounds, dealing [[/r 6d6 #Binary Compound
-      Damage]] damage per round.</p></blockquote>
+    value: |
+      <p>
+        A double-syringe that contains a pair of corrosive chemicals capable of eating
+        through solid objects.
+      </p>
+      <blockquote>
+        <p>
+          Requires 2 rounds to apply Binary Compound to a 2m/yd<sup>2</sup> surface.
+        </p>
+        <p>
+          Binary Compound remains chemically active for 6 rounds, dealing [[/r 6d6
+          #Binary Compound Damage]] damage per round.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   installedItems:

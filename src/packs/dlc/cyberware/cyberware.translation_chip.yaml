@@ -1,14 +1,5 @@
 _id: w39jqniP5uo2sVHY
 _key: "!items!w39jqniP5uo2sVHY"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769120185106
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1769120185106
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -25,7 +16,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Raven Microcyb
+  brand: Raven Microcybernetics
   canIgnoreArmor: true
   concealable:
     concealable: true
@@ -34,10 +25,14 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Chipware, Requires Chyron:</strong> Provides subtitles for both
-      spoken and written language in real time.</p><blockquote><p>Does not allow
-      the user to speak any new languages.</p></blockquote>
+    value: |
+      <p>
+        <strong>Chipware, Requires Chyron:</strong> Provides subtitles for both spoken
+        and written language in real time.
+      </p>
+      <blockquote>
+        <p>Does not allow the user to speak any new languages.</p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

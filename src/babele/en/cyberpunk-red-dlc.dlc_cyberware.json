@@ -262,7 +262,8 @@
     },
     "Translation Chip": {
       "name": "Translation Chip",
-      "description": "<p><strong>Chipware, Requires Chyron:</strong> Provides subtitles for both spoken and written language in real time.</p><blockquote><p>Does not allow the user to speak any new languages.</p></blockquote>"
+      "description": "<p>\n  <strong>Chipware, Requires Chyron:</strong> Provides subtitles for both spoken\n  and written language in real time.\n</p>\n<blockquote>\n  <p>Does not allow the user to speak any new languages.</p>\n</blockquote>\n",
+      "dvTable": ""
     },
     "VIC Jammer": {
       "name": "VIC Jammer",

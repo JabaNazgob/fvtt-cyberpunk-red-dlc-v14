@@ -1,14 +1,5 @@
 _id: Fp8DIZUbleRVEVZh
 _key: "!items!Fp8DIZUbleRVEVZh"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769120238108
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1769120238108
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,11 +20,17 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>App</strong> Use your agent to scan an eye, requires a camera
-      or MicroVideo upgrade.</p><blockquote><p>Copying a retinal patern takes 5
-      rounds and may require a number of DV13 Brawling Checks to restrain an
-      unwilling subject.</p></blockquote>
+    value: |
+      <p>
+        <strong>App</strong> Use your agent to scan an eye, requires a camera or
+        MicroVideo upgrade.
+      </p>
+      <blockquote>
+        <p>
+          Copying a retinal patern takes 5 rounds and may require a number of DV13
+          Brawling Checks to restrain an unwilling subject.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

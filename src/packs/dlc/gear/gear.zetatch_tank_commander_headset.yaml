@@ -1,14 +1,5 @@
 _id: XEK7G9rFcgswq9Ke
 _key: "!items!XEK7G9rFcgswq9Ke"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769120214784
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1769120214784
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -25,7 +16,7 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
+    value: >
       <p>Radio headset with throat mic and earbud perfect for covert
       operations.</p>
   equipped: owned

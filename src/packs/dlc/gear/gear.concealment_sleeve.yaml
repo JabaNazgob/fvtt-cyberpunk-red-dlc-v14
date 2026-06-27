@@ -1,14 +1,5 @@
 _id: drIcFf5Fn5aWRZNl
 _key: "!items!drIcFf5Fn5aWRZNl"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769120214784
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1769120214784
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -25,12 +16,18 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: >-
-      <p><strong>Very Expensive</strong> custom fitted RealSkinn™ sleeve made
-      just for you.</p><blockquote><p>All cyberware installed into this limb
-      becomes undetectable by
-      @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.JMYvZfk6ZBgt6tK0]{Cyberscanners}
-      and unusable until the sleeve is removed.</p></blockquote>
+    value: |
+      <p>
+        <strong>Very Expensive</strong> custom fitted RealSkinn™ sleeve made just for
+        you.
+      </p>
+      <blockquote>
+        <p>
+          All cyberware installed into this limb becomes undetectable by
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.JMYvZfk6ZBgt6tK0]{Cyberscanners}
+          and unusable until the sleeve is removed.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   installedItems:

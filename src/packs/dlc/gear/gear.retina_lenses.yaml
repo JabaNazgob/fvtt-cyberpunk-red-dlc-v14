@@ -1,14 +1,5 @@
 _id: Zhzd8zCuEb2sdgQ6
 _key: "!items!Zhzd8zCuEb2sdgQ6"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769120214784
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1769120214784
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -25,11 +16,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>A fabricated lens imprinted with a copy of somebody's retinal patterns.
-      You must provide the Techie with a valid retinal pattern prior to
-      fabrication.</p><blockquote><p>Capable of fooling Retinal
-      Scanners.</p></blockquote>
+    value: |
+      <p>
+        A fabricated lens imprinted with a copy of somebody's retinal patterns. You
+        must provide the Techie with a valid retinal pattern prior to fabrication.
+      </p>
+      <blockquote><p>Capable of fooling Retinal Scanners.</p></blockquote>
   equipped: owned
   favorite: false
   installedItems:

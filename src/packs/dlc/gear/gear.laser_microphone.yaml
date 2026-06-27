@@ -1,14 +1,5 @@
 _id: 1HFggpUoc6JFprWX
 _key: "!items!1HFggpUoc6JFprWX"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769120214784
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1769120214784
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -25,11 +16,15 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>An invisible laser allows the user to measure vibrations and eavesdrop
-      through glass windows up to 300m/yds away.</p><blockquote><p>The laser may
-      become visible in foggy or smokey conditions.</p><p>Audio vibrations are
-      completely blocked by Thick Bulletproof Glass.</p></blockquote>
+    value: |
+      <p>
+        An invisible laser allows the user to measure vibrations and eavesdrop through
+        glass windows up to 300m/yds away.
+      </p>
+      <blockquote>
+        <p>The laser may become visible in foggy or smokey conditions.</p>
+        <p>Audio vibrations are completely blocked by Thick Bulletproof Glass.</p>
+      </blockquote>
   equipped: owned
   favorite: false
   installedItems:

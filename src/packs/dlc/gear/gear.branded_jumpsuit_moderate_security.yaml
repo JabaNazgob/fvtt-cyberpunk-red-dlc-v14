@@ -1,14 +1,5 @@
 _id: rLLTitgoWbJzQsZs
 _key: "!items!rLLTitgoWbJzQsZs"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769120214784
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1769120214784
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -20,14 +11,16 @@ ownership:
 sort: 0
 system:
   amount: 1
-  brand: Varies
+  brand: ""
   concealable:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>A jacket or jumpsuit that appears commonplace in a medium security
-      environment.</p>
+    value: |
+      <p>
+        A jacket or jumpsuit that appears commonplace in a medium security
+        environment.
+      </p>
   equipped: owned
   favorite: false
   installedItems:
