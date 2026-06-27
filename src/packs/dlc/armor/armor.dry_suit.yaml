@@ -1,14 +1,5 @@
 _id: XlpdmDjdNH9uzhq8
 _key: "!items!XlpdmDjdNH9uzhq8"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1772403353602
-  duplicateSource: null
-  lastModifiedBy: IMmQeDHuejnDb1W4
-  modifiedTime: 1772404062951
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -27,9 +18,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>A sealed, waterproof diving suit with specialized undergarments to keep
-      the body completely dry and warm in cold water.</p>
+    value: |
+      <p>
+        A sealed, waterproof diving suit with specialized undergarments to keep the
+        body completely dry and warm in cold water.
+      </p>
   equipped: owned
   favorite: false
   headLocation:

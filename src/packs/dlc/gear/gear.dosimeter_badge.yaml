@@ -1,14 +1,5 @@
 _id: nCslR5IGki0hLZ4V
 _key: "!items!nCslR5IGki0hLZ4V"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1772408372195
-  duplicateSource: null
-  lastModifiedBy: IMmQeDHuejnDb1W4
-  modifiedTime: 1772408818000
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -25,9 +16,11 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: >-
-      <p>a personal device worn to measure and monitor radiation exposure.
-      Alerts when within 10m/yards of dangerous radiation levels.</p>
+    value: |
+      <p>
+        a personal device worn to measure and monitor radiation exposure. Alerts when
+        within 10m/yards of dangerous radiation levels.
+      </p>
   equipped: owned
   favorite: false
   installedItems:

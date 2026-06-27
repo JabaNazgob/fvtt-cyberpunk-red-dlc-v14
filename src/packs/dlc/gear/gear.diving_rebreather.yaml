@@ -1,14 +1,5 @@
 _id: Cpu4LqjrCk4mCSyk
 _key: "!items!Cpu4LqjrCk4mCSyk"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1772406052254
-  duplicateSource: null
-  lastModifiedBy: IMmQeDHuejnDb1W4
-  modifiedTime: 1772406208695
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -25,9 +16,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>a self-contained underwater breathing apparatus that recycles your
-      exhaled breath instead of releasing it into the water as bubbles.</p>
+    value: |
+      <p>
+        a self-contained underwater breathing apparatus that recycles your exhaled
+        breath instead of releasing it into the water as bubbles.
+      </p>
   equipped: owned
   favorite: false
   installedItems:

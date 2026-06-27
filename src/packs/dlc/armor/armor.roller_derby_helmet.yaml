@@ -1,14 +1,5 @@
 _id: rqDbMCxhlDFh4Ori
 _key: "!items!rqDbMCxhlDFh4Ori"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1766435554125
-  duplicateSource: null
-  lastModifiedBy: IMmQeDHuejnDb1W4
-  modifiedTime: 1772403416711
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,9 +22,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Regulation uniform derby padding required for all league sanctioned
-      events.</p>
+    value: |
+      <p>
+        Regulation uniform derby padding required for all league sanctioned events.
+      </p>
   equipped: owned
   favorite: false
   headLocation:

@@ -274,6 +274,11 @@
       "description": "<p>\n  A long-distance sniper rifle. Holds 4 bullets in a magazine. If you roll 1 on\n  Attack (Crit fail) the gun jams and requires using an action to clear.\n</p>\n",
       "dvTable": "DV Sniper Rifle"
     },
+    "Growler": {
+      "name": "Growler",
+      "description": "<p>\n  An Exotic Rocket Launcher. Anything with a biological brain must make a\n  <strong>DV 19 Resist Torture/Drugs Check</strong> or suffer a\n  @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.oi3MEn9Y8zdbooNe]{Brain\n  Injury} Critical Injury. Reloading takes 2 Actions. Required BODY 11+ unless\n  mounted.\n</p>\n",
+      "dvTable": "DV Rocket Launcher"
+    },
     "Hellbringer": {
       "name": "Hellbringer",
       "description": "<p>\n  <strong>Exotic Very Heavy Pistol</strong> When this things shoots, you know\n  about it. If fired by someone with less than 10 BODY, this pistol jams. An\n  action is required to unjam it.\n</p>\n",
@@ -498,6 +503,11 @@
       "name": "Pocket Launcher",
       "description": "<p>\n  <strong>Poor Quality Exotic Rocket Launcher</strong> While unloaded, this\n  weapon can be concealed.\n</p>\n",
       "dvTable": "DV Rocket Launcher"
+    },
+    "Scrambler": {
+      "name": "Scrambler",
+      "description": "<p>\n  Exotic Very Heavy Pistol. Deals no damage and instead on a hit instantly kills\n  a Biodrone. Can not be reloaded.\n</p>\n",
+      "dvTable": "DV Pistol"
     },
     "SDF-45": {
       "name": "SDF-45",

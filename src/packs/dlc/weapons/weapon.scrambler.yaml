@@ -1,14 +1,5 @@
 _id: hWKdkikIzRPXGjzL
 _key: "!items!hWKdkikIzRPXGjzL"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1772380744584
-  duplicateSource: null
-  lastModifiedBy: IMmQeDHuejnDb1W4
-  modifiedTime: 1772396942627
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,9 +20,11 @@ system:
   critFailEffect: jammed
   damage: "0"
   description:
-    value: >-
-      <p>Exotic Very Heavy Pistol. Deals no damage and instead on a hit
-      instantly kills a Biodrone. Can not be reloaded.</p>
+    value: |
+      <p>
+        Exotic Very Heavy Pistol. Deals no damage and instead on a hit instantly kills
+        a Biodrone. Can not be reloaded.
+      </p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

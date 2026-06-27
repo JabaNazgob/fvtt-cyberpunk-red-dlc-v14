@@ -1,14 +1,5 @@
 _id: 8hHc1iORBKnVNl18
 _key: "!items!8hHc1iORBKnVNl18"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1772405121307
-  duplicateSource: null
-  lastModifiedBy: IMmQeDHuejnDb1W4
-  modifiedTime: 1772405725134
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cprInstallTree:
