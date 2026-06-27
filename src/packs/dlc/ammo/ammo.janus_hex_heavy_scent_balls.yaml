@@ -1,14 +1,5 @@
 _id: ZpPvMg14E4R4BWPV
 _key: "!items!ZpPvMg14E4R4BWPV"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769375927025
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769375927025
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -32,9 +23,11 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Pack of 4 Janus Hex Heavy Scent Balls.</p><blockquote><p>Requires Maker
-      Rank 6 or higher to Fabricate or Modify.</p></blockquote>
+    value: |
+      <p>Pack of 4 Janus Hex Heavy Scent Balls.</p>
+      <blockquote>
+        <p>Requires Maker Rank 6 or higher to Fabricate or Modify.</p>
+      </blockquote>
   favorite: false
   installLocation: mall
   overrides:

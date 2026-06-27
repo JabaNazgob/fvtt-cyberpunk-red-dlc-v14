@@ -1,14 +1,5 @@
 _id: so83f29D6x7ZwtBz
 _key: "!items!so83f29D6x7ZwtBz"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769376003733
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769376003733
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,13 +26,24 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: >-
-      <p><strong>Two-Handed Very Heavy Melee Weapon</strong> requires BODY 9 or
-      higher to wield effectively. Comes in 4 styles: Bengal, Egyptian Mau,
-      Sphinx, and Ussuri.</p><blockquote><ul><li><p>Does not halve SP like
-      normal melee weapons.</p></li><li><p>User rolls twice and chooses the
-      outcome when determining critical injuries.</p></li><li><p>Users with Body
-      8 or less deal 1d6 less damage.</p></li></ul></blockquote>
+    value: |
+      <p>
+        <strong>Two-Handed Very Heavy Melee Weapon</strong> requires BODY 9 or higher
+        to wield effectively. Comes in 4 styles: Bengal, Egyptian Mau, Sphinx, and
+        Ussuri.
+      </p>
+      <blockquote>
+        <ul>
+          <li><p>Does not halve SP like normal melee weapons.</p></li>
+          <li>
+            <p>
+              User rolls twice and chooses the outcome when determining critical
+              injuries.
+            </p>
+          </li>
+          <li><p>Users with Body 8 or less deal 1d6 less damage.</p></li>
+        </ul>
+      </blockquote>
   dvTable: ""
   equipped: owned
   favorite: false

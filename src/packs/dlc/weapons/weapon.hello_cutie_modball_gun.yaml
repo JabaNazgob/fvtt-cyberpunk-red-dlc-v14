@@ -1,14 +1,5 @@
 _id: Cv13X97oRkjiqJe9
 _key: "!items!Cv13X97oRkjiqJe9"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769376003733
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769376003733
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -36,10 +27,16 @@ system:
   critFailEffect: jammed
   damage: "0"
   description:
-    value: >-
-      <p><strong>Medium Pistol</strong> that shoots ModBalls. Incompatible with
-      magazine upgrades.</p><blockquote><p>ModBall ammo can be purchased or
-      created with a ModBall Construction Kit.</p></blockquote>
+    value: |
+      <p>
+        <strong>Medium Pistol</strong> that shoots ModBalls. Incompatible with
+        magazine upgrades.
+      </p>
+      <blockquote>
+        <p>
+          ModBall ammo can be purchased or created with a ModBall Construction Kit.
+        </p>
+      </blockquote>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

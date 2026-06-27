@@ -1,14 +1,5 @@
 _id: GXDG81umRLRFJh46
 _key: "!items!GXDG81umRLRFJh46"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769375961782
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769375961782
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -31,29 +22,61 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Allows anyone to create their own ModBall ammunition. All ModBalls take
-      1 hour to fabricate as if the user were a Tech with Fabrication Expertise
-      2.</p><table><tbody><tr><td><p style="text-align:center">Modball
-      Type</p></td><td><p style="text-align:center">Cost /
-      ModBall</p></td><td><p style="text-align:center">Fabrication
-      Cost</p></td><td><p style="text-align:center">Fabrication
-      DV</p></td></tr><tr><td><p><strong>Dazzle Dazzle</strong></p></td><td><p
-      style="text-align:center">10eb (Cheap)</p></td><td><p
-      style="text-align:center">9eb</p></td><td><p
-      style="text-align:center">13</p></td></tr><tr><td><p><strong>Mega
-      Ouchie</strong></p></td><td><p style="text-align:center">20eb
-      (Everyday)</p></td><td><p style="text-align:center">19eb</p></td><td><p
-      style="text-align:center">15</p></td></tr><tr><td><p><strong>Ouchie</strong></p></td><td><p
-      style="text-align:center">10eb (Cheap)</p></td><td><p
-      style="text-align:center">9eb</p></td><td><p
-      style="text-align:center">13</p></td></tr><tr><td><p><strong>Slippy</strong></p></td><td><p
-      style="text-align:center">5eb (Dirt Cheap)</p></td><td><p
-      style="text-align:center">4eb</p></td><td><p
-      style="text-align:center">9</p></td></tr><tr><td><p><strong>Splashie</strong></p></td><td><p
-      style="text-align:center">5eb (Dirt Cheap)</p></td><td><p
-      style="text-align:center">4eb</p></td><td><p
-      style="text-align:center">9</p></td></tr></tbody></table>
+    value: |
+      <p>
+        Allows anyone to create their own ModBall ammunition. All ModBalls take 1 hour
+        to fabricate as if the user were a Tech with Fabrication Expertise 2.
+      </p>
+      <table>
+        <tbody>
+          <tr>
+            <td><p style="text-align: center">Modball Type</p></td>
+            <td><p style="text-align: center">Cost / ModBall</p></td>
+            <td><p style="text-align: center">Fabrication Cost</p></td>
+            <td><p style="text-align: center">Fabrication DV</p></td>
+          </tr>
+          <tr>
+            <td>
+              <p><strong>Dazzle Dazzle</strong></p>
+            </td>
+            <td><p style="text-align: center">10eb (Cheap)</p></td>
+            <td><p style="text-align: center">9eb</p></td>
+            <td><p style="text-align: center">13</p></td>
+          </tr>
+          <tr>
+            <td>
+              <p><strong>Mega Ouchie</strong></p>
+            </td>
+            <td><p style="text-align: center">20eb (Everyday)</p></td>
+            <td><p style="text-align: center">19eb</p></td>
+            <td><p style="text-align: center">15</p></td>
+          </tr>
+          <tr>
+            <td>
+              <p><strong>Ouchie</strong></p>
+            </td>
+            <td><p style="text-align: center">10eb (Cheap)</p></td>
+            <td><p style="text-align: center">9eb</p></td>
+            <td><p style="text-align: center">13</p></td>
+          </tr>
+          <tr>
+            <td>
+              <p><strong>Slippy</strong></p>
+            </td>
+            <td><p style="text-align: center">5eb (Dirt Cheap)</p></td>
+            <td><p style="text-align: center">4eb</p></td>
+            <td><p style="text-align: center">9</p></td>
+          </tr>
+          <tr>
+            <td>
+              <p><strong>Splashie</strong></p>
+            </td>
+            <td><p style="text-align: center">5eb (Dirt Cheap)</p></td>
+            <td><p style="text-align: center">4eb</p></td>
+            <td><p style="text-align: center">9</p></td>
+          </tr>
+        </tbody>
+      </table>
   equipped: owned
   favorite: false
   installedItems:

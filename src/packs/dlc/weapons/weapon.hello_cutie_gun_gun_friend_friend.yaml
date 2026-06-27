@@ -1,14 +1,5 @@
 _id: Z3HRbOtxu0mcCrOC
 _key: "!items!Z3HRbOtxu0mcCrOC"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769376003733
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769376003733
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -36,12 +27,15 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: >-
-      <p><strong>Excellent Quality Assault Rifle</strong> that can conceal
-      another one-handed gun inside Gun-Gun Friend-Friend's frame as an action*.
-      Contains two available upgrade slots that do not affect the concealed
-      weapon.</p><p>*Currently unsupported, make a note on any weapon you
-      "install" into this gun.</p>
+    value: |
+      <p>
+        <strong>Excellent Quality Assault Rifle</strong> that can conceal another
+        one-handed gun inside Gun-Gun Friend-Friend's frame as an action*. Contains
+        two available upgrade slots that do not affect the concealed weapon.
+      </p>
+      <p>
+        *Currently unsupported, make a note on any weapon you "install" into this gun.
+      </p>
   dvTable: DV Assault Rifle
   equipped: owned
   favorite: false

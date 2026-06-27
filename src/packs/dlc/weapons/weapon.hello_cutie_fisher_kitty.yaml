@@ -1,14 +1,5 @@
 _id: W5JR7Bb59cW6vLFl
 _key: "!items!W5JR7Bb59cW6vLFl"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769376003733
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769376003733
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cprInstallTree:
@@ -95,17 +86,23 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: >-
-      <p><strong>Exotic Heavy Pistol (50m/yd Max Range)</strong> Fires
-      mini-harpoons that cannot cause critcal injuries. Each mini-harpoon sticks
-      to its target regardless of damage dealt, and removing a mini-harpoon
-      takes 1 Action. All retractable mini-harpoons are dislodged and recovered
-      when using an action to reloading the weapon.</p><blockquote><p>The user
-      may use an action to electrify the cables connected to each mini-harpoon
-      and deal [[/r 2d6#Electric Damage (Ignores Armor)]] damage directly to any
-      connected target's HP. If a target is connected by 3 or more mini-harpoons
-      they take [[/r 3d6#Electric Damage (Ignores Armor)]] damage
-      instead.</p></blockquote>
+    value: |
+      <p>
+        <strong>Exotic Heavy Pistol (50m/yd Max Range)</strong> Fires mini-harpoons
+        that cannot cause critcal injuries. Each mini-harpoon sticks to its target
+        regardless of damage dealt, and removing a mini-harpoon takes 1 Action. All
+        retractable mini-harpoons are dislodged and recovered when using an action to
+        reloading the weapon.
+      </p>
+      <blockquote>
+        <p>
+          The user may use an action to electrify the cables connected to each
+          mini-harpoon and deal [[/r 2d6#Electric Damage (Ignores Armor)]] damage
+          directly to any connected target's HP. If a target is connected by 3 or more
+          mini-harpoons they take [[/r 3d6#Electric Damage (Ignores Armor)]] damage
+          instead.
+        </p>
+      </blockquote>
   dvTable: DV Bows & Crossbows
   equipped: owned
   favorite: false

@@ -1,14 +1,5 @@
 _id: qMokDO5wTbLnQSG1
 _key: "!items!qMokDO5wTbLnQSG1"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769375986814
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769375986814
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,9 +20,10 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>A cute outfit for your Captain Cuddlefish Ultra Snag-Em! Prized by
-      collectors.</p>
+    value: |
+      <p>
+        A cute outfit for your Captain Cuddlefish Ultra Snag-Em! Prized by collectors.
+      </p>
   favorite: false
   fireModes:
     autoFire: 0

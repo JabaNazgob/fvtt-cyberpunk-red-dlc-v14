@@ -1,14 +1,5 @@
 _id: z29UunvE1SsLPait
 _key: "!items!z29UunvE1SsLPait"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769375927025
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769375927025
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -32,17 +23,31 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>@UUID[Compendium.cyberpunk-red-core.core_weapons.Item.29p2bEfPcAWHpsTY]{A
-      Thrown Weapon} that sticks to surfaces and plays a musical laser light
-      show before exploding into colorful smoke and
-      glitter.</p><blockquote><ul><li><p>Cannot be loaded into grenade
-      launchers.</p></li><li><p>Causes 2 rounds of distraction that impose a
-      <strong>-2 penalty</strong> to all checks for everyone within 10m/yd if
-      they fail a <strong>DV13 Concentration
-      Check</strong>.</p></li><li><p>After 2 rounds the grenade detonates like a
-      @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Grenade
-      (Smoke)}</p></li></ul></blockquote>
+    value: |
+      <p>
+        @UUID[Compendium.cyberpunk-red-core.core_weapons.Item.29p2bEfPcAWHpsTY]{A
+        Thrown Weapon} that sticks to surfaces and plays a musical laser light show
+        before exploding into colorful smoke and glitter.
+      </p>
+      <blockquote>
+        <ul>
+          <li><p>Cannot be loaded into grenade launchers.</p></li>
+          <li>
+            <p>
+              Causes 2 rounds of distraction that impose a
+              <strong>-2 penalty</strong> to all checks for everyone within 10m/yd if
+              they fail a <strong>DV13 Concentration Check</strong>.
+            </p>
+          </li>
+          <li>
+            <p>
+              After 2 rounds the grenade detonates like a
+              @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Grenade
+              (Smoke)}
+            </p>
+          </li>
+        </ul>
+      </blockquote>
   favorite: false
   installLocation: mall
   overrides:

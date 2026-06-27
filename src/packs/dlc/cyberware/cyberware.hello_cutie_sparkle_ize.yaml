@@ -1,14 +1,5 @@
 _id: iouPmaXovaYdx8Tr
 _key: "!items!iouPmaXovaYdx8Tr"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769375945832
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769375945832
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: Mr8eyohOGE26koek
     _key: "!items.effects!iouPmaXovaYdx8Tr.Mr8eyohOGE26koek"
@@ -80,13 +71,19 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Must be Paired: Create a powerful beam of light up to 25m/yd that
-      illuminates your surroundings.</p><blockquote><p>Use an action to force a
-      target to make a <strong>DV15 Resist/Torture Drugs Check</strong> or
-      suffer
-      @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged
-      Eye} critical injury.</p></blockquote>
+    value: |
+      <p>
+        Must be Paired: Create a powerful beam of light up to 25m/yd that illuminates
+        your surroundings.
+      </p>
+      <blockquote>
+        <p>
+          Use an action to force a target to make a
+          <strong>DV15 Resist/Torture Drugs Check</strong> or suffer
+          @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged
+          Eye} critical injury.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

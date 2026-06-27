@@ -1,14 +1,5 @@
 _id: ICi9awVbdgYTvWKw
 _key: "!items!ICi9awVbdgYTvWKw"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769375927025
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769375927025
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -32,9 +23,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Balls of colourful, but highly combustible paint; keep away from open
-      flames.</p>
+    value: |
+      <p>
+        Balls of colourful, but highly combustible paint; keep away from open flames.
+      </p>
   favorite: false
   installLocation: mall
   overrides:

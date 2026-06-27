@@ -1,14 +1,5 @@
 _id: 4d0r56BNO7JFVWxk
 _key: "!items!4d0r56BNO7JFVWxk"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769375927025
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769375927025
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -32,13 +23,23 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Balls filled with a slippery lubricant.</p><ul><li><p>Covers a
-      2m/yd<sup>2 </sup>surface that requires a <strong>DV13 Athletic
-      Check</strong> to avoid falling Prone when entering or occupying the
-      covered area.</p></li><li><p>Targets receive a +1 Bonus to
-      <strong>Contortionist Checks</strong> made to escape a
-      grapple.</p></li></ul>
+    value: |
+      <p>Balls filled with a slippery lubricant.</p>
+      <ul>
+        <li>
+          <p>
+            Covers a 2m/yd<sup>2 </sup>surface that requires a
+            <strong>DV13 Athletic Check</strong> to avoid falling Prone when entering
+            or occupying the covered area.
+          </p>
+        </li>
+        <li>
+          <p>
+            Targets receive a +1 Bonus to <strong>Contortionist Checks</strong> made
+            to escape a grapple.
+          </p>
+        </li>
+      </ul>
   favorite: false
   installLocation: mall
   overrides:

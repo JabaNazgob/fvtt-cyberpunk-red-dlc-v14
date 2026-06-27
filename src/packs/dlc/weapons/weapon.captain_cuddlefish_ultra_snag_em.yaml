@@ -1,14 +1,5 @@
 _id: hopvkkGSKLpKg4p7
 _key: "!items!hopvkkGSKLpKg4p7"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769376003733
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769376003733
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: vss00HWUWVPo7Cw6
     _key: "!items.effects!hopvkkGSKLpKg4p7.vss00HWUWVPo7Cw6"
@@ -80,12 +71,17 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Exotic Light Melee Weapon</strong> Buy and equip collectible
-      outfits for your Captain Cuddlefish! (Sold
-      separately.)</p><blockquote><p>Able to make melee attacks up to 10 m/yds
-      away. Grants a +2 bonus to aimed shots against held items when using this
-      weapon.</p></blockquote>
+    value: |
+      <p>
+        <strong>Exotic Light Melee Weapon</strong> Buy and equip collectible outfits
+        for your Captain Cuddlefish! (Sold separately.)
+      </p>
+      <blockquote>
+        <p>
+          Able to make melee attacks up to 10 m/yds away. Grants a +2 bonus to aimed
+          shots against held items when using this weapon.
+        </p>
+      </blockquote>
   dvTable: DV Thrown Weapon
   equipped: owned
   favorite: false

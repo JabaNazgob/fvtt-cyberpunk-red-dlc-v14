@@ -1,14 +1,5 @@
 _id: OJlwfumihj820YAA
 _key: "!items!OJlwfumihj820YAA"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769375927025
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769375927025
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -32,10 +23,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Acts as
-      @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Poison}
-      Ammunition.</p>
+    value: |
+      <p>
+        Acts as
+        @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Poison}
+        Ammunition.
+      </p>
   favorite: false
   installLocation: mall
   overrides:

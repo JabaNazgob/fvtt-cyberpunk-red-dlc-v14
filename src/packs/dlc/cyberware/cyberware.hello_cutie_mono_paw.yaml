@@ -1,14 +1,5 @@
 _id: g7lNPRaJsniCFbN3
 _key: "!items!g7lNPRaJsniCFbN3"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769375945832
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769375945832
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -36,10 +27,12 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Cyberarm Option. A concealable <strong>Excellent Quality Medium Melee
-      Weapon</strong> that deals 1d6 damage and ignores armor lower than
-      SP11.</p>
+    value: |
+      <p>
+        Cyberarm Option. A concealable
+        <strong>Excellent Quality Medium Melee Weapon</strong> that deals 1d6 damage
+        and ignores armor lower than SP11.
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

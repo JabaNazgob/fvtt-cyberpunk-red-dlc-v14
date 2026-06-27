@@ -1,14 +1,5 @@
 _id: AhY3WXzNpgPM68Gr
 _key: "!items!AhY3WXzNpgPM68Gr"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769375961782
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769375961782
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: KIwP9dgcEulXtsDZ
     _key: "!items.effects!AhY3WXzNpgPM68Gr.KIwP9dgcEulXtsDZ"
@@ -127,10 +118,14 @@ system:
     concealable: true
     isConcealed: true
   description:
-    value: >-
-      <p>Waterproof all-weather hydraulic undershirt raises BODY by 2, but not
-      higher than 10.</p><blockquote><p>Incompatible with Linear Frames, Grafted
-      Muscle and Bone Lace.</p></blockquote>
+    value: |
+      <p>
+        Waterproof all-weather hydraulic undershirt raises BODY by 2, but not higher
+        than 10.
+      </p>
+      <blockquote>
+        <p>Incompatible with Linear Frames, Grafted Muscle and Bone Lace.</p>
+      </blockquote>
   equipped: owned
   favorite: false
   installedItems:

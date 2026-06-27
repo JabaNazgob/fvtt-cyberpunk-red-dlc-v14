@@ -1,14 +1,5 @@
 _id: BrnkWBIkRTNolMl3
 _key: "!items!BrnkWBIkRTNolMl3"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769376003733
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769376003733
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -37,13 +28,19 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Excellent Quality Very Heavy Pistol</strong> that shoots
-      proprietary Scent Balls. Incompatible with all magazine
-      upgrades.</p><blockquote><p>Targets with meat eyes must suffer -3 penalty
-      to ranged attack and perception checks unless they succeed a <strong>DV 15
-      Resist Drugs/Torture check</strong>, in which case the penalty is reduced
-      by 2.</p></blockquote>
+    value: |
+      <p>
+        <strong>Excellent Quality Very Heavy Pistol</strong> that shoots proprietary
+        Scent Balls. Incompatible with all magazine upgrades.
+      </p>
+      <blockquote>
+        <p>
+          Targets with meat eyes must suffer -3 penalty to ranged attack and
+          perception checks unless they succeed a
+          <strong>DV 15 Resist Drugs/Torture check</strong>, in which case the penalty
+          is reduced by 2.
+        </p>
+      </blockquote>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

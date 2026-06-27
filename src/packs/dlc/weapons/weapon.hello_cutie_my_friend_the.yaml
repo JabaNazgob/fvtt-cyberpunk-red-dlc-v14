@@ -1,14 +1,5 @@
 _id: ailPhc0y7B5jxhrV
 _key: "!items!ailPhc0y7B5jxhrV"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1769376003733
-  duplicateSource: null
-  lastModifiedBy: eMgDDuUqplwN8vV7
-  modifiedTime: 1769376003733
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cprInstallTree:
@@ -172,12 +163,15 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: >-
-      <p><strong>Excellent Quality Shotgun</strong> that has an alternate SMG
-      style auto fire mode*.</p><blockquote><p>Uses only Shotgun Slug
-      Ammunition, cannot install magazine
-      upgrades.</p></blockquote><p>*Alternate weapon fire modes are currently
-      not supported.</p>
+    value: |
+      <p>
+        <strong>Excellent Quality Shotgun</strong> that has an alternate SMG style
+        auto fire mode*.
+      </p>
+      <blockquote>
+        <p>Uses only Shotgun Slug Ammunition, cannot install magazine upgrades.</p>
+      </blockquote>
+      <p>*Alternate weapon fire modes are currently not supported.</p>
   dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false

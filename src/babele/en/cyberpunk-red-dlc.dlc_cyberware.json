@@ -122,11 +122,13 @@
     },
     "Hello Cutie Mono-Paw": {
       "name": "Hello Cutie Mono-Paw",
-      "description": "<p>Cyberarm Option. A concealable <strong>Excellent Quality Medium Melee Weapon</strong> that deals 1d6 damage and ignores armor lower than SP11.</p>"
+      "description": "<p>\n  Cyberarm Option. A concealable\n  <strong>Excellent Quality Medium Melee Weapon</strong> that deals 1d6 damage\n  and ignores armor lower than SP11.\n</p>\n",
+      "dvTable": ""
     },
     "Hello Cutie Sparkle-Ize": {
       "name": "Hello Cutie Sparkle-Ize",
-      "description": "<p>Must be Paired: Create a powerful beam of light up to 25m/yd that illuminates your surroundings.</p><blockquote><p>Use an action to force a target to make a <strong>DV15 Resist/Torture Drugs Check</strong> or suffer @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged Eye} critical injury.</p></blockquote>"
+      "description": "<p>\n  Must be Paired: Create a powerful beam of light up to 25m/yd that illuminates\n  your surroundings.\n</p>\n<blockquote>\n  <p>\n    Use an action to force a target to make a\n    <strong>DV15 Resist/Torture Drugs Check</strong> or suffer\n    @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged\n    Eye} critical injury.\n  </p>\n</blockquote>\n",
+      "dvTable": ""
     },
     "Holo Projector Palm": {
       "name": "Holo Projector Palm",
