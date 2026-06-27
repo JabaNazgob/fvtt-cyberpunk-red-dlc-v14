@@ -1,14 +1,5 @@
 _id: dbKIOdEfsQeZvzJT
 _key: "!items!dbKIOdEfsQeZvzJT"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430946014
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778100887348
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,9 +20,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
+    value: >
       <p><strong>App:</strong> Allows users to organize, send, and receive
-      emails.</p><p>Pre-Installed on all agents by default.</p>
+      emails.</p>
+
+      <p>Pre-Installed on all agents by default.</p>
   favorite: false
   fireModes:
     autoFire: 0

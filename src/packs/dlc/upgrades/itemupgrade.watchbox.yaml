@@ -1,14 +1,5 @@
 _id: VVnUM641cIpuB4nV
 _key: "!items!VVnUM641cIpuB4nV"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430944264
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768430944264
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,12 +20,15 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>App:</strong> Turns your agent into an alarm
-      system.</p><blockquote><p>Requires 5 minutes to scan and establish a
-      security perimeter. The alarm is triggered by loud noises, bright lights,
-      and movement.</p><p><strong>DV13 Stealth Check</strong> to avoid
-      detection.</p></blockquote>
+    value: |
+      <p><strong>App:</strong> Turns your agent into an alarm system.</p>
+      <blockquote>
+        <p>
+          Requires 5 minutes to scan and establish a security perimeter. The alarm is
+          triggered by loud noises, bright lights, and movement.
+        </p>
+        <p><strong>DV13 Stealth Check</strong> to avoid detection.</p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

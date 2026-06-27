@@ -1,14 +1,5 @@
 _id: 1ykDORtfuvN5V5hc
 _key: "!items!1ykDORtfuvN5V5hc"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430878640
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768430878640
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: OnONUXyMY8mOquf7
     _key: "!items.effects!1ykDORtfuvN5V5hc.OnONUXyMY8mOquf7"
@@ -599,11 +590,20 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: >-
-      <p>AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending on
-      circumstance.</p><blockquote><p>A <strong>Standard Quality Agent</strong>
-      includes a touchscreen, microphone, camera, and
-      flashlight.</p><ul><li><p>Hacking DV 17</p></li></ul></blockquote>
+    value: |
+      <p>
+        AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending on
+        circumstance.
+      </p>
+      <blockquote>
+        <p>
+          A <strong>Standard Quality Agent</strong> includes a touchscreen,
+          microphone, camera, and flashlight.
+        </p>
+        <ul>
+          <li><p>Hacking DV 17</p></li>
+        </ul>
+      </blockquote>
   equipped: owned
   favorite: false
   installedItems:
@@ -625,5 +625,5 @@ system:
   source:
     book: AAA
     page: 9
-  usage: carried
+  usage: equipped
 type: gear

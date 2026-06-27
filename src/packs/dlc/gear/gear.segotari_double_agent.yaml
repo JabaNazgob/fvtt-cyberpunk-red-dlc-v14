@@ -1,14 +1,5 @@
 _id: 1pmX6W6K8ELA7GHy
 _key: "!items!1pmX6W6K8ELA7GHy"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430874724
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768430874724
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: OnONUXyMY8mOquf7
     _key: "!items.effects!1pmX6W6K8ELA7GHy.OnONUXyMY8mOquf7"
@@ -599,12 +590,20 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: >-
-      <p>AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending on
-      circumstance.</p><blockquote><p>A <strong>Poor Quality Agent</strong>
-      includes a display screen, touchpad, microphone, and
-      camera.</p><ul><li><p>Remote Hacking DV 17 / Physical Hacking DV
-      15</p></li></ul></blockquote>
+    value: |
+      <p>
+        AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending on
+        circumstance.
+      </p>
+      <blockquote>
+        <p>
+          A <strong>Poor Quality Agent</strong> includes a display screen, touchpad,
+          microphone, and camera.
+        </p>
+        <ul>
+          <li><p>Remote Hacking DV 17 / Physical Hacking DV 15</p></li>
+        </ul>
+      </blockquote>
   equipped: owned
   favorite: false
   installedItems:
@@ -626,5 +625,5 @@ system:
   source:
     book: AAA
     page: 9
-  usage: carried
+  usage: equipped
 type: gear

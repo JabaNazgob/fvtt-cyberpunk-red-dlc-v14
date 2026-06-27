@@ -1,14 +1,5 @@
 _id: gwFHfshFGizyabzx
 _key: "!items!gwFHfshFGizyabzx"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430940946
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778106254218
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,9 +20,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>App:</strong> A companion app for ELO that allows users to
-      track and in-game stats and connect with other players.</p>
+    value: |
+      <p>
+        <strong>App:</strong> A companion app for ELO that allows users to track and
+        in-game stats and connect with other players.
+      </p>
   favorite: false
   fireModes:
     autoFire: 0

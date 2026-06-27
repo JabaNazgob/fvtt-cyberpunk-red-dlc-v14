@@ -1,14 +1,5 @@
 _id: 5dJegR6eRVZRGBl8
 _key: "!items!5dJegR6eRVZRGBl8"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1766431859642
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1766431859642
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: v0xsRlpn5u7PKXEr
     _key: "!items.effects!5dJegR6eRVZRGBl8.v0xsRlpn5u7PKXEr"
@@ -73,11 +64,13 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Connects your cyberdeck to a breacher.</p><p>When this upgrade is
-      installed, a Netrunner may add their Interface Rank to the result when
-      hacking an agent. <em>(Active Effect requires manual
-      configuration)</em></p>
+    value: |
+      <p>Connects your cyberdeck to a breacher.</p>
+      <p>
+        When this upgrade is installed, a Netrunner may add their Interface Rank to
+        the result when hacking an agent.
+        <em>(Active Effect requires manual configuration)</em>
+      </p>
   favorite: false
   fireModes:
     autoFire: 0

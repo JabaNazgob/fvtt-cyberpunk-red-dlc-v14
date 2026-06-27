@@ -1,14 +1,5 @@
 _id: GA1l68Lg6MiHr9XZ
 _key: "!items!GA1l68Lg6MiHr9XZ"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430942411
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778104189816
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,7 +20,8 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: <p><strong>App:</strong> A retro sidescroller game from Poland.</p>
+    value: |
+      <p><strong>App:</strong> A retro sidescroller game from Poland.</p>
   favorite: false
   fireModes:
     autoFire: 0

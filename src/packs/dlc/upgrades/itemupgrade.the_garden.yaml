@@ -1,14 +1,5 @@
 _id: cRTIag614f9mfOmd
 _key: "!items!cRTIag614f9mfOmd"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430943188
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778103301459
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,9 +20,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>App:</strong> A free social media platform hosted by Ziggurat.
-      Users require an account to comment or publish content.</p>
+    value: |
+      <p>
+        <strong>App:</strong> A free social media platform hosted by Ziggurat. Users
+        require an account to comment or publish content.
+      </p>
   favorite: false
   fireModes:
     autoFire: 0

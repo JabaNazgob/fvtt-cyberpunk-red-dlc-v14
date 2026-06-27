@@ -1,14 +1,5 @@
 _id: EJ4ebK6QDqFjkOmS
 _key: "!items!EJ4ebK6QDqFjkOmS"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430938585
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778179688930
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,7 +20,7 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
+    value: >
       <p><strong>App:</strong> Online banking and peer to peer payment
       system.</p>
   favorite: false

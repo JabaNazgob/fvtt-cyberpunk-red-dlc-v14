@@ -1,14 +1,5 @@
 _id: XoUNbV5H3O6CYAzn
 _key: "!items!XoUNbV5H3O6CYAzn"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430905295
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768430905295
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: B7AClIITge5cYBso
     _key: "!items.effects!XoUNbV5H3O6CYAzn.B7AClIITge5cYBso"
@@ -78,11 +69,14 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Built in agent. Audio only but can be linked with other
-      cybergear.</p><blockquote><p><strong>Poor Quality</strong>
-      <strong>Internal Agent</strong></p><ul><li><p>Remote Hacking DV 17 /
-      Physical Hacking DV 15</p></li></ul></blockquote>
+    value: |
+      <p>Built in agent. Audio only but can be linked with other cybergear.</p>
+      <blockquote>
+        <p><strong>Poor Quality</strong> <strong>Internal Agent</strong></p>
+        <ul>
+          <li><p>Remote Hacking DV 17 / Physical Hacking DV 15</p></li>
+        </ul>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

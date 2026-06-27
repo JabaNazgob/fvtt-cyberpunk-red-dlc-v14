@@ -1,14 +1,5 @@
 _id: S3VtMiZNAU4P866s
 _key: "!items!S3VtMiZNAU4P866s"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430940047
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778107019964
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,12 +20,28 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>App:</strong> Provides basic therapy.</p><blockquote><p>Use for
-      1 week before receiving therapy, then roll [[/r 1d10 #Brainwasher
-      Therapy]]</p><ul><li><p><strong>On even results:</strong> Therapy is takes
-      1 less day to complete.</p></li><li><p><strong>On odd results:</strong>
-      Therapy is takes 1 more day to complete.</p></li></ul></blockquote>
+    value: |
+      <p><strong>App:</strong> Provides basic therapy.</p>
+      <blockquote>
+        <p>
+          Use for 1 week before receiving therapy, then roll [[/r 1d10 #Brainwasher
+          Therapy]]
+        </p>
+        <ul>
+          <li>
+            <p>
+              <strong>On even results:</strong> Therapy is takes 1 less day to
+              complete.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>On odd results:</strong> Therapy is takes 1 more day to
+              complete.
+            </p>
+          </li>
+        </ul>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

@@ -1,14 +1,5 @@
 _id: DyHD5oJN81onTFUZ
 _key: "!items!DyHD5oJN81onTFUZ"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430941659
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778105075196
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -29,15 +20,34 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>App:</strong> Find odd jobs and get paid! Jobs take 30 minutes
-      to complete and pay 10eb.</p><blockquote><p>Available jobs are determined
-      by the GM, roll [[/r 1d10 #HusTool]]</p><ul><li><p><strong>On a
-      1:</strong> Factors outside of your control prevent you from finishing the
-      errand.</p><ul><li><p>You waste your time and don't get
-      paid.</p></li></ul></li><li><p><strong>On a 10:</strong> The errand is
-      completed, but you encounter trouble.</p><ul><li><p>GM rolls on an
-      appropriate encounter table.</p></li></ul></li></ul></blockquote>
+    value: |
+      <p>
+        <strong>App:</strong> Find odd jobs and get paid! Jobs take 30 minutes to
+        complete and pay 10eb.
+      </p>
+      <blockquote>
+        <p>Available jobs are determined by the GM, roll [[/r 1d10 #HusTool]]</p>
+        <ul>
+          <li>
+            <p>
+              <strong>On a 1:</strong> Factors outside of your control prevent you
+              from finishing the errand.
+            </p>
+            <ul>
+              <li><p>You waste your time and don't get paid.</p></li>
+            </ul>
+          </li>
+          <li>
+            <p>
+              <strong>On a 10:</strong> The errand is completed, but you encounter
+              trouble.
+            </p>
+            <ul>
+              <li><p>GM rolls on an appropriate encounter table.</p></li>
+            </ul>
+          </li>
+        </ul>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

@@ -1,14 +1,5 @@
 _id: VxgRZlqHqwv1TI3e
 _key: "!items!VxgRZlqHqwv1TI3e"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1766430589504
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1766430589504
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   core: {}
@@ -30,9 +21,10 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>A pocket-sized electronic device designed specifically for hacking
-      agents.</p>
+    value: |
+      <p>
+        A pocket-sized electronic device designed specifically for hacking agents.
+      </p>
   equipped: owned
   favorite: false
   installedItems:
@@ -50,5 +42,5 @@ system:
   source:
     book: AAA
     page: 7
-  usage: carried
+  usage: equipped
 type: gear

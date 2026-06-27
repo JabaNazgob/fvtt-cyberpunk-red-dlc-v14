@@ -1,14 +1,5 @@
 _id: UYD6TjhvbVYZmZkS
 _key: "!items!UYD6TjhvbVYZmZkS"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430876984
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768430876984
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: OnONUXyMY8mOquf7
     _key: "!items.effects!UYD6TjhvbVYZmZkS.OnONUXyMY8mOquf7"
@@ -599,11 +590,20 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: >-
-      <p>Wearable AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style
-      depending on circumstance.</p><blockquote><p>An <strong>Excellent Quality
-      Agent</strong> includes a touchscreen, microphone, camera, flashlight, and
-      holo-projector.</p><ul><li><p>Hacking DV 21</p></li></ul></blockquote>
+    value: |
+      <p>
+        Wearable AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending
+        on circumstance.
+      </p>
+      <blockquote>
+        <p>
+          An <strong>Excellent Quality Agent</strong> includes a touchscreen,
+          microphone, camera, flashlight, and holo-projector.
+        </p>
+        <ul>
+          <li><p>Hacking DV 21</p></li>
+        </ul>
+      </blockquote>
   equipped: owned
   favorite: false
   installedItems:

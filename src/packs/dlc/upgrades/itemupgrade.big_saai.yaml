@@ -1,14 +1,5 @@
 _id: PM1VGstdRVdrqkoo
 _key: "!items!PM1VGstdRVdrqkoo"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430939284
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778108029539
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: WMr6JRntpkPqnb7e
     _key: "!items.effects!PM1VGstdRVdrqkoo.WMr6JRntpkPqnb7e"
@@ -73,9 +64,11 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>App:</strong> Grants a +1 bonus to your agent's Library Search
-      functions.</p>
+    value: |
+      <p>
+        <strong>App:</strong> Grants a +1 bonus to your agent's Library Search
+        functions.
+      </p>
   favorite: false
   fireModes:
     autoFire: 0

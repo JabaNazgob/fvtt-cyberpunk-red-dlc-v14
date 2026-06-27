@@ -83,7 +83,8 @@
     },
     "EBM PiR2": {
       "name": "EBM PiR2",
-      "description": "<p>Built in agent. Audio only but can be linked with other cybergear.</p><blockquote><p><strong>Excellent Quality</strong> <strong>Internal Agent</strong></p><ul><li><p>Remote Hacking DV 24 / Physical Hacking DV 21</p></li></ul></blockquote>"
+      "description": "<p>Built in agent. Audio only but can be linked with other cybergear.</p>\n<blockquote>\n  <p><strong>Excellent Quality</strong> <strong>Internal Agent</strong></p>\n  <ul>\n    <li><p>Remote Hacking DV 24 / Physical Hacking DV 21</p></li>\n  </ul>\n</blockquote>\n",
+      "dvTable": ""
     },
     "External Vidscreen": {
       "name": "External Vidscreen",
@@ -146,7 +147,8 @@
     },
     "Mediaware BrainGen": {
       "name": "Mediaware BrainGen",
-      "description": "<p>Built in agent. Audio only but can be linked with other cybergear.</p><blockquote><p><strong>Poor Quality</strong> <strong>Internal Agent</strong></p><ul><li><p>Remote Hacking DV 17 / Physical Hacking DV 15</p></li></ul></blockquote>"
+      "description": "<p>Built in agent. Audio only but can be linked with other cybergear.</p>\n<blockquote>\n  <p><strong>Poor Quality</strong> <strong>Internal Agent</strong></p>\n  <ul>\n    <li><p>Remote Hacking DV 17 / Physical Hacking DV 15</p></li>\n  </ul>\n</blockquote>\n",
+      "dvTable": ""
     },
     "MicroWaldo": {
       "name": "MicroWaldo",
@@ -213,7 +215,8 @@
     },
     "Raven Microcybernetics Drake": {
       "name": "Raven Microcybernetics Drake",
-      "description": "<p>Built in agent. Audio only but can be linked with other cybergear.</p><blockquote><p><strong>Standard Quality</strong> <strong>Internal Agent</strong></p><ul><li><p>Remote Hacking DV 21 / Physical Hacking DV 17</p></li></ul></blockquote>"
+      "description": "<p>Built in agent. Audio only but can be linked with other cybergear.</p>\n<blockquote>\n  <p><strong>Standard Quality</strong> <strong>Internal Agent</strong></p>\n  <ul>\n    <li><p>Remote Hacking DV 21 / Physical Hacking DV 17</p></li>\n  </ul>\n</blockquote>\n",
+      "dvTable": ""
     },
     "Realskinn™ Faceplate": {
       "name": "Realskinn™ Faceplate",

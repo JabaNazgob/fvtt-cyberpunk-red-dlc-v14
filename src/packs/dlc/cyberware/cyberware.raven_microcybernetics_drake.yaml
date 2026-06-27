@@ -1,14 +1,5 @@
 _id: zp6p7eFxvCE0GzVL
 _key: "!items!zp6p7eFxvCE0GzVL"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1768430907252
-  duplicateSource: null
-  lastModifiedBy: IMREvhAZtigyN7Gy
-  modifiedTime: 1768430907252
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: B7AClIITge5cYBso
     _key: "!items.effects!zp6p7eFxvCE0GzVL.B7AClIITge5cYBso"
@@ -69,7 +60,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Raven Microcyber
+  brand: Raven Microcybernetics
   canIgnoreArmor: true
   concealable:
     concealable: false
@@ -78,11 +69,14 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p>Built in agent. Audio only but can be linked with other
-      cybergear.</p><blockquote><p><strong>Standard Quality</strong>
-      <strong>Internal Agent</strong></p><ul><li><p>Remote Hacking DV 21 /
-      Physical Hacking DV 17</p></li></ul></blockquote>
+    value: |
+      <p>Built in agent. Audio only but can be linked with other cybergear.</p>
+      <blockquote>
+        <p><strong>Standard Quality</strong> <strong>Internal Agent</strong></p>
+        <ul>
+          <li><p>Remote Hacking DV 21 / Physical Hacking DV 17</p></li>
+        </ul>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:
