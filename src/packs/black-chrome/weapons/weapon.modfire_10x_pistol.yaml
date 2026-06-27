@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/weapons/heavyPistol.svg
+img: modules/cyberpunk-red-dlc/icons/black-chrome/weapons/modfire-10x-pistol.svg
 name: ModFire 10X (Pistol)
 ownership:
   default: 0
@@ -31,16 +31,18 @@ system:
   description:
     value: |
       <p>
-        The ModFire 10X is an Exotic Heavy Pistol. Can also be transformed into an
-        Exotic SMG or an Exotic Assault Rifle, assuming the user has all the needed
-        parts*.
+        The ModFire 10X is an <strong>Exotic Heavy Pistol</strong> that can also be
+        transformed into an <strong>Exotic SMG</strong> or an
+        <strong>Exotic Assault Rifle</strong>.
       </p>
-      <p>
-        <em
-          >*Each Modfire 10X mode is treated as a separate weapon type, refer to
-          Weapons compendium for Black Chrome.</em
-        >
-      </p>
+      <blockquote>
+        <p>
+          The ModFire 10X fits and all its components fit neatly into a sleek
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.RVr6mvr9BQ6hgS1L]{carrying
+          case}. Transforming the weapon from one profile to another takes 1 minute as
+          long as you have all the requisite parts.
+        </p>
+      </blockquote>
   dvTable: DV Pistol
   equipped: owned
   favorite: false
@@ -57,7 +59,7 @@ system:
       - itemUpgrade
       - ammo
     list: []
-    slots: 0
+    slots: 2
     usedSlots: 0
   isRanged: true
   magazine:

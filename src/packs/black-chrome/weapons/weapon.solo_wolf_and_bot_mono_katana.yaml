@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/weapons/Sword_poor.svg
+img: modules/cyberpunk-red-dlc/icons/black-chrome/weapons/solo-wolf-and-bot.svg
 name: Solo Wolf and Bot Mono-Katana
 ownership:
   default: 0

@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/weapons/nomad-air-cannon.svg
 name: Nomad Air Cannon
 ownership:
   default: 0
@@ -31,10 +31,10 @@ system:
   description:
     value: |
       <p>
-        Rather than normal shotgun ammunition, this weapon fires whatever liquid is
-        placed into it. Acid can be bought for 10eb (Cheap) that reduces all armour
-        worn by the target by 1 SP. Poison or Biotoxin can also be loaded, though
-        requires 3 vials per shot.
+        <strong>Excotic Shotgun</strong> Rather than normal shotgun ammunition, this
+        weapon fires whatever liquid is placed into it. Acid can be bought for 10eb
+        (Cheap) that reduces all armour worn by the target by 1 SP. Poison or Biotoxin
+        can also be loaded, though requires 3 vials per shot.
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned

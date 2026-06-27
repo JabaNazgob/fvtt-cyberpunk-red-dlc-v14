@@ -5,10 +5,9 @@ effects:
     _key: "!items.effects!kQ8ZI0Fv1wDnZ5Ru.cbbjCrElwBdBKPvO"
     _stats:
       compendiumSource: null
-      coreVersion: "13.351"
+      coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
-      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -25,7 +24,7 @@ effects:
       rounds: null
       seconds: null
       startRound: null
-      startTime: null
+      startTime: 1768694527
       startTurn: null
       turns: null
     flags:
@@ -79,12 +78,12 @@ system:
         The Superchrome® Sidearm is an Exotic Very Heavy Pistol. Gives the user a +2
         bonus to Wardrobe and Style when equipped.
       </p>
-      <p>
-        <em
-          >*Note: Superchrome effects do not stack and will need to be managed in the
-          Effects tab if multiple Superchrome items are installed.</em
-        >
-      </p>
+      <blockquote>
+        <p>
+          Note: Superchrome effects do not stack and will need to be managed in the
+          Effects tab if multiple Superchrome items are installed.
+        </p>
+      </blockquote>
   dvTable: DV Pistol
   equipped: owned
   favorite: false
@@ -98,7 +97,6 @@ system:
   installedItems:
     allowed: true
     allowedTypes:
-      - itemUpgrade
       - ammo
     list: []
     slots: 0

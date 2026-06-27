@@ -33,6 +33,9 @@ system:
   description:
     value: |
       <p>The KTech TechHammer is an Exotic Shotgun/Rocket Launcher.</p>
+      <blockquote>
+        <p>Magazine holds either 4 Shotgun slugs/shells, or 2 Smart Rockets.</p>
+      </blockquote>
   dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false
@@ -46,7 +49,6 @@ system:
   installedItems:
     allowed: true
     allowedTypes:
-      - itemUpgrade
       - ammo
     list: []
     slots: 0

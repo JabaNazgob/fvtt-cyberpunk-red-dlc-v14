@@ -2,6 +2,155 @@ _id: Zp90Q36fQ769vmhp
 _key: "!items!Zp90Q36fQ769vmhp"
 effects: []
 flags:
+  cprInstallTree:
+    - _id: tSC8ufid0sCmyQjP
+      _stats:
+        compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.aFg1nXhz37e1C2YP
+        coreVersion: "12.343"
+        createdTime: 1768774629406
+        duplicateSource: null
+        lastModifiedBy: IMREvhAZtigyN7Gy
+        modifiedTime: 1768774629406
+        systemId: cyberpunk-red-core
+        systemVersion: v0.0.0dev
+      effects: []
+      flags:
+        cyberpunk-red-core:
+          _migration:
+            current: 33
+            previous: "24"
+      folder: null
+      img: >-
+        modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/netlauncher_underbarrel.svg
+      name: Netlauncher Underbarrel
+      ownership:
+        IMREvhAZtigyN7Gy: 3
+        default: 0
+      sort: 0
+      system:
+        ammoVariety:
+          - custom
+        attackmod: 0
+        brand: Faisal Customs
+        canIgnoreArmor: false
+        concealable:
+          concealable: false
+          isConcealed: false
+        critFailEffect: jammed
+        damage: "0"
+        description:
+          value: >-
+            <p>On a hit the target is grappled by the net and cannot move or use
+            two handed weapons. </p><blockquote><p>The net has
+            <strong>15HP</strong> and imposes a <strong>-2 penalty</strong> to
+            all physical actions to anyone entangled by it. A <strong>DV13
+            Brawling</strong> <strong>or Contortionist Check</strong> will
+            destroy the net beyond repair.</p></blockquote>
+        dvTable: DV Shotgun (Slug)
+        favorite: false
+        fireModes:
+          autoFire: 0
+          suppressiveFire: false
+        handsReq: 0
+        ignoreArmorPercent: 0
+        ignoreBelowSP: 0
+        installLocation: mall
+        installedItems:
+          allowed: true
+          allowedTypes:
+            - ammo
+          list: []
+          slots: 3
+          usedSlots: 0
+        isElectronic: false
+        isRanged: true
+        magazine:
+          ammoData: null
+          max: 2
+          value: 0
+        modifiers:
+          Wardrobe & Style:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          attackmod:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          bodySp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          cool:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          damage:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          headSp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          magazine:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          rof:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          sdp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          seats:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          secondaryWeapon:
+            configured: true
+          shieldHp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          slots:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          speedCombat:
+            isSituational: false
+            onByDefault: false
+            value: null
+        price:
+          market: 0
+        providesHardening: false
+        revealed: true
+        rof: 1
+        size: 2
+        source:
+          book: BC
+          page: 104
+        type: weapon
+        unarmedAutomaticCalculation: true
+        usage: toggled
+        usesType: magazine
+        weaponSkill: Shoulder Arms
+        weaponType: shotgun
+      type: itemUpgrade
   cyberpunk-red-core:
     _migration:
       current: 44
@@ -50,9 +199,10 @@ system:
     allowedTypes:
       - itemUpgrade
       - ammo
-    list: []
-    slots: 0
-    usedSlots: 0
+    list:
+      - tSC8ufid0sCmyQjP
+    slots: 2
+    usedSlots: 2
   isRanged: true
   magazine:
     ammoData: null

@@ -22,9 +22,16 @@ system:
   description:
     value: |
       <p>
-        Can make 10 beverages out of a 3000 beverages library before needing to be
-        refilled. Can also make Smash.
+        Concoct delicious beverages from a library of 3000 recipes including Smash.
       </p>
+      <blockquote>
+        <p>
+          Can make
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.nswZViDvZUMIKyZe]{10
+          drinks} before the internal reservoir needs to be refilled with chemicals
+          worth 100eb.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   ignoredByBrowser: false

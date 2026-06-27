@@ -31,8 +31,9 @@ system:
   description:
     value: |
       <p>
-        Capable of firing all Non-Basic ammunition, this weapon is still as versatile
-        as when it was invented over two decades ago.
+        <strong>Exotic Sniper Rifle</strong> Capable of firing all Non-Basic
+        ammunition, this weapon is still as versatile as when it was invented over two
+        decades ago.
       </p>
   dvTable: DV Sniper Rifle
   equipped: owned

@@ -22,7 +22,7 @@ system:
   concealable:
     concealable: false
     isConcealed: false
-  critFailEffect: jammed
+  critFailEffect: destroyedBeyondRepair
   damage: 8d6
   damageCrit:
     bonus: 5
@@ -47,7 +47,6 @@ system:
   installedItems:
     allowed: true
     allowedTypes:
-      - itemUpgrade
       - ammo
     list: []
     slots: 0

@@ -30,7 +30,10 @@ system:
     threshold: 0
   description:
     value: |
-      <p>While unloaded, this weapon can be concealed.</p>
+      <p>
+        <strong>Poor Quality Exotic Rocket Launcher</strong> While unloaded, this
+        weapon can be concealed.
+      </p>
   dvTable: DV Rocket Launcher
   equipped: owned
   favorite: false
@@ -55,7 +58,7 @@ system:
     value: 0
   price:
     market: 500
-  quality: standard
+  quality: poor
   revealed: true
   rof: 1
   sources:

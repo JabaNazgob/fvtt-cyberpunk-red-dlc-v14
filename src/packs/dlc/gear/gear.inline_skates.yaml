@@ -1,6 +1,50 @@
 _id: 1Uv3Sr204rM82du8
 _key: "!items!1Uv3Sr204rM82du8"
-effects: []
+effects:
+  - _id: 4B1mwnCkcUlaX69d
+    _key: "!items.effects!1Uv3Sr204rM82du8.4B1mwnCkcUlaX69d"
+    _stats:
+      compendiumSource: null
+      coreVersion: "12.343"
+      createdTime: 1768631247414
+      duplicateSource: null
+      lastModifiedBy: IMREvhAZtigyN7Gy
+      modifiedTime: 1768631275857
+      systemId: cyberpunk-red-core
+      systemVersion: v0.0.0dev
+    changes:
+      - key: bonuses.run
+        mode: 2
+        priority: null
+        value: "4"
+    description: ""
+    disabled: false
+    duration:
+      combat: null
+      rounds: null
+      seconds: null
+      startRound: null
+      startTime: null
+      startTurn: null
+      turns: null
+    flags:
+      cyberpunk-red-core:
+        changes:
+          cats:
+            "0": combat
+          situational:
+            "0":
+              isSituational: false
+              onByDefault: false
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/inline_skates.svg
+    name: Inline Skates
+    origin: Compendium.cyberpunk-red-dlc.dlc_gear.Item.1Uv3Sr204rM82du8
+    sort: 0
+    statuses: []
+    system: {}
+    tint: "#ffffff"
+    transfer: true
+    type: base
 flags:
   cyberpunk-red-core:
     _migration:
@@ -21,11 +65,13 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>
-        They're roller skates baby! Increases moment by 4 m/yds when using the Run
-        Action, though stopping the use of any options in the user's legs. May cause
-        physical tasks to be done at -2.
-      </p>
+      <p>They're roller skates baby!</p>
+      <blockquote>
+        <p>
+          <em>Increases movement by 4m/yds when taking the run action. </em>May cause
+          physical tasks to be done at -2.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   ignoredByBrowser: false

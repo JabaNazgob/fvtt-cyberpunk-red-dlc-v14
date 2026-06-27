@@ -7,7 +7,8 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun.svg
+img: >-
+  modules/cyberpunk-red-dlc/icons/black-chrome/weapons/hades-multipurpose-assault-shotgun.svg
 name: Hades Multipurpose Assault Shotgun
 ownership:
   default: 0
@@ -48,7 +49,6 @@ system:
   installedItems:
     allowed: true
     allowedTypes:
-      - itemUpgrade
       - ammo
     list: []
     slots: 0

@@ -20,9 +20,48 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >
-      <p>A large, cabinet-sized, drink mixing machine seen commonly used in
-      bars.</p>
+    value: |
+      <p>
+        A large, cabinet-sized, drink mixing machine seen commonly used in bars.
+        Provides 30 HP for the purposes of cover.
+      </p>
+      <blockquote>
+        <p>
+          See the <strong>Drinktionary</strong> on page 16 of Mixing Drinks—Changing
+          Lives for associated recipes. Each ingredient canister holds 100 units and
+          must be replaced when empty. You may use the following items to track Drink
+          Master 5000's fill state:
+        </p>
+        <ul>
+          <li>
+            <p>
+              @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.Ig15Vp79R4lMkHGu]{Adelhyde}
+            </p>
+          </li>
+          <li>
+            <p>
+              @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.P6IU6Vm16NgPHJt4]{Bronson
+              Extract}
+            </p>
+          </li>
+          <li>
+            <p>
+              @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.NjFzze9SENjPu2U3]{Flanergide}
+            </p>
+          </li>
+          <li>
+            <p>
+              @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.87tePbq5yTJxEg49]{Karmotrine}
+            </p>
+          </li>
+          <li>
+            <p>
+              @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.eejNk5t7hvr5BsJA]{Powdered
+              Delta}
+            </p>
+          </li>
+        </ul>
+      </blockquote>
   equipped: owned
   favorite: false
   ignoredByBrowser: false

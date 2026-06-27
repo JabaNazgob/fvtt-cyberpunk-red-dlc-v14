@@ -2,6 +2,149 @@ _id: C1u6clpJPtn9DAWo
 _key: "!items!C1u6clpJPtn9DAWo"
 effects: []
 flags:
+  cprInstallTree:
+    - _id: McVMie3Gkiey6mWc
+      _stats:
+        compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC
+        coreVersion: "12.343"
+        createdTime: 1768772191971
+        duplicateSource: null
+        lastModifiedBy: IMREvhAZtigyN7Gy
+        modifiedTime: 1768772191971
+        systemId: cyberpunk-red-core
+        systemVersion: v0.0.0dev
+      effects: []
+      flags:
+        cyberpunk-red-core:
+          _migration:
+            current: 33
+            previous: "24"
+      folder: null
+      img: systems/cyberpunk-red-core/icons/compendium/upgrades/smartgun_link.svg
+      name: Smartgun Link
+      ownership:
+        IMREvhAZtigyN7Gy: 3
+        default: 0
+      sort: 0
+      system:
+        ammoVariety: []
+        attackmod: 0
+        brand: Pursuit Security Inc.
+        canIgnoreArmor: true
+        concealable:
+          concealable: false
+          isConcealed: false
+        critFailEffect: jammed
+        damage: 1d6
+        description:
+          value: >-
+            <p>This model of "Smartgun" allows users to select between Lethal
+            and Non-lethal modes.</p>
+        dvTable: ""
+        favorite: false
+        fireModes:
+          autoFire: 0
+          suppressiveFire: false
+        handsReq: 0
+        ignoreArmorPercent: 50
+        ignoreBelowSP: 0
+        installLocation: mall
+        installedItems:
+          allowed: false
+          allowedTypes:
+            - itemUpgrade
+          list: []
+          slots: 0
+          usedSlots: 0
+        isElectronic: true
+        isRanged: false
+        magazine:
+          ammoData: null
+          max: 0
+          value: 0
+        modifiers:
+          Wardrobe & Style:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          attackmod:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: 1
+          bodySp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          cool:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          damage:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          headSp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          magazine:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          rof:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          sdp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          seats:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          secondaryWeapon:
+            configured: false
+          shieldHp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          slots:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          speedCombat:
+            isSituational: false
+            onByDefault: false
+            value: null
+        price:
+          market: 0
+        providesHardening: false
+        revealed: true
+        rof: 1
+        size: 2
+        source:
+          book: BC
+          page: 115
+        type: weapon
+        unarmedAutomaticCalculation: true
+        usage: toggled
+        usesType: magazine
+        weaponSkill: ""
+        weaponType: ""
+      type: itemUpgrade
   cyberpunk-red-core:
     _migration:
       current: 44
@@ -31,10 +174,11 @@ system:
   description:
     value: |
       <p>
-        Comes with a Smartgun Link attachment*. The User needs a Subdermal Grip to
-        operate it. It has a Lethal and Non-lethal mode.
+        This weapon lacks a mechanical trigger and requires a
+        <strong>Subdermal Grip</strong> to operate. The installed
+        <strong>Smartgun Link</strong> comes equipped with both Lethal and Non-lethal
+        settings.
       </p>
-      <p><em>* This Upgrade needs to be added manually.</em></p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false
@@ -50,9 +194,10 @@ system:
     allowedTypes:
       - itemUpgrade
       - ammo
-    list: []
-    slots: 0
-    usedSlots: 0
+    list:
+      - McVMie3Gkiey6mWc
+    slots: 2
+    usedSlots: 2
   isRanged: true
   magazine:
     ammoData: null
@@ -60,7 +205,7 @@ system:
     value: 0
   price:
     market: 500
-  quality: standard
+  quality: poor
   revealed: true
   rof: 2
   sources:

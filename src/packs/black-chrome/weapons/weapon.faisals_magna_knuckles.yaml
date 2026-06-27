@@ -33,6 +33,8 @@ system:
       <p>
         One Handed Exotic Medium Melee Weapon. Battery powered EMP effect which can
         deactivate cyberware.
+        @UUID[Compendium.cyberpunk-red-core.other_macros.Macro.z8NN97JkdZUUFYud]{Get
+        EMP'd Items}
       </p>
   dvTable: ""
   equipped: owned

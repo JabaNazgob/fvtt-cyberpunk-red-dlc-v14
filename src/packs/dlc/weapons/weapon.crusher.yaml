@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/weapons/militech-crusher.svg
 name: Crusher
 ownership:
   default: 0
@@ -30,7 +30,9 @@ system:
     threshold: 0
   description:
     value: |
-      <p>A pistol that fires shotgun shells. What's not to love.</p>
+      <p>
+        An Exotic Very Heavy Pistol that fires shotgun shells. What's not to love?
+      </p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

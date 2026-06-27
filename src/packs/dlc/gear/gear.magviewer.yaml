@@ -21,18 +21,17 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>
-        Binoculars meant for spotting. Provides detail up to 800m/yds. Provides the
-        user with an additional +1 to an attack roll with a successful Complimentary
-        Skill Check to assist in attacking a target 51m/yds or farther away in
-        addition to any other Complimentary Skill Checks..
-      </p>
-      <p>
-        Does not stack with
-        @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping
-        Scope} or
-        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.
-      </p>
+      <p>Binoculars meant for spotting. Provides detail up to 800m/yds.</p>
+      <blockquote>
+        <p>
+          Provides another individual with a +1 to their attack roll against a shared
+          target if you make a successful <strong>Complimentary Skill Check</strong>.
+          This bonus does not stack with the bonuses provided by
+          @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping
+          Scope} or
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   ignoredByBrowser: false

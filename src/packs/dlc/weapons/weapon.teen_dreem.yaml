@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/weapons/SMG_poor.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/weapons/teen-dreem.svg
 name: Teen Dreem
 ownership:
   default: 0
@@ -22,7 +22,7 @@ system:
   concealable:
     concealable: true
     isConcealed: false
-  critFailEffect: jammed
+  critFailEffect: destroyedBeyondRepair
   damage: 2d6
   damageCrit:
     bonus: 5
@@ -31,9 +31,9 @@ system:
   description:
     value: |
       <p>
-        This SMG can use Autofire and Suppressive Fire all the way down to it's last 2
-        bullets. Caution is required however, as using either firing mode well melt
-        the gun beyond repair.
+        <strong>Poor Quality Exotic SMG</strong> This SMG can use Autofire and
+        Suppressive Fire all the way down to it's last 2 bullets. Caution is required
+        however, as using either firing mode well melt the gun beyond repair.
       </p>
   dvTable: DV SMG
   equipped: owned

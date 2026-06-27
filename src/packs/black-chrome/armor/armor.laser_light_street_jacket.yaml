@@ -1,6 +1,51 @@
 _id: fyi3U9v6On4r1iiO
 _key: "!items!fyi3U9v6On4r1iiO"
-effects: []
+effects:
+  - _id: ML15AmoE6EHh9ERW
+    _key: "!items.effects!fyi3U9v6On4r1iiO.ML15AmoE6EHh9ERW"
+    _stats:
+      compendiumSource: null
+      coreVersion: "12.343"
+      createdTime: null
+      duplicateSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: cyberpunk-red-core
+      systemVersion: v0.0.0dev
+    changes:
+      - key: bonuses.wardrobeAndStyle
+        mode: 2
+        priority: null
+        value: "2"
+    description: ""
+    disabled: false
+    duration:
+      combat: null
+      rounds: null
+      seconds: null
+      startRound: null
+      startTime: null
+      startTurn: null
+      turns: null
+    flags:
+      cyberpunk-red-core:
+        changes:
+          cats:
+            "0": skill
+          situational:
+            "0":
+              isSituational: false
+              onByDefault: false
+    img: >-
+      modules/cyberpunk-red-dlc/icons/black-chrome/armor/laser-light-street-jacket.svg
+    name: Laser Light Light Jacket
+    origin: Item.mCE0BocSEV3GkJIZ
+    sort: 0
+    statuses: []
+    system: {}
+    tint: "#ffffff"
+    transfer: true
+    type: base
 flags:
   cyberpunk-red-core:
     _migration:
@@ -26,6 +71,7 @@ system:
     value: |
       <p>
         Urban Flash-styled Light Armorjack that counts as a Light Tattoo while worn.
+        +2 to Wardrobe &amp; Style if you have at least Light Tattoos installed
       </p>
   equipped: owned
   favorite: false

@@ -33,6 +33,13 @@ system:
     value: >
       <p>The Militech Perseus is an Excellent Quality Exotic Very Heavy
       Pistol.</p>
+
+      <blockquote>
+        <p>
+          This weapon has a <strong>2 ROF</strong> if it has been fired in the
+          previous round.
+        </p>
+      </blockquote>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

@@ -31,7 +31,10 @@ system:
     threshold: 0
   description:
     value: |
-      <p>This weapon can only fire Smoke or Teargas Ammunition.</p>
+      <p>
+        <strong>Excellent Quality Exotic Grenade Launcher</strong> This weapon can
+        only fire Smoke or Teargas Ammunition.
+      </p>
   dvTable: DV Grenade Launcher
   equipped: owned
   favorite: false

@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/weapons/heavyPistol_poor.svg
+img: modules/cyberpunk-red-dlc/icons/black-chrome/weapons/overlord-handcannon.svg
 name: Overlord Handcannon
 ownership:
   default: 0
@@ -32,8 +32,14 @@ system:
     value: |
       <p>
         The Overlord Handcannon is a Poor Quality Exotic Heavy Pistol with a ROF of 1.
-        It may give a +1 bonus to Facedowns in certain situations.
+        It may give a +1 bonus to Facedowns* in certain situations.
       </p>
+      <blockquote>
+        <p>
+          ⚠️ Creating an ActiveEffect to modify Reputation is known to cause a bug
+          when adjusting the ledger.
+        </p>
+      </blockquote>
   dvTable: DV Pistol
   equipped: owned
   favorite: false
@@ -47,7 +53,6 @@ system:
   installedItems:
     allowed: true
     allowedTypes:
-      - itemUpgrade
       - ammo
     list: []
     slots: 0

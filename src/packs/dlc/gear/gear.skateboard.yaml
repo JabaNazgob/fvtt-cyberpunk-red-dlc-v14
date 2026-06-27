@@ -1,6 +1,50 @@
 _id: 5I7hkCleUNdrgRoI
 _key: "!items!5I7hkCleUNdrgRoI"
-effects: []
+effects:
+  - _id: E0R4KgGYWJtaPVEb
+    _key: "!items.effects!5I7hkCleUNdrgRoI.E0R4KgGYWJtaPVEb"
+    _stats:
+      compendiumSource: null
+      coreVersion: "12.343"
+      createdTime: 1768631298301
+      duplicateSource: null
+      lastModifiedBy: IMREvhAZtigyN7Gy
+      modifiedTime: 1768631317330
+      systemId: cyberpunk-red-core
+      systemVersion: v0.0.0dev
+    changes:
+      - key: bonuses.run
+        mode: 2
+        priority: null
+        value: "4"
+    description: ""
+    disabled: false
+    duration:
+      combat: null
+      rounds: null
+      seconds: null
+      startRound: null
+      startTime: null
+      startTurn: null
+      turns: null
+    flags:
+      cyberpunk-red-core:
+        changes:
+          cats:
+            "0": combat
+          situational:
+            "0":
+              isSituational: false
+              onByDefault: false
+    img: modules/cyberpunk-red-dlc/icons/dlc/gear/skateboard.svg
+    name: Skateboard
+    origin: Compendium.cyberpunk-red-dlc.dlc_gear.Item.5I7hkCleUNdrgRoI
+    sort: 0
+    statuses: []
+    system: {}
+    tint: "#ffffff"
+    transfer: true
+    type: base
 flags:
   cyberpunk-red-core:
     _migration:
@@ -21,11 +65,13 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>
-        The coolest wheels around. Increases moment by 4 m/yds when using the Run
-        Action on level or downwards ground. May cause physical tasks to be done at
-        -2.
-      </p>
+      <p>The coolest wheels around.</p>
+      <blockquote>
+        <p>
+          <em>Increases movement by 4m/yds when taking the run action. </em>May cause
+          physical tasks to be done at -2.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   ignoredByBrowser: false

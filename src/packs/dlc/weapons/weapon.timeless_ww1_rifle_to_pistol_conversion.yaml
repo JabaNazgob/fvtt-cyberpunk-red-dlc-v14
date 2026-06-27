@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol_poor.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/weapons/ww1-rifle-to-pistol-conversion.svg
 name: Timeless WW1 Rifle to Pistol Conversion
 ownership:
   default: 0
@@ -30,8 +30,11 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Poor Quality Very Heavy Pistol.</p>
-      <p>Manual rearming of the bolt between each shot (one Action).</p>
+      <p>
+        <strong>Poor Quality Very Heavy Pistol</strong> Manual re-arming of the bolt
+        between each shot (one Action).
+      </p>
+      <blockquote><p>Cannot install any magazine upgrades.</p></blockquote>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

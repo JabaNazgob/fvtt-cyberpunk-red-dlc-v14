@@ -23,7 +23,14 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Kevlar armor that shocks anyone who is grappling you.</p>
+      <p>Kevlar armor designed for prison use.</p>
+      <blockquote>
+        <p>
+          Use an action on your turn during a grapple to shock the attacker. The
+          grapple ends immediately on a failed
+          <strong>DV15 Resist Torture/Dugs Check</strong>.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   headLocation:
@@ -31,14 +38,14 @@ system:
     sp: 0
   ignoredByBrowser: false
   installedItems:
-    allowed: true
+    allowed: false
     allowedTypes:
       - itemUpgrade
     list: []
-    slots: 1
+    slots: 0
     usedSlots: 0
   isBodyLocation: true
-  isElectronic: false
+  isElectronic: true
   isHeadLocation: false
   isShield: false
   penalty: 0

@@ -30,7 +30,10 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Exotic Assault Rifle, no Autofire, no Suppressive Fire.</p>
+      <p>
+        <strong>Exotic Assault Rifle</strong>, no Autofire, no Suppressive Fire. Can
+        be disassembled and packed into its stock for easy concealment.
+      </p>
   dvTable: DV Assault Rifle
   equipped: owned
   favorite: false
@@ -44,7 +47,6 @@ system:
   installedItems:
     allowed: true
     allowedTypes:
-      - itemUpgrade
       - ammo
     list: []
     slots: 0

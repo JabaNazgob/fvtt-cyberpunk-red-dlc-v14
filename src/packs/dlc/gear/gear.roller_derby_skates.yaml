@@ -5,10 +5,9 @@ effects:
     _key: "!items.effects!ubOjhMgg2hwaZGZy.PTF6h6IzRLqq27fc"
     _stats:
       compendiumSource: null
-      coreVersion: "13.351"
+      coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
-      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -67,7 +66,12 @@ system:
   description:
     value: |
       <p>A pair of Leage approved quad-skates.</p>
-      <p><em>Increases movement by 4m/yds when running.</em></p>
+      <blockquote>
+        <p>
+          <em>Increases movement by 4m/yds when taking the run action. </em>May cause
+          physical tasks to be done at -2.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   ignoredByBrowser: false

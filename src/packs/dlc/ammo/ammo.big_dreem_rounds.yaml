@@ -15,14 +15,18 @@ ownership:
 sort: 0
 system:
   ablationValue: 1
-  amount: 10
+  amount: 30
   brand: ""
   concealable:
     concealable: false
     isConcealed: false
   description:
     value: |
-      <p>Custom Ammo for the Teen Dreem.</p>
+      <p>
+        Custom Ammo for use only with the
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.dnfLVJnDKlEdLkpy]{Big
+        Dreem}.
+      </p>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall
@@ -41,7 +45,7 @@ system:
       mode: none
       value: 3d6
   price:
-    market: 100
+    market: 20
   size: 0
   sources:
     - book: Black Chrome+

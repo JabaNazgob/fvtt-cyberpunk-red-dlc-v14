@@ -5,10 +5,9 @@ effects:
     _key: "!items.effects!QE785D3EE383knl6.ooPd6s81jF5J1lpO"
     _stats:
       compendiumSource: null
-      coreVersion: "13.351"
+      coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
-      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -25,7 +24,7 @@ effects:
       rounds: null
       seconds: null
       startRound: null
-      startTime: null
+      startTime: 1768521727
       startTurn: null
       turns: null
     flags:
@@ -48,6 +47,137 @@ effects:
     transfer: true
     type: base
 flags:
+  cprInstallTree:
+    - _id: cduiqI6MtArC2KiM
+      _stats:
+        compendiumSource: null
+        coreVersion: "12.343"
+        createdTime: 1768632293890
+        duplicateSource: null
+        lastModifiedBy: IMREvhAZtigyN7Gy
+        modifiedTime: 1768632293890
+        systemId: cyberpunk-red-core
+        systemVersion: v0.0.0dev
+      effects: []
+      flags: {}
+      folder: null
+      img: modules/cyberpunk-red-dlc/icons/dlc/gear/inline_skates.svg
+      name: Vermillion Linear Skates
+      ownership:
+        IMREvhAZtigyN7Gy: 3
+        default: 0
+      sort: 0
+      system:
+        ammoVariety: []
+        attackmod: 0
+        brand: Wyzard Technologies
+        canIgnoreArmor: false
+        concealable:
+          concealable: false
+          isConcealed: false
+        critFailEffect: jammed
+        damage: 1d6
+        description:
+          value: >-
+            <p>A boost of speed when you need
+            it.</p><blockquote><p><em>Increases movement by 4m/yds when taking
+            the run action. </em>May cause physical tasks to be done at
+            -2.</p></blockquote>
+        favorite: false
+        fireModes:
+          autoFire: 0
+          suppressiveFire: false
+        handsReq: 0
+        ignoreArmorPercent: 0
+        ignoreBelowSP: 0
+        installLocation: mall
+        installedItems:
+          allowed: false
+          allowedTypes:
+            - itemUpgrade
+          list: []
+          slots: 3
+          usedSlots: 0
+        isElectronic: false
+        isRanged: false
+        magazine:
+          ammoData: {}
+          max: 0
+          value: 0
+        modifiers:
+          Wardrobe & Style:
+            isSituational: false
+            onByDefault: false
+            value: null
+          attackmod:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          bodySp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          cool:
+            isSituational: false
+            onByDefault: false
+            value: null
+          damage:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          headSp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          magazine:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          rof:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          sdp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          seats:
+            isSituational: false
+            onByDefault: false
+            value: null
+          secondaryWeapon:
+            configured: false
+          shieldHp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          slots:
+            isSituational: false
+            onByDefault: false
+            value: null
+          speedCombat:
+            isSituational: false
+            onByDefault: false
+            value: null
+        price:
+          market: 0
+        providesHardening: false
+        revealed: true
+        rof: 1
+        size: 1
+        source:
+          book: BC
+          page: 54
+        type: gear
+        unarmedAutomaticCalculation: true
+        usage: toggled
+        usesType: magazine
+        weaponSkill: Handgun
+      type: itemUpgrade
   cyberpunk-red-core:
     _migration:
       current: 44
@@ -83,9 +213,10 @@ system:
     allowedTypes:
       - itemUpgrade
       - cyberware
-    list: []
+    list:
+      - cduiqI6MtArC2KiM
     slots: 1
-    usedSlots: 0
+    usedSlots: 1
   isElectronic: false
   price:
     market: 5000

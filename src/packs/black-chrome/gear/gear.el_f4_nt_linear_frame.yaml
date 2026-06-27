@@ -5,10 +5,9 @@ effects:
     _key: "!items.effects!yK1OjwJXiEvjPnS5.Gf4ERKzJBc62fK3p"
     _stats:
       compendiumSource: null
-      coreVersion: "13.351"
+      coreVersion: "12.343"
       createdTime: null
       duplicateSource: null
-      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -25,7 +24,7 @@ effects:
       rounds: null
       seconds: null
       startRound: null
-      startTime: null
+      startTime: 1768521727
       startTurn: null
       turns: null
     flags:
@@ -48,6 +47,265 @@ effects:
     transfer: true
     type: base
 flags:
+  cprInstallTree:
+    - _id: EKL74hanUNBRrKju
+      _stats:
+        compendiumSource: null
+        coreVersion: "12.343"
+        createdTime: 1768632286890
+        duplicateSource: null
+        lastModifiedBy: IMREvhAZtigyN7Gy
+        modifiedTime: 1768632286890
+        systemId: cyberpunk-red-core
+        systemVersion: v0.0.0dev
+      effects: []
+      flags: {}
+      folder: null
+      img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
+      name: Integrated Techtool
+      ownership:
+        IMREvhAZtigyN7Gy: 3
+        default: 0
+      sort: 0
+      system:
+        ammoVariety: []
+        attackmod: 0
+        brand: Zhirafa
+        canIgnoreArmor: false
+        concealable:
+          concealable: false
+          isConcealed: false
+        critFailEffect: jammed
+        damage: 1d6
+        description:
+          value: <p>A multi-purpose tool integrated into the linear frame.</p>
+        favorite: false
+        fireModes:
+          autoFire: 0
+          suppressiveFire: false
+        handsReq: 0
+        ignoreArmorPercent: 0
+        ignoreBelowSP: 0
+        installLocation: mall
+        installedItems:
+          allowed: false
+          allowedTypes:
+            - itemUpgrade
+          list: []
+          slots: 3
+          usedSlots: 0
+        isElectronic: true
+        isRanged: false
+        magazine:
+          ammoData: {}
+          max: 0
+          value: 0
+        modifiers:
+          Wardrobe & Style:
+            isSituational: false
+            onByDefault: false
+            value: null
+          attackmod:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          bodySp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          cool:
+            isSituational: false
+            onByDefault: false
+            value: null
+          damage:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          headSp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          magazine:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          rof:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          sdp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          seats:
+            isSituational: false
+            onByDefault: false
+            value: null
+          secondaryWeapon:
+            configured: false
+          shieldHp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          slots:
+            isSituational: false
+            onByDefault: false
+            value: null
+          speedCombat:
+            isSituational: false
+            onByDefault: false
+            value: null
+        price:
+          market: 0
+        providesHardening: false
+        revealed: true
+        rof: 1
+        size: 1
+        source:
+          book: BC
+          page: 55
+        type: gear
+        unarmedAutomaticCalculation: true
+        usage: toggled
+        usesType: magazine
+        weaponSkill: Handgun
+      type: itemUpgrade
+    - _id: FS9pJMeoMDzqWHno
+      _stats:
+        compendiumSource: Actor.Hq4TNT2JuXJCrwVL.Item.w2YHyYWt6pMC6gmP
+        coreVersion: "12.343"
+        createdTime: 1768632286890
+        duplicateSource: null
+        lastModifiedBy: IMREvhAZtigyN7Gy
+        modifiedTime: 1768632286890
+        systemId: cyberpunk-red-core
+        systemVersion: v0.0.0dev
+      effects: []
+      flags: {}
+      folder: null
+      img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
+      name: Integrated Techtool
+      ownership:
+        IMREvhAZtigyN7Gy: 3
+        default: 0
+      sort: 100000
+      system:
+        ammoVariety: []
+        attackmod: 0
+        brand: Zhirafa
+        canIgnoreArmor: false
+        concealable:
+          concealable: false
+          isConcealed: false
+        critFailEffect: jammed
+        damage: 1d6
+        description:
+          value: <p>A multi-purpose tool integrated into the linear frame.</p>
+        favorite: false
+        fireModes:
+          autoFire: 0
+          suppressiveFire: false
+        handsReq: 0
+        ignoreArmorPercent: 0
+        ignoreBelowSP: 0
+        installLocation: mall
+        installedItems:
+          allowed: false
+          allowedTypes:
+            - itemUpgrade
+          list: []
+          slots: 3
+          usedSlots: 0
+        isElectronic: true
+        isRanged: false
+        magazine:
+          ammoData: {}
+          max: 0
+          value: 0
+        modifiers:
+          Wardrobe & Style:
+            isSituational: false
+            onByDefault: false
+            value: null
+          attackmod:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          bodySp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          cool:
+            isSituational: false
+            onByDefault: false
+            value: null
+          damage:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          headSp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          magazine:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          rof:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          sdp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          seats:
+            isSituational: false
+            onByDefault: false
+            value: null
+          secondaryWeapon:
+            configured: false
+          shieldHp:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          slots:
+            isSituational: false
+            onByDefault: false
+            value: null
+          speedCombat:
+            isSituational: false
+            onByDefault: false
+            value: null
+        price:
+          market: 0
+        providesHardening: false
+        revealed: true
+        rof: 1
+        size: 1
+        source:
+          book: BC
+          page: 55
+        type: gear
+        unarmedAutomaticCalculation: true
+        usage: toggled
+        usesType: magazine
+        weaponSkill: Handgun
+      type: itemUpgrade
   cyberpunk-red-core:
     _migration:
       current: 44
@@ -67,7 +325,7 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Exoskeleton.</p>
+      <p>Exoskeleton that does not require Interface Plugs to operate.</p>
       <ul>
         <li>Increases BODY to 12 while equipped</li>
         <li>Does not affect HP or Deathsave</li>
@@ -80,9 +338,11 @@ system:
     allowed: true
     allowedTypes:
       - itemUpgrade
-    list: []
-    slots: 1
-    usedSlots: 0
+    list:
+      - EKL74hanUNBRrKju
+      - FS9pJMeoMDzqWHno
+    slots: 2
+    usedSlots: 2
   isElectronic: true
   price:
     market: 5000

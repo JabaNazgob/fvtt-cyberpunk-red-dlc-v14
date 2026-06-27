@@ -2,6 +2,397 @@ _id: kwurvxruvvm0VxRI
 _key: "!items!kwurvxruvvm0VxRI"
 effects: []
 flags:
+  cprInstallTree:
+    - _id: hfKt0u3rk272nd4t
+      _stats:
+        compendiumSource: Actor.DkY3OxxxkrOFdwxE.Item.S2LUHZ4glSAbVV9S
+        coreVersion: "12.343"
+        createdTime: 1768771025270
+        duplicateSource: null
+        lastModifiedBy: IMREvhAZtigyN7Gy
+        modifiedTime: 1768771025270
+        systemId: cyberpunk-red-core
+        systemVersion: v0.0.0dev
+      effects: []
+      flags: {}
+      folder: null
+      img: >-
+        modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/apv-electronic-reciever.svg
+      name: Arasaka Prototype Railgun Upgrade
+      ownership:
+        IMREvhAZtigyN7Gy: 3
+        default: 0
+      sort: 0
+      system:
+        ammoVariety:
+          - battery
+          - rifle
+        attackmod: 1
+        brand: Arasaka
+        canIgnoreArmor: true
+        concealable:
+          concealable: false
+          isConcealed: false
+        critFailEffect: jammed
+        damage: 5d6
+        description:
+          value: >-
+            <p>Requires Arasaka Prototype Heat-Resistant Barrel and Arasaka
+            Prototype Rechargable Battery to be installed before use.</p>
+        dvTable: DV Assault Rifle
+        favorite: false
+        fireModes:
+          autoFire: 0
+          suppressiveFire: false
+        handsReq: 0
+        ignoreArmorPercent: 0
+        ignoreBelowSP: 7
+        installLocation: mall
+        installedItems:
+          allowed: true
+          allowedTypes:
+            - ammo
+          list: []
+          slots: 3
+          usedSlots: 0
+        isElectronic: true
+        isRanged: true
+        magazine:
+          ammoData: {}
+          max: 8
+          value: 0
+        modifiers:
+          Wardrobe & Style:
+            isSituational: false
+            onByDefault: false
+            value: null
+          attackmod:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: 0
+          bodySp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          cool:
+            isSituational: false
+            onByDefault: false
+            value: null
+          damage:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          headSp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          magazine:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          rof:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          sdp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          seats:
+            isSituational: false
+            onByDefault: false
+            value: null
+          secondaryWeapon:
+            configured: true
+          shieldHp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          slots:
+            isSituational: false
+            onByDefault: false
+            value: null
+          speedCombat:
+            isSituational: false
+            onByDefault: false
+            value: null
+        price:
+          market: 5000
+        providesHardening: false
+        revealed: true
+        rof: 1
+        size: 1
+        source:
+          book: BC
+          page: 102
+        type: weapon
+        unarmedAutomaticCalculation: true
+        usage: toggled
+        usesType: magazine
+        weaponSkill: Heavy Weapons
+        weaponType: assaultRifle
+      type: itemUpgrade
+    - _id: ZzwrhUYiJeG1yYAA
+      _stats:
+        compendiumSource: Actor.DkY3OxxxkrOFdwxE.Item.K4HQWz8sUDzRKc78
+        coreVersion: "12.343"
+        createdTime: 1768771025270
+        duplicateSource: null
+        lastModifiedBy: IMREvhAZtigyN7Gy
+        modifiedTime: 1768771025270
+        systemId: cyberpunk-red-core
+        systemVersion: v0.0.0dev
+      effects: []
+      flags: {}
+      folder: null
+      img: systems/cyberpunk-red-core/icons/compendium/ammo/battery.png
+      name: Arasaka Prototype Rechargable Battery
+      ownership:
+        IMREvhAZtigyN7Gy: 3
+        default: 0
+      sort: 0
+      system:
+        ammoVariety: []
+        attackmod: 0
+        brand: ""
+        canIgnoreArmor: false
+        concealable:
+          concealable: false
+          isConcealed: false
+        critFailEffect: jammed
+        damage: 1d6
+        description:
+          value: >-
+            <p>Required for use by the Arasaka Prototype Railgun Upgrade.
+            </p><blockquote><p>Each battery contains enough charge to power 8
+            shots. The battery can be recharged in any power port in 1
+            hour.</p></blockquote><p></p>
+        favorite: false
+        fireModes:
+          autoFire: 0
+          suppressiveFire: false
+        handsReq: 0
+        ignoreArmorPercent: 0
+        ignoreBelowSP: 0
+        installLocation: mall
+        installedItems:
+          allowed: false
+          allowedTypes:
+            - itemUpgrade
+          list: []
+          slots: 3
+          usedSlots: 0
+        isElectronic: true
+        isRanged: false
+        magazine:
+          ammoData: {}
+          max: 0
+          value: 0
+        modifiers:
+          Wardrobe & Style:
+            isSituational: false
+            onByDefault: false
+            value: null
+          attackmod:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          bodySp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          cool:
+            isSituational: false
+            onByDefault: false
+            value: null
+          damage:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          headSp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          magazine:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          rof:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          sdp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          seats:
+            isSituational: false
+            onByDefault: false
+            value: null
+          secondaryWeapon:
+            configured: false
+          shieldHp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          slots:
+            isSituational: false
+            onByDefault: false
+            value: null
+          speedCombat:
+            isSituational: false
+            onByDefault: false
+            value: null
+        price:
+          market: 50
+        providesHardening: false
+        revealed: true
+        rof: 1
+        size: 1
+        source:
+          book: BC
+          page: 120
+        type: weapon
+        unarmedAutomaticCalculation: true
+        usage: toggled
+        usesType: magazine
+        weaponSkill: Handgun
+      type: itemUpgrade
+    - _id: Ktd9bUJGpqaFUOPY
+      _stats:
+        compendiumSource: Actor.DkY3OxxxkrOFdwxE.Item.2Kh4Uyv0lw9EqZi8
+        coreVersion: "12.343"
+        createdTime: 1768771025270
+        duplicateSource: null
+        lastModifiedBy: IMREvhAZtigyN7Gy
+        modifiedTime: 1768771025270
+        systemId: cyberpunk-red-core
+        systemVersion: v0.0.0dev
+      effects: []
+      flags: {}
+      folder: null
+      img: >-
+        modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/apv-heat-resistant-barrel.svg
+      name: Arasaka Prototype Heat-Resistant Barrel
+      ownership:
+        IMREvhAZtigyN7Gy: 3
+        default: 0
+      sort: 0
+      system:
+        ammoVariety: []
+        attackmod: 0
+        brand: Arasaka
+        canIgnoreArmor: false
+        concealable:
+          concealable: false
+          isConcealed: false
+        critFailEffect: jammed
+        damage: 1d6
+        description:
+          value: <p>Required to use the Arasaka Prototype Railgun Upgrade.</p>
+        favorite: false
+        fireModes:
+          autoFire: 0
+          suppressiveFire: false
+        handsReq: 0
+        ignoreArmorPercent: 0
+        ignoreBelowSP: 0
+        installLocation: mall
+        installedItems:
+          allowed: true
+          allowedTypes:
+            - itemUpgrade
+          list: []
+          slots: 3
+          usedSlots: 0
+        isElectronic: false
+        isRanged: false
+        magazine:
+          ammoData: {}
+          max: 0
+          value: 0
+        modifiers:
+          Wardrobe & Style:
+            isSituational: false
+            onByDefault: false
+            value: null
+          attackmod:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          bodySp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          cool:
+            isSituational: false
+            onByDefault: false
+            value: null
+          damage:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          headSp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          magazine:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          rof:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          sdp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          seats:
+            isSituational: false
+            onByDefault: false
+            value: null
+          secondaryWeapon:
+            configured: false
+          shieldHp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          slots:
+            isSituational: false
+            onByDefault: false
+            value: null
+          speedCombat:
+            isSituational: false
+            onByDefault: false
+            value: null
+        price:
+          market: 5000
+        providesHardening: false
+        revealed: true
+        rof: 1
+        size: 1
+        source:
+          book: BC
+          page: 102
+        type: weapon
+        unarmedAutomaticCalculation: true
+        usage: toggled
+        usesType: magazine
+        weaponSkill: Handgun
+      type: itemUpgrade
   cyberpunk-red-core:
     _migration:
       current: 44
@@ -35,6 +426,29 @@ system:
         Assault Rifle. Assuming you have all the parts, it can use an alternate unique
         railgun mode.
       </p>
+      <blockquote>
+        <p>Railgun Mode requires:</p>
+        <ul>
+          <li>
+            <p>
+              @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.mlYhAxuDlI3fP9hq]{Arasaka
+              Prototype Heat-Resistant Barrel}
+            </p>
+          </li>
+          <li>
+            <p>
+              @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.8nSzcjNlyulWrZtN]{Arasaka
+              Prototype Railgun Upgrade}
+            </p>
+          </li>
+          <li>
+            <p>
+              @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.nQF0M9n7cLvHS5RY]{Arasaka
+              Prototype Rechargable Battery}
+            </p>
+          </li>
+        </ul>
+      </blockquote>
   dvTable: DV Assault Rifle
   equipped: owned
   favorite: false
@@ -50,16 +464,19 @@ system:
     allowedTypes:
       - itemUpgrade
       - ammo
-    list: []
-    slots: 0
-    usedSlots: 0
+    list:
+      - hfKt0u3rk272nd4t
+      - ZzwrhUYiJeG1yYAA
+      - Ktd9bUJGpqaFUOPY
+    slots: 3
+    usedSlots: 3
   isRanged: true
   magazine:
     ammoData: null
     max: 25
     value: 0
   price:
-    market: 15000
+    market: 5000
   quality: excellent
   revealed: true
   rof: 1

@@ -2,12 +2,143 @@ _id: 062x3IuaFgsjMV5X
 _key: "!items!062x3IuaFgsjMV5X"
 effects: []
 flags:
+  cprInstallTree:
+    - _id: cXHrQf6otwhfbuMh
+      _stats:
+        compendiumSource: null
+        coreVersion: "12.343"
+        createdTime: 1768778653479
+        duplicateSource: null
+        lastModifiedBy: IMREvhAZtigyN7Gy
+        modifiedTime: 1768778653479
+        systemId: cyberpunk-red-core
+        systemVersion: v0.0.0dev
+      effects: []
+      flags: {}
+      folder: null
+      img: modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/biometric-key.svg
+      name: Biometric Key
+      ownership:
+        IMREvhAZtigyN7Gy: 3
+        default: 0
+      sort: 0
+      system:
+        ammoVariety: []
+        attackmod: 0
+        brand: Kendachi
+        canIgnoreArmor: true
+        concealable:
+          concealable: false
+          isConcealed: false
+        critFailEffect: jammed
+        damage: 4d6
+        description:
+          value: >-
+            <p>A biometric key prevents unwanted users from accessing enhanced
+            features.</p><blockquote><p>With the biometric key unlocked, this
+            weapon ignores armor less than 7SP.</p></blockquote>
+        favorite: false
+        fireModes:
+          autoFire: 0
+          suppressiveFire: false
+        handsReq: 0
+        ignoreArmorPercent: 50
+        ignoreBelowSP: 7
+        installLocation: mall
+        installedItems:
+          allowed: false
+          allowedTypes:
+            - itemUpgrade
+          list: []
+          slots: 3
+          usedSlots: 0
+        isElectronic: true
+        isRanged: false
+        magazine:
+          ammoData: {}
+          max: 0
+          value: 0
+        modifiers:
+          Wardrobe & Style:
+            isSituational: false
+            onByDefault: false
+            value: null
+          attackmod:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          bodySp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          cool:
+            isSituational: false
+            onByDefault: false
+            value: null
+          damage:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          headSp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          magazine:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          rof:
+            isSituational: false
+            onByDefault: false
+            type: modifier
+            value: null
+          sdp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          seats:
+            isSituational: false
+            onByDefault: false
+            value: null
+          secondaryWeapon:
+            configured: true
+          shieldHp:
+            isSituational: false
+            onByDefault: false
+            value: null
+          slots:
+            isSituational: false
+            onByDefault: false
+            value: null
+          speedCombat:
+            isSituational: false
+            onByDefault: false
+            value: null
+        price:
+          market: 0
+        providesHardening: false
+        revealed: true
+        rof: 1
+        size: 1
+        source:
+          book: BC
+          page: 92
+        type: weapon
+        unarmedAutomaticCalculation: true
+        usage: toggled
+        usesType: magazine
+        weaponSkill: Melee Weapon
+        weaponType: vHeavyMelee
+      type: itemUpgrade
   cyberpunk-red-core:
     _migration:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/weapons/Sword.svg
+img: modules/cyberpunk-red-dlc/icons/black-chrome/weapons/kendachi-mono-katana.svg
 name: Kendachi Mono-Katana
 ownership:
   default: 0
@@ -28,11 +159,12 @@ system:
     count: 2
     threshold: 0
   description:
-    value: |
-      <p>
-        Two Handed Exotic Very Heavy Melee Weapon. When wielded by the correct user
-        the weapon ignores armor less than 7 SP.
-      </p>
+    value: >
+      <p>Two Handed Exotic Very Heavy Melee Weapon protected by a biometric
+      key.</p>
+
+      <p>When wielded by the correct user the weapon ignores armor less than 7
+      SP.</p>
   dvTable: ""
   equipped: owned
   favorite: false
@@ -44,13 +176,13 @@ system:
   ignoreBelowSP: 0
   ignoredByBrowser: false
   installedItems:
-    allowed: false
+    allowed: true
     allowedTypes:
       - itemUpgrade
-      - ammo
-    list: []
-    slots: 0
-    usedSlots: 0
+    list:
+      - cXHrQf6otwhfbuMh
+    slots: 1
+    usedSlots: 1
   isRanged: false
   magazine:
     ammoData: null
