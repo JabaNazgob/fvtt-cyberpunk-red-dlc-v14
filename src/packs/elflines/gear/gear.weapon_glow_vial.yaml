@@ -1,14 +1,5 @@
 _id: KQQ7MAe13VlEwFgZ
 _key: "!items!KQQ7MAe13VlEwFgZ"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1776985526134
-  duplicateSource: Item.qQGZzdnJkAKDzbq9
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1776985526134
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: Ld94WnhHrzIRpK8Y
@@ -25,12 +16,18 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Scan this single use code using the ELO Elftracker to enhance your
-      equipped weapon with a color of your choice!</p><p><span
-      style="font-size:.25rem">▌ ▌█▌█▌▌█▌ █▌▌▌▌█▌▌█▌ ▌▌█▌▌▌ ▌█▌▌█▌█▌▌ ▌█▌▌█▌▌
-      ▌▌▌█▌▌ █▌▌ █▌▌█▌▌▌▌▌ █▌█▌▌█▌▌▌ █▌█▌▌█▌▌ ▌█▌ █▌▌▌▌▌ █▌▌█▌▌▌ █▌▌▌█▌▌█▌▌
-      █▌▌█▌▌▌ ▌█▌▌█▌▌▌ █▌▌ ▌█▌█▌▌</span></p>
+    value: |
+      <p>
+        Scan this single use code using the ELO Elftracker to enhance your equipped
+        weapon with a color of your choice!
+      </p>
+      <p>
+        <span style="font-size: 0.25rem"
+          >▌ ▌█▌█▌▌█▌ █▌▌▌▌█▌▌█▌ ▌▌█▌▌▌ ▌█▌▌█▌█▌▌ ▌█▌▌█▌▌ ▌▌▌█▌▌ █▌▌ █▌▌█▌▌▌▌▌
+          █▌█▌▌█▌▌▌ █▌█▌▌█▌▌ ▌█▌ █▌▌▌▌▌ █▌▌█▌▌▌ █▌▌▌█▌▌█▌▌ █▌▌█▌▌▌ ▌█▌▌█▌▌▌ █▌▌
+          ▌█▌█▌▌</span
+        >
+      </p>
   equipped: owned
   favorite: false
   installedItems:

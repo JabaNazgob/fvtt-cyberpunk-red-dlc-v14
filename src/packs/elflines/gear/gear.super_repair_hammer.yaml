@@ -1,14 +1,5 @@
 _id: DQzdPsBLtAipRKmc
 _key: "!items!DQzdPsBLtAipRKmc"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1776985526134
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1776985526134
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: Ld94WnhHrzIRpK8Y
@@ -25,12 +16,18 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>Scan this code using the ELO Elftracker to instantly repair your gear
-      for half price!</p><p><span style="font-size:.25rem">▌ ▌█▌█▌▌▌█▌▌█▌ ▌█▌
-      ▌▌▌█▌▌█▌█▌▌ ▌█▌▌█▌ ▌▌█▌▌▌█▌ ▌▌ █▌▌█▌▌█▌▌▌█▌ ▌█▌▌█▌ ▌▌▌█▌█▌▌ ▌█▌▌▌ ▌█▌▌█▌▌
-      █▌▌█▌▌▌█▌ ▌▌ █▌▌█▌▌█▌▌▌ █▌▌█▌▌▌ ▌█▌█▌█▌▌▌ ▌█▌█▌▌▌ ▌█▌▌█▌ ▌▌█▌▌▌█▌ ▌▌
-      ▌█▌█▌▌</span></p>
+    value: |
+      <p>
+        Scan this code using the ELO Elftracker to instantly repair your gear for half
+        price!
+      </p>
+      <p>
+        <span style="font-size: 0.25rem"
+          >▌ ▌█▌█▌▌▌█▌▌█▌ ▌█▌ ▌▌▌█▌▌█▌█▌▌ ▌█▌▌█▌ ▌▌█▌▌▌█▌ ▌▌ █▌▌█▌▌█▌▌▌█▌ ▌█▌▌█▌
+          ▌▌▌█▌█▌▌ ▌█▌▌▌ ▌█▌▌█▌▌ █▌▌█▌▌▌█▌ ▌▌ █▌▌█▌▌█▌▌▌ █▌▌█▌▌▌ ▌█▌█▌█▌▌▌ ▌█▌█▌▌▌
+          ▌█▌▌█▌ ▌▌█▌▌▌█▌ ▌▌ ▌█▌█▌▌</span
+        >
+      </p>
   equipped: owned
   favorite: false
   installedItems:

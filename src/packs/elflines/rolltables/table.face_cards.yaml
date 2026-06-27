@@ -1,14 +1,5 @@
 _id: y4VW60EUNSRVTaXy
 _key: "!tables!y4VW60EUNSRVTaXy"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1776986855021
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1776987747103
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 description: >-
   <p>A random Face Card found inside an Elfine Online TCG
   @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.nEITubqXVIVK36c2]{Booster
@@ -26,158 +17,278 @@ replacement: true
 results:
   - _id: 1Y06eSMnHBEe9mEZ
     _key: "!tables.results!y4VW60EUNSRVTaXy.1Y06eSMnHBEe9mEZ"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: 5zjWPxeWeVdkDTw1
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.5zjWPxeWeVdkDTw1
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-jack-clubs.svg
+    name: Spreading Slime
     range:
       - 1
       - 1
-    text: Spreading Slime
-    type: pack
+    type: document
     weight: 1
   - _id: NEQeSo4WYYs5BSNz
     _key: "!tables.results!y4VW60EUNSRVTaXy.NEQeSo4WYYs5BSNz"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: C0qTwBxoevGdVoE8
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.C0qTwBxoevGdVoE8
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-jack-diamonds.svg
+    name: Gather the Elflines
     range:
       - 2
       - 2
-    text: Gather the Elflines
-    type: pack
+    type: document
     weight: 1
   - _id: YtkdcxrPTphg710M
     _key: "!tables.results!y4VW60EUNSRVTaXy.YtkdcxrPTphg710M"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: rhwI30kBExNIEbuN
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.rhwI30kBExNIEbuN
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-jack-hearts.svg
+    name: Hero's Tutor
     range:
       - 3
       - 3
-    text: Hero's Tutor
-    type: pack
+    type: document
     weight: 1
   - _id: iESahOhcL8Sjf70i
     _key: "!tables.results!y4VW60EUNSRVTaXy.iESahOhcL8Sjf70i"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: 0Q1Mm63bh6DNXlIr
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.0Q1Mm63bh6DNXlIr
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-jack-spades.svg
+    name: Pot of Miasma
     range:
       - 4
       - 4
-    text: Pot of Miasma
-    type: pack
+    type: document
     weight: 1
   - _id: wOFI8z4rY2hkRD7q
     _key: "!tables.results!y4VW60EUNSRVTaXy.wOFI8z4rY2hkRD7q"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: JclZT0z4rfSREPUz
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.JclZT0z4rfSREPUz
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-queen-clubs.svg
+    name: Curse of Enthernox
     range:
       - 5
       - 5
-    text: Curse of Enthernox
-    type: pack
+    type: document
     weight: 1
   - _id: AtU7SQRKOj3l2oMT
     _key: "!tables.results!y4VW60EUNSRVTaXy.AtU7SQRKOj3l2oMT"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: FTlcrztO1I4GHgdw
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.FTlcrztO1I4GHgdw
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-queen-diamonds.svg
+    name: Blessing of Arvish
     range:
       - 6
       - 6
-    text: Blessing of Arvish
-    type: pack
+    type: document
     weight: 1
   - _id: ORXDU0qWQpttC9Mj
     _key: "!tables.results!y4VW60EUNSRVTaXy.ORXDU0qWQpttC9Mj"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: LqNj3iSKuNEZ8QKM
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.LqNj3iSKuNEZ8QKM
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-queen-hearts.svg
+    name: Rank Up!
     range:
       - 7
       - 7
-    text: Rank Up!
-    type: pack
+    type: document
     weight: 1
   - _id: kxbSYDH6dGa8DaP9
     _key: "!tables.results!y4VW60EUNSRVTaXy.kxbSYDH6dGa8DaP9"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: u7Vj4Dgn0I1X7bov
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.u7Vj4Dgn0I1X7bov
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-queen-spades.svg
+    name: Rise from Bog
     range:
       - 8
       - 8
-    text: Rise from Bog
-    type: pack
+    type: document
     weight: 1
   - _id: H1WJ4XKDtBqFhpwR
     _key: "!tables.results!y4VW60EUNSRVTaXy.H1WJ4XKDtBqFhpwR"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: 8rbfoB2Syyb3mC3b
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.8rbfoB2Syyb3mC3b
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-king-clubs.svg
+    name: Flight of Dragons
     range:
       - 9
       - 9
-    text: Flight of Dragons
-    type: pack
+    type: document
     weight: 1
   - _id: Nf4fxkSxkPHdDiSe
     _key: "!tables.results!y4VW60EUNSRVTaXy.Nf4fxkSxkPHdDiSe"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: EarZ4znDjBrcoU16
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.EarZ4znDjBrcoU16
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-king-diamonds.svg
+    name: Zazzolite Aura
     range:
       - 10
       - 10
-    text: Zazzolite Aura
-    type: pack
+    type: document
     weight: 1
   - _id: ZVTER00u7ChrFq1z
     _key: "!tables.results!y4VW60EUNSRVTaXy.ZVTER00u7ChrFq1z"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: o54WkafI88fYwiGq
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.o54WkafI88fYwiGq
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-king-hearts.svg
+    name: Hero's Reversal
     range:
       - 11
       - 11
-    text: Hero's Reversal
-    type: pack
+    type: document
     weight: 1
   - _id: eHzI1YVyFwQY5yYT
     _key: "!tables.results!y4VW60EUNSRVTaXy.eHzI1YVyFwQY5yYT"
-    documentCollection: cyberpunk-red-dlc.elflines_gear
-    documentId: oxiNKpZxfQPYjMgu
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.oxiNKpZxfQPYjMgu
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-king-spades.svg
+    name: Warlock's Wrath
     range:
       - 12
       - 12
-    text: Warlock's Wrath
-    type: pack
+    type: document
     weight: 1
 sort: 300000

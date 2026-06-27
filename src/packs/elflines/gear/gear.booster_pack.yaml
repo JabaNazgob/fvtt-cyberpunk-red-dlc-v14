@@ -1,14 +1,5 @@
 _id: nEITubqXVIVK36c2
 _key: "!items!nEITubqXVIVK36c2"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1776985526134
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1776987790475
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: MgaT7aTvtcZaSWIj
@@ -25,13 +16,15 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>An unopened pack of Elflines Online trading cards.</p><p>Contains one
-      stack of
-      @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.DvNSK7YR1z3mkyKi]{Numbered
-      Cards} and a
-      @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.y4VW60EUNSRVTaXy]{Random
-      Face Card}.</p>
+    value: |
+      <p>An unopened pack of Elflines Online trading cards.</p>
+      <p>
+        Contains one stack of
+        @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.DvNSK7YR1z3mkyKi]{Numbered
+        Cards} and a
+        @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.y4VW60EUNSRVTaXy]{Random
+        Face Card}.
+      </p>
   equipped: owned
   favorite: false
   installedItems:

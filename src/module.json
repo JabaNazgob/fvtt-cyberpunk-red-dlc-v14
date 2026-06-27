@@ -257,7 +257,7 @@
     {
       "name": "elflines_rolltables",
       "label": "Rolltables",
-      "path": "packs/elflines_rolltables",
+      "path": "packs/elflines/rolltables",
       "type": "RollTable",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"

@@ -1,14 +1,5 @@
 _id: oxiNKpZxfQPYjMgu
 _key: "!items!oxiNKpZxfQPYjMgu"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1776985526134
-  duplicateSource: Item.o54WkafI88fYwiGq
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1776985526134
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: RD2lqqoGCEVmvfeN
@@ -25,11 +16,15 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>A face card for building an Elflines Online-TCG
-      deck.</p><blockquote><p>TCG card items are provided for use as loot and
-      not for actual play. GM's are encouraged to configure their own decks
-      using Foundry's <strong>Card Stack</strong> feature.</p></blockquote>
+    value: |
+      <p>A face card for building an Elflines Online-TCG deck.</p>
+      <blockquote>
+        <p>
+          TCG card items are provided for use as loot and not for actual play. GM's
+          are encouraged to configure their own decks using Foundry's
+          <strong>Card Stack</strong> feature.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   installedItems:

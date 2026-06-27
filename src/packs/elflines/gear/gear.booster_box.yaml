@@ -1,14 +1,5 @@
 _id: syVsfq29eqqEAj3s
 _key: "!items!syVsfq29eqqEAj3s"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1776985526134
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1776986917060
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: MgaT7aTvtcZaSWIj
@@ -25,10 +16,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >-
-      <p>A box of 10 ELO-TCG
-      @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.nEITubqXVIVK36c2]{Booster
-      Packs}.</p>
+    value: |
+      <p>
+        A box of 10 ELO-TCG
+        @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.nEITubqXVIVK36c2]{Booster
+        Packs}.
+      </p>
   equipped: owned
   favorite: false
   installedItems:
