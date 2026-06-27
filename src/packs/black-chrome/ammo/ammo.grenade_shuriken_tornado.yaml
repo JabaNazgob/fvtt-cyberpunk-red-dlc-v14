@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_armorpiercing.svg
+img: modules/cyberpunk-red-dlc/icons/black-chrome/ammo/grenade_shurikentornado.svg
 name: Grenade (Shuriken Tornado)
 ownership:
   default: 0

@@ -113,7 +113,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.OufLzsBG6w0CUp81
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_poison.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_poison.svg
     name: Grenade (Poison)
     range:
       - 5

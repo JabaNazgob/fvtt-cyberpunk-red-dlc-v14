@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/ammo/osmosis_compound.svg
+img: modules/cyberpunk-red-dlc/icons/black-chrome/ammo/arasaka_acid.svg
 name: Arasaka Acid
 ownership:
   default: 0

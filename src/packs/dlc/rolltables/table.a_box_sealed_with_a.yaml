@@ -51,7 +51,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_ammo.KPSBX2Ns6cj6JC4v
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_flashbang.png
+    img: >-
+      modules/cyberpunk-red-dlc/icons/black-chrome/ammo/grenade_shurikentornado.svg
     name: Shuriken Tornado Grenade
     range:
       - 3

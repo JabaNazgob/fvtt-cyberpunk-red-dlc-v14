@@ -30,7 +30,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.3rtsVDMaB16lc5tY
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_teargas.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_teargas.svg
     name: Grenade (Teargas)
     range:
       - 1
@@ -156,7 +156,9 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.WOJD6hQVUVEK8AsJ
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_rubber.png
+    img: >-
+      systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_rubber.svg -
+      2 - 2
     name: Heavy Pistol (Rubber)
     range:
       - 2
@@ -198,7 +200,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.mkI1KpjAOUz9PxRM
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_shell_basic.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_shell_basic.svg
     name: Shotgun Shell (Basic)
     range:
       - 6
@@ -219,7 +221,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.jmia1vHSv6bdQEVP
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_basic.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_basic.svg
     name: Heavy Pistol (Basic)
     range:
       - 2

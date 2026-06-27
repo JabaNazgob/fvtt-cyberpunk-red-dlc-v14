@@ -156,7 +156,9 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.qRKLIX7yU2n83JKJ
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_slug_rubber.png
+    img: >-
+      systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_slug_rubber.svg -
+      1 - 1
     name: Shotgun Slug (Rubber)
     range:
       - 1
@@ -177,7 +179,9 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.WOJD6hQVUVEK8AsJ
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_rubber.png
+    img: >-
+      systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_rubber.svg -
+      2 - 2
     name: Heavy Pistol (Rubber)
     range:
       - 2
@@ -198,7 +202,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.qA9wmNHuGLsxBtRB
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_rubber.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_rubber.svg
     name: Rifle (Rubber)
     range:
       - 4
@@ -219,7 +223,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.YFnV9OetCCRru5Ky
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_slug_basic.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_slug_basic.svg
     name: Shotgun Slug (Basic)
     range:
       - 1
@@ -240,7 +244,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.mkI1KpjAOUz9PxRM
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_shell_basic.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_shell_basic.svg
     name: Shotgun Shell (Basic)
     range:
       - 1
@@ -261,7 +265,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.jmia1vHSv6bdQEVP
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_basic.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_basic.svg
     name: Heavy Pistol (Basic)
     range:
       - 2
@@ -282,7 +286,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.J3NfMgRdqoUwFDDs
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_basic.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_basic.svg
     name: Rifle (Basic)
     range:
       - 4
@@ -303,7 +307,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.BEj2oUj2UOKgBFDz
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_armorpiercing.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_armorpiercing.svg
     name: Rifle (Armor-Piercing)
     range:
       - 4
@@ -324,7 +328,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.mDk8gPTM1ENRcB0K
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_expansive.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_expansive.svg
     name: Rifle (Expansive)
     range:
       - 4
@@ -345,7 +349,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.U6VMjZRYgJMlMSsg
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_incendiary.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_incendiary.svg
     name: Rifle (Incendiary)
     range:
       - 4
@@ -366,7 +370,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.n3AunwSvl6L44MRF
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_smart.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_smart.svg
     name: Rifle (Smart)
     range:
       - 4

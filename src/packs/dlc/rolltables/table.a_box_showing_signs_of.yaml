@@ -114,7 +114,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.tivSfxqoNYnBlNah
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_armorpiercing.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_armorpiercing.svg
     name: Grenade (Armor-Piercing)
     range:
       - 5

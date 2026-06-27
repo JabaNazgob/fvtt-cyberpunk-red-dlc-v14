@@ -49,7 +49,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.IJhN5QHmu4hAJxLo
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_incendiary.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_incendiary.svg
     name: Grenade (Incendiary)
     range:
       - 2
@@ -133,7 +133,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.qA9wmNHuGLsxBtRB
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_rubber.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_rubber.svg - 4 - 4
     name: Rifle (Rubber)
     range:
       - 4
@@ -154,7 +154,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.qA9wmNHuGLsxBtRB
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_rubber.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_rubber.svg
     name: Rifle (Rubber)
     range:
       - 5
@@ -175,7 +175,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.J3NfMgRdqoUwFDDs
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_basic.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_basic.svg
     name: Rifle (Basic)
     range:
       - 4
@@ -196,7 +196,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.J3NfMgRdqoUwFDDs
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_basic.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_basic.svg
     name: Rifle (Basic)
     range:
       - 5
@@ -239,7 +239,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_shell_incendiary.png
+      systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_shell_incendiary.svg
     name: Shotgun Shell (Incendiary)
     range:
       - 6

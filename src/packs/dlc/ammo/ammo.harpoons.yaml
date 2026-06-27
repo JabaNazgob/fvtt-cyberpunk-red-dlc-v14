@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/default/Default_Ammo.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/harpoon_basic.svg
 name: Harpoons
 ownership:
   Oh50kk1fqzkpjwxb: 3

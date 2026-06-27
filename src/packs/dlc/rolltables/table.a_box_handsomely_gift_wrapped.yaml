@@ -137,7 +137,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.n1vIKB6Mln9XgUXL
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_rubber.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_rubber.svg
     name: Medium Pistol (Rubber)
     range:
       - 3
@@ -179,7 +179,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.6OdC9uNTwgQLFdto
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_basic.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_basic.svg
     name: Medium Pistol (Basic)
     range:
       - 3
@@ -201,7 +201,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_armorpiercing.png
+      systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_armorpiercing.svg
     name: Medium Pistol (Armor-Piercing)
     range:
       - 3
@@ -223,7 +223,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_expansive.png
+      systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_expansive.svg
     name: Medium Pistol (Expansive)
     range:
       - 3
@@ -245,7 +245,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_incendiary.png
+      systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_incendiary.svg
     name: Medium Pistol (Incendiary)
     range:
       - 3
@@ -266,7 +266,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.6dwSiAhYho02ZtgL
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_smart.png
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/pistolmedium_smart.svg
     name: Medium Pistol (Smart)
     range:
       - 3
