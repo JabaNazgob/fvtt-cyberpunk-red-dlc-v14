@@ -1,14 +1,5 @@
 _id: Ni28NtWNPp2juhS1
 _key: "!tables!Ni28NtWNPp2juhS1"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778358517540
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778447677284
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 description: >-
   <p>Random heavy weapons upgrades provided by Gunpath.</p><p>Toggles Temple,
   pg. 18</p>
@@ -25,83 +16,143 @@ replacement: true
 results:
   - _id: 8LXH2LwvQaZFjN6F
     _key: "!tables.results!Ni28NtWNPp2juhS1.8LXH2LwvQaZFjN6F"
-    documentCollection: cyberpunk-red-core.core_upgrades
-    documentId: J51qZjmuEheNiamo
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_upgrades.Item.J51qZjmuEheNiamo
     drawn: false
     flags: {}
     img: >-
       systems/cyberpunk-red-core/icons/compendium/upgrades/generic_drum_magazine.svg
+    name: Drum Magazine (Grenade Launcher)
     range:
       - 1
       - 1
-    text: Drum Magazine (Grenade Launcher)
-    type: pack
+    type: document
     weight: 1
   - _id: E7VX9ICyamUp1MWl
     _key: "!tables.results!Ni28NtWNPp2juhS1.E7VX9ICyamUp1MWl"
-    documentCollection: cyberpunk-red-core.core_upgrades
-    documentId: P4XioOHNf343JNm9
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_upgrades.Item.P4XioOHNf343JNm9
     drawn: false
     flags: {}
     img: >-
       systems/cyberpunk-red-core/icons/compendium/upgrades/generic_extended_magazine.svg
+    name: Extended Magazine (Grenade Launcher)
     range:
       - 2
       - 2
-    text: Extended Magazine (Grenade Launcher)
-    type: pack
+    type: document
     weight: 1
   - _id: CVrh5fuxPfMUyYB6
     _key: "!tables.results!Ni28NtWNPp2juhS1.CVrh5fuxPfMUyYB6"
-    documentCollection: cyberpunk-red-core.core_upgrades
-    documentId: pEXcsIk1FYMNdbUc
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_upgrades.Item.pEXcsIk1FYMNdbUc
     drawn: false
     flags: {}
     img: >-
       systems/cyberpunk-red-core/icons/compendium/upgrades/infrared_nightvision_scope.svg
+    name: Infrared Nightvision Scope
     range:
       - 3
       - 3
-    text: Infrared Nightvision Scope
-    type: pack
+    type: document
     weight: 1
   - _id: 2tEMGelJwZo0YgEv
     _key: "!tables.results!Ni28NtWNPp2juhS1.2tEMGelJwZo0YgEv"
-    documentCollection: cyberpunk-red-dlc.dlc_upgrades
-    documentId: qElWreojgrHxJ1iR
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.qElWreojgrHxJ1iR
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/silencer.svg
+    name: Silencer
     range:
       - 4
       - 4
-    text: Silencer
-    type: pack
+    type: document
     weight: 1
   - _id: gvtrRe4day4WqBCI
     _key: "!tables.results!Ni28NtWNPp2juhS1.gvtrRe4day4WqBCI"
-    documentCollection: cyberpunk-red-core.core_upgrades
-    documentId: BC8S1sdK0QGdyHNC
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/upgrades/smartgun_link.svg
+    name: Smartgun Link
     range:
       - 5
       - 5
-    text: Smartgun Link
-    type: pack
+    type: document
     weight: 1
   - _id: TamKIsNmLpvkT8MB
     _key: "!tables.results!Ni28NtWNPp2juhS1.TamKIsNmLpvkT8MB"
-    documentCollection: cyberpunk-red-core.core_upgrades
-    documentId: Ryex0KHeeDzPQwmN
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/upgrades/sniping_scope.svg
+    name: Sniping Scope
     range:
       - 6
       - 6
-    text: Sniping Scope
-    type: pack
+    type: document
     weight: 1
 sort: 250000

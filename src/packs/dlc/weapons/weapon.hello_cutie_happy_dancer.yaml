@@ -1,157 +1,8 @@
 _id: 3svqsRLGg4rF5Hwp
 _key: "!items!3svqsRLGg4rF5Hwp"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778540609223
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778540609223
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
-  cprInstallTree:
-    - _id: DxJlaELYOJYlLQ57
-      _stats:
-        compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC
-        coreVersion: "12.343"
-        createdTime: 1778540593871
-        duplicateSource: null
-        lastModifiedBy: GhPkzdD89HrVDo6W
-        modifiedTime: 1778540593871
-        systemId: cyberpunk-red-core
-        systemVersion: v0.0.0dev
-      effects: []
-      flags:
-        cyberpunk-red-core:
-          _migration:
-            current: 33
-            previous: "24"
-      folder: KTDolD1XQZ3kwyDD
-      img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/happy-dancer-audio.svg
-      name: Happy Dancer Audio
-      ownership:
-        GhPkzdD89HrVDo6W: 3
-        default: 0
-      sort: 0
-      system:
-        ammoVariety: []
-        attackmod: 0
-        brand: Sanroo
-        canIgnoreArmor: true
-        concealable:
-          concealable: false
-          isConcealed: false
-        critFailEffect: jammed
-        damage: 1d6
-        description:
-          value: <p>Built in audio system that chimes with every shot!</p>
-        dvTable: ""
-        favorite: false
-        fireModes:
-          autoFire: 0
-          suppressiveFire: false
-        handsReq: 0
-        ignoreArmorPercent: 50
-        ignoreBelowSP: 0
-        installLocation: mall
-        installedItems:
-          allowed: false
-          allowedTypes:
-            - itemUpgrade
-          list: []
-          slots: 0
-          usedSlots: 0
-        isElectronic: true
-        isRanged: false
-        magazine:
-          ammoData: null
-          max: 0
-          value: 0
-        modifiers:
-          Wardrobe & Style:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          attackmod:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: 0
-          bodySp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          cool:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          damage:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          headSp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          magazine:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          rof:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          sdp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          seats:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          secondaryWeapon:
-            configured: false
-          shieldHp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          slots:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          speedCombat:
-            isSituational: false
-            onByDefault: false
-            value: null
-        price:
-          market: 0
-        providesHardening: false
-        revealed: true
-        rof: 1
-        size: 0
-        source:
-          book: TT
-          page: 7
-        type: weapon
-        unarmedAutomaticCalculation: true
-        usage: toggled
-        usesType: magazine
-        weaponSkill: ""
-        weaponType: ""
-      type: itemUpgrade
+  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
       current: 33
@@ -175,7 +26,8 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: <p>A heavy SMG. Due to its size it can't be concealed. +1 to Attack.</p>
+    value: |
+      <p>A heavy SMG. Due to its size it can't be concealed. +1 to Attack.</p>
   dvTable: DV SMG
   equipped: owned
   favorite: false

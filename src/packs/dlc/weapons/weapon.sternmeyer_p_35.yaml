@@ -1,14 +1,5 @@
 _id: bl385vC6j0fRf1nV
 _key: "!items!bl385vC6j0fRf1nV"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778538646567
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,8 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: <p>A very heavy pistol. It can't be concealed.</p>
+    value: |
+      <p>A very heavy pistol. It can't be concealed.</p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

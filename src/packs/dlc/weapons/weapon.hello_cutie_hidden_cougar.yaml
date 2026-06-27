@@ -1,14 +1,5 @@
 _id: AML3M1sXcIDwdljF
 _key: "!items!AML3M1sXcIDwdljF"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778540609223
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778540609223
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,9 +25,11 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: >-
-      <p>A concealable heavy SMG. +1 to Attack. Incompatible with any magazine
-      upgrades.</p>
+    value: |
+      <p>
+        A concealable heavy SMG. +1 to Attack. Incompatible with any magazine
+        upgrades.
+      </p>
   dvTable: DV SMG
   equipped: owned
   favorite: false

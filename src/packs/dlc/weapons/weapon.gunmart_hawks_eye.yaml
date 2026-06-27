@@ -1,14 +1,5 @@
 _id: Sz1LORoypofi9sHO
 _key: "!items!Sz1LORoypofi9sHO"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778544206395
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778544206395
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,14 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: >-
-      <p>A concealable poor quality folding bow, reloaded as part of an Attack
-      action.</p><p>If you roll 1 on Attack (Crit fail) the weapon jams and
-      requires using an action to clear.</p>
+    value: |
+      <p>
+        A concealable poor quality folding bow, reloaded as part of an Attack action.
+      </p>
+      <p>
+        If you roll 1 on Attack (Crit fail) the weapon jams and requires using an
+        action to clear.
+      </p>
   dvTable: DV Bows & Crossbows
   equipped: owned
   favorite: false

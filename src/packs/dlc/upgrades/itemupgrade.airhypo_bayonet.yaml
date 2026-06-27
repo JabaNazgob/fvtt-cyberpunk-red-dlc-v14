@@ -1,21 +1,7 @@
 _id: 5SEXfIt0muRpGrE5
 _key: "!items!5SEXfIt0muRpGrE5"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778355579158
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778355579158
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
-flags:
-  exportSource:
-    coreVersion: "12.343"
-    system: cyberpunk-red-core
-    systemVersion: v0.0.0dev
-    world: devmodule
+flags: {}
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/airhypo-bayonet.svg
 name: Airhypo Bayonet
@@ -34,9 +20,13 @@ system:
   critFailEffect: jammed
   damage: "0"
   description:
-    value: >-
-      <p>A hypodermic syringe that can deliver 1 dose of any liquid compound to
-      the target.</p><blockquote><p>Requires 1 Action to reload the Airhypo
+    value: >
+      <p>
+        A hypodermic syringe that can deliver 1 dose of any liquid compound to the
+        target.
+      </p>
+
+      <blockquote><p>Requires 1 Action to reload the Airhypo
       Bayonet.</p></blockquote>
   favorite: false
   fireModes:

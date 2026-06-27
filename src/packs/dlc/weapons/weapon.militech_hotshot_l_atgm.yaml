@@ -1,14 +1,5 @@
 _id: bgZcWzg1Ta0AUkVp
 _key: "!items!bgZcWzg1Ta0AUkVp"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778545953801
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778546692421
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -35,10 +26,10 @@ system:
   critFailEffect: jammed
   damage: 8d6
   description:
-    value: |-
+    value: |
       <p>
-       Bring out the big guns. This rocket launcher will do some damage. +1 to
-       Attack.
+        Bring out the big guns. This rocket launcher will do some damage. +1 to
+        Attack.
       </p>
   dvTable: DV Rocket Launcher
   equipped: owned

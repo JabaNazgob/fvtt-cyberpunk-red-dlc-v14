@@ -1,14 +1,5 @@
 _id: v5plnm8tEM468jKT
 _key: "!items!v5plnm8tEM468jKT"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778542804364
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: <p>An all-purpose shotgun. +1 to Attack.</p>
+    value: |
+      <p>An all-purpose shotgun. +1 to Attack.</p>
   dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false

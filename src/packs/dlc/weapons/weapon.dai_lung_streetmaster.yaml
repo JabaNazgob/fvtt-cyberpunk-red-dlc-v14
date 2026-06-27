@@ -1,14 +1,5 @@
 _id: 4G6k62Kr5KWaEYoi
 _key: "!items!4G6k62Kr5KWaEYoi"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778537421991
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: |-
+    value: |
       <p>
-       A concealable, medium-sized pistol. If you roll 1 on Attack (Crit fail) the
-       gun jams and requires using an action to clear.
+        A concealable, medium-sized pistol. If you roll 1 on Attack (Crit fail) the
+        gun jams and requires using an action to clear.
       </p>
   dvTable: DV Pistol
   equipped: owned

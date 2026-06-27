@@ -1,14 +1,5 @@
 _id: Myf59TMFBOUBcB0l
 _key: "!items!Myf59TMFBOUBcB0l"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778543255320
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,8 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: <p>A standard-issue assault rifle.</p>
+    value: |
+      <p>A standard-issue assault rifle.</p>
   dvTable: DV Assault Rifle
   equipped: owned
   favorite: false

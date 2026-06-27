@@ -1,14 +1,5 @@
 _id: YsjeyDYFrWcWjeAc
 _key: "!items!YsjeyDYFrWcWjeAc"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778542804377
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778542804377
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,19 +25,25 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: >-
-      <p>An electromagnetic shotgun that shoots proprietary
-      rounds.</p><p>@UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.LjJChw12H7TJSkm5]{ElectroMag
-      (Basic-Shell)}
-      @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.BhtcF9fMOrI5tsQE]{ElectroMag
-      (Incendiary-Shell)}
-      @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.CCEXsWo665wo7cD3]{ElectroMag
-      (Basic-Slug)}
-      @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.F3uxV0pSScgCgKat]{ElectroMag
-      (Incendiary-Slug)}</p><blockquote><p>User may switch proprietary ammo
-      between <strong>Slug</strong> or <strong>Shell</strong> each time they
-      fire the weapon. (Alternate Fire-Modes are not currently
-      supported.)</p></blockquote>
+    value: |
+      <p>An electromagnetic shotgun that shoots proprietary rounds.</p>
+      <p>
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.LjJChw12H7TJSkm5]{ElectroMag
+        (Basic-Shell)}
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.BhtcF9fMOrI5tsQE]{ElectroMag
+        (Incendiary-Shell)}
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.CCEXsWo665wo7cD3]{ElectroMag
+        (Basic-Slug)}
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.F3uxV0pSScgCgKat]{ElectroMag
+        (Incendiary-Slug)}
+      </p>
+      <blockquote>
+        <p>
+          User may switch proprietary ammo between <strong>Slug</strong> or
+          <strong>Shell</strong> each time they fire the weapon. (Alternate Fire-Modes
+          are not currently supported.)
+        </p>
+      </blockquote>
   dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false

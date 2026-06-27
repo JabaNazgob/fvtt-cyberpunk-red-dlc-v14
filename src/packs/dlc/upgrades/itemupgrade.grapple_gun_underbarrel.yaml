@@ -1,21 +1,7 @@
 _id: vX1a56BegwIc5tJF
 _key: "!items!vX1a56BegwIc5tJF"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778355579158
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778355579158
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
-flags:
-  exportSource:
-    coreVersion: "12.343"
-    system: cyberpunk-red-core
-    systemVersion: v0.0.0dev
-    world: devmodule
+flags: {}
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/grapple-gun-underbarrel.svg
 name: Grapple Gun Underbarrel
@@ -34,9 +20,11 @@ system:
   critFailEffect: jammed
   damage: "0"
   description:
-    value: >-
-      <p>Mounts under any crossbow or shoulder arm. Functions like a standard
-      @UUID[Compendium.cyberpunk-red-core.core_gear.Item.VrwVUEHuMCGjp8Fi].</p>
+    value: |
+      <p>
+        Mounts under any crossbow or shoulder arm. Functions like a standard
+        @UUID[Compendium.cyberpunk-red-core.core_gear.Item.VrwVUEHuMCGjp8Fi].
+      </p>
   favorite: false
   fireModes:
     autoFire: 0

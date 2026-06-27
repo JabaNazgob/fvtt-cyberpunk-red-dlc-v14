@@ -1,14 +1,5 @@
 _id: Q6lZKEJKJ1mvDNDD
 _key: "!items!Q6lZKEJKJ1mvDNDD"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778544206395
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778544206395
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,11 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: >-
-      <p>A concealable folding bow, reloaded as part of an Attack
-      Action.</p><blockquote><p>Foilding/Unfolding does not require an
-      <strong>Action</strong></p></blockquote>
+    value: |
+      <p>A concealable folding bow, reloaded as part of an Attack Action.</p>
+      <blockquote>
+        <p>Foilding/Unfolding does not require an <strong>Action</strong></p>
+      </blockquote>
   dvTable: DV Bows & Crossbows
   equipped: owned
   favorite: false

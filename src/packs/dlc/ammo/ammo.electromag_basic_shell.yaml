@@ -1,14 +1,5 @@
 _id: LjJChw12H7TJSkm5
 _key: "!items!LjJChw12H7TJSkm5"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778542226322
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778542226322
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,7 +21,8 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: <p>Magnetic ammo designed for the SlamDance ElectroMag.</p>
+    value: |
+      <p>Magnetic ammo designed for the SlamDance ElectroMag.</p>
   favorite: false
   installLocation: mall
   overrides:

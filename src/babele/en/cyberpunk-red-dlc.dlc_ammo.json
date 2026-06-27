@@ -14,19 +14,19 @@
     },
     "ElectroMag (Basic-Shell)": {
       "name": "ElectroMag (Basic-Shell)",
-      "description": "<p>Magnetic ammo designed for the SlamDance ElectroMag.</p>"
+      "description": "<p>Magnetic ammo designed for the SlamDance ElectroMag.</p>\n"
     },
     "ElectroMag (Basic-Slug)": {
       "name": "ElectroMag (Basic-Slug)",
-      "description": "<p>Basic ammo, nothing special.</p>"
+      "description": "<p>Basic ammo, nothing special.</p>\n"
     },
     "ElectroMag (Incendiary-Shell)": {
       "name": "ElectroMag (Incendiary-Shell)",
-      "description": "<p>\n If damage dealt to target they are set alight. Target takes 2 damage to HP at\n end of their turn unless they use action to extinguish flames. Does not stack.\n</p>"
+      "description": "<p>\n  If damage dealt to target they are set alight. Target takes 2 damage to HP at\n  end of their turn unless they use action to extinguish flames. Does not stack.\n</p>\n"
     },
     "ElectroMag (Incendiary-Slug)": {
       "name": "ElectroMag (Incendiary-Slug)",
-      "description": "<p>\n If damage dealt to target they are set alight. Target takes 2 damage to HP at\n end of their turn unless they use action to extinguish flames. Does not stack.\n</p>"
+      "description": "<p>\n  If damage dealt to target they are set alight. Target takes 2 damage to HP at\n  end of their turn unless they use action to extinguish flames. Does not stack.\n</p>\n"
     },
     "Fire Extinguisher Charges": {
       "name": "Fire Extinguisher Charges",

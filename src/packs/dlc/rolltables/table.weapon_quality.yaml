@@ -1,14 +1,5 @@
 _id: YLkXeYJxEWEdAG5I
 _key: "!tables!YLkXeYJxEWEdAG5I"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778356493454
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778447780067
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 description: <p>Random weapon quality provided by Gunpath.</p><p>Toggles Temple, pg. 16</p>
 displayRoll: false
 flags: {}
@@ -23,41 +14,71 @@ replacement: true
 results:
   - _id: UAJEVqTECAFGzlSb
     _key: "!tables.results!YLkXeYJxEWEdAG5I.UAJEVqTECAFGzlSb"
-    documentCollection: cyberpunk-red-dlc.dlc_rolltables
-    documentId: p4xjEHc0yfYpqKJS
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.p4xjEHc0yfYpqKJS
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    name: Quality-Poor
     range:
       - 1
       - 3
-    text: Quality-Poor
-    type: pack
+    type: document
     weight: 1
   - _id: Y2nMJf0UyClRYKcH
     _key: "!tables.results!YLkXeYJxEWEdAG5I.Y2nMJf0UyClRYKcH"
-    documentCollection: cyberpunk-red-dlc.dlc_rolltables
-    documentId: wnzQtN7zXjvmMNLA
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.wnzQtN7zXjvmMNLA
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    name: Quality-Standard
     range:
       - 4
       - 5
-    text: Quality-Standard
-    type: pack
+    type: document
     weight: 1
   - _id: uwbVHGjfabj1uXfK
     _key: "!tables.results!YLkXeYJxEWEdAG5I.uwbVHGjfabj1uXfK"
-    documentCollection: cyberpunk-red-dlc.dlc_rolltables
-    documentId: 7NAINlGEyxfYDhe8
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.7NAINlGEyxfYDhe8
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    name: Quality-Excellent
     range:
       - 6
       - 6
-    text: Quality-Excellent
-    type: pack
+    type: document
     weight: 1
 sort: 1300000

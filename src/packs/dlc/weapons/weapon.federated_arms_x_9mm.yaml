@@ -1,14 +1,5 @@
 _id: dTIWOSkILQ8vxgql
 _key: "!items!dTIWOSkILQ8vxgql"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778537421991
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,8 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: <p>A concealable, medium-sized pistol.</p>
+    value: |
+      <p>A concealable, medium-sized pistol.</p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

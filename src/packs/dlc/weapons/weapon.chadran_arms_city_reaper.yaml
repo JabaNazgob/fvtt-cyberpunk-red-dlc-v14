@@ -1,14 +1,5 @@
 _id: roLmao0FHIDPJ7eC
 _key: "!items!roLmao0FHIDPJ7eC"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778540609213
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: |-
+    value: |
       <p>
-       A heavy SMG. Due to its size it can't be concealed. If you roll 1 on Attack
-       (Crit fail) the gun jams and requires using an action to clear.
+        A heavy SMG. Due to its size it can't be concealed. If you roll 1 on Attack
+        (Crit fail) the gun jams and requires using an action to clear.
       </p>
   dvTable: DV SMG
   equipped: owned

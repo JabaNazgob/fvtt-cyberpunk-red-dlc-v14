@@ -1,14 +1,5 @@
 _id: HFBfeCsGnz4yd3tj
 _key: "!items!HFBfeCsGnz4yd3tj"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778544564352
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,14 +24,14 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: |-
+    value: |
       <p>
-       A poor quality crossbow branded with the GunMart logo, reloaded as part of an
-       Attack action.
+        A poor quality crossbow branded with the GunMart logo, reloaded as part of an
+        Attack action.
       </p>
       <p>
-       If you roll 1 on Attack (Crit fail) the weapon jams and requires using an
-       action to clear.
+        If you roll 1 on Attack (Crit fail) the weapon jams and requires using an
+        action to clear.
       </p>
   dvTable: DV Bows & Crossbows
   equipped: owned

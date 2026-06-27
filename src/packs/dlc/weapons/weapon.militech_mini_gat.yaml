@@ -1,14 +1,5 @@
 _id: 5E96QcUqTey2aAUB
 _key: "!items!5E96QcUqTey2aAUB"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778539830664
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,8 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: <p>A concealable SMG with 5 rotating barrels.</p>
+    value: |
+      <p>A concealable SMG with 5 rotating barrels.</p>
   dvTable: DV SMG
   equipped: owned
   favorite: false

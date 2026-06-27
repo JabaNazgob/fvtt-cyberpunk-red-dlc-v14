@@ -1,74 +1,8 @@
 _id: HfBIuViqcC44Zs0p
 _key: "!items!HfBIuViqcC44Zs0p"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778538646576
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778538646576
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
-  cprInstallTree:
-    - _id: 2UUHFjXEz3V2o9K8
-      _stats:
-        compendiumSource: Compendium.cyberpunk-red-core.core_ammo.Item.TIDzfziwhCxuIrnT
-        coreVersion: "12.343"
-        createdTime: 1778538351894
-        duplicateSource: null
-        lastModifiedBy: GhPkzdD89HrVDo6W
-        modifiedTime: 1778538351894
-        systemId: cyberpunk-red-core
-        systemVersion: v0.0.0dev
-      effects: []
-      flags:
-        cyberpunk-red-core:
-          _migration:
-            current: 39
-            previous: "38"
-      folder: TxPr6Psy1vsLrlp1
-      img: >-
-        systems/cyberpunk-red-core/icons/compendium/ammo/pistolveryheavy_incendiary.svg
-      name: Very Heavy Pistol (Incendiary)
-      ownership:
-        GhPkzdD89HrVDo6W: 3
-        default: 0
-      sort: 300000
-      system:
-        ablationValue: 1
-        amount: 0
-        brand: ""
-        concealable:
-          concealable: true
-          isConcealed: false
-        description:
-          value: |-
-            <p>
-              If damage dealt to target they are set alight. Target takes 2 damage to HP at
-              end of their turn unless they use action to extinguish flames. Does not stack.
-            </p>
-        favorite: false
-        installLocation: mall
-        overrides:
-          autofire:
-            minimum: 3
-            mode: none
-            value: -1
-          damage:
-            minimum: 1d6
-            mode: none
-            value: 3d6
-        price:
-          market: 100
-        size: 0
-        source:
-          book: Core
-          page: 346
-        type: incendiary
-        variety: vHeavyPistol
-      type: ammo
+  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
       current: 33
@@ -84,7 +18,7 @@ system:
   ammoVariety:
     - vHeavyPistol
   attackmod: 0
-  brand: Faisal's Customs
+  brand: Faisal Customs
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -92,9 +26,10 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: >-
-      <p>A single use disposable very heavy pistol. It can't be concealed or
-      reloaded.</p>
+    value: |
+      <p>
+        A single use disposable very heavy pistol. It can't be concealed or reloaded.
+      </p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

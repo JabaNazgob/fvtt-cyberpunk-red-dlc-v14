@@ -1,14 +1,5 @@
 _id: xWscKBmJ8KyV7OBA
 _key: "!items!xWscKBmJ8KyV7OBA"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778543747241
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778543747241
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,13 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: >-
-      <p>A long-distance hunting rifle. +1 to Attack.</p><blockquote><p>An
-      action is required to eject the spent round each time the rifle is
-      fired.</p></blockquote>
+    value: |
+      <p>A long-distance hunting rifle. +1 to Attack.</p>
+      <blockquote>
+        <p>
+          An action is required to eject the spent round each time the rifle is fired.
+        </p>
+      </blockquote>
   dvTable: DV Sniper Rifle
   equipped: owned
   favorite: false

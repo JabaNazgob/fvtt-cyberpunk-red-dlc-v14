@@ -1,14 +1,5 @@
 _id: CCEXsWo665wo7cD3
 _key: "!items!CCEXsWo665wo7cD3"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778542227348
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778542227348
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,7 +21,8 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: <p>Basic ammo, nothing special.</p>
+    value: |
+      <p>Basic ammo, nothing special.</p>
   favorite: false
   installLocation: mall
   overrides:

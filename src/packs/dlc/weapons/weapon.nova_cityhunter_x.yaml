@@ -1,14 +1,5 @@
 _id: alT9Pzr61OYQH6ws
 _key: "!items!alT9Pzr61OYQH6ws"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778537819396
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,7 +24,8 @@ system:
   critFailEffect: jammed
   damage: 3d6
   description:
-    value: <p>A concealable, heavy pistol. +1 to Attack.</p>
+    value: |
+      <p>A concealable, heavy pistol. +1 to Attack.</p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

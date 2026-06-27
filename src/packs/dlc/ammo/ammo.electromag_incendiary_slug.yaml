@@ -1,14 +1,5 @@
 _id: F3uxV0pSScgCgKat
 _key: "!items!F3uxV0pSScgCgKat"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778542229720
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778542229720
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -30,10 +21,10 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: |-
+    value: |
       <p>
-       If damage dealt to target they are set alight. Target takes 2 damage to HP at
-       end of their turn unless they use action to extinguish flames. Does not stack.
+        If damage dealt to target they are set alight. Target takes 2 damage to HP at
+        end of their turn unless they use action to extinguish flames. Does not stack.
       </p>
   favorite: false
   installLocation: mall

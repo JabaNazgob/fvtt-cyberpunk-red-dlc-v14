@@ -1,150 +1,8 @@
 _id: MuY1LyR2iR7Nogmp
 _key: "!items!MuY1LyR2iR7Nogmp"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778543255328
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778543255328
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
-  cprInstallTree:
-    - _id: iG8Pdn7r8pRSyQMS
-      _stats:
-        compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.s3oETYXA2wnTnrk1
-        coreVersion: "12.343"
-        createdTime: 1778542958459
-        duplicateSource: null
-        lastModifiedBy: GhPkzdD89HrVDo6W
-        modifiedTime: 1778542958459
-        systemId: cyberpunk-red-core
-        systemVersion: v0.0.0dev
-      effects: []
-      flags:
-        cyberpunk-red-core:
-          _migration:
-            current: 33
-            previous: "24"
-      folder: KTDolD1XQZ3kwyDD
-      img: >-
-        systems/cyberpunk-red-core/icons/compendium/upgrades/generic_extended_magazine.svg
-      name: Extended Magazine (Assault Rifle)
-      ownership:
-        GhPkzdD89HrVDo6W: 3
-        default: 0
-      sort: 0
-      system:
-        ammoVariety: []
-        attackmod: 0
-        brand: ""
-        canIgnoreArmor: true
-        concealable:
-          concealable: false
-          isConcealed: false
-        critFailEffect: jammed
-        damage: 1d6
-        description:
-          value: <p>Increases magazine size to a hefty 35 bullets.</p>
-        dvTable: ""
-        favorite: false
-        fireModes:
-          autoFire: 0
-          suppressiveFire: false
-        handsReq: 0
-        ignoreArmorPercent: 50
-        ignoreBelowSP: 0
-        installLocation: mall
-        installedItems:
-          allowed: false
-          allowedTypes:
-            - itemUpgrade
-          list: []
-          slots: 0
-          usedSlots: 0
-        isElectronic: false
-        isRanged: false
-        magazine:
-          ammoData: null
-          max: 0
-          value: 0
-        modifiers:
-          Wardrobe & Style:
-            isSituational: false
-            onByDefault: false
-            value: null
-          attackmod:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          bodySp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          cool:
-            isSituational: false
-            onByDefault: false
-            value: null
-          damage:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          headSp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          magazine:
-            isSituational: false
-            onByDefault: false
-            type: override
-            value: 35
-          rof:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          sdp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          seats:
-            isSituational: false
-            onByDefault: false
-            value: null
-          secondaryWeapon:
-            configured: false
-          shieldHp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          slots:
-            isSituational: false
-            onByDefault: false
-            value: null
-          speedCombat:
-            isSituational: false
-            onByDefault: false
-            value: null
-        price:
-          market: 100
-        providesHardening: false
-        revealed: true
-        rof: 1
-        size: 1
-        source:
-          book: Core
-          page: 343
-        type: weapon
-        unarmedAutomaticCalculation: true
-        usage: toggled
-        usesType: magazine
-        weaponSkill: Archery
-        weaponType: assaultRifle
-      type: itemUpgrade
+  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
       current: 33
@@ -168,9 +26,11 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: >-
-      <p>An excellent quality light assault rifle. +1 to Attack. Equipped with
-      an Extended Magazine.</p>
+    value: |
+      <p>
+        An excellent quality light assault rifle. +1 to Attack. Equipped with an
+        Extended Magazine.
+      </p>
   dvTable: DV Assault Rifle
   equipped: owned
   favorite: false

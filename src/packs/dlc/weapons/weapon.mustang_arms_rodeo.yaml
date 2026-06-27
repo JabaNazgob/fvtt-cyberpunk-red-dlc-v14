@@ -1,14 +1,5 @@
 _id: oI6qQBmmJfzIoqpw
 _key: "!items!oI6qQBmmJfzIoqpw"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778539830676
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778539830676
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,12 +25,17 @@ system:
   critFailEffect: jammed
   damage: 2d6
   description:
-    value: >-
-      <p>A concealable SMG. If you roll 1 on Attack (Crit fail) the gun jams and
-      requires using an action to clear.</p><blockquote><p>User must make a
-      <strong>DV15 Handgun</strong> check when making an <strong>autofire
-      attack</strong> or the damage multiplier cannot exceed
-      x2.</p></blockquote>
+    value: |
+      <p>
+        A concealable SMG. If you roll 1 on Attack (Crit fail) the gun jams and
+        requires using an action to clear.
+      </p>
+      <blockquote>
+        <p>
+          User must make a <strong>DV15 Handgun</strong> check when making an
+          <strong>autofire attack</strong> or the damage multiplier cannot exceed x2.
+        </p>
+      </blockquote>
   dvTable: DV SMG
   equipped: owned
   favorite: false

@@ -1,14 +1,5 @@
 _id: TQhXMRbZyVmvYDKN
 _key: "!items!TQhXMRbZyVmvYDKN"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778545570131
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 6d6
   description:
-    value: |-
+    value: |
       <p>
-       A high-impact grenade launcher. You can use a variety of grenades with this.
-       +1 to Attack.
+        A high-impact grenade launcher. You can use a variety of grenades with this.
+        +1 to Attack.
       </p>
   dvTable: DV Grenade Launcher
   equipped: owned

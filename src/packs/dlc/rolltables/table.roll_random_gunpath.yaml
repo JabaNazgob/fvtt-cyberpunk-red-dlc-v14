@@ -1,14 +1,5 @@
 _id: sYTB08m4O6gvMyI8
 _key: "!tables!sYTB08m4O6gvMyI8"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778356506742
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778449962252
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 description: >-
   <p>Create a random weapon via the Gunpath method.</p><p>Toggles Temple, pg.
   14-19</p>
@@ -25,41 +16,71 @@ replacement: true
 results:
   - _id: gtk2TbVKohl3uiPB
     _key: "!tables.results!sYTB08m4O6gvMyI8.gtk2TbVKohl3uiPB"
-    documentCollection: cyberpunk-red-dlc.dlc_rolltables
-    documentId: aIGB3mAQ7QWCQBJ0
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.aIGB3mAQ7QWCQBJ0
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    name: Weapon-Name
     range:
       - 1
       - 1
-    text: Weapon-Name
-    type: pack
+    type: document
     weight: 1
   - _id: u60VEa4Hm2drSh7E
     _key: "!tables.results!sYTB08m4O6gvMyI8.u60VEa4Hm2drSh7E"
-    documentCollection: cyberpunk-red-dlc.dlc_rolltables
-    documentId: gzuEbVDRUHBZpuUL
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.gzuEbVDRUHBZpuUL
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    name: Weapon-Manufacturer
     range:
       - 1
       - 1
-    text: Weapon-Manufacturer
-    type: pack
+    type: document
     weight: 1
   - _id: LEQ6FmNlhDq84wBO
     _key: "!tables.results!sYTB08m4O6gvMyI8.LEQ6FmNlhDq84wBO"
-    documentCollection: cyberpunk-red-dlc.dlc_rolltables
-    documentId: YLkXeYJxEWEdAG5I
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: null
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      modifiedTime: null
+      systemId: null
+      systemVersion: null
+    description: ""
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.YLkXeYJxEWEdAG5I
     drawn: false
     flags: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/gunpath-table.svg
+    name: Weapon-Quality
     range:
       - 1
       - 1
-    text: Weapon-Quality
-    type: pack
+    type: document
     weight: 1
 sort: 100000

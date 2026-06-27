@@ -1,73 +1,8 @@
 _id: TKPEd1SRn1JoHU8J
 _key: "!items!TKPEd1SRn1JoHU8J"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778542804377
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778542804377
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
-  cprInstallTree:
-    - _id: pK98wGz27vvOEse6
-      _stats:
-        compendiumSource: Compendium.cyberpunk-red-core.core_ammo.Item.qRKLIX7yU2n83JKJ
-        coreVersion: "12.343"
-        createdTime: 1778540900258
-        duplicateSource: null
-        lastModifiedBy: GhPkzdD89HrVDo6W
-        modifiedTime: 1778540900258
-        systemId: cyberpunk-red-core
-        systemVersion: v0.0.0dev
-      effects: []
-      flags:
-        cyberpunk-red-core:
-          _migration:
-            current: 39
-            previous: "38"
-      folder: null
-      img: systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_slug_rubber.svg
-      name: Shotgun Slug (Rubber)
-      ownership:
-        GhPkzdD89HrVDo6W: 3
-        default: 0
-      sort: 0
-      system:
-        ablationValue: 0
-        amount: 0
-        brand: ""
-        concealable:
-          concealable: true
-          isConcealed: false
-        description:
-          value: |-
-            <p>
-              Does not cause Critical Injury. Does not ablate armor. Leaves target at
-              minimum 1hp. Counts as Basic ammo for exotic weapons
-            </p>
-        favorite: false
-        installLocation: mall
-        overrides:
-          autofire:
-            minimum: 3
-            mode: none
-            value: -1
-          damage:
-            minimum: 1d6
-            mode: none
-            value: 3d6
-        price:
-          market: 10
-        size: 0
-        source:
-          book: Core
-          page: 346
-        type: rubber
-        variety: shotgunSlug
-      type: ammo
+  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
       current: 33
@@ -84,7 +19,7 @@ system:
     - shotgunShell
     - shotgunSlug
   attackmod: 0
-  brand: Faisal's Customs
+  brand: Faisal Customs
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -92,9 +27,11 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: >-
-      <p>A disposable shotgun that cannot be reloaded. If you roll 1 on Attack
-      (Crit fail) the gun jams and requires using an action to clear.</p>
+    value: |
+      <p>
+        A disposable shotgun that cannot be reloaded. If you roll 1 on Attack (Crit
+        fail) the gun jams and requires using an action to clear.
+      </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false

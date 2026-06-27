@@ -1,14 +1,5 @@
 _id: P2iT56xeuxEgjtax
 _key: "!items!P2iT56xeuxEgjtax"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778543747233
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -33,10 +24,10 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       A long-distance sniper rifle, commonly used by nomads. Holds 4 bullets in a
-       magazine.
+        A long-distance sniper rifle, commonly used by nomads. Holds 4 bullets in a
+        magazine.
       </p>
   dvTable: DV Sniper Rifle
   equipped: owned

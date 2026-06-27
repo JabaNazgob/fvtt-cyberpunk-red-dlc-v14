@@ -1,14 +1,5 @@
 _id: U4SOsaoPzK5fNLl7
 _key: "!items!U4SOsaoPzK5fNLl7"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778538646567
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,7 +25,8 @@ system:
   critFailEffect: jammed
   damage: 4d6
   description:
-    value: <p>A very heavy pistol. It can't be concealed. +1 to Attack.</p>
+    value: |
+      <p>A very heavy pistol. It can't be concealed. +1 to Attack.</p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false

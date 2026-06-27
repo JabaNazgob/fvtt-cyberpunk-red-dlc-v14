@@ -1,21 +1,7 @@
 _id: qElWreojgrHxJ1iR
 _key: "!items!qElWreojgrHxJ1iR"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1778355579158
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778355579158
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
-flags:
-  exportSource:
-    coreVersion: "12.343"
-    system: cyberpunk-red-core
-    systemVersion: v0.0.0dev
-    world: devmodule
+flags: {}
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/silencer.svg
 name: Silencer
@@ -34,11 +20,14 @@ system:
   critFailEffect: jammed
   damage: "0"
   description:
-    value: >-
-      <p>Greatly reduces the weapon's audio profile.</p><blockquote><p>A
-      <strong>Perception Check</strong> to determine the location of the gunshot
-      may be rolled against a <strong>DV</strong> set by the
-      GM.</p></blockquote>
+    value: |
+      <p>Greatly reduces the weapon's audio profile.</p>
+      <blockquote>
+        <p>
+          A <strong>Perception Check</strong> to determine the location of the gunshot
+          may be rolled against a <strong>DV</strong> set by the GM.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

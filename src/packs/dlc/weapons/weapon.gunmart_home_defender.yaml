@@ -1,14 +1,5 @@
 _id: tuJUMq1u3lWhVHI4
 _key: "!items!tuJUMq1u3lWhVHI4"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: null
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1778542804364
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags:
   cyberpunk-red-core:
@@ -34,10 +25,10 @@ system:
   critFailEffect: jammed
   damage: 5d6
   description:
-    value: |-
+    value: |
       <p>
-       An all-purpose shotgun. If you roll 1 on Attack (Crit fail) the gun jams and
-       requires using an action to clear.
+        An all-purpose shotgun. If you roll 1 on Attack (Crit fail) the gun jams and
+        requires using an action to clear.
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned

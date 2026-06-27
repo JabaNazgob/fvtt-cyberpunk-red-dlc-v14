@@ -11,7 +11,7 @@
     },
     "Airhypo Bayonet": {
       "name": "Airhypo Bayonet",
-      "description": "<p>A hypodermic syringe that can deliver 1 dose of any liquid compound to the target.</p><blockquote><p>Requires 1 Action to reload the Airhypo Bayonet.</p></blockquote>"
+      "description": "<p>\n  A hypodermic syringe that can deliver 1 dose of any liquid compound to the\n  target.\n</p>\n<blockquote><p>Requires 1 Action to reload the Airhypo Bayonet.</p></blockquote>\n"
     },
     "Bottle Dynamo": {
       "name": "Bottle Dynamo",
@@ -75,7 +75,7 @@
     },
     "Grapple Gun Underbarrel": {
       "name": "Grapple Gun Underbarrel",
-      "description": "<p>Mounts under any crossbow or shoulder arm. Functions like a standard @UUID[Compendium.cyberpunk-red-core.core_gear.Item.VrwVUEHuMCGjp8Fi].</p>"
+      "description": "<p>\n  Mounts under any crossbow or shoulder arm. Functions like a standard\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.VrwVUEHuMCGjp8Fi].\n</p>\n"
     },
     "Gun Mount": {
       "name": "Gun Mount",
@@ -126,7 +126,7 @@
     },
     "Silencer": {
       "name": "Silencer",
-      "description": "<p>Greatly reduces the weapon's audio profile.</p><blockquote><p>A <strong>Perception Check</strong> to determine the location of the gunshot may be rolled against a <strong>DV</strong> set by the GM.</p></blockquote>"
+      "description": "<p>Greatly reduces the weapon's audio profile.</p>\n<blockquote>\n  <p>\n    A <strong>Perception Check</strong> to determine the location of the gunshot\n    may be rolled against a <strong>DV</strong> set by the GM.\n  </p>\n</blockquote>\n"
     },
     "Smithy": {
       "name": "Smithy",
