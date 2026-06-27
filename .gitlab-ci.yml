@@ -4,11 +4,23 @@ include:
     file:
       # Shared config: default image, stages, and the `.cprc-rules` ruleset.
       - "/jobs/init/config.yml"
-      # Init: npm ci + generate vars.env, validate vars.
-      - "/jobs/init/init.yml"
-      # Release (run on tags)
+      # Release (run on tags): build + create the GitLab Release, validate the
+      # uploaded assets, then publish the latest manifest Foundry polls.
       - "/jobs/release/build-artifacts.yml"
+      - "/jobs/release/create-release.yml"
+      - "/jobs/release/pre-release.yml"
       - "/jobs/release/publish.yml"
+      # Manage: issue automation (uses the group-level CHOOM_BOT_API token).
+      - "/jobs/manage/manage-issues-on-mr.yml"
+      - "/jobs/manage/manage-issues-on-merge.yml"
+      - "/jobs/manage/manage-issues-on-release.yml"
+
+  # Init carries the token-validation input the manage-issues jobs rely on.
+  - project: "cyberpunk-red-team/cprc-cicd"
+    ref: dev
+    file: "/jobs/init/init.yml"
+    inputs:
+      gitlab_tokens_to_test: "CHOOM_BOT_API"
 
   # Scope prettier to the source we format (en babele included; translations
   # and other generated/vendored files excluded).
