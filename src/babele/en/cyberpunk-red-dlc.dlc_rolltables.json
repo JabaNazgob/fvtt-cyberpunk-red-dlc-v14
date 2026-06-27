@@ -189,6 +189,23 @@
         }
       ]
     },
+    "Random Loot Box": {
+      "name": "Random Loot Box",
+      "results": [
+        {
+          "1-1": "A Box Bound Tightly In Rope",
+          "2-2": "A Box Covered In Chipped Paint",
+          "3-3": "A Box Dripping Wet With Fluid",
+          "4-4": "A Box Freezing Cold To The Touch",
+          "5-5": "A Box Handsomely Gift Wrapped",
+          "6-6": "A Box Marked With A Lime Green X",
+          "7-7": "A Box Melted Out Of Shape",
+          "8-8": "A Box Reeking Of Oil",
+          "9-9": "A Box Sealed With A Lipstick Kiss",
+          "10-10": "A Box Showing Signs Of Repair"
+        }
+      ]
+    },
     "Spring Weather": {
       "name": "Spring Weather",
       "results": [
