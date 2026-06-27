@@ -1,14 +1,5 @@
 _id: qotDrZIYfGJcynBk
 _key: "!items!qotDrZIYfGJcynBk"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777137385542
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777137385542
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -22,7 +13,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Salvaged
+  brand: ""
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -30,13 +21,23 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage
-      DV:</strong> 9<br /><strong>Construction Modifier:</strong> +1</p><hr
-      /><p>This <strong>Heavy Weapon</strong> launches a coil of metal spikes
-      from the rear of your Punknaught.</p><blockquote><p>Drivers following
-      behind you must make a <strong>DV17 Drive Land Vehicle</strong> check to
-      avoid <strong>4d6</strong> weak point damage.</p></blockquote>
+    value: |
+      <p>
+        <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>
+        9<br /><strong>Construction Modifier:</strong> +1
+      </p>
+      <hr />
+      <p>
+        This <strong>Heavy Weapon</strong> launches a coil of metal spikes from the
+        rear of your Punknaught.
+      </p>
+      <blockquote>
+        <p>
+          Drivers following behind you must make a
+          <strong>DV17 Drive Land Vehicle</strong> check to avoid
+          <strong>4d6</strong> weak point damage.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

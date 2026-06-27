@@ -1,14 +1,5 @@
 _id: n51IrwLux1v0fY78
 _key: "!items!n51IrwLux1v0fY78"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777136214434
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777136255508
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -21,7 +12,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Salvaged
+  brand: ""
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -29,12 +20,21 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage
-      DV:</strong> 13<br /><strong>Construction Modifier:</strong> +2</p><hr
-      /><p>Boost the Punknaught's speed and gain an extra <strong>Move
-      Action</strong> for one turn.</p><blockquote><p>May be installed multiple
-      times. Each tank only provides one turn of boost.</p></blockquote>
+    value: |
+      <p>
+        <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>
+        13<br /><strong>Construction Modifier:</strong> +2
+      </p>
+      <hr />
+      <p>
+        Boost the Punknaught's speed and gain an extra
+        <strong>Move Action</strong> for one turn.
+      </p>
+      <blockquote>
+        <p>
+          May be installed multiple times. Each tank only provides one turn of boost.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

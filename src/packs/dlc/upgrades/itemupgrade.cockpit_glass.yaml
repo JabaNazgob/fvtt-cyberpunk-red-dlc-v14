@@ -1,14 +1,5 @@
 _id: o67mlrAJt9hrgxAS
 _key: "!items!o67mlrAJt9hrgxAS"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777134875348
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777137259328
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -21,7 +12,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Salvaged
+  brand: ""
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -29,11 +20,16 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Construction Time:</strong> 3 days<br /><strong>Salvage
-      DV:</strong> 15<br /><strong>Construction Modifier:</strong> +1</p><hr
-      /><p>Protects the driver and occupants with <strong>Thick Bulletproof
-      Glass</strong> 30(HP).</p>
+    value: |
+      <p>
+        <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>
+        15<br /><strong>Construction Modifier:</strong> +1
+      </p>
+      <hr />
+      <p>
+        Protects the driver and occupants with
+        <strong>Thick Bulletproof Glass</strong> 30(HP).
+      </p>
   favorite: false
   fireModes:
     autoFire: 0

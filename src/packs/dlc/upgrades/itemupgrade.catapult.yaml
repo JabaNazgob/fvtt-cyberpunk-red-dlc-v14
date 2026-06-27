@@ -1,14 +1,5 @@
 _id: vP4PHxkc0HCNn8VO
 _key: "!items!vP4PHxkc0HCNn8VO"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777134221933
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777134221933
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -21,7 +12,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Salvaged
+  brand: ""
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -29,14 +20,23 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage
-      DV:</strong> 13<br /><strong>Construction Modifier:</strong> +1</p><hr
-      /><p>A <strong>Heavy Weapon</strong> mounted on the roof that can launch
-      any object the size of a person.</p><blockquote><p>Any individual launched
-      by the catapult must make a <strong>DV 15 Athletics Check</strong> to land
-      safely on the ground or the person takes <strong>2d6 damage</strong>
-      directly to their HP.</p></blockquote>
+    value: |
+      <p>
+        <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>
+        13<br /><strong>Construction Modifier:</strong> +1
+      </p>
+      <hr />
+      <p>
+        A <strong>Heavy Weapon</strong> mounted on the roof that can launch any object
+        the size of a person.
+      </p>
+      <blockquote>
+        <p>
+          Any individual launched by the catapult must make a
+          <strong>DV 15 Athletics Check</strong> to land safely on the ground or the
+          person takes <strong>2d6 damage</strong> directly to their HP.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

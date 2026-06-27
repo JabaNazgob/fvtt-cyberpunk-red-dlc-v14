@@ -4,51 +4,179 @@
   "entries": {
     "Achievements and Loot Boxes": {
       "name": "Achievements and Loot Boxes",
-      "description": ""
+      "results": [{}]
     },
     "A Box Bound Tightly in Rope": {
       "name": "A Box Bound Tightly in Rope",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Rope (60m/yd)",
+          "2-2": "Virtuality Goggles",
+          "3-3": "Grapple Gun",
+          "4-4": "Vial of Poison",
+          "5-5": "Urban Flash Jewelry",
+          "6-6": "Battery Pack"
+        }
+      ]
     },
     "A Box Covered in Chipped Paint": {
       "name": "A Box Covered in Chipped Paint",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Grenade (Teargas)",
+          "2-2": "Heavy Pistol (Basic)",
+          "3-3": "Bicycle",
+          "4-4": "Road Flare",
+          "5-5": "Bullet Proof Shield",
+          "6-6": "Shotgun Shell (Basic)"
+        }
+      ]
     },
     "A Box Dripping Wet With Fluid": {
       "name": "A Box Dripping Wet With Fluid",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Smash",
+          "2-2": "Black Lace",
+          "3-3": "Bodyweight AutoInjector",
+          "4-4": "AirWell 50",
+          "5-5": "Grenade (Poison)",
+          "6-6": "TR-4 Detonator Fluid"
+        }
+      ]
     },
     "A Box Freezing Cold To The Touch": {
       "name": "A Box Freezing Cold To The Touch",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Bohemian Mirrorshades",
+          "2-2": "Street Viper Riding Suit",
+          "3-3": "Sponsored Cybereye",
+          "4-4": "Skid Row Trench",
+          "5-5": "Prime Time",
+          "6-6": "Laser Light Street Jacket"
+        }
+      ]
     },
     "A Box Handsomely Gift Wrapped": {
       "name": "A Box Handsomely Gift Wrapped",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Binoculars",
+          "2-2": "Light Armorjack (Body)",
+          "3-3": "Medium Pistol (Smart)",
+          "4-4": "Video Camera",
+          "5-5": "NeuTongue",
+          "6-6": "Reflex Co-Processor"
+        }
+      ]
     },
     "A Box Marked With A Lime Green X": {
       "name": "A Box Marked With A Lime Green X",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Elflines Online",
+          "2-2": "Disposable Cell Phone",
+          "3-3": "Modular Finger Cyberhand",
+          "4-4": "Leisurewear Jewelry",
+          "5-5": "Agent",
+          "6-6": "Smart Glasses"
+        }
+      ]
     },
     "A Box Melted Out Of Shape": {
       "name": "A Box Melted Out Of Shape",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Scavenged Armor",
+          "2-2": "Grenade (Incendiary)",
+          "3-3": "Neo-Soviet Cyberarm",
+          "4-4": "Rifle (Basic)",
+          "5-5": "Rifle (Basic)",
+          "6-6": "Shotgun Shell (Incendiary)"
+        }
+      ]
     },
     "A Box Reeking Of Oil": {
       "name": "A Box Reeking Of Oil",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Shotgun Shell (Basic)",
+          "2-2": "Heavy Pistol (Basic)",
+          "3-3": "Nomad Leathers Footwear",
+          "4-4": "Rifle (Smart)",
+          "5-5": "Sniping Scope",
+          "6-6": "Smartgun Link"
+        }
+      ]
     },
     "A Box Sealed With A Lipstick Kiss": {
       "name": "A Box Sealed With A Lipstick Kiss",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Combat Knife",
+          "3-3": "Shuriken Tornado Grenade",
+          "4-4": "Asia Pop Footwear",
+          "5-5": "Businesswear Top",
+          "6-6": "White Hornet Tanto",
+          "2-2": "Mr. Studd Sexual Implant"
+        }
+      ]
     },
     "A Box Showing Signs Of Repair": {
       "name": "A Box Showing Signs Of Repair",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Utility Tomahawk",
+          "2-2": "Holo Projector Palm",
+          "3-3": "Techtool",
+          "4-4": "Audio Recorder",
+          "5-5": "Grenade (Armor-Piercing)",
+          "6-6": "Techscanner"
+        }
+      ]
     },
     "Punknaught Death Table": {
       "name": "Punknaught Death Table",
-      "description": ""
+      "results": [
+        {
+          "1-1": "Punknaught grinds to a halt.",
+          "2-2": "GM moves the Punknaught forward at full speed ramming everything in its path.",
+          "3-3": "Punknaught and anyone inside are On Fire (Strong)",
+          "4-4": "GM moves the Punknaught forward at full speed ramming everything in its path and anything the Punknaught rams is set On Fire (Mild).  The Punknaught and anyone inside are On Fire (Strong).",
+          "5-5": "Anyone riding the Punknaught takes [[4d6]] melee damage.",
+          "6-6": "The Punknaught explodes dealing [[6d6]] damage to everyone within 6m/yds."
+        }
+      ]
+    },
+    "Tarot Cards": {
+      "name": "Tarot Cards",
+      "results": [
+        {
+          "1-1": "The Fool. All of the target's cyberware is inoperable for 1 hour. Their Checks gain the \"Obscured by Darkness\" modifier if it would leave them with no way to sense an enemy. Cyberlimbs affected will act as their dismembered meat counterpart, but are still attached to the target's body. If the target doesn't have any cyberware, they are dealt the Foreign Object Critical Injury and take 3d6 Humanity Loss instead. (See Night City Tarot Page 3).",
+          "2-2": "The Magician. The GM must select one of the target's cyberware. It is then Destroyed. The target is now also Deadly On Fire (CP:R Page 180). (See Night City Tarot Page 3).",
+          "3-3": "The High Priestess. The target is dealt the Foreign Object Critical Injury. When moving more than 4 m/yards, instead of taking the Critical Injury Bonus Damage, they must beat a DV 15 Resist Torture/Drugs Skill Check or take 3d6 Damage directly to their HP. (See Night City Tarot Page 3).",
+          "4-4": "The Empress. The next 3 Attack Checks that hit the target of this card automatically deal a Critical Injury, no matter the Damage Roll results. This doesn't work with weapons incapable of causing a Critical Injury, with exception of Light Melee Weapons. (See Night City Tarot Page 3).",
+          "5-5": "The Emperor. The GM must select a Player. This Player then selects one Critical Injury from the Head Critical Injury Rolltable (CPR: Page 188) and from the Body Critical Injury Rolltable (CP:R Page 187). The target is dealt both Critical Injuries. (See Night City Tarot Page 3).",
+          "6-6": "The Hierophant. Double the damage the Attack would've dealt after armor and modifiers. (Just like how you would double the damage on an Aimed Shot to the Head). If the Attack was made with a weapon, that weapon is now Destroyed Beyond Repair. (See Night City Tarot Page 3).",
+          "7-7": "The Lovers. The Attack is now treated as an Aimed Shot to the Head. If the Attack was a Melee Attack, the target is now grappled by the Attacker. (See Night City Tarot Page 3).",
+          "8-8": "The Chariot. The target's armor location is ablated by another 5 points, even if the Damage Roll didn't beat the target's armor SP. (See Night City Tarot Page 4).",
+          "9-9": "Strength. The Attack deals 25 more points of damage. That damage is added before any armor or multipliers. (See Night City Tarot Page 4).",
+          "10-10": "The Hermit. The target is dealt the Lost Eye Critical Injury twice while only taking the penalty once. Their Checks gain the \"Obscured by Darkness\" modifier if it would leave them with no way to sense an enemy. (See Night City Tarot Page 4).",
+          "11-11": "Wheel of Fortune. It the Attack was a Ranged Attack, the GM randomly selects a new target. If it was a Melee Attack, the Attacker falls prone and the Attack misses. The weapon used for the Attack malfunctions and requires an Action to be used to reverse the malfunction before being used again. (See Night City Tarot Page 4).",
+          "12-12": "Justice. For the next 5 minutes, the target suffers a -5 penalty to Evasion Skill Checks and they cannot dodge Ranged Attacks. (See Night City Tarot Page 4).",
+          "13-13": "The Hanged Man. The target is knocked prone and is dealt the Spinal Injury and Whiplash Critical Injuries. (See Night City Tarot Page 4).",
+          "14-14": "Death. The target must roll a Death Save regardless of their HP. Failure means they are reduced to 0 HP and are considered unconscious for one minute. When they regain consciousness, they regain 3d6 Humanity Points up to their Max Humanity. (See Night City Tarot Page 4).",
+          "15-15": "Temperance. The target chooses one of their limbs to be dealt the Dismembered Limb Critical Injury and another one to be dealt the Broken Limb Critical Injury. (See Night City Tarot Page 5).",
+          "16-16": "The Devil. The Attack is now considered an Aimed Shot to the Head. The target is dealt the Brain Injury and the Lost Ear Critical Injuries. (See Night City Tarot Page 5).",
+          "17-17": "The Tower. The target is dealt the Cracked Skull, Crushed Windpipe and Whiplash Critical Injuries but without taking their Bonus Damage. The target cannot feel pain and ignores the Seriously Wounded Wound State for 1 hour. (See Night City Tarot Page 5).",
+          "18-18": "The Star. If the Attack was a Ranged Attack, it hits the target and hits a second target within 20 m/yards that is chosen by the GM. If there is no valid second target, it hits the first target another time. The second hit hits the body. You roll a new Damage Roll for the second hit. If the Attack was a Melee Attack, the target is dealt the Broken Ribs and Collapsed Lung Critical Injuries. (See Night City Tarot Page 5).",
+          "19-19": "The Moon. The target is dealt the Foreign Object Critical Injury twice, once in the Body and once in the Head locations. If the Attack was a Melee Attack with a melee weapon, the weapon is stuck in the target's body and the Attacker is disarmed. (See Night City Tarot Page 5).",
+          "20-20": "The Sun. If the target carries any explosives, the GM must choose one. It explodes. If the target wasn't carrying any, the GM must choose one non-weapon equipment on the target. It is Destroyed Beyond Repair. (See Night City Tarot Page 5).",
+          "21-21": "Judgement. The target is dealt the Crushed Fingers Critical Injury on one hand. The other hand is dealt the Dismembered Hand Critical Injury. (See Night City Tarot Page 5).",
+          "22-22": "The World. The Attacker takes an additional Turn right after this one. They gain a +5 Bonus to any of their Skill Checks, ignore their Wound State effects and do not make a Death Save if they are Mortally wounded during that next turn. (See Night City Tarot Page 5)."
+        }
+      ]
     }
   }
 }

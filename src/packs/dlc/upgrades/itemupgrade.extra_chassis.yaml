@@ -1,14 +1,5 @@
 _id: Z4CwN5KrhElqcU6O
 _key: "!items!Z4CwN5KrhElqcU6O"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777130341885
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777130341885
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -21,7 +12,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Salvaged
+  brand: ""
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -29,12 +20,16 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Construction Time:</strong> 3 days<br /><strong>Salvage
-      DV:</strong> 13<br /><strong>Construction Modifier:</strong> +2</p><hr
-      /><p>Only 3 Extra Chassis can be installed onto a Punknaught
-      Core.</p><blockquote><p>Each Extra Chassis increases ramming damage by
-      1d6.</p></blockquote>
+    value: |
+      <p>
+        <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>
+        13<br /><strong>Construction Modifier:</strong> +2
+      </p>
+      <hr />
+      <p>Only 3 Extra Chassis can be installed onto a Punknaught Core.</p>
+      <blockquote>
+        <p>Each Extra Chassis increases ramming damage by 1d6.</p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

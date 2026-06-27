@@ -1,14 +1,5 @@
 _id: WOmB9knmOHXH1ifu
 _key: "!items!WOmB9knmOHXH1ifu"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777135830636
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777136264946
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -21,7 +12,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Salvaged
+  brand: ""
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -29,13 +20,22 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Construction Time:</strong> 3 days<br /><strong>Salvage
-      DV:</strong> 13<br /><strong>Construction Modifier:</strong> +1</p><hr
-      /><p>Increases ramming damage by <strong>2d6</strong> when boosted by
-      @UUID[Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.n51IrwLux1v0fY78]{NOS}.</p><blockquote><p>Constructing
-      this upgrade a second time increases the damage from <strong>2d6 &gt;
-      3d6</strong></p></blockquote>
+    value: |
+      <p>
+        <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>
+        13<br /><strong>Construction Modifier:</strong> +1
+      </p>
+      <hr />
+      <p>
+        Increases ramming damage by <strong>2d6</strong> when boosted by
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.n51IrwLux1v0fY78]{NOS}.
+      </p>
+      <blockquote>
+        <p>
+          Constructing this upgrade a second time increases the damage from
+          <strong>2d6 &gt; 3d6</strong>
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

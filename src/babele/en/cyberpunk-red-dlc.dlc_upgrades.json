@@ -26,15 +26,15 @@
     },
     "Buzzsaw Arm": {
       "name": "Buzzsaw Arm",
-      "description": "<p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong> 9<br /><strong>Construction Modifier:</strong> +1</p><hr /><p>Acts as a <strong>Very Heavy Melee Weapon</strong>, chooose location: Front, Rear, Side</p><blockquote><p>A passenger must use their Action to extend or retract the arm.</p></blockquote>"
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  9<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Acts as a <strong>Very Heavy Melee Weapon</strong>, chooose location: Front,\n  Rear, Side\n</p>\n<blockquote>\n  <p>A passenger must use their Action to extend or retract the arm.</p>\n</blockquote>\n"
     },
     "Catapult": {
       "name": "Catapult",
-      "description": "<p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong> 13<br /><strong>Construction Modifier:</strong> +1</p><hr /><p>A <strong>Heavy Weapon</strong> mounted on the roof that can launch any object the size of a person.</p><blockquote><p>Any individual launched by the catapult must make a <strong>DV 15 Athletics Check</strong> to land safely on the ground or the person takes <strong>2d6 damage</strong> directly to their HP.</p></blockquote>"
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  A <strong>Heavy Weapon</strong> mounted on the roof that can launch any object\n  the size of a person.\n</p>\n<blockquote>\n  <p>\n    Any individual launched by the catapult must make a\n    <strong>DV 15 Athletics Check</strong> to land safely on the ground or the\n    person takes <strong>2d6 damage</strong> directly to their HP.\n  </p>\n</blockquote>\n"
     },
     "Cockpit Glass": {
       "name": "Cockpit Glass",
-      "description": "<p><strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong> 15<br /><strong>Construction Modifier:</strong> +1</p><hr /><p>Protects the driver and occupants with <strong>Thick Bulletproof Glass</strong> 30(HP).</p>"
+      "description": "<p>\n  <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>\n  15<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Protects the driver and occupants with\n  <strong>Thick Bulletproof Glass</strong> 30(HP).\n</p>\n"
     },
     "Cold-Weather Jacket Lining": {
       "name": "Cold-Weather Jacket Lining",
@@ -48,7 +48,7 @@
     },
     "Combat Spikes": {
       "name": "Combat Spikes",
-      "description": "<p><strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong> 13<br /><strong>Construction Modifier:</strong> +1</p><hr /><p>Increases ramming damage by <strong>2d6</strong> when boosted by @UUID[Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.n51IrwLux1v0fY78]{NOS}.</p><blockquote><p>Constructing this upgrade a second time increases the damage from <strong>2d6 &gt; 3d6</strong></p></blockquote>"
+      "description": "<p>\n  <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Increases ramming damage by <strong>2d6</strong> when boosted by\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.n51IrwLux1v0fY78]{NOS}.\n</p>\n<blockquote>\n  <p>\n    Constructing this upgrade a second time increases the damage from\n    <strong>2d6 &gt; 3d6</strong>\n  </p>\n</blockquote>\n"
     },
     "Cycle Armor": {
       "name": "Cycle Armor",
@@ -77,11 +77,11 @@
     },
     "Extra AV-4 Engine": {
       "name": "Extra AV-4 Engine",
-      "description": "<p><strong>Construction Time:</strong> 2 days<br /><strong>Salvage DV:</strong> 15<br /><strong>Construction Modifier:</strong> +2</p><hr /><p>An Extra AV-4 Engine can be added for each Extra Chassis installed into your Punknaught Core.</p>"
+      "description": "<p>\n  <strong>Construction Time:</strong> 2 days<br /><strong>Salvage DV:</strong>\n  15<br /><strong>Construction Modifier:</strong> +2\n</p>\n<hr />\n<p>\n  An Extra AV-4 Engine can be added for each Extra Chassis installed into your\n  Punknaught Core.\n</p>\n"
     },
     "Extra Chassis": {
       "name": "Extra Chassis",
-      "description": "<p><strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong> 13<br /><strong>Construction Modifier:</strong> +2</p><hr /><p>Only 3 Extra Chassis can be installed onto a Punknaught Core.</p><blockquote><p>Each Extra Chassis increases ramming damage by 1d6.</p></blockquote>"
+      "description": "<p>\n  <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +2\n</p>\n<hr />\n<p>Only 3 Extra Chassis can be installed onto a Punknaught Core.</p>\n<blockquote>\n  <p>Each Extra Chassis increases ramming damage by 1d6.</p>\n</blockquote>\n"
     },
     "Feline Instinct": {
       "name": "Feline Instinct",
@@ -115,7 +115,7 @@
     },
     "NOS": {
       "name": "NOS",
-      "description": "<p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong> 13<br /><strong>Construction Modifier:</strong> +2</p><hr /><p>Boost the Punknaught's speed and gain an extra <strong>Move Action</strong> for one turn.</p><blockquote><p>May be installed multiple times. Each tank only provides one turn of boost.</p></blockquote>"
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +2\n</p>\n<hr />\n<p>\n  Boost the Punknaught's speed and gain an extra\n  <strong>Move Action</strong> for one turn.\n</p>\n<blockquote>\n  <p>\n    May be installed multiple times. Each tank only provides one turn of boost.\n  </p>\n</blockquote>\n"
     },
     "Perfume Shoppe": {
       "name": "Perfume Shoppe",
@@ -124,7 +124,7 @@
     },
     "Punknaught Armor": {
       "name": "Punknaught Armor",
-      "description": "<p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong> 13<br /><strong>Construction Modifier:</strong> +1</p><hr /><p>Provides <strong>SP13</strong> armor to your Punknaught. <strong>Preem</strong> attacks made against your Punknaught ignore this armor unless this upgrade has been installed twice.</p>"
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Provides <strong>SP13</strong> armor to your Punknaught.\n  <strong>Preem</strong> attacks made against your Punknaught ignore this armor\n  unless this upgrade has been installed twice.\n</p>\n"
     },
     "Reinforced Frame": {
       "name": "Reinforced Frame",
@@ -157,7 +157,7 @@
     },
     "Spike Strip Launcher": {
       "name": "Spike Strip Launcher",
-      "description": "<p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong> 9<br /><strong>Construction Modifier:</strong> +1</p><hr /><p>This <strong>Heavy Weapon</strong> launches a coil of metal spikes from the rear of your Punknaught.</p><blockquote><p>Drivers following behind you must make a <strong>DV17 Drive Land Vehicle</strong> check to avoid <strong>4d6</strong> weak point damage.</p></blockquote>"
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  9<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  This <strong>Heavy Weapon</strong> launches a coil of metal spikes from the\n  rear of your Punknaught.\n</p>\n<blockquote>\n  <p>\n    Drivers following behind you must make a\n    <strong>DV17 Drive Land Vehicle</strong> check to avoid\n    <strong>4d6</strong> weak point damage.\n  </p>\n</blockquote>\n"
     },
     "Stunt Frame": {
       "name": "Stunt Frame",
@@ -181,7 +181,7 @@
     },
     "Turret": {
       "name": "Turret",
-      "description": "<p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong> 13<br /><strong>Construction Modifier:</strong> +1</p><hr /><p>Adds a swivel mount that can support any <strong>2-handed ranged weapon</strong> you already own. This upgrade may be constructed 3 times for each chassis installed into your Punknaught.</p><blockquote><p>A passenger riding the Punknaught may use their Action to fire or reload the weapon.</p></blockquote>"
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Adds a swivel mount that can support any\n  <strong>2-handed ranged weapon</strong> you already own. This upgrade may be\n  constructed 3 times for each chassis installed into your Punknaught.\n</p>\n<blockquote>\n  <p>\n    A passenger riding the Punknaught may use their Action to fire or reload the\n    weapon.\n  </p>\n</blockquote>\n"
     },
     "Waterproof Jacket Lining": {
       "name": "Waterproof Jacket Lining",

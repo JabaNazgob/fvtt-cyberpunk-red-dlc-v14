@@ -1,14 +1,5 @@
 _id: g0ywfFzHeILd8KGd
 _key: "!items!g0ywfFzHeILd8KGd"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777130528916
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777138348494
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -21,7 +12,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Salvaged
+  brand: ""
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -29,11 +20,16 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Construction Time:</strong> 2 days<br /><strong>Salvage
-      DV:</strong> 15<br /><strong>Construction Modifier:</strong> +2</p><hr
-      /><p>An Extra AV-4 Engine can be added for each Extra Chassis installed
-      into your Punknaught Core.</p>
+    value: |
+      <p>
+        <strong>Construction Time:</strong> 2 days<br /><strong>Salvage DV:</strong>
+        15<br /><strong>Construction Modifier:</strong> +2
+      </p>
+      <hr />
+      <p>
+        An Extra AV-4 Engine can be added for each Extra Chassis installed into your
+        Punknaught Core.
+      </p>
   favorite: false
   fireModes:
     autoFire: 0

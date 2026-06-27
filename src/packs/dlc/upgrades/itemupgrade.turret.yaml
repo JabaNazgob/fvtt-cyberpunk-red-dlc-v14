@@ -1,14 +1,5 @@
 _id: FN8l2gFDfFgHl5Mq
 _key: "!items!FN8l2gFDfFgHl5Mq"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777138008995
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777138008995
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -21,7 +12,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Salvaged
+  brand: ""
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -29,14 +20,23 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage
-      DV:</strong> 13<br /><strong>Construction Modifier:</strong> +1</p><hr
-      /><p>Adds a swivel mount that can support any <strong>2-handed ranged
-      weapon</strong> you already own. This upgrade may be constructed 3 times
-      for each chassis installed into your Punknaught.</p><blockquote><p>A
-      passenger riding the Punknaught may use their Action to fire or reload the
-      weapon.</p></blockquote>
+    value: |
+      <p>
+        <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>
+        13<br /><strong>Construction Modifier:</strong> +1
+      </p>
+      <hr />
+      <p>
+        Adds a swivel mount that can support any
+        <strong>2-handed ranged weapon</strong> you already own. This upgrade may be
+        constructed 3 times for each chassis installed into your Punknaught.
+      </p>
+      <blockquote>
+        <p>
+          A passenger riding the Punknaught may use their Action to fire or reload the
+          weapon.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

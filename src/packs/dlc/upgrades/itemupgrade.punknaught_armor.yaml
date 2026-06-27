@@ -1,14 +1,5 @@
 _id: 9KQxkjfT0bsFaxyL
 _key: "!items!9KQxkjfT0bsFaxyL"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777132331705
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777134311664
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -21,7 +12,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Salvaged
+  brand: ""
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -29,12 +20,17 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage
-      DV:</strong> 13<br /><strong>Construction Modifier:</strong> +1</p><hr
-      /><p>Provides <strong>SP13</strong> armor to your Punknaught.
-      <strong>Preem</strong> attacks made against your Punknaught ignore this
-      armor unless this upgrade has been installed twice.</p>
+    value: |
+      <p>
+        <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>
+        13<br /><strong>Construction Modifier:</strong> +1
+      </p>
+      <hr />
+      <p>
+        Provides <strong>SP13</strong> armor to your Punknaught.
+        <strong>Preem</strong> attacks made against your Punknaught ignore this armor
+        unless this upgrade has been installed twice.
+      </p>
   favorite: false
   fireModes:
     autoFire: 0

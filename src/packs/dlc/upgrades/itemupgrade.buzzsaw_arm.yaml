@@ -1,14 +1,5 @@
 _id: GpiJSkZb4nyFunjl
 _key: "!items!GpiJSkZb4nyFunjl"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777132943203
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777138338017
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects: []
 flags: {}
 folder: null
@@ -21,7 +12,7 @@ sort: 0
 system:
   ammoVariety: []
   attackmod: 0
-  brand: Salvaged
+  brand: ""
   canIgnoreArmor: false
   concealable:
     concealable: false
@@ -29,12 +20,19 @@ system:
   critFailEffect: jammed
   damage: 1d6
   description:
-    value: >-
-      <p><strong>Construction Time:</strong> 1 days<br /><strong>Salvage
-      DV:</strong> 9<br /><strong>Construction Modifier:</strong> +1</p><hr
-      /><p>Acts as a <strong>Very Heavy Melee Weapon</strong>, chooose location:
-      Front, Rear, Side</p><blockquote><p>A passenger must use their Action to
-      extend or retract the arm.</p></blockquote>
+    value: |
+      <p>
+        <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>
+        9<br /><strong>Construction Modifier:</strong> +1
+      </p>
+      <hr />
+      <p>
+        Acts as a <strong>Very Heavy Melee Weapon</strong>, chooose location: Front,
+        Rear, Side
+      </p>
+      <blockquote>
+        <p>A passenger must use their Action to extend or retract the arm.</p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0
