@@ -2,137 +2,138 @@ _id: CW4Vmiv2Rqo4JZxR
 _key: "!items!CW4Vmiv2Rqo4JZxR"
 effects: []
 flags:
-  cprInstallTree:
-    - _id: 8rIFrJ8qtBN9NILa
-      _stats:
-        compendiumSource: null
-        coreVersion: "12.343"
-        createdTime: 1768936647973
-        duplicateSource: null
-        lastModifiedBy: IMREvhAZtigyN7Gy
-        modifiedTime: 1768936647973
-        systemId: cyberpunk-red-core
-        systemVersion: v0.0.0dev
-      effects: []
-      flags: {}
-      folder: null
-      img: >-
-        modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/westwood-pull-out-screen.svg
-      name: Westwood Pull-Out Screen
-      ownership:
-        IMREvhAZtigyN7Gy: 3
-        default: 0
-      sort: 0
-      system:
-        ammoVariety: []
-        attackmod: 0
-        brand: Nova Arms
-        canIgnoreArmor: false
-        concealable:
-          concealable: true
-          isConcealed: false
-        critFailEffect: jammed
-        damage: 1d6
-        description:
-          value: <p>Can play movie clips stored on an internal memory chip.</p>
-        favorite: false
-        fireModes:
-          autoFire: 0
-          suppressiveFire: false
-        handsReq: 0
-        ignoreArmorPercent: 0
-        ignoreBelowSP: 0
-        installLocation: mall
-        installedItems:
-          allowed: true
-          allowedTypes: []
-          list: []
-          slots: 3
-          usedSlots: 0
-        isElectronic: true
-        isRanged: false
-        magazine:
-          ammoData: {}
-          max: 0
-          value: 0
-        modifiers:
-          Wardrobe & Style:
-            isSituational: false
-            onByDefault: false
-            value: null
-          attackmod:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          bodySp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          cool:
-            isSituational: false
-            onByDefault: false
-            value: null
-          damage:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          headSp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          magazine:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          rof:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          sdp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          seats:
-            isSituational: false
-            onByDefault: false
-            value: null
-          secondaryWeapon:
-            configured: false
-          shieldHp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          slots:
-            isSituational: false
-            onByDefault: false
-            value: null
-          speedCombat:
-            isSituational: false
-            onByDefault: false
-            value: null
-        price:
-          market: 0
-        providesHardening: false
-        revealed: true
-        rof: 1
-        size: 0
-        source:
-          book: BC
-          page: 121
-        type: weapon
-        unarmedAutomaticCalculation: true
-        usage: toggled
-        usesType: magazine
-        weaponSkill: Handgun
-      type: itemUpgrade
+  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 44
-      previous: "38"
+      current: 38
+      previous: "37"
+    cprInstallTree:
+      - _id: 8rIFrJ8qtBN9NILa
+        _stats:
+          compendiumSource: null
+          coreVersion: "12.343"
+          createdTime: 1768936647973
+          duplicateSource: null
+          lastModifiedBy: IMREvhAZtigyN7Gy
+          modifiedTime: 1768936647973
+          systemId: cyberpunk-red-core
+          systemVersion: v0.0.0dev
+        effects: []
+        flags: {}
+        folder: null
+        img: >-
+          modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/westwood-pull-out-screen.svg
+        name: Westwood Pull-Out Screen
+        ownership:
+          IMREvhAZtigyN7Gy: 3
+          default: 0
+        sort: 0
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Nova Arms
+          canIgnoreArmor: false
+          concealable:
+            concealable: true
+            isConcealed: false
+          critFailEffect: jammed
+          damage: 1d6
+          description:
+            value: <p>Can play movie clips stored on an internal memory chip.</p>
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          handsReq: 0
+          ignoreArmorPercent: 0
+          ignoreBelowSP: 0
+          installLocation: mall
+          installedItems:
+            allowed: true
+            allowedTypes: []
+            list: []
+            slots: 3
+            usedSlots: 0
+          isElectronic: true
+          isRanged: false
+          magazine:
+            ammoData: {}
+            max: 0
+            value: 0
+          modifiers:
+            Wardrobe & Style:
+              isSituational: false
+              onByDefault: false
+              value: null
+            attackmod:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            bodySp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            cool:
+              isSituational: false
+              onByDefault: false
+              value: null
+            damage:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            headSp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            magazine:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            rof:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            sdp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            seats:
+              isSituational: false
+              onByDefault: false
+              value: null
+            secondaryWeapon:
+              configured: false
+            shieldHp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            slots:
+              isSituational: false
+              onByDefault: false
+              value: null
+            speedCombat:
+              isSituational: false
+              onByDefault: false
+              value: null
+          price:
+            market: 0
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 0
+          source:
+            book: BC
+            page: 121
+          type: weapon
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Handgun
+        type: itemUpgrade
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol.svg
 name: Westwood

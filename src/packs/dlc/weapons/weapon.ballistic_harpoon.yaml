@@ -48,8 +48,7 @@ system:
     allowed: true
     allowedTypes:
       - itemUpgrade
-    list:
-      - zXOHUzaT3fZZKUof
+    list: []
     slots: 0
     usedSlots: 0
   isRanged: false

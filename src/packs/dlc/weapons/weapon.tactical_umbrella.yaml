@@ -2,156 +2,157 @@ _id: pNkckh9tZBwSBxA2
 _key: "!items!pNkckh9tZBwSBxA2"
 effects: []
 flags:
-  cprInstallTree:
-    - _id: tOBjMxBhEs0Wzvp6
-      _stats:
-        compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.xRA275R527XLwaBJ
-        coreVersion: "12.343"
-        createdTime: 1768960847403
-        duplicateSource: null
-        lastModifiedBy: IMREvhAZtigyN7Gy
-        modifiedTime: 1768960847403
-        systemId: cyberpunk-red-core
-        systemVersion: v0.0.0dev
-      effects: []
-      flags:
-        cyberpunk-red-core:
-          _migration:
-            current: 33
-            previous: "24"
-      folder: null
-      img: >-
-        modules/cyberpunk-red-dlc/icons/dlc/upgrades/concealed-umbrella-blade.svg
-      name: Concealed Umbrella Blade
-      ownership:
-        IMREvhAZtigyN7Gy: 3
-        default: 0
-      sort: 0
-      system:
-        ammoVariety: []
-        attackmod: 1
-        brand: ""
-        canIgnoreArmor: true
-        concealable:
-          concealable: true
-          isConcealed: true
-        critFailEffect: jammed
-        damage: 3d6
-        description:
-          value: |-
-            <p>
-              An old idea that still works just as good; lets you use your gun as a light
-              melee weapon. While attached, the weapon can't be concealed under clothing.
-            </p>
-        dvTable: ""
-        favorite: false
-        fireModes:
-          autoFire: 0
-          suppressiveFire: false
-        handsReq: 0
-        ignoreArmorPercent: 50
-        ignoreBelowSP: 0
-        installLocation: mall
-        installedItems:
-          allowed: false
-          allowedTypes:
-            - itemUpgrade
-          list: []
-          slots: 0
-          usedSlots: 0
-        isElectronic: false
-        isRanged: false
-        magazine:
-          ammoData: null
-          max: 0
-          value: 0
-        modifiers:
-          Wardrobe & Style:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          attackmod:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: 0
-          bodySp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          cool:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          damage:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          headSp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          magazine:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          rof:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          sdp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          seats:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          secondaryWeapon:
-            configured: true
-          shieldHp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          slots:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          speedCombat:
-            isSituational: false
-            onByDefault: false
-            value: null
-        price:
-          market: 0
-        providesHardening: false
-        revealed: true
-        rof: 2
-        size: 1
-        source:
-          book: NCW
-          page: 6
-        type: weapon
-        unarmedAutomaticCalculation: true
-        usage: toggled
-        usesType: magazine
-        weaponSkill: Melee Weapon
-        weaponType: heavyMelee
-      type: itemUpgrade
+  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 44
-      previous: "38"
+      current: 38
+      previous: "37"
+    cprInstallTree:
+      - _id: tOBjMxBhEs0Wzvp6
+        _stats:
+          compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.xRA275R527XLwaBJ
+          coreVersion: "12.343"
+          createdTime: 1768960847403
+          duplicateSource: null
+          lastModifiedBy: IMREvhAZtigyN7Gy
+          modifiedTime: 1768960847403
+          systemId: cyberpunk-red-core
+          systemVersion: v0.0.0dev
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 33
+              previous: "24"
+        folder: null
+        img: >-
+          modules/cyberpunk-red-dlc/icons/dlc/upgrades/concealed-umbrella-blade.svg
+        name: Concealed Umbrella Blade
+        ownership:
+          IMREvhAZtigyN7Gy: 3
+          default: 0
+        sort: 0
+        system:
+          ammoVariety: []
+          attackmod: 1
+          brand: ""
+          canIgnoreArmor: true
+          concealable:
+            concealable: true
+            isConcealed: true
+          critFailEffect: jammed
+          damage: 3d6
+          description:
+            value: |-
+              <p>
+                An old idea that still works just as good; lets you use your gun as a light
+                melee weapon. While attached, the weapon can't be concealed under clothing.
+              </p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          handsReq: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: false
+          isRanged: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          modifiers:
+            Wardrobe & Style:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            attackmod:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: 0
+            bodySp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            cool:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            damage:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            headSp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            magazine:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            rof:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            sdp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            seats:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            secondaryWeapon:
+              configured: true
+            shieldHp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            slots:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            speedCombat:
+              isSituational: false
+              onByDefault: false
+              value: null
+          price:
+            market: 0
+          providesHardening: false
+          revealed: true
+          rof: 2
+          size: 1
+          source:
+            book: NCW
+            page: 6
+          type: weapon
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Melee Weapon
+          weaponType: heavyMelee
+        type: itemUpgrade
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/weapons/tactical-umbrella.svg
 name: Tactical Umbrella

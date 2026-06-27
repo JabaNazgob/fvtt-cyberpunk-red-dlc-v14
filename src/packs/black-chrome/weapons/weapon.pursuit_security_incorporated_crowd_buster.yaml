@@ -2,159 +2,160 @@ _id: dnX1vhlKwmacyuNs
 _key: "!items!dnX1vhlKwmacyuNs"
 effects: []
 flags:
-  cprInstallTree:
-    - _id: e1XaoZ3lmKkKqTcj
-      _stats:
-        compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.aFg1nXhz37e1C2YP
-        coreVersion: "12.343"
-        createdTime: 1768795662632
-        duplicateSource: null
-        lastModifiedBy: IMREvhAZtigyN7Gy
-        modifiedTime: 1768795662632
-        systemId: cyberpunk-red-core
-        systemVersion: v0.0.0dev
-      effects: []
-      flags:
-        cyberpunk-red-core:
-          _migration:
-            current: 33
-            previous: "24"
-      folder: null
-      img: >-
-        modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/shrieker_underbarrel.svg
-      name: Shrieker Underbarrel
-      ownership:
-        IMREvhAZtigyN7Gy: 3
-        default: 0
-      sort: 0
-      system:
-        ammoVariety:
-          - battery
-        attackmod: 0
-        brand: Pursuit Security Inc.
-        canIgnoreArmor: false
-        concealable:
-          concealable: false
-          isConcealed: false
-        critFailEffect: jammed
-        damage: "0"
-        description:
-          value: >-
-            <p>An Exotic Very Heavy Pistol. Requires ear protection to prevent
-            Damaged Ear critical injuries. The target must beat a <strong>DV15
-            Resist Torture/Drugs</strong> Check or suffer the
-            @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qRkCxq0KTuBnw2wj]{Damaged
-            Ear} critical injury.</p>
-        dvTable: DV Pistol
-        favorite: false
-        fireModes:
-          autoFire: 0
-          suppressiveFire: false
-        handsReq: 0
-        ignoreArmorPercent: 0
-        ignoreBelowSP: 0
-        installLocation: mall
-        installedItems:
-          allowed: true
-          allowedTypes:
-            - itemUpgrade
-            - ammo
-          list: []
-          slots: 3
-          usedSlots: 0
-        isElectronic: true
-        isRanged: true
-        magazine:
-          ammoData: null
-          max: 8
-          value: 0
-        modifiers:
-          Wardrobe & Style:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          attackmod:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          bodySp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          cool:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          damage:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          headSp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          magazine:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          rof:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          sdp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          seats:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          secondaryWeapon:
-            configured: true
-          shieldHp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          slots:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          speedCombat:
-            isSituational: false
-            onByDefault: false
-            value: null
-        price:
-          market: 0
-        providesHardening: false
-        revealed: true
-        rof: 1
-        size: 2
-        source:
-          book: BC
-          page: 116
-        type: weapon
-        unarmedAutomaticCalculation: true
-        usage: toggled
-        usesType: magazine
-        weaponSkill: Handgun
-        weaponType: vHeavyPistol
-      type: itemUpgrade
+  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 44
-      previous: "38"
+      current: 38
+      previous: "37"
+    cprInstallTree:
+      - _id: e1XaoZ3lmKkKqTcj
+        _stats:
+          compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.aFg1nXhz37e1C2YP
+          coreVersion: "12.343"
+          createdTime: 1768795662632
+          duplicateSource: null
+          lastModifiedBy: IMREvhAZtigyN7Gy
+          modifiedTime: 1768795662632
+          systemId: cyberpunk-red-core
+          systemVersion: v0.0.0dev
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 33
+              previous: "24"
+        folder: null
+        img: >-
+          modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/shrieker_underbarrel.svg
+        name: Shrieker Underbarrel
+        ownership:
+          IMREvhAZtigyN7Gy: 3
+          default: 0
+        sort: 0
+        system:
+          ammoVariety:
+            - battery
+          attackmod: 0
+          brand: Pursuit Security Inc.
+          canIgnoreArmor: false
+          concealable:
+            concealable: false
+            isConcealed: false
+          critFailEffect: jammed
+          damage: "0"
+          description:
+            value: >-
+              <p>An Exotic Very Heavy Pistol. Requires ear protection to prevent
+              Damaged Ear critical injuries. The target must beat a <strong>DV15
+              Resist Torture/Drugs</strong> Check or suffer the
+              @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qRkCxq0KTuBnw2wj]{Damaged
+              Ear} critical injury.</p>
+          dvTable: DV Pistol
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          handsReq: 0
+          ignoreArmorPercent: 0
+          ignoreBelowSP: 0
+          installLocation: mall
+          installedItems:
+            allowed: true
+            allowedTypes:
+              - itemUpgrade
+              - ammo
+            list: []
+            slots: 3
+            usedSlots: 0
+          isElectronic: true
+          isRanged: true
+          magazine:
+            ammoData: null
+            max: 8
+            value: 0
+          modifiers:
+            Wardrobe & Style:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            attackmod:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            bodySp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            cool:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            damage:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            headSp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            magazine:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            rof:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            sdp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            seats:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            secondaryWeapon:
+              configured: true
+            shieldHp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            slots:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            speedCombat:
+              isSituational: false
+              onByDefault: false
+              value: null
+          price:
+            market: 0
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 2
+          source:
+            book: BC
+            page: 116
+          type: weapon
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Handgun
+          weaponType: vHeavyPistol
+        type: itemUpgrade
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/AssaultRifle.svg
 name: Pursuit Security Incorporated Crowd Buster

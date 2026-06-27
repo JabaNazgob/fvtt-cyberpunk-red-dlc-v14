@@ -2,148 +2,149 @@ _id: ETPujR8m7tEoYFQW
 _key: "!items!ETPujR8m7tEoYFQW"
 effects: []
 flags:
-  cprInstallTree:
-    - _id: 6jUgtWm08RFFRcl8
-      _stats:
-        compendiumSource: >-
-          Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.1rpHt0LP4Fzybc9x
-        coreVersion: "12.343"
-        createdTime: 1768623987777
-        duplicateSource: null
-        lastModifiedBy: IMREvhAZtigyN7Gy
-        modifiedTime: 1768623987777
-        systemId: cyberpunk-red-core
-        systemVersion: v0.0.0dev
-      effects: []
-      flags: {}
-      folder: null
-      img: >-
-        modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/montage-palette.svg
-      name: '"Generic Chic" Variables'
-      ownership:
-        IMREvhAZtigyN7Gy: 3
-        default: 0
-      sort: 0
-      system:
-        ammoVariety: []
-        attackmod: 0
-        brand: Montage
-        canIgnoreArmor: false
-        concealable:
-          concealable: false
-          isConcealed: false
-        critFailEffect: jammed
-        damage: 1d6
-        description:
-          value: >-
-            <p>Comes with your choice of three "Generic Chic"
-            Styles</p><ul><li><p>City Blues</p></li><li><p>Khaki
-            Casual</p></li><li><p>Synthsnake
-            Skin</p></li></ul><blockquote><p>Requires an action to swap styles
-            via connected agent.</p><p>Each variable comes with 3 patterns and
-            costs 20eb.</p></blockquote>
-        favorite: false
-        fireModes:
-          autoFire: 0
-          suppressiveFire: false
-        handsReq: 0
-        ignoreArmorPercent: 0
-        ignoreBelowSP: 0
-        installLocation: mall
-        installedItems:
-          allowed: false
-          allowedTypes:
-            - itemUpgrade
-          list: []
-          slots: 3
-          usedSlots: 0
-        isElectronic: false
-        isRanged: false
-        magazine:
-          ammoData: {}
-          max: 0
-          value: 0
-        modifiers:
-          Wardrobe & Style:
-            isSituational: false
-            onByDefault: false
-            value: null
-          attackmod:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          bodySp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          cool:
-            isSituational: false
-            onByDefault: false
-            value: null
-          damage:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          headSp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          magazine:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          rof:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          sdp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          seats:
-            isSituational: false
-            onByDefault: false
-            value: null
-          secondaryWeapon:
-            configured: false
-          shieldHp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          slots:
-            isSituational: false
-            onByDefault: false
-            value: null
-          speedCombat:
-            isSituational: false
-            onByDefault: false
-            value: null
-        price:
-          market: 20
-        providesHardening: false
-        revealed: true
-        rof: 1
-        size: 1
-        source:
-          book: BC
-          page: 32
-        type: armor
-        unarmedAutomaticCalculation: true
-        usage: toggled
-        usesType: magazine
-        weaponSkill: Handgun
-      type: itemUpgrade
+  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
       current: 38
       previous: "37"
+    cprInstallTree:
+      - _id: 6jUgtWm08RFFRcl8
+        _stats:
+          compendiumSource: >-
+            Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.1rpHt0LP4Fzybc9x
+          coreVersion: "12.343"
+          createdTime: 1768623987777
+          duplicateSource: null
+          lastModifiedBy: IMREvhAZtigyN7Gy
+          modifiedTime: 1768623987777
+          systemId: cyberpunk-red-core
+          systemVersion: v0.0.0dev
+        effects: []
+        flags: {}
+        folder: null
+        img: >-
+          modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/montage-palette.svg
+        name: '"Generic Chic" Variables'
+        ownership:
+          IMREvhAZtigyN7Gy: 3
+          default: 0
+        sort: 0
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Montage
+          canIgnoreArmor: false
+          concealable:
+            concealable: false
+            isConcealed: false
+          critFailEffect: jammed
+          damage: 1d6
+          description:
+            value: >-
+              <p>Comes with your choice of three "Generic Chic"
+              Styles</p><ul><li><p>City Blues</p></li><li><p>Khaki
+              Casual</p></li><li><p>Synthsnake
+              Skin</p></li></ul><blockquote><p>Requires an action to swap styles
+              via connected agent.</p><p>Each variable comes with 3 patterns and
+              costs 20eb.</p></blockquote>
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          handsReq: 0
+          ignoreArmorPercent: 0
+          ignoreBelowSP: 0
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+            list: []
+            slots: 3
+            usedSlots: 0
+          isElectronic: false
+          isRanged: false
+          magazine:
+            ammoData: {}
+            max: 0
+            value: 0
+          modifiers:
+            Wardrobe & Style:
+              isSituational: false
+              onByDefault: false
+              value: null
+            attackmod:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            bodySp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            cool:
+              isSituational: false
+              onByDefault: false
+              value: null
+            damage:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            headSp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            magazine:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            rof:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            sdp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            seats:
+              isSituational: false
+              onByDefault: false
+              value: null
+            secondaryWeapon:
+              configured: false
+            shieldHp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            slots:
+              isSituational: false
+              onByDefault: false
+              value: null
+            speedCombat:
+              isSituational: false
+              onByDefault: false
+              value: null
+          price:
+            market: 20
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source:
+            book: BC
+            page: 32
+          type: armor
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Handgun
+        type: itemUpgrade
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/armor/variable-clothing-line.svg
 name: Montage Variable Clothing

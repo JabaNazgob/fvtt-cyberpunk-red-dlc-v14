@@ -2,10 +2,71 @@ _id: W5JR7Bb59cW6vLFl
 _key: "!items!W5JR7Bb59cW6vLFl"
 effects: []
 flags:
+  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 44
-      previous: "38"
+      current: 38
+      previous: "24"
+    cprInstallTree:
+      - _id: XiZPBkv0ul8vCcJw
+        _stats:
+          compendiumSource: >-
+            Compendium.the-12-days-of-cutiemas.the-12-days-of-cutiemas.Item.MDO8d8g0Z7itszPX
+          coreVersion: "12.343"
+          createdTime: 1769218535645
+          duplicateSource: null
+          lastModifiedBy: eMgDDuUqplwN8vV7
+          modifiedTime: 1769218535645
+          systemId: cyberpunk-red-core
+          systemVersion: v0.0.0dev
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 38
+              previous: "24"
+          scene-packer:
+            hash: 453b05f8b3adc19bceb087b7e3d30217f693b224
+        folder: lRSD8hvBUPOJcvIv
+        img: systems/cyberpunk-red-core/icons/compendium/ammo/bow_basic.png
+        name: Mini-Harpoon
+        ownership:
+          default: 0
+          eMgDDuUqplwN8vV7: 3
+        sort: 300000
+        system:
+          ablationValue: 1
+          amount: 0
+          brand: Sanroo
+          concealable:
+            concealable: false
+            isConcealed: false
+          description:
+            value: >-
+              <p>Mini-Harpoons come pre-loaded into the Hello Cutie Fisher Kitty
+              and cannot be use with any other weapons. </p><p>*Note: Reloading
+              the weapon recovers all spent ammo. Refill this stack as
+              needed.</p>
+          favorite: false
+          installLocation: mall
+          overrides:
+            autofire:
+              minimum: 3
+              mode: none
+              value: -1
+            damage:
+              minimum: 1d6
+              mode: none
+              value: 3d6
+          price:
+            market: 0
+          size: 0
+          source:
+            book: 12DoC
+            page: 4
+          type: emp
+          variety: arrow
+        type: ammo
   scene-packer:
     hash: 4aa3aa71640d41824c89f59f26f5c399ba1a2272
 folder: null

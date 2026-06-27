@@ -51,8 +51,7 @@ system:
     allowed: true
     allowedTypes:
       - ammo
-    list:
-      - F9fBoKdi9eZgCPfF
+    list: []
     slots: 0
     usedSlots: 0
   isRanged: true

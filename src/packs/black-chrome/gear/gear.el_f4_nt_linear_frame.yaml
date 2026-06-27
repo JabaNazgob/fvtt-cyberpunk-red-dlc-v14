@@ -47,269 +47,270 @@ effects:
     transfer: true
     type: base
 flags:
-  cprInstallTree:
-    - _id: EKL74hanUNBRrKju
-      _stats:
-        compendiumSource: null
-        coreVersion: "12.343"
-        createdTime: 1768632286890
-        duplicateSource: null
-        lastModifiedBy: IMREvhAZtigyN7Gy
-        modifiedTime: 1768632286890
-        systemId: cyberpunk-red-core
-        systemVersion: v0.0.0dev
-      effects: []
-      flags: {}
-      folder: null
-      img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
-      name: Integrated Techtool
-      ownership:
-        IMREvhAZtigyN7Gy: 3
-        default: 0
-      sort: 0
-      system:
-        ammoVariety: []
-        attackmod: 0
-        brand: Zhirafa
-        canIgnoreArmor: false
-        concealable:
-          concealable: false
-          isConcealed: false
-        critFailEffect: jammed
-        damage: 1d6
-        description:
-          value: <p>A multi-purpose tool integrated into the linear frame.</p>
-        favorite: false
-        fireModes:
-          autoFire: 0
-          suppressiveFire: false
-        handsReq: 0
-        ignoreArmorPercent: 0
-        ignoreBelowSP: 0
-        installLocation: mall
-        installedItems:
-          allowed: false
-          allowedTypes:
-            - itemUpgrade
-          list: []
-          slots: 3
-          usedSlots: 0
-        isElectronic: true
-        isRanged: false
-        magazine:
-          ammoData: {}
-          max: 0
-          value: 0
-        modifiers:
-          Wardrobe & Style:
-            isSituational: false
-            onByDefault: false
-            value: null
-          attackmod:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          bodySp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          cool:
-            isSituational: false
-            onByDefault: false
-            value: null
-          damage:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          headSp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          magazine:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          rof:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          sdp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          seats:
-            isSituational: false
-            onByDefault: false
-            value: null
-          secondaryWeapon:
-            configured: false
-          shieldHp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          slots:
-            isSituational: false
-            onByDefault: false
-            value: null
-          speedCombat:
-            isSituational: false
-            onByDefault: false
-            value: null
-        price:
-          market: 0
-        providesHardening: false
-        revealed: true
-        rof: 1
-        size: 1
-        source:
-          book: BC
-          page: 55
-        type: gear
-        unarmedAutomaticCalculation: true
-        usage: toggled
-        usesType: magazine
-        weaponSkill: Handgun
-      type: itemUpgrade
-    - _id: FS9pJMeoMDzqWHno
-      _stats:
-        compendiumSource: Actor.Hq4TNT2JuXJCrwVL.Item.w2YHyYWt6pMC6gmP
-        coreVersion: "12.343"
-        createdTime: 1768632286890
-        duplicateSource: null
-        lastModifiedBy: IMREvhAZtigyN7Gy
-        modifiedTime: 1768632286890
-        systemId: cyberpunk-red-core
-        systemVersion: v0.0.0dev
-      effects: []
-      flags: {}
-      folder: null
-      img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
-      name: Integrated Techtool
-      ownership:
-        IMREvhAZtigyN7Gy: 3
-        default: 0
-      sort: 100000
-      system:
-        ammoVariety: []
-        attackmod: 0
-        brand: Zhirafa
-        canIgnoreArmor: false
-        concealable:
-          concealable: false
-          isConcealed: false
-        critFailEffect: jammed
-        damage: 1d6
-        description:
-          value: <p>A multi-purpose tool integrated into the linear frame.</p>
-        favorite: false
-        fireModes:
-          autoFire: 0
-          suppressiveFire: false
-        handsReq: 0
-        ignoreArmorPercent: 0
-        ignoreBelowSP: 0
-        installLocation: mall
-        installedItems:
-          allowed: false
-          allowedTypes:
-            - itemUpgrade
-          list: []
-          slots: 3
-          usedSlots: 0
-        isElectronic: true
-        isRanged: false
-        magazine:
-          ammoData: {}
-          max: 0
-          value: 0
-        modifiers:
-          Wardrobe & Style:
-            isSituational: false
-            onByDefault: false
-            value: null
-          attackmod:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          bodySp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          cool:
-            isSituational: false
-            onByDefault: false
-            value: null
-          damage:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          headSp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          magazine:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          rof:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          sdp:
-            isSituational: false
-            onByDefault: false
-            value: null
-          seats:
-            isSituational: false
-            onByDefault: false
-            value: null
-          secondaryWeapon:
-            configured: false
-          shieldHp:
-            isSituational: false
-            onByDefault: false
-            type: modifier
-            value: null
-          slots:
-            isSituational: false
-            onByDefault: false
-            value: null
-          speedCombat:
-            isSituational: false
-            onByDefault: false
-            value: null
-        price:
-          market: 0
-        providesHardening: false
-        revealed: true
-        rof: 1
-        size: 1
-        source:
-          book: BC
-          page: 55
-        type: gear
-        unarmedAutomaticCalculation: true
-        usage: toggled
-        usesType: magazine
-        weaponSkill: Handgun
-      type: itemUpgrade
+  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 44
-      previous: "38"
+      current: 38
+      previous: "37"
+    cprInstallTree:
+      - _id: EKL74hanUNBRrKju
+        _stats:
+          compendiumSource: null
+          coreVersion: "12.343"
+          createdTime: 1768632286890
+          duplicateSource: null
+          lastModifiedBy: IMREvhAZtigyN7Gy
+          modifiedTime: 1768632286890
+          systemId: cyberpunk-red-core
+          systemVersion: v0.0.0dev
+        effects: []
+        flags: {}
+        folder: null
+        img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
+        name: Integrated Techtool
+        ownership:
+          IMREvhAZtigyN7Gy: 3
+          default: 0
+        sort: 0
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Zhirafa
+          canIgnoreArmor: false
+          concealable:
+            concealable: false
+            isConcealed: false
+          critFailEffect: jammed
+          damage: 1d6
+          description:
+            value: <p>A multi-purpose tool integrated into the linear frame.</p>
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          handsReq: 0
+          ignoreArmorPercent: 0
+          ignoreBelowSP: 0
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+            list: []
+            slots: 3
+            usedSlots: 0
+          isElectronic: true
+          isRanged: false
+          magazine:
+            ammoData: {}
+            max: 0
+            value: 0
+          modifiers:
+            Wardrobe & Style:
+              isSituational: false
+              onByDefault: false
+              value: null
+            attackmod:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            bodySp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            cool:
+              isSituational: false
+              onByDefault: false
+              value: null
+            damage:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            headSp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            magazine:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            rof:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            sdp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            seats:
+              isSituational: false
+              onByDefault: false
+              value: null
+            secondaryWeapon:
+              configured: false
+            shieldHp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            slots:
+              isSituational: false
+              onByDefault: false
+              value: null
+            speedCombat:
+              isSituational: false
+              onByDefault: false
+              value: null
+          price:
+            market: 0
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source:
+            book: BC
+            page: 55
+          type: gear
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Handgun
+        type: itemUpgrade
+      - _id: FS9pJMeoMDzqWHno
+        _stats:
+          compendiumSource: Actor.Hq4TNT2JuXJCrwVL.Item.w2YHyYWt6pMC6gmP
+          coreVersion: "12.343"
+          createdTime: 1768632286890
+          duplicateSource: null
+          lastModifiedBy: IMREvhAZtigyN7Gy
+          modifiedTime: 1768632286890
+          systemId: cyberpunk-red-core
+          systemVersion: v0.0.0dev
+        effects: []
+        flags: {}
+        folder: null
+        img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
+        name: Integrated Techtool
+        ownership:
+          IMREvhAZtigyN7Gy: 3
+          default: 0
+        sort: 100000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Zhirafa
+          canIgnoreArmor: false
+          concealable:
+            concealable: false
+            isConcealed: false
+          critFailEffect: jammed
+          damage: 1d6
+          description:
+            value: <p>A multi-purpose tool integrated into the linear frame.</p>
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          handsReq: 0
+          ignoreArmorPercent: 0
+          ignoreBelowSP: 0
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+            list: []
+            slots: 3
+            usedSlots: 0
+          isElectronic: true
+          isRanged: false
+          magazine:
+            ammoData: {}
+            max: 0
+            value: 0
+          modifiers:
+            Wardrobe & Style:
+              isSituational: false
+              onByDefault: false
+              value: null
+            attackmod:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            bodySp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            cool:
+              isSituational: false
+              onByDefault: false
+              value: null
+            damage:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            headSp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            magazine:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            rof:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            sdp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            seats:
+              isSituational: false
+              onByDefault: false
+              value: null
+            secondaryWeapon:
+              configured: false
+            shieldHp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            slots:
+              isSituational: false
+              onByDefault: false
+              value: null
+            speedCombat:
+              isSituational: false
+              onByDefault: false
+              value: null
+          price:
+            market: 0
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source:
+            book: BC
+            page: 55
+          type: gear
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Handgun
+        type: itemUpgrade
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/gear/linearframe_sigma.svg
 name: EL-F4-NT Linear Frame

@@ -55,10 +55,9 @@ system:
     allowedTypes:
       - cyberware
       - itemUpgrade
-    list:
-      - 0kVTGIpsZhHVUKOU
+    list: []
     slots: 1
-    usedSlots: 1
+    usedSlots: 0
   isElectronic: false
   isFoundational: false
   isRanged: false
