@@ -29,3 +29,4 @@ docs/
 **/foo*
 **/bar*
 src/packs.*
+.cprc-shared/.claude/settings.local.json
