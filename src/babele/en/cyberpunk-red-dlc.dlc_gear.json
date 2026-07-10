@@ -152,7 +152,11 @@
     },
     "Cargo Container Chic Furniture Set": {
       "name": "Cargo Container Chic Furniture Set",
-      "description": "<p>\n   It might be cheap, but it is real furniture. This is the starting Furniture\n   Set for most cargo containers.\n</p>\n\n"
+      "description": "<p>\n  It might be cheap, but it is real furniture. This is the starting Furniture\n  Set for most cargo containers.\n</p>\n"
+    },
+    "Concealment Sleeve": {
+      "name": "Concealment Sleeve",
+      "description": "<p>\n  <strong>Very Expensive</strong> custom fitted RealSkinn™ sleeve made just for\n  you.\n</p>\n<blockquote>\n  <p>\n    All cyberware installed into this limb becomes undetectable by\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.JMYvZfk6ZBgt6tK0]{Cyberscanners}\n    and unusable until the sleeve is removed.\n  </p>\n</blockquote>\n"
     },
     "Continental Brands Real Instant Coffee™": {
       "name": "Continental Brands Real Instant Coffee™",
@@ -166,10 +170,6 @@
       "name": "Creative Couture Furniture Set",
       "description": "<p>\n  Furnished with military surplus gear and recycled materials. The bare minimum\n  needed to furnish your apartment.\n</p>\n"
     },
-    "Concealment Sleeve": {
-      "name": "Concealment Sleeve",
-      "description": "<p>\n  <strong>Very Expensive</strong> custom fitted RealSkinn™ sleeve made just for\n  you.\n</p>\n<blockquote>\n  <p>\n    All cyberware installed into this limb becomes undetectable by\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.JMYvZfk6ZBgt6tK0]{Cyberscanners}\n    and unusable until the sleeve is removed.\n  </p>\n</blockquote>\n"
-    },
     "Cybercam EX-1": {
       "name": "Cybercam EX-1",
       "description": "<p>\n  Head-mounted camera. A Media presenting a story on a livestream while wearing\n  the Cybercam EX-1 gains +1 Believability when using their role ability. This\n  stacks with evidence based bonuses.\n</p>\n"
@@ -180,7 +180,7 @@
     },
     "Delaying Compound": {
       "name": "Delaying Compound",
-      "description": "<p>\n   This additive delays the effects of a Poison or Biotoxin Vial by a minute or\n   an hour. Mixing multiple Delaying Compounds does not increase delay period.\n</p>\n\n"
+      "description": "<p>\n  This additive delays the effects of a Poison or Biotoxin Vial by a minute or\n  an hour. Mixing multiple Delaying Compounds does not increase delay period.\n</p>\n"
     },
     "Desirous Decoration Furniture Set": {
       "name": "Desirous Decoration Furniture Set",
@@ -260,7 +260,7 @@
     },
     "Militech M97 Ghostsuit": {
       "name": "Militech M97 Ghostsuit",
-      "description": ""
+      "description": "<p>\n  Requires 1 minute without movement to gather local data before the wearer\n  automatically blends into their surroundings. The effect ends if you move more\n  than 2m/yds per turn.\n</p>\n"
     },
     "MiniMag Speakers": {
       "name": "MiniMag Speakers",
@@ -284,7 +284,7 @@
     },
     "Power Chord": {
       "name": "Power Chord",
-      "description": "<p>Shred righteous bars with this electric guitar.</p>\n\n<ul>\n  \n  <li>\n    \n    <p>\n      \n      Enable the supplied active effect only if your musician has a base skill\n     \n      rank of 16 in\n     \n      @UUID[Compendium.cyberpunk-red-core.core_skills-play-instrument.Item.WS1dbopsk9h1uTSn]{Play\n     \n      Instrument (Guitar)}.\n    \n    </p>\n  \n  </li>\n  \n  <li>\n    \n    <p>\n      \n      Non-Rockerboys suffer the\n     \n      @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.IKKcCgHU1lBJ4wVd]{Crushed\n     \n      Fingers} injury if they play this instrument longer than 10 minutes.\n    \n    </p>\n  \n  </li>\n  \n  <li>\n    \n    <p>Cannot be damaged by fire or any weapon that deals less than 6d6.</p>\n  \n  </li>\n  \n  <li><p>Tech-Upgradable</p></li>\n\n</ul>\n\n"
+      "description": "<p>Shred righteous bars with this electric guitar.</p>\n<ul>\n  <li>\n    <p>\n      Enable the supplied active effect only if your musician has a base skill\n      rank of 16 in\n      @UUID[Compendium.cyberpunk-red-core.core_skills-play-instrument.Item.WS1dbopsk9h1uTSn]{Play\n      Instrument (Guitar)}.\n    </p>\n  </li>\n  <li>\n    <p>\n      Non-Rockerboys suffer the\n      @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.IKKcCgHU1lBJ4wVd]{Crushed\n      Fingers} injury if they play this instrument longer than 10 minutes.\n    </p>\n  </li>\n  <li>\n    <p>Cannot be damaged by fire or any weapon that deals less than 6d6.</p>\n  </li>\n  <li><p>Tech-Upgradable</p></li>\n</ul>\n"
     },
     "PressureTech Shower Head": {
       "name": "PressureTech Shower Head",
@@ -322,13 +322,13 @@
       "name": "Skateboard",
       "description": "<p>\n  The coolest wheels around. Increases moment by 4 m/yds when using the Run\n  Action on level or downwards ground. May cause physical tasks to be done at\n  -2.\n</p>\n"
     },
-    "Smart Vanity": {
-      "name": "Smart Vanity",
-      "description": "<p>\n  Smart grooming station. Comes fully equipped with any tools and makeup you'll\n  need.\n</p>\n"
-    },
     "Smartsticks": {
       "name": "Smartsticks",
       "description": "<p>\n  Smart Drum Sticks. Gives the User a +1 bonus to Play Instrument (Drums) Skill\n  Checks while in use. Doesn't stack with other bonuses to Play Instrument.\n</p>\n"
+    },
+    "Smart Vanity": {
+      "name": "Smart Vanity",
+      "description": "<p>\n  Smart grooming station. Comes fully equipped with any tools and makeup you'll\n  need.\n</p>\n"
     },
     "Solo of Fortune Bodypillow": {
       "name": "Solo of Fortune Bodypillow",
@@ -352,7 +352,7 @@
     },
     "Umbrella": {
       "name": "Umbrella",
-      "description": "<p>\n   Protects against Acid Rain. For every minute exposed to Acid Rain, all armor\n   ablates by 1 SP (NCW pg 4).\n</p>\n<p>\n   +2 to Resist Torture/Drugs Checks from Blood Rain exposure. Severe Blood Rain\n   applies the effects of a Vial of Biotoxin on failed check (NCW pg 4).\n</p>\n\n"
+      "description": "<p>\n  Protects against Acid Rain. For every minute exposed to Acid Rain, all armor\n  ablates by 1 SP (NCW pg 4).\n</p>\n<p>\n  +2 to Resist Torture/Drugs Checks from Blood Rain exposure. Severe Blood Rain\n  applies the effects of a Vial of Biotoxin on failed check (NCW pg 4).\n</p>\n"
     },
     "Virtual Barbeque": {
       "name": "Virtual Barbeque",
@@ -366,10 +366,6 @@
       "name": "Wyzard Technologies Merlyn",
       "description": "<p>\n  Wearable AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending\n  on circumstance.\n</p>\n<blockquote>\n  <p>\n    An <strong>Excellent Quality Agent</strong> includes a touchscreen,\n    microphone, camera, flashlight, and holo-projector.\n  </p>\n  <ul>\n    <li><p>Hacking DV 21</p></li>\n  </ul>\n</blockquote>\n"
     },
-    "Zetatch Tank Commander Headset": {
-      "name": "Zetatch Tank Commander Headset",
-      "description": "<p>Radio headset with throat mic and earbud perfect for covert operations.</p>\n"
-    },
     "Zetatech Grade A": {
       "name": "Zetatech Grade A",
       "description": "<p>\n  AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending on\n  circumstance.\n</p>\n<blockquote>\n  <p>\n    A <strong>Standard Quality Agent</strong> includes a touchscreen,\n    microphone, camera, and flashlight.\n  </p>\n  <ul>\n    <li><p>Hacking DV 17</p></li>\n  </ul>\n</blockquote>\n"
@@ -377,6 +373,10 @@
     "Zetatech Grade A-Plus": {
       "name": "Zetatech Grade A-Plus",
       "description": "<p>\n  AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending on\n  circumstance.\n</p>\n<blockquote>\n  <p>\n    An <strong>Excellent Quality Agent</strong> includes a touchscreen,\n    microphone, camera, flashlight, and holo-projector.\n  </p>\n  <ul>\n    <li><p>Hacking DV 21</p></li>\n  </ul>\n</blockquote>\n"
+    },
+    "Zetatech Tank Commander Headset": {
+      "name": "Zetatech Tank Commander Headset",
+      "description": "<p>Radio headset with throat mic and earbud perfect for covert operations.</p>\n"
     }
   }
 }

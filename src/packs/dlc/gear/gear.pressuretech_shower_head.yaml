@@ -5,8 +5,8 @@ flags:
   core: {}
   cyberpunk-red-core:
     _migration:
-      current: 44
-      previous: "38"
+      current: 37
+      previous: "33"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/pressuretech-shower-head.svg
 name: PressureTech Shower Head

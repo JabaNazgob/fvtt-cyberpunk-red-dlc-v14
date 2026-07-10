@@ -1,12 +1,12 @@
 _id: HEXletyRVEk1qUJD
 _key: "!items!HEXletyRVEk1qUJD"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core: {}
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/militech-m97-ghostsuit.svg
 name: Militech M97 Ghostsuit
 ownership:
-  IMREvhAZtigyN7Gy: 3
   default: 0
 sort: 0
 system:
@@ -16,7 +16,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: ""
+    value: |
+      <p>
+        Requires 1 minute without movement to gather local data before the wearer
+        automatically blends into their surroundings. The effect ends if you move more
+        than 2m/yds per turn.
+      </p>
   equipped: owned
   favorite: false
   installedItems:
