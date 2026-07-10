@@ -410,6 +410,10 @@
       "name": "Retina Lenses",
       "description": "<p>\n  A fabricated lens imprinted with a copy of somebody's retinal patterns. You\n  must provide the Techie with a valid retinal pattern prior to fabrication.\n</p>\n<blockquote><p>Capable of fooling Retinal Scanners.</p></blockquote>\n"
     },
+    "Remote Camera Drone": {
+      "name": "Remote Camera Drone",
+      "description": "<p>\n  A personal drone that must be directly controlled via a connected Agent. The\n  drone is equipped with the following upgrades:\n</p>\n<ul>\n  <li><p>Observation Camera</p></li>\n  <li><p>Holographic Projector</p></li>\n  <li><p>Smoke Grenade Launcher</p></li>\n</ul>\n"
+    },
     "Roller Derby Skates": {
       "name": "Roller Derby Skates",
       "description": "<p>A pair of Leage approved quad-skates.</p>\n<blockquote>\n  <p>\n    <em>Increases movement by 4m/yds when taking the run action. </em>May cause\n    physical tasks to be done at -2.\n  </p>\n</blockquote>\n"
