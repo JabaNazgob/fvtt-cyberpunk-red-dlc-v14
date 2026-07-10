@@ -224,7 +224,7 @@
     {
       "name": "dlc_weather-effects",
       "label": "Weather Effects",
-      "path": "packs/dlc_weather-effects",
+      "path": "packs/dlc/weather-effects",
       "type": "Item",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
