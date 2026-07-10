@@ -2,15 +2,163 @@ _id: UnVRX1UNOtUtN5xz
 _key: "!items!UnVRX1UNOtUtN5xz"
 effects: []
 flags:
+  cprInstallTree: {}
   cyberpunk-red-core:
-    _migration:
-      current: 44
-      previous: "38"
+    cprInstallTree:
+      - _id: 8mUwzInqs3WxCw39
+        _stats:
+          compendiumSource: null
+          coreVersion: "13.351"
+          createdTime: 1783700969797
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: 62fniNbymaXTm4QO
+          modifiedTime: 1783700969814
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            cprInstallTree:
+              - _id: FEW4LLkXMr0GFBcN
+                _stats:
+                  compendiumSource: Compendium.cyberpunk-red-dlc.dlc_ammo.Item.HqaKGQpp5VMV5UNU
+                  coreVersion: "13.351"
+                  createdTime: 1783700969801
+                  duplicateSource: null
+                  exportSource: null
+                  lastModifiedBy: 62fniNbymaXTm4QO
+                  modifiedTime: 1783700969801
+                  systemId: cyberpunk-red-core
+                  systemVersion: DUMMY_VALUE
+                effects: []
+                flags: {}
+                folder: null
+                img: src/icons/dlc/ammo/harpoon_basic.svg
+                name: Harpoons
+                ownership:
+                  62fniNbymaXTm4QO: 3
+                  default: 0
+                sort: 0
+                system:
+                  ablationValue: 1
+                  amount: 0
+                  brand: Slamdance Inc.
+                  concealable:
+                    concealable: false
+                    isConcealed: false
+                  description:
+                    value: |-
+                      <p>
+                        Additional harpoons for use with the SlamDance Ballistic Harpoon Launcher.
+                      </p>
+                  favorite: false
+                  installLocation: mall
+                  overrides:
+                    autofire:
+                      minimum: 3
+                      mode: none
+                      value: -1
+                    damage:
+                      minimum: 1d6
+                      mode: none
+                      value: 3d6
+                  price:
+                    market: 1000
+                  size: 0
+                  source:
+                    book: WCG
+                    page: 5
+                  type: special
+                  variety: custom
+                type: ammo
+        folder: null
+        img: >-
+          modules/cyberpunk-red-dlc/icons/dlc/upgrades/ballistic-harpoon-launcher.svg
+        name: Harpoon Launcher
+        ownership:
+          62fniNbymaXTm4QO: 3
+          default: 0
+        sort: 0
+        system:
+          ammoVariety:
+            - custom
+          attackmod: 0
+          brand: Slamdance Inc.
+          canIgnoreArmor: true
+          concealable:
+            concealable: false
+            isConcealed: false
+          critFailEffect: jammed
+          damage: 4d6
+          description:
+            value: ""
+          dvTable: DV Bows & Crossbows
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          handsReq: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          installLocation: mall
+          installedItems:
+            allowed: true
+            allowedTypes:
+              - ammo
+            list:
+              - FEW4LLkXMr0GFBcN
+            slots: 3
+            usedSlots: 0
+          isElectronic: false
+          isRanged: true
+          magazine:
+            ammoData: null
+            max: 1
+            value: 1
+          modifiers:
+            attackmod:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            damage:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            magazine:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            rof:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            secondaryWeapon:
+              configured: true
+          price:
+            market: 0
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 0
+          source:
+            book: WCG
+            page: 5
+          type: weapon
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Handgun
+          weaponType: bow
+        type: itemUpgrade
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/weapons/ballistic-harpoon.svg
 name: Ballistic Harpoon
 ownership:
-  Oh50kk1fqzkpjwxb: 3
   default: 0
 sort: 0
 system:
@@ -47,8 +195,10 @@ system:
   installedItems:
     allowed: true
     allowedTypes:
+      - ammo
       - itemUpgrade
-    list: []
+    list:
+      - 8mUwzInqs3WxCw39
     slots: 0
     usedSlots: 0
   isRanged: false

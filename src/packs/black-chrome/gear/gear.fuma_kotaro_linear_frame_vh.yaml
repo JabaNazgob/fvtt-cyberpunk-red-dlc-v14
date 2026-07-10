@@ -5,9 +5,10 @@ effects:
     _key: "!items.effects!mX0F4Jv5MTV6EdYy.xgobGEdNkOjCEOGK"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core

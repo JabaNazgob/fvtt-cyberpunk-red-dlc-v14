@@ -2,18 +2,93 @@ _id: KLdu0wuFwC95vtss
 _key: "!items!KLdu0wuFwC95vtss"
 effects: []
 flags:
+  cprInstallTree: {}
   cyberpunk-red-core:
-    _migration:
-      current: 44
-      previous: "38"
+    cprInstallTree:
+      - _id: bZzdgdvoCPPPcNB2
+        _stats:
+          compendiumSource: Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.jgSJKsyaqUANw0zL
+          coreVersion: "13.351"
+          createdTime: 1783700305851
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: 62fniNbymaXTm4QO
+          modifiedTime: 1783700305851
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags: {}
+        folder: ja9TOBYRJ7UXdVYX
+        img: >-
+          modules/cyberpunk-red-dlc/icons/dlc/cyberware/personalized-faceplate.svg
+        name: Personalized Faceplate
+        ownership:
+          62fniNbymaXTm4QO: 3
+          IMREvhAZtigyN7Gy: 3
+          default: 0
+        sort: 200000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: ""
+          canIgnoreArmor: false
+          concealable:
+            concealable: false
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          description:
+            value: |-
+              <p>A personalized faceplate made of durable polymer.</p>
+              <p><em>Compatible with your Cyberskull.</em></p>
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 0
+          ignoreBelowSP: 0
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - cyberware
+              - itemUpgrade
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: {}
+            max: 0
+            value: 0
+          price:
+            market: 100
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 0
+          source:
+            book: IRv3
+            page: 105
+          type: cyberwareInternal
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Handgun
+        type: cyberware
   scene-packer:
     hash: 24b1e428373ab648c629f0506102b045b9a37a41
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/cyberskull.svg
 name: Cyberskull
 ownership:
-  IMREvhAZtigyN7Gy: 3
-  V8F9A9hbCTVYRW7O: 3
   default: 0
 sort: 0
 system:
@@ -55,7 +130,8 @@ system:
     allowedTypes:
       - cyberware
       - itemUpgrade
-    list: []
+    list:
+      - bZzdgdvoCPPPcNB2
     slots: 1
     usedSlots: 0
   isElectronic: false

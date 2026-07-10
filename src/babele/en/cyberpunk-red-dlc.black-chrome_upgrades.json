@@ -27,14 +27,6 @@
       "description": "<p>Agent App.</p>\n<p>Perhaps you're better suited to duking it out online than in the streets…</p>\n<p>\n  Rules related to creating, playing with, and fighting an opponent in Digital\n  Gladiator are contained in Black Chrome rulebook for this item.\n</p>\n",
       "dvTable": ""
     },
-    "\"Gang Color\" Variables": {
-      "name": "\"Gang Color\" Variables",
-      "description": "<p>\n  Additional colors and patterns can be purchased via the\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.\n</p>\n<blockquote>\n  <p>Requires an action to swap styles via connected agent.</p>\n</blockquote>\n"
-    },
-    "\"Generic Chic\" Variables": {
-      "name": "\"Generic Chic\" Variables",
-      "description": "<p>\n  Additional colors and patterns can be purchased via the\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.\n</p>\n<blockquote>\n  <p>Requires an action to swap styles via connected agent.</p>\n</blockquote>\n"
-    },
     "ModFire 10X (Rifle)": {
       "name": "ModFire 10X (Rifle)",
       "description": "<p>\n  The ModFire 10X is an Exotic Heavy Pistol. Can also be transformed into an\n  Exotic SMG or an Exotic Assault Rifle, assuming the user has all the needed\n  parts.\n</p>\n",
@@ -47,7 +39,15 @@
     },
     "Montage Digital Fashion": {
       "name": "Montage Digital Fashion",
-      "description": "<p>\n  <strong>App:</strong> Allows users to purchase and select styles for their\n  connected Montage Variable Clothing.\n</p>\n<ul>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.jfrQZqgeFV6eiVps]\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.1rpHt0LP4Fzybc9x]\n    </p>\n  </li>\n</ul>\n"
+      "description": "<p>\n  <strong>App:</strong> Allows users to purchase and select styles for their\n  connected Montage Variable Clothing.\n</p>\n<ul>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.Rs94jDJRrbHVpvIh]{Montage\n      Variables (Gang Colors)}\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.7fXDqCH4Z3ZLo5kL]{Montage\n      Variables (Generic Chic)}\n    </p>\n  </li>\n</ul>\n"
+    },
+    "Montage Variables (Gang Colors)": {
+      "name": "Montage Variables (Gang Colors)",
+      "description": "<p>\n  Additional colors and patterns can be purchased via the\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.\n</p>\n<blockquote>\n  <p>Requires an action to swap styles via connected agent.</p>\n</blockquote>\n"
+    },
+    "Montage Variables (Generic Chic)": {
+      "name": "Montage Variables (Generic Chic)",
+      "description": "<p>\n  Additional colors and patterns can be purchased via the\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.\n</p>\n<blockquote>\n  <p>Requires an action to swap styles via connected agent.</p>\n</blockquote>\n"
     },
     "NCPD Crime Database": {
       "name": "NCPD Crime Database",

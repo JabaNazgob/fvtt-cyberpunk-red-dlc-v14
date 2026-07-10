@@ -1,12 +1,13 @@
-_id: 1rpHt0LP4Fzybc9x
-_key: "!items!1rpHt0LP4Fzybc9x"
+_id: 7fXDqCH4Z3ZLo5kL
+_key: "!items!7fXDqCH4Z3ZLo5kL"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core: {}
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/montage-palette.svg
-name: '"Generic Chic" Variables'
+name: Montage Variables (Generic Chic)
 ownership:
-  IMREvhAZtigyN7Gy: 3
+  62fniNbymaXTm4QO: 3
   default: 0
 sort: 0
 system:

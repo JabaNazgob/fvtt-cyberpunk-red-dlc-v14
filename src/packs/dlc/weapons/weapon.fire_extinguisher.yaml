@@ -2,15 +2,62 @@ _id: aTCQwWjguMnKhegG
 _key: "!items!aTCQwWjguMnKhegG"
 effects: []
 flags:
+  cprInstallTree: {}
   cyberpunk-red-core:
-    _migration:
-      current: 44
-      previous: "38"
+    cprInstallTree:
+      - _id: 87d1DiYA5WzZrqwz
+        _stats:
+          compendiumSource: Compendium.cyberpunk-red-dlc.dlc_ammo.Item.Tuv9nHwCesf3Wchg
+          coreVersion: "13.351"
+          createdTime: 1783700449986
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: 62fniNbymaXTm4QO
+          modifiedTime: 1783700449986
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags: {}
+        folder: null
+        img: modules/cyberpunk-red-dlc/icons/dlc/ammo/fire_extinguisher_charges.svg
+        name: Fire Extinguisher Charges
+        ownership:
+          62fniNbymaXTm4QO: 3
+          default: 0
+        sort: 0
+        system:
+          ablationValue: 0
+          amount: 0
+          brand: ""
+          concealable:
+            concealable: false
+            isConcealed: false
+          description:
+            value: <p>Requires access to a charging station, takes 5 minutes.</p>
+          favorite: false
+          installLocation: mall
+          overrides:
+            autofire:
+              minimum: 3
+              mode: none
+              value: -1
+            damage:
+              minimum: 1d6
+              mode: none
+              value: 3d6
+          price:
+            market: 20
+          size: 0
+          source:
+            book: Hope Reborn
+            page: 34
+          type: special
+          variety: custom
+        type: ammo
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/weapons/fire-extinguisher.svg
 name: Fire Extinguisher
 ownership:
-  IMREvhAZtigyN7Gy: 3
   default: 0
 sort: 0
 system:
@@ -51,7 +98,8 @@ system:
     allowed: true
     allowedTypes:
       - ammo
-    list: []
+    list:
+      - 87d1DiYA5WzZrqwz
     slots: 0
     usedSlots: 0
   isRanged: true
