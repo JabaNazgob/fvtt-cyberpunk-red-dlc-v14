@@ -156,9 +156,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.qRKLIX7yU2n83JKJ
     drawn: false
     flags: {}
-    img: >-
-      systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_slug_rubber.svg -
-      1 - 1
+    img: null
     name: Shotgun Slug (Rubber)
     range:
       - 1
@@ -179,9 +177,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.WOJD6hQVUVEK8AsJ
     drawn: false
     flags: {}
-    img: >-
-      systems/cyberpunk-red-core/icons/compendium/ammo/pistolheavy_rubber.svg -
-      2 - 2
+    img: null
     name: Heavy Pistol (Rubber)
     range:
       - 2

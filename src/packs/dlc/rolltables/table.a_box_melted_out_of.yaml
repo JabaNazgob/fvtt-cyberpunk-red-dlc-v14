@@ -133,7 +133,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.qA9wmNHuGLsxBtRB
     drawn: false
     flags: {}
-    img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_rubber.svg - 4 - 4
+    img: null
     name: Rifle (Rubber)
     range:
       - 4
