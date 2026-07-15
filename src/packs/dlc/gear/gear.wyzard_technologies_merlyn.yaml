@@ -56,7 +56,6 @@ effects:
     type: base
 flags:
   core: {}
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
       current: 44

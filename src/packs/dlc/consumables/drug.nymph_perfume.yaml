@@ -46,7 +46,11 @@ effects:
     tint: "#ffffff"
     transfer: true
     type: base
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/drugs/nymph-perfume.svg
 name: Nymph Perfume
@@ -76,11 +80,12 @@ system:
       </blockquote>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   price:
     market: 500
   revealed: true
-  source:
-    book: GQ
-    page: 6
+  sources:
+    - book: GQ
+      page: 6
   usage: snorted
 type: drug

@@ -46,7 +46,11 @@ effects:
     tint: "#ffffff"
     transfer: true
     type: base
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/professional-disguise-kit.svg
 name: Professional Disguise Kit
@@ -68,6 +72,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -79,8 +84,8 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  source:
-    book: GQ
-    page: 7
+  sources:
+    - book: GQ
+      page: 7
   usage: toggled
 type: gear

@@ -3,6 +3,10 @@ _key: "!items!kEMGWjMaYcA4rGyJ"
 effects: []
 flags:
   core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
   scene-packer:
     hash: fa0c28167fc7f58a6636bfc4ec4515e3573924af
 folder: null

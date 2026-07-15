@@ -1,7 +1,11 @@
 _id: qFTSS9L4Ok2FGp9C
 _key: "!items!qFTSS9L4Ok2FGp9C"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/branded-jumpsuit.svg
 name: Branded Jumpsuit (Extreme Security)
@@ -23,6 +27,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -34,8 +39,8 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
-  source:
-    book: GQ
-    page: 5
+  sources:
+    - book: GQ
+      page: 5
   usage: toggled
 type: gear

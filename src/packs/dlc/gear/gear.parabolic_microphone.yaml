@@ -1,7 +1,11 @@
 _id: zrHcEmuNtABJGLeu
 _key: "!items!zrHcEmuNtABJGLeu"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/parabolic-microphone.svg
 name: Parabolic Microphone
@@ -23,6 +27,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -34,8 +39,8 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  source:
-    book: GQ
-    page: 7
+  sources:
+    - book: GQ
+      page: 7
   usage: toggled
 type: gear

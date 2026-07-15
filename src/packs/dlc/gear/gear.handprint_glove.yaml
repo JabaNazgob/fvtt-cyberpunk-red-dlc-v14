@@ -1,7 +1,11 @@
 _id: iM7SveRZWmVhIsFj
 _key: "!items!iM7SveRZWmVhIsFj"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/handprint-glove.svg
 name: Handprint Glove
@@ -26,6 +30,7 @@ system:
       </blockquote>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -37,8 +42,8 @@ system:
     market: 500
   providesHardening: false
   revealed: true
-  source:
-    book: GQ
-    page: 6
+  sources:
+    - book: GQ
+      page: 6
   usage: toggled
 type: gear
