@@ -1,7 +1,11 @@
 _id: S3VtMiZNAU4P866s
 _key: "!items!S3VtMiZNAU4P866s"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/app_brainwasher.svg
 name: Brainwasher
@@ -19,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p><strong>App:</strong> Provides basic therapy.</p>
@@ -49,6 +57,7 @@ system:
   handsReq: 0
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: false
@@ -128,9 +137,9 @@ system:
   revealed: true
   rof: 1
   size: 0
-  source:
-    book: AAA
-    page: 7
+  sources:
+    - book: AAA
+      page: 7
   type: gear
   unarmedAutomaticCalculation: true
   usage: toggled

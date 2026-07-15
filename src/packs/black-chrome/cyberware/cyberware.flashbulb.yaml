@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/flash-bulb.svg
 name: Flashbulb
@@ -24,6 +24,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 2d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>Requires cyberarm. User can attempt to blind anyone within 25m/yds.</p>
@@ -37,6 +41,7 @@ system:
     static: 7
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: clinic
   installedItems:
     allowed: false
@@ -60,9 +65,9 @@ system:
   revealed: true
   rof: 2
   size: 2
-  source:
-    book: BC
-    page: 18
+  sources:
+    - book: BC
+      page: 18
   type: cyberArm
   unarmedAutomaticCalculation: true
   usage: toggled

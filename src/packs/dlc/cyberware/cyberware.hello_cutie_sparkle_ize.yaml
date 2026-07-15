@@ -5,9 +5,10 @@ effects:
     _key: "!items.effects!iouPmaXovaYdx8Tr.Mr8eyohOGE26koek"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -48,8 +49,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: e851d806dc4db10f0c9d3d0c5ea91fc36faefe2c
 folder: null
@@ -70,6 +71,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -94,6 +99,7 @@ system:
     static: 3
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: clinic
   installedItems:
     allowed: true
@@ -116,9 +122,9 @@ system:
   revealed: true
   rof: 1
   size: 2
-  source:
-    book: 12DoC
-    page: 6
+  sources:
+    - book: 12DoC
+      page: 6
   type: cyberEye
   unarmedAutomaticCalculation: true
   usage: toggled

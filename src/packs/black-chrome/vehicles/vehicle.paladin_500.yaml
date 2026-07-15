@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/vehicles/paladin-500.svg
 name: Paladin 500
@@ -25,6 +25,7 @@ system:
         Machine Guns.
       </p>
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -36,9 +37,9 @@ system:
     market: 59000
   sdp: 50
   seats: 4
-  source:
-    book: BC
-    page: 75
+  sources:
+    - book: BC
+      page: 75
   speedCombat: 40
   speedNarrative: 200 MPH / 322 KPH
 type: vehicle

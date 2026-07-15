@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: f70e9b516bc8a92eca6dc5855ee112d80723cc6c
 folder: null
@@ -49,12 +49,18 @@ system:
         </ul>
       </blockquote>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: none
@@ -62,9 +68,9 @@ system:
   price:
     market: 50
   size: 0
-  source:
-    book: 12DoC
-    page: 3
+  sources:
+    - book: 12DoC
+      page: 3
   type: basic
   variety: grenade
 type: ammo

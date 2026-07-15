@@ -97,8 +97,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/master_mechanics_tool_kit.svg
 name: Master Mechanic's Tool Kit
@@ -121,6 +121,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -133,8 +134,8 @@ system:
     market: 20000
   providesHardening: false
   revealed: true
-  source:
-    book: 12DoGear
-    page: 3
+  sources:
+    - book: 12DoGear
+      page: 3
   usage: equipped
 type: gear

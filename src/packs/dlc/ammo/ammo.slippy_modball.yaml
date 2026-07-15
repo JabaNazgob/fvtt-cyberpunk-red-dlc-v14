@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: b94d31d231bd17c2fb5cd9a232a16823b9ee559f
 folder: null
@@ -41,12 +41,18 @@ system:
         </li>
       </ul>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: none
@@ -54,9 +60,9 @@ system:
   price:
     market: 5
   size: 0
-  source:
-    book: 12DoC
-    page: 6
+  sources:
+    - book: 12DoC
+      page: 6
   type: basic
   variety: paintball
 type: ammo

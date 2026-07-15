@@ -5,9 +5,10 @@ effects:
     _key: "!items.effects!5dJegR6eRVZRGBl8.v0xsRlpn5u7PKXEr"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -45,7 +46,11 @@ effects:
     tint: "#ffffff"
     transfer: true
     type: base
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/crunch_whistle.svg
 name: Crunch Whistle
@@ -63,6 +68,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>Connects your cyberdeck to a breacher.</p>
@@ -78,6 +87,7 @@ system:
   handsReq: 0
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: false
@@ -158,9 +168,7 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: ""
-    page: 0
+  sources: []
   type: cyberdeck
   unarmedAutomaticCalculation: true
   usage: equipped

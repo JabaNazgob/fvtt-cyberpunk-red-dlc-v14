@@ -1,7 +1,11 @@
 _id: 5JAmUP3W2uZDFQGx
 _key: "!items!5JAmUP3W2uZDFQGx"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/drone_remote.svg
 name: Drone Remote
@@ -20,6 +24,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>Allows you to control a drone with your mind instead of your agent.</p>
@@ -33,6 +41,7 @@ system:
     static: 7
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: clinic
   installedItems:
     allowed: true
@@ -56,9 +65,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: Hope Reborn+
-    page: 22
+  sources:
+    - book: Hope Reborn+
+      page: 22
   type: neuralWare
   unarmedAutomaticCalculation: true
   usage: toggled

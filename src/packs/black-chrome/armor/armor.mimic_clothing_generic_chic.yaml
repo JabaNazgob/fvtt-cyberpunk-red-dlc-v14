@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/armor/mimic-clothing-kit.svg
 name: Mimic Clothing (Generic Chic)
@@ -31,6 +31,7 @@ system:
   headLocation:
     ablation: 0
     sp: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -50,8 +51,8 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
-  source:
-    book: BC
-    page: 33
+  sources:
+    - book: BC
+      page: 33
   usage: equipped
 type: armor

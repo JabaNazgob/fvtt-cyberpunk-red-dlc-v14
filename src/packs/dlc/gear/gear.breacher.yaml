@@ -5,8 +5,8 @@ flags:
   core: {}
   cyberpunk-red-core:
     _migration:
-      current: 37
-      previous: "36"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/breacher.svg
 name: Breacher
@@ -27,6 +27,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -39,8 +40,8 @@ system:
     market: 500
   providesHardening: false
   revealed: true
-  source:
-    book: AAA
-    page: 7
+  sources:
+    - book: AAA
+      page: 7
   usage: equipped
 type: gear

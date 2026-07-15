@@ -2,7 +2,10 @@ _id: 6CYGY3LJdRM9vjaI
 _key: "!items!6CYGY3LJdRM9vjaI"
 effects: []
 flags:
-  cprInstallTree: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/vehicles/punknaught_core.svg
 name: Punknaught Core
@@ -30,6 +33,7 @@ system:
         </p>
       </blockquote>
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -42,9 +46,9 @@ system:
     market: 0
   sdp: 60
   seats: 20
-  source:
-    book: DP
-    page: 4
+  sources:
+    - book: DP
+      page: 4
   speedCombat: 15
   speedNarrative: 60 MPH/97 KPH
 type: vehicle

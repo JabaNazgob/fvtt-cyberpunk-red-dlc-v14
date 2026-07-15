@@ -52,6 +52,10 @@ effects:
     type: base
 flags:
   core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
   scene-packer:
     hash: 486043fce142d484977e02e1d874038a9774bc8a
 folder: null
@@ -73,6 +77,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>Transform a Cyberleg into a Cyberarm as an action.</p>
@@ -92,6 +100,7 @@ system:
     static: 3
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: clinic
   installedItems:
     allowed: false
@@ -115,9 +124,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: IRv3
-    page: 108
+  sources:
+    - book: IRv3
+      page: 108
   type: cyberLeg
   unarmedAutomaticCalculation: true
   usage: toggled

@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/cyberscanner_cyberware.svg
 name: Integrated Cyberscanner
@@ -24,6 +24,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -41,6 +45,7 @@ system:
     static: 7
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: clinic
   installedItems:
     allowed: false
@@ -64,9 +69,9 @@ system:
   revealed: true
   rof: 1
   size: 2
-  source:
-    book: 12DoGear
-    page: 2
+  sources:
+    - book: 12DoGear
+      page: 2
   type: cyberArm
   unarmedAutomaticCalculation: true
   usage: toggled

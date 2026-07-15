@@ -46,7 +46,11 @@ effects:
     tint: "#ffffff"
     transfer: true
     type: base
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/roller_derby_skates.svg
 name: Roller Derby Skates
@@ -66,6 +70,7 @@ system:
       <p><em>Increases movement by 4m/yds when running.</em></p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -78,8 +83,8 @@ system:
     market: 50
   providesHardening: false
   revealed: true
-  source:
-    book: CtR
-    page: 9
+  sources:
+    - book: CtR
+      page: 9
   usage: equipped
 type: gear

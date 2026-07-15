@@ -57,6 +57,10 @@ effects:
     type: base
 flags:
   core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
   scene-packer:
     hash: 5b867ff767d1e73ca87f69317d61cf69919e73a7
 folder: null
@@ -78,6 +82,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -94,6 +102,7 @@ system:
     static: 28
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: hospital
   installedItems:
     allowed: true
@@ -118,9 +127,9 @@ system:
   revealed: true
   rof: 1
   size: 0
-  source:
-    book: IRv3
-    page: 108
+  sources:
+    - book: IRv3
+      page: 108
   type: borgware
   unarmedAutomaticCalculation: true
   usage: installed

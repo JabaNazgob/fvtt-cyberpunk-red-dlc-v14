@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: >-
   modules/cyberpunk-red-dlc/icons/black-chrome/gear/mr-biscuit-multi-food-processor.svg
@@ -25,6 +25,7 @@ system:
       <p>Can sustain a group of up to 10 people when in the Outskirts.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -37,8 +38,8 @@ system:
     market: 500
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 49
+  sources:
+    - book: BC
+      page: 49
   usage: toggled
 type: gear

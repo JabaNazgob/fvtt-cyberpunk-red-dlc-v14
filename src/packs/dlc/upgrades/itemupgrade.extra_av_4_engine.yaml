@@ -1,7 +1,11 @@
 _id: g0ywfFzHeILd8KGd
 _key: "!items!g0ywfFzHeILd8KGd"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/punknaught_extra-engine.svg
 name: Extra AV-4 Engine
@@ -19,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -37,6 +45,7 @@ system:
   handsReq: 0
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: true
@@ -119,9 +128,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: DP
-    page: 5
+  sources:
+    - book: DP
+      page: 5
   type: vehicle
   unarmedAutomaticCalculation: true
   usage: toggled

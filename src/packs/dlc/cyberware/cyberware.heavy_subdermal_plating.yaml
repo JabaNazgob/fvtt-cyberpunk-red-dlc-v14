@@ -2,8 +2,11 @@ _id: JZWQbhT7YjmqZIt6
 _key: "!items!JZWQbhT7YjmqZIt6"
 effects: []
 flags:
-  core:
-    sourceId: Compendium.cyberpunk-red-core.core_cyberware.Item.O5GmxTYCrrs8uWAd
+  core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
   scene-packer:
     hash: 57125ab5c54eda891b3a3fd872cbe8473e39f33c
 folder: null
@@ -25,6 +28,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -48,6 +55,7 @@ system:
     static: 14
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: hospital
   installedItems:
     allowed: false
@@ -71,9 +79,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: Going Metal
-    page: 107
+  sources:
+    - book: Going Metal
+      page: 107
   type: borgware
   unarmedAutomaticCalculation: true
   usage: toggled

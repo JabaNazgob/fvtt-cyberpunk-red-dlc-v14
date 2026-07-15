@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/leads_turn_on_show_off_nails.svg
 name: Lead's Turn-On-Show-Off Nails
@@ -24,6 +24,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -42,6 +46,7 @@ system:
     static: 0
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: false
@@ -64,9 +69,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: MHCD
-    page: 3
+  sources:
+    - book: MHCD
+      page: 3
   type: fashionware
   unarmedAutomaticCalculation: true
   usage: toggled

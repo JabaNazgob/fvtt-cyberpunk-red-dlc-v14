@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: icons/equipment/head/helm-norman-leather-studded.webp
 name: Studded Leather Armor (Head)
@@ -29,6 +29,7 @@ system:
   headLocation:
     ablation: 0
     sp: 7
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -47,8 +48,8 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
-  source:
-    book: ELO
-    page: 3
+  sources:
+    - book: ELO
+      page: 3
   usage: equipped
 type: armor

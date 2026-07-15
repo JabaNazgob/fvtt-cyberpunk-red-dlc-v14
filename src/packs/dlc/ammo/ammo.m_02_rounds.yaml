@@ -4,10 +4,10 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_armorpiercing.png
+img: systems/cyberpunk-red-core/icons/compendium/ammo/rifle_armorpiercing.svg
 name: M-02 Rounds
 ownership:
   default: 0
@@ -27,12 +27,18 @@ system:
         Comes in a drum of 80.
       </p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: none
@@ -40,9 +46,9 @@ system:
   price:
     market: 500
   size: 0
-  source:
-    book: WG
-    page: 5
+  sources:
+    - book: WG
+      page: 5
   type: armorPiercing
   variety: custom
 type: ammo

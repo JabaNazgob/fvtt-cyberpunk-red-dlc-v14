@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: c64f882ee4e1cff2d7437ebe4594f8d2e9048d5c
 folder: null
@@ -27,6 +27,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -50,6 +54,7 @@ system:
   handsReq: 1
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -68,9 +73,9 @@ system:
   quality: excellent
   revealed: true
   rof: 1
-  source:
-    book: 12DoC
-    page: 4
+  sources:
+    - book: 12DoC
+      page: 4
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine

@@ -4,10 +4,10 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/black-chrome/ammo/paintball_tracking.png
+img: modules/cyberpunk-red-dlc/icons/black-chrome/ammo/doberman500_markingscent.svg
 name: Doberman 500 Marking Scent
 ownership:
   default: 0
@@ -27,12 +27,18 @@ system:
         marking on target.
       </p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: set
@@ -40,9 +46,9 @@ system:
   price:
     market: 50
   size: 0
-  source:
-    book: BC
-    page: 44
+  sources:
+    - book: BC
+      page: 44
   type: special
   variety: custom
 type: ammo

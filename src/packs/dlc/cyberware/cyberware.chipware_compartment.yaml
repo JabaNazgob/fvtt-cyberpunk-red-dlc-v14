@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/chipware_compartment.svg
 name: Chipware Compartment
@@ -24,6 +24,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>Lets you conceal up to four pieces of chipware, no Check required.</p>
@@ -37,6 +41,7 @@ system:
     static: 3
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: clinic
   installedItems:
     allowed: true
@@ -58,9 +63,9 @@ system:
   revealed: true
   rof: 1
   size: 3
-  source:
-    book: MC
-    page: 1
+  sources:
+    - book: MC
+      page: 1
   type: cyberEye
   unarmedAutomaticCalculation: true
   usage: toggled

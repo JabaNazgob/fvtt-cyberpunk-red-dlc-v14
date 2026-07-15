@@ -2,7 +2,10 @@ _id: aTCQwWjguMnKhegG
 _key: "!items!aTCQwWjguMnKhegG"
 effects: []
 flags:
-  cprInstallTree: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/weapons/fire-extinguisher.svg
 name: Fire Extinguisher
@@ -21,6 +24,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 4d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -39,6 +46,7 @@ system:
   handsReq: 2
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -57,9 +65,9 @@ system:
   quality: standard
   revealed: true
   rof: 1
-  source:
-    book: Hope Reborn
-    page: 34
+  sources:
+    - book: Hope Reborn
+      page: 34
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine

@@ -48,6 +48,10 @@ effects:
     type: base
 flags:
   core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
   scene-packer:
     hash: cb1cce27d7b2f6ba4eb651b1808108c620eaf7dc
 folder: null
@@ -72,6 +76,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -84,8 +89,8 @@ system:
     market: 10000
   providesHardening: false
   revealed: true
-  source:
-    book: Core
-    page: 351
+  sources:
+    - book: Core
+      page: 351
   usage: equipped
 type: gear

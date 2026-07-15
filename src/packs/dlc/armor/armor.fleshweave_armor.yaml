@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/armor/sycust_fleshweave.svg
 name: FleshWeave (Armor)
@@ -29,6 +29,7 @@ system:
   headLocation:
     ablation: 0
     sp: 7
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -48,8 +49,8 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
-  source:
-    book: 12DoC
-    page: 5
+  sources:
+    - book: 12DoC
+      page: 5
   usage: toggled
 type: armor

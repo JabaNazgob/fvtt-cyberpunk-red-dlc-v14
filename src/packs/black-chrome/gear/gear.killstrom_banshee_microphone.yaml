@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!seglg544pSg95OjB.nmfV8HiXPcYsChjv"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -50,8 +50,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: >-
   modules/cyberpunk-red-dlc/icons/black-chrome/gear/killstrom-banshee-microphone.svg
@@ -75,6 +75,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -87,8 +88,8 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 40
+  sources:
+    - book: BC
+      page: 40
   usage: equipped
 type: gear

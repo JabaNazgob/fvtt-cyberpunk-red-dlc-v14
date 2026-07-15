@@ -49,8 +49,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/dpi_smartsticks.svg
 name: Smartsticks
@@ -72,6 +72,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -84,8 +85,8 @@ system:
     market: 500
   providesHardening: false
   revealed: true
-  source:
-    book: 12DoGear
-    page: 2
+  sources:
+    - book: 12DoGear
+      page: 2
   usage: equipped
 type: gear

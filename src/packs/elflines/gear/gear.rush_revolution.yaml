@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/gear/braindance_viewer.svg
 name: Rush Revolution
@@ -24,6 +24,7 @@ system:
       <p>Braindance Headset. Required to play Elflines Online.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -35,8 +36,8 @@ system:
     market: 500
   providesHardening: false
   revealed: true
-  source:
-    book: ELO
-    page: 5
+  sources:
+    - book: ELO
+      page: 5
   usage: toggled
 type: gear

@@ -5,13 +5,8 @@ flags:
   core: {}
   cyberpunk-red-core:
     _migration:
-      current: 37
-      previous: "33"
-  exportSource:
-    coreVersion: "12.343"
-    system: cyberpunk-red-core
-    systemVersion: v0.92.2
-    world: hope-reborn
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/virtual-barbecue.svg
 name: Virtual Barbeque
@@ -31,6 +26,7 @@ system:
       <blockquote><p>Fun for up to 6 players.</p></blockquote>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -43,8 +39,8 @@ system:
     market: 500
   providesHardening: false
   revealed: true
-  source:
-    book: CC&SA
-    page: 8
+  sources:
+    - book: CC&SA
+      page: 8
   usage: toggled
 type: gear

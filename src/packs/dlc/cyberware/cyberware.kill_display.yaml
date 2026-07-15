@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!jSq3PCutxWhieWDS.1fWLaLfOgxS4KuFZ"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -49,8 +49,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/kill_display.svg
 name: Kill Display
@@ -69,6 +69,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -87,6 +91,7 @@ system:
     static: 0
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: false
@@ -109,9 +114,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: MHCD
-    page: 3
+  sources:
+    - book: MHCD
+      page: 3
   type: fashionware
   unarmedAutomaticCalculation: true
   usage: toggled

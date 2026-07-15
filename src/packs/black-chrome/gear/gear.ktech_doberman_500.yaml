@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/ktech-doberman-500.svg
 name: KTech Doberman 500
@@ -24,6 +24,7 @@ system:
       <p>Canine Personal Drone that can be linked to an Agent.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -36,8 +37,8 @@ system:
     market: 5000
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 45
+  sources:
+    - book: BC
+      page: 45
   usage: toggled
 type: gear

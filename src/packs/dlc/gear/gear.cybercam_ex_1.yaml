@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: >-
   modules/cyberpunk-red-dlc/icons/dlc/gear/raven_microcybernetics_cybercam_ex-1.svg
@@ -29,6 +29,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -41,8 +42,8 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
-  source:
-    book: 12DoGear
-    page: 2
+  sources:
+    - book: 12DoGear
+      page: 2
   usage: toggled
 type: gear

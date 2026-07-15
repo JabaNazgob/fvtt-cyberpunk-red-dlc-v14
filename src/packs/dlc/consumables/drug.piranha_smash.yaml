@@ -175,8 +175,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/drugs/piranha-smash.svg
 name: Piranha Smash
@@ -227,11 +227,12 @@ system:
       </ul>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   price:
     market: 10
   revealed: true
-  source:
-    book: BC+
-    page: 4
+  sources:
+    - book: BC+
+      page: 4
   usage: snorted
 type: drug

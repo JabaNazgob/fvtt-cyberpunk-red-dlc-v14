@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: icons/weapons/daggers/dagger-straight-blue.webp
 name: Dagger
@@ -23,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>A knife fit for a hunter.</p>
@@ -35,6 +39,7 @@ system:
   handsReq: 1
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -51,9 +56,9 @@ system:
   quality: standard
   revealed: true
   rof: 2
-  source:
-    book: ELO
-    page: 3
+  sources:
+    - book: ELO
+      page: 3
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

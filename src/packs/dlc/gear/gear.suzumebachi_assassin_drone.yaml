@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/suzumebachi_assassin_drone.svg
 name: Suzumebachi Assassin Drone
@@ -50,6 +50,7 @@ system:
       </ul>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -62,8 +63,8 @@ system:
     market: 5000
   providesHardening: false
   revealed: true
-  source:
-    book: HP
-    page: 5
+  sources:
+    - book: HP
+      page: 5
   usage: toggled
 type: gear

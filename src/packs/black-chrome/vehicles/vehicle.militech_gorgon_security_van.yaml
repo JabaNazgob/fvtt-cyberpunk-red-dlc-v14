@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/vehicles/gorgon-security-van.svg
 name: Militech Gorgon Security Van
@@ -22,6 +22,7 @@ system:
     value: |
       <p>A monster of an armored van.</p>
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -33,9 +34,9 @@ system:
     market: 37000
   sdp: 50
   seats: 6
-  source:
-    book: BC
-    page: 73
+  sources:
+    - book: BC
+      page: 73
   speedCombat: 20
   speedNarrative: 100 MPH / 161KPH
 type: vehicle

@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/vehicles/zonda-sliver.svg
 name: Zonda Sliver
@@ -22,6 +22,7 @@ system:
     value: |
       <p>A Roadbike with all the gadgets you'd ever need.</p>
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -33,9 +34,9 @@ system:
     market: 27000
   sdp: 35
   seats: 2
-  source:
-    book: BC
-    page: 84
+  sources:
+    - book: BC
+      page: 84
   speedCombat: 20
   speedNarrative: 100 MPH / 161 KPH
 type: vehicle

@@ -4,10 +4,10 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/ammo/pistolheavy_small.png
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/pistolheavy_small.svg
 name: Heavy Pistol (Small Game)
 ownership:
   default: 0
@@ -24,12 +24,18 @@ system:
     value: |
       <p>Small game ammo; not great for people. Deals 2d6 less damage.</p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: modify
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: modify
@@ -37,9 +43,9 @@ system:
   price:
     market: 10
   size: 0
-  source:
-    book: BC+
-    page: 3
+  sources:
+    - book: BC+
+      page: 3
   type: special
   variety: heavyPistol
 type: ammo

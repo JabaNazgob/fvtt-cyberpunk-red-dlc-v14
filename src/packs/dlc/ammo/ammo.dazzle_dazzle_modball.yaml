@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: 30716c0675621c30e3f3f12fc5fba8f4cec8b9dc
 folder: null
@@ -30,12 +30,18 @@ system:
         Can ignite flamable surfaces.
       </p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: none
@@ -43,9 +49,9 @@ system:
   price:
     market: 10
   size: 0
-  source:
-    book: 12DoC
-    page: 5
+  sources:
+    - book: 12DoC
+      page: 5
   type: flashbang
   variety: paintball
 type: ammo

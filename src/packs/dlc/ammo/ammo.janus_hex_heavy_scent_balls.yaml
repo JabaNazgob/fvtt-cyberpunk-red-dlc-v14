@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: 5bdaed87bff14d2ea060129efd4e69b22f3c4c55
 folder: null
@@ -29,12 +29,18 @@ system:
         <p>Requires Maker Rank 6 or higher to Fabricate or Modify.</p>
       </blockquote>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: set
@@ -42,9 +48,9 @@ system:
   price:
     market: 20
   size: 0
-  source:
-    book: 12DoC
-    page: 4
+  sources:
+    - book: 12DoC
+      page: 4
   type: teargas
   variety: paintball
 type: ammo

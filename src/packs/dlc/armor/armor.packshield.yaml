@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/armor/skidrow_packshield.svg
 name: PackShield
@@ -40,6 +40,7 @@ system:
   headLocation:
     ablation: 0
     sp: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -59,8 +60,8 @@ system:
   shieldHitPoints:
     max: 10
     value: 10
-  source:
-    book: 12DoGear
-    page: 4
+  sources:
+    - book: 12DoGear
+      page: 4
   usage: toggled
 type: armor

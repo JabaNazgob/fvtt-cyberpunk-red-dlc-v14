@@ -50,7 +50,11 @@ effects:
     tint: "#ffffff"
     transfer: true
     type: base
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/electric_guitar.svg
 name: Power Chord
@@ -90,6 +94,7 @@ system:
       </ul>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -102,8 +107,8 @@ system:
     market: 2500
   providesHardening: false
   revealed: true
-  source:
-    book: Hope Reborn+
-    page: 23
+  sources:
+    - book: Hope Reborn+
+      page: 23
   usage: toggled
 type: gear

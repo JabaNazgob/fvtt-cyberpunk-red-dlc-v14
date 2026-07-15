@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/the-observer.svg
 name: The Observer
@@ -24,6 +24,7 @@ system:
       <p>Personal Drone. Flying camera that can be linked to an Agent.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -36,8 +37,8 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
-  source:
-    book: IRv1
-    page: 62
+  sources:
+    - book: IRv1
+      page: 62
   usage: toggled
 type: gear

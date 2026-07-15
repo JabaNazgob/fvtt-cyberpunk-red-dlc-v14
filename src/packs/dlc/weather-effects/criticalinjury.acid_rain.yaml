@@ -1,22 +1,14 @@
 _id: yd5RKbg33WnbwKAE
 _key: "!items!yd5RKbg33WnbwKAE"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777080059599
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777080116251
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: fthWQl4jqKuvqGEa
     _key: "!items.effects!yd5RKbg33WnbwKAE.fthWQl4jqKuvqGEa"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -70,8 +62,8 @@ flags:
   core: {}
   cyberpunk-red-core:
     _migration:
-      current: 37
-      previous: "36"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_acid-rain.svg
 name: Acid Rain
@@ -83,20 +75,25 @@ sort: 0
 system:
   deathSaveIncrease: false
   description:
-    value: >-
-      <p><span role="presentation">The weather may impose a <strong>-1
-      penalty</strong> to any Skill Checks as determined by the
-      GM.</span></p><p>Ablates worn armor by 1.</p>
+    value: |
+      <p>
+        <span role="presentation"
+          >The weather may impose a <strong>-1 penalty</strong> to any Skill Checks as
+          determined by the GM.</span
+        >
+      </p>
+      <p>Ablates worn armor by 1.</p>
   favorite: false
+  ignoredByBrowser: false
   location: body
   quickFix:
     dvFirstAid: 0
     dvParamedic: 0
     type: notApplicable
   revealed: true
-  source:
-    book: NCW
-    page: 4
+  sources:
+    - book: NCW
+      page: 4
   treatment:
     dvParamedic: 0
     dvSurgery: 0

@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/default/cyberdeck.svg
 name: Parraline 6000
@@ -24,6 +24,7 @@ system:
       <p>3 Program slots, 6 Hardware slots.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: true
@@ -39,7 +40,7 @@ system:
   providesHardening: false
   quality: standard
   size: 1
-  source:
-    book: MwtU
-    page: 4
+  sources:
+    - book: MwtU
+      page: 4
 type: cyberdeck

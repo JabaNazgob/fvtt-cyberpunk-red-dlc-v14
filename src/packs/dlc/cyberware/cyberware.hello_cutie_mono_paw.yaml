@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: 3a88609d8e79f0149801a7b303450f32c9a96f5f
 folder: null
@@ -26,6 +26,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -43,6 +47,7 @@ system:
     static: 7
   ignoreArmorPercent: 50
   ignoreBelowSP: 11
+  ignoredByBrowser: false
   installLocation: hospital
   installedItems:
     allowed: false
@@ -64,9 +69,9 @@ system:
   revealed: true
   rof: 1
   size: 0
-  source:
-    book: 12DoC
-    page: 6
+  sources:
+    - book: 12DoC
+      page: 6
   type: cyberArm
   unarmedAutomaticCalculation: true
   usage: toggled

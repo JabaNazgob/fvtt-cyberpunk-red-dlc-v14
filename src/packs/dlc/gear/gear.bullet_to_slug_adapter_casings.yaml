@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/bullet-to-slug-adapter-casings.svg
 name: Bullet To Slug Adapter Casings
@@ -29,6 +29,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -41,8 +42,8 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  source:
-    book: BC+
-    page: 3
+  sources:
+    - book: BC+
+      page: 3
   usage: toggled
 type: gear

@@ -2,8 +2,11 @@ _id: 9M5ejkYuKFozoro7
 _key: "!items!9M5ejkYuKFozoro7"
 effects: []
 flags:
-  core:
-    sourceId: Compendium.cyberpunk-red-core.core_cyberware.Item.aEG91CA3amfU0Q8U
+  core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
   scene-packer:
     hash: cc664b9af47a0aa06fcd7e8940d9266da7bb3b37
 folder: null
@@ -25,6 +28,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -43,6 +50,7 @@ system:
     static: 3
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: clinic
   installedItems:
     allowed: false
@@ -66,9 +74,9 @@ system:
   revealed: true
   rof: 1
   size: 2
-  source:
-    book: IRv3
-    page: 108
+  sources:
+    - book: IRv3
+      page: 108
   type: cyberLeg
   unarmedAutomaticCalculation: true
   usage: toggled

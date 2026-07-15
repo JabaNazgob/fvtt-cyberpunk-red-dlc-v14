@@ -1,7 +1,11 @@
 _id: bktOKB09aEQNj9cP
 _key: "!items!bktOKB09aEQNj9cP"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/fuel-tank.svg
 name: Fuel Tank
@@ -20,6 +24,7 @@ system:
       <p>A generic fuel tank that can be used to track your supply of fuel.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -32,8 +37,8 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  source:
-    book: IRv3
-    page: 108
+  sources:
+    - book: IRv3
+      page: 108
   usage: toggled
 type: gear

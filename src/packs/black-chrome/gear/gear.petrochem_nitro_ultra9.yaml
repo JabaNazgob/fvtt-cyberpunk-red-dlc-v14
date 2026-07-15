@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/nitro-ultra9.svg
 name: Petrochem Nitro Ultra9
@@ -27,6 +27,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -39,8 +40,8 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 49
+  sources:
+    - book: BC
+      page: 49
   usage: toggled
 type: gear

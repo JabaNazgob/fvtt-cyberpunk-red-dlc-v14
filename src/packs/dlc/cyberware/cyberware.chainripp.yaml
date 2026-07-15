@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/Chainsaw_excellent.svg
 name: ChainRipp
@@ -24,6 +24,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 4d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -50,6 +54,7 @@ system:
     static: 14
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: hospital
   installedItems:
     allowed: true
@@ -72,9 +77,9 @@ system:
   revealed: true
   rof: 1
   size: 4
-  source:
-    book: 12DoC
-    page: 3
+  sources:
+    - book: 12DoC
+      page: 3
   type: cyberArm
   unarmedAutomaticCalculation: true
   usage: toggled

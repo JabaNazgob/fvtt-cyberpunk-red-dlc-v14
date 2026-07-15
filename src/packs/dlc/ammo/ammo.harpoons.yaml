@@ -1,7 +1,11 @@
 _id: HqaKGQpp5VMV5UNU
 _key: "!items!HqaKGQpp5VMV5UNU"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/default/Default_Ammo.svg
 name: Harpoons
@@ -22,12 +26,18 @@ system:
         Additional harpoons for use with the SlamDance Ballistic Harpoon Launcher.
       </p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: none
@@ -35,9 +45,9 @@ system:
   price:
     market: 1000
   size: 0
-  source:
-    book: WCG
-    page: 5
+  sources:
+    - book: WCG
+      page: 5
   type: special
   variety: custom
 type: ammo

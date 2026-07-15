@@ -2,8 +2,11 @@ _id: kEMGWjMaYcA4rGyJ
 _key: "!items!kEMGWjMaYcA4rGyJ"
 effects: []
 flags:
-  core:
-    sourceId: Compendium.cyberpunk-red-core.core_armor.Item.M96Dfx18YqvhlIgb
+  core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
   scene-packer:
     hash: fa0c28167fc7f58a6636bfc4ec4515e3573924af
 folder: null
@@ -33,6 +36,7 @@ system:
   headLocation:
     ablation: 0
     sp: 13
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -52,8 +56,8 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
-  source:
-    book: Going Metal
-    page: 107
+  sources:
+    - book: Going Metal
+      page: 107
   usage: equipped
 type: armor

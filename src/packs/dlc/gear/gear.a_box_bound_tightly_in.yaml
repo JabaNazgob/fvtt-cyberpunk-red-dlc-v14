@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 37
-      previous: "36"
+      current: 44
+      previous: "38"
 folder: null
 img: icons/containers/boxes/box-gift-blue.webp
 name: A Box Bound Tightly In Rope
@@ -28,6 +28,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -40,8 +41,6 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  source:
-    book: ""
-    page: 0
+  sources: []
   usage: toggled
 type: gear

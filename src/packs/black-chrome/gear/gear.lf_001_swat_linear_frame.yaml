@@ -50,8 +50,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/default/default-linearframe.svg
 name: LF-001 SWAT Linear Frame
@@ -76,6 +76,7 @@ system:
       </ul>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -88,8 +89,8 @@ system:
     market: 5000
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 53
+  sources:
+    - book: BC
+      page: 53
   usage: equipped
 type: gear

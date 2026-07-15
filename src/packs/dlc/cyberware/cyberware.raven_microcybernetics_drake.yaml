@@ -5,9 +5,10 @@ effects:
     _key: "!items.effects!zp6p7eFxvCE0GzVL.B7AClIITge5cYBso"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -48,8 +49,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 33
-      previous: "24"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/raven_microcybernetics_drake.svg
 name: Raven Microcybernetics Drake
@@ -68,6 +69,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>Built in agent. Audio only but can be linked with other cybergear.</p>
@@ -87,6 +92,7 @@ system:
     static: 3
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: false
@@ -109,9 +115,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: AAA
-    page: 9
+  sources:
+    - book: AAA
+      page: 9
   type: cyberAudioSuite
   unarmedAutomaticCalculation: true
   usage: installed

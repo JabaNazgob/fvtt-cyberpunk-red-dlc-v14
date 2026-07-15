@@ -46,7 +46,11 @@ effects:
     tint: "#ffffff"
     transfer: true
     type: base
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/superchrome-faceplate.svg
 name: Superchrome® Faceplate
@@ -65,6 +69,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>A personalized faceplate made of Superchrome® alloys.</p>
@@ -78,6 +86,7 @@ system:
     static: 0
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: false
@@ -101,9 +110,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: IRv3
-    page: 105
+  sources:
+    - book: IRv3
+      page: 105
   type: cyberwareInternal
   unarmedAutomaticCalculation: true
   usage: installed

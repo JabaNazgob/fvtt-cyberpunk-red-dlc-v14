@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!YM2dXOMEhmYn3LKy.cBI5wVXww67hC4qx"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -49,8 +49,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/cyberchair.svg
 name: Spider Cyberchair
@@ -89,6 +89,7 @@ system:
       <p><em>*Installing cyberlimb options currently not supported</em></p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -102,8 +103,8 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
-  source:
-    book: CC
-    page: 2
+  sources:
+    - book: CC
+      page: 2
   usage: equipped
 type: gear

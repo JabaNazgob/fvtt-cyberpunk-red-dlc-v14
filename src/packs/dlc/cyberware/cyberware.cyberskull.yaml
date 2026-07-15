@@ -2,7 +2,10 @@ _id: KLdu0wuFwC95vtss
 _key: "!items!KLdu0wuFwC95vtss"
 effects: []
 flags:
-  cprInstallTree: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
   scene-packer:
     hash: 24b1e428373ab648c629f0506102b045b9a37a41
 folder: null
@@ -24,6 +27,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -41,6 +48,7 @@ system:
     static: 14
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: hospital
   installedItems:
     allowed: true
@@ -66,9 +74,9 @@ system:
   revealed: true
   rof: 1
   size: 3
-  source:
-    book: IRv3
-    page: 105
+  sources:
+    - book: IRv3
+      page: 105
   type: cyberwareInternal
   unarmedAutomaticCalculation: true
   usage: toggled

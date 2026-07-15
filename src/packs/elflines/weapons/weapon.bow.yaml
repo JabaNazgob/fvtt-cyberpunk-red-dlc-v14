@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: icons/weapons/bows/shortbow-recurve-red.webp
 name: Bow
@@ -24,6 +24,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 4d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>A revitalized bow, reloaded as part of an Attack Action.</p>
@@ -36,6 +40,7 @@ system:
   handsReq: 2
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -53,9 +58,9 @@ system:
   quality: standard
   revealed: true
   rof: 1
-  source:
-    book: ELO
-    page: 3
+  sources:
+    - book: ELO
+      page: 3
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/telectronics_minimag_speakers.svg
 name: MiniMag Speakers
@@ -27,6 +27,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -39,8 +40,8 @@ system:
     market: 50
   providesHardening: false
   revealed: true
-  source:
-    book: 12DoGear
-    page: 4
+  sources:
+    - book: 12DoGear
+      page: 4
   usage: toggled
 type: gear

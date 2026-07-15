@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/drugs/sedative.svg
 name: Sedative
@@ -34,11 +34,12 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   price:
     market: 0
   revealed: true
-  source:
-    book: HP
-    page: 4
+  sources:
+    - book: HP
+      page: 4
   usage: toggled
 type: drug

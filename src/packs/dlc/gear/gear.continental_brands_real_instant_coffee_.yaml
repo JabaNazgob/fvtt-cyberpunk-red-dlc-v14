@@ -5,13 +5,8 @@ flags:
   core: {}
   cyberpunk-red-core:
     _migration:
-      current: 37
-      previous: "33"
-  exportSource:
-    coreVersion: "12.343"
-    system: cyberpunk-red-core
-    systemVersion: v0.92.2
-    world: hope-reborn
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/real-instant-coffee.svg
 name: Continental Brands Real Instant Coffee™
@@ -30,6 +25,7 @@ system:
       <p>Now made from real coffee beans! Makes 24 cups.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -42,8 +38,8 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  source:
-    book: CC&SA
-    page: 7
+  sources:
+    - book: CC&SA
+      page: 7
   usage: toggled
 type: gear

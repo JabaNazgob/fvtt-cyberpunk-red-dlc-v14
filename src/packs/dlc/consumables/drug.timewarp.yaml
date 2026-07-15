@@ -139,8 +139,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/drugs/timewarp.svg
 name: Timewarp
@@ -176,11 +176,12 @@ system:
       </ul>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   price:
     market: 100
   revealed: true
-  source:
-    book: HP
-    page: 3
+  sources:
+    - book: HP
+      page: 3
   usage: snorted
 type: drug

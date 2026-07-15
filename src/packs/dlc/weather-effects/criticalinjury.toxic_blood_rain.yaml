@@ -1,22 +1,14 @@
 _id: SKqisyIQrtc6AOd1
 _key: "!items!SKqisyIQrtc6AOd1"
-_stats:
-  compendiumSource: null
-  coreVersion: "12.343"
-  createdTime: 1777080325164
-  duplicateSource: null
-  lastModifiedBy: GhPkzdD89HrVDo6W
-  modifiedTime: 1777080325164
-  systemId: cyberpunk-red-core
-  systemVersion: v0.0.0dev
 effects:
   - _id: fthWQl4jqKuvqGEa
     _key: "!items.effects!SKqisyIQrtc6AOd1.fthWQl4jqKuvqGEa"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -70,8 +62,8 @@ flags:
   core: {}
   cyberpunk-red-core:
     _migration:
-      current: 37
-      previous: "36"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_acid-rain.svg
 name: Toxic Blood Rain
@@ -83,23 +75,29 @@ sort: 0
 system:
   deathSaveIncrease: false
   description:
-    value: >-
-      <p><span role="presentation">The weather may impose a <strong>-1
-      penalty</strong> to any Skill Checks as determined by the
-      GM.</span></p><p>Toxic Blood Rain deals [[/r 3d6#Toxic Blood Rain]] damage
-      as if it were a
-      @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Vial
-      of Biotoxin}</p>
+    value: |
+      <p>
+        <span role="presentation"
+          >The weather may impose a <strong>-1 penalty</strong> to any Skill Checks as
+          determined by the GM.</span
+        >
+      </p>
+      <p>
+        Toxic Blood Rain deals [[/r 3d6#Toxic Blood Rain]] damage as if it were a
+        @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Vial of
+        Biotoxin}
+      </p>
   favorite: false
+  ignoredByBrowser: false
   location: body
   quickFix:
     dvFirstAid: 0
     dvParamedic: 0
     type: notApplicable
   revealed: true
-  source:
-    book: NCW
-    page: 4
+  sources:
+    - book: NCW
+      page: 4
   treatment:
     dvParamedic: 0
     dvSurgery: 0

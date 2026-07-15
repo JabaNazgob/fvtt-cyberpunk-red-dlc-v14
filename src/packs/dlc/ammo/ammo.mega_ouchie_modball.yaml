@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: 42eaea5574cd98838b75c5052b89df02e1e6b584
 folder: null
@@ -30,12 +30,18 @@ system:
         Ammunition
       </p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: none
@@ -43,9 +49,9 @@ system:
   price:
     market: 20
   size: 0
-  source:
-    book: 12DoC
-    page: 5
+  sources:
+    - book: 12DoC
+      page: 5
   type: biotoxin
   variety: paintball
 type: ammo

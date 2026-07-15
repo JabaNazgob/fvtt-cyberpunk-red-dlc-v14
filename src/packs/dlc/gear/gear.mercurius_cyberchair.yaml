@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!XbKkA6CrI42pvdcz.G7BqXlan9qseMytK"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -49,8 +49,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/cyberchair.svg
 name: Mercurius Cyberchair
@@ -84,6 +84,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -95,8 +96,8 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  source:
-    book: CC
-    page: 2
+  sources:
+    - book: CC
+      page: 2
   usage: equipped
 type: gear

@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: d4f822e3a59e08c7dfbd5098fc549cedc043d687
 folder: null
@@ -79,6 +79,7 @@ system:
       </table>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -91,8 +92,8 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  source:
-    book: 12DoC
-    page: 5
+  sources:
+    - book: 12DoC
+      page: 5
   usage: toggled
 type: gear

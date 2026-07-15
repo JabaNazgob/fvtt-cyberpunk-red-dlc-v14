@@ -2,7 +2,10 @@ _id: UnVRX1UNOtUtN5xz
 _key: "!items!UnVRX1UNOtUtN5xz"
 effects: []
 flags:
-  cprInstallTree: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/weapons/ballistic-harpoon.svg
 name: Ballistic Harpoon
@@ -21,6 +24,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 4d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -36,6 +43,7 @@ system:
   handsReq: 2
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -54,9 +62,9 @@ system:
   quality: standard
   revealed: true
   rof: 1
-  source:
-    book: WCG
-    page: 5
+  sources:
+    - book: WCG
+      page: 5
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine

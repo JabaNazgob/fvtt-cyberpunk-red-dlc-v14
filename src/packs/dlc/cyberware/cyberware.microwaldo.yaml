@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!dd2lvP5sNl3Qp7Qr.BqEOeo2lOAM4tOGG"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -50,8 +50,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: >-
   modules/cyberpunk-red-dlc/icons/dlc/cyberware/raven_microcybernetics_microwaldo.svg
@@ -71,6 +71,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -88,6 +92,7 @@ system:
     static: 7
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: clinic
   installedItems:
     allowed: false
@@ -110,9 +115,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: 12DoC
-    page: 5
+  sources:
+    - book: 12DoC
+      page: 5
   type: cyberArm
   unarmedAutomaticCalculation: true
   usage: installed

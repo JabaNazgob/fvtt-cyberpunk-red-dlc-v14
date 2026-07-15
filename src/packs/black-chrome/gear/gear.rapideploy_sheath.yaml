@@ -5,7 +5,7 @@ effects:
     _key: "!items.effects!G7KBZHlRtEBGD6JY.g80WDTq4XGjrJgJc"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
       exportSource: null
@@ -49,8 +49,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/rapideploy-sheath.svg
 name: RapiDeploy Sheath
@@ -72,6 +72,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -84,8 +85,8 @@ system:
     market: 500
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 47
+  sources:
+    - book: BC
+      page: 47
   usage: equipped
 type: gear

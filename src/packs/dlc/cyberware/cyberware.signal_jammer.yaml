@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/signal_jammer.svg
 name: Signal Jammer
@@ -24,6 +24,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -40,6 +44,7 @@ system:
     static: 3
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: clinic
   installedItems:
     allowed: false
@@ -63,9 +68,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: MD-CL
-    page: 16
+  sources:
+    - book: MD-CL
+      page: 16
   type: cyberAudioSuite
   unarmedAutomaticCalculation: true
   usage: toggled

@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/vehicles/zonda-parallax.svg
 name: Zonda Parallax Cybercycle
@@ -22,6 +22,7 @@ system:
     value: |
       <p>Top of the line Superbike.</p>
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -33,9 +34,9 @@ system:
     market: 110000
   sdp: 35
   seats: 2
-  source:
-    book: BC
-    page: 83
+  sources:
+    - book: BC
+      page: 83
   speedCombat: 60
   speedNarrative: 300 MPH / 483 KPH
 type: vehicle

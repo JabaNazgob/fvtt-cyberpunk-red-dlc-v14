@@ -50,8 +50,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/default/default-linearframe.svg
 name: Vermilion Linear Frame
@@ -77,6 +77,7 @@ system:
       </ul>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -90,8 +91,8 @@ system:
     market: 5000
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 54
+  sources:
+    - book: BC
+      page: 54
   usage: equipped
 type: gear

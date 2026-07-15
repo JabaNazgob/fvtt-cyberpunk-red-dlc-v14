@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/weapons/door-cracker.svg
 name: GunMart Door Cracker
@@ -23,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 6d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>Cheap explosive item, small area of effect.</p>
@@ -35,6 +39,7 @@ system:
   handsReq: 2
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -53,9 +58,9 @@ system:
   quality: standard
   revealed: true
   rof: 1
-  source:
-    book: BC
-    page: 87
+  sources:
+    - book: BC
+      page: 87
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine

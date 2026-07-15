@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/streetcase.svg
 name: Streetcase by SecSystems
@@ -24,6 +24,7 @@ system:
       <p>Can carry many easily accessible items that YOU need to stay safe.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -36,8 +37,8 @@ system:
     market: 500
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 47
+  sources:
+    - book: BC
+      page: 47
   usage: toggled
 type: gear

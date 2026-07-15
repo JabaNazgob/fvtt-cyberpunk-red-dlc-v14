@@ -5,9 +5,10 @@ effects:
     _key: "!items.effects!AhY3WXzNpgPM68Gr.KIwP9dgcEulXtsDZ"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -53,9 +54,10 @@ effects:
     _key: "!items.effects!AhY3WXzNpgPM68Gr.ucknxUHZvClKjAnO"
     _stats:
       compendiumSource: null
-      coreVersion: "12.343"
+      coreVersion: "13.351"
       createdTime: null
       duplicateSource: null
+      exportSource: null
       lastModifiedBy: null
       modifiedTime: null
       systemId: cyberpunk-red-core
@@ -100,8 +102,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: 601eace006728321cb2e12cd47eee6db7d5c1ef0
 folder: null
@@ -128,6 +130,7 @@ system:
       </blockquote>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -139,8 +142,8 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
-  source:
-    book: 12DoC
-    page: 7
+  sources:
+    - book: 12DoC
+      page: 7
   usage: equipped
 type: gear

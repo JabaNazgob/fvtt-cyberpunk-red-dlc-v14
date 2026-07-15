@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/firebreather.svg
 name: Firebreather
@@ -25,6 +25,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 3d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: >
       <p>Implanted Exotic Shotgun. Can only hold one incendiary shotgun
@@ -39,6 +43,7 @@ system:
     static: 14
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: hospital
   installedItems:
     allowed: true
@@ -62,9 +67,9 @@ system:
   revealed: true
   rof: 1
   size: 2
-  source:
-    book: IRv2
-    page: 73
+  sources:
+    - book: IRv2
+      page: 73
   type: cyberwareInternal
   unarmedAutomaticCalculation: true
   usage: toggled

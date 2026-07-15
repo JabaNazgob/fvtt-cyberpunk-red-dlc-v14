@@ -5,8 +5,8 @@ flags:
   core: {}
   cyberpunk-red-core:
     _migration:
-      current: 37
-      previous: "36"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/desirous-decoration.svg
 name: Desirous Decoration Furniture Set
@@ -29,6 +29,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -41,8 +42,8 @@ system:
     market: 5000
   providesHardening: false
   revealed: true
-  source:
-    book: CC&SA
-    page: 7
+  sources:
+    - book: CC&SA
+      page: 7
   usage: toggled
 type: gear

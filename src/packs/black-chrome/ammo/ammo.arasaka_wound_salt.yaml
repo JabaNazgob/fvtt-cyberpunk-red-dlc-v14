@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/ammo/arasaka-wound-salt.svg
 name: Arasaka Wound Salt
@@ -27,12 +27,18 @@ system:
         No additional damage.
       </p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: none
@@ -40,9 +46,9 @@ system:
   price:
     market: 100
   size: 0
-  source:
-    book: BC
-    page: 91
+  sources:
+    - book: BC
+      page: 91
   type: basic
   variety: heavyPistol
 type: ammo

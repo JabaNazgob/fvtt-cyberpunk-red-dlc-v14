@@ -1,7 +1,11 @@
 _id: GRUwfsU6PInZNjUQ
 _key: "!items!GRUwfsU6PInZNjUQ"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/cuddlefish-everyday.svg
 name: Cuddlefish Outfit (Default)
@@ -19,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -31,6 +39,7 @@ system:
   handsReq: 0
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: false
@@ -109,9 +118,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: 12DoC
-    page: 3
+  sources:
+    - book: 12DoC
+      page: 3
   type: weapon
   unarmedAutomaticCalculation: true
   usage: toggled

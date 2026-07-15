@@ -4,10 +4,10 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/black-chrome/ammo/capsule_tied.png
+img: modules/cyberpunk-red-dlc/icons/black-chrome/ammo/cannister_net.svg
 name: Net
 ownership:
   default: 0
@@ -30,12 +30,18 @@ system:
         also be destroyed.
       </p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: set
@@ -43,9 +49,9 @@ system:
   price:
     market: 50
   size: 0
-  source:
-    book: BC
-    page: 20
+  sources:
+    - book: BC
+      page: 20
   type: special
   variety: custom
 type: ammo

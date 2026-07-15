@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/jeeves-garment-bag.svg
 name: Jeeves Executive Garment Bag
@@ -24,6 +24,7 @@ system:
       <p>Bag that can repair one piece of fashion or armor at a time.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -36,8 +37,8 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 43
+  sources:
+    - book: BC
+      page: 43
   usage: toggled
 type: gear

@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/vehicles/volkhov.svg
 name: Kaukaz Volkhov
@@ -25,6 +25,7 @@ system:
         bottle of vodka.
       </p>
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -36,9 +37,9 @@ system:
     market: 41000
   sdp: 55
   seats: 4
-  source:
-    book: BC
-    page: 71
+  sources:
+    - book: BC
+      page: 71
   speedCombat: 20
   speedNarrative: 100 MPH / 161 KPH
 type: vehicle

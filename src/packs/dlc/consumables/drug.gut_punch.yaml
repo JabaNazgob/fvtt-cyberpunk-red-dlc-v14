@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: OXuMYH1jqRNmGurK
 img: systems/cyberpunk-red-core/icons/compendium/default/default_drink.svg
 name: Gut Punch
@@ -25,11 +25,12 @@ system:
       <p>One of a number of drinks the Drink Master 5000 can mix.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   price:
     market: 5
   revealed: true
-  source:
-    book: MD-CL
-    page: 17
+  sources:
+    - book: MD-CL
+      page: 17
   usage: toggled
 type: drug

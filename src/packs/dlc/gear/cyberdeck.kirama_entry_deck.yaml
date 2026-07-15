@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/default/cyberdeck.svg
 name: Kirama Entry Deck
@@ -33,6 +33,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: true
@@ -48,7 +49,7 @@ system:
   providesHardening: false
   quality: standard
   size: 1
-  source:
-    book: MwtU
-    page: 3
+  sources:
+    - book: MwtU
+      page: 3
 type: cyberdeck

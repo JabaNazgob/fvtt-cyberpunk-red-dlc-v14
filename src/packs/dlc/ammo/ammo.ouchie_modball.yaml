@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
   scene-packer:
     hash: 6def667cec8c8eea18f750fbb4511c639d5420a7
 folder: null
@@ -26,16 +26,22 @@ system:
     value: |
       <p>
         Acts as
-        @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Poison}
+        @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.gaGUmTGViuxZ4mqR]{Poison}
         Ammunition.
       </p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: none
@@ -43,9 +49,9 @@ system:
   price:
     market: 10
   size: 0
-  source:
-    book: 12DoC
-    page: 5
+  sources:
+    - book: 12DoC
+      page: 5
   type: poison
   variety: paintball
 type: ammo

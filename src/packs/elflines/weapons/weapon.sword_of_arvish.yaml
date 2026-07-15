@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/Sword_poor.svg
 name: Sword of Arvish
@@ -23,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 3d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -38,6 +42,7 @@ system:
   handsReq: 2
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -54,9 +59,9 @@ system:
   quality: standard
   revealed: true
   rof: 2
-  source:
-    book: ELO TCG
-    page: 9
+  sources:
+    - book: ELO TCG
+      page: 9
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

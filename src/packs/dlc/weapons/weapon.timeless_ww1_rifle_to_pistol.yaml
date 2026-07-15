@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol_poor.svg
 name: Timeless WW1 Rifle to Pistol Conversion
@@ -24,6 +24,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 4d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>Poor Quality Very Heavy Pistol.</p>
@@ -37,6 +41,7 @@ system:
   handsReq: 1
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -55,9 +60,9 @@ system:
   quality: poor
   revealed: true
   rof: 1
-  source:
-    book: BC+
-    page: 4
+  sources:
+    - book: BC+
+      page: 4
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine

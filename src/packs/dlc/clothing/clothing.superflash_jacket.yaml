@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/clothing/generic_jacket.svg
 name: Superflash Jacket
@@ -27,6 +27,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes: []
@@ -38,9 +39,9 @@ system:
     market: 500
   providesHardening: false
   revealed: true
-  source:
-    book: MC
-    page: 1
+  sources:
+    - book: MC
+      page: 1
   style: urbanFlash
   type: jacket
   usage: equipped

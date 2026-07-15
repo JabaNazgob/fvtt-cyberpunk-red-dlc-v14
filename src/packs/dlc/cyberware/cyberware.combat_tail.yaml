@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/combat-tail.svg
 name: Combat Tail
@@ -24,6 +24,10 @@ system:
   core: false
   critFailEffect: jammed
   damage: 3d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>Implanted Heavy Melee Weapon. Requires Neural Link.</p>
@@ -37,6 +41,7 @@ system:
     static: 14
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: hospital
   installedItems:
     allowed: false
@@ -59,9 +64,9 @@ system:
   revealed: true
   rof: 2
   size: 2
-  source:
-    book: IRv2
-    page: 72
+  sources:
+    - book: IRv2
+      page: 72
   type: cyberwareExternal
   unarmedAutomaticCalculation: true
   usage: toggled

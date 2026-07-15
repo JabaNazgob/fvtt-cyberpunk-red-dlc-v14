@@ -1,7 +1,11 @@
 _id: FeU8EiiE8hpIcHBB
 _key: "!items!FeU8EiiE8hpIcHBB"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/armor/roller_derby_padding.svg
 name: Roller Derby Padding
@@ -27,6 +31,7 @@ system:
   headLocation:
     ablation: 0
     sp: 7
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -46,8 +51,8 @@ system:
   shieldHitPoints:
     max: 10
     value: 10
-  source:
-    book: CtR
-    page: 9
+  sources:
+    - book: CtR
+      page: 9
   usage: toggled
 type: armor

@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: icons/weapons/ammunition/arrow-broadhead.webp
 name: Arrow
@@ -24,12 +24,18 @@ system:
     value: |
       <p>Basic ammo, nothing special.</p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: none
@@ -37,9 +43,9 @@ system:
   price:
     market: 1
   size: 0
-  source:
-    book: ELO
-    page: 3
+  sources:
+    - book: ELO
+      page: 3
   type: basic
   variety: arrow
 type: ammo
