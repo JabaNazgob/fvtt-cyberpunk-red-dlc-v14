@@ -1,7 +1,11 @@
 _id: LqNj3iSKuNEZ8QKM
 _key: "!items!LqNj3iSKuNEZ8QKM"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: RD2lqqoGCEVmvfeN
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-queen-hearts.svg
 name: Rank Up!
@@ -27,6 +31,7 @@ system:
       </blockquote>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -39,8 +44,8 @@ system:
     market: 5
   providesHardening: false
   revealed: true
-  source:
-    book: ELO-TCG
-    page: 6
+  sources:
+    - book: ELO-TCG
+      page: 6
   usage: toggled
 type: gear

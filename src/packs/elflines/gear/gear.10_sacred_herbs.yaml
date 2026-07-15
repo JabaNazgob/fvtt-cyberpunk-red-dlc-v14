@@ -1,7 +1,11 @@
 _id: M2VfO2gN3P0coEZw
 _key: "!items!M2VfO2gN3P0coEZw"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: Ld94WnhHrzIRpK8Y
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
 name: 10 Sacred Herbs
@@ -30,6 +34,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -42,8 +47,8 @@ system:
     market: 5
   providesHardening: false
   revealed: true
-  source:
-    book: ELO-TCG
-    page: 7
+  sources:
+    - book: ELO-TCG
+      page: 7
   usage: toggled
 type: gear
