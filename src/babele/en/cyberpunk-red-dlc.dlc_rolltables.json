@@ -197,6 +197,33 @@
         }
       ]
     },
+    "Kibble Flavors": {
+      "name": "Kibble Flavors",
+      "results": [
+        {
+          "1-5": "Kibble Pack: Fizzy",
+          "6-10": "Kibble Pack: Chili Lime",
+          "11-15": "Kibble Pack: Protein",
+          "16-20": "Kibble Pack: Sport Flakes",
+          "21-25": "Kibble Pack: Extra Fluffy Pankcake",
+          "26-30": "Kibble Pack: SportMix",
+          "31-35": "Kibble Pack: Fruit Fantasy",
+          "36-40": "Kibble Pack: Buttered Popcorn",
+          "41-45": "Kibble Pack: Caramel Crunch Popcorn",
+          "46-50": "Kibble Pack: Bacon Cheddar Dumpburger",
+          "51-55": "Kibble Pack: Kiwi",
+          "56-60": "Kibble Pack: Cheese",
+          "61-65": "Kibble Pack: Lemon Ginger",
+          "66-70": "Kibble Pack: Aromatic Beef",
+          "71-75": "Kibble Pack: Paprika",
+          "76-80": "Kibble Pack: Pineapple Pizza",
+          "81-85": "Kibble Pack: Collagen Boost",
+          "86-90": "Kibble Pack: XXL Kibbles",
+          "91-95": "Kibble Pack: Mystery",
+          "96-100": "Kibble Pack: Adobo"
+        }
+      ]
+    },
     "Option-Bayonet": {
       "name": "Option-Bayonet",
       "results": [
@@ -400,33 +427,6 @@
           "20-20": "The Sun. If the target carries any explosives, the GM must choose one. It explodes. If the target wasn't carrying any, the GM must choose one non-weapon equipment on the target. It is Destroyed Beyond Repair. (See Night City Tarot Page 5).",
           "21-21": "Judgement. The target is dealt the Crushed Fingers Critical Injury on one hand. The other hand is dealt the Dismembered Hand Critical Injury. (See Night City Tarot Page 5).",
           "22-22": "The World. The Attacker takes an additional Turn right after this one. They gain a +5 Bonus to any of their Skill Checks, ignore their Wound State effects and do not make a Death Save if they are Mortally wounded during that next turn. (See Night City Tarot Page 5)."
-        }
-      ]
-    },
-    "Kibble Flavors": {
-      "name": "Kibble Flavors",
-      "results": [
-        {
-          "1-5": "Kibble Pack: Fizzy",
-          "6-10": "Kibble Pack: Chili Lime",
-          "11-15": "Kibble Pack: Protein",
-          "16-20": "Kibble Pack: Sport Flakes",
-          "21-25": "Kibble Pack: Extra Fluffy Pankcake",
-          "26-30": "Kibble Pack: SportMix",
-          "31-35": "Kibble Pack: Fruit Fantasy",
-          "36-40": "Kibble Pack: Buttered Popcorn",
-          "41-45": "Kibble Pack: Caramel Crunch Popcorn",
-          "46-50": "Kibble Pack: Bacon Cheddar Dumpburger",
-          "51-55": "Kibble Pack: Kiwi",
-          "56-60": "Kibble Pack: Cheese",
-          "61-65": "Kibble Pack: Lemon Ginger",
-          "66-70": "Kibble Pack: Aromatic Beef",
-          "71-75": "Kibble Pack: Paprika",
-          "76-80": "Kibble Pack: Pineapple Pizza",
-          "81-85": "Kibble Pack: Collagen Boost",
-          "86-90": "Kibble Pack: XXL Kibbles",
-          "91-95": "Kibble Pack: Mystery",
-          "96-100": "Kibble Pack: Adobo"
         }
       ]
     },

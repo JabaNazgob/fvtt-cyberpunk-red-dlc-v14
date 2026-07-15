@@ -2,11 +2,10 @@ _id: TKPEd1SRn1JoHU8J
 _key: "!items!TKPEd1SRn1JoHU8J"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 33
-      previous: "24"
+      current: 44
+      previous: "38"
 folder: BKpbrVAy1KKpXtaU
 img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun_poor.svg
 name: Faisal's OnlyChance (Rubber)
@@ -26,6 +25,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 5d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -41,6 +44,7 @@ system:
   handsReq: 2
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -60,9 +64,9 @@ system:
   quality: poor
   revealed: true
   rof: 1
-  source:
-    book: TT
-    page: 8
+  sources:
+    - book: TT
+      page: 8
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 33
-      previous: "24"
+      current: 44
+      previous: "38"
 folder: mFEa4FhHbV1fi1zY
 img: systems/cyberpunk-red-core/icons/compendium/weapons/SniperRifle_poor.svg
 name: GunMart Snipe-Starr
@@ -23,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 5d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -38,6 +42,7 @@ system:
   handsReq: 2
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -56,9 +61,9 @@ system:
   quality: poor
   revealed: true
   rof: 1
-  source:
-    book: TT
-    page: 10
+  sources:
+    - book: TT
+      page: 10
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

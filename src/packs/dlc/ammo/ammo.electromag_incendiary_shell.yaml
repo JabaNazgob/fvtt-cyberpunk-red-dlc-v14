@@ -4,7 +4,7 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 39
+      current: 44
       previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/ammo/slamdance_shell_incendiary.svg
@@ -27,12 +27,18 @@ system:
         end of their turn unless they use action to extinguish flames. Does not stack.
       </p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: set
@@ -40,9 +46,9 @@ system:
   price:
     market: 100
   size: 0
-  source:
-    book: Core
-    page: 346
+  sources:
+    - book: Core
+      page: 346
   type: incendiary
   variety: custom
 type: ammo

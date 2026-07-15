@@ -4,7 +4,7 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 39
+      current: 44
       previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/ammo/slamdance_shell_basic.svg
@@ -24,12 +24,18 @@ system:
     value: |
       <p>Magnetic ammo designed for the SlamDance ElectroMag.</p>
   favorite: false
+  ignoredByBrowser: false
   installLocation: mall
   overrides:
     autofire:
       minimum: 3
       mode: none
       value: -1
+    crit:
+      bonus: 5
+      count: 2
+      override: false
+      threshold: 0
     damage:
       minimum: 1d6
       mode: set
@@ -37,9 +43,9 @@ system:
   price:
     market: 10
   size: 0
-  source:
-    book: Core
-    page: 345
+  sources:
+    - book: Core
+      page: 345
   type: basic
   variety: custom
 type: ammo

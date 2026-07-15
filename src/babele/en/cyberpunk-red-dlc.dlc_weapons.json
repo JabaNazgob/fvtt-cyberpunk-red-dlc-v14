@@ -386,16 +386,6 @@
       "description": "<p>A long-distance hunting rifle. +1 to Attack.</p>\n<blockquote>\n  <p>\n    An action is required to eject the spent round each time the rifle is fired.\n  </p>\n</blockquote>\n",
       "dvTable": "DV Sniper Rifle"
     },
-    "M-02 Heavy Rifle": {
-      "name": "M-02 Heavy Rifle",
-      "description": "<p>\n  This weapon fires it's own custom ammunition, priced at 500eb (Expensive) for\n  80 rounds of Armor-Piercing ammo.\n</p>\n",
-      "dvTable": "DV Assault Rifle"
-    },
-    "M-95A4 Assault Weapon": {
-      "name": "M-95A4 Assault Weapon",
-      "description": "<p>\n  An excellent quality assault rifle equipped with a Drum Magazine &amp; Sniping\n  Scope.\n</p>\n",
-      "dvTable": "DV Assault Rifle"
-    },
     "MetaCorp Hela Smart Launcher": {
       "name": "MetaCorp Hela Smart Launcher",
       "description": "<p>\n  Bring out the big guns. This smartgun link equipped rocket launcher will do\n  some damage.\n</p>\n",
@@ -456,10 +446,6 @@
       "description": "<p>A standard-issue assault rifle.</p>\n",
       "dvTable": "DV Assault Rifle"
     },
-    "MicroCutie by HelloCutie": {
-      "name": "MicroCutie by HelloCutie",
-      "description": "<p>\n  An excellent quality pistol with a unique Hypurrburst™ mode fire mode*. The\n  weapon purrs when used. Hypurrburst™ is disabled if less than 4 bullets are in\n  the clip.\n</p>\n<p>When in Hypurrburst™ mode, the following applies</p>\n<ul>\n  <li>MicroCutie is ROF 1</li>\n  <li>Purrs audibly</li>\n  <li>Fires a single shot, drains clip, and does 4d6 damage</li>\n  <li>Cannot be used to make aimed shots</li>\n</ul>\n<p>\n  <em\n    >*Special fire mode not currently supported; will need to be manually\n    applied</em\n  >\n</p>\n",
-      "dvTable": "DV Pistol"
     "Militech Ronin Hyperlight Assualt": {
       "name": "Militech Ronin Hyperlight Assualt",
       "description": "<p>\n  An excellent quality light assault rifle. +1 to Attack. Equipped with an\n  Extended Magazine.\n</p>\n",
@@ -502,11 +488,8 @@
     },
     "Mustang Arms Rodeo": {
       "name": "Mustang Arms Rodeo",
-      "description": "<p>A concealable SMG. If you roll 1 on Attack (Crit fail) the gun jams and requires using an action to clear.</p><blockquote><p>User must make a <strong>DV15 Handgun</strong> check when making an <strong>autofire attack</strong> or the damage multiplier cannot exceed x2.</p></blockquote>"
-    },
-    "M-02 Heavy Rifle": {
-      "name": "M-02 Heavy Rifle",
-      "description": "<p>\n This weapon fires it's own custom ammunition, priced at 500eb (Expensive) for\n 80 rounds of Armor-Piercing ammo.\n</p>"
+      "description": "<p>\n  A concealable SMG. If you roll 1 on Attack (Crit fail) the gun jams and\n  requires using an action to clear.\n</p>\n<blockquote>\n  <p>\n    User must make a <strong>DV15 Handgun</strong> check when making an\n    <strong>autofire attack</strong> or the damage multiplier cannot exceed x2.\n  </p>\n</blockquote>\n",
+      "dvTable": "DV SMG"
     },
     "M-02 Heavy Rifle": {
       "name": "M-02 Heavy Rifle",
@@ -515,9 +498,8 @@
     },
     "M-95A4 Assault Weapon": {
       "name": "M-95A4 Assault Weapon",
-      "description": "<p>An excellent quality assault rifle equipped with a Drum Magazine &amp; Sniping Scope.</p>"
-      "description": "<p>\n  A concealable SMG. If you roll 1 on Attack (Crit fail) the gun jams and\n  requires using an action to clear.\n</p>\n<blockquote>\n  <p>\n    User must make a <strong>DV15 Handgun</strong> check when making an\n    <strong>autofire attack</strong> or the damage multiplier cannot exceed x2.\n  </p>\n</blockquote>\n",
-      "dvTable": "DV SMG"
+      "description": "<p>\n  An excellent quality assault rifle equipped with a Drum Magazine &amp; Sniping\n  Scope.\n</p>\n",
+      "dvTable": "DV Assault Rifle"
     },
     "Nomad .357 Magnum": {
       "name": "Nomad .357 Magnum",
@@ -574,11 +556,6 @@
       "description": "<p>\n  A sport rifle, for fun, not people. Can only load Small Game Ammunition and is\n  incapable of Autofire and Suppressive Fire.\n</p>\n",
       "dvTable": "DV Assault Rifle"
     },
-    "ST-5 Assault Rifle": {
-      "name": "ST-5 Assault Rifle",
-      "description": "<p>\n  A - relatively - reliable gun. If you roll 1 on Attack (Crit fail) you must\n  then toss a coin; if you win the gun fires as normal, while if you lose the\n  gun jams and requires using an action to clear.\n</p>\n",
-      "dvTable": "DV Assault Rifle"
-    },
     "Sternmeyer P-35": {
       "name": "Sternmeyer P-35",
       "description": "<p>A very heavy pistol. It can't be concealed.</p>\n",
@@ -593,6 +570,11 @@
       "name": "Sternmeyer SMG-21",
       "description": "<p>A heavy SMG. Due to its size it can't be concealed.</p>\n",
       "dvTable": "DV SMG"
+    },
+    "ST-5 Assault Rifle": {
+      "name": "ST-5 Assault Rifle",
+      "description": "<p>\n  A - relatively - reliable gun. If you roll 1 on Attack (Crit fail) you must\n  then toss a coin; if you win the gun fires as normal, while if you lose the\n  gun jams and requires using an action to clear.\n</p>\n",
+      "dvTable": "DV Assault Rifle"
     },
     "Sub-Flechette Gun": {
       "name": "Sub-Flechette Gun",

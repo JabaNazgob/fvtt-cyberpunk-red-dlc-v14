@@ -1,7 +1,11 @@
 _id: 5SEXfIt0muRpGrE5
 _key: "!items!5SEXfIt0muRpGrE5"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/airhypo-bayonet.svg
 name: Airhypo Bayonet
@@ -19,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: "0"
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: >
       <p>
@@ -35,6 +43,7 @@ system:
   handsReq: 0
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: true
@@ -114,9 +123,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: TT
-    page: 14
+  sources:
+    - book: TT
+      page: 14
   type: weapon
   unarmedAutomaticCalculation: true
   usage: toggled

@@ -68,13 +68,13 @@
       "name": "Medium Pistol (Small Game)",
       "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>\n"
     },
-    "M-02 Rounds": {
-      "name": "M-02 Rounds",
-      "description": "<p>\n  Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n  Comes in a drum of 80.\n</p>\n"
-    },
     "Mega Ouchie ModBall": {
       "name": "Mega Ouchie ModBall",
       "description": "<p>\n  Acts as\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Biotoxin}\n  Ammunition\n</p>\n"
+    },
+    "M-02 Rounds": {
+      "name": "M-02 Rounds",
+      "description": "<p>\n  Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n  Comes in a drum of 80.\n</p>\n"
     },
     "Nova Model 757 Rounds": {
       "name": "Nova Model 757 Rounds",
@@ -83,10 +83,6 @@
     "Ouchie ModBall": {
       "name": "Ouchie ModBall",
       "description": "<p>\n  Acts as\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.gaGUmTGViuxZ4mqR]{Poison}\n  Ammunition.\n</p>\n"
-    },
-    "Ouchie ModBall": {
-      "name": "Ouchie ModBall",
-      "description": "<p>\n  Acts as\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Poison}\n  Ammunition.\n</p>\n"
     },
     "Paintball (Biotoxin)": {
       "name": "Paintball (Biotoxin)",
