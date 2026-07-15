@@ -85,7 +85,7 @@ system:
     market: 500
   revealed: true
   sources:
-    - book: GQ
+    - book: Going Quiet
       page: 6
   usage: snorted
 type: drug

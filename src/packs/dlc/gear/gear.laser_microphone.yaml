@@ -44,7 +44,7 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: GQ
+    - book: Going Quiet
       page: 6
   usage: toggled
 type: gear

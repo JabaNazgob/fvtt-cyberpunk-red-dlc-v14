@@ -114,14 +114,6 @@
       "name": "A Touch of Luxury Furniture Set",
       "description": "<p>This Furniture Set makes your Cargo Container almost feel like a home.</p>\n"
     },
-    "All-Purpose Soundproofing": {
-      "name": "All-Purpose Soundproofing",
-      "description": "<p>Enjoy peace and quiet in even the loudest neighborhood.</p>\n<blockquote>\n  <p>Does not prevent Amplified Hearing cyberware from eavesdropping.</p>\n</blockquote>\n"
-    },
-    "Apartment Affability Furniture Set": {
-      "name": "Apartment Affability Furniture Set",
-      "description": "<p>\n  Easy to assemble furniture in a box. This is the starting Furniture Set for\n  most apartments and corporate conapts.\n</p>\n"
-    },
     "Binary Compound": {
       "name": "Binary Compound",
       "description": "<p>\n  A double-syringe that contains a pair of corrosive chemicals capable of eating\n  through solid objects.\n</p>\n<blockquote>\n  <p>\n    Requires 2 rounds to apply Binary Compound to a 2m/yd<sup>2</sup> surface.\n  </p>\n  <p>\n    Binary Compound remains chemically active for 6 rounds, dealing [[/r 6d6\n    #Binary Compound Damage]] damage per round.\n  </p>\n</blockquote>\n"
