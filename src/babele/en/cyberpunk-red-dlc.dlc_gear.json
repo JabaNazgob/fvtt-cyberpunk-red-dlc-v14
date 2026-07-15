@@ -66,50 +66,6 @@
       "name": "Kibble Flavors",
       "description": ""
     },
-    "A Box Bound Tightly In Rope": {
-      "name": "A Box Bound Tightly In Rope",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uq1cseo3a1hAx7Pg]{A\n  Box Bound Tightly in Rope}\n</p>\n"
-    },
-    "A Box Covered In Chipped Paint": {
-      "name": "A Box Covered In Chipped Paint",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.xWZowpQzG7fpmoP7]{A\n  Box Covered in Chipped Paint}\n</p>\n"
-    },
-    "A Box Dripping Wet With Fluid": {
-      "name": "A Box Dripping Wet With Fluid",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.zRHyYnlEqNlTA4l5]{A\n  Box Dripping Wet With Fluid}\n</p>\n"
-    },
-    "A Box Freezing Cold To The Touch": {
-      "name": "A Box Freezing Cold To The Touch",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.VszxZ4TJjQ8FGuoc]{A\n  Box Freezing Cold To The Touch}\n</p>\n"
-    },
-    "A Box Handsomely Gift Wrapped": {
-      "name": "A Box Handsomely Gift Wrapped",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.4S3emhUCIIDNoTAg]{A\n  Box Handsomely Gift Wrapped}\n</p>\n"
-    },
-    "A Box Marked With A Lime Green X": {
-      "name": "A Box Marked With A Lime Green X",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.T6pocp9VStxtFPzP]{A\n  Box Marked With A Lime Green X}\n</p>\n"
-    },
-    "A Box Melted Out Of Shape": {
-      "name": "A Box Melted Out Of Shape",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.bOtq937SNIahmbeK]{A\n  Box Melted Out Of Shape}\n</p>\n"
-    },
-    "A Box Reeking Of Oil": {
-      "name": "A Box Reeking Of Oil",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.EVPuZ21eNOpEycGQ]{A\n  Box Reeking Of Oil}\n</p>\n"
-    },
-    "A Box Sealed With A Lipstick Kiss": {
-      "name": "A Box Sealed With A Lipstick Kiss",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.McQc33tLYAp7djIV]{A\n  Box Sealed With A Lipstick Kiss}\n</p>\n"
-    },
-    "A Box Showing Signs Of Repair": {
-      "name": "A Box Showing Signs Of Repair",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.WmWdGRlhzhA2ZcmV]{A\n  Box Showing Signs Of Repair}\n</p>\n"
-    },
-    "A Touch of Luxury Furniture Set": {
-      "name": "A Touch of Luxury Furniture Set",
-      "description": "<p>This Furniture Set makes your Cargo Container almost feel like a home.</p>\n"
-    },
     "All-Purpose Soundproofing": {
       "name": "All-Purpose Soundproofing",
       "description": "<p>Enjoy peace and quiet in even the loudest neighborhood.</p>\n<blockquote>\n  <p>Does not prevent Amplified Hearing cyberware from eavesdropping.</p>\n</blockquote>\n"
@@ -338,12 +294,12 @@
       "name": "Kibble Pack: Protein",
       "description": "<p>One meal.</p>\n"
     },
-    "Kibble Pack: Sport Flakes": {
-      "name": "Kibble Pack: Sport Flakes",
-      "description": "<p>One meal.</p>\n"
-    },
     "Kibble Pack: SportMix": {
       "name": "Kibble Pack: SportMix",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Sport Flakes": {
+      "name": "Kibble Pack: Sport Flakes",
       "description": "<p>One meal.</p>\n"
     },
     "Kibble Pack: XXL Kibbles": {
