@@ -4,8 +4,8 @@ effects: []
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/drone_remote-camera.svg
 name: Remote Camera Drone
@@ -32,6 +32,7 @@ system:
       </ul>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -44,8 +45,8 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
-  source:
-    book: TotR
-    page: 126
+  sources:
+    - book: TotR
+      page: 126
   usage: toggled
 type: gear

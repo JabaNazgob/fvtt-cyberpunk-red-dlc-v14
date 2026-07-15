@@ -1,7 +1,11 @@
 _id: nCslR5IGki0hLZ4V
 _key: "!items!nCslR5IGki0hLZ4V"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/default/Default_Gear.svg
 name: Dosimeter Badge
@@ -23,6 +27,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -35,8 +40,8 @@ system:
     market: 0
   providesHardening: false
   revealed: true
-  source:
-    book: TotRSS
-    page: 58
+  sources:
+    - book: TotRSS
+      page: 58
   usage: toggled
 type: gear

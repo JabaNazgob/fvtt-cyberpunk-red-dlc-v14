@@ -1,7 +1,11 @@
 _id: Cpu4LqjrCk4mCSyk
 _key: "!items!Cpu4LqjrCk4mCSyk"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/diving-rebreather.svg
 name: Diving Rebreather
@@ -23,6 +27,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -35,8 +40,8 @@ system:
     market: 0
   providesHardening: false
   revealed: true
-  source:
-    book: TotRSS
-    page: 58
+  sources:
+    - book: TotRSS
+      page: 58
   usage: toggled
 type: gear

@@ -1,7 +1,11 @@
 _id: X4SWCsdrRq7Dt5cg
 _key: "!items!X4SWCsdrRq7Dt5cg"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/RocketLauncher.svg
 name: Growler
@@ -19,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: "0"
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -37,6 +45,7 @@ system:
   handsReq: 2
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -54,9 +63,9 @@ system:
   quality: standard
   revealed: true
   rof: 1
-  source:
-    book: TotRSS
-    page: 71
+  sources:
+    - book: TotRSS
+      page: 71
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine

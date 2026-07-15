@@ -1,7 +1,11 @@
 _id: hWKdkikIzRPXGjzL
 _key: "!items!hWKdkikIzRPXGjzL"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/default/Default_Weapon.svg
 name: Scrambler
@@ -19,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: "0"
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -34,6 +42,7 @@ system:
   handsReq: 1
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -51,9 +60,9 @@ system:
   quality: standard
   revealed: true
   rof: 1
-  source:
-    book: TotRSS
-    page: 110
+  sources:
+    - book: TotRSS
+      page: 110
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine

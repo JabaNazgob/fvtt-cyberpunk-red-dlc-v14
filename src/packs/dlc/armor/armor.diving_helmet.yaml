@@ -2,7 +2,10 @@ _id: 8hHc1iORBKnVNl18
 _key: "!items!8hHc1iORBKnVNl18"
 effects: []
 flags:
-  cprInstallTree: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/armor/diving-helmet.svg
 name: Diving Helmet
@@ -25,6 +28,7 @@ system:
   headLocation:
     ablation: 0
     sp: 7
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -46,8 +50,6 @@ system:
   shieldHitPoints:
     max: 10
     value: 10
-  source:
-    book: ""
-    page: 0
+  sources: []
   usage: toggled
 type: armor

@@ -1,7 +1,11 @@
 _id: mj6S0OfcrKUQKC1v
 _key: "!items!mj6S0OfcrKUQKC1v"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/armor/flippers.svg
 name: Flippers
@@ -20,6 +24,7 @@ system:
       <p>A set of diving fins. Negates swimming movement penalty.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes:
@@ -32,8 +37,8 @@ system:
     market: 0
   providesHardening: false
   revealed: true
-  source:
-    book: TotRSS
-    page: 57
+  sources:
+    - book: TotRSS
+      page: 57
   usage: toggled
 type: gear
