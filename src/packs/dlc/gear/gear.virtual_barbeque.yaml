@@ -40,7 +40,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: CC&SA
+    - book: Corporate Conapts & Studio Apartments
       page: 8
+    - book: Interface RED v4
+      page: 52
   usage: toggled
 type: gear

@@ -69,8 +69,12 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: MHCD
+    - book: Must Have Cyberware Deals
       page: 4
+    - book: Danger Gal Dossier
+      page: 146
+    - book: Interface RED v3
+      page: 48
   type: cyberLeg
   unarmedAutomaticCalculation: true
   usage: toggled

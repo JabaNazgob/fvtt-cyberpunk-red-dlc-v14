@@ -47,7 +47,7 @@ system:
     market: 0
   size: 0
   sources:
-    - book: WG
+    - book: Woodchipper's Garage
       page: 4
   type: poison
   variety: paintball

@@ -58,7 +58,7 @@ system:
     max: 0
     value: 0
   sources:
-    - book: IRv3
+    - book: Interface RED v3
       page: 105
   usage: equipped
 type: armor

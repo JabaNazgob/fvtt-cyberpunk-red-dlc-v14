@@ -77,7 +77,7 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: IRv3
+    - book: Interface RED v3
       page: 105
   type: borgware
   unarmedAutomaticCalculation: true

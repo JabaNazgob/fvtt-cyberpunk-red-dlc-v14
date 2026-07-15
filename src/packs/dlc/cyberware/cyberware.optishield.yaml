@@ -68,8 +68,12 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: 12DoC
+    - book: 12 Days of Cybermas
       page: 4
+    - book: Danger Gal Dossier
+      page: 145
+    - book: Interface RED v3
+      page: 86
   type: cyberwareExternal
   unarmedAutomaticCalculation: true
   usage: toggled

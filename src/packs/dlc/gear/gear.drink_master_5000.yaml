@@ -39,7 +39,7 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: MD-CL
+    - book: Mixing Drinks — Changing Lives
       page: 15
   usage: toggled
 type: gear

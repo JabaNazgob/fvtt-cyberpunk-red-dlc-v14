@@ -61,7 +61,7 @@ system:
     market: 5
   size: 0
   sources:
-    - book: 12DoC
+    - book: 12 Days of Cutimas
       page: 6
   type: basic
   variety: paintball

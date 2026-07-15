@@ -59,8 +59,10 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: ELO
+    - book: Elflines Online
       page: 3
+    - book: Interface RED v1
+      page: 42
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

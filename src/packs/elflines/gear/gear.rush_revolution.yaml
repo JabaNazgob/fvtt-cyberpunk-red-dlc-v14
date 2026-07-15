@@ -8,7 +8,7 @@ flags:
       previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/gear/braindance_viewer.svg
-name: Rush Revolution
+name: RUSH Revolution
 ownership:
   default: 0
   rRCcEOJu9poJ2EaX: 3
@@ -37,7 +37,11 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: ELO
+    - book: Elflines Online
       page: 5
+    - book: Interface RED v1
+      page: 44
+    - book: Segotari Power
+      page: 12
   usage: toggled
 type: gear

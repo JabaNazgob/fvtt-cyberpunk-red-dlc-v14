@@ -53,8 +53,10 @@ system:
     market: 500
   size: 0
   sources:
-    - book: 12DoG
+    - book: 12 Days of Gunmas
       page: 5
+    - book: Danger Gal Dossier
+      page: 145
   type: smart
   variety: custom
 type: ammo

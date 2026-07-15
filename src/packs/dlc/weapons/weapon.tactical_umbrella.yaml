@@ -68,8 +68,12 @@ system:
   revealed: true
   rof: 2
   sources:
-    - book: NCW
+    - book: Night City Weather
       page: 6
+    - book: Danger Gal Dossier
+      page: 144
+    - book: Interface RED v2
+      page: 20
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine

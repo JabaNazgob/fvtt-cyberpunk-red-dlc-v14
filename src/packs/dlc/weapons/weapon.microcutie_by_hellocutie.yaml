@@ -76,8 +76,10 @@ system:
   revealed: true
   rof: 2
   sources:
-    - book: MC
+    - book: Micro Chrome
       page: 1
+    - book: Danger Gal Dossier
+      page: 145
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

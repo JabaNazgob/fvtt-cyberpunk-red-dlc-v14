@@ -114,7 +114,7 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 120
   unarmedAutomaticCalculation: true
   usage: toggled

@@ -35,7 +35,7 @@ system:
   sdp: 10
   seats: 1
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 78
   speedCombat: 15
   speedNarrative: 30 MPH / 48 KPH

@@ -45,7 +45,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: BC+
+    - book: Black Chrome+
       page: 5
+    - book: Interface RED v4
+      page: 13
   usage: toggled
 type: gear

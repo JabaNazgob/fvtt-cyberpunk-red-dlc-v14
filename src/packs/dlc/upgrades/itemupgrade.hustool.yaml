@@ -144,8 +144,10 @@ system:
   rof: 1
   size: 0
   sources:
-    - book: AAA
+    - book: All About Agents
       page: 8
+    - book: Interface RED v5
+      page: 30
   type: gear
   unarmedAutomaticCalculation: true
   usage: toggled

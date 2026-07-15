@@ -83,8 +83,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: 12DoC
+    - book: 12 Days of Cybermas
       page: 4
+    - book: Interface RED v3
+      page: 86
   type: cyberArm
   unarmedAutomaticCalculation: true
   usage: toggled

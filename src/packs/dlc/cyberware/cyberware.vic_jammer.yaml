@@ -111,7 +111,7 @@ system:
   rof: 1
   size: 2
   sources:
-    - book: MD-CL
+    - book: Mixing Drinks — Changing Lives
       page: 16
   type: cyberEye
   unarmedAutomaticCalculation: true

@@ -57,7 +57,7 @@ system:
     max: 0
     value: 0
   sources:
-    - book: Going Metal
+    - book: Interface RED v3
       page: 107
   usage: equipped
 type: armor

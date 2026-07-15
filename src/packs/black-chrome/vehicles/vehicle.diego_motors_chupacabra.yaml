@@ -38,8 +38,10 @@ system:
   sdp: 70
   seats: 6
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 66
+    - book: Danger Gal Dossier
+      page: 139
   speedCombat: 20
   speedNarrative: 100 MPH / 161 KPH
 type: vehicle

@@ -52,7 +52,11 @@ system:
     max: 0
     value: 0
   sources:
-    - book: BC+
+    - book: Black Chrome+
       page: 4
+    - book: Danger Gal Dossier
+      page: 148
+    - book: Interface RED v4
+      page: 12
   usage: toggled
 type: armor

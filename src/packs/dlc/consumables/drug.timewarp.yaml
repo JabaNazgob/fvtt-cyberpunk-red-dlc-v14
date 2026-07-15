@@ -181,7 +181,9 @@ system:
     market: 100
   revealed: true
   sources:
-    - book: HP
+    - book: Hornet's Pharmacy
       page: 3
+    - book: Interface RED v4
+      page: 5
   usage: snorted
 type: drug

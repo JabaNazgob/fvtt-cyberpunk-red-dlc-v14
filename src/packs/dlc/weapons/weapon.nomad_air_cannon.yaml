@@ -64,8 +64,12 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: WG
+    - book: Woodchipper's Garage
       page: 4
+    - book: Danger Gal Dossier
+      page: 145
+    - book: Interface RED v3
+      page: 28
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

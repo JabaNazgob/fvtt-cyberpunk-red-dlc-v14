@@ -66,8 +66,12 @@ system:
   rof: 2
   size: 2
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 18
+    - book: Your New Best Friend
+      page: 12
+    - book: Interface RED v5
+      page: 82
   type: cyberArm
   unarmedAutomaticCalculation: true
   usage: toggled

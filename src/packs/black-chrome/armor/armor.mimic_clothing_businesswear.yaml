@@ -52,7 +52,7 @@ system:
     max: 0
     value: 0
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 33
   usage: equipped
 type: armor

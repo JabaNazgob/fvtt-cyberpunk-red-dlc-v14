@@ -48,7 +48,7 @@ system:
     market: 0
   size: 0
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 115
   type: basic
   variety: custom

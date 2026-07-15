@@ -51,7 +51,9 @@ system:
     max: 0
     value: 0
   sources:
-    - book: ELO
+    - book: Elflines Online
       page: 3
+    - book: Interface RED v1
+      page: 42
   usage: equipped
 type: armor

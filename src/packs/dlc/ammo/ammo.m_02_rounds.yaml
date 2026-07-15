@@ -47,8 +47,10 @@ system:
     market: 500
   size: 0
   sources:
-    - book: WG
+    - book: Woodchipper's Garage
       page: 5
+    - book: Interface RED v3
+      page: 29
   type: armorPiercing
   variety: custom
 type: ammo

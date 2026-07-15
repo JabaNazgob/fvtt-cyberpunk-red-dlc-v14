@@ -113,8 +113,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 18
+    - book: Interface RED v2
+      page: 73
   type: cyberLeg
   unarmedAutomaticCalculation: true
   usage: installed

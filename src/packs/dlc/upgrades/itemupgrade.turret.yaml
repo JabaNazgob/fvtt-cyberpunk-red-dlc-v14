@@ -139,8 +139,10 @@ system:
   rof: 1
   size: 0
   sources:
-    - book: DP
+    - book: Dreaded Punknaught
       page: 5
+    - book: Interface RED v4
+      page: 41
   type: vehicle
   unarmedAutomaticCalculation: true
   usage: toggled

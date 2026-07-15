@@ -59,7 +59,7 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 87
   unarmedAutomaticCalculation: true
   usage: toggled

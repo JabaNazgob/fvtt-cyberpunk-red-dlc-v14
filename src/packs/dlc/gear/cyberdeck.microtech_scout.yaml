@@ -43,6 +43,8 @@ system:
   quality: standard
   size: 1
   sources:
-    - book: MwtU
+    - book: Midnight with the Upload
       page: 3
+    - book: Interface RED v3
+      page: 39
 type: cyberdeck

@@ -116,8 +116,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: AAA
+    - book: All About Agents
       page: 9
+    - book: Interface RED v5
+      page: 31
   type: cyberAudioSuite
   unarmedAutomaticCalculation: true
   usage: installed

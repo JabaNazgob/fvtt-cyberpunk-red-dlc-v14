@@ -121,7 +121,7 @@ system:
   rof: 1
   size: 0
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 53
   type: borgware
   unarmedAutomaticCalculation: true

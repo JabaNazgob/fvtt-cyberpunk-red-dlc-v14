@@ -67,8 +67,12 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 21
+    - book: Danger Gal Dossier
+      page: 146
+    - book: Interface RED v2
+      page: 73
   type: neuralWare
   unarmedAutomaticCalculation: true
   usage: installed

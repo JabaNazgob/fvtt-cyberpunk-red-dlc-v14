@@ -37,7 +37,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: ELO
+    - book: Elflines Online
       page: 5
+    - book: Interface RED v1
+      page: 44
   usage: toggled
 type: gear

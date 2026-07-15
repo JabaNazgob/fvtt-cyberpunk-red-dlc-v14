@@ -105,7 +105,7 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 52
   usage: equipped
 type: gear

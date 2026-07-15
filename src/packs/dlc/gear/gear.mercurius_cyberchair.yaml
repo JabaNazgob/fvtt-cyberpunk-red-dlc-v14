@@ -97,7 +97,11 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: CC
+    - book: Cyberchairs
       page: 2
+    - book: Danger Gal Dossier
+      page: 147
+    - book: Interface RED v1
+      page: 38
   usage: equipped
 type: gear

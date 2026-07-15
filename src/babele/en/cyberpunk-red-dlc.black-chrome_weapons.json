@@ -14,15 +14,15 @@
       "description": "<p>Excellent Quality Two Handed Exotic Very Heavy Melee Weapon.</p>\n<p>Contains three doses of specific fluids for blade coating:</p>\n<ul>\n  <li>Arasaka Fire (can ignite target)</li>\n  <li>Arasaka Acid (ablates armor)</li>\n  <li>Arasaka Wound Salt (applies a second critical injury)</li>\n</ul>\n",
       "dvTable": ""
     },
-    "E-TACK Public Defender": {
-      "name": "E-TACK Public Defender",
-      "description": "<p>\n  Comes with a Smartgun Link attachment*. The User needs a Subdermal Grip to\n  operate it. It has a Lethal and Non-lethal mode.\n</p>\n<p><em>* This Upgrade needs to be added manually.</em></p>\n",
-      "dvTable": "DV Pistol"
-    },
     "Eagletech Survivalist": {
       "name": "Eagletech Survivalist",
       "description": "<p>\n  The Eagletech Survivalist is a 2-in-1 Crossbow and Assault RIfle. It is\n  incapable of Autofire. It comes with an integrated Sniping Scope*.\n</p>\n<p><em>*Must be manually applied after purchase</em></p>\n",
       "dvTable": "DV Bows & Crossbows"
+    },
+    "E-TACK Public Defender": {
+      "name": "E-TACK Public Defender",
+      "description": "<p>\n  Comes with a Smartgun Link attachment*. The User needs a Subdermal Grip to\n  operate it. It has a Lethal and Non-lethal mode.\n</p>\n<p><em>* This Upgrade needs to be added manually.</em></p>\n",
+      "dvTable": "DV Pistol"
     },
     "Faisal's Dead or Alive": {
       "name": "Faisal's Dead or Alive",

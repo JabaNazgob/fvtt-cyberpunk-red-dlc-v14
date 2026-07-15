@@ -40,8 +40,10 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: MC
+    - book: Micro Chrome
       page: 1
+    - book: Danger Gal Dossier+
+      page: 11
   style: urbanFlash
   type: jacket
   usage: equipped

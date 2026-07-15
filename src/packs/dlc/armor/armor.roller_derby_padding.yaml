@@ -52,7 +52,11 @@ system:
     max: 10
     value: 10
   sources:
-    - book: CtR
+    - book: Chasing the Rabbit
       page: 9
+    - book: TotR — Hope Reborn
+      page: 185
+    - book: Interface RED v5
+      page: 21
   usage: toggled
 type: armor

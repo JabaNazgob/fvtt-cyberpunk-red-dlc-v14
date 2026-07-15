@@ -71,8 +71,12 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: IRv2
+    - book: Must Have Cyberware Deals
+      page: 2
+    - book: Interface RED v2
       page: 72
+    - book: Interface RED v3
+      page: 46
   type: cyberwareInternal
   unarmedAutomaticCalculation: true
   usage: toggled

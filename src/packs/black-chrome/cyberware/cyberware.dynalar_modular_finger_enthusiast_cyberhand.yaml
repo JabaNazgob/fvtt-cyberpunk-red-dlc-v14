@@ -67,7 +67,7 @@ system:
   rof: 1
   size: 2
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 18
   type: cyberArm
   unarmedAutomaticCalculation: true

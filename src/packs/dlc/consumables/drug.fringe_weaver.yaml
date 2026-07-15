@@ -30,7 +30,7 @@ system:
     market: 20
   revealed: true
   sources:
-    - book: MD-CL
+    - book: Mixing Drinks — Changing Lives
       page: 17
   usage: toggled
 type: drug

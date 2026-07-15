@@ -62,6 +62,14 @@
       "name": "Warlock's Book",
       "description": "<p>\n  If you prefer sliding through NET Architectures avoiding Black ICE this is the\n  deck for you.\n</p>\n<p>9 slots to install either Programs or Hardware.</p>\n<p><em>No Attacker or Black ICE Program may be installed.</em></p>\n"
     },
+    "All-Purpose Soundproofing": {
+      "name": "All-Purpose Soundproofing",
+      "description": "<p>Enjoy peace and quiet in even the loudest neighborhood.</p>\n<blockquote>\n  <p>Does not prevent Amplified Hearing cyberware from eavesdropping.</p>\n</blockquote>\n"
+    },
+    "Apartment Affability Furniture Set": {
+      "name": "Apartment Affability Furniture Set",
+      "description": "<p>\n  Easy to assemble furniture in a box. This is the starting Furniture Set for\n  most apartments and corporate conapts.\n</p>\n"
+    },
     "A Box Bound Tightly In Rope": {
       "name": "A Box Bound Tightly In Rope",
       "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uq1cseo3a1hAx7Pg]{A\n  Box Bound Tightly in Rope}\n</p>\n"
@@ -105,14 +113,6 @@
     "A Touch of Luxury Furniture Set": {
       "name": "A Touch of Luxury Furniture Set",
       "description": "<p>This Furniture Set makes your Cargo Container almost feel like a home.</p>\n"
-    },
-    "All-Purpose Soundproofing": {
-      "name": "All-Purpose Soundproofing",
-      "description": "<p>Enjoy peace and quiet in even the loudest neighborhood.</p>\n<blockquote>\n  <p>Does not prevent Amplified Hearing cyberware from eavesdropping.</p>\n</blockquote>\n"
-    },
-    "Apartment Affability Furniture Set": {
-      "name": "Apartment Affability Furniture Set",
-      "description": "<p>\n  Easy to assemble furniture in a box. This is the starting Furniture Set for\n  most apartments and corporate conapts.\n</p>\n"
     },
     "Breacher": {
       "name": "Breacher",
@@ -266,13 +266,13 @@
       "name": "Skateboard",
       "description": "<p>\n  The coolest wheels around. Increases moment by 4 m/yds when using the Run\n  Action on level or downwards ground. May cause physical tasks to be done at\n  -2.\n</p>\n"
     },
-    "Smart Vanity": {
-      "name": "Smart Vanity",
-      "description": "<p>\n  Smart grooming station. Comes fully equipped with any tools and makeup you'll\n  need.\n</p>\n"
-    },
     "Smartsticks": {
       "name": "Smartsticks",
       "description": "<p>\n  Smart Drum Sticks. Gives the User a +1 bonus to Play Instrument (Drums) Skill\n  Checks while in use. Doesn't stack with other bonuses to Play Instrument.\n</p>\n"
+    },
+    "Smart Vanity": {
+      "name": "Smart Vanity",
+      "description": "<p>\n  Smart grooming station. Comes fully equipped with any tools and makeup you'll\n  need.\n</p>\n"
     },
     "Solo of Fortune Bodypillow": {
       "name": "Solo of Fortune Bodypillow",

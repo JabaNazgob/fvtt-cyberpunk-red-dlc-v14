@@ -62,8 +62,10 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: WG
+    - book: Woodchipper's Garage
       page: 5
+    - book: Interface RED v3
+      page: 29
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

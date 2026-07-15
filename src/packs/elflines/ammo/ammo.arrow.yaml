@@ -44,8 +44,10 @@ system:
     market: 1
   size: 0
   sources:
-    - book: ELO
+    - book: Elflines Online
       page: 3
+    - book: Interface RED v1
+      page: 42
   type: basic
   variety: arrow
 type: ammo

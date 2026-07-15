@@ -60,8 +60,10 @@ system:
   revealed: true
   rof: 2
   sources:
-    - book: ELO TCG
+    - book: Elflines Online the TCG
       page: 9
+    - book: Interface RED v3
+      page: 73
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

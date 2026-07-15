@@ -50,7 +50,7 @@ system:
     market: 50
   size: 0
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 20
   type: special
   variety: custom

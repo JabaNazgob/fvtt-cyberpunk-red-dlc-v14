@@ -45,7 +45,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: NCW
+    - book: Night City Weather
       page: 6
+    - book: Interface RED v2
+      page: 20
   usage: toggled
 type: gear

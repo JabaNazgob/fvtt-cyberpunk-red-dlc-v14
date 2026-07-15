@@ -75,8 +75,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: 12DoC
+    - book: 12 Days of Cybermas
       page: 3
+    - book: Interface RED v3
+      page: 108
   type: cyberEye
   unarmedAutomaticCalculation: true
   usage: toggled

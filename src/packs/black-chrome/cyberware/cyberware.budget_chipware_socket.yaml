@@ -71,7 +71,7 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 17
   type: neuralWare
   unarmedAutomaticCalculation: true

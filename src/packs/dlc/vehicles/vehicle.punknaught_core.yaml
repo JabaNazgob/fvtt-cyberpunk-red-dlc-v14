@@ -47,8 +47,10 @@ system:
   sdp: 60
   seats: 20
   sources:
-    - book: DP
+    - book: Dreaded Punknaught
       page: 4
+    - book: Interface RED v4
+      page: 40
   speedCombat: 15
   speedNarrative: 60 MPH/97 KPH
 type: vehicle

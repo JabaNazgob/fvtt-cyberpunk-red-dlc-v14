@@ -41,7 +41,7 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 40
   usage: toggled
 type: gear

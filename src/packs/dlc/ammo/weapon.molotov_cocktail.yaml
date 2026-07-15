@@ -60,8 +60,12 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: BC+
+    - book: Black Chrome+
       page: 4
+    - book: Danger Gal Dossier
+      page: 145
+    - book: Interface RED v4
+      page: 12
   unarmedAutomaticCalculation: true
   usage: toggled
   usesType: magazine

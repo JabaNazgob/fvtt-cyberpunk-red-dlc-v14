@@ -75,7 +75,7 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: 12DoC
+    - book: 12 Days of Cutimas
       page: 4
   unarmedAutomaticCalculation: false
   usage: toggled

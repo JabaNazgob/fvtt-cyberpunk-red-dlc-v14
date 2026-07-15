@@ -67,8 +67,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 21
+    - book: Interface RED v3
+      page: 109
   type: cyberArm
   unarmedAutomaticCalculation: true
   usage: toggled

@@ -42,7 +42,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: 12DoGear
+    - book: 12 Days of Gearmas
       page: 3
+    - book: Interface RED v4
+      page: 67
   usage: toggled
 type: gear

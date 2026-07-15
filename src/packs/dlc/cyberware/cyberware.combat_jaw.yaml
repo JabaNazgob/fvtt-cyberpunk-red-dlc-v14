@@ -65,8 +65,14 @@ system:
   rof: 1
   size: 2
   sources:
-    - book: IRv2
+    - book: Interface RED v2
       page: 72
+    - book: Danger Gal Dossier
+      page: 145
+    - book: Your New Best Friend
+      page: 12
+    - book: Interface RED v5
+      page: 82
   type: cyberwareExternal
   unarmedAutomaticCalculation: true
   usage: toggled

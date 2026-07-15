@@ -84,7 +84,11 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: CtR
+    - book: Chasing the Rabbit
       page: 9
+    - book: TotR — Hope Reborn
+      page: 186
+    - book: Interface RED v5
+      page: 21
   usage: equipped
 type: gear

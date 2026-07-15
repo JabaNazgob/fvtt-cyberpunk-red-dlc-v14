@@ -50,7 +50,7 @@ system:
     market: 20
   size: 0
   sources:
-    - book: 12DoC
+    - book: 12 Days of Cutimas
       page: 5
   type: biotoxin
   variety: paintball

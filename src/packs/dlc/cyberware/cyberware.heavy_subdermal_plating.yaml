@@ -80,7 +80,7 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: Going Metal
+    - book: Interface RED v3
       page: 107
   type: borgware
   unarmedAutomaticCalculation: true

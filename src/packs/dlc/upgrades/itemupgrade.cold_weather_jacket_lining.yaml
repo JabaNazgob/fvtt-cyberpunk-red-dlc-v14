@@ -124,8 +124,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: NCW
+    - book: Night City Weather
       page: 6
+    - book: Interface RED v2
+      page: 20
   type: clothing
   unarmedAutomaticCalculation: true
   usage: toggled

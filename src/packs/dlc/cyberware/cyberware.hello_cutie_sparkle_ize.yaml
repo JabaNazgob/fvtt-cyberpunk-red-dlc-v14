@@ -123,7 +123,7 @@ system:
   rof: 1
   size: 2
   sources:
-    - book: 12DoC
+    - book: 12 Days of Cutimas
       page: 6
   type: cyberEye
   unarmedAutomaticCalculation: true

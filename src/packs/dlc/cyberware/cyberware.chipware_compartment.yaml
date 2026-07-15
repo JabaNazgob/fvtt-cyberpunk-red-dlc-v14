@@ -64,8 +64,12 @@ system:
   rof: 1
   size: 3
   sources:
-    - book: MC
+    - book: Micro Chrome
       page: 1
+    - book: Your New Best Friend
+      page: 12
+    - book: Interface RED v5
+      page: 82
   type: cyberEye
   unarmedAutomaticCalculation: true
   usage: toggled

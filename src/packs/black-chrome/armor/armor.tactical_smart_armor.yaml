@@ -56,7 +56,7 @@ system:
     max: 0
     value: 0
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 30
   usage: toggled
 type: armor

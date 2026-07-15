@@ -38,7 +38,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: IRv1
+    - book: Interface RED v1
       page: 62
+    - book: Danger Gal Dossier
+      page: 148
   usage: toggled
 type: gear

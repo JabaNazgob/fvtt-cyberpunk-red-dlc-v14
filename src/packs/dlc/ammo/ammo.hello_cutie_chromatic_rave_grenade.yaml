@@ -69,7 +69,7 @@ system:
     market: 50
   size: 0
   sources:
-    - book: 12DoC
+    - book: 12 Days of Cutimas
       page: 3
   type: basic
   variety: grenade

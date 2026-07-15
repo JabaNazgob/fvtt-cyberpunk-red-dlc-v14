@@ -123,8 +123,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: MwtU
+    - book: Midnight with the Upload
       page: 5
+    - book: Interface RED v3
+      page: 41
   type: cyberdeck
   unarmedAutomaticCalculation: true
   usage: toggled

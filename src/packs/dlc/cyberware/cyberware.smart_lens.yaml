@@ -67,8 +67,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: MC
+    - book: Micro Chrome
       page: 1
+    - book: Danger Gal Dossier
+      page: 38
   type: cyberEye
   unarmedAutomaticCalculation: true
   usage: toggled

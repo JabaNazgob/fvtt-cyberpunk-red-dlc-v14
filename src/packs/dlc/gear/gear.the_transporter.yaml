@@ -38,7 +38,7 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: IRv1
+    - book: Interface RED v1
       page: 63
   usage: toggled
 type: gear

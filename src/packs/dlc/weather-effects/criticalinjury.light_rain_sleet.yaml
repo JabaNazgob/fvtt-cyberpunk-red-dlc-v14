@@ -91,7 +91,7 @@ system:
     type: notApplicable
   revealed: true
   sources:
-    - book: NCW
+    - book: Night City Weather
       page: 4
   treatment:
     dvParamedic: 0

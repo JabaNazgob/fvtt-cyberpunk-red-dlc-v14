@@ -166,8 +166,10 @@ system:
   rof: 1
   size: 0
   sources:
-    - book: AAA
+    - book: All About Agents
       page: 7
+    - book: Interface RED v5
+      page: 29
   type: gear
   unarmedAutomaticCalculation: true
   usage: equipped

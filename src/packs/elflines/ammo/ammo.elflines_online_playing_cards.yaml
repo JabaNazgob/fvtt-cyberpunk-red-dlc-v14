@@ -47,8 +47,10 @@ system:
     market: 10
   size: 0
   sources:
-    - book: ELO TCG
+    - book: Elflines Online the TCG
       page: 2
+    - book: Interface RED v3
+      page: 66
   type: basic
   variety: custom
 type: ammo

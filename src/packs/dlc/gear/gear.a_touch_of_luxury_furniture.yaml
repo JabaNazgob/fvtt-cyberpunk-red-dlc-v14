@@ -39,7 +39,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: CCaCH
+    - book: Cargo Containers & Cube Hotels
       page: 6
+    - book: Interface RED v2
+      page: 37
   usage: toggled
 type: gear

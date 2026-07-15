@@ -47,7 +47,7 @@ system:
     market: 100
   size: 0
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 91
   type: basic
   variety: heavyPistol

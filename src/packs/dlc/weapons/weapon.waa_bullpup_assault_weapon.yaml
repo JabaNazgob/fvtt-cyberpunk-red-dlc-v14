@@ -65,8 +65,10 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: 12DoG
+    - book: 12 Days of Gunmas
       page: 3
+    - book: Danger Gal Dossier
+      page: 144
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

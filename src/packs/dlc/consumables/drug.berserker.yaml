@@ -96,7 +96,9 @@ system:
     market: 100
   revealed: true
   sources:
-    - book: HP
+    - book: Hornet's Pharmacy
       page: 2
+    - book: Interface RED v4
+      page: 4
   usage: toggled
 type: drug

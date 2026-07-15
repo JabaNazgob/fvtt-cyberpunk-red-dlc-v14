@@ -69,8 +69,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: MHCD
+    - book: Must Have Cyberware Deals
       page: 3
+    - book: Interface RED v3
+      page: 47
   type: cyberArm
   unarmedAutomaticCalculation: true
   usage: toggled

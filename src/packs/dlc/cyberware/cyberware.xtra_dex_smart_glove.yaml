@@ -76,8 +76,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: 12DoGear
+    - book: 12 Days of Gearmas
       page: 3
+    - book: Interface RED v4
+      page: 67
   type: cyberArm
   unarmedAutomaticCalculation: true
   usage: toggled

@@ -46,8 +46,10 @@ system:
     market: 10
   size: 0
   sources:
-    - book: BC+
+    - book: Black Chrome+
       page: 3
+    - book: Interface RED v4
+      page: 11
   type: special
   variety: arrow
 type: ammo

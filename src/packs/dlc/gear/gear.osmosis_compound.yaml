@@ -47,7 +47,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: HP
+    - book: Hornet's Pharmacy
       page: 4
+    - book: Interface RED v4
+      page: 6
   usage: toggled
 type: gear

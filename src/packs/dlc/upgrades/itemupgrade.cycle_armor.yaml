@@ -125,8 +125,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: SYW
+    - book: Spinning Your Wheels
       page: 4
+    - book: Interface RED v3
+      page: 78
   type: vehicle
   unarmedAutomaticCalculation: true
   usage: toggled

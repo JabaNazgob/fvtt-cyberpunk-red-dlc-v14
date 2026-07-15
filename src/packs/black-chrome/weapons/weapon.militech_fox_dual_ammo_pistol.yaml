@@ -60,7 +60,7 @@ system:
   revealed: true
   rof: 2
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 113
   unarmedAutomaticCalculation: true
   usage: equipped

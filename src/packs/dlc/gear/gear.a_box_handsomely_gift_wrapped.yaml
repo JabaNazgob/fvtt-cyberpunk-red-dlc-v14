@@ -42,6 +42,8 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  sources: []
+  sources:
+    - book: Achievments & Lootboxes
+      page: 5
   usage: toggled
 type: gear

@@ -65,7 +65,7 @@ system:
   rof: 2
   size: 2
   sources:
-    - book: IRv2
+    - book: Interface RED v2
       page: 72
   type: cyberwareExternal
   unarmedAutomaticCalculation: true

@@ -109,7 +109,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: AAA
+    - book: All About Agents
       page: 9
+    - book: Interface RED v5
+      page: 31
   usage: equipped
 type: gear

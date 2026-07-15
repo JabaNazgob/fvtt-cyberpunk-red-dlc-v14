@@ -70,7 +70,7 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: MD-CL
+    - book: Mixing Drinks — Changing Lives
       page: 16
   type: cyberArm
   unarmedAutomaticCalculation: true

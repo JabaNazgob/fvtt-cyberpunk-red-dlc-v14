@@ -41,7 +41,11 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: SYW
+    - book: Spinning Your Wheels
       page: 5
+    - book: Danger Gal Dossier
+      page: 147
+    - book: Interface RED v3
+      page: 79
   usage: toggled
 type: gear
