@@ -2,7 +2,10 @@ _id: 7fXDqCH4Z3ZLo5kL
 _key: "!items!7fXDqCH4Z3ZLo5kL"
 effects: []
 flags:
-  cyberpunk-red-core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/montage-palette.svg
 name: Montage Variables (Generic Chic)
@@ -20,6 +23,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 1d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -36,6 +43,7 @@ system:
   handsReq: 0
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: false
@@ -118,9 +126,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: BC
-    page: 32
+  sources:
+    - book: BC
+      page: 32
   type: armor
   unarmedAutomaticCalculation: true
   usage: toggled

@@ -2,11 +2,10 @@ _id: nTasr1dMu9uE62BS
 _key: "!items!nTasr1dMu9uE62BS"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: bH6e5E6jHasUKymD
         _stats:
@@ -19,7 +18,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: NdYYLLJXXJitIYgT
         img: modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/oxygen-tanks.svg
         name: Oxygen Tank
@@ -150,7 +153,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: NdYYLLJXXJitIYgT
         img: >-
           systems/cyberpunk-red-core/icons/compendium/gear/antismog_breathing_mask.svg

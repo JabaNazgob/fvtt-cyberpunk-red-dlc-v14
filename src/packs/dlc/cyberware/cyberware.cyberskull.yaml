@@ -2,8 +2,10 @@ _id: KLdu0wuFwC95vtss
 _key: "!items!KLdu0wuFwC95vtss"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: bZzdgdvoCPPPcNB2
         _stats:
@@ -17,7 +19,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: DUMMY_VALUE
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: ja9TOBYRJ7UXdVYX
         img: >-
           modules/cyberpunk-red-dlc/icons/dlc/cyberware/personalized-faceplate.svg

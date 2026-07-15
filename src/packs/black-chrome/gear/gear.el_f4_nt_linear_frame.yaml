@@ -48,11 +48,10 @@ effects:
     transfer: true
     type: base
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: EKL74hanUNBRrKju
         _stats:
@@ -65,7 +64,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: null
         img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
         name: Integrated Techtool
@@ -194,7 +197,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: null
         img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
         name: Integrated Techtool

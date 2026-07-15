@@ -2,11 +2,10 @@ _id: kwurvxruvvm0VxRI
 _key: "!items!kwurvxruvvm0VxRI"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: hfKt0u3rk272nd4t
         _stats:
@@ -19,7 +18,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: null
         img: >-
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/apv-electronic-reciever.svg
@@ -152,7 +155,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: null
         img: systems/cyberpunk-red-core/icons/compendium/ammo/battery.png
         name: Arasaka Prototype Rechargable Battery
@@ -282,7 +289,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: null
         img: >-
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/apv-heat-resistant-barrel.svg

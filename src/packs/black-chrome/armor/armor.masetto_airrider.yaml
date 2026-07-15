@@ -2,11 +2,10 @@ _id: D4kiUBYevT8JBVz2
 _key: "!items!D4kiUBYevT8JBVz2"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: VMV82fR5nFHb6tZ3
         _stats:
@@ -19,7 +18,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: NdYYLLJXXJitIYgT
         img: modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/co2-tank.svg
         name: CO2 Tank

@@ -1,7 +1,11 @@
 _id: RVr6mvr9BQ6hgS1L
 _key: "!items!RVr6mvr9BQ6hgS1L"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/modfire-10x-case.svg
 name: Modfire 10X Carrying Case
@@ -29,6 +33,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -40,8 +45,8 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 114
+  sources:
+    - book: BC
+      page: 114
   usage: toggled
 type: gear

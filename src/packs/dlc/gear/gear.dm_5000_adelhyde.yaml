@@ -1,7 +1,11 @@
 _id: Ig15Vp79R4lMkHGu
 _key: "!items!Ig15Vp79R4lMkHGu"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/dm-5000-adelhyde.svg
 name: DM 5000 Adelhyde
@@ -24,6 +28,7 @@ system:
       </p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: false
     allowedTypes: []
@@ -35,8 +40,8 @@ system:
     market: 100
   providesHardening: false
   revealed: true
-  source:
-    book: MD-CL
-    page: 17
+  sources:
+    - book: MD-CL
+      page: 17
   usage: toggled
 type: gear

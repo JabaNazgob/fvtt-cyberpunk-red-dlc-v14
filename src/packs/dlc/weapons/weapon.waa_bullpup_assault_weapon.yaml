@@ -2,11 +2,10 @@ _id: bU1k6gqkEs9Dn6T8
 _key: "!items!bU1k6gqkEs9Dn6T8"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: BGOLjlnqNIWXpQ4r
         _stats:
@@ -22,8 +21,8 @@ flags:
         flags:
           cyberpunk-red-core:
             _migration:
-              current: 33
-              previous: "24"
+              current: 44
+              previous: "38"
         folder: null
         img: systems/cyberpunk-red-core/icons/compendium/upgrades/smartgun_link.svg
         name: Smartgun Link

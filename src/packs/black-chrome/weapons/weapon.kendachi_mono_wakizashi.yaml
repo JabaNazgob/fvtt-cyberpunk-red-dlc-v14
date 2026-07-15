@@ -2,11 +2,10 @@ _id: 2BgF22RoBRIYCQcz
 _key: "!items!2BgF22RoBRIYCQcz"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: Op9Ax8jOTiZgxSaW
         _stats:
@@ -19,7 +18,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: null
         img: >-
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/biometric-key.svg

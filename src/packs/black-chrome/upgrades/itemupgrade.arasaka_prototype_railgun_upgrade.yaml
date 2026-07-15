@@ -1,7 +1,11 @@
 _id: 8nSzcjNlyulWrZtN
 _key: "!items!8nSzcjNlyulWrZtN"
 effects: []
-flags: {}
+flags:
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: >-
   modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/apv-electronic-reciever.svg
@@ -22,6 +26,10 @@ system:
     isConcealed: false
   critFailEffect: jammed
   damage: 5d6
+  damageCrit:
+    bonus: 5
+    count: 2
+    threshold: 0
   description:
     value: |
       <p>
@@ -53,6 +61,7 @@ system:
   handsReq: 0
   ignoreArmorPercent: 0
   ignoreBelowSP: 7
+  ignoredByBrowser: false
   installLocation: mall
   installedItems:
     allowed: true
@@ -132,9 +141,9 @@ system:
   revealed: true
   rof: 1
   size: 1
-  source:
-    book: BC
-    page: 102
+  sources:
+    - book: BC
+      page: 102
   type: weapon
   unarmedAutomaticCalculation: true
   usage: toggled

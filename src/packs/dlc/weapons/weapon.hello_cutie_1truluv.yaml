@@ -2,11 +2,10 @@ _id: okVi2Gn9qk8KH7sD
 _key: "!items!okVi2Gn9qk8KH7sD"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: axaFfJjrxSTLFNnS
         _stats:
@@ -22,8 +21,8 @@ flags:
         flags:
           cyberpunk-red-core:
             _migration:
-              current: 33
-              previous: "24"
+              current: 44
+              previous: "38"
         folder: null
         img: systems/cyberpunk-red-core/icons/compendium/upgrades/sniping_scope.svg
         name: Sniping Scope
@@ -159,8 +158,8 @@ flags:
         flags:
           cyberpunk-red-core:
             _migration:
-              current: 33
-              previous: "24"
+              current: 44
+              previous: "38"
         folder: null
         img: >-
           systems/cyberpunk-red-core/icons/compendium/upgrades/infrared_nightvision_scope.svg
@@ -292,7 +291,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: null
         img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/1TruLuv-Onboard-Agent.svg
         name: 1TruLuv Onboard Agent

@@ -174,8 +174,8 @@ effects:
 flags:
   cyberpunk-red-core:
     _migration:
-      current: 33
-      previous: "24"
+      current: 44
+      previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/default/default_drink.svg
 name: Drink Master 3000 Beverages
@@ -220,11 +220,12 @@ system:
       <p>GM will tell your when you crave more Smash. Roleplay accordingly.</p>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   price:
     market: 100
   revealed: true
-  source:
-    book: BC
-    page: 42
+  sources:
+    - book: BC
+      page: 42
   usage: snorted
 type: drug

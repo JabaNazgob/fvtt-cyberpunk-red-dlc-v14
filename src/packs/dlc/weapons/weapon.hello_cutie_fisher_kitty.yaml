@@ -2,11 +2,10 @@ _id: W5JR7Bb59cW6vLFl
 _key: "!items!W5JR7Bb59cW6vLFl"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: XiZPBkv0ul8vCcJw
         _stats:
@@ -23,8 +22,8 @@ flags:
         flags:
           cyberpunk-red-core:
             _migration:
-              current: 38
-              previous: "24"
+              current: 44
+              previous: "38"
           scene-packer:
             hash: 453b05f8b3adc19bceb087b7e3d30217f693b224
         folder: lRSD8hvBUPOJcvIv

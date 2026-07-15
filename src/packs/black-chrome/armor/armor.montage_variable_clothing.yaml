@@ -2,11 +2,10 @@ _id: ETPujR8m7tEoYFQW
 _key: "!items!ETPujR8m7tEoYFQW"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/armor/variable-clothing-line.svg
 name: Montage Variable Clothing
@@ -43,6 +42,7 @@ system:
   headLocation:
     ablation: 0
     sp: 0
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -62,8 +62,8 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
-  source:
-    book: BC
-    page: 32
+  sources:
+    - book: BC
+      page: 32
   usage: toggled
 type: armor

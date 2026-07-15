@@ -2,11 +2,10 @@ _id: ailPhc0y7B5jxhrV
 _key: "!items!ailPhc0y7B5jxhrV"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "24"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: CwXZr9AqzJogJ8Ud
         _stats:
@@ -20,6 +19,10 @@ flags:
           systemVersion: v0.0.0dev
         effects: []
         flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
           exportSource:
             coreVersion: "12.343"
             system: cyberpunk-red-core

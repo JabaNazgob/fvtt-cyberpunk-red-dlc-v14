@@ -2,7 +2,10 @@ _id: jgSJKsyaqUANw0zL
 _key: "!items!jgSJKsyaqUANw0zL"
 effects: []
 flags:
-  cyberpunk-red-core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/personalized-faceplate.svg
 name: Personalized Faceplate

@@ -67,7 +67,7 @@ system:
     market: 5000
   quality: excellent
   revealed: true
-  rof: 1
+  rof: 2
   sources:
     - book: Black Chrome
       page: 112

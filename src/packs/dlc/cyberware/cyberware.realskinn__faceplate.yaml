@@ -2,7 +2,10 @@ _id: wDkNfs8Dd2BqNWjd
 _key: "!items!wDkNfs8Dd2BqNWjd"
 effects: []
 flags:
-  cyberpunk-red-core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/realskinn-faceplate.svg
 name: Realskinn™ Faceplate

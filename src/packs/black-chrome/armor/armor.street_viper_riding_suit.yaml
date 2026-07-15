@@ -2,11 +2,10 @@ _id: OzfbjQ3nPCCf6BQQ
 _key: "!items!OzfbjQ3nPCCf6BQQ"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: xrWzQ9vl8tsZAi3y
         _stats:
@@ -19,7 +18,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: null
         img: >-
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/street-viper-blades.svg
@@ -152,7 +155,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: NdYYLLJXXJitIYgT
         img: >-
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/street-viper-blades.svg

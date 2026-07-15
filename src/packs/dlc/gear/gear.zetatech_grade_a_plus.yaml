@@ -56,11 +56,10 @@ effects:
     type: base
 flags:
   core: {}
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 37
-      previous: "36"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: V9o8Xz7fiYs41nOP
         _stats:
@@ -73,7 +72,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: 2MQUC6Pzw6Bvtywl
         img: >-
           systems/cyberpunk-red-core/icons/compendium/default/Default_Program.svg
@@ -203,7 +206,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: 2MQUC6Pzw6Bvtywl
         img: >-
           systems/cyberpunk-red-core/icons/compendium/default/Default_Program.svg
@@ -333,7 +340,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: 2MQUC6Pzw6Bvtywl
         img: >-
           systems/cyberpunk-red-core/icons/compendium/default/Default_Program.svg
@@ -462,7 +473,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: 2MQUC6Pzw6Bvtywl
         img: >-
           systems/cyberpunk-red-core/icons/compendium/default/Default_Program.svg

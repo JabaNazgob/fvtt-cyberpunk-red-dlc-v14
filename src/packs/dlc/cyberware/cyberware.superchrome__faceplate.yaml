@@ -47,7 +47,10 @@ effects:
     transfer: true
     type: base
 flags:
-  cyberpunk-red-core: {}
+  cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/superchrome-faceplate.svg
 name: Superchrome® Faceplate

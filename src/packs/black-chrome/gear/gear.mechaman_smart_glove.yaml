@@ -2,8 +2,10 @@ _id: nr9onGjdx3SMLB64
 _key: "!items!nr9onGjdx3SMLB64"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: eXLdBYdb5QtxxGpz
         _stats:
@@ -16,7 +18,11 @@ flags:
           systemId: cyberpunk-red-core
           systemVersion: v0.0.0dev
         effects: []
-        flags: {}
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
         folder: null
         img: >-
           systems/cyberpunk-red-core/icons/compendium/default/Default_Cyberdeck.svg
@@ -164,6 +170,7 @@ system:
       </blockquote>
   equipped: owned
   favorite: false
+  ignoredByBrowser: false
   installedItems:
     allowed: true
     allowedTypes:
@@ -177,8 +184,8 @@ system:
     market: 500
   providesHardening: false
   revealed: true
-  source:
-    book: BC
-    page: 37
+  sources:
+    - book: BC
+      page: 37
   usage: toggled
 type: gear

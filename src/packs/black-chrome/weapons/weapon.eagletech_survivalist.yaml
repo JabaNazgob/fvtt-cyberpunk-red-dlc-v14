@@ -2,11 +2,10 @@ _id: 7q61PwpWp0KM6vYb
 _key: "!items!7q61PwpWp0KM6vYb"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
     _migration:
-      current: 38
-      previous: "37"
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: RkUMZmgSTVWGgYfP
         _stats:
@@ -22,8 +21,8 @@ flags:
         flags:
           cyberpunk-red-core:
             _migration:
-              current: 33
-              previous: "24"
+              current: 44
+              previous: "38"
         folder: null
         img: >-
           systems/cyberpunk-red-core/icons/compendium/upgrades/shotgun_underbarrel.svg
@@ -167,8 +166,8 @@ flags:
         flags:
           cyberpunk-red-core:
             _migration:
-              current: 33
-              previous: "24"
+              current: 44
+              previous: "38"
         folder: null
         img: systems/cyberpunk-red-core/icons/compendium/upgrades/sniping_scope.svg
         name: Sniping Scope

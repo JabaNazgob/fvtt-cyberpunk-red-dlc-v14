@@ -2,8 +2,10 @@ _id: UnVRX1UNOtUtN5xz
 _key: "!items!UnVRX1UNOtUtN5xz"
 effects: []
 flags:
-  cprInstallTree: {}
   cyberpunk-red-core:
+    _migration:
+      current: 44
+      previous: "38"
     cprInstallTree:
       - _id: 8mUwzInqs3WxCw39
         _stats:
@@ -19,6 +21,9 @@ flags:
         effects: []
         flags:
           cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
             cprInstallTree:
               - _id: FEW4LLkXMr0GFBcN
                 _stats:
