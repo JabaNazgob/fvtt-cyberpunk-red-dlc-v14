@@ -45,7 +45,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: ELO-TCG
+    - book: Elflines Online — TCG
       page: 2
+    - book: Interface RED v3
+      page: 66
   usage: toggled
 type: gear

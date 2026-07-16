@@ -47,7 +47,7 @@ system:
     market: 10
   size: 0
   sources:
-    - book: Elflines Online the TCG
+    - book: Elflines Online — TCG
       page: 2
     - book: Interface RED v3
       page: 66
