@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/default/Default_Armor.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/armor/dry-suit.svg
 name: Dry Suit
 ownership:
   IMmQeDHuejnDb1W4: 3
@@ -53,7 +53,7 @@ system:
     max: 10
     value: 10
   sources:
-    - book: TotRSS
+    - book: TotR — Street Stories
       page: 57
   usage: toggled
 type: armor

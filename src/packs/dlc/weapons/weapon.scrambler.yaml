@@ -61,7 +61,7 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: TotRSS
+    - book: TotR — Street Stories
       page: 110
   unarmedAutomaticCalculation: true
   usage: toggled

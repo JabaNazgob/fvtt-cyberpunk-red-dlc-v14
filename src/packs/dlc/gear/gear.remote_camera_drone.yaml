@@ -46,7 +46,7 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: TotR
+    - book: TotR — Street Stories
       page: 126
   usage: toggled
 type: gear

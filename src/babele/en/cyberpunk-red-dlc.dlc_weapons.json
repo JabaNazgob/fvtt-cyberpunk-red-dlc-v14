@@ -234,6 +234,11 @@
       "description": "<p>\n  As well as normal Grenade Ammunition, this weapon can fire road flares*. They\n  don't deal any damage, but if fired into the air can be seen from 3 miles. You\n  cannot install this weapon in Pop-up Cyberware.\n</p>\n<p>\n  <em\n    >*Currently not supported so will need to manually delete a road flare from\n    actors inventory after firing</em\n  >\n</p>\n",
       "dvTable": "DV Grenade Launcher"
     },
+    "Growler": {
+      "name": "Growler",
+      "description": "<p>\n  An Exotic Rocket Launcher. Anything with a biological brain must make a\n  <strong>DV 19 Resist Torture/Drugs Check</strong> or suffer a\n  @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.oi3MEn9Y8zdbooNe]{Brain\n  Injury} Critical Injury. Reloading takes 2 Actions. Required BODY 11+ unless\n  mounted.\n</p>\n",
+      "dvTable": "DV Rocket Launcher"
+    },
     "GunMart Hawk's Eye": {
       "name": "GunMart Hawk's Eye",
       "description": "<p>\n  A concealable poor quality folding bow, reloaded as part of an Attack action.\n</p>\n<p>\n  If you roll 1 on Attack (Crit fail) the weapon jams and requires using an\n  action to clear.\n</p>\n",
@@ -273,11 +278,6 @@
       "name": "GunMart Snipe-Starr",
       "description": "<p>\n  A long-distance sniper rifle. Holds 4 bullets in a magazine. If you roll 1 on\n  Attack (Crit fail) the gun jams and requires using an action to clear.\n</p>\n",
       "dvTable": "DV Sniper Rifle"
-    },
-    "Growler": {
-      "name": "Growler",
-      "description": "<p>\n  An Exotic Rocket Launcher. Anything with a biological brain must make a\n  <strong>DV 19 Resist Torture/Drugs Check</strong> or suffer a\n  @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.oi3MEn9Y8zdbooNe]{Brain\n  Injury} Critical Injury. Reloading takes 2 Actions. Required BODY 11+ unless\n  mounted.\n</p>\n",
-      "dvTable": "DV Rocket Launcher"
     },
     "Hellbringer": {
       "name": "Hellbringer",

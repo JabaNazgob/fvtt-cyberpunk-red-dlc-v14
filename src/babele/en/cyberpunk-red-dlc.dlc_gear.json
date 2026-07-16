@@ -192,11 +192,11 @@
     },
     "Diving Rebreather": {
       "name": "Diving Rebreather",
-      "description": "<p>\n  a self-contained underwater breathing apparatus that recycles your exhaled\n  breath instead of releasing it into the water as bubbles.\n</p>\n"
+      "description": "<p>\n  A self-contained underwater breathing apparatus that recycles your exhaled\n  breath instead of releasing it into the water as bubbles.\n</p>\n"
     },
     "Dosimeter Badge": {
       "name": "Dosimeter Badge",
-      "description": "<p>\n  a personal device worn to measure and monitor radiation exposure. Alerts when\n  within 10m/yards of dangerous radiation levels.\n</p>\n"
+      "description": "<p>\n  A personal device worn to measure and monitor radiation exposure. Alerts when\n  within 10m/yards of dangerous radiation levels.\n</p>\n"
     },
     "DM 5000 Adelhyde": {
       "name": "DM 5000 Adelhyde",
@@ -406,13 +406,13 @@
       "name": "Professional Disguise Kit",
       "description": "<p>\n  With a combination of stage makeup and RealSkinn™ prosthetics you can look\n  like a whole new you! Provides a +2 bonus to Personal Grooming checks.\n</p>\n"
     },
-    "Retina Lenses": {
-      "name": "Retina Lenses",
-      "description": "<p>\n  A fabricated lens imprinted with a copy of somebody's retinal patterns. You\n  must provide the Techie with a valid retinal pattern prior to fabrication.\n</p>\n<blockquote><p>Capable of fooling Retinal Scanners.</p></blockquote>\n"
-    },
     "Remote Camera Drone": {
       "name": "Remote Camera Drone",
       "description": "<p>\n  A personal drone that must be directly controlled via a connected Agent. The\n  drone is equipped with the following upgrades:\n</p>\n<ul>\n  <li><p>Observation Camera</p></li>\n  <li><p>Holographic Projector</p></li>\n  <li><p>Smoke Grenade Launcher</p></li>\n</ul>\n"
+    },
+    "Retina Lenses": {
+      "name": "Retina Lenses",
+      "description": "<p>\n  A fabricated lens imprinted with a copy of somebody's retinal patterns. You\n  must provide the Techie with a valid retinal pattern prior to fabrication.\n</p>\n<blockquote><p>Capable of fooling Retinal Scanners.</p></blockquote>\n"
     },
     "Roller Derby Skates": {
       "name": "Roller Derby Skates",
