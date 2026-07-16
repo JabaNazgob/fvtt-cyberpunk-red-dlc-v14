@@ -75,6 +75,8 @@ system:
   rof: 1
   size: 2
   sources:
+    - book: Going Metal
+      page: 108
     - book: Interface RED v3
       page: 108
   type: cyberLeg

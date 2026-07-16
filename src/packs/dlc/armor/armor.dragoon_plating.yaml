@@ -58,6 +58,8 @@ system:
     max: 0
     value: 0
   sources:
+    - book: Going Metal
+      page: 105
     - book: Interface RED v3
       page: 105
   usage: equipped

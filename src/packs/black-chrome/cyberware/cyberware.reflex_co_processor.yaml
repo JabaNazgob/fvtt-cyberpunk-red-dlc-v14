@@ -71,6 +71,8 @@ system:
       page: 21
     - book: Danger Gal Dossier
       page: 146
+    - book: Exotics of 2045
+      page: 73
     - book: Interface RED v2
       page: 73
   type: neuralWare

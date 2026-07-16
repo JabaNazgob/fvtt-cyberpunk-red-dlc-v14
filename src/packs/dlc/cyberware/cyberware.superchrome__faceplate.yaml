@@ -111,6 +111,8 @@ system:
   rof: 1
   size: 1
   sources:
+    - book: Going Metal
+      page: 105
     - book: Interface RED v3
       page: 105
   type: cyberwareInternal

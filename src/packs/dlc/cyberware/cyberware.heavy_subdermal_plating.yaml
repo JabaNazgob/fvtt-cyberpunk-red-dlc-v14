@@ -80,6 +80,8 @@ system:
   rof: 1
   size: 1
   sources:
+    - book: Going Metal
+      page: 107
     - book: Interface RED v3
       page: 107
   type: borgware

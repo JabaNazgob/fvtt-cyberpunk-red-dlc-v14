@@ -115,6 +115,8 @@ system:
   sources:
     - book: Black Chrome
       page: 18
+    - book: Exotics of 2045
+      page: 73
     - book: Interface RED v2
       page: 73
   type: cyberLeg

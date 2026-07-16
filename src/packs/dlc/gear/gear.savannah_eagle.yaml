@@ -38,6 +38,8 @@ system:
   providesHardening: false
   revealed: true
   sources:
+    - book: All About Drones
+      page: 60
     - book: Interface RED v1
       page: 60
   usage: toggled

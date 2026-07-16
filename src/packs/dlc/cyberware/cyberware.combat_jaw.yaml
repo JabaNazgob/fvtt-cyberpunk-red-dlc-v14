@@ -65,6 +65,8 @@ system:
   rof: 1
   size: 2
   sources:
+    - book: Exotics of 2045
+      page: 72
     - book: Interface RED v2
       page: 72
     - book: Danger Gal Dossier

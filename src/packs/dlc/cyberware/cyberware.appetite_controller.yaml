@@ -73,6 +73,8 @@ system:
   sources:
     - book: Must Have Cyberware Deals
       page: 2
+    - book: Exotics of 2045
+      page: 72
     - book: Interface RED v2
       page: 72
     - book: Interface RED v3
