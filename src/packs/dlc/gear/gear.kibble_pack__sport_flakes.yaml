@@ -38,7 +38,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: CtR
+    - book: Collecting the Random
       page: 14
+    - book: Interface RED v3
+      page: 64
   usage: toggled
 type: gear
