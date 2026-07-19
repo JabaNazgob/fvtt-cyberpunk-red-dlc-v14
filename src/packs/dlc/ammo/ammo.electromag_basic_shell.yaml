@@ -44,8 +44,10 @@ system:
     market: 10
   size: 0
   sources:
-    - book: Core
-      page: 345
+    - book: Toggle's Temple
+      page: 9
+    - book: Interface RED v5
+      page: 43
   type: basic
   variety: custom
 type: ammo

@@ -121,8 +121,10 @@ system:
   rof: 1
   size: 1
   sources:
-    - book: TT
+    - book: Toggle's Temple
       page: 14
+    - book: Interface RED v5
+      page: 48
   type: weapon
   unarmedAutomaticCalculation: true
   usage: toggled

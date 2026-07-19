@@ -64,8 +64,10 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: TT
+    - book: Toggle's Temple
       page: 10
+    - book: Interface RED v5
+      page: 44
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

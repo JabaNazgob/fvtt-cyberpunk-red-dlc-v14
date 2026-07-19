@@ -8,7 +8,7 @@ flags:
       previous: "38"
 folder: s4zKHNhHrJAQYVh4
 img: systems/cyberpunk-red-core/icons/compendium/weapons/GrenadeLauncher_poor.svg
-name: GunMart Portta-Morta
+name: GunMart Porta-Morta
 ownership:
   GhPkzdD89HrVDo6W: 3
   default: 0
@@ -64,8 +64,10 @@ system:
   revealed: true
   rof: 1
   sources:
-    - book: TT
+    - book: Toggle's Temple
       page: 12
+    - book: Interface RED v5
+      page: 46
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

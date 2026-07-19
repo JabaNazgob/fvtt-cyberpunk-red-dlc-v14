@@ -47,8 +47,10 @@ system:
     market: 100
   size: 0
   sources:
-    - book: Core
-      page: 346
+    - book: Toggle's Temple
+      page: 9
+    - book: Interface RED v5
+      page: 43
   type: incendiary
   variety: custom
 type: ammo

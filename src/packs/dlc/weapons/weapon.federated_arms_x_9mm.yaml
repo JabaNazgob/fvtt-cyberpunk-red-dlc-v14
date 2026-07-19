@@ -59,8 +59,12 @@ system:
   revealed: true
   rof: 2
   sources:
-    - book: TT
+    - book: Cyberpunk RED
+      page: 342
+    - book: Toggle's Temple
       page: 3
+    - book: Interface RED v5
+      page: 37
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine

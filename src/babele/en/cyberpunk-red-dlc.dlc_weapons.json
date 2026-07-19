@@ -4,58 +4,6 @@
     "dvTable": "system.dvTable"
   },
   "entries": {
-    "Assault Rifles": {
-      "name": "Assault Rifles",
-      "description": ""
-    },
-    "Bows": {
-      "name": "Bows",
-      "description": ""
-    },
-    "Crossbows": {
-      "name": "Crossbows",
-      "description": ""
-    },
-    "Grenade Launchers": {
-      "name": "Grenade Launchers",
-      "description": ""
-    },
-    "Heavy Pistols": {
-      "name": "Heavy Pistols",
-      "description": ""
-    },
-    "Heavy SMG": {
-      "name": "Heavy SMG",
-      "description": ""
-    },
-    "Medium Pistols": {
-      "name": "Medium Pistols",
-      "description": ""
-    },
-    "Rocket Launchers": {
-      "name": "Rocket Launchers",
-      "description": ""
-    },
-    "Shotguns": {
-      "name": "Shotguns",
-      "description": ""
-    },
-    "SMGs": {
-      "name": "SMGs",
-      "description": ""
-    },
-    "Sniper Rifles": {
-      "name": "Sniper Rifles",
-      "description": ""
-    },
-    "Toggles Temple": {
-      "name": "Toggles Temple",
-      "description": ""
-    },
-    "Very Heavy Pistols": {
-      "name": "Very Heavy Pistols",
-      "description": ""
-    },
     "Aegis": {
       "name": "Aegis",
       "description": "<p>\n  This weapon can't cause Critical Injuries, can't ablate armor, and if it would\n  reduce a target to under 1 HP it instead leaves them Unconscious on 1 HP.\n</p>\n",
@@ -306,8 +254,8 @@
       "description": "<p>\n  A poor quality crossbow equipped with a night vision scope, reloaded as part\n  of an Attack action.\n</p>\n<p>\n  If you roll 1 on Attack (Crit fail) the weapon jams and requires using an\n  action to clear.\n</p>\n",
       "dvTable": "DV Bows & Crossbows"
     },
-    "GunMart Portta-Morta": {
-      "name": "GunMart Portta-Morta",
+    "GunMart Porta-Morta": {
+      "name": "GunMart Porta-Morta",
       "description": "<p>\n  A poor quality grenade launcher equipped with a drum magazine. If you roll 1\n  on Attack (Crit fail) the gun jams and requires using an action to clear.\n</p>\n",
       "dvTable": "DV Grenade Launcher"
     },
