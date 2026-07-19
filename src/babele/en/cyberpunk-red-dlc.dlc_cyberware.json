@@ -237,6 +237,10 @@
       "description": "<p>\n  High fashion Cyberlegs with integrated Talon Foot blades in each heel. Blades\n  can not be removed.\n</p>\n<p>\n  Paired Cyberlegs, 1000eb for both legs. Each leg has 3 slots for Cyberleg or\n  Cyberlimb Options. Roll Humanity Loss once for the pair of legs. Each leg can\n  suffer separate Critical Injuries and must be repaired individually.\n</p>\n",
       "dvTable": ""
     },
+    "Segotari Mindgames Chip": {
+      "name": "Segotari Mindgames Chip",
+      "description": ""
+    },
     "Signal Jammer": {
       "name": "Signal Jammer",
       "description": "<p>\n  Produces a jammer field over 6m/yd by 6m/yd (3x3 squares). Any wireless\n  transmission attempt must succeed at a\n  <strong>DV13 Electronics/Security Tech</strong> <strong>Check</strong> Action.\n</p>\n"

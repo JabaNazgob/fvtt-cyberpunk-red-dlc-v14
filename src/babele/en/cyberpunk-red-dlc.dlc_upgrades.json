@@ -196,6 +196,18 @@
       "description": "<p>\n  Linked with your Agent to electrify your bike. A thief must resist\n  <strong>DV13 Resist Torture/Drugs</strong> or unhand the bike.\n</p>\n<p>Bike is registered with a Nano-VIN.</p>\n",
       "dvTable": ""
     },
+    "Segotari Agent Game": {
+      "name": "Segotari Agent Game",
+      "description": "<p>\n  A game that uses the Self-Adaptive AI onboard your Agent to generate new\n  levels or respond in real time to player input.\n</p>\n"
+    },
+    "Segotari RUSH Game (Used)": {
+      "name": "Segotari RUSH Game (Used)",
+      "description": "<p>\n  A used virtual reality game formatted for the original RUSH virtual reality\n  headset.\n</p>\n"
+    },
+    "Segotari RUSH Revolution Game": {
+      "name": "Segotari RUSH Revolution Game",
+      "description": "<p>A virtual reality game formatted for the RUSH Revolution headset.</p>\n"
+    },
     "Shining Finger": {
       "name": "Shining Finger",
       "description": "<p>Agent App.</p>\n<p>A Pornographic application. Charged monthly</p>\n"

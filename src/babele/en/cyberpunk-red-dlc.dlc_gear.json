@@ -394,6 +394,18 @@
       "name": "Segotari Double Agent",
       "description": "<p>\n  AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending on\n  circumstance.\n</p>\n<blockquote>\n  <p>\n    A <strong>Poor Quality Agent</strong> includes a display screen, touchpad,\n    microphone, and camera.\n  </p>\n  <ul>\n    <li><p>Remote Hacking DV 17 / Physical Hacking DV 15</p></li>\n  </ul>\n</blockquote>\n"
     },
+    "Segotari RUSH Revolution": {
+      "name": "Segotari RUSH Revolution",
+      "description": "<p>\n  An interactive braindance headset that can generate artificial sensations.\n</p>\n"
+    },
+    "Segotari RUSH (Used)": {
+      "name": "Segotari RUSH (Used)",
+      "description": "<p>A bulky used braindance headset.</p>\n"
+    },
+    "Segotari VRIcade Cabinet": {
+      "name": "Segotari VRIcade Cabinet",
+      "description": "<p>A bulky VRIcade cabinet.</p>\n"
+    },
     "Skateboard": {
       "name": "Skateboard",
       "description": "<p>\n  The coolest wheels around. Increases moment by 4 m/yds when using the Run\n  Action on level or downwards ground. May cause physical tasks to be done at\n  -2.\n</p>\n"
