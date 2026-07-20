@@ -29,7 +29,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/upgrades/grenade_launcher_underbarrel.svg
         name: Grenade Launcher Underbarrel
         ownership:
-          C3z4G1obpqMQAu25: 3
           default: 0
         sort: 275000
         system:

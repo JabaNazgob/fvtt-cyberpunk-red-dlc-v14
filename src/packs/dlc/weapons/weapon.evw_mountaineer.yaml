@@ -29,8 +29,6 @@ flags:
           modules/cyberpunk-red-dlc/icons/dlc/upgrades/grapple-gun-underbarrel.svg
         name: Grapple Gun Underbarrel
         ownership:
-          C3z4G1obpqMQAu25: 3
-          GhPkzdD89HrVDo6W: 3
           default: 0
         sort: 350000
         system:

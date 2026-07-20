@@ -6,11 +6,10 @@ flags:
     _migration:
       current: 44
       previous: "38"
-folder: HM8bGbUXbIZM3Zhj
+folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol.svg
-name: Faisal's Convenice (Basic)
+name: Faisal's Convenience (Basic)
 ownership:
-  GhPkzdD89HrVDo6W: 3
   default: 0
 sort: 0
 system:
@@ -31,7 +30,9 @@ system:
   description:
     value: |
       <p>
-        A single use disposable very heavy pistol. It can't be concealed or reloaded.
+        A single use disposable very heavy pistol loaded with
+        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.NQP4I9heyv9fXj46]{8 Basic
+        Rounds}. It can't be concealed or reloaded.
       </p>
   dvTable: DV Pistol
   equipped: owned
@@ -48,8 +49,7 @@ system:
     allowedTypes:
       - itemUpgrade
       - ammo
-    list:
-      - VlrSFe8FbKgt0tKH
+    list: []
     slots: 3
     usedSlots: 0
   isRanged: true
@@ -62,6 +62,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Toggle's Temple
       page: 5

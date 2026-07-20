@@ -1,16 +1,15 @@
-_id: TKPEd1SRn1JoHU8J
-_key: "!items!TKPEd1SRn1JoHU8J"
+_id: YB4NohwRN5BSO7RE
+_key: "!items!YB4NohwRN5BSO7RE"
 effects: []
 flags:
   cyberpunk-red-core:
     _migration:
       current: 44
       previous: "38"
-folder: BKpbrVAy1KKpXtaU
+folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun_poor.svg
-name: Faisal's OnlyChance (Rubber)
+name: Faisal's Only Chance (Basic)
 ownership:
-  GhPkzdD89HrVDo6W: 3
   default: 0
 sort: 0
 system:
@@ -32,7 +31,9 @@ system:
   description:
     value: |
       <p>
-        A disposable shotgun that cannot be reloaded. If you roll 1 on Attack (Crit
+        A single use disposable shotgun loaded with
+        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.YFnV9OetCCRru5Ky]{4 Basic
+        Rounds}. It can't be concealed or reloaded. If you roll 1 on Attack (Crit
         fail) the gun jams and requires using an action to clear.
       </p>
   dvTable: DV Shotgun (Slug)
@@ -50,8 +51,7 @@ system:
     allowedTypes:
       - itemUpgrade
       - ammo
-    list:
-      - pK98wGz27vvOEse6
+    list: []
     slots: 3
     usedSlots: 0
   isRanged: true
@@ -64,6 +64,7 @@ system:
   quality: poor
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Toggle's Temple
       page: 8

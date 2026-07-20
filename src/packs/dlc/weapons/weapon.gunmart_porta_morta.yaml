@@ -29,7 +29,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/upgrades/generic_drum_magazine.svg
         name: Drum Magazine (Grenade Launcher)
         ownership:
-          C3z4G1obpqMQAu25: 3
           default: 0
         sort: 250000
         system:

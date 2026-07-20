@@ -1,16 +1,15 @@
-_id: YB4NohwRN5BSO7RE
-_key: "!items!YB4NohwRN5BSO7RE"
+_id: VrbmDxeTEheV9Rbz
+_key: "!items!VrbmDxeTEheV9Rbz"
 effects: []
 flags:
   cyberpunk-red-core:
     _migration:
       current: 44
       previous: "38"
-folder: BKpbrVAy1KKpXtaU
+folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun_poor.svg
-name: Faisal's OnlyChance (Basic)
+name: Faisal's Only Chance (Incendiary)
 ownership:
-  GhPkzdD89HrVDo6W: 3
   default: 0
 sort: 0
 system:
@@ -32,8 +31,10 @@ system:
   description:
     value: |
       <p>
-        A disposable shotgun that cannot be reloaded. If you roll 1 on Attack (Crit
-        fail) the gun jams and requires using an action to clear.
+        A single use disposable shotgun loaded with
+        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.yxGinCJXUJjdsK0g]{4
+        Incendiary Rounds}. If you roll 1 on Attack (Crit fail) the gun jams and
+        requires using an action to clear.
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned
@@ -50,8 +51,7 @@ system:
     allowedTypes:
       - itemUpgrade
       - ammo
-    list:
-      - 5dYL5AvMHXkjluXz
+    list: []
     slots: 3
     usedSlots: 0
   isRanged: true
@@ -60,10 +60,11 @@ system:
     max: 4
     value: 4
   price:
-    market: 20
+    market: 50
   quality: poor
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Toggle's Temple
       page: 8

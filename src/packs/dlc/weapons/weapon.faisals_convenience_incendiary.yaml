@@ -1,16 +1,15 @@
-_id: olBA53Ch1eB6HNwW
-_key: "!items!olBA53Ch1eB6HNwW"
+_id: HfBIuViqcC44Zs0p
+_key: "!items!HfBIuViqcC44Zs0p"
 effects: []
 flags:
   cyberpunk-red-core:
     _migration:
       current: 44
       previous: "38"
-folder: HM8bGbUXbIZM3Zhj
+folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol.svg
-name: Faisal's Convenice (Armor-Piercing)
+name: Faisal's Convenience (Incendiary)
 ownership:
-  GhPkzdD89HrVDo6W: 3
   default: 0
 sort: 0
 system:
@@ -31,7 +30,9 @@ system:
   description:
     value: |
       <p>
-        A single use disposable very heavy pistol. It can't be concealed or reloaded.
+        A single use disposable very heavy pistol loaded with
+        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.TIDzfziwhCxuIrnT]{8
+        Incendiary Rounds}. It can't be concealed or reloaded.
       </p>
   dvTable: DV Pistol
   equipped: owned
@@ -48,8 +49,7 @@ system:
     allowedTypes:
       - itemUpgrade
       - ammo
-    list:
-      - 5K9i27QIq9JLebdp
+    list: []
     slots: 3
     usedSlots: 0
   isRanged: true
@@ -62,6 +62,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Toggle's Temple
       page: 5

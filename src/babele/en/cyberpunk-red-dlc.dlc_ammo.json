@@ -56,6 +56,10 @@
       "name": "Janus Hex Heavy Scent Balls",
       "description": "<p>Pack of 4 Janus Hex Heavy Scent Balls.</p>\n<blockquote>\n  <p>Requires Maker Rank 6 or higher to Fabricate or Modify.</p>\n</blockquote>\n"
     },
+    "M-02 Rounds": {
+      "name": "M-02 Rounds",
+      "description": "<p>\n  Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n  Comes in a drum of 80.\n</p>\n"
+    },
     "MagnaSlot BatteryBrick": {
       "name": "MagnaSlot BatteryBrick",
       "description": "<p>\n  Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can\n  be recharged in 1 hour.\n</p>\n"
@@ -71,10 +75,6 @@
     "Mega Ouchie ModBall": {
       "name": "Mega Ouchie ModBall",
       "description": "<p>\n  Acts as\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Biotoxin}\n  Ammunition\n</p>\n"
-    },
-    "M-02 Rounds": {
-      "name": "M-02 Rounds",
-      "description": "<p>\n  Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n  Comes in a drum of 80.\n</p>\n"
     },
     "Nova Model 757 Rounds": {
       "name": "Nova Model 757 Rounds",

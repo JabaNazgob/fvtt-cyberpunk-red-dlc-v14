@@ -29,7 +29,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/upgrades/generic_drum_magazine.svg
         name: Drum Magazine (Assault Rifle)
         ownership:
-          C3z4G1obpqMQAu25: 3
           default: 0
         sort: 300000
         system:
@@ -164,7 +163,6 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/upgrades/sniping_scope.svg
         name: Sniping Scope
         ownership:
-          C3z4G1obpqMQAu25: 3
           default: 0
         sort: 212500
         system:

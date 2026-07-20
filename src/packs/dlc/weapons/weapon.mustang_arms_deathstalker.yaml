@@ -28,8 +28,6 @@ flags:
         img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/airhypo-bayonet.svg
         name: Airhypo Bayonet
         ownership:
-          C3z4G1obpqMQAu25: 3
-          GhPkzdD89HrVDo6W: 3
           default: 0
         sort: 100000
         system:

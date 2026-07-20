@@ -29,7 +29,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/upgrades/generic_extended_magazine.svg
         name: Extended Magazine (Medium Pistol)
         ownership:
-          C3z4G1obpqMQAu25: 3
           default: 0
         sort: 0
         system:

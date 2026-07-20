@@ -1,21 +1,21 @@
-_id: HfBIuViqcC44Zs0p
-_key: "!items!HfBIuViqcC44Zs0p"
+_id: cUEwBzdGK1xoAXtr
+_key: "!items!cUEwBzdGK1xoAXtr"
 effects: []
 flags:
   cyberpunk-red-core:
     _migration:
       current: 44
       previous: "38"
-folder: HM8bGbUXbIZM3Zhj
-img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol.svg
-name: Faisal's Convenice (Incendiary)
+folder: null
+img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun_poor.svg
+name: Faisal's Only Chance (Armor-Piercing)
 ownership:
-  GhPkzdD89HrVDo6W: 3
   default: 0
 sort: 0
 system:
   ammoVariety:
-    - vHeavyPistol
+    - shotgunShell
+    - shotgunSlug
   attackmod: 0
   brand: Faisal Customs
   canIgnoreArmor: false
@@ -23,7 +23,7 @@ system:
     concealable: false
     isConcealed: false
   critFailEffect: jammed
-  damage: 4d6
+  damage: 5d6
   damageCrit:
     bonus: 5
     count: 2
@@ -31,15 +31,18 @@ system:
   description:
     value: |
       <p>
-        A single use disposable very heavy pistol. It can't be concealed or reloaded.
+        A single use disposable shotgun loaded with
+        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.YFtrIcr5qsT2zO9V]{4
+        Armor-Piercing Rounds}. It can't be concealed or reloaded. If you roll 1 on
+        Attack (Crit fail) the gun jams and requires using an action to clear.
       </p>
-  dvTable: DV Pistol
+  dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false
   fireModes:
     autoFire: 0
     suppressiveFire: false
-  handsReq: 1
+  handsReq: 2
   ignoreArmorPercent: 0
   ignoreBelowSP: 0
   ignoredByBrowser: false
@@ -48,28 +51,28 @@ system:
     allowedTypes:
       - itemUpgrade
       - ammo
-    list:
-      - 2UUHFjXEz3V2o9K8
+    list: []
     slots: 3
     usedSlots: 0
   isRanged: true
   magazine:
     ammoData: null
-    max: 8
-    value: 8
+    max: 4
+    value: 4
   price:
     market: 50
-  quality: standard
+  quality: poor
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Toggle's Temple
-      page: 5
+      page: 8
     - book: Interface RED v5
-      page: 39
+      page: 42
   unarmedAutomaticCalculation: true
   usage: equipped
   usesType: magazine
-  weaponSkill: Handgun
-  weaponType: vHeavyPistol
+  weaponSkill: Shoulder Arms
+  weaponType: shotgun
 type: weapon

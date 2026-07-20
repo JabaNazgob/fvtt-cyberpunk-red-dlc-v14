@@ -149,29 +149,29 @@
       "description": "<p>\n  A hunting crossbow equipped with an underbarrel grapple gun, reloaded as part\n  of an Attack action.\n</p>\n",
       "dvTable": "DV Bows & Crossbows"
     },
-    "Faisal's Convenice (Armor-Piercing)": {
-      "name": "Faisal's Convenice (Armor-Piercing)",
-      "description": "<p>\n  A single use disposable very heavy pistol. It can't be concealed or reloaded.\n</p>\n",
+    "Faisal's Convenience (Armor-Piercing)": {
+      "name": "Faisal's Convenience (Armor-Piercing)",
+      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.oFcsVOL1UHu7MTnu]{8\n  Armor-Piercing Rounds}. It can't be concealed or reloaded.\n</p>\n",
       "dvTable": "DV Pistol"
     },
-    "Faisal's Convenice (Basic)": {
-      "name": "Faisal's Convenice (Basic)",
-      "description": "<p>\n  A single use disposable very heavy pistol. It can't be concealed or reloaded.\n</p>\n",
+    "Faisal's Convenience (Basic)": {
+      "name": "Faisal's Convenience (Basic)",
+      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.NQP4I9heyv9fXj46]{8 Basic\n  Rounds}. It can't be concealed or reloaded.\n</p>\n",
       "dvTable": "DV Pistol"
     },
-    "Faisal's Convenice (Expansive)": {
-      "name": "Faisal's Convenice (Expansive)",
-      "description": "<p>\n  A single use disposable very heavy pistol. It can't be concealed or reloaded.\n</p>\n",
+    "Faisal's Convenience (Expansive)": {
+      "name": "Faisal's Convenience (Expansive)",
+      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.6FCKkulioIa0IQOr]{8\n  Expansive Rounds}. It can't be concealed or reloaded.\n</p>\n",
       "dvTable": "DV Pistol"
     },
-    "Faisal's Convenice (Incendiary)": {
-      "name": "Faisal's Convenice (Incendiary)",
-      "description": "<p>\n  A single use disposable very heavy pistol. It can't be concealed or reloaded.\n</p>\n",
+    "Faisal's Convenience (Incendiary)": {
+      "name": "Faisal's Convenience (Incendiary)",
+      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.TIDzfziwhCxuIrnT]{8\n  Incendiary Rounds}. It can't be concealed or reloaded.\n</p>\n",
       "dvTable": "DV Pistol"
     },
-    "Faisal's Convenice (Rubber)": {
-      "name": "Faisal's Convenice (Rubber)",
-      "description": "<p>\n  A single use disposable very heavy pistol. It can't be concealed or reloaded.\n</p>\n",
+    "Faisal's Convenience (Rubber)": {
+      "name": "Faisal's Convenience (Rubber)",
+      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.6ta0PBU9FFrkg97B]{8 Rubber\n  Rounds}. It can't be concealed or reloaded.\n</p>\n",
       "dvTable": "DV Pistol"
     },
     "Faisal's Escape Plan": {
@@ -179,29 +179,29 @@
       "description": "<p>\n  A concealable, medium-sized pistol. If you roll 1 on Attack (Crit fail) the\n  gun jams and requires using an action to clear.\n</p>\n<blockquote>\n  <p>\n    Can be thrown as if it were a\n    @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Smoke\n    Grenade}. When thrown, any installed attatchments and loaded ammunition are\n    Destroyed Beyond Repair.\n  </p>\n</blockquote>\n",
       "dvTable": "DV Pistol"
     },
-    "Faisal's OnlyChance (Armor-Piercing)": {
-      "name": "Faisal's OnlyChance (Armor-Piercing)",
-      "description": "<p>\n  A disposable shotgun that cannot be reloaded. If you roll 1 on Attack (Crit\n  fail) the gun jams and requires using an action to clear.\n</p>\n",
+    "Faisal's Only Chance (Armor-Piercing)": {
+      "name": "Faisal's Only Chance (Armor-Piercing)",
+      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.YFtrIcr5qsT2zO9V]{4\n  Armor-Piercing Rounds}. It can't be concealed or reloaded. If you roll 1 on\n  Attack (Crit fail) the gun jams and requires using an action to clear.\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
-    "Faisal's OnlyChance (Basic)": {
-      "name": "Faisal's OnlyChance (Basic)",
-      "description": "<p>\n  A disposable shotgun that cannot be reloaded. If you roll 1 on Attack (Crit\n  fail) the gun jams and requires using an action to clear.\n</p>\n",
+    "Faisal's Only Chance (Basic)": {
+      "name": "Faisal's Only Chance (Basic)",
+      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.YFnV9OetCCRru5Ky]{4 Basic\n  Rounds}. It can't be concealed or reloaded. If you roll 1 on Attack (Crit\n  fail) the gun jams and requires using an action to clear.\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
-    "Faisal's OnlyChance (Expansive)": {
-      "name": "Faisal's OnlyChance (Expansive)",
-      "description": "<p>\n  A disposable shotgun that cannot be reloaded. If you roll 1 on Attack (Crit\n  fail) the gun jams and requires using an action to clear.\n</p>\n",
+    "Faisal's Only Chance (Expansive)": {
+      "name": "Faisal's Only Chance (Expansive)",
+      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.WjWIkjjjMW4j5Bzp]{4\n  Expansive Rounds}. If you roll 1 on Attack (Crit fail) the gun jams and\n  requires using an action to clear.\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
-    "Faisal's OnlyChance (Incendiary)": {
-      "name": "Faisal's OnlyChance (Incendiary)",
-      "description": "<p>\n  A disposable shotgun that cannot be reloaded. If you roll 1 on Attack (Crit\n  fail) the gun jams and requires using an action to clear.\n</p>\n",
+    "Faisal's Only Chance (Incendiary)": {
+      "name": "Faisal's Only Chance (Incendiary)",
+      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.yxGinCJXUJjdsK0g]{4\n  Incendiary Rounds}. If you roll 1 on Attack (Crit fail) the gun jams and\n  requires using an action to clear.\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
-    "Faisal's OnlyChance (Rubber)": {
-      "name": "Faisal's OnlyChance (Rubber)",
-      "description": "<p>\n  A disposable shotgun that cannot be reloaded. If you roll 1 on Attack (Crit\n  fail) the gun jams and requires using an action to clear.\n</p>\n",
+    "Faisal's Only Chance (Rubber)": {
+      "name": "Faisal's Only Chance (Rubber)",
+      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.qRKLIX7yU2n83JKJ]{4 Rubber\n  Rounds}. If you roll 1 on Attack (Crit fail) the gun jams and requires using\n  an action to clear.\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
     "Federated Arms Super Chief Plus": {
@@ -334,6 +334,16 @@
       "description": "<p>A long-distance hunting rifle. +1 to Attack.</p>\n<blockquote>\n  <p>\n    An action is required to eject the spent round each time the rifle is fired.\n  </p>\n</blockquote>\n",
       "dvTable": "DV Sniper Rifle"
     },
+    "M-02 Heavy Rifle": {
+      "name": "M-02 Heavy Rifle",
+      "description": "<p>\n  This weapon fires it's own custom ammunition, priced at 500eb (Expensive) for\n  80 rounds of Armor-Piercing ammo.\n</p>\n",
+      "dvTable": "DV Assault Rifle"
+    },
+    "M-95A4 Assault Weapon": {
+      "name": "M-95A4 Assault Weapon",
+      "description": "<p>\n  An excellent quality assault rifle equipped with a Drum Magazine &amp; Sniping\n  Scope.\n</p>\n",
+      "dvTable": "DV Assault Rifle"
+    },
     "MetaCorp Hela Smart Launcher": {
       "name": "MetaCorp Hela Smart Launcher",
       "description": "<p>\n  Bring out the big guns. This smartgun link equipped rocket launcher will do\n  some damage.\n</p>\n",
@@ -439,16 +449,6 @@
       "description": "<p>\n  A concealable SMG. If you roll 1 on Attack (Crit fail) the gun jams and\n  requires using an action to clear.\n</p>\n<blockquote>\n  <p>\n    User must make a <strong>DV15 Handgun</strong> check when making an\n    <strong>autofire attack</strong> or the damage multiplier cannot exceed x2.\n  </p>\n</blockquote>\n",
       "dvTable": "DV SMG"
     },
-    "M-02 Heavy Rifle": {
-      "name": "M-02 Heavy Rifle",
-      "description": "<p>\n  This weapon fires it's own custom ammunition, priced at 500eb (Expensive) for\n  80 rounds of Armor-Piercing ammo.\n</p>\n",
-      "dvTable": "DV Assault Rifle"
-    },
-    "M-95A4 Assault Weapon": {
-      "name": "M-95A4 Assault Weapon",
-      "description": "<p>\n  An excellent quality assault rifle equipped with a Drum Magazine &amp; Sniping\n  Scope.\n</p>\n",
-      "dvTable": "DV Assault Rifle"
-    },
     "Nomad .357 Magnum": {
       "name": "Nomad .357 Magnum",
       "description": "<p>A concealable, medium-sized pistol with an extended magazine.</p>\n",
@@ -504,6 +504,11 @@
       "description": "<p>\n  A sport rifle, for fun, not people. Can only load Small Game Ammunition and is\n  incapable of Autofire and Suppressive Fire.\n</p>\n",
       "dvTable": "DV Assault Rifle"
     },
+    "ST-5 Assault Rifle": {
+      "name": "ST-5 Assault Rifle",
+      "description": "<p>\n  A - relatively - reliable gun. If you roll 1 on Attack (Crit fail) you must\n  then toss a coin; if you win the gun fires as normal, while if you lose the\n  gun jams and requires using an action to clear.\n</p>\n",
+      "dvTable": "DV Assault Rifle"
+    },
     "Sternmeyer P-35": {
       "name": "Sternmeyer P-35",
       "description": "<p>A very heavy pistol. It can't be concealed.</p>\n",
@@ -518,11 +523,6 @@
       "name": "Sternmeyer SMG-21",
       "description": "<p>A heavy SMG. Due to its size it can't be concealed.</p>\n",
       "dvTable": "DV SMG"
-    },
-    "ST-5 Assault Rifle": {
-      "name": "ST-5 Assault Rifle",
-      "description": "<p>\n  A - relatively - reliable gun. If you roll 1 on Attack (Crit fail) you must\n  then toss a coin; if you win the gun fires as normal, while if you lose the\n  gun jams and requires using an action to clear.\n</p>\n",
-      "dvTable": "DV Assault Rifle"
     },
     "Sub-Flechette Gun": {
       "name": "Sub-Flechette Gun",
