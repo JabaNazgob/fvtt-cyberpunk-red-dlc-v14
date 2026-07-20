@@ -291,7 +291,7 @@
     },
     "Hello Cutie Happy Dancer": {
       "name": "Hello Cutie Happy Dancer",
-      "description": "<p>A heavy SMG. Due to its size it can't be concealed. +1 to Attack.</p>\n",
+      "description": "<p>\n  A heavy SMG that plays video game sounds when fired. Due to its size it can't\n  be concealed. +1 to Attack.\n</p>\n",
       "dvTable": "DV SMG"
     },
     "Hello Cutie Hidden Cougar": {
