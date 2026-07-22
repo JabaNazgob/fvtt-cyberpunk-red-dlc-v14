@@ -3,7 +3,7 @@ _key: "!tables!6xiNejWyN3Lmkg2U"
 description: >-
   <p>Select a random loot box to add to your inventory. (<em>Source:
   Achievements and Loot Boxes)</em></p>
-displayRoll: true
+displayRoll: false
 flags: {}
 folder: B1qjlWJWYKwXwdOD
 formula: 1d10

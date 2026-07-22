@@ -61,7 +61,8 @@
         "dlc_upgrades",
         "dlc_vehicles",
         "dlc_weapons",
-        "dlc_weather-effects"
+        "dlc_weather-effects",
+        "dlc_macros"
       ]
     },
     {
@@ -187,6 +188,14 @@
       "label": "Gear",
       "path": "packs/dlc/gear",
       "type": "Item",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_macros",
+      "label": "Macros",
+      "path": "packs/dlc/macros",
+      "type": "Macro",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
     },

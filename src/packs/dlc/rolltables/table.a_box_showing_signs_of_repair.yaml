@@ -1,23 +1,23 @@
-_id: VszxZ4TJjQ8FGuoc
-_key: "!tables!VszxZ4TJjQ8FGuoc"
+_id: WmWdGRlhzhA2ZcmV
+_key: "!tables!WmWdGRlhzhA2ZcmV"
 description: >-
-  Source: Achievements and Loot Boxes pg.5
+  Source: Achievements and Loot Boxes pg.6
 
   All weapons come fully loaded with a compatible ammo type of the GM's
   choosing.
-displayRoll: true
+displayRoll: false
 flags: {}
 folder: B1qjlWJWYKwXwdOD
 formula: 1d6
-img: icons/containers/chest/chest-simple-box-blue.webp
-name: A Box Freezing Cold To The Touch
+img: icons/containers/boxes/crate-wooden-brown.webp
+name: A Box Showing Signs Of Repair
 ownership:
   default: 0
   rRCcEOJu9poJ2EaX: 3
 replacement: true
 results:
-  - _id: JiMN6zADBZGPIqHC
-    _key: "!tables.results!VszxZ4TJjQ8FGuoc.JiMN6zADBZGPIqHC"
+  - _id: eSMmjYuRfPdHRHK2
+    _key: "!tables.results!WmWdGRlhzhA2ZcmV.eSMmjYuRfPdHRHK2"
     _stats:
       compendiumSource: null
       coreVersion: "13.351"
@@ -27,19 +27,18 @@ results:
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
     description: ""
-    documentUuid: Compendium.cyberpunk-red-core.core_clothing.Item.Xi3LUVQem3nBHgB1
+    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_weapons.1VndXRKaCuKQp49H
     drawn: false
     flags: {}
-    img: >-
-      systems/cyberpunk-red-core/icons/compendium/clothing/generic_mirrorshades.svg
-    name: Bohemian Mirrorshades
+    img: null
+    name: Utility Tomahawk
     range:
       - 1
       - 1
     type: document
     weight: 1
-  - _id: wqG4JWoUVJYhyJqH
-    _key: "!tables.results!VszxZ4TJjQ8FGuoc.wqG4JWoUVJYhyJqH"
+  - _id: NAW6SeAGHYRp9Qgx
+    _key: "!tables.results!WmWdGRlhzhA2ZcmV.NAW6SeAGHYRp9Qgx"
     _stats:
       compendiumSource: null
       coreVersion: "13.351"
@@ -49,18 +48,18 @@ results:
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
     description: ""
-    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_armor.OzfbjQ3nPCCf6BQQ
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_cyberware.ViH7d2nQAg0dLQuD
     drawn: false
     flags: {}
     img: null
-    name: Street Viper Riding Suit
+    name: Holo Projector Palm
     range:
       - 2
       - 2
     type: document
     weight: 1
-  - _id: qVw9IIb1peHOxlXK
-    _key: "!tables.results!VszxZ4TJjQ8FGuoc.qVw9IIb1peHOxlXK"
+  - _id: XFxM9lyMYSCxHQqS
+    _key: "!tables.results!WmWdGRlhzhA2ZcmV.XFxM9lyMYSCxHQqS"
     _stats:
       compendiumSource: null
       coreVersion: "13.351"
@@ -70,18 +69,18 @@ results:
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
     description: ""
-    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_cyberware.BYDAED1axkFYm1h9
+    documentUuid: Compendium.cyberpunk-red-core.core_gear.Item.GPgc2QczR4H1rYPj
     drawn: false
     flags: {}
-    img: null
-    name: Sponsored Cybereye
+    img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
+    name: Techtool
     range:
       - 3
       - 3
     type: document
     weight: 1
-  - _id: C1PBkQkgZesy7QSz
-    _key: "!tables.results!VszxZ4TJjQ8FGuoc.C1PBkQkgZesy7QSz"
+  - _id: ALhnacS6Hjr3pHNH
+    _key: "!tables.results!WmWdGRlhzhA2ZcmV.ALhnacS6Hjr3pHNH"
     _stats:
       compendiumSource: null
       coreVersion: "13.351"
@@ -91,18 +90,18 @@ results:
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
     description: ""
-    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_armor.xVE36X9aE4m3mRza
+    documentUuid: Compendium.cyberpunk-red-core.core_gear.Item.Lo7rXsc5ToQf2KlN
     drawn: false
     flags: {}
-    img: null
-    name: Skid Row Trench
+    img: systems/cyberpunk-red-core/icons/compendium/gear/audio_recorder.svg
+    name: Audio Recorder
     range:
       - 4
       - 4
     type: document
     weight: 1
-  - _id: 1luj1hZCHHXcW6eT
-    _key: "!tables.results!VszxZ4TJjQ8FGuoc.1luj1hZCHHXcW6eT"
+  - _id: ye7viJCwPjZqFjih
+    _key: "!tables.results!WmWdGRlhzhA2ZcmV.ye7viJCwPjZqFjih"
     _stats:
       compendiumSource: null
       coreVersion: "13.351"
@@ -112,18 +111,18 @@ results:
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
     description: ""
-    documentUuid: Compendium.cyberpunk-red-dlc.dlc_consumables.RZ7P9nSOB21pfiaI
+    documentUuid: Compendium.cyberpunk-red-core.core_ammo.Item.tivSfxqoNYnBlNah
     drawn: false
     flags: {}
-    img: null
-    name: Prime Time
+    img: systems/cyberpunk-red-core/icons/compendium/ammo/grenade_armorpiercing.svg
+    name: Grenade (Armor-Piercing)
     range:
       - 5
       - 5
     type: document
     weight: 1
-  - _id: xdzTOenYphIk50Dk
-    _key: "!tables.results!VszxZ4TJjQ8FGuoc.xdzTOenYphIk50Dk"
+  - _id: YPH6EdW6lvbn2VLj
+    _key: "!tables.results!WmWdGRlhzhA2ZcmV.YPH6EdW6lvbn2VLj"
     _stats:
       compendiumSource: null
       coreVersion: "13.351"
@@ -133,11 +132,11 @@ results:
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
     description: ""
-    documentUuid: Compendium.cyberpunk-red-dlc.black-chrome_armor.fyi3U9v6On4r1iiO
+    documentUuid: Compendium.cyberpunk-red-core.core_cyberware.Item.2EvWIW0HXwoBK6xq
     drawn: false
     flags: {}
-    img: null
-    name: Laser Light Street Jacket
+    img: systems/cyberpunk-red-core/icons/compendium/cyberware/techscanner.svg
+    name: Techscanner
     range:
       - 6
       - 6

@@ -33,6 +33,11 @@ system:
         <strong>App:</strong> A free social media platform hosted by Ziggurat. Users
         require an account to comment or publish content.
       </p>
+      <p>
+        Find love in The Garden!
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_macros.Macro.3n77kf9lHNb2dFY3]{See who
+        you match with!}
+      </p>
   favorite: false
   fireModes:
     autoFire: 0

@@ -5,7 +5,7 @@ description: >-
 
   All weapons come fully loaded with a compatible ammo type of the GM's
   choosing.
-displayRoll: true
+displayRoll: false
 flags: {}
 folder: B1qjlWJWYKwXwdOD
 formula: 1d6

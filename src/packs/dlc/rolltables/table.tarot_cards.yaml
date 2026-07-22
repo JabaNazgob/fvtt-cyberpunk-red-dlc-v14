@@ -1,7 +1,7 @@
 _id: tGZeMCLLDQBRFLY8
 _key: "!tables!tGZeMCLLDQBRFLY8"
 description: Roll on this rolltable if you roll a triple six result on a damage roll.
-displayRoll: true
+displayRoll: false
 flags: {}
 folder: null
 formula: 1d22

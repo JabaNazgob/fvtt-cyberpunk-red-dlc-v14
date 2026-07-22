@@ -3,7 +3,7 @@ _key: "!tables!bOtq937SNIahmbeK"
 description: >-
   <p>Source: Achievements and Loot Boxes pg.6 All weapons come fully loaded with
   a compatible ammo type of the GM's choosing.</p>
-displayRoll: true
+displayRoll: false
 flags: {}
 folder: B1qjlWJWYKwXwdOD
 formula: 1d6
