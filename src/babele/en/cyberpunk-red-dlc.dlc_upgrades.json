@@ -101,6 +101,10 @@
       "description": "<p>\n  Electric motorised system helping to pedal, increasing speed, lowering\n  tiredness.\n</p>\n<p>\n  Increases the bicycle's Speed (narrative) to the next BODY tier or adds\n  5MPH/8KPH to Speed (narrative) if already at the highest BODY tier.\n</p>\n<p>\n  Rider get +4 bonus to Endurance Checks to resisting exhaustion when riding.\n</p>\n",
       "dvTable": ""
     },
+    "Elflines Online": {
+      "name": "Elflines Online",
+      "description": "<p>\n  A new in-box copy Elflines Online. Requires the Segotari RUSH Revolution to\n  play.\n</p>\n"
+    },
     "Elflines Online Elftracker": {
       "name": "Elflines Online Elftracker",
       "description": "<p>\n  <strong>App:</strong> A companion app for ELO that allows users to track and\n  in-game stats and connect with other players.\n</p>\n"

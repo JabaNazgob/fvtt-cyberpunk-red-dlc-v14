@@ -46,10 +46,6 @@
       "name": "Dungeonstone",
       "description": "<p>\n  Scan this code using the ELO Elftracker to transport your party to a\n  previously completed dungeon entrance!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌▌▌█▌ ▌█▌█▌ ▌▌▌█▌▌▌█▌▌ █▌▌▌▌ █▌█▌█▌▌█▌ ▌▌█▌▌█▌▌ ▌▌▌█▌▌ █▌▌█▌▌█▌\n    ▌▌▌█▌█▌ ▌█▌▌█▌▌ ▌▌▌█▌▌ █▌█▌▌█▌ ▌▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
     },
-    "Elflines Online": {
-      "name": "Elflines Online",
-      "description": "<p>A new in-box copy of the hit BDMMORPG Elflines Online.</p>\n"
-    },
     "Flight of Dragons": {
       "name": "Flight of Dragons",
       "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
@@ -93,10 +89,6 @@
     "Rise from Bog": {
       "name": "Rise from Bog",
       "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
-    },
-    "RUSH Revolution": {
-      "name": "RUSH Revolution",
-      "description": "<p>Braindance Headset. Required to play Elflines Online.</p>\n"
     },
     "Sacred Herbs": {
       "name": "Sacred Herbs",
