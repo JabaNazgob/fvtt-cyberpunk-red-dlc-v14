@@ -1,6 +1,6 @@
 include:
   - project: "cyberpunk-red-team/cprc-cicd"
-    ref: ryanw/build-auto-update
+    ref: dev
     file:
       # Shared config: default image, stages, and the `.cprc-rules` ruleset.
       - "/jobs/init/config.yml"
@@ -17,7 +17,7 @@ include:
 
   # Init carries the token-validation input the manage-issues jobs rely on.
   - project: "cyberpunk-red-team/cprc-cicd"
-    ref: ryanw/build-auto-update
+    ref: dev
     file: "/jobs/init/init.yml"
     inputs:
       gitlab_tokens_to_test: "CHOOM_BOT_API"
@@ -25,7 +25,7 @@ include:
   # Scope prettier to the source we format (en babele included; translations
   # and other generated/vendored files excluded).
   - project: "cyberpunk-red-team/cprc-cicd"
-    ref: ryanw/build-auto-update
+    ref: dev
     file: "/jobs/test/code-formatting.yml"
     inputs:
       paths: "gulpfile.mjs gulp/*.mjs src/*.js src/**/*.yaml src/*.json src/**/*.json src/babele/en/*.json"
@@ -33,7 +33,7 @@ include:
   # Validate packs against the cyberpunk-red-core schema, at the system version
   # declared in src/module.json (relationships.systems compatibility.maximum).
   - project: "cyberpunk-red-team/cprc-cicd"
-    ref: ryanw/build-auto-update
+    ref: dev
     file: "/jobs/test/packs.yml"
     inputs:
       system_repo: "cyberpunk-red-team/fvtt-cyberpunk-red-core"
@@ -45,14 +45,14 @@ include:
 
   # Block manual edits to the vendored cprc-build gulp subtree.
   - project: "cyberpunk-red-team/cprc-cicd"
-    ref: ryanw/build-auto-update
+    ref: dev
     file: "/jobs/test/subtree-guard.yml"
     inputs:
       component_repo: "cyberpunk-red-team/cprc-build"
 
   # Keep the vendored build-system subtree updated from the public cprc-cicd repo.
   - project: "cyberpunk-red-team/cprc-cicd"
-    ref: ryanw/build-auto-update
+    ref: dev
     file: "/jobs/manage/build-system-sync.yml"
 
 variables:
