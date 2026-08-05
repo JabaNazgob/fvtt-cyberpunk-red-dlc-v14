@@ -61,16 +61,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: bKSyS3nvDdlb88sK
+      - _id: S9yWKCQpSU5aK4ku
         _stats:
           compendiumSource: Actor.wFky9QOP6GP9h7nr.Item.vSDQjbSqBmv55zTR
-          coreVersion: "12.343"
-          createdTime: 1768680698602
+          coreVersion: "13.351"
+          createdTime: 1786549257817
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768680698602
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786549434823
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -82,7 +83,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/weapons/Naginata_excellent.svg
         name: Very Heavy Fūma Kotarō Blade
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -91,10 +91,14 @@ flags:
           brand: Yakuza
           canIgnoreArmor: true
           concealable:
-            concealable: false
+            concealable: true
             isConcealed: false
           critFailEffect: jammed
           damage: 4d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p><strong>Excellent Quality</strong> Very heavy melee weapons
@@ -106,15 +110,16 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
-          isElectronic: false
+          isElectronic: true
           isRanged: false
           magazine:
             ammoData: {}
@@ -189,8 +194,11 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 36
+          sources:
+            - book: Black Chrome
+              page: 52
           type: gear
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -198,16 +206,17 @@ flags:
           weaponSkill: Melee Weapon
           weaponType: vHeavyMelee
         type: itemUpgrade
-      - _id: JmQlt78kPRiYqc6G
+      - _id: BA2c850uOiZQiQYW
         _stats:
           compendiumSource: Actor.wFky9QOP6GP9h7nr.Item.vSDQjbSqBmv55zTR
-          coreVersion: "12.343"
-          createdTime: 1768680698602
+          coreVersion: "13.351"
+          createdTime: 1786549257817
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768680698602
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786549452004
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -219,7 +228,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/weapons/CombatKnife_excellent.svg
         name: Light Fūma Kotarō Blade
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -228,10 +236,14 @@ flags:
           brand: Yakuza
           canIgnoreArmor: true
           concealable:
-            concealable: false
+            concealable: true
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p><strong>Excellent Quality</strong> Light melee weapons that can
@@ -243,15 +255,16 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
-          isElectronic: false
+          isElectronic: true
           isRanged: false
           magazine:
             ammoData: {}
@@ -326,8 +339,11 @@ flags:
           rof: 2
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 36
+          sources:
+            - book: Black Chrome
+              page: 52
           type: gear
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -339,9 +355,7 @@ folder: null
 img: systems/cyberpunk-red-core/icons/compendium/default/default-linearframe.svg
 name: Fūma Kotarō Linear Frame VH
 ownership:
-  IMREvhAZtigyN7Gy: 3
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   amount: 1
@@ -374,8 +388,8 @@ system:
     allowedTypes:
       - itemUpgrade
     list:
-      - bKSyS3nvDdlb88sK
-      - JmQlt78kPRiYqc6G
+      - S9yWKCQpSU5aK4ku
+      - BA2c850uOiZQiQYW
     slots: 2
     usedSlots: 2
   isElectronic: true
@@ -383,8 +397,9 @@ system:
     market: 5000
   providesHardening: false
   revealed: true
+  source: null
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 52
   usage: equipped
 type: gear

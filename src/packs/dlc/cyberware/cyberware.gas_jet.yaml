@@ -7,11 +7,10 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: systems/cyberpunk-red-core/icons/compendium/default/Default_Cyberware.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/gas-jet.svg
 name: Gas Jet
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -75,6 +74,7 @@ system:
   revealed: true
   rof: 1
   size: 2
+  source: null
   sources:
     - book: Hornet's Pharmacy
       page: 5

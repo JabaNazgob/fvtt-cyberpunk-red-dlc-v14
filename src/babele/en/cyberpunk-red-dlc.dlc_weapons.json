@@ -6,7 +6,7 @@
   "entries": {
     "Aegis": {
       "name": "Aegis",
-      "description": "<p>\n  This weapon can't cause Critical Injuries, can't ablate armor, and if it would\n  reduce a target to under 1 HP it instead leaves them Unconscious on 1 HP.\n</p>\n",
+      "description": "<p>\n  This weapon can't cause Critical Injuries, can't ablate armor, and if it would\n  reduce a target to under 1 HP it instead leaves them Unconscious on 1 HP.\n</p>\n<blockquote>\n  <p>\n    <strong>DV13 Heavy Weapons Check</strong> to spray an area similar to using\n    shotgun shells.\n  </p>\n</blockquote>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
     "Arasaka Minami 10": {
@@ -44,8 +44,8 @@
       "description": "<p>\n  This heavy SMG is the complete package; it comes with a Smartgun Link,\n  Infrared Nightvision Scope, and a Sniping Scope.\n</p>\n",
       "dvTable": "DV SMG"
     },
-    "Ballistic Harpoon": {
-      "name": "Ballistic Harpoon",
+    "Ballistic Harpoon Launcher": {
+      "name": "Ballistic Harpoon Launcher",
       "description": "<p>\n  A very heavy exotic melee weapon that may also be launched as a ranged weapon\n  as if it were a crossbow.\n</p>\n",
       "dvTable": "DV Bows & Crossbows"
     },
@@ -81,7 +81,7 @@
     },
     "Crusher": {
       "name": "Crusher",
-      "description": "<p>A pistol that fires shotgun shells. What's not to love.</p>\n",
+      "description": "<p>\n  An Exotic Very Heavy Pistol that fires shotgun shells. What's not to love?\n</p>\n",
       "dvTable": "DV Pistol"
     },
     "Dai Lung Cybermag 20": {
@@ -281,7 +281,7 @@
     },
     "Hello Cutie Fisher Kitty": {
       "name": "Hello Cutie Fisher Kitty",
-      "description": "<p>\n  <strong>Exotic Heavy Pistol (50m/yd Max Range)</strong> Fires mini-harpoons\n  that cannot cause critcal injuries. Each mini-harpoon sticks to its target\n  regardless of damage dealt, and removing a mini-harpoon takes 1 Action. All\n  retractable mini-harpoons are dislodged and recovered when using an action to\n  reloading the weapon.\n</p>\n<blockquote>\n  <p>\n    The user may use an action to electrify the cables connected to each\n    mini-harpoon and deal [[/r 2d6#Electric Damage (Ignores Armor)]] damage\n    directly to any connected target's HP. If a target is connected by 3 or more\n    mini-harpoons they take [[/r 3d6#Electric Damage (Ignores Armor)]] damage\n    instead.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  <strong>Exotic Heavy Pistol (50m/yd Max Range)</strong> Fires mini-harpoons\n  that cannot cause critcal injuries. Each mini-harpoon sticks to its target\n  regardless of damage dealt, and removing a mini-harpoon takes 1 Action. All\n  retractable mini-harpoons are dislodged and recovered when using an action to\n  reloading the weapon.\n</p>\n<blockquote>\n  <p>\n    The user may use an action to electrify the cables connected to each\n    mini-harpoon and deal [[/r 2d6dmgab0cd0#Electric Damage (Ignores\n    Armor)]]{2d6} damage directly to any connected target's HP. If a target is\n    connected by 3 or more mini-harpoons they take [[/r 3d6dmgab0cd0#Electric\n    Damage (Ignores Armor)]]{3d6} damage instead.\n  </p>\n</blockquote>\n",
       "dvTable": "DV Bows & Crossbows"
     },
     "Hello Cutie Gun-Gun Friend-Friend": {
@@ -336,7 +336,7 @@
     },
     "M-02 Heavy Rifle": {
       "name": "M-02 Heavy Rifle",
-      "description": "<p>\n  This weapon fires it's own custom ammunition, priced at 500eb (Expensive) for\n  80 rounds of Armor-Piercing ammo.\n</p>\n",
+      "description": "<p>\n  <strong>Exotic Assault Rifle</strong> This weapon fires it's own custom\n  ammunition, priced at 500eb (Expensive) for 80 rounds of Armor-Piercing ammo.\n</p>\n",
       "dvTable": "DV Assault Rifle"
     },
     "M-95A4 Assault Weapon": {
@@ -581,7 +581,7 @@
     },
     "Triple Threat": {
       "name": "Triple Threat",
-      "description": "<p>\n  Comes with an Exotic Grenade Launcher Underbarrel* which - as the main gun is\n  poor quality - functions as a poor quality weapon. It can't be removed. Both\n  that and the main weapon can fire non-Basic Ammunition.\n</p>\n<p><em>*Must be manually added after acquiring the weapon</em></p>\n",
+      "description": "<p>\n  <strong>Poor Quality Exotic Rocket Launcher</strong> Comes with a Grenade\n  Launcher Underbarrel which cannot be removed. Both weapons can fire non-Basic\n  Ammunition.\n</p>\n",
       "dvTable": "DV Rocket Launcher"
     },
     "Tsunami Arms Type-18": {

@@ -6,6 +6,72 @@ flags:
     _migration:
       current: 44
       previous: "38"
+    cprInstallTree:
+      - _id: VIIqSbOB0j09FKAS
+        _stats:
+          compendiumSource: Compendium.cyberpunk-red-core.core_ammo.Item.WjWIkjjjMW4j5Bzp
+          coreVersion: "13.351"
+          createdTime: 1786661114158
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786661114158
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 42
+              previous: "41"
+        folder: null
+        img: >-
+          systems/cyberpunk-red-core/icons/compendium/ammo/shotgun_slug_expansive.svg
+        name: Shotgun Slug (Expansive)
+        ownership:
+          default: 0
+        sort: 0
+        system:
+          ablationValue: 1
+          amount: 0
+          brand: ""
+          concealable:
+            concealable: true
+            isConcealed: false
+          description:
+            value: |-
+              <p>
+                If the victim rolls the Foreign object Critical Injury (see pg. 187), they
+                also roll for a second (different) Critical Injury. The second Critical Injury
+                does not deal bonus damage.
+              </p>
+          favorite: false
+          ignoredByBrowser: false
+          installLocation: mall
+          overrides:
+            autofire:
+              minimum: 3
+              mode: none
+              value: -1
+            crit:
+              bonus: 5
+              count: 2
+              override: false
+              threshold: 0
+            damage:
+              minimum: 1d6
+              mode: none
+              value: 3d6
+          price:
+            market: 100
+          size: 0
+          source: null
+          sources:
+            - book: Cyberpunk RED
+              page: 345
+          type: expansive
+          variety: shotgunSlug
+        type: ammo
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun_poor.svg
 name: Faisal's Only Chance (Expansive)
@@ -51,7 +117,8 @@ system:
     allowedTypes:
       - itemUpgrade
       - ammo
-    list: []
+    list:
+      - VIIqSbOB0j09FKAS
     slots: 3
     usedSlots: 0
   isRanged: true

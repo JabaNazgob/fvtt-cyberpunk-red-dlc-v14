@@ -51,6 +51,145 @@ flags:
     _migration:
       current: 44
       previous: "38"
+    cprInstallTree:
+      - _id: aXeE48XDKbi3plMt
+        _stats:
+          compendiumSource: Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.GRUwfsU6PInZNjUQ
+          coreVersion: "13.351"
+          createdTime: 1786666578963
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786666578963
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: null
+        img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/cuddlefish-everyday.svg
+        name: Cuddlefish Outfit (Default)
+        ownership:
+          default: 0
+        sort: 100000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Sanroo
+          canIgnoreArmor: false
+          concealable:
+            concealable: false
+            isConcealed: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: |-
+              <p>
+                A cute outfit for your Captain Cuddlefish Ultra Snag-Em! Collect them all!
+              </p>
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          handsReq: 0
+          ignoreArmorPercent: 0
+          ignoreBelowSP: 0
+          ignoredByBrowser: true
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes: []
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: false
+          isRanged: false
+          magazine:
+            ammoData: {}
+            max: 0
+            value: 0
+          modifiers:
+            Wardrobe & Style:
+              isSituational: false
+              onByDefault: false
+              value: null
+            attackmod:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            bodySp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            cool:
+              isSituational: false
+              onByDefault: false
+              value: null
+            damage:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            headSp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            magazine:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            rof:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            sdp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            seats:
+              isSituational: false
+              onByDefault: false
+              value: null
+            secondaryWeapon:
+              configured: false
+            shieldHp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            slots:
+              isSituational: false
+              onByDefault: false
+              value: null
+            speedCombat:
+              isSituational: false
+              onByDefault: false
+              value: null
+          price:
+            market: 0
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source: null
+          sources:
+            - book: 12 Days of Cutimas
+              page: 3
+          type: weapon
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Handgun
+        type: itemUpgrade
   scene-packer:
     hash: cb63f7a22af976732bb2ef2aff534aa39b266604
 folder: null
@@ -59,7 +198,6 @@ img: >-
 name: Captain Cuddlefish Ultra Snag-Em
 ownership:
   default: 0
-  eMgDDuUqplwN8vV7: 3
 sort: 0
 system:
   ammoVariety: []
@@ -101,9 +239,10 @@ system:
     allowed: true
     allowedTypes:
       - itemUpgrade
-    list: []
+    list:
+      - aXeE48XDKbi3plMt
     slots: 1
-    usedSlots: 0
+    usedSlots: 1
   isRanged: true
   magazine:
     ammoData: null
@@ -114,6 +253,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: 12 Days of Cutimas
       page: 3

@@ -31,7 +31,7 @@ system:
         <p>
           Comes with your choice of
           @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.Rs94jDJRrbHVpvIh]{Gang
-          Colors} and
+          Colors} or
           @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.7fXDqCH4Z3ZLo5kL]{Generic
           Chic}styles.
         </p>
@@ -62,8 +62,9 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
+  source: null
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 32
   usage: toggled
 type: armor

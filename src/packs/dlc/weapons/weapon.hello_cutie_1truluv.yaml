@@ -27,7 +27,6 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/upgrades/sniping_scope.svg
         name: Sniping Scope
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -135,7 +134,7 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC+
+            book: Black Chrome+
             page: 4
           type: weapon
           unarmedAutomaticCalculation: true
@@ -165,7 +164,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/upgrades/infrared_nightvision_scope.svg
         name: Infrared Nightvision Scope
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -271,7 +269,7 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC+
+            book: Black Chrome+
             page: 4
           type: weapon
           unarmedAutomaticCalculation: true
@@ -300,7 +298,6 @@ flags:
         img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/1TruLuv-Onboard-Agent.svg
         name: 1TruLuv Onboard Agent
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -407,7 +404,7 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC+
+            book: Black Chrome+
             page: 4
           type: weapon
           unarmedAutomaticCalculation: true

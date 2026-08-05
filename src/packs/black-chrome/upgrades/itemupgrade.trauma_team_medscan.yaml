@@ -11,7 +11,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/trauma-team-medscan.s
 name: Trauma Team MedScan
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -29,19 +28,16 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Agent App.</p>
       <p>
-        Requires CitiNet access. MedScan can connect you to a Trauma Team Remote
-        Specialist but their actual guidance costs extra.
+        <strong>Agent App:</strong> Requires CitiNet access. MedScan can connect you
+        to a Trauma Team Remote Specialist but their actual guidance costs extra.
       </p>
-      <p>
-        For an increased fee, a remote Trauma Specialist can be hired to direct the
-        user through an entire 4-hour procedure.
-      </p>
-      <p>
-        Rules related to cost of hiring and procedures allowed to be done with this
-        App are contained in Black Chrome rulebook for this item.
-      </p>
+      <blockquote>
+        <p>
+          Rules related to cost of hiring and procedures allowed to be done with this
+          App are contained in Black Chrome rulebook for this item.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:
@@ -130,6 +126,7 @@ system:
   revealed: true
   rof: 1
   size: 0
+  source: null
   sources:
     - book: Black Chrome
       page: 14

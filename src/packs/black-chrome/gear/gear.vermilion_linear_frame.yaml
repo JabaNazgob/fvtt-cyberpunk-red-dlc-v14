@@ -53,16 +53,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: cduiqI6MtArC2KiM
+      - _id: nXPhSu87lfqGFP3H
         _stats:
           compendiumSource: null
-          coreVersion: "12.343"
-          createdTime: 1768632293890
+          coreVersion: "13.351"
+          createdTime: 1786549867612
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768632293890
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786549895068
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -73,7 +74,6 @@ flags:
         img: modules/cyberpunk-red-dlc/icons/dlc/gear/inline_skates.svg
         name: Vermillion Linear Skates
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -86,6 +86,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>A boost of speed when you need
@@ -99,15 +103,16 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
-          isElectronic: false
+          isElectronic: true
           isRanged: false
           magazine:
             ammoData: {}
@@ -179,8 +184,11 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 54
+          sources:
+            - book: Black Chrome
+              page: 54
           type: gear
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -192,7 +200,6 @@ img: systems/cyberpunk-red-core/icons/compendium/default/default-linearframe.svg
 name: Vermilion Linear Frame
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   amount: 1
@@ -202,7 +209,7 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Exoskeleton.</p>
+      <p>Linear Frame Exoskeleton</p>
       <ul>
         <li>Requires 2 Interface Plugs</li>
         <li>Increases BODY to 12 while plugged in</li>
@@ -219,14 +226,15 @@ system:
       - itemUpgrade
       - cyberware
     list:
-      - cduiqI6MtArC2KiM
+      - nXPhSu87lfqGFP3H
     slots: 1
     usedSlots: 1
-  isElectronic: false
+  isElectronic: true
   price:
     market: 5000
   providesHardening: false
   revealed: true
+  source: null
   sources:
     - book: Black Chrome
       page: 54

@@ -7,15 +7,15 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: bZzdgdvoCPPPcNB2
+      - _id: vJUEc0dYqg6XwErP
         _stats:
           compendiumSource: Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.jgSJKsyaqUANw0zL
           coreVersion: "13.351"
-          createdTime: 1783700305851
+          createdTime: 1786564210803
           duplicateSource: null
           exportSource: null
-          lastModifiedBy: 62fniNbymaXTm4QO
-          modifiedTime: 1783700305851
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786564356599
           systemId: cyberpunk-red-core
           systemVersion: DUMMY_VALUE
         effects: []
@@ -29,8 +29,6 @@ flags:
           modules/cyberpunk-red-dlc/icons/dlc/cyberware/personalized-faceplate.svg
         name: Personalized Faceplate
         ownership:
-          62fniNbymaXTm4QO: 3
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 200000
         system:
@@ -44,10 +42,14 @@ flags:
           core: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: |-
               <p>A personalized faceplate made of durable polymer.</p>
-              <p><em>Compatible with your Cyberskull.</em></p>
+                                              <p><em>Compatible with your Cyberskull.</em></p>
           favorite: false
           fireModes:
             autoFire: 0
@@ -57,6 +59,7 @@ flags:
             static: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
@@ -83,6 +86,11 @@ flags:
           source:
             book: IRv3
             page: 105
+          sources:
+            - book: Going Metal
+              page: 105
+            - book: Interface RED v3
+              page: 105
           type: cyberwareInternal
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -137,7 +145,7 @@ system:
       - cyberware
       - itemUpgrade
     list:
-      - bZzdgdvoCPPPcNB2
+      - vJUEc0dYqg6XwErP
     slots: 1
     usedSlots: 0
   isElectronic: false
@@ -155,6 +163,7 @@ system:
   revealed: true
   rof: 1
   size: 3
+  source: null
   sources:
     - book: Going Metal
       page: 105

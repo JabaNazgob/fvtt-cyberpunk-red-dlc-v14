@@ -11,7 +11,6 @@ img: >-
   modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/montage-digital-fashion.svg
 name: Montage Digital Fashion
 ownership:
-  IMREvhAZtigyN7Gy: 3
   default: 0
 sort: 0
 system:
@@ -31,8 +30,8 @@ system:
   description:
     value: |
       <p>
-        <strong>App:</strong> Allows users to purchase and select styles for their
-        connected Montage Variable Clothing.
+        <strong>Agent App:</strong> Allows users to purchase and select styles for
+        their connected Montage Variable Clothing.
       </p>
       <ul>
         <li>
@@ -62,7 +61,7 @@ system:
     allowedTypes:
       - itemUpgrade
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: false
   isRanged: false
@@ -135,8 +134,9 @@ system:
   revealed: true
   rof: 1
   size: 0
+  source: null
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 32
   type: gear
   unarmedAutomaticCalculation: true

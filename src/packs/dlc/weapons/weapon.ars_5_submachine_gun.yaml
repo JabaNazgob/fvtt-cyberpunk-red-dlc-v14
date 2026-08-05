@@ -7,152 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: gKLLMuabVhoRQrvK
-        _stats:
-          compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.pEXcsIk1FYMNdbUc
-          coreVersion: "12.343"
-          createdTime: 1768952543258
-          duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768952543258
-          systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
-        effects: []
-        flags:
-          cyberpunk-red-core:
-            _migration:
-              current: 44
-              previous: "38"
-        folder: null
-        img: >-
-          systems/cyberpunk-red-core/icons/compendium/upgrades/infrared_nightvision_scope.svg
-        name: Infrared Nightvision Scope
-        ownership:
-          IMREvhAZtigyN7Gy: 3
-          default: 0
-        sort: 0
-        system:
-          ammoVariety: []
-          attackmod: 0
-          brand: Mustang Arms
-          canIgnoreArmor: true
-          concealable:
-            concealable: false
-            isConcealed: false
-          critFailEffect: jammed
-          damage: 1d6
-          description:
-            value: >-
-              <p>Reduces penalties against targets in darkness, smoke/fog to
-              0.</p>
-          dvTable: ""
-          favorite: false
-          fireModes:
-            autoFire: 0
-            suppressiveFire: false
-          handsReq: 0
-          ignoreArmorPercent: 50
-          ignoreBelowSP: 0
-          installLocation: mall
-          installedItems:
-            allowed: false
-            allowedTypes:
-              - itemUpgrade
-            list: []
-            slots: 0
-            usedSlots: 0
-          isElectronic: true
-          isRanged: false
-          magazine:
-            ammoData: null
-            max: 0
-            value: 0
-          modifiers:
-            Wardrobe & Style:
-              isSituational: false
-              onByDefault: false
-              value: null
-            attackmod:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            bodySp:
-              isSituational: false
-              onByDefault: false
-              value: null
-            cool:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            damage:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            headSp:
-              isSituational: false
-              onByDefault: false
-              value: null
-            magazine:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            rof:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            sdp:
-              isSituational: false
-              onByDefault: false
-              value: null
-            seats:
-              isSituational: false
-              onByDefault: false
-              value: null
-            secondaryWeapon:
-              configured: false
-            shieldHp:
-              isSituational: false
-              onByDefault: false
-              value: null
-            slots:
-              isSituational: false
-              onByDefault: false
-              value: null
-            speedCombat:
-              isSituational: false
-              onByDefault: false
-              value: null
-          price:
-            market: 0
-          providesHardening: false
-          revealed: true
-          rof: 1
-          size: 1
-          source:
-            book: 12DoG
-            page: 5
-          type: weapon
-          unarmedAutomaticCalculation: true
-          usage: toggled
-          usesType: magazine
-          weaponSkill: ""
-          weaponType: ""
-        type: itemUpgrade
-      - _id: ru8I3CvflM8kQgM1
+      - _id: zjeTFyJbYnfOAgZl
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC
-          coreVersion: "12.343"
-          createdTime: 1768952543258
+          coreVersion: "13.351"
+          createdTime: 1786664674405
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768952543258
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786664765112
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -163,7 +28,6 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/upgrades/smartgun_link.svg
         name: Smartgun Link
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -176,6 +40,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: <p>Turns weapon into a "Smartgun".</p>
           dvTable: ""
@@ -186,6 +54,7 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
@@ -276,6 +145,11 @@ flags:
           source:
             book: 12DoG
             page: 5
+          sources:
+            - book: 12 Days of Gunmas
+              page: 5
+            - book: Interface RED v2
+              page: 61
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -283,16 +157,17 @@ flags:
           weaponSkill: ""
           weaponType: ""
         type: itemUpgrade
-      - _id: d5BAkR0LY8dwNaiO
+      - _id: sTtvqVFvFIP5iZYj
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN
-          coreVersion: "12.343"
-          createdTime: 1768952543258
+          coreVersion: "13.351"
+          createdTime: 1786664674405
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768952543258
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786664759611
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -303,7 +178,6 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/upgrades/sniping_scope.svg
         name: Sniping Scope
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -316,12 +190,16 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: |-
               <p>
-                Allows you to see detail up to 800m/yds. +1 to Single Shot/Aimed Shots for
-                targets greater than 50m/yds.
-              </p>
+                                                Allows you to see detail up to 800m/yds. +1 to Single Shot/Aimed Shots for
+                                                targets greater than 50m/yds.
+                                              </p>
           dvTable: ""
           favorite: false
           fireModes:
@@ -330,6 +208,7 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
@@ -413,6 +292,157 @@ flags:
           source:
             book: 12DoG
             page: 5
+          sources:
+            - book: 12 Days of Gunmas
+              page: 5
+            - book: Interface RED v2
+              page: 61
+          type: weapon
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: ""
+          weaponType: ""
+        type: itemUpgrade
+      - _id: 6A6gXpgIBMhr6DGh
+        _stats:
+          compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.pEXcsIk1FYMNdbUc
+          coreVersion: "13.351"
+          createdTime: 1786664674405
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786664761192
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: null
+        img: >-
+          systems/cyberpunk-red-core/icons/compendium/upgrades/infrared_nightvision_scope.svg
+        name: Infrared Nightvision Scope
+        ownership:
+          default: 0
+        sort: 0
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Mustang Arms
+          canIgnoreArmor: true
+          concealable:
+            concealable: false
+            isConcealed: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: >-
+              <p>Reduces penalties against targets in darkness, smoke/fog to
+              0.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          handsReq: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: true
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isRanged: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          modifiers:
+            Wardrobe & Style:
+              isSituational: false
+              onByDefault: false
+              value: null
+            attackmod:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            bodySp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            cool:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            damage:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            headSp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            magazine:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            rof:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            sdp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            seats:
+              isSituational: false
+              onByDefault: false
+              value: null
+            secondaryWeapon:
+              configured: false
+            shieldHp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            slots:
+              isSituational: false
+              onByDefault: false
+              value: null
+            speedCombat:
+              isSituational: false
+              onByDefault: false
+              value: null
+          price:
+            market: 0
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source:
+            book: 12DoG
+            page: 5
+          sources:
+            - book: 12 Days of Gunmas
+              page: 5
+            - book: Interface RED v2
+              page: 61
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -425,7 +455,6 @@ img: modules/cyberpunk-red-dlc/icons/dlc/weapons/ars-5-submachine-gun.svg
 name: ARS-5 Submachine Gun
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -464,9 +493,9 @@ system:
       - ammo
       - itemUpgrade
     list:
-      - gKLLMuabVhoRQrvK
-      - ru8I3CvflM8kQgM1
-      - d5BAkR0LY8dwNaiO
+      - zjeTFyJbYnfOAgZl
+      - sTtvqVFvFIP5iZYj
+      - 6A6gXpgIBMhr6DGh
     slots: 4
     usedSlots: 4
   isRanged: true
@@ -479,6 +508,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: 12 Days of Gunmas
       page: 5

@@ -10,7 +10,6 @@ folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/modfire-10x-case.svg
 name: Modfire 10X Carrying Case
 ownership:
-  IMREvhAZtigyN7Gy: 3
   default: 0
 sort: 0
 system:
@@ -45,8 +44,9 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
+  source: null
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 114
   usage: toggled
 type: gear

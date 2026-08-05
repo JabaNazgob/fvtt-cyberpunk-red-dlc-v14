@@ -11,7 +11,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/Sword_excellent.svg
 name: Arasaka Weeping Reaver Katana
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -30,11 +29,29 @@ system:
   description:
     value: |
       <p>Excellent Quality Two Handed Exotic Very Heavy Melee Weapon.</p>
-      <p>Contains three doses of specific fluids for blade coating:</p>
+      <p>
+        Contains three refillable chambers in the hilt for storing proprietary blade
+        coatings:
+      </p>
       <ul>
-        <li>Arasaka Fire (can ignite target)</li>
-        <li>Arasaka Acid (ablates armor)</li>
-        <li>Arasaka Wound Salt (applies a second critical injury)</li>
+        <li>
+          <p>
+            @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.wIMBD44ZU3iJ6jNI]{Arasaka
+            Acid}
+          </p>
+        </li>
+        <li>
+          <p>
+            @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.9diHOp9hSafmHRqC]{Arasaka
+            Fire}
+          </p>
+        </li>
+        <li>
+          <p>
+            @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.LumJXCKgGQTLZJWu]{Arasaka
+            Wound Salt}
+          </p>
+        </li>
       </ul>
   dvTable: ""
   equipped: owned
@@ -64,6 +81,7 @@ system:
   quality: excellent
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 91

@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: Op9Ax8jOTiZgxSaW
+      - _id: WoDR39yCLhCafdoK
         _stats:
           compendiumSource: null
-          coreVersion: "12.343"
-          createdTime: 1768778788705
+          coreVersion: "13.351"
+          createdTime: 1786553950832
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768778788705
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786553977493
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/biometric-key.svg
         name: Biometric Key
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -41,6 +41,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 3d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>A biometric key prevents unwanted users from accessing enhanced
@@ -53,13 +57,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 7
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: true
           isRanged: false
@@ -133,8 +138,11 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 93
+          sources:
+            - book: Black Chrome
+              page: 93
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -147,7 +155,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/Machete.svg
 name: Kendachi Mono-Wakizashi
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -184,7 +191,7 @@ system:
     allowedTypes:
       - itemUpgrade
     list:
-      - Op9Ax8jOTiZgxSaW
+      - WoDR39yCLhCafdoK
     slots: 1
     usedSlots: 1
   isRanged: false
@@ -197,6 +204,7 @@ system:
   quality: standard
   revealed: true
   rof: 2
+  source: null
   sources:
     - book: Black Chrome
       page: 93

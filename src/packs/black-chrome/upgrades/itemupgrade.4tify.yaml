@@ -11,7 +11,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/4tify.svg
 name: 4Tify
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -28,11 +27,11 @@ system:
     count: 2
     threshold: 0
   description:
-    value: >
-      <p>Agent App.</p>
-
-      <p>Can reveal weak points by scanning your home. Or a section of
-      cover...</p>
+    value: |
+      <p>
+        <strong>Agent App:</strong> Can reveal weak points by scanning your home. Or a
+        section of cover...
+      </p>
   dvTable: ""
   favorite: false
   fireModes:
@@ -124,6 +123,7 @@ system:
   revealed: true
   rof: 1
   size: 0
+  source: null
   sources:
     - book: Black Chrome
       page: 13

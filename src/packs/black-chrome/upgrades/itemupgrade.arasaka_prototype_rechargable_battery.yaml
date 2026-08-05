@@ -10,7 +10,6 @@ folder: null
 img: systems/cyberpunk-red-core/icons/compendium/ammo/battery.svg
 name: Arasaka Prototype Rechargable Battery
 ownership:
-  IMREvhAZtigyN7Gy: 3
   default: 0
 sort: 0
 system:
@@ -50,7 +49,7 @@ system:
     allowedTypes:
       - itemUpgrade
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: true
   isRanged: false
@@ -123,8 +122,9 @@ system:
   revealed: true
   rof: 1
   size: 1
+  source: null
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 120
   type: weapon
   unarmedAutomaticCalculation: true

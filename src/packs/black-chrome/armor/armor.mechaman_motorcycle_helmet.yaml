@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: kPzouBAwvLOzbBHl
+      - _id: ewkEUkk75mpzfKED
         _stats:
           compendiumSource: Item.dmATNbFtjJhGSZj5
-          coreVersion: "12.343"
-          createdTime: 1768618947439
+          coreVersion: "13.351"
+          createdTime: 1786546375847
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768618947439
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786546410599
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -27,7 +28,6 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/cyberware/chyron.svg
         name: Chyron
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -40,6 +40,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>Tiny screen in your eye. Provides picture-in-picture for those
@@ -51,13 +55,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: true
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: false
@@ -134,24 +139,169 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 37
+          sources:
+            - book: Black Chrome
+              page: 37
           type: armor
           unarmedAutomaticCalculation: true
           usage: toggled
           usesType: magazine
           weaponSkill: Handgun
         type: itemUpgrade
-      - _id: VEjJREdDr0bFbcs2
+      - _id: YvJSdhnROTypXUDh
+        _stats:
+          compendiumSource: Item.bZxSuKuwYfL3jcI4
+          coreVersion: "13.351"
+          createdTime: 1786546375847
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786546447430
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: NdYYLLJXXJitIYgT
+        img: systems/cyberpunk-red-core/icons/compendium/gear/smart_glasses.svg
+        name: Smart Glasses
+        ownership:
+          default: 0
+        sort: 0
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Tokyo Dynamics
+          canIgnoreArmor: false
+          concealable:
+            concealable: false
+            isConcealed: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: <p>Eyewear with two options slots for cybereye options.</p>
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          handsReq: 0
+          ignoreArmorPercent: 0
+          ignoreBelowSP: 0
+          ignoredByBrowser: true
+          installLocation: mall
+          installedItems:
+            allowed: true
+            allowedTypes:
+              - itemUpgrade
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: false
+          isRanged: false
+          magazine:
+            ammoData: {}
+            max: 0
+            value: 0
+          modifiers:
+            Wardrobe & Style:
+              isSituational: false
+              onByDefault: false
+              value: null
+            attackmod:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            bodySp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            cool:
+              isSituational: false
+              onByDefault: false
+              value: null
+            damage:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            headSp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            magazine:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            rof:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            sdp:
+              isSituational: false
+              onByDefault: false
+              value: null
+            seats:
+              isSituational: false
+              onByDefault: false
+              value: null
+            secondaryWeapon:
+              configured: false
+            shieldHp:
+              isSituational: false
+              onByDefault: false
+              type: modifier
+              value: null
+            slots:
+              isSituational: false
+              onByDefault: false
+              value: null
+            speedCombat:
+              isSituational: false
+              onByDefault: false
+              value: null
+          price:
+            market: 0
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source:
+            book: Black Chrome
+            page: 30
+          sources:
+            - book: Black Chrome
+              page: 37
+          type: armor
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Handgun
+        type: itemUpgrade
+      - _id: VjnGSHrIDxcdp4E8
         _stats:
           compendiumSource: Item.dmATNbFtjJhGSZj5
-          coreVersion: "12.343"
-          createdTime: 1768618947439
+          coreVersion: "13.351"
+          createdTime: 1786546375847
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768618947439
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786546433370
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -163,7 +313,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/cyberware/lowlight_ir_uv.svg
         name: Low Light/IR/UV
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -176,6 +325,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: <p>Ignore any vision penalties due to lighting or fog/smoke.</p>
           favorite: false
@@ -185,13 +338,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: true
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: false
@@ -268,141 +422,11 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 37
-          type: armor
-          unarmedAutomaticCalculation: true
-          usage: toggled
-          usesType: magazine
-          weaponSkill: Handgun
-        type: itemUpgrade
-      - _id: YqULst4o4u9Ztl1s
-        _stats:
-          compendiumSource: Item.bZxSuKuwYfL3jcI4
-          coreVersion: "12.343"
-          createdTime: 1768618947439
-          duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768618947439
-          systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
-        effects: []
-        flags:
-          cyberpunk-red-core:
-            _migration:
-              current: 44
-              previous: "38"
-        folder: NdYYLLJXXJitIYgT
-        img: systems/cyberpunk-red-core/icons/compendium/gear/smart_glasses.svg
-        name: Smart Glasses
-        ownership:
-          IMREvhAZtigyN7Gy: 3
-          default: 0
-        sort: 0
-        system:
-          ammoVariety: []
-          attackmod: 0
-          brand: Tokyo Dynamics
-          canIgnoreArmor: false
-          concealable:
-            concealable: false
-            isConcealed: false
-          critFailEffect: jammed
-          damage: 1d6
-          description:
-            value: <p>Eyewear with two options slots for cybereye options.</p>
-          favorite: false
-          fireModes:
-            autoFire: 0
-            suppressiveFire: false
-          handsReq: 0
-          ignoreArmorPercent: 0
-          ignoreBelowSP: 0
-          installLocation: mall
-          installedItems:
-            allowed: true
-            allowedTypes:
-              - itemUpgrade
-            list: []
-            slots: 3
-            usedSlots: 0
-          isElectronic: false
-          isRanged: false
-          magazine:
-            ammoData: {}
-            max: 0
-            value: 0
-          modifiers:
-            Wardrobe & Style:
-              isSituational: false
-              onByDefault: false
-              value: null
-            attackmod:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            bodySp:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            cool:
-              isSituational: false
-              onByDefault: false
-              value: null
-            damage:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            headSp:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            magazine:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            rof:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            sdp:
-              isSituational: false
-              onByDefault: false
-              value: null
-            seats:
-              isSituational: false
-              onByDefault: false
-              value: null
-            secondaryWeapon:
-              configured: false
-            shieldHp:
-              isSituational: false
-              onByDefault: false
-              type: modifier
-              value: null
-            slots:
-              isSituational: false
-              onByDefault: false
-              value: null
-            speedCombat:
-              isSituational: false
-              onByDefault: false
-              value: null
-          price:
-            market: 0
-          providesHardening: false
-          revealed: true
-          rof: 1
-          size: 1
-          source:
-            book: BC
-            page: 30
+          sources:
+            - book: Black Chrome
+              page: 37
           type: armor
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -414,7 +438,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/armor/mechaman-helmet.svg
 name: MechaMan Motorcycle Helmet
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   bodyLocation:
@@ -441,9 +464,9 @@ system:
     allowedTypes:
       - itemUpgrade
     list:
-      - kPzouBAwvLOzbBHl
-      - VEjJREdDr0bFbcs2
-      - YqULst4o4u9Ztl1s
+      - ewkEUkk75mpzfKED
+      - YvJSdhnROTypXUDh
+      - VjnGSHrIDxcdp4E8
     slots: 3
     usedSlots: 3
   isBodyLocation: false
@@ -458,6 +481,7 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
+  source: null
   sources:
     - book: Black Chrome
       page: 37

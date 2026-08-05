@@ -6,6 +6,71 @@ flags:
     _migration:
       current: 44
       previous: "38"
+    cprInstallTree:
+      - _id: WwuhaictQz2MZgSU
+        _stats:
+          compendiumSource: Compendium.cyberpunk-red-core.core_ammo.Item.6ta0PBU9FFrkg97B
+          coreVersion: "13.351"
+          createdTime: 1786661107777
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786661107777
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 42
+              previous: "41"
+        folder: null
+        img: >-
+          systems/cyberpunk-red-core/icons/compendium/ammo/pistolveryheavy_rubber.svg
+        name: Very Heavy Pistol (Rubber)
+        ownership:
+          default: 0
+        sort: 0
+        system:
+          ablationValue: 0
+          amount: 0
+          brand: ""
+          concealable:
+            concealable: true
+            isConcealed: false
+          description:
+            value: |-
+              <p>
+                Does not cause Critical Injury. Does not ablate armor. Leaves target at
+                minimum 1hp. Counts as Basic ammo for exotic weapons
+              </p>
+          favorite: false
+          ignoredByBrowser: false
+          installLocation: mall
+          overrides:
+            autofire:
+              minimum: 3
+              mode: none
+              value: -1
+            crit:
+              bonus: 5
+              count: 0
+              override: true
+              threshold: 0
+            damage:
+              minimum: 1d6
+              mode: none
+              value: 3d6
+          price:
+            market: 10
+          size: 0
+          source: null
+          sources:
+            - book: Cyberpunk RED
+              page: 346
+          type: rubber
+          variety: vHeavyPistol
+        type: ammo
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol.svg
 name: Faisal's Convenience (Rubber)
@@ -49,7 +114,8 @@ system:
     allowedTypes:
       - itemUpgrade
       - ammo
-    list: []
+    list:
+      - WwuhaictQz2MZgSU
     slots: 3
     usedSlots: 0
   isRanged: true

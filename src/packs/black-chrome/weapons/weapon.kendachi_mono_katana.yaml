@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: cXHrQf6otwhfbuMh
+      - _id: IQG4zdbmrrLZcCPi
         _stats:
           compendiumSource: null
-          coreVersion: "12.343"
-          createdTime: 1768778653479
+          coreVersion: "13.351"
+          createdTime: 1786553844764
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768778653479
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786553934554
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/biometric-key.svg
         name: Biometric Key
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -41,6 +41,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 4d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>A biometric key prevents unwanted users from accessing enhanced
@@ -53,13 +57,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 7
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: true
           isRanged: false
@@ -133,8 +138,11 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 92
+          sources:
+            - book: Black Chrome
+              page: 92
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -147,7 +155,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/weapons/kendachi-mono-katana.s
 name: Kendachi Mono-Katana
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -185,7 +192,7 @@ system:
     allowedTypes:
       - itemUpgrade
     list:
-      - cXHrQf6otwhfbuMh
+      - IQG4zdbmrrLZcCPi
     slots: 1
     usedSlots: 1
   isRanged: false
@@ -198,6 +205,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 92

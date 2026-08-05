@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: McVMie3Gkiey6mWc
+      - _id: ApvsXowG6q2IUM0n
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC
-          coreVersion: "12.343"
-          createdTime: 1768772191971
+          coreVersion: "13.351"
+          createdTime: 1786552748426
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768772191971
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786552954680
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -27,7 +28,6 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/upgrades/smartgun_link.svg
         name: Smartgun Link
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -40,6 +40,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>This model of "Smartgun" allows users to select between Lethal
@@ -52,6 +56,7 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
@@ -140,8 +145,11 @@ flags:
           rof: 1
           size: 2
           source:
-            book: BC
+            book: Black Chrome
             page: 115
+          sources:
+            - book: Black Chrome
+              page: 115
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -154,7 +162,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/heavyPistol_poor.svg
 name: E-TACK Public Defender
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -195,7 +202,7 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - McVMie3Gkiey6mWc
+      - ApvsXowG6q2IUM0n
     slots: 2
     usedSlots: 2
   isRanged: true
@@ -208,6 +215,7 @@ system:
   quality: poor
   revealed: true
   rof: 2
+  source: null
   sources:
     - book: Black Chrome
       page: 115

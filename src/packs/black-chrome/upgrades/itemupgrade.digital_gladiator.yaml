@@ -11,7 +11,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/digital-gladiator.svg
 name: Digital Gladiator
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -29,15 +28,15 @@ system:
     threshold: 0
   description:
     value: >
-      <p>Agent App.</p>
+      <p><strong>Agent App:</strong> A pvp battle game you can play on your
+      Agent.</p>
 
-      <p>Perhaps you're better suited to duking it out online than in the
-      streets…</p>
-
-      <p>
-        Rules related to creating, playing with, and fighting an opponent in Digital
-        Gladiator are contained in Black Chrome rulebook for this item.
-      </p>
+      <blockquote>
+        <p>
+          Rules related to creating, playing with, and fighting an opponent in Digital
+          Gladiator are contained in Black Chrome rulebook for this item.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:
@@ -126,6 +125,7 @@ system:
   revealed: true
   rof: 1
   size: 0
+  source: null
   sources:
     - book: Black Chrome
       page: 12

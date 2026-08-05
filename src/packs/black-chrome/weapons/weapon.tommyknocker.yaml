@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: Wrk8YoaEeNS8yDpO
+      - _id: uibbxCoyaHGjhAEt
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.aFg1nXhz37e1C2YP
-          coreVersion: "12.343"
-          createdTime: 1768933742560
+          coreVersion: "13.351"
+          createdTime: 1786562721257
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768933742560
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786562751838
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/upgrades/shotgun_underbarrel.svg
         name: Shotgun Underbarrel
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -43,17 +43,21 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 5d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: |-
               <p>
-                Functions like a standard shotgun, but with a magazine size of 2. Requires 2
-                hands to use, and takes up 2 attachment slots. While attached, the weapon
-                can't be concealed under clothing.
-              </p>
-              <p>
-                Note that the weapon inherits any modifiers from the gun it is attached to,
-                such as other attachments and quality.
-              </p>
+                                        Functions like a standard shotgun, but with a magazine size of 2. Requires 2
+                                        hands to use, and takes up 2 attachment slots. While attached, the weapon
+                                        can't be concealed under clothing.
+                                      </p>
+                                      <p>
+                                        Note that the weapon inherits any modifiers from the gun it is attached to,
+                                        such as other attachments and quality.
+                                      </p>
           dvTable: DV Shotgun (Slug)
           favorite: false
           fireModes:
@@ -62,6 +66,7 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: true
@@ -69,7 +74,7 @@ flags:
               - itemUpgrade
               - ammo
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: true
@@ -145,14 +150,17 @@ flags:
               onByDefault: false
               value: null
           price:
-            market: 500
+            market: 0
           providesHardening: false
           revealed: true
           rof: 1
           size: 2
           source:
-            book: BC
+            book: Black Chrome
             page: 123
+          sources:
+            - book: Black Chrome
+              page: 123
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -165,7 +173,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol.svg
 name: Tommyknocker
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -210,7 +217,7 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - Wrk8YoaEeNS8yDpO
+      - uibbxCoyaHGjhAEt
     slots: 3
     usedSlots: 2
   isRanged: true
@@ -223,6 +230,7 @@ system:
   quality: poor
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 123

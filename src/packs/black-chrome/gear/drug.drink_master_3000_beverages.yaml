@@ -180,7 +180,6 @@ folder: null
 img: systems/cyberpunk-red-core/icons/compendium/default/default_drink.svg
 name: Drink Master 3000 Beverages
 ownership:
-  IMREvhAZtigyN7Gy: 3
   default: 0
 sort: 0
 system:
@@ -224,8 +223,9 @@ system:
   price:
     market: 100
   revealed: true
+  source: null
   sources:
-    - book: BC
+    - book: Black Chrome
       page: 42
   usage: snorted
 type: drug

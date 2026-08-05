@@ -1,0 +1,6 @@
+- `icons/dlc/cyberware/bug-eye.svg` -- https://thenounproject.com/icon/hex-grid-2176359/
+- `icons/dlc/cyberware/sponsored_covering.svg` -- https://game-icons.net/1x1/skoll/allied-star.html
+- `icons/dlc/cyberware/gas-jet.svg` -- https://game-icons.net/1x1/lorc/chemical-arrow.html
+- `icons/dlc/cyberware/bodyweight-autoinjector.svg` -- https://game-icons.net/1x1/lorc/miracle-medecine.html
+- `icons/dlc/weapons/ballistic-harpoon-launcher.svg`-- https://thenounproject.com/icon/harpoon-5047630/ & https://thenounproject.com/icon/harpoon-6929655/
+- `icons/dlc/weapons/ballistic-harpoon.svg` -- https://thenounproject.com/icon/harpoon-5047630/

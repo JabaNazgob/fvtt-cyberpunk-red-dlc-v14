@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: RkUMZmgSTVWGgYfP
+      - _id: uIQpK3yNBGGA9yul
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.aFg1nXhz37e1C2YP
-          coreVersion: "12.343"
-          createdTime: 1768772914404
+          coreVersion: "13.351"
+          createdTime: 1786552839425
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768772914404
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786552919352
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/upgrades/shotgun_underbarrel.svg
         name: Assault Rifle Underbarrel
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -42,6 +42,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 5d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>This rifle has a magazine size of 10 and uses the Archery skill
@@ -54,6 +58,7 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: true
@@ -61,7 +66,7 @@ flags:
               - itemUpgrade
               - ammo
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: true
@@ -143,8 +148,11 @@ flags:
           rof: 1
           size: 2
           source:
-            book: BC
+            book: Black Chrome
             page: 103
+          sources:
+            - book: Black Chrome
+              page: 103
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -152,16 +160,17 @@ flags:
           weaponSkill: Archery
           weaponType: assaultRifle
         type: itemUpgrade
-      - _id: tPu2ubuQ4NYfAne8
+      - _id: KFEVXCI3AblQ9dap
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN
-          coreVersion: "12.343"
-          createdTime: 1768772914404
+          coreVersion: "13.351"
+          createdTime: 1786552839425
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768772914404
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786553680582
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -172,25 +181,28 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/upgrades/sniping_scope.svg
         name: Sniping Scope
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
           ammoVariety: []
           attackmod: 0
-          brand: ""
+          brand: Eagletech
           canIgnoreArmor: true
           concealable:
             concealable: false
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: |-
               <p>
-                Allows you to see detail up to 800m/yds. +1 to Single Shot/Aimed Shots for
-                targets greater than 50m/yds.
-              </p>
+                                                                Allows you to see detail up to 800m/yds. +1 to Single Shot/Aimed Shots for
+                                                                targets greater than 50m/yds.
+                                                              </p>
           dvTable: ""
           favorite: false
           fireModes:
@@ -199,6 +211,7 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
@@ -274,7 +287,7 @@ flags:
               onByDefault: false
               value: null
           price:
-            market: 100
+            market: 0
           providesHardening: false
           revealed: true
           rof: 1
@@ -282,6 +295,9 @@ flags:
           source:
             book: Core
             page: 344
+          sources:
+            - book: Black Chrome
+              page: 103
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -294,7 +310,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/Crossbow.svg
 name: Eagletech Survivalist
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -334,8 +349,8 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - RkUMZmgSTVWGgYfP
-      - tPu2ubuQ4NYfAne8
+      - uIQpK3yNBGGA9yul
+      - KFEVXCI3AblQ9dap
     slots: 3
     usedSlots: 3
   isRanged: true
@@ -348,6 +363,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 103

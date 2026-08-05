@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: R5lciARnmQ8gggat
+      - _id: kowKugEBSlUVnD1i
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.aFg1nXhz37e1C2YP
-          coreVersion: "12.343"
-          createdTime: 1768779295768
+          coreVersion: "13.351"
+          createdTime: 1786562114751
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768779295768
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786562321835
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/upgrades/shotgun_underbarrel.svg
         name: Shotgun Underbarrel
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -43,6 +43,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 5d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>Functions like a standard shotgun, but with a magazine size of
@@ -58,13 +62,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: true
             allowedTypes:
               - ammo
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: true
@@ -146,8 +151,11 @@ flags:
           rof: 1
           size: 2
           source:
-            book: BC
+            book: Black Chrome
             page: 113
+          sources:
+            - book: Black Chrome
+              page: 113
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -160,7 +168,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/SMG.svg
 name: Militech Mastiff SMG
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -196,7 +203,7 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - R5lciARnmQ8gggat
+      - kowKugEBSlUVnD1i
     slots: 2
     usedSlots: 2
   isRanged: true
@@ -209,6 +216,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 113

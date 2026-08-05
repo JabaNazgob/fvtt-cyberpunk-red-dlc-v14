@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: xrWzQ9vl8tsZAi3y
+      - _id: qbxpkhBakybMVh56
         _stats:
           compendiumSource: Actor.wFky9QOP6GP9h7nr.Item.vSDQjbSqBmv55zTR
-          coreVersion: "12.343"
-          createdTime: 1768620612894
+          coreVersion: "13.351"
+          createdTime: 1786546647303
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768620612894
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786546685134
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/street-viper-blades.svg
         name: Viper Blades
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -41,6 +41,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 2d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>Medium melee weapons that are always considered drawn as long
@@ -52,13 +56,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: false
@@ -135,8 +140,11 @@ flags:
           rof: 2
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 36
+          sources:
+            - book: Black Chrome
+              page: 36
           type: armor
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -144,16 +152,17 @@ flags:
           weaponSkill: Melee Weapon
           weaponType: medMelee
         type: itemUpgrade
-      - _id: XpWctglq0bz54dnQ
+      - _id: 5YjOXA5JkIdpfA8a
         _stats:
           compendiumSource: Actor.wFky9QOP6GP9h7nr.Item.vSDQjbSqBmv55zTR
-          coreVersion: "12.343"
-          createdTime: 1768620612894
+          coreVersion: "13.351"
+          createdTime: 1786546647303
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768620612894
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786546704520
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -165,7 +174,6 @@ flags:
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/street-viper-blades.svg
         name: Viper Blades
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -178,6 +186,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 2d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>Medium melee weapons that are always considered drawn as long
@@ -189,13 +201,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: false
@@ -272,8 +285,11 @@ flags:
           rof: 2
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 36
+          sources:
+            - book: Black Chrome
+              page: 36
           type: armor
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -287,7 +303,6 @@ img: >-
 name: Street Viper Riding Suit
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   bodyLocation:
@@ -311,8 +326,8 @@ system:
     allowedTypes:
       - itemUpgrade
     list:
-      - xrWzQ9vl8tsZAi3y
-      - XpWctglq0bz54dnQ
+      - qbxpkhBakybMVh56
+      - 5YjOXA5JkIdpfA8a
     slots: 2
     usedSlots: 2
   isBodyLocation: true
@@ -327,6 +342,7 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
+  source: null
   sources:
     - book: Black Chrome
       page: 36

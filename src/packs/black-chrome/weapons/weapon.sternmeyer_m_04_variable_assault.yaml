@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: 2gF8k7w1TL3fPWlC
+      - _id: yrmTWEevIgPkESos
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.x6mYA3IJZaNK00nv
-          coreVersion: "12.343"
-          createdTime: 1768932859802
+          coreVersion: "13.351"
+          createdTime: 1786562647813
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768932859802
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786562706033
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,31 +29,34 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/upgrades/grenade_launcher_underbarrel.svg
         name: Grenade Launcher Underbarrel
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
           ammoVariety:
             - grenade
           attackmod: 0
-          brand: ""
+          brand: Sternmeyer
           canIgnoreArmor: false
           concealable:
             concealable: false
             isConcealed: false
           critFailEffect: jammed
           damage: 6d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: |-
               <p>
-                Functions like a standard grenade launcher, but with a magazine size of 1.
-                Requires 2 hands to use, and takes up 2 attachment slots. While attached, the
-                weapon can't be concealed under clothing.
-              </p>
-              <p>
-                Note that the weapon inherits any modifiers from the gun it is attached to,
-                such as other attachments and quality.
-              </p>
+                                                Functions like a standard grenade launcher, but with a magazine size of 1.
+                                                Requires 2 hands to use, and takes up 2 attachment slots. While attached, the
+                                                weapon can't be concealed under clothing.
+                                              </p>
+                                              <p>
+                                                Note that the weapon inherits any modifiers from the gun it is attached to,
+                                                such as other attachments and quality.
+                                              </p>
           dvTable: DV Grenade Launcher
           favorite: false
           fireModes:
@@ -61,13 +65,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: true
             allowedTypes:
               - ammo
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: true
@@ -143,7 +148,7 @@ flags:
               onByDefault: false
               value: null
           price:
-            market: 500
+            market: 0
           providesHardening: false
           revealed: true
           rof: 1
@@ -151,6 +156,9 @@ flags:
           source:
             book: Core
             page: 343
+          sources:
+            - book: Black Chrome
+              page: 119
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -163,7 +171,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/AssaultRifle_poor.svg
 name: Sternmeyer M-04 Variable Assault
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -202,7 +209,7 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - 2gF8k7w1TL3fPWlC
+      - yrmTWEevIgPkESos
     slots: 2
     usedSlots: 2
   isRanged: true
@@ -215,6 +222,7 @@ system:
   quality: poor
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 119

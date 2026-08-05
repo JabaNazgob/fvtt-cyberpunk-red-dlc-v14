@@ -7,27 +7,27 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: HsVRNp1Z99MS3uX3
+      - _id: 2pIHyyEbtSeJuPuY
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_ammo.Item.e2w1oKiv8t68chiI
-          coreVersion: "12.343"
-          createdTime: 1768953004810
+          coreVersion: "13.351"
+          createdTime: 1786663570257
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768953004810
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786663570257
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
             _migration:
-              current: 44
-              previous: "38"
+              current: 42
+              previous: "41"
         folder: null
-        img: systems/cyberpunk-red-core/icons/compendium/ammo/rocket_smart.png
+        img: systems/cyberpunk-red-core/icons/compendium/ammo/rocket_smart.svg
         name: Rocket (Smart)
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -45,12 +45,18 @@ flags:
                 luck. Target can dodge the second roll as normal if able to do so.
               </p>
           favorite: false
+          ignoredByBrowser: false
           installLocation: mall
           overrides:
             autofire:
               minimum: 3
               mode: none
               value: -1
+            crit:
+              bonus: 5
+              count: 2
+              override: false
+              threshold: 0
             damage:
               minimum: 1d6
               mode: none
@@ -58,9 +64,10 @@ flags:
           price:
             market: 500
           size: 0
-          source:
-            book: Core
-            page: 346
+          source: null
+          sources:
+            - book: Cyberpunk RED
+              page: 346
           type: smart
           variety: rocket
         type: ammo
@@ -70,7 +77,6 @@ img: >-
 name: Archimedes
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -109,7 +115,7 @@ system:
     allowedTypes:
       - ammo
     list:
-      - HsVRNp1Z99MS3uX3
+      - 2pIHyyEbtSeJuPuY
     slots: 0
     usedSlots: 0
   isRanged: true
@@ -122,6 +128,7 @@ system:
   quality: excellent
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Woodchipper's Garage
       page: 4

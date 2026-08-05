@@ -12,7 +12,6 @@ img: >-
 name: Hades Multipurpose Assault Shotgun
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -32,10 +31,7 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        The Hades Multipurpose Assault Shotgun is an Exotic Shotgun. The magazine
-        holds 16 shots.
-      </p>
+      <p><strong>Exotic Shotgun.</strong> The magazine holds 16 shots.</p>
   dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false
@@ -63,6 +59,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 109

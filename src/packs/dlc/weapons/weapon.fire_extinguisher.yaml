@@ -7,15 +7,15 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: 87d1DiYA5WzZrqwz
+      - _id: McnjkqBvqGGRmNwx
         _stats:
           compendiumSource: Compendium.cyberpunk-red-dlc.dlc_ammo.Item.Tuv9nHwCesf3Wchg
           coreVersion: "13.351"
-          createdTime: 1783700449986
+          createdTime: 1786664871974
           duplicateSource: null
           exportSource: null
-          lastModifiedBy: 62fniNbymaXTm4QO
-          modifiedTime: 1783700449986
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786664871974
           systemId: cyberpunk-red-core
           systemVersion: DUMMY_VALUE
         effects: []
@@ -25,10 +25,9 @@ flags:
               current: 44
               previous: "38"
         folder: null
-        img: modules/cyberpunk-red-dlc/icons/dlc/ammo/fire_extinguisher_charges.svg
+        img: modules/cyberpunk-red-dlc/icons/dlc/ammo/cannister_basic.svg
         name: Fire Extinguisher Charges
         ownership:
-          62fniNbymaXTm4QO: 3
           default: 0
         sort: 0
         system:
@@ -41,12 +40,18 @@ flags:
           description:
             value: <p>Requires access to a charging station, takes 5 minutes.</p>
           favorite: false
+          ignoredByBrowser: false
           installLocation: mall
           overrides:
             autofire:
               minimum: 3
               mode: none
               value: -1
+            crit:
+              bonus: 5
+              count: 2
+              override: false
+              threshold: 0
             damage:
               minimum: 1d6
               mode: none
@@ -54,9 +59,10 @@ flags:
           price:
             market: 20
           size: 0
-          source:
-            book: Hope Reborn
-            page: 34
+          source: null
+          sources:
+            - book: TotR — Hope Reborn
+              page: 34
           type: special
           variety: custom
         type: ammo
@@ -105,7 +111,7 @@ system:
     allowedTypes:
       - ammo
     list:
-      - 87d1DiYA5WzZrqwz
+      - McnjkqBvqGGRmNwx
     slots: 0
     usedSlots: 0
   isRanged: true
@@ -118,6 +124,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: TotR — Hope Reborn
       page: 34

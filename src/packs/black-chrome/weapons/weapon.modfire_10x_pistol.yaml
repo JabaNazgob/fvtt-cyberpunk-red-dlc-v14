@@ -11,7 +11,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/weapons/modfire-10x-pistol.svg
 name: ModFire 10X (Pistol)
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -37,7 +36,7 @@ system:
       </p>
       <blockquote>
         <p>
-          The ModFire 10X fits and all its components fit neatly into a sleek
+          The ModFire 10X and all its components fit neatly into a sleek
           @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.RVr6mvr9BQ6hgS1L]{carrying
           case}. Transforming the weapon from one profile to another takes 1 minute as
           long as you have all the requisite parts.
@@ -71,6 +70,7 @@ system:
   quality: standard
   revealed: true
   rof: 2
+  source: null
   sources:
     - book: Black Chrome
       page: 114

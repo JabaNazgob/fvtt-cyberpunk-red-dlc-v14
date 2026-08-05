@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: eStlPGZ5ZveNU1NU
+      - _id: h8zBuS53P5ejepJK
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.x6mYA3IJZaNK00nv
-          coreVersion: "12.343"
-          createdTime: 1768962659416
+          coreVersion: "13.351"
+          createdTime: 1786666007695
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768962659416
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786666037706
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/upgrades/grenade_launcher_underbarrel.svg
         name: Grenade Launcher Underbarrel
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -42,6 +42,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 6d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p><strong>Poor Quality Grenade Launcher </strong>Note that the
@@ -55,13 +59,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: true
             allowedTypes:
               - ammo
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: true
@@ -145,6 +150,11 @@ flags:
           source:
             book: WG
             page: 3
+          sources:
+            - book: Woodchipper's Garage
+              page: 3
+            - book: Interface RED v3
+              page: 27
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -157,7 +167,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/RocketLauncher_poor.svg
 name: Triple Threat
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -197,7 +206,7 @@ system:
       - ammo
       - itemUpgrade
     list:
-      - eStlPGZ5ZveNU1NU
+      - h8zBuS53P5ejepJK
     slots: 2
     usedSlots: 2
   isRanged: true
@@ -210,6 +219,7 @@ system:
   quality: poor
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Woodchipper's Garage
       page: 3

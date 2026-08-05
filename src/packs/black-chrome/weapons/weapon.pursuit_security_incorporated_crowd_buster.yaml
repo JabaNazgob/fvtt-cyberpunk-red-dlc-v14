@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: e1XaoZ3lmKkKqTcj
+      - _id: T15TmzysvT1BKlji
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.aFg1nXhz37e1C2YP
-          coreVersion: "12.343"
-          createdTime: 1768795662632
+          coreVersion: "13.351"
+          createdTime: 1786562278234
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768795662632
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786562306852
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/shrieker_underbarrel.svg
         name: Shrieker Underbarrel
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -42,6 +42,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: "0"
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>An Exotic Very Heavy Pistol. Requires ear protection to prevent
@@ -57,6 +61,7 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: true
@@ -64,7 +69,7 @@ flags:
               - itemUpgrade
               - ammo
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: true
           isRanged: true
@@ -146,8 +151,11 @@ flags:
           rof: 1
           size: 2
           source:
-            book: BC
+            book: Black Chrome
             page: 116
+          sources:
+            - book: Black Chrome
+              page: 116
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -160,7 +168,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/AssaultRifle.svg
 name: Pursuit Security Incorporated Crowd Buster
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -201,7 +208,7 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - e1XaoZ3lmKkKqTcj
+      - T15TmzysvT1BKlji
     slots: 2
     usedSlots: 2
   isRanged: true
@@ -214,6 +221,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 116

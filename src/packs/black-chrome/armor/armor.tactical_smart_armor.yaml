@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: J7yi2fcKPQIdOlwI
+      - _id: WdPEklfQvhOs7Xeq
         _stats:
           compendiumSource: Item.bZxSuKuwYfL3jcI4
-          coreVersion: "12.343"
-          createdTime: 1768618897359
+          coreVersion: "13.351"
+          createdTime: 1786546959655
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768618897359
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786546996648
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -27,7 +28,6 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/gear/smart_glasses.svg
         name: Smart Glasses
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -40,6 +40,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: <p>Eyewear with two options slots for cybereye options.</p>
           favorite: false
@@ -49,6 +53,7 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: true
@@ -57,7 +62,7 @@ flags:
             list: []
             slots: 3
             usedSlots: 0
-          isElectronic: false
+          isElectronic: true
           isRanged: false
           magazine:
             ammoData: {}
@@ -132,8 +137,11 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 30
+          sources:
+            - book: Black Chrome
+              page: 30
           type: armor
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -145,7 +153,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/armor/smart-armor.svg
 name: Tactical Smart Armor
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   bodyLocation:
@@ -172,8 +179,8 @@ system:
     allowedTypes:
       - itemUpgrade
     list:
-      - J7yi2fcKPQIdOlwI
-    slots: 3
+      - WdPEklfQvhOs7Xeq
+    slots: 1
     usedSlots: 1
   isBodyLocation: true
   isElectronic: true
@@ -187,6 +194,7 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
+  source: null
   sources:
     - book: Black Chrome
       page: 30

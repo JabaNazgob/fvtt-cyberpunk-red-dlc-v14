@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: 8rIFrJ8qtBN9NILa
+      - _id: g1EG80aGeHJnFbw3
         _stats:
           compendiumSource: null
-          coreVersion: "12.343"
-          createdTime: 1768936647973
+          coreVersion: "13.351"
+          createdTime: 1786562773546
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768936647973
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786562847759
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/westwood-pull-out-screen.svg
         name: Westwood Pull-Out Screen
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -41,6 +41,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: <p>Can play movie clips stored on an internal memory chip.</p>
           favorite: false
@@ -50,12 +54,13 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
-            allowed: true
+            allowed: false
             allowedTypes: []
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: true
           isRanged: false
@@ -129,8 +134,11 @@ flags:
           rof: 1
           size: 0
           source:
-            book: BC
+            book: Black Chrome
             page: 121
+          sources:
+            - book: Black Chrome
+              page: 121
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -142,7 +150,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol.svg
 name: Westwood
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -181,7 +188,7 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - 8rIFrJ8qtBN9NILa
+      - g1EG80aGeHJnFbw3
     slots: 3
     usedSlots: 0
   isRanged: true
@@ -194,6 +201,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 121

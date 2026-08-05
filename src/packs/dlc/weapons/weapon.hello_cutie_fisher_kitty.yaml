@@ -7,17 +7,18 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: XiZPBkv0ul8vCcJw
+      - _id: Ang0fek15tYWl8Hs
         _stats:
           compendiumSource: >-
             Compendium.the-12-days-of-cutiemas.the-12-days-of-cutiemas.Item.MDO8d8g0Z7itszPX
-          coreVersion: "12.343"
-          createdTime: 1769218535645
+          coreVersion: "13.351"
+          createdTime: 1786665022835
           duplicateSource: null
-          lastModifiedBy: eMgDDuUqplwN8vV7
-          modifiedTime: 1769218535645
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786665095589
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -27,11 +28,10 @@ flags:
           scene-packer:
             hash: 453b05f8b3adc19bceb087b7e3d30217f693b224
         folder: lRSD8hvBUPOJcvIv
-        img: systems/cyberpunk-red-core/icons/compendium/ammo/bow_basic.png
+        img: modules/cyberpunk-red-dlc/icons/dlc/ammo/harpoon_emp.svg
         name: Mini-Harpoon
         ownership:
           default: 0
-          eMgDDuUqplwN8vV7: 3
         sort: 300000
         system:
           ablationValue: 1
@@ -47,12 +47,18 @@ flags:
               the weapon recovers all spent ammo. Refill this stack as
               needed.</p>
           favorite: false
+          ignoredByBrowser: true
           installLocation: mall
           overrides:
             autofire:
               minimum: 3
               mode: none
               value: -1
+            crit:
+              bonus: 5
+              count: 2
+              override: false
+              threshold: 0
             damage:
               minimum: 1d6
               mode: none
@@ -63,6 +69,9 @@ flags:
           source:
             book: 12DoC
             page: 4
+          sources:
+            - book: 12 Days of Cutimas
+              page: 12
           type: emp
           variety: arrow
         type: ammo
@@ -73,7 +82,6 @@ img: modules/cyberpunk-red-dlc/icons/dlc/weapons/hello-cutie-fisher-kitty.svg
 name: Hello Cutie Fisher Kitty
 ownership:
   default: 0
-  eMgDDuUqplwN8vV7: 3
 sort: 0
 system:
   ammoVariety:
@@ -87,8 +95,8 @@ system:
   critFailEffect: jammed
   damage: 2d6
   damageCrit:
-    bonus: 5
-    count: 2
+    bonus: 0
+    count: 0
     threshold: 0
   description:
     value: |
@@ -102,10 +110,10 @@ system:
       <blockquote>
         <p>
           The user may use an action to electrify the cables connected to each
-          mini-harpoon and deal [[/r 2d6#Electric Damage (Ignores Armor)]] damage
-          directly to any connected target's HP. If a target is connected by 3 or more
-          mini-harpoons they take [[/r 3d6#Electric Damage (Ignores Armor)]] damage
-          instead.
+          mini-harpoon and deal [[/r 2d6dmgab0cd0#Electric Damage (Ignores
+          Armor)]]{2d6} damage directly to any connected target's HP. If a target is
+          connected by 3 or more mini-harpoons they take [[/r 3d6dmgab0cd0#Electric
+          Damage (Ignores Armor)]]{3d6} damage instead.
         </p>
       </blockquote>
   dvTable: DV Bows & Crossbows
@@ -123,7 +131,7 @@ system:
     allowedTypes:
       - ammo
     list:
-      - XiZPBkv0ul8vCcJw
+      - Ang0fek15tYWl8Hs
     slots: 0
     usedSlots: 0
   isRanged: true
@@ -136,6 +144,7 @@ system:
   quality: standard
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: 12 Days of Cutimas
       page: 12

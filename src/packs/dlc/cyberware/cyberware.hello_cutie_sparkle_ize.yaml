@@ -58,7 +58,6 @@ img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/hello-cutie-sparkle-ize.svg
 name: Hello Cutie Sparkle-Ize
 ownership:
   default: 0
-  eMgDDuUqplwN8vV7: 3
 sort: 0
 system:
   ammoVariety: []
@@ -106,7 +105,7 @@ system:
     allowedTypes:
       - itemUpgrade
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: false
   isFoundational: false
@@ -122,6 +121,7 @@ system:
   revealed: true
   rof: 1
   size: 2
+  source: null
   sources:
     - book: 12 Days of Cutimas
       page: 6

@@ -10,7 +10,6 @@ folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/gear/binary-compound.svg
 name: Binary Compound
 ownership:
-  IMREvhAZtigyN7Gy: 3
   default: 0
 sort: 0
 system:
@@ -42,13 +41,14 @@ system:
     allowedTypes:
       - itemUpgrade
     list: []
-    slots: 1
+    slots: 0
     usedSlots: 0
   isElectronic: false
   price:
     market: 50
   providesHardening: false
   revealed: true
+  source: null
   sources:
     - book: Going Quiet
       page: 5

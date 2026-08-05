@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: tSC8ufid0sCmyQjP
+      - _id: N1y0GnZG2Kq3V3wA
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.aFg1nXhz37e1C2YP
-          coreVersion: "12.343"
-          createdTime: 1768774629406
+          coreVersion: "13.351"
+          createdTime: 1786552979406
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768774629406
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786552999910
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/netlauncher_underbarrel.svg
         name: Netlauncher Underbarrel
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -42,6 +42,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: "0"
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>On a hit the target is grappled by the net and cannot move or
@@ -58,13 +62,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: true
             allowedTypes:
               - ammo
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: true
@@ -146,8 +151,11 @@ flags:
           rof: 1
           size: 2
           source:
-            book: BC
+            book: Black Chrome
             page: 104
+          sources:
+            - book: Black Chrome
+              page: 104
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -160,7 +168,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun_poor.svg
 name: Faisal's Dead or Alive
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -200,7 +207,7 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - tSC8ufid0sCmyQjP
+      - N1y0GnZG2Kq3V3wA
     slots: 2
     usedSlots: 2
   isRanged: true
@@ -213,6 +220,7 @@ system:
   quality: poor
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 104

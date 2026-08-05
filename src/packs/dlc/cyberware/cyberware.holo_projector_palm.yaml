@@ -11,7 +11,6 @@ img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/holo_projector_palm.svg
 name: Holo Projector Palm
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -52,7 +51,7 @@ system:
     allowedTypes:
       - itemUpgrade
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: true
   isFoundational: false
@@ -68,6 +67,7 @@ system:
   revealed: true
   rof: 1
   size: 1
+  source: null
   sources:
     - book: Must Have Cyberware Deals
       page: 3

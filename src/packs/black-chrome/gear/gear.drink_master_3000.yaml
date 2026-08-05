@@ -11,7 +11,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/drink-master-3000.svg
 name: Drink Master 3000
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   amount: 1
@@ -31,6 +30,11 @@ system:
           drinks} before the internal reservoir needs to be refilled with chemicals
           worth 100eb.
         </p>
+        <p>
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.nswZViDvZUMIKyZe]{Drink
+          Master 3000 Beverages} can be used to track the fill status of Drink Master
+          3000's internal reservoir.
+        </p>
       </blockquote>
   equipped: owned
   favorite: false
@@ -47,6 +51,7 @@ system:
     market: 1000
   providesHardening: false
   revealed: true
+  source: null
   sources:
     - book: Black Chrome
       page: 42

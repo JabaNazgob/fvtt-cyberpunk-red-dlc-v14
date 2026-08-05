@@ -58,7 +58,6 @@ img: >-
 name: Implanted LF-001 SWAT Linear Frame
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -98,13 +97,13 @@ system:
   ignoredByBrowser: false
   installLocation: mall
   installedItems:
-    allowed: true
+    allowed: false
     allowedTypes:
       - itemUpgrade
       - cyberware
       - ammo
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: true
   isFoundational: true
@@ -120,6 +119,7 @@ system:
   revealed: true
   rof: 1
   size: 0
+  source: null
   sources:
     - book: Black Chrome
       page: 53

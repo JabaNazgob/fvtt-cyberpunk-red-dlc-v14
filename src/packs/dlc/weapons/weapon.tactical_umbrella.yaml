@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: tOBjMxBhEs0Wzvp6
+      - _id: 4DFnzbkmoMxpklDu
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.xRA275R527XLwaBJ
-          coreVersion: "12.343"
-          createdTime: 1768960847403
+          coreVersion: "13.351"
+          createdTime: 1786665907819
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768960847403
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786665999124
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -28,7 +29,6 @@ flags:
           modules/cyberpunk-red-dlc/icons/dlc/upgrades/concealed-umbrella-blade.svg
         name: Concealed Umbrella Blade
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -41,12 +41,16 @@ flags:
             isConcealed: true
           critFailEffect: jammed
           damage: 3d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: |-
               <p>
-                An old idea that still works just as good; lets you use your gun as a light
-                melee weapon. While attached, the weapon can't be concealed under clothing.
-              </p>
+                                                An old idea that still works just as good; lets you use your gun as a light
+                                                melee weapon. While attached, the weapon can't be concealed under clothing.
+                                              </p>
           dvTable: ""
           favorite: false
           fireModes:
@@ -55,6 +59,7 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
@@ -145,6 +150,11 @@ flags:
           source:
             book: NCW
             page: 6
+          sources:
+            - book: Night City Weather
+              page: 6
+            - book: Danger Gal Dossier
+              page: 144
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -157,7 +167,6 @@ img: modules/cyberpunk-red-dlc/icons/dlc/weapons/tactical-umbrella.svg
 name: Tactical Umbrella
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -198,7 +207,7 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - tOBjMxBhEs0Wzvp6
+      - 4DFnzbkmoMxpklDu
     slots: 3
     usedSlots: 1
   isRanged: true
@@ -211,6 +220,7 @@ system:
   quality: poor
   revealed: true
   rof: 2
+  source: null
   sources:
     - book: Night City Weather
       page: 6

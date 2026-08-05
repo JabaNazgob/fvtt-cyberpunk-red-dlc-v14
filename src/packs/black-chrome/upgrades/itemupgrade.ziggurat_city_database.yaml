@@ -12,7 +12,6 @@ img: >-
 name: Ziggurat City Database
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -30,10 +29,9 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Agent App.</p>
       <p>
-        +1 bonus to all Local Expert Skills Checks related to communities and
-        neighborhoods for that city.
+        <strong>Agent App:</strong> +1 bonus to all Local Expert Skills Checks related
+        to communities and neighborhoods for that city.
       </p>
   dvTable: ""
   favorite: false
@@ -123,6 +121,7 @@ system:
   revealed: true
   rof: 1
   size: 0
+  source: null
   sources:
     - book: Black Chrome
       page: 14

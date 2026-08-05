@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: y0mK665hlPliSRG0
+      - _id: iX9HQt5vJiX2cC4C
         _stats:
           compendiumSource: Item.XvGrXU2vKXqwcbMI
-          coreVersion: "12.343"
-          createdTime: 1768679309858
+          coreVersion: "13.351"
+          createdTime: 1786563853781
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768679309858
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786563917966
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -27,7 +28,6 @@ flags:
         img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/oxygen-tanks.svg
         name: Oxygen Tank
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -40,6 +40,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>Contains 30 minutes of breathable oxygen that automatically
@@ -51,13 +55,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: false
@@ -136,22 +141,26 @@ flags:
           source:
             book: 12DoGear
             page: 3
+          sources:
+            - book: 12 Days of Gearmas
+              page: 3
           type: armor
           unarmedAutomaticCalculation: true
           usage: toggled
           usesType: magazine
           weaponSkill: Handgun
         type: itemUpgrade
-      - _id: oP5BeYY6gsvqpwlQ
+      - _id: W0F4jx9MqyYN8JK1
         _stats:
           compendiumSource: Item.LhNFcxpwgxDxKuSh
-          coreVersion: "12.343"
-          createdTime: 1768679309858
+          coreVersion: "13.351"
+          createdTime: 1786563853781
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768679309858
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786563932711
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -162,7 +171,6 @@ flags:
         img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/nanomachines.svg
         name: Nanomachines
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -175,6 +183,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>Nanomachines that automatically repair your radiation
@@ -187,13 +199,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: true
           isRanged: false
@@ -272,6 +285,9 @@ flags:
           source:
             book: 12DoGear
             page: 3
+          sources:
+            - book: 12 Days of Gearmas
+              page: 3
           type: armor
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -283,7 +299,6 @@ img: modules/cyberpunk-red-dlc/icons/dlc/armor/esporma_enviroment_suit.svg
 name: Esporma Environment Suit
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   bodyLocation:
@@ -308,8 +323,8 @@ system:
     allowedTypes:
       - itemUpgrade
     list:
-      - y0mK665hlPliSRG0
-      - oP5BeYY6gsvqpwlQ
+      - iX9HQt5vJiX2cC4C
+      - W0F4jx9MqyYN8JK1
     slots: 2
     usedSlots: 2
   isBodyLocation: true
@@ -324,6 +339,7 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
+  source: null
   sources:
     - book: 12 Days of Gearmas
       page: 3

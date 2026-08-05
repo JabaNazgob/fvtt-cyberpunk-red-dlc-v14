@@ -7,34 +7,34 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: CwXZr9AqzJogJ8Ud
+      - _id: qC0d50uFECu8kMfR
         _stats:
           compendiumSource: Item.seo72ISeTtbPXmju
-          coreVersion: "12.343"
-          createdTime: 1769288838787
+          coreVersion: "13.351"
+          createdTime: 1786665554147
           duplicateSource: null
-          lastModifiedBy: eMgDDuUqplwN8vV7
-          modifiedTime: 1769288838787
+          exportSource:
+            coreVersion: "12.343"
+            systemId: cyberpunk-red-core
+            systemVersion: v0.0.0dev
+            uuid: null
+            worldId: dev
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786665761376
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
             _migration:
               current: 44
               previous: "38"
-          exportSource:
-            coreVersion: "12.343"
-            system: cyberpunk-red-core
-            systemVersion: v0.0.0dev
-            world: dev
         folder: null
         img: >-
           modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/biometric-key.svg
         name: Biometric Key
         ownership:
           default: 0
-          eMgDDuUqplwN8vV7: 3
         sort: 0
         system:
           ammoVariety: []
@@ -46,11 +46,15 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 4d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>A biometric key prevents unwanted users from accessing enhanced
-              features.</p><blockquote><p>With the biometric key unlocked, this
-              weapon cannot be reloaded.</p></blockquote>
+              features.</p><blockquote><p>A biometric key prevents unauthorized
+              users from loading or unloading the weapon.</p></blockquote>
           favorite: false
           fireModes:
             autoFire: 0
@@ -58,13 +62,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 7
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: true
           isRanged: false
@@ -138,8 +143,11 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 92
+          sources:
+            - book: 12 Days of Cutimas
+              page: 6
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -154,7 +162,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun_excellent.svg
 name: Hello Cutie My Friend The Ocelot
 ownership:
   default: 0
-  eMgDDuUqplwN8vV7: 3
 sort: 0
 system:
   ammoVariety:
@@ -197,7 +204,7 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - CwXZr9AqzJogJ8Ud
+      - qC0d50uFECu8kMfR
     slots: 1
     usedSlots: 1
   isRanged: true
@@ -210,6 +217,7 @@ system:
   quality: excellent
   revealed: true
   rof: 1
+  source: null
   sources:
     - book: 12 Days of Cutimas
       page: 6

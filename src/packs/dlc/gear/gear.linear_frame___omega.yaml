@@ -90,7 +90,9 @@ system:
   providesHardening: false
   revealed: true
   sources:
-    - book: Core
-      page: 351
+    - book: Going Metal
+      page: 108
+    - book: Interface RED v3
+      page: 108
   usage: equipped
 type: gear

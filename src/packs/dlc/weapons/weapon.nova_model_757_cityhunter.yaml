@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: abrbVuhDywYXeKhu
+      - _id: MoHE35vBx0h8B1g5
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC
-          coreVersion: "12.343"
-          createdTime: 1768957806658
+          coreVersion: "13.351"
+          createdTime: 1786665790168
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768957806658
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786665834155
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -27,7 +28,6 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/upgrades/smartgun_link.svg
         name: Smartgun Link
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -40,6 +40,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: <p>Turns weapon into a "Smartgun".</p>
           dvTable: ""
@@ -50,6 +54,7 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 50
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
@@ -132,7 +137,7 @@ flags:
               onByDefault: false
               value: null
           price:
-            market: 500
+            market: 0
           providesHardening: false
           revealed: true
           rof: 1
@@ -140,6 +145,11 @@ flags:
           source:
             book: Core
             page: 344
+          sources:
+            - book: 12 Days of Gunmas
+              page: 5
+            - book: Danger Gal Dossier
+              page: 145
           type: weapon
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -152,7 +162,6 @@ img: systems/cyberpunk-red-core/icons/compendium/weapons/heavyPistol.svg
 name: Nova Model 757 Cityhunter
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -192,7 +201,7 @@ system:
       - ammo
       - itemUpgrade
     list:
-      - abrbVuhDywYXeKhu
+      - MoHE35vBx0h8B1g5
     slots: 2
     usedSlots: 2
   isRanged: true
@@ -205,6 +214,7 @@ system:
   quality: standard
   revealed: true
   rof: 2
+  source: null
   sources:
     - book: 12 Days of Gunmas
       page: 5

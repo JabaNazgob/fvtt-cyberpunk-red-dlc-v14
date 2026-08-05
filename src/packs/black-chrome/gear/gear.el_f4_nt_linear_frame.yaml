@@ -53,16 +53,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: EKL74hanUNBRrKju
+      - _id: Ie1X75RFQeOQ5IQq
         _stats:
           compendiumSource: null
-          coreVersion: "12.343"
-          createdTime: 1768632286890
+          coreVersion: "13.351"
+          createdTime: 1786549131100
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768632286890
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786549163350
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -73,7 +74,6 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
         name: Integrated Techtool
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -86,6 +86,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: <p>A multi-purpose tool integrated into the linear frame.</p>
           favorite: false
@@ -95,13 +99,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: true
           isRanged: false
@@ -178,24 +183,28 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 55
+          sources:
+            - book: Black Chrome
+              page: 55
           type: gear
           unarmedAutomaticCalculation: true
           usage: toggled
           usesType: magazine
           weaponSkill: Handgun
         type: itemUpgrade
-      - _id: FS9pJMeoMDzqWHno
+      - _id: erk9XJVNV0sLjc11
         _stats:
           compendiumSource: Actor.Hq4TNT2JuXJCrwVL.Item.w2YHyYWt6pMC6gmP
-          coreVersion: "12.343"
-          createdTime: 1768632286890
+          coreVersion: "13.351"
+          createdTime: 1786549131100
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768632286890
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786549225113
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -206,7 +215,6 @@ flags:
         img: systems/cyberpunk-red-core/icons/compendium/gear/tech_tool.svg
         name: Integrated Techtool
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 100000
         system:
@@ -219,6 +227,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: <p>A multi-purpose tool integrated into the linear frame.</p>
           favorite: false
@@ -228,13 +240,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: true
           isRanged: false
@@ -311,8 +324,11 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 55
+          sources:
+            - book: Black Chrome
+              page: 55
           type: gear
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -324,7 +340,6 @@ img: systems/cyberpunk-red-core/icons/compendium/gear/linearframe_sigma.svg
 name: EL-F4-NT Linear Frame
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   amount: 1
@@ -348,8 +363,8 @@ system:
     allowedTypes:
       - itemUpgrade
     list:
-      - EKL74hanUNBRrKju
-      - FS9pJMeoMDzqWHno
+      - Ie1X75RFQeOQ5IQq
+      - erk9XJVNV0sLjc11
     slots: 2
     usedSlots: 2
   isElectronic: true
@@ -357,6 +372,7 @@ system:
     market: 5000
   providesHardening: false
   revealed: true
+  source: null
   sources:
     - book: Black Chrome
       page: 55

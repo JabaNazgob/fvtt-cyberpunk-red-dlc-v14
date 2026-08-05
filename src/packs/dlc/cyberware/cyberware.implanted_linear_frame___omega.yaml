@@ -67,8 +67,6 @@ folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/implanted_linearframe_omega.svg
 name: Implanted Linear Frame Ω (Omega)
 ownership:
-  IMREvhAZtigyN7Gy: 3
-  V8F9A9hbCTVYRW7O: 3
   default: 0
 sort: 0
 system:
@@ -105,12 +103,12 @@ system:
   ignoredByBrowser: false
   installLocation: hospital
   installedItems:
-    allowed: true
+    allowed: false
     allowedTypes:
       - itemUpgrade
       - cyberware
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: true
   isFoundational: true
@@ -127,6 +125,7 @@ system:
   revealed: true
   rof: 1
   size: 0
+  source: null
   sources:
     - book: Going Metal
       page: 108

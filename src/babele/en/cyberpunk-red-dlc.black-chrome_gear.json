@@ -12,7 +12,7 @@
     },
     "Drink Master 3000": {
       "name": "Drink Master 3000",
-      "description": "<p>\n  Concoct delicious beverages from a library of 3000 recipes including Smash.\n</p>\n<blockquote>\n  <p>\n    Can make\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.nswZViDvZUMIKyZe]{10\n    drinks} before the internal reservoir needs to be refilled with chemicals\n    worth 100eb.\n  </p>\n</blockquote>\n"
+      "description": "<p>\n  Concoct delicious beverages from a library of 3000 recipes including Smash.\n</p>\n<blockquote>\n  <p>\n    Can make\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.nswZViDvZUMIKyZe]{10\n    drinks} before the internal reservoir needs to be refilled with chemicals\n    worth 100eb.\n  </p>\n  <p>\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.nswZViDvZUMIKyZe]{Drink\n    Master 3000 Beverages} can be used to track the fill status of Drink Master\n    3000's internal reservoir.\n  </p>\n</blockquote>\n"
     },
     "EL-F4-NT Linear Frame": {
       "name": "EL-F4-NT Linear Frame",
@@ -112,7 +112,7 @@
     },
     "Vermilion Linear Frame": {
       "name": "Vermilion Linear Frame",
-      "description": "<p>Exoskeleton.</p>\n<ul>\n  <li>Requires 2 Interface Plugs</li>\n  <li>Increases BODY to 12 while plugged in</li>\n  <li>No changes to your HP or Deathsave</li>\n  <li>No movement penalty for jumping</li>\n  <li>Operates as if paired Skate Feet are installed</li>\n</ul>\n"
+      "description": "<p>Linear Frame Exoskeleton</p>\n<ul>\n  <li>Requires 2 Interface Plugs</li>\n  <li>Increases BODY to 12 while plugged in</li>\n  <li>No changes to your HP or Deathsave</li>\n  <li>No movement penalty for jumping</li>\n  <li>Operates as if paired Skate Feet are installed</li>\n</ul>\n"
     },
     "WorldSat Aerial Sphere": {
       "name": "WorldSat Aerial Sphere",

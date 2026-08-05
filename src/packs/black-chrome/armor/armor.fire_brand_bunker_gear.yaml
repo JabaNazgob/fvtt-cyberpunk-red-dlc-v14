@@ -7,16 +7,17 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: bH6e5E6jHasUKymD
+      - _id: NbbhcP5IDq1ODCRu
         _stats:
           compendiumSource: Item.XvGrXU2vKXqwcbMI
-          coreVersion: "12.343"
-          createdTime: 1768617719243
+          coreVersion: "13.351"
+          createdTime: 1786488714744
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768617719243
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786489139055
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -27,7 +28,6 @@ flags:
         img: modules/cyberpunk-red-dlc/icons/black-chrome/upgrades/oxygen-tanks.svg
         name: Oxygen Tank
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -40,6 +40,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: >-
               <p>Contains 30 minutes of breathable oxygen that automatically
@@ -51,13 +55,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: false
@@ -134,24 +139,28 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 29
+          sources:
+            - book: Black Chrome
+              page: 29
           type: armor
           unarmedAutomaticCalculation: true
           usage: toggled
           usesType: magazine
           weaponSkill: Handgun
         type: itemUpgrade
-      - _id: KaPn3HnB5azBQL3L
+      - _id: XfsUzlRaSsW3fLP6
         _stats:
           compendiumSource: Item.LhNFcxpwgxDxKuSh
-          coreVersion: "12.343"
-          createdTime: 1768617719243
+          coreVersion: "13.351"
+          createdTime: 1786488714744
           duplicateSource: null
-          lastModifiedBy: IMREvhAZtigyN7Gy
-          modifiedTime: 1768617719243
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1786489012364
           systemId: cyberpunk-red-core
-          systemVersion: v0.0.0dev
+          systemVersion: DUMMY_VALUE
         effects: []
         flags:
           cyberpunk-red-core:
@@ -163,7 +172,6 @@ flags:
           systems/cyberpunk-red-core/icons/compendium/gear/antismog_breathing_mask.svg
         name: Gas Mask
         ownership:
-          IMREvhAZtigyN7Gy: 3
           default: 0
         sort: 0
         system:
@@ -176,6 +184,10 @@ flags:
             isConcealed: false
           critFailEffect: jammed
           damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
           description:
             value: <p>Airborne toxin filter.</p>
           favorite: false
@@ -185,13 +197,14 @@ flags:
           handsReq: 0
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
+          ignoredByBrowser: true
           installLocation: mall
           installedItems:
             allowed: false
             allowedTypes:
               - itemUpgrade
             list: []
-            slots: 3
+            slots: 0
             usedSlots: 0
           isElectronic: false
           isRanged: false
@@ -268,8 +281,11 @@ flags:
           rof: 1
           size: 1
           source:
-            book: BC
+            book: Black Chrome
             page: 29
+          sources:
+            - book: Black Chrome
+              page: 29
           type: armor
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -281,7 +297,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/armor/bunker-gear.svg
 name: Fire Brand Bunker Gear
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   bodyLocation:
@@ -308,8 +323,8 @@ system:
     allowedTypes:
       - itemUpgrade
     list:
-      - bH6e5E6jHasUKymD
-      - KaPn3HnB5azBQL3L
+      - NbbhcP5IDq1ODCRu
+      - XfsUzlRaSsW3fLP6
     slots: 2
     usedSlots: 2
   isBodyLocation: true
@@ -324,6 +339,7 @@ system:
   shieldHitPoints:
     max: 0
     value: 0
+  source: null
   sources:
     - book: Black Chrome
       page: 29

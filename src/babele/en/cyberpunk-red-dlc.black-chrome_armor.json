@@ -20,7 +20,7 @@
     },
     "Laser Light Street Jacket": {
       "name": "Laser Light Street Jacket",
-      "description": "<p>\n  Urban Flash-styled Light Armorjack that counts as a Light Tattoo while worn.\n  +2 to Wardrobe &amp; Style if you have at least Light Tattoos installed\n</p>\n"
+      "description": "<p>An armored Urban Flash Jacket that counts as a Light Tattoo while worn.</p>\n<blockquote>\n  <p>\n    +2 to Wardrobe &amp; Style if you have at least two Light Tattoos installed\n  </p>\n</blockquote>\n"
     },
     "Lotos Netsuit": {
       "name": "Lotos Netsuit",
@@ -76,7 +76,7 @@
     },
     "Montage Variable Clothing": {
       "name": "Montage Variable Clothing",
-      "description": "<p>\n  Light Armorjack that can swap between pre-programed paterns and styles via the\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{Montage\n  Digital Fashion App}\n</p>\n<blockquote>\n  <p>\n    Comes with your choice of\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.Rs94jDJRrbHVpvIh]{Gang\n    Colors} and\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.7fXDqCH4Z3ZLo5kL]{Generic\n    Chic}styles.\n  </p>\n  <p>Requires an action to swap styles via connected agent.</p>\n</blockquote>\n"
+      "description": "<p>\n  Light Armorjack that can swap between pre-programed paterns and styles via the\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{Montage\n  Digital Fashion App}\n</p>\n<blockquote>\n  <p>\n    Comes with your choice of\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.Rs94jDJRrbHVpvIh]{Gang\n    Colors} or\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.7fXDqCH4Z3ZLo5kL]{Generic\n    Chic}styles.\n  </p>\n  <p>Requires an action to swap styles via connected agent.</p>\n</blockquote>\n"
     },
     "Shock Armor": {
       "name": "Shock Armor",
