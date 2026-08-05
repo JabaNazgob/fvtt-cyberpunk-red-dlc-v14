@@ -9,7 +9,7 @@ flags:
   scene-packer:
     hash: f70e9b516bc8a92eca6dc5855ee112d80723cc6c
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/ammo/chromatic-rave-grenade.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/grenade_chromatic_rave.svg
 name: Hello Cutie Chromatic Rave Grenade
 ownership:
   default: 0

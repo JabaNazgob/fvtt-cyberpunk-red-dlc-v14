@@ -9,7 +9,7 @@ flags:
   scene-packer:
     hash: 30716c0675621c30e3f3f12fc5fba8f4cec8b9dc
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball-default.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball_dazzle-dazzle.svg
 name: Dazzle Dazzle ModBall
 ownership:
   default: 0

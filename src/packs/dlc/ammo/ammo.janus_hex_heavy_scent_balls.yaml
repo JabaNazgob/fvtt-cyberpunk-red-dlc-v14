@@ -9,7 +9,7 @@ flags:
   scene-packer:
     hash: 5bdaed87bff14d2ea060129efd4e69b22f3c4c55
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball-default.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/scentball_teargas.svg
 name: Janus Hex Heavy Scent Balls
 ownership:
   default: 0

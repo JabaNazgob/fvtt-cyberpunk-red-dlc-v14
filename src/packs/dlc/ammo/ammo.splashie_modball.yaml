@@ -9,7 +9,7 @@ flags:
   scene-packer:
     hash: 3e217bbcff2ddf4ad6a4ee3d429034956ac33c3c
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball-default.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball_splashie.svg
 name: Splashie ModBall
 ownership:
   default: 0

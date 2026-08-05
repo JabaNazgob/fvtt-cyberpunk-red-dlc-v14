@@ -9,7 +9,7 @@ flags:
   scene-packer:
     hash: 42eaea5574cd98838b75c5052b89df02e1e6b584
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball-default.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball_mega-ouchie.svg
 name: Mega Ouchie ModBall
 ownership:
   default: 0

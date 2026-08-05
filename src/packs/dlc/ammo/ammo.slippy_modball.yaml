@@ -9,7 +9,7 @@ flags:
   scene-packer:
     hash: b94d31d231bd17c2fb5cd9a232a16823b9ee559f
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball-default.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/ammo/modball_slippy.svg
 name: Slippy ModBall
 ownership:
   default: 0
