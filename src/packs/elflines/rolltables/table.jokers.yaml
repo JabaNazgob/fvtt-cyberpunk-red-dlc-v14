@@ -5,7 +5,7 @@ displayRoll: false
 flags: {}
 folder: null
 formula: 2d6
-img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
 name: Jokers
 ownership:
   GhPkzdD89HrVDo6W: 3
@@ -28,7 +28,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.M2VfO2gN3P0coEZw
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: 10 Sacred Herbs
     range:
       - 8
@@ -51,7 +51,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.WUCzN0E2M5WzD5op
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: 500 Gold Coins
     range:
       - 7
@@ -74,7 +74,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.HS9aSsjOwjZBBxaY
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: Duel Flag
     range:
       - 4
@@ -97,7 +97,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.QvHdLdm6fS3DlSeF
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: Dungeonstone
     range:
       - 12
@@ -120,7 +120,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.ZXPgWb7PVs7cmQSw
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: Rank Up Elixir
     range:
       - 10
@@ -143,7 +143,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.BkCnJKrEPJczGKOE
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: Revive Sickness Cure
     range:
       - 6
@@ -166,7 +166,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.DQzdPsBLtAipRKmc
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: Super Repair Hammer
     range:
       - 2
@@ -189,7 +189,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.9azR9AhRXXBRPQLG
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: Tiny Draglin
     range:
       - 11
@@ -212,7 +212,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.qQGZzdnJkAKDzbq9
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: Tiny Tent
     range:
       - 3
@@ -235,7 +235,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.KQQ7MAe13VlEwFgZ
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: Weapon Glow Vial
     range:
       - 5
@@ -258,7 +258,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.odO8JeHrzMjvvqg1
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: Weapon Polish
     range:
       - 9

@@ -8,7 +8,7 @@ displayRoll: false
 flags: {}
 folder: null
 formula: 1d12
-img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-booster-pack.svg
+img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-booster-pack.svg
 name: Face Cards
 ownership:
   GhPkzdD89HrVDo6W: 3
@@ -31,7 +31,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.5zjWPxeWeVdkDTw1
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-jack-clubs.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-jack-clubs.svg
     name: Spreading Slime
     range:
       - 1
@@ -54,7 +54,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.C0qTwBxoevGdVoE8
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-jack-diamonds.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-jack-diamonds.svg
     name: Gather the Elflines
     range:
       - 2
@@ -77,7 +77,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.rhwI30kBExNIEbuN
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-jack-hearts.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-jack-hearts.svg
     name: Hero's Tutor
     range:
       - 3
@@ -100,7 +100,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.0Q1Mm63bh6DNXlIr
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-jack-spades.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-jack-spades.svg
     name: Pot of Miasma
     range:
       - 4
@@ -123,7 +123,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.JclZT0z4rfSREPUz
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-queen-clubs.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-queen-clubs.svg
     name: Curse of Enthernox
     range:
       - 5
@@ -146,7 +146,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.FTlcrztO1I4GHgdw
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-queen-diamonds.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-queen-diamonds.svg
     name: Blessing of Arvish
     range:
       - 6
@@ -169,7 +169,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.LqNj3iSKuNEZ8QKM
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-queen-hearts.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-queen-hearts.svg
     name: Rank Up!
     range:
       - 7
@@ -192,7 +192,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.u7Vj4Dgn0I1X7bov
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-queen-spades.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-queen-spades.svg
     name: Rise from Bog
     range:
       - 8
@@ -215,7 +215,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.8rbfoB2Syyb3mC3b
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-king-clubs.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-king-clubs.svg
     name: Flight of Dragons
     range:
       - 9
@@ -238,7 +238,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.EarZ4znDjBrcoU16
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-king-diamonds.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-king-diamonds.svg
     name: Zazzolite Aura
     range:
       - 10
@@ -261,7 +261,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.o54WkafI88fYwiGq
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-king-hearts.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-king-hearts.svg
     name: Hero's Reversal
     range:
       - 11
@@ -284,7 +284,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.oxiNKpZxfQPYjMgu
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-king-spades.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-king-spades.svg
     name: Warlock's Wrath
     range:
       - 12

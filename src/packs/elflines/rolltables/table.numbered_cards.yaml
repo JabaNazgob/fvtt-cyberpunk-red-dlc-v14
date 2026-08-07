@@ -8,7 +8,7 @@ displayRoll: false
 flags: {}
 folder: null
 formula: 1d20
-img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-numbered.svg
+img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-numbered.svg
 name: Numbered Cards
 ownership:
   GhPkzdD89HrVDo6W: 3
@@ -31,7 +31,7 @@ results:
     documentUuid: RollTable.P4YqBGEvIMfkaVvZ
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-joker.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-joker.svg
     name: Jokers
     range:
       - 20
@@ -54,7 +54,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.elflines_gear.Item.HY1enelBmakuWORI
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/gear/tcg-card-numbered.svg
+    img: modules/cyberpunk-red-dlc/icons/elflines/gear/tcg-card-numbered.svg
     name: Numbered Cards
     range:
       - 1
