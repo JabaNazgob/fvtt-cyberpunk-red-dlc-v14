@@ -1,78 +1,133 @@
 {
   "label": "Munitions",
-  "mapping": {},
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
   "entries": {
     "Arrow (Junk)": {
       "name": "Flèche (Camelote)",
-      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+      "description": "<p>\n  Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>\n"
     },
     "Big Dreem Rounds": {
       "name": "Munitions Big Dreem",
-      "description": "<p>Munitions personnalisées pour TeenDreem.</p>"
+      "description": "<p>Custom Ammo for the Teen Dreem.</p>\n"
+    },
+    "Dazzle Dazzle ModBall": {
+      "name": "Dazzle Dazzle ModBall",
+      "description": "<p>\n  Acts as a single target\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.e8gDMbdK1oPKwhqW]{Flashbang}.\n  Can ignite flamable surfaces.\n</p>\n"
+    },
+    "ElectroMag (Basic-Shell)": {
+      "name": "ElectroMag (Basic-Shell)",
+      "description": "<p>Magnetic ammo designed for the SlamDance ElectroMag.</p>\n"
+    },
+    "ElectroMag (Basic-Slug)": {
+      "name": "ElectroMag (Basic-Slug)",
+      "description": "<p>Basic ammo, nothing special.</p>\n"
+    },
+    "ElectroMag (Incendiary-Shell)": {
+      "name": "ElectroMag (Incendiary-Shell)",
+      "description": "<p>\n  If damage dealt to target they are set alight. Target takes 2 damage to HP at\n  end of their turn unless they use action to extinguish flames. Does not stack.\n</p>\n"
+    },
+    "ElectroMag (Incendiary-Slug)": {
+      "name": "ElectroMag (Incendiary-Slug)",
+      "description": "<p>\n  If damage dealt to target they are set alight. Target takes 2 damage to HP at\n  end of their turn unless they use action to extinguish flames. Does not stack.\n</p>\n"
+    },
+    "Fire Extinguisher Charges": {
+      "name": "Charges d'extincteur",
+      "description": "<p>Requires access to a charging station, takes 5 minutes.</p>\n"
+    },
+    "Harpoons": {
+      "name": "Harpons",
+      "description": "<p>\n  Additional harpoons for use with the SlamDance Ballistic Harpoon Launcher.\n</p>\n"
     },
     "Heavy Pistol (Junk)": {
       "name": "Pistolet lourd (camelote)",
-      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+      "description": "<p>\n  Junk ammo; cheap but deals 1d6 less damage against anyone with more than 1SP.\n</p>\n"
     },
     "Heavy Pistol (Small Game)": {
       "name": "Pistolet Lourd (Petit gibier)",
-      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>\n"
+    },
+    "Hello Cutie Chromatic Rave Grenade": {
+      "name": "Hello Cutie Chromatic Rave Grenade",
+      "description": "<p>\n  @UUID[Compendium.cyberpunk-red-core.core_weapons.Item.29p2bEfPcAWHpsTY]{A\n  Thrown Weapon} that sticks to surfaces and plays a musical laser light show\n  before exploding into colorful smoke and glitter.\n</p>\n<blockquote>\n  <ul>\n    <li><p>Cannot be loaded into grenade launchers.</p></li>\n    <li>\n      <p>\n        Causes 2 rounds of distraction that impose a\n        <strong>-2 penalty</strong> to all checks for everyone within 10m/yd if\n        they fail a <strong>DV13 Concentration Check</strong>.\n      </p>\n    </li>\n    <li>\n      <p>\n        After 2 rounds the grenade detonates like a\n        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Grenade\n        (Smoke)}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
+    },
+    "Janus Hex Heavy Scent Balls": {
+      "name": "Janus Hex Heavy Scent Balls",
+      "description": "<p>Pack of 4 Janus Hex Heavy Scent Balls.</p>\n<blockquote>\n  <p>Requires Maker Rank 6 or higher to Fabricate or Modify.</p>\n</blockquote>\n"
     },
     "M-02 Rounds": {
       "name": "Munitions M-02",
-      "description": "<p>Munitions perforantes spéciales à utiliser uniquement pour le fusil lourd Sternmeyer M-02. Vendues dans un tambour de 80 balles.</p>"
+      "description": "<p>\n  Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.\n  Comes in a drum of 80.\n</p>\n"
     },
     "MagnaSlot BatteryBrick": {
       "name": "Batterie MagnaSlot",
-      "description": "<p>Batterie spécifique au cyberbras Radline Blitzkrieg Lanceur d'Arc. Peut être rechargé en 1 heure.</p>"
+      "description": "<p>\n  Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can\n  be recharged in 1 hour.\n</p>\n"
     },
     "Medium Pistol (Junk)": {
       "name": "Pistolet moyen (camelote)",
-      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+      "description": "<p>\n  Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>\n"
     },
     "Medium Pistol (Small Game)": {
       "name": "Pistolet Moyen (Petit gibier)",
-      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>\n"
+    },
+    "Mega Ouchie ModBall": {
+      "name": "Mega Ouchie ModBall",
+      "description": "<p>\n  Acts as\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Biotoxin}\n  Ammunition\n</p>\n"
     },
     "Nova Model 757 Rounds": {
       "name": "Munitions pour Nova Model 757",
-      "description": "<p>À utiliser uniquement avec le Nova Model 757 Cityhunter. Viens en pack de 18 au lieu d'un pack de 10.</p>\n\n<p>A besoin d'un implant Dispositif de visée, ou ne tirera pas. S'il rate une Attaque de 4 ou moins, lancez une seconde attaque au même SD 1d10+10 (statistique d'attaque non normale). Ajout possible de Chance. La cible peut esquiver la second attaque normalement si elle en est capable.</p>\n"
+      "description": "<p>\n  For use only in the Nova Model 757 Cityhunter. Comes in packs of 18 instead of\n  the normal 10.\n</p>\n\n<p>\n  Req Targeting Scope Cyberware, otherwise won't fire. If miss single attack by\n  4 or less, roll second attack at same DV 1d10+10 (not normal stat). Can add\n  luck. Target can dodge the second roll as normal if able to do so.\n</p>\n"
+    },
+    "Ouchie ModBall": {
+      "name": "Ouchie ModBall",
+      "description": "<p>\n  Acts as\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.gaGUmTGViuxZ4mqR]{Poison}\n  Ammunition.\n</p>\n"
     },
     "Paintball (Biotoxin)": {
       "name": "Paintball (Biotoxine)",
-      "description": "<p>Créé à partir de 3 flacons de biotoxine fixées ensemble. N'inflige aucun dégât direct à l'impact.</p>"
+      "description": "<p>\n  Created from 3 Vials of Biotoxin strapped together. Deals no direct damage on\n  hit.\n</p>\n"
     },
     "Paintball (Poison)": {
       "name": "Paintball (poison)",
-      "description": "<p>Créé à partir de 3 fioles de poison fixées ensemble. N'inflige aucun dégât direct à l'impact.</p>\n"
+      "description": "<p>\n  Created from 3 Vials of Poison strapped together. Deals no direct damage on\n  hit.\n</p>\n"
     },
     "Rifle (Junk)": {
       "name": "Fusil (camelote)",
-      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+      "description": "<p>\n  Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>\n"
     },
     "Rifle (Small Game)": {
       "name": "Fusil (Petit gibier)",
-      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>\n"
     },
     "Shotgun Slug (Junk)": {
       "name": "Slug de fusil à pompe (camelote)",
-      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+      "description": "<p>\n  Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>\n"
+    },
+    "Slippy ModBall": {
+      "name": "Slippy ModBall",
+      "description": "<p>Balls filled with a slippery lubricant.</p>\n<ul>\n  <li>\n    <p>\n      Covers a 2m/yd<sup>2 </sup>surface that requires a\n      <strong>DV13 Athletic Check</strong> to avoid falling Prone when entering\n      or occupying the covered area.\n    </p>\n  </li>\n  <li>\n    <p>\n      Targets receive a +1 Bonus to <strong>Contortionist Checks</strong> made\n      to escape a grapple.\n    </p>\n  </li>\n</ul>\n"
+    },
+    "Splashie ModBall": {
+      "name": "Splashie ModBall",
+      "description": "<p>\n  Balls of colourful, but highly combustible paint; keep away from open flames.\n</p>\n"
     },
     "Sub-Flechette Rounds": {
       "name": "Fléchettes spéciales",
-      "description": "<p>Munitions spéciales qui ne peuvent être utilisées que par la Mitrailleuse à fléchettes Malorian Arms. Perforent l'armure de 4 PA par coup.</p>\n"
+      "description": "<p>\n  Special ammo to only be used with the Malorian Arms Sub-Flechette Gun. Ablates\n  armor by 4 SP per hit.\n</p>\n"
     },
     "Very Heavy Pistol (Junk)": {
       "name": "Pistolet très lourd (camelote)",
-      "description": "<p>Munition de camelote ; bon marché mais inflige 1d6 points de dégâts en moins à toute personne ayant plus de 1PA.</p>\n"
+      "description": "<p>\n  Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>\n"
     },
     "Very Heavy Pistol (Small Game)": {
       "name": "Pistolet très lourd (Petit gibier)",
-      "description": "<p>Munition de petit gibier ; pas géniale pour les gens. Inflige 2d6 dégâts de moins.</p>"
+      "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>\n"
     },
     "Molotov Cocktail": {
       "name": "Cocktail Molotov",
-      "description": "<p>Grenade incendiaire fragile. Met une cible en feu d'intensité mortelle (voir CP:R p.180)</p>\n"
+      "description": "<p>Fragile Incendiary Grenade. Set a target Deadly on Fire (see CP:R p.180)</p>\n",
+      "dvTable": "DV Thrown Weapon"
     }
   }
 }

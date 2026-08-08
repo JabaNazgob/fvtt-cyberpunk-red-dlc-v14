@@ -1,122 +1,268 @@
 {
   "label": "Améliorations",
-  "mapping": {},
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
   "entries": {
     "Aerie": {
       "name": "Aerie",
-      "description": "<p>Chaque GLACE Corbeau installé détruit les programmes défensifs au lieu de dérezzer.</p>"
+      "description": "<p>Each installed Raven Black ICE destroys Programs instead of derezzing.</p>\n",
+      "dvTable": ""
+    },
+    "Airhypo Bayonet": {
+      "name": "Airhypo Bayonet",
+      "description": "<p>\n  A hypodermic syringe that can deliver 1 dose of any liquid compound to the\n  target.\n</p>\n<blockquote><p>Requires 1 Action to reload the Airhypo Bayonet.</p></blockquote>\n"
+    },
+    "Ask Alex Anything": {
+      "name": "Ask Alex Anything",
+      "description": "<p>\n  <strong>App:</strong> Allows users to search for information on the CitiNet.\n</p>\n<p>Pre-Installed on all agents by default.</p>\n"
+    },
+    "BabelChat": {
+      "name": "BabelChat",
+      "description": "<p>\n  <strong>App:</strong> Allows users to send and receive text and video\n  messages.\n</p>\n<p>Pre-Installed on all agents by default.</p>\n"
+    },
+    "BangMe!": {
+      "name": "BangMe!",
+      "description": "<p><strong>App:</strong> Online banking and peer to peer payment system.</p>\n"
+    },
+    "Big SAAI": {
+      "name": "Big SAAI",
+      "description": "<p>\n  <strong>App:</strong> Grants a +1 bonus to your agent's Library Search\n  functions.\n</p>\n"
     },
     "Bottle Dynamo": {
       "name": "Dynamo de roue",
-      "description": "<p>Une dynamo sur la roue de votre vélo pour convertir l'énergie mécanique en électricité. Charge une batterie (comme utilisée pour les armes) en une heure.</p>"
+      "description": "<p>\n  A dynamo on your bike's wheel for converting mechanical energy into\n  electricity. Charges a battery pack (such as for weapons) in one hour.\n</p>\n",
+      "dvTable": ""
+    },
+    "Brainwasher": {
+      "name": "Brainwasher",
+      "description": "<p><strong>App:</strong> Provides basic therapy.</p>\n<blockquote>\n  <p>\n    Use for 1 week before receiving therapy, then roll [[/r 1d10 #Brainwasher\n    Therapy]]\n  </p>\n  <ul>\n    <li>\n      <p>\n        <strong>On even results:</strong> Therapy is takes 1 less day to\n        complete.\n      </p>\n    </li>\n    <li>\n      <p>\n        <strong>On odd results:</strong> Therapy is takes 1 more day to\n        complete.\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
     },
     "Bulletproof Glass": {
       "name": "Verre pare-balles",
-      "description": "<p>Le verre du carénage est désormais considéré comme un couvert fin avec 7 PS. Se référer aux règles dans CP:R p. 182</p>\n<p>Le vélo nécessite d'abord l'amélioration Carénage pour installer cette mise à niveau.</p>\n"
+      "description": "<p>\n  Enclosure glass is now considered thin cover with 7 HP. Refer to the cover\n  rules in CP:R, pg. 182.\n</p>\n<p>Bike first requires the Enclosure upgrade to install this upgrade.</p>\n",
+      "dvTable": ""
     },
     "Bushido Accelerator": {
       "name": "Accélérateur Bushido",
-      "description": "<p>Vitesse +3 à toutes les GLACE Noirs tueurs installés.</p>\n"
+      "description": "<p>+3 Speed to all installed Killer Black ICE.</p>\n",
+      "dvTable": ""
+    },
+    "Buzzsaw Arm": {
+      "name": "Buzzsaw Arm",
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  9<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Acts as a <strong>Very Heavy Melee Weapon</strong>, chooose location: Front,\n  Rear, Side\n</p>\n<blockquote>\n  <p>A passenger must use their Action to extend or retract the arm.</p>\n</blockquote>\n"
+    },
+    "Catapult": {
+      "name": "Catapult",
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  A <strong>Heavy Weapon</strong> mounted on the roof that can launch any object\n  the size of a person.\n</p>\n<blockquote>\n  <p>\n    Any individual launched by the catapult must make a\n    <strong>DV 15 Athletics Check</strong> to land safely on the ground or the\n    person takes <strong>2d6 damage</strong> directly to their HP.\n  </p>\n</blockquote>\n"
+    },
+    "Cockpit Glass": {
+      "name": "Cockpit Glass",
+      "description": "<p>\n  <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>\n  15<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Protects the driver and occupants with\n  <strong>Thick Bulletproof Glass</strong> 30(HP).\n</p>\n"
     },
     "Cold-Weather Jacket Lining": {
       "name": "Doublure de veste pour temps froid",
-      "description": "<p>Amélioration pour toute veste. L'utilisateur ne subira pas de pénalités d'exposition aux températures froides (CP:R p.181).</p>\n"
+      "description": "<p>\n  Upgrade for any Jacket fashion item. User will not suffer Exposure penalties\n  from cold temperatures (CP:R pg 181).\n</p>\n",
+      "dvTable": ""
     },
     "Combat Recorder": {
       "name": "Enregistreur de Combat",
-      "description": "<p>Les données de combat sont inestimables dans le monde réel pour le développement de GLACE.</p>\n<p>Si un autre Netrunner dans la même architecture NET échoue à une sauvegarde contre la mort, les 5 dernières minutes des données de combat de Netrun non incriminantes sont enregistrées dans la console. Les enregistrements peuvent être vendus pour 50eb.</p>\n"
+      "description": "<p>Real-world Combat data is invaluable for Black ICE development.</p>\n<p>\n  If another Netrunner in the same NET Architecture fails a Death Save, the last\n  5 minutes of non-self incriminating Netrun combat data is saved to the\n  Cyberdeck. Recordings can be sold for 50eb.\n</p>\n",
+      "dvTable": ""
+    },
+    "Combat Spikes": {
+      "name": "Combat Spikes",
+      "description": "<p>\n  <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Increases ramming damage by <strong>2d6</strong> when boosted by\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.n51IrwLux1v0fY78]{NOS}.\n</p>\n<blockquote>\n  <p>\n    Constructing this upgrade a second time increases the damage from\n    <strong>2d6 &gt; 3d6</strong>\n  </p>\n</blockquote>\n"
+    },
+    "Crunch Whistle": {
+      "name": "Crunch Whistle",
+      "description": "<p>Connects your cyberdeck to a breacher.</p>\n<p>\n  When this upgrade is installed, a Netrunner may add their Interface Rank to\n  the result when hacking an agent.\n  <em>(Active Effect requires manual configuration)</em>\n</p>\n"
+    },
+    "Cuddlefish Outfit (Costly)": {
+      "name": "Cuddlefish Outfit (Costly)",
+      "description": "<p>\n  A cute outfit for your Captain Cuddlefish Ultra Snag-Em! Prized by collectors.\n</p>\n"
+    },
+    "Cuddlefish Outfit (Default)": {
+      "name": "Cuddlefish Outfit (Default)",
+      "description": "<p>\n  A cute outfit for your Captain Cuddlefish Ultra Snag-Em! Collect them all!\n</p>\n"
     },
     "Cycle Armor": {
       "name": "Blindé",
-      "description": "<p>Vélo blindé de 7 PS.</p>\n<p>Le vélo nécessite d'abord l'amélioration Cadre renforcé pour installer cette amélioration.</p>"
+      "description": "<p>Bicycle Armored with 7 SP.</p>\n<p>Bike first requires the Reinforced Frame upgrade to install this upgrade.</p>\n",
+      "dvTable": ""
     },
     "Defense Sequencer": {
       "name": "Séquenceur de défense",
-      "description": "<p>Si un programme d'Armure actif est dérezzé ou détruit, Le Séquenceur de Défense active un autre programme d'Armure installé qui n'a pas encore été utilisé au début du tour du Netrunner.</p>\n"
+      "description": "<p>\n  If an active Armor Program is derezzed or destroyed, Defense Sequencer\n  activates a yet-unused copy of Armor Program at the start of the Netrunner's\n  turn.\n</p>\n",
+      "dvTable": ""
     },
     "Electric Pedal Assist": {
       "name": "Assistance pédalage électrique",
-      "description": "<p>Système motorisé électrique permettant de pédaler plus facilement, d'augmenter la vitesse, de diminuer la fatigue.</p>\n<p>Augmente la vitesse (narrative) au niveau COR suivant, ou +5MPH (8KPH) si le pilote est déjà au niveau maximum.</p>\n<p>Le cycliste gagne un bonus de +4 aux tests d'endurance lors de son trajet pour résister à la fatigue.</p>\n"
+      "description": "<p>\n  Electric motorised system helping to pedal, increasing speed, lowering\n  tiredness.\n</p>\n<p>\n  Increases the bicycle's Speed (narrative) to the next BODY tier or adds\n  5MPH/8KPH to Speed (narrative) if already at the highest BODY tier.\n</p>\n<p>\n  Rider get +4 bonus to Endurance Checks to resisting exhaustion when riding.\n</p>\n",
+      "dvTable": ""
+    },
+    "Elflines Online Elftracker": {
+      "name": "Elflines Online Elftracker",
+      "description": "<p>\n  <strong>App:</strong> A companion app for ELO that allows users to track and\n  in-game stats and connect with other players.\n</p>\n"
     },
     "Enclosure": {
       "name": "Carénage",
-      "description": "<p>Le vélo devient un trike avec un corps recouvert de fibre de verre et de plastique.</p>\n<p>Cette amélioration ne peut pas être installée avec l'amélioration Cadre pliant.</p>"
+      "description": "<p>The bike becomes a trike with a covering body of fiberglass and plastic.</p>\n<p>Can't install this Upgrade with the Folding Frame upgrade.</p>\n",
+      "dvTable": ""
     },
     "Extended Seat": {
       "name": "Selle longue",
-      "description": "<p>Une selle rallongée, ajoutant une place pour un passager supplémentaire.</p>"
+      "description": "<p>An elongated saddle, gaining a seat for a passenger.</p>\n",
+      "dvTable": ""
+    },
+    "Extra AV-4 Engine": {
+      "name": "Extra AV-4 Engine",
+      "description": "<p>\n  <strong>Construction Time:</strong> 2 days<br /><strong>Salvage DV:</strong>\n  15<br /><strong>Construction Modifier:</strong> +2\n</p>\n<hr />\n<p>\n  An Extra AV-4 Engine can be added for each Extra Chassis installed into your\n  Punknaught Core.\n</p>\n"
+    },
+    "Extra Chassis": {
+      "name": "Extra Chassis",
+      "description": "<p>\n  <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +2\n</p>\n<hr />\n<p>Only 3 Extra Chassis can be installed onto a Punknaught Core.</p>\n<blockquote>\n  <p>Each Extra Chassis increases ramming damage by 1d6.</p>\n</blockquote>\n"
     },
     "Feline Instinct": {
       "name": "Instinct Félin",
-      "description": "<p>Si un GLACE Tigre à dents de sabre installé détruit un programme, les dégâts qu'inflige ce Tigre à dents de sabre sont augmentés de 1d6 à chaque attaque subséquente pendant la durée du Netrun.</p>"
+      "description": "<p>\n  If an installed Sabertooth Black ICE destroys a program, that Sabertooth deals\n  an extra 1d6 of damage on each subsequent attack for the duration of the\n  Netrun.\n</p>\n",
+      "dvTable": ""
     },
     "Folding Frame": {
       "name": "Cadre pliant",
-      "description": "<p>Vous pouvez désormais plier votre vélo à la taille d'une grande valise pour faciliter le transport et l'entreposage.</p>\n<p>Vous ne pouvez pas installer cette amélioration avec les améliorations Compartiment caché, Cadre renforcé ou Carénage.</p>"
+      "description": "<p>\n  You can now fold your bike to the size of a large suitcase for easier\n  transport and storage.\n</p>\n<p>\n  Can't install this Upgrade with Enclosure, Reinforced Frame, or Smuggling\n  Compartment upgrades.\n</p>\n",
+      "dvTable": ""
+    },
+    "Grapple Gun Underbarrel": {
+      "name": "Grapple Gun Underbarrel",
+      "description": "<p>\n  Mounts under any crossbow or shoulder arm. Functions like a standard\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.VrwVUEHuMCGjp8Fi].\n</p>\n"
     },
     "Gun Mount": {
       "name": "Support d'arme",
-      "description": "<p>Un système pour monter un fusil d'assaut, un pistolet-mitrailleur lourd ou un fusil à pompe sur le guidon, ainsi qu'un bouton de tir.</p>\n<p>Tire seulement vers l'avant.</p>\n<p>Le montage et le détachement nécessitent une action.</p>\n"
+      "description": "<p>\n  A system to attach an Assault Rifle, a Heavy SMG or a Shotgun on the\n  handlebars, along with a firing button.\n</p>\n<p>Shoots only forwards.</p>\n<p>Mounting and detaching requires one Action.</p>\n",
+      "dvTable": ""
+    },
+    "Handprint Scanner": {
+      "name": "Handprint Scanner",
+      "description": "<p>\n  <strong>App</strong> Use your agent to scan a handprint by making a DV13\n  Criminology Check.\n</p>\n<blockquote>\n  <p>\n    Scanning a full handprint takes 3 rounds. 5 partial prints may be combined\n    to create a full handprint.\n  </p>\n</blockquote>\n"
     },
     "Hangry Hangry Dragon": {
       "name": "Dragon Morfal Morfal",
-      "description": "<p>Chaque fois qu'un GLACE Dragon installé détruit un programme, il regagne son REZ maximum.</p>"
+      "description": "<p>\n  Everytime an installed Dragon Black ICE destroys a Program it regains full\n  REZ.\n</p>\n",
+      "dvTable": ""
     },
     "Hot-Weather Jacket Lining": {
       "name": "Doublure de veste pour temps chaud",
-      "description": "<p>Amélioration pour toute veste. L'utilisateur ne subira pas de pénalités d'exposition aux températures chaudes (CP:R pg 181).</p>\n<p>Les vagues de chaleur doublent toutes les pénalités dues à une armure plus lourde (NCW pg 5). Par exemple, un utilisateur avec une armure pare-balle moyenne subit une pénalité de -4 en MOUV, DEX et REF pendant une vague de chaleur. La doublure pour temps chaud réduit chacune de ces pénalités de 1.</p>\n"
+      "description": "<p>\n  Upgrade for any Jacket fashion item. User will not suffer Exposure penalties\n  from hot temperatures (CP:R pg 181).\n</p>\n<p>\n  Heatwaves double all penalties from heavier armor (NCW pg 5). For example, a\n  user with Medium Armorjack takes a -4 penalty to MOVE, DEX, and REF during a\n  Heatwave. Hot-Weather Jacket Lining decreases each of these penalties by 1.\n</p>\n",
+      "dvTable": ""
+    },
+    "HusTool": {
+      "name": "HusTool",
+      "description": "<p>\n  <strong>App:</strong> Find odd jobs and get paid! Jobs take 30 minutes to\n  complete and pay 10eb.\n</p>\n<blockquote>\n  <p>Available jobs are determined by the GM, roll [[/r 1d10 #HusTool]]</p>\n  <ul>\n    <li>\n      <p>\n        <strong>On a 1:</strong> Factors outside of your control prevent you\n        from finishing the errand.\n      </p>\n      <ul>\n        <li><p>You waste your time and don't get paid.</p></li>\n      </ul>\n    </li>\n    <li>\n      <p>\n        <strong>On a 10:</strong> The errand is completed, but you encounter\n        trouble.\n      </p>\n      <ul>\n        <li><p>GM rolls on an appropriate encounter table.</p></li>\n      </ul>\n    </li>\n  </ul>\n</blockquote>\n"
     },
     "Neon Lightning": {
       "name": "Éclairage néon",
-      "description": "<p>Éclairages en fibre optique sur le cadre et les roues du vélo.</p>\n<p>Considéré comme un Tatouage lumineux quand on est sur ou à proximité du vélo (bonus de +2 en Habillement et Style).</p>\n"
+      "description": "<p>Fiber-optic lights on bike's frame and wheels.</p>\n<p>\n  Considered as a Light Tattoo when on or near the bike (gaining +2 Wardrobe\n  &amp; Style bonus)\n</p>\n",
+      "dvTable": ""
+    },
+    "NOS": {
+      "name": "NOS",
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +2\n</p>\n<hr />\n<p>\n  Boost the Punknaught's speed and gain an extra\n  <strong>Move Action</strong> for one turn.\n</p>\n<blockquote>\n  <p>\n    May be installed multiple times. Each tank only provides one turn of boost.\n  </p>\n</blockquote>\n"
     },
     "Perfume Shoppe": {
       "name": "Parfumerie",
-      "description": "<p>Le GLACE Putois ne prend que 1 emplacement de programme.</p>"
+      "description": "<p>Skunk Black ICE will only take 1 option slot to install.</p>\n",
+      "dvTable": ""
+    },
+    "Punknaught Armor": {
+      "name": "Punknaught Armor",
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Provides <strong>SP13</strong> armor to your Punknaught.\n  <strong>Preem</strong> attacks made against your Punknaught ignore this armor\n  unless this upgrade has been installed twice.\n</p>\n"
     },
     "Reinforced Frame": {
       "name": "Cadre renforcé",
-      "description": "<p>Le vélo est maintenant plus résistant : +5 PS et le cycliste peut avoir COR 11 ou plus.</p>\n<p>Impossible d'installer cette amélioration avec l'amélioration Cadre pliant.</p>\n"
+      "description": "<p>Bike is now more resistant: +5 SDP and rider can be BODY 11 or more.</p>\n<p>Can't install this Upgrade with Folding Frame Upgrade.</p>\n",
+      "dvTable": ""
+    },
+    "Retina Scanner": {
+      "name": "Retina Scanner",
+      "description": "<p>\n  <strong>App</strong> Use your agent to scan an eye, requires a camera or\n  MicroVideo upgrade.\n</p>\n<blockquote>\n  <p>\n    Copying a retinal patern takes 5 rounds and may require a number of DV13\n    Brawling Checks to restrain an unwilling subject.\n  </p>\n</blockquote>\n"
+    },
+    "Roach Race": {
+      "name": "Roach Race",
+      "description": "<p><strong>App:</strong> A retro sidescroller game from Poland.</p>\n"
     },
     "Security System": {
       "name": "Système de sécurité",
-      "description": "<p>Lié à votre Agent pour électrifier votre vélo. Un voleur doit résister à un jet de <strong>Résistance à la torture/drogues SD13</strong> ou lâcher le vélo.</p>\n<p>Le vélo est enregistré avec d'un Nano-Numéro d'Identification de Véhicule.</p>\n"
+      "description": "<p>\n  Linked with your Agent to electrify your bike. A thief must resist\n  <strong>DV13 Resist Torture/Drugs</strong> or unhand the bike.\n</p>\n<p>Bike is registered with a Nano-VIN.</p>\n",
+      "dvTable": ""
     },
     "Shining Finger": {
       "name": "Doigt étincelant",
-      "description": "<p>Application Agent</p><p>Une application Pornographique. Facturée mensuellement</p>"
+      "description": "<p>Agent App.</p>\n<p>A Pornographic application. Charged monthly</p>\n"
+    },
+    "Silencer": {
+      "name": "Silencer",
+      "description": "<p>Greatly reduces the weapon's audio profile.</p>\n<blockquote>\n  <p>\n    A <strong>Perception Check</strong> to determine the location of the gunshot\n    may be rolled against a <strong>DV</strong> set by the GM.\n  </p>\n</blockquote>\n"
     },
     "Smithy": {
       "name": "Forgeur",
-      "description": "<p>Soyez prêt à tout. Entrez dans une architecture NET pleine de GLACE et vous n'avez pas de programme Sabre à portée de main? Échangez votre programme Bannissement inutile en appuyant sur un bouton.</p>\n<p>Utilisez l'action monde réel pour changer tout les programmes Sabre installés en programmes Bannissement ou vice versa.</p>\n"
+      "description": "<p>\n  Be prepared for anything. Enter a NET Architecture full of Black ICE and you\n  don't have have a Sword Program handy? Swap out your useless Banhammer with\n  the press of a button.\n</p>\n<p>\n  Use Meat Action to change any and all installed Sword Programs into Banhammer\n  Programs or vice versa.\n</p>\n",
+      "dvTable": ""
     },
     "Smuggling Compartment": {
       "name": "Compartiment caché",
-      "description": "<p>Ajoute un petit espace de stockage caché dans le cadre.</p>\n<p>1 pouce x 6 pouces (2,54cm x 15,24cm)</p>\n<p> Jet de <strong>Dissimuler/Révéler objet SD 17</strong> pour le découvrir.</p>\n<p>Impossible d'installer cette amélioration avec Cadre pliant.</p>\n"
+      "description": "<p>Adds a small hidden storage space in the frame.</p>\n<p>1 inch x 6 inches (2.54cm x 15.24cm)</p>\n<p><strong>DV17 Conceal/Reveal Object</strong> check to discover.</p>\n<p>Can't install this Upgrade with Folding Frame.</p>\n",
+      "dvTable": ""
     },
     "Snaketrap": {
       "name": "Piège à Serpent",
-      "description": "<p>Protège contre la première attaque de GLACE (Cobra, Corbeau, ou les effets de Laser corrosif) qui détruirait aléatoirement un programme installé. Cet effet de protection ne peut être utilisé qu'une seule fois par Netrun, même si plusieurs copies de Piège à Serpent sont installées.</p>\n"
+      "description": "<p>\n  Protects against the first attack (Asp, Raven, or Poison Flatline effects)\n  that would destroy a random installed Program. This protective effect can be\n  use only once per Netrun even if multiple copies of Snaketrap are installed.\n</p>\n",
+      "dvTable": ""
+    },
+    "Spike Strip Launcher": {
+      "name": "Spike Strip Launcher",
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  9<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  This <strong>Heavy Weapon</strong> launches a coil of metal spikes from the\n  rear of your Punknaught.\n</p>\n<blockquote>\n  <p>\n    Drivers following behind you must make a\n    <strong>DV17 Drive Land Vehicle</strong> check to avoid\n    <strong>4d6</strong> weak point damage.\n  </p>\n</blockquote>\n"
     },
     "Stunt Frame": {
       "name": "Cadre Freestyle",
-      "description": "<p>Le vélo perd du poids et gagne en manœuvrabilité.</p>\n<p>Le cycliste obtient un bonus de +2 aux tests de compétence Athlétisme lors de sa conduite et de ses manœuvres.</p>"
+      "description": "<p>The bike loses weight and gains maneuverability.</p>\n<p>\n  Rider obtain a +2 bonus to Athletics skill checks when riding and doing\n  maneuvers.\n</p>\n",
+      "dvTable": ""
     },
     "Swamp Mist": {
       "name": "Brume Marécageuse",
-      "description": "<p>La GLACE Feu Follet inflige 2d6 points de dégâts au lieu de 1d6.</p>\n<p>Restrictions de programme GLACE : seul Feu Follet peut être installé.</p>\n"
+      "description": "<p>Wisp Black ICE deal 2d6 damage instead of 1d6.</p>\n<p>Black ICE Program restrictions: Only Wisps can be installed.</p>\n",
+      "dvTable": ""
     },
     "Swifty Clean": {
       "name": "Nettoyage Rapide",
-      "description": "<p>Le Netrunner peut lancer Camouflage deux fois en une seule action NET et garder le meilleur résultat. Camouflage ne peut être utilisé qu'une seule fois par Netrun lorsque Nettoyage Rapide est installé.</p>"
+      "description": "<p>\n  Netrunner can roll Cloak twice in a single NET Action and take the higher\n  roll. Cloak can only be used once per Netrun when Swifty Clean is installed.\n</p>\n",
+      "dvTable": ""
+    },
+    "The Garden": {
+      "name": "The Garden",
+      "description": "<p>\n  <strong>App:</strong> A free social media platform hosted by Ziggurat. Users\n  require an account to comment or publish content.\n</p>\n"
     },
     "Trailer": {
       "name": "Remorque",
-      "description": "<p>Crochet avec une petite remorque de chargement</p>\n<p>1,5 m x 0,46m.</p>\n<p>Une action est nécessaire pour attacher et détacher la remorque.</p>"
+      "description": "<p>Hook with a small cargo trailer.</p>\n<p>5 feet x 1.5 feet (1.5m x 0.46m).</p>\n<p>An action is needed to attach and detach the trailer.</p>\n",
+      "dvTable": ""
+    },
+    "Turret": {
+      "name": "Turret",
+      "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Adds a swivel mount that can support any\n  <strong>2-handed ranged weapon</strong> you already own. This upgrade may be\n  constructed 3 times for each chassis installed into your Punknaught.\n</p>\n<blockquote>\n  <p>\n    A passenger riding the Punknaught may use their Action to fire or reload the\n    weapon.\n  </p>\n</blockquote>\n"
+    },
+    "WatchBox": {
+      "name": "WatchBox",
+      "description": "<p><strong>App:</strong> Turns your agent into an alarm system.</p>\n<blockquote>\n  <p>\n    Requires 5 minutes to scan and establish a security perimeter. The alarm is\n    triggered by loud noises, bright lights, and movement.\n  </p>\n  <p><strong>DV13 Stealth Check</strong> to avoid detection.</p>\n</blockquote>\n"
     },
     "Waterproof Jacket Lining": {
       "name": "Doublure imperméable de veste",
-      "description": "<p dir=\"ltr\">Amélioration pour n'importe quelle veste. Mécaniquement similaire à un parapluie, ne sert pas de tenue de plongée.</p>\n<p>Protège contre la Pluie Acide. Pour chaque minute exposée à la pluie d'acide, toutes les armures perdent 1 PA (NCW pg 4).</p>\n<p>+2 aux jets de Résistance à la torture/aux drogues quand exposé aux Pluies de Sang. Les Pluies de Sang sévères appliquent les effets d'un flacon de biotoxine lors d'un jet raté (NCW pg 4).</p>\n"
+      "description": "<p>\n  Upgrade for any Jacket fashion item. Mechanically similar to an umbrella, does\n  not serve as a wetsuit.\n</p>\n<p>\n  Protects against Acid Rain. For every minute exposed to Acid Rain, all armor\n  ablates by 1 SP (NCW pg 4).\n</p>\n<p>\n  +2 to Resist Torture/Drugs Checks from Blood Rain exposure. Severe Blood Rain\n  applies the effects of a Vial of Biotoxin on failed check (NCW pg 4).\n</p>\n",
+      "dvTable": ""
+    },
+    "ZPost": {
+      "name": "ZPost",
+      "description": "<p><strong>App:</strong> Allows users to organize, send, and receive emails.</p>\n<p>Pre-Installed on all agents by default.</p>\n"
     }
   }
 }
