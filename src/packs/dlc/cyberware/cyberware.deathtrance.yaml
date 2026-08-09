@@ -37,7 +37,7 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/status/deathtrance.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/deathtrance.svg
     name: Deathtrance
     origin: null
     sort: 0

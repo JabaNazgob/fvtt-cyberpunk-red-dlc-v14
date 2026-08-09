@@ -75,6 +75,18 @@ This module (including items provided in the compendium) contains unofficial con
 
 -
 
+#### status
+
+- `icons/compendium/status/deathtrance.svg` derived from item
+- `icons/compendium/status/berserker*` derived from item
+- `icons/compendium/status/piranha-smash*` derived from item
+- `icons/compendium/status/poser_chip.svg` derived from item
+- `icons/compendium/status/prime_time*` derived from item
+- `icons/compendium/status/sedative.svg` derived from item
+- `icons/compendium/status/sixgun*` derived from item
+- `icons/compendium/status/timewarp*` derived from item
+- `icons/compendium/status/veritas*` derived from item
+
 #### upgrades
 
 - `icons\dlc\upgrades\bottle_dynamo.svg` remixed from [Mono wheel robot icon](https://game-icons.net/1x1/delapouite/mono-wheel-robot.html)

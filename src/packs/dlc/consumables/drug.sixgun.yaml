@@ -53,7 +53,7 @@ effects:
             "2":
               isSituational: false
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/status/sixgun.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/sixgun.svg
     name: Sixgun Primary
     origin: null
     sort: 0
@@ -98,7 +98,7 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/status/sixgun_addiction.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/sixgun_addiction.svg
     name: Sixgun Addiction
     origin: null
     sort: 0
@@ -159,7 +159,7 @@ effects:
             "2":
               isSituational: false
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/status/sixgun_addiction.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/sixgun_addiction.svg
     name: Sixgun Addiction Primary
     origin: null
     sort: 0

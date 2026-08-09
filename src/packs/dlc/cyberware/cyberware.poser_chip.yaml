@@ -37,7 +37,7 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/status/poser_chip.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/poser_chip.svg
     name: Poser Chip (Impersonate)
     origin: null
     sort: 0
@@ -82,7 +82,7 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/status/poser_chip.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/poser_chip.svg
     name: Poser Chip (Roleplay)
     origin: null
     sort: 0

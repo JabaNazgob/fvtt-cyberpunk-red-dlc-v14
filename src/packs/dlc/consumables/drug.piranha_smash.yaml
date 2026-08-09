@@ -77,7 +77,7 @@ effects:
             "5":
               isSituational: false
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/status/piranha-smash.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/piranha-smash.svg
     name: Piranha Smash Primary
     origin: null
     sort: 0
@@ -163,7 +163,7 @@ effects:
               isSituational: false
               onByDefault: false
     img: >-
-      systems/cyberpunk-red-core/icons/compendium/status/piranha-smash-addiction.svg
+      modules/cyberpunk-red-dlc/icons/dlc/status/piranha-smash-addiction.svg
     name: Piranha Smash Addiciton
     origin: null
     sort: 0

@@ -45,7 +45,7 @@ effects:
             "1":
               isSituational: false
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/status/prime_time.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/prime_time.svg
     name: Prime Time
     origin: null
     sort: 0
@@ -91,7 +91,7 @@ effects:
               isSituational: false
               onByDefault: false
     img: >-
-      systems/cyberpunk-red-core/icons/compendium/status/prime_time_addiction.svg
+      modules/cyberpunk-red-dlc/icons/dlc/status/prime_time_addiction.svg
     name: Prime Time Addiction
     origin: null
     sort: 0

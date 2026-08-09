@@ -77,7 +77,7 @@ effects:
             "5":
               isSituational: false
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/status/veritas.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/veritas.svg
     name: Veritas Primary
     origin: null
     sort: 0

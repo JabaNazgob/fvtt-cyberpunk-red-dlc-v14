@@ -37,7 +37,7 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
-    img: systems/cyberpunk-red-core/icons/compendium/status/beserker_addiction.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/beserker_addiction.svg
     name: Berserker Addiction
     origin: null
     sort: 0
