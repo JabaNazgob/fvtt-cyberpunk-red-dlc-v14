@@ -101,6 +101,10 @@
       "description": "<p>\n  Electric motorised system helping to pedal, increasing speed, lowering\n  tiredness.\n</p>\n<p>\n  Increases the bicycle's Speed (narrative) to the next BODY tier or adds\n  5MPH/8KPH to Speed (narrative) if already at the highest BODY tier.\n</p>\n<p>\n  Rider get +4 bonus to Endurance Checks to resisting exhaustion when riding.\n</p>\n",
       "dvTable": ""
     },
+    "Elflines Online": {
+      "name": "Elflines Online",
+      "description": "<p>\n  A new in-box copy Elflines Online. Requires the Segotari RUSH Revolution to\n  play.\n</p>\n"
+    },
     "Elflines Online Elftracker": {
       "name": "Elflines Online Elftracker",
       "description": "<p>\n  <strong>App:</strong> A companion app for ELO that allows users to track and\n  in-game stats and connect with other players.\n</p>\n"
@@ -195,6 +199,18 @@
       "name": "Système de sécurité",
       "description": "<p>\n  Linked with your Agent to electrify your bike. A thief must resist\n  <strong>DV13 Resist Torture/Drugs</strong> or unhand the bike.\n</p>\n<p>Bike is registered with a Nano-VIN.</p>\n",
       "dvTable": ""
+    },
+    "Segotari Agent Game": {
+      "name": "Segotari Agent Game",
+      "description": "<p>\n  A game that uses the Self-Adaptive AI onboard your Agent to generate new\n  levels or respond in real time to player input.\n</p>\n"
+    },
+    "Segotari RUSH Game (Used)": {
+      "name": "Segotari RUSH Game (Used)",
+      "description": "<p>\n  A used virtual reality game formatted for the original RUSH virtual reality\n  headset.\n</p>\n"
+    },
+    "Segotari RUSH Revolution Game": {
+      "name": "Segotari RUSH Revolution Game",
+      "description": "<p>A virtual reality game formatted for the RUSH Revolution headset.</p>\n"
     },
     "Shining Finger": {
       "name": "Doigt étincelant",
