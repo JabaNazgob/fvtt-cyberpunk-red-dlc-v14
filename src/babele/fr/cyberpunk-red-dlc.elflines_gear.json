@@ -2,25 +2,133 @@
   "label": "Attirail",
   "mapping": {},
   "entries": {
-    "Elflines Online": {
-      "name": "Elflines Online",
-      "description": "<p>Une nouvelle copie in-box du hit BDMMORPG Elflines Online.</p>"
+    "Face Cards": {
+      "name": "Face Cards",
+      "description": ""
+    },
+    "Jokers": {
+      "name": "Jokers",
+      "description": ""
+    },
+    "TCG": {
+      "name": "TCG",
+      "description": ""
+    },
+    "10 Sacred Herbs": {
+      "name": "10 Sacred Herbs",
+      "description": "<p>\n  Scan this code using the ELO Elftracker to recieve 10\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.zDjspn0R9fgRILpv]{Sacred\n  Herbs}!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌█▌▌ ▌▌█▌▌▌ █▌█▌▌▌ █▌▌█▌▌▌█▌▌█▌ ▌█▌▌▌ ▌█▌█▌█▌▌ ▌▌█▌▌▌█▌ ▌█▌▌█▌\n    ▌▌▌▌█▌ ▌█▌▌ █▌▌█▌▌█▌▌▌ █▌▌█▌▌█▌ ▌▌█▌▌▌█▌ ▌▌█▌▌ ▌█▌▌█▌▌█▌ ▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
+    },
+    "500 Gold Coins": {
+      "name": "500 Gold Coins",
+      "description": "<p>Scan this code using the ELO Elftracker to recieve 500 gold coins!</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌█▌▌ █▌▌▌▌▌ █▌█▌▌▌▌ █▌█▌▌▌ █▌▌█▌▌▌▌▌ █▌█▌█▌▌█▌▌ ▌▌█▌▌▌ █▌▌▌█▌ ▌█▌▌\n    █▌▌█▌▌█▌█▌▌ ▌▌█▌▌█▌▌ ▌▌█▌▌ █▌▌▌▌█▌▌ █▌▌█▌▌█▌ ▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
+    },
+    "Blessing of Arvish": {
+      "name": "Blessing of Arvish",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
+    },
+    "Booster Box": {
+      "name": "Booster Box",
+      "description": "<p>\n  A box of 10 ELO-TCG\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.nEITubqXVIVK36c2]{Booster\n  Packs}.\n</p>\n"
+    },
+    "Booster Pack": {
+      "name": "Booster Pack",
+      "description": "<p>An unopened pack of Elflines Online trading cards.</p>\n<p>\n  Contains one stack of\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.DvNSK7YR1z3mkyKi]{Numbered\n  Cards} and a\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.y4VW60EUNSRVTaXy]{Random\n  Face Card}.\n</p>\n"
+    },
+    "Curse of Enthernox": {
+      "name": "Curse of Enthernox",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
+    },
+    "Duel Flag": {
+      "name": "Duel Flag",
+      "description": "<p>Scan this code using the ELO Elftracker to initiate a pvp duel in town!</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌▌▌█▌ ▌█▌█▌▌█▌ ▌▌█▌ ▌▌▌█▌▌█▌▌▌ █▌▌ █▌▌█▌▌▌█▌█▌ ▌▌▌█▌▌▌ █▌█▌▌▌ ▌█▌▌▌▌\n    █▌█▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
+    },
+    "Dungeonstone": {
+      "name": "Dungeonstone",
+      "description": "<p>\n  Scan this code using the ELO Elftracker to transport your party to a\n  previously completed dungeon entrance!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌▌▌█▌ ▌█▌█▌ ▌▌▌█▌▌▌█▌▌ █▌▌▌▌ █▌█▌█▌▌█▌ ▌▌█▌▌█▌▌ ▌▌▌█▌▌ █▌▌█▌▌█▌\n    ▌▌▌█▌█▌ ▌█▌▌█▌▌ ▌▌▌█▌▌ █▌█▌▌█▌ ▌▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
+    },
+    "Flight of Dragons": {
+      "name": "Flight of Dragons",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
+    },
+    "Gather the Elflines": {
+      "name": "Gather the Elflines",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
+    },
+    "Hero's Reversal": {
+      "name": "Hero's Reversal",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
+    },
+    "Hero's Tutor": {
+      "name": "Hero's Tutor",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
+    },
+    "Numbered Cards": {
+      "name": "Numbered Cards",
+      "description": "<p>\n  A stack of Dirt Cheap numbered cards for building an Elflines Online-TCG deck.\n</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
+    },
+    "Pot of Miasma": {
+      "name": "Pot of Miasma",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
     },
     "Rank 10 ELO Character": {
       "name": "Personnage ELO de rang 10",
-      "description": "<p>Un personnage ELO de niveau 10 (un personnage ELO doit être créé via la Macro et ses niveaux montés manuellement.)</p>\n"
+      "description": "<p>\n  A power-leveled Rank 10 ELO character. (ELO Character must be created via the\n  Macro and ranked up manually.)\n</p>\n"
     },
-    "Rush Revolution": {
-      "name": "Rush Revolution",
-      "description": "<p>Casque de Braindance. Requis pour jouer à Elflines Online.</p>"
+    "Rank Up!": {
+      "name": "Rank Up!",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
+    },
+    "Rank Up Elixir": {
+      "name": "Rank Up Elixir",
+      "description": "<p>\n  Scan this single use code using the ELO Elftracker to enhance your character's\n  rank!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌█▌▌▌█▌ ▌█▌▌▌ ▌█▌▌▌█▌▌ █▌█▌▌▌▌ █▌▌ █▌▌█▌▌█▌ ▌▌▌█▌▌█▌█▌▌ ▌▌\n    █▌▌█▌▌█▌▌█▌ ▌▌▌█▌▌▌ █▌▌█▌▌ █▌▌▌ ▌█▌▌█▌▌█▌▌ █▌▌█▌▌▌█▌ ▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
+    },
+    "Revive Sickness Cure": {
+      "name": "Revive Sickness Cure",
+      "description": "<p>\n  Scan this code using the ELO Elftracker to remove Revive Sickness from a\n  character!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌█▌▌▌█▌ ▌█▌▌█▌ ▌▌▌ █▌▌▌█▌▌█▌▌ █▌▌▌ █▌▌▌█▌█▌▌█▌ ▌▌▌ █▌▌█▌▌▌█▌▌█▌\n    ▌▌█▌▌ █▌▌█▌█▌▌ ▌▌█▌▌▌▌ █▌▌▌█▌▌ █▌█▌▌█▌ ▌▌▌█▌▌█▌ ▌▌█▌▌█▌ ▌▌ █▌▌█▌▌█▌█▌▌ ▌▌█▌\n    ▌▌▌█▌█▌▌▌█▌ ▌█▌▌█▌ ▌▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
+    },
+    "Rise from Bog": {
+      "name": "Rise from Bog",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
     },
     "Sacred Herbs": {
       "name": "Herbes sacrées",
-      "description": "<p>Ingérer des Herbes sacrées soigne immédiatement les PS pour un total de COR+VOL de l'utilisateur.</p>"
+      "description": "<p>\n  Ingesting Sacred Herbs immediately heals HP equal to the user's BODY plus\n  their WILL.\n</p>\n"
+    },
+    "Spreading Slime": {
+      "name": "Spreading Slime",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
+    },
+    "Super Repair Hammer": {
+      "name": "Super Repair Hammer",
+      "description": "<p>\n  Scan this code using the ELO Elftracker to instantly repair your gear for half\n  price!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌▌█▌▌█▌ ▌█▌ ▌▌▌█▌▌█▌█▌▌ ▌█▌▌█▌ ▌▌█▌▌▌█▌ ▌▌ █▌▌█▌▌█▌▌▌█▌ ▌█▌▌█▌\n    ▌▌▌█▌█▌▌ ▌█▌▌▌ ▌█▌▌█▌▌ █▌▌█▌▌▌█▌ ▌▌ █▌▌█▌▌█▌▌▌ █▌▌█▌▌▌ ▌█▌█▌█▌▌▌ ▌█▌█▌▌▌\n    ▌█▌▌█▌ ▌▌█▌▌▌█▌ ▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
+    },
+    "Tiny Draglin": {
+      "name": "Tiny Draglin",
+      "description": "<p>\n  Scan this code using the ELO Elftracker to summon a Tiny Draglin mini-pet!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌▌▌█▌█▌ ▌▌█▌▌ █▌▌▌▌█▌▌ █▌█▌ ▌█▌▌▌▌ █▌▌█▌▌▌▌█▌ ▌█▌█▌▌▌█▌ ▌█▌▌▌ ▌█▌▌▌▌\n    █▌█▌▌█▌▌▌ █▌▌█▌▌ █▌▌▌▌█▌▌ █▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
+    },
+    "Tiny Tent": {
+      "name": "Tiny Tent",
+      "description": "<p>\n  Scan this code using the ELO Elftracker to spawn your very own Tiny Tent once\n  every 24 hours!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌▌▌█▌█▌ ▌▌█▌▌ █▌▌▌▌█▌▌ █▌█▌ ▌█▌▌▌▌ █▌▌█▌▌▌▌█▌█▌ ▌█▌▌█▌ ▌▌▌▌█▌▌\n    █▌▌▌█▌█▌ ▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
     },
     "Vial of Poison": {
       "name": "Fiole de poison",
-      "description": "<p>Inflige 2d6 dégâts qui ne sont pas réduits par l'armure. Pour contrer son effet, on utilise Résistance à la torture/aux drogues.</p>"
+      "description": "<p>2d6 damage unless Resist Torture/Drugs. Armor does not apply.</p>\n"
+    },
+    "Warlock's Wrath": {
+      "name": "Warlock's Wrath",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
+    },
+    "Weapon Glow Vial": {
+      "name": "Weapon Glow Vial",
+      "description": "<p>\n  Scan this single use code using the ELO Elftracker to enhance your equipped\n  weapon with a color of your choice!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌█▌ █▌▌▌▌█▌▌█▌ ▌▌█▌▌▌ ▌█▌▌█▌█▌▌ ▌█▌▌█▌▌ ▌▌▌█▌▌ █▌▌ █▌▌█▌▌▌▌▌\n    █▌█▌▌█▌▌▌ █▌█▌▌█▌▌ ▌█▌ █▌▌▌▌▌ █▌▌█▌▌▌ █▌▌▌█▌▌█▌▌ █▌▌█▌▌▌ ▌█▌▌█▌▌▌ █▌▌\n    ▌█▌█▌▌</span\n  >\n</p>\n"
+    },
+    "Weapon Polish": {
+      "name": "Weapon Polish",
+      "description": "<p>\n  Scan this single use code using the ELO Elftracker to enhance your equipped\n  weapon to Excellent Quality!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌█▌ █▌▌▌▌█▌▌█▌ ▌▌█▌▌▌ ▌█▌▌█▌█▌▌ ▌█▌▌█▌▌ ▌▌▌█▌▌ █▌▌ █▌▌█▌▌▌█▌█▌▌\n    ▌█▌▌█▌▌ ▌▌█▌▌▌ █▌▌█▌▌ █▌▌▌█▌▌█▌ ▌█▌▌▌ █▌▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
+    },
+    "Zazzolite Aura": {
+      "name": "Zazzolite Aura",
+      "description": "<p>A face card for building an Elflines Online-TCG deck.</p>\n<blockquote>\n  <p>\n    TCG card items are provided for use as loot and not for actual play. GM's\n    are encouraged to configure their own decks using Foundry's\n    <strong>Card Stack</strong> feature.\n  </p>\n</blockquote>\n"
     }
   }
 }
