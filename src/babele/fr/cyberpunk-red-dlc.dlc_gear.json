@@ -62,6 +62,10 @@
       "name": "Grimoire Du Sorcier",
       "description": "<p>\n  If you prefer sliding through NET Architectures avoiding Black ICE this is the\n  deck for you.\n</p>\n<p>9 slots to install either Programs or Hardware.</p>\n<p><em>No Attacker or Black ICE Program may be installed.</em></p>\n"
     },
+    "Kibble Flavors": {
+      "name": "Kibble Flavors",
+      "description": ""
+    },
     "A Box Bound Tightly In Rope": {
       "name": "A Box Bound Tightly In Rope",
       "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uq1cseo3a1hAx7Pg]{A\n  Box Bound Tightly in Rope}\n</p>\n"
@@ -114,6 +118,26 @@
       "name": "Apartment Affability Furniture Set",
       "description": "<p>\n  Easy to assemble furniture in a box. This is the starting Furniture Set for\n  most apartments and corporate conapts.\n</p>\n"
     },
+    "Binary Compound": {
+      "name": "Binary Compound",
+      "description": "<p>\n  A double-syringe that contains a pair of corrosive chemicals capable of eating\n  through solid objects.\n</p>\n<blockquote>\n  <p>\n    Requires 2 rounds to apply Binary Compound to a 2m/yd<sup>2</sup> surface.\n  </p>\n  <p>\n    Binary Compound remains chemically active for 6 rounds, dealing [[/r 6d6\n    #Binary Compound Damage]] damage per round.\n  </p>\n</blockquote>\n"
+    },
+    "Branded Jumpsuit (Extreme Security)": {
+      "name": "Branded Jumpsuit (Extreme Security)",
+      "description": "<p>\n  A jacket or jumpsuit that appears commonplace in an extremely secure\n  environment.\n</p>\n"
+    },
+    "Branded Jumpsuit (High Security)": {
+      "name": "Branded Jumpsuit (High Security)",
+      "description": "<p>\n  A jacket or jumpsuit that appears commonplace in a high security environment.\n</p>\n"
+    },
+    "Branded Jumpsuit (Low Security)": {
+      "name": "Branded Jumpsuit (Low Security)",
+      "description": "<p>\n  A jacket or jumpsuit that appears commonplace in a low security environment.\n</p>\n"
+    },
+    "Branded Jumpsuit (Moderate Security)": {
+      "name": "Branded Jumpsuit (Moderate Security)",
+      "description": "<p>\n  A jacket or jumpsuit that appears commonplace in a medium security\n  environment.\n</p>\n"
+    },
     "Breacher": {
       "name": "Breacher",
       "description": "<p>\n  A pocket-sized electronic device designed specifically for hacking agents.\n</p>\n"
@@ -125,6 +149,10 @@
     "Cargo Container Chic Furniture Set": {
       "name": "Set de meubles Aménagement standard",
       "description": "<p>\n  It might be cheap, but it is real furniture. This is the starting Furniture\n  Set for most cargo containers.\n</p>\n"
+    },
+    "Concealment Sleeve": {
+      "name": "Concealment Sleeve",
+      "description": "<p>\n  <strong>Very Expensive</strong> custom fitted RealSkinn™ sleeve made just for\n  you.\n</p>\n<blockquote>\n  <p>\n    All cyberware installed into this limb becomes undetectable by\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.JMYvZfk6ZBgt6tK0]{Cyberscanners}\n    and unusable until the sleeve is removed.\n  </p>\n</blockquote>\n"
     },
     "Continental Brands Real Instant Coffee™": {
       "name": "Continental Brands Real Instant Coffee™",
@@ -178,6 +206,10 @@
       "name": "Sniffeur Green Light Go",
       "description": "<p>\n  Chemical Substance Analyzer. Provides a green or red glow depending on if the\n  chemical substance (such as Street Drugs or Pharmaceuticals) is clean or\n  cut/mixed with another substance.\n</p>\n"
     },
+    "Handprint Glove": {
+      "name": "Handprint Glove",
+      "description": "<p>\n  <strong>Very Expensive</strong> glove fabricated from RealSkinn™ that allows\n  you wear somebody else's handprint.\n</p>\n<blockquote>\n  <p>Capable of fooling Handprint Scanners, but not leaving fingerprints.</p>\n</blockquote>\n"
+    },
     "Hidden Compartment": {
       "name": "Compartiment caché",
       "description": "<p>A small hidden compartment inside the Cargo Container.</p>\n<ul>\n  <li>15.25x30x7.5cm / 6x12x3in</li>\n  <li>\n    Can be found with a <strong>DV15 Conceal/Reveal Object</strong> Skill Check\n  </li>\n</ul>\n"
@@ -194,6 +226,86 @@
       "name": "Menottes Ion",
       "description": "<p>\n  Handcuffs meant for borgs. Disables any Non-Hardened Cyberware options\n  installed in the limb the cuffs are binding. BODY≥13 can break.\n</p>\n"
     },
+    "Kibble Pack: Adobo": {
+      "name": "Kibble Pack: Adobo",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Aromatic Beef": {
+      "name": "Kibble Pack: Aromatic Beef",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Bacon Cheddar Dumpburger": {
+      "name": "Kibble Pack: Bacon Cheddar Dumpburger",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Buttered Popcorn": {
+      "name": "Kibble Pack: Buttered Popcorn",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Caramel Crunch Popcorn": {
+      "name": "Kibble Pack: Caramel Crunch Popcorn",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Cheese": {
+      "name": "Kibble Pack: Cheese",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Chili Lime": {
+      "name": "Kibble Pack: Chili Lime",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Collagen Boost": {
+      "name": "Kibble Pack: Collagen Boost",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Extra Fluffy Pankcake": {
+      "name": "Kibble Pack: Extra Fluffy Pankcake",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Fizzy": {
+      "name": "Kibble Pack: Fizzy",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Fruit Fantasy": {
+      "name": "Kibble Pack: Fruit Fantasy",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Kiwi": {
+      "name": "Kibble Pack: Kiwi",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Lemon Ginger": {
+      "name": "Kibble Pack: Lemon Ginger",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Mystery": {
+      "name": "Kibble Pack: Mystery",
+      "description": "<p>\n  One meal. Which\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.wYySmunH9lfLbhN9]{Kibble\n  Flavor} will it be?\n</p>\n"
+    },
+    "Kibble Pack: Paprika": {
+      "name": "Kibble Pack: Paprika",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Pineapple Pizza": {
+      "name": "Kibble Pack: Pineapple Pizza",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Protein": {
+      "name": "Kibble Pack: Protein",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: Sport Flakes": {
+      "name": "Kibble Pack: Sport Flakes",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: SportMix": {
+      "name": "Kibble Pack: SportMix",
+      "description": "<p>One meal.</p>\n"
+    },
+    "Kibble Pack: XXL Kibbles": {
+      "name": "Kibble Pack: XXL Kibbles",
+      "description": "<p>One meal.</p>\n"
+    },
     "Koff Popper": {
       "name": "Koff Popper",
       "description": "<p>\n  The Continental Brands Koff Popper is the only specialty thermos you'll need.\n</p>\n<ul>\n  <li>Thermos with built in Kof Pop brewer</li>\n  <li>Holds 237ml/8oz</li>\n  <li>Can only be purchased at an Oasis store</li>\n</ul>\n"
@@ -201,6 +313,10 @@
     "Koff Pops": {
       "name": "Koff Pops",
       "description": "<p>Koff Pops used with the Continental Brands Koff Popper.</p>\n<ul>\n  <li>Pack of 10</li>\n  <li>Included in Kibble or higher lifestyle</li>\n</ul>\n"
+    },
+    "Laser Microphone": {
+      "name": "Laser Microphone",
+      "description": "<p>\n  An invisible laser allows the user to measure vibrations and eavesdrop through\n  glass windows up to 300m/yds away.\n</p>\n<blockquote>\n  <p>The laser may become visible in foggy or smokey conditions.</p>\n  <p>Audio vibrations are completely blocked by Thick Bulletproof Glass.</p>\n</blockquote>\n"
     },
     "Linear Frame Ω (Omega)": {
       "name": "Charpente linéaire Ω (Omega)",
@@ -218,6 +334,10 @@
       "name": "Cybersiège Mercurius",
       "description": "<p>\n  An impressively affordable cyberchair, offering great features at this price\n  point. While using it the operator's base MOVE becomes 5, with all regular\n  movement options remaining available.\n</p>\n<p>\n  Operation of the cyberchair requires either a free hand, or interface plugs.\n</p>\n<p>\n  If the operator suffers a critical injury that reduces their MOVE, the MOVE of\n  the cyberchair is instead effected.\n</p>\n<p>\n  The cyberchair cannot be targeted specifically, nor can it be disabled via EMP\n  effects.\n</p>\n"
     },
+    "Militech M97 Ghostsuit": {
+      "name": "Militech M97 Ghostsuit",
+      "description": "<p>\n  Requires 1 minute without movement to gather local data before the wearer\n  automatically blends into their surroundings. The effect ends if you move more\n  than 2m/yds per turn.\n</p>\n"
+    },
     "MiniMag Speakers": {
       "name": "Haut-parleurs MiniMag",
       "description": "<p>\n  Small Magnetic Speakers. Can play audio from a connected Agent within\n  100m/yds.\n</p>\n"
@@ -234,6 +354,10 @@
       "name": "Composé d'Osmose",
       "description": "<p>\n  This additive allows a Vial of Poison or Biotoxin to be absorbed through skin\n  contact. One vial can cover 2 square feet when applied to a surface and lasts\n  for one hour. Can be neutralized by rinsing with water.\n</p>\n<p>\n  The first meat target to touch the affected area with a meat body part is\n  dosed with the poison. A <strong>DV17 Perception</strong> check reveals the\n  poison. More than one dose in the same 2 square foot area has no added effect.\n</p>\n"
     },
+    "Parabolic Microphone": {
+      "name": "Parabolic Microphone",
+      "description": "<p>\n  A handheld microphone that allows the user to amplify sounds up to 30m/yds\n  away.\n</p>\n"
+    },
     "Power Chord": {
       "name": "Cordes de puissance",
       "description": "<p>Shred righteous bars with this electric guitar.</p>\n<ul>\n  <li>\n    <p>\n      Enable the supplied active effect only if your musician has a base skill\n      rank of 16 in\n      @UUID[Compendium.cyberpunk-red-core.core_skills-play-instrument.Item.WS1dbopsk9h1uTSn]{Play\n      Instrument (Guitar)}.\n    </p>\n  </li>\n  <li>\n    <p>\n      Non-Rockerboys suffer the\n      @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.IKKcCgHU1lBJ4wVd]{Crushed\n      Fingers} injury if they play this instrument longer than 10 minutes.\n    </p>\n  </li>\n  <li>\n    <p>Cannot be damaged by fire or any weapon that deals less than 6d6.</p>\n  </li>\n  <li><p>Tech-Upgradable</p></li>\n</ul>\n"
@@ -241,6 +365,14 @@
     "PressureTech Shower Head": {
       "name": "PressureTech Shower Head",
       "description": "<p>Pressure-wash the stress away.</p>\n<blockquote>\n  <p>Using this shower deals 1 damage to an unarmored target.</p>\n</blockquote>\n"
+    },
+    "Professional Disguise Kit": {
+      "name": "Professional Disguise Kit",
+      "description": "<p>\n  With a combination of stage makeup and RealSkinn™ prosthetics you can look\n  like a whole new you! Provides a +2 bonus to Personal Grooming checks.\n</p>\n"
+    },
+    "Retina Lenses": {
+      "name": "Retina Lenses",
+      "description": "<p>\n  A fabricated lens imprinted with a copy of somebody's retinal patterns. You\n  must provide the Techie with a valid retinal pattern prior to fabrication.\n</p>\n<blockquote><p>Capable of fooling Retinal Scanners.</p></blockquote>\n"
     },
     "Roller Derby Skates": {
       "name": "Patins de Roller Derby",
@@ -261,6 +393,18 @@
     "Segotari Double Agent": {
       "name": "Segotari Double Agent",
       "description": "<p>\n  AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending on\n  circumstance.\n</p>\n<blockquote>\n  <p>\n    A <strong>Poor Quality Agent</strong> includes a display screen, touchpad,\n    microphone, and camera.\n  </p>\n  <ul>\n    <li><p>Remote Hacking DV 17 / Physical Hacking DV 15</p></li>\n  </ul>\n</blockquote>\n"
+    },
+    "Segotari RUSH Revolution": {
+      "name": "Segotari RUSH Revolution",
+      "description": "<p>\n  An interactive braindance headset that can generate artificial sensations.\n</p>\n"
+    },
+    "Segotari RUSH (Used)": {
+      "name": "Segotari RUSH (Used)",
+      "description": "<p>A bulky used braindance headset.</p>\n"
+    },
+    "Segotari VRIcade Cabinet": {
+      "name": "Segotari VRIcade Cabinet",
+      "description": "<p>A bulky VRIcade cabinet.</p>\n"
     },
     "Skateboard": {
       "name": "Skateboard",
@@ -317,6 +461,10 @@
     "Zetatech Grade A-Plus": {
       "name": "Zetatech Grade A-Plus",
       "description": "<p>\n  AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending on\n  circumstance.\n</p>\n<blockquote>\n  <p>\n    An <strong>Excellent Quality Agent</strong> includes a touchscreen,\n    microphone, camera, flashlight, and holo-projector.\n  </p>\n  <ul>\n    <li><p>Hacking DV 21</p></li>\n  </ul>\n</blockquote>\n"
+    },
+    "Zetatech Tank Commander Headset": {
+      "name": "Zetatech Tank Commander Headset",
+      "description": "<p>Radio headset with throat mic and earbud perfect for covert operations.</p>\n"
     }
   }
 }
