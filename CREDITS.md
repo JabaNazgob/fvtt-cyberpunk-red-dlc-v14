@@ -132,3 +132,25 @@ This module (including items provided in the compendium) contains unofficial con
 #### weapons
 
 -
+
+### prototypes
+
+#### badges
+
+- `icons/prototypes/badges/ammo_airburst.svg` remixed from [Fluffy Trefoil](https://game-icons.net/1x1/lorc/fluffy-trefoil.html)
+- `icons/prototypes/badges/ammo_burrowing.svg` remixed from [Half Tornado](https://game-icons.net/1x1/lorc/half-tornado.html)
+- `icons/prototypes/badges/ammo_chromatic_rave.svg` remixed from [Double Quaver](https://game-icons.net/1x1/lorc/double-quaver.html)
+- `icons/prototypes/badges/ammo_explosive.svg` remixed from [Explosion Rays](https://game-icons.net/1x1/lorc/explosion-rays.html)
+- `icons/prototypes/badges/ammo_hollow.svg` remixed from [Scar Wound](https://game-icons.net/1x1/lorc/scar-wound.html)
+- `icons/prototypes/badges/ammo_hyperexpansive.svg` remixed from [Expander](https://game-icons.net/1x1/sbed/expander.html)
+- `icons/prototypes/badges/ammo_hypo.svg` remixed from [Syringe](https://game-icons.net/1x1/sbed/syringe.html)
+- `icons/prototypes/badges/ammo_junk.svg` remixed from [Trash Can](https://game-icons.net/1x1/delapouite/trash-can.html)
+- `icons/prototypes/badges/ammo_precision.svg` remixed from [Targeted](https://game-icons.net/1x1/sbed/targeted.html)
+- `icons/prototypes/badges/ammo_serrated.svg` remixed from [Scar Wound](https://game-icons.net/1x1/lorc/scar-wound.html)
+- `icons/prototypes/badges/ammo_small.svg` remixed from [Squirrel](https://game-icons.net/1x1/delapouite/squirrel.html)
+- `icons/prototypes/badges/ammo_tracer.svg` remixed from [Cannon Ball](https://game-icons.net/1x1/lorc/cannon-ball.html)
+- `icons/prototypes/badges/ammo_velocity.svg` remixed from [Fast Forward Button](https://game-icons.net/1x1/delapouite/fast-forward-button.html)
+
+#### icons
+
+- `icons/prototypes/icons/app.svg` remixed from []()
