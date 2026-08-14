@@ -58,7 +58,6 @@ img: >-
 name: Implanted Fūma Kotarō Linear Frame
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -134,6 +133,7 @@ system:
   revealed: true
   rof: 1
   size: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 52
