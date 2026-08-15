@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/hangry_hnagry_dragon.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/upgrades/hangry_hangry_dragon.svg
 name: Hangry Hangry Dragon
 ownership:
   default: 0
