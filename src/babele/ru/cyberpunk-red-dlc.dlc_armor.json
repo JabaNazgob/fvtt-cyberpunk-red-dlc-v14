@@ -2,21 +2,41 @@
   "label": "Armor",
   "mapping": {},
   "entries": {
+    "Dragoon Plating": {
+      "name": "Dragoon Plating",
+      "description": "<p>\n  Armor plates compatible with Dragoon Plating cyberware. Dragoon Plating can be\n  removed, and summoned back within 6m/y as an action.\n</p>\n<p><em>Imposes -2 armor penalty while equiped.</em></p>\n"
+    },
+    "Dragoon Plating (Metalgear)": {
+      "name": "Dragoon Plating (Metalgear)",
+      "description": "<p>\n  Armor plates compatible with Dragoon Plating, Metalgear cyberware. Dragoon\n  Plating can be removed, and summoned back within 6m/y as an action.\n</p>\n<p><em>Imposes -3 armor penalty while equiped.</em></p>\n"
+    },
     "Esporma Environment Suit": {
       "name": "Esporma Environment Suit",
-      "description": "<p>\n Armored Radiation Suit. Protects the wearer from Radiation and comes with an\n Oxygen Tank that lasts for 30 minutes which can be refilled by spending an\n hour in clean air.\n</p>\n<p>Nanomachines restore 1SP every hour SP isn't lost on the armor</p>"
+      "description": "<p>\n  Armored Radiation Suit. Protects the wearer from Radiation and comes with an\n  Oxygen Tank that lasts for 30 minutes which can be refilled by spending an\n  hour in clean air.\n</p>\n<p>Nanomachines restore 1SP every hour SP isn't lost on the armor</p>\n"
     },
     "FleshWeave (Armor)": {
       "name": "FleshWeave (Armor)",
-      "description": "<p>Armor Item for Sycust FleshWeave Cyberware.</p>"
+      "description": "<p>Armor Item for Sycust FleshWeave Cyberware.</p>\n"
+    },
+    "Heavy Subdermal Plating": {
+      "name": "Heavy Subdermal Plating",
+      "description": "<p>Armor Item for Subdermal Armor Cyberware.</p>\n<blockquote>\n  <p>Note: Remove -2 armor penalty for users with BODY 14 or FBC</p>\n</blockquote>\n"
     },
     "PackShield": {
       "name": "PackShield",
-      "description": "<p>Businesswear Backpack Bulletproof Shield hybrid.</p>\n<p>\n Can carry items like a\n @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},\n and be equipped in your hand like a shield.\n</p>\n<p>Only provides protection when equipped in a hand.</p>\n<p>\n Cannot be installed in\n @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup\n Shield}.\n</p>"
+      "description": "<p>Businesswear Backpack Bulletproof Shield hybrid.</p>\n<p>\n  Can carry items like a\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},\n  and be equipped in your hand like a shield.\n</p>\n<p>Only provides protection when equipped in a hand.</p>\n<p>\n  Cannot be installed in\n  @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup\n  Shield}.\n</p>\n"
+    },
+    "Roller Derby Helmet": {
+      "name": "Roller Derby Helmet",
+      "description": "<p>\n  Regulation uniform derby padding required for all league sanctioned events.\n</p>\n"
+    },
+    "Roller Derby Padding": {
+      "name": "Roller Derby Padding",
+      "description": "<p>\n  Regulation uniform derby padding required for all league sanctioned events.\n</p>\n"
     },
     "Scavenged Armor": {
       "name": "Scavenged Armor",
-      "description": "<p>\n A scavenged set of Light Armorjack body armor that is unable to be repaired.\n</p>"
+      "description": "<p>\n  A scavenged set of Light Armorjack body armor that is unable to be repaired.\n</p>\n"
     }
   }
 }
