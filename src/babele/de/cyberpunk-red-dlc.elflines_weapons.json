@@ -1,38 +1,48 @@
 {
   "label": "Weapons",
-  "mapping": {},
+  "mapping": {
+    "dvTable": "system.dvTable"
+  },
   "entries": {
     "Bow": {
       "name": "Bow",
-      "description": "<p>A revitalized bow, reloaded as part of an Attack Action.</p>"
+      "description": "<p>A revitalized bow, reloaded as part of an Attack Action.</p>\n",
+      "dvTable": "DV Bows & Crossbows"
     },
     "Dagger": {
       "name": "Dagger",
-      "description": "<p>A knife fit for a hunter.</p>"
+      "description": "<p>A knife fit for a hunter.</p>\n",
+      "dvTable": ""
     },
     "Duel Caster": {
       "name": "Duel Caster",
-      "description": "<p>\n A plastic housing and card launcher for ELO Cards. ROF 3 if only weapon fired\n on your turn. Can also be loaded with normal playing cards but makes the\n weapon Poor Quality.\n</p>"
+      "description": "<p>\n  A plastic housing and card launcher for ELO Cards. ROF 3 if only weapon fired\n  on your turn. Can also be loaded with normal playing cards but makes the\n  weapon Poor Quality.\n</p>\n",
+      "dvTable": "DV Pistol"
     },
     "Greataxe": {
       "name": "Greataxe",
-      "description": "<p>\n A wooden pole with a curved blade on each side. Favoured by raid parties for\n close engagements. Requires 2 hands to wield even by a wielder with Body 8 or\n higher.\n</p>"
+      "description": "<p>\n  A wooden pole with a curved blade on each side. Favoured by raid parties for\n  close engagements. Requires 2 hands to wield even by a wielder with Body 8 or\n  higher.\n</p>\n",
+      "dvTable": ""
     },
     "Longsword": {
       "name": "Longsword",
-      "description": "<p>\n A bladed, hilted weapon. Specifically designed for cutting or thrusting. 2 ROF\n if wielding two longswords.\n</p>"
+      "description": "<p>\n  A bladed, hilted weapon. Specifically designed for cutting or thrusting. 2 ROF\n  if wielding two longswords.\n</p>\n",
+      "dvTable": ""
     },
     "Scarlet Blackbow": {
       "name": "Scarlet Blackbow",
-      "description": "<p>\n A revitalized bow that must be reloaded after every attack. If you roll 1 on\n Attack (Crit fail) the bow's battery pack explodes. Comes bundeled with a\n Quiver and 6 Rubber Arrows.\n</p>"
+      "description": "<p>\n  A revitalized bow that must be reloaded after every attack. If you roll 1 on\n  Attack (Crit fail) the bow's battery pack explodes. Comes bundeled with a\n  Quiver and 6 Rubber Arrows.\n</p>\n",
+      "dvTable": "DV Bows & Crossbows"
     },
     "Shortsword": {
       "name": "Shortsword",
-      "description": "<p>\n A short bladed, hilted weapon. Specifically designed for cutting or thrusting.\n</p>"
+      "description": "<p>\n  A short bladed, hilted weapon. Specifically designed for cutting or thrusting.\n</p>\n",
+      "dvTable": ""
     },
     "Sword of Arvish": {
       "name": "Sword of Arvish",
-      "description": "<p>\n A bladed, hilted weapon. Specifically designed for cutting or thrusting. If\n you roll 1 on Attack (Crit Fail) the weapon crushes the wielder's fingers.\n</p>"
+      "description": "<p>\n  A bladed, hilted weapon. Specifically designed for cutting or thrusting. If\n  you roll 1 on Attack (Crit Fail) the weapon crushes the wielder's fingers.\n</p>\n",
+      "dvTable": ""
     }
   }
 }
