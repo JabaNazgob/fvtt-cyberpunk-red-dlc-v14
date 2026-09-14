@@ -6,7 +6,7 @@ flags: {}
 folder: 27WdM2zKf6bXf5Ix
 formula: 1d2
 img: >-
-  modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_8056549.svg
+  modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
 name: Previous Relationship
 ownership:
   C3z4G1obpqMQAu25: 3
@@ -28,7 +28,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_8056549.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 1
@@ -50,7 +50,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_8056549.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: Tragic Love
     range:
       - 2

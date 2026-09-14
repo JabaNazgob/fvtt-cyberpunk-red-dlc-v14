@@ -11,71 +11,95 @@ This module (including items provided in the compendium) contains unofficial con
 - Default icons for compendia provided by Lorc, Delapouite, Skoll, sbed, and John Colburn [Game Icons](https://game-icons.net) under the [CC-BY license](https://creativecommons.org/licenses/by/3.0/)
 - `.svg` Ammo icons derived from the core CPR system
 
-### black-chrome
-
-#### ammo
+### black-chrome/ammo
 
 -
 
-#### armor
+### black-chrome/armor
 
 -
 
-#### clothing
+### black-chrome/clothing
 
 -
 
-#### cyberware
+### black-chrome/cyberware
 
 -
 
-#### gear
+### black-chrome/gear
 
 -
 
-#### upgrades
+### black-chrome/upgrades
 
 -
 
-#### vehicles
+### black-chrome/vehicles
 
 -
 
-#### weapons
+### black-chrome/weapons
 
 -
 
-### dlc
-
-#### ammo
+### dlc/ammo
 
 -
 
-#### armor
+### dlc/armor
 
 -
 
-#### clothing
+### dlc/clothing
 
 -
 
-#### cyberware
+### dlc/cyberware
 
 -
 
-#### drugs
+### dlc/drugs
 
 -
 
-#### gear
+### dlc/gear
 
 -
 
-#### rolltables
+### dlc/rolltables
 
--
+- `/icons/dlc/rolltables/digital_dating/date-begin.svg` remixed from [Hearts](https://game-icons.net/1x1/skoll/hearts.html) & [Hourglass](https://game-icons.net/1x1/lorc/hourglass.html)
+- `/icons/dlc/rolltables/digital_dating/date-end.svg` remixed from [Hearts](https://game-icons.net/1x1/skoll/hearts.html) & [Hourglass](https://game-icons.net/1x1/lorc/hourglass.html)
+- `/icons/dlc/rolltables/digital_dating/date-middle.svg` remixed from [Hearts](https://game-icons.net/1x1/skoll/hearts.html) & [Hourglass](https://game-icons.net/1x1/lorc/hourglass.html)
+- `/icons/dlc/rolltables/digital_dating/enemy.svg` remixed from [Confrontation](https://game-icons.net/1x1/delapouite/confrontation.html)
+- `/icons/dlc/rolltables/digital_dating/exec.svg` remixed from [Teacher](https://game-icons.net/1x1/delapouite/teacher.html)
+- `/icons/dlc/rolltables/digital_dating/failure.svg` remixed from [Broken Heart Zone](https://game-icons.net/1x1/lorc/broken-heart-zone.html)
+- `/icons/dlc/rolltables/digital_dating/family.svg` remixed from [Family](https://thenounproject.com/icon/family-7654521/)
+- `/icons/dlc/rolltables/digital_dating/fixer.svg` remixed from [Shaking hands](https://game-icons.net/1x1/delapouite/shaking-hands.html)
+- `/icons/dlc/rolltables/digital_dating/friends.svg` remixed from [Friend](https://thenounproject.com/icon/friend-7933266/)
+- `/icons/dlc/rolltables/digital_dating/goals.svg` remixed from [Stairs goal](https://game-icons.net/1x1/delapouite/stairs-goal.html)
+- `/icons/dlc/rolltables/digital_dating/lawman.svg` remixed from [Police Car](https://game-icons.net/1x1/delapouite/police-car.html)
+- `/icons/dlc/rolltables/digital_dating/location.svg` remixed from [Map](https://www.svgrepo.com/svg/86709/map)
+- `/icons/dlc/rolltables/digital_dating/lover.svg` remixed from [Friend](https://thenounproject.com/icon/friend-8056549/)
+- `/icons/dlc/rolltables/digital_dating/lucky-cat.svg` remixed from [Lucky Cat](https://thenounproject.com/icon/lucky-cat-8242523/)
+- `/icons/dlc/rolltables/digital_dating/match.svg` remixed from [Techno heart](https://game-icons.net/1x1/lorc/techno-heart.html)
+- `/icons/dlc/rolltables/digital_dating/match-profile.svg` remixed from [Smartphone](https://game-icons.net/1x1/delapouite/smartphone.html), [Character](https://game-icons.net/1x1/delapouite/character.html), [Wax Tablet](https://game-icons.net/1x1/delapouite/wax-tablet.html)
+- `/icons/dlc/rolltables/digital_dating/media.svg` remixed from [Newspaper](https://game-icons.net/1x1/delapouite/newspaper.html)
+- `/icons/dlc/rolltables/digital_dating/medtech.svg` remixed from [Caduceus](https://game-icons.net/1x1/delapouite/caduceus.html)
+- `/icons/dlc/rolltables/digital_dating/motivations.svg` remixed from [Conversation](https://game-icons.net/1x1/lorc/conversation.html)
+- `/icons/dlc/rolltables/digital_dating/netrunner.svg` remixed from [Computing](https://game-icons.net/1x1/lord-berandas/computing.html)
+- `/icons/dlc/rolltables/digital_dating/nomad.svg` remixed from [Jeep](https://game-icons.net/1x1/delapouite/jeep.html)
+- `/icons/dlc/rolltables/digital_dating/outlook.svg` remixed from [To Think](https://game-icons.net/1x1/delapouite/think.html)
+- `/icons/dlc/rolltables/digital_dating/random.svg` remixed from [Self Love](https://game-icons.net/1x1/lorc/self-love.html)
+- `/icons/dlc/rolltables/digital_dating/red-flag.svg` remixed from [Flying Flag](https://game-icons.net/1x1/lorc/flying-flag.html)
+- `/icons/dlc/rolltables/digital_dating/rockerboy.svg` remixed from [Microphone](https://game-icons.net/1x1/delapouite/microphone.html)
+- `/icons/dlc/rolltables/digital_dating/solo.svg` remixed from [Dog Tag](https://www.svgrepo.com/svg/183279/dog-tag)
+- `/icons/dlc/rolltables/digital_dating/success.svg` remixed from [Shining Heart](https://game-icons.net/1x1/lorc/shining-heart.html)
+- `/icons/dlc/rolltables/digital_dating/tech.svg` remixed from [Auto Repair](https://game-icons.net/1x1/lorc/auto-repair.html)
+- `/icons/dlc/rolltables/digital_dating/traits.svg` remixed from [Skills](https://game-icons.net/1x1/delapouite/skills.html)
 
-#### status
+### dlc/status
 
 - `icons/compendium/status/deathtrance.svg` derived from item
 - `icons/compendium/status/berserker*` derived from item
@@ -87,55 +111,53 @@ This module (including items provided in the compendium) contains unofficial con
 - `icons/compendium/status/timewarp*` derived from item
 - `icons/compendium/status/veritas*` derived from item
 
-#### upgrades
+### dlc/upgrades
 
 - `icons\dlc\upgrades\bottle_dynamo.svg` remixed from [Mono wheel robot icon](https://game-icons.net/1x1/delapouite/mono-wheel-robot.html)
 
-#### vehicles
+### dlc/vehicles
 
 -
 
-#### weapons
+### dlc/weapons
 
 -
 
-#### weather-effects
+### dlc/weather-effects
 
 -
 
-### elflines
-
-#### ammo
+### elflines/ammo
 
 -
 
-#### armor
+### elflines/armor
 
 -
 
-#### clothing
+### elflines/clothing
 
 -
 
-#### gear
+### elflines/gear
 
 -
 
-#### macros
+### elflines/macros
 
 -
 
-#### rolltables
+### elflines/rolltables
 
 -
 
-#### weapons
+### elflines/weapons
 
 -
 
-### prototypes
+## prototypes
 
-#### badges
+### badges
 
 - `icons/prototypes/badges/ammo_airburst.svg` remixed from [Fluffy Trefoil](https://game-icons.net/1x1/lorc/fluffy-trefoil.html)
 - `icons/prototypes/badges/ammo_burrowing.svg` remixed from [Half Tornado](https://game-icons.net/1x1/lorc/half-tornado.html)
@@ -151,6 +173,6 @@ This module (including items provided in the compendium) contains unofficial con
 - `icons/prototypes/badges/ammo_tracer.svg` remixed from [Cannon Ball](https://game-icons.net/1x1/lorc/cannon-ball.html)
 - `icons/prototypes/badges/ammo_velocity.svg` remixed from [Fast Forward Button](https://game-icons.net/1x1/delapouite/fast-forward-button.html)
 
-#### icons
+### icons
 
-- `icons/prototypes/icons/app.svg` remixed from []()
+- `icons/prototypes/icons/app.svg` remixed from [Hexagon](https://www.svgrepo.com/svg/448212/hexagon)

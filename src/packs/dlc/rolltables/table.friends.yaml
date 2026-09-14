@@ -6,7 +6,7 @@ flags: {}
 folder: 27WdM2zKf6bXf5Ix
 formula: 1d10
 img: >-
-  modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+  modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
 name: Friends
 ownership:
   C3z4G1obpqMQAu25: 3
@@ -29,7 +29,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: ""
     range:
       - 1
@@ -52,7 +52,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: ""
     range:
       - 2
@@ -75,7 +75,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: ""
     range:
       - 3
@@ -98,7 +98,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: ""
     range:
       - 4
@@ -121,7 +121,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: ""
     range:
       - 5
@@ -144,7 +144,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: ""
     range:
       - 6
@@ -167,7 +167,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: ""
     range:
       - 7
@@ -190,7 +190,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: ""
     range:
       - 8
@@ -213,7 +213,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: ""
     range:
       - 9
@@ -236,7 +236,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Friend_7933266.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: ""
     range:
       - 10

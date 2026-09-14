@@ -231,7 +231,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Family_7654521.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/family.svg
     name: Family
     range:
       - 6
@@ -254,7 +254,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/noun_Family_7654521.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/family.svg
     name: Family (Crisis)
     range:
       - 6
