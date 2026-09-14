@@ -37,7 +37,7 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
-    img: modules/cyberpunk-red-dlc/icons/dlc/status/readied_action.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/timewarp.svg
     name: Timewarp Primary
     origin: null
     sort: 0
