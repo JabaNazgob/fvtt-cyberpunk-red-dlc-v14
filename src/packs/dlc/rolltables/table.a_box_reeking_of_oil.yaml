@@ -90,11 +90,11 @@ results:
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
     description: ""
-    documentUuid: Compendium.cyberpunk-red-core.core_weapons-branded.Item.fUo0HrfEC83Wb7wj
+    documentUuid: Compendium.cyberpunk-red-dlc.dlc_weapons.fUo0HrfEC83Wb7wj
     drawn: false
     flags: {}
     img: systems/cyberpunk-red-core/icons/compendium/weapons/SniperRifle_poor.svg
-    name: Snipe-Star
+    name: Snipe-Starr
     range:
       - 4
       - 4
