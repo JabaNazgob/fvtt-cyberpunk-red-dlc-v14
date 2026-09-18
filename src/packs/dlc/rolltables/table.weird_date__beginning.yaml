@@ -161,8 +161,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.9KMg3iZPirPBqxO8
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: Tragic Love
     range:
       - 1
@@ -183,8 +182,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.9KMg3iZPirPBqxO8
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: Tragic Love
     range:
       - 1
@@ -205,8 +203,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.9KMg3iZPirPBqxO8
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: Tragic Love
     range:
       - 1
@@ -227,8 +224,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uSyfmaY819qyqOcQ
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: Third Wheel
     range:
       - 3

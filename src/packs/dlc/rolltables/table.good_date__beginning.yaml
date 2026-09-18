@@ -187,8 +187,7 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uSyfmaY819qyqOcQ
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/friends.svg
     name: Friends
     range:
       - 2

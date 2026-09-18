@@ -5,8 +5,7 @@ displayRoll: false
 flags: {}
 folder: 27WdM2zKf6bXf5Ix
 formula: 1d10
-img: >-
-  modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
 name: Tragic Love
 ownership:
   C3z4G1obpqMQAu25: 3
@@ -28,8 +27,7 @@ results:
     documentUuid: null
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 1
@@ -51,8 +49,7 @@ results:
     documentUuid: null
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 2
@@ -74,8 +71,7 @@ results:
     documentUuid: null
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 3
@@ -97,8 +93,7 @@ results:
     documentUuid: null
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 4
@@ -120,8 +115,7 @@ results:
     documentUuid: null
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 5
@@ -143,8 +137,7 @@ results:
     documentUuid: null
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 6
@@ -166,8 +159,7 @@ results:
     documentUuid: null
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 7
@@ -189,8 +181,7 @@ results:
     documentUuid: null
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 8
@@ -212,8 +203,7 @@ results:
     documentUuid: null
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 9
@@ -235,8 +225,7 @@ results:
     documentUuid: null
     drawn: false
     flags: {}
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/digital_dating/lover.svg
     name: ""
     range:
       - 10

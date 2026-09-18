@@ -162,8 +162,7 @@ effects:
             "5":
               isSituational: false
               onByDefault: false
-    img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/status/piranha-smash-addiction.svg
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/piranha-smash-addiction.svg
     name: Piranha Smash Addiciton
     origin: null
     sort: 0
