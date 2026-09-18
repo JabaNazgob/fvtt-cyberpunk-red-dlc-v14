@@ -113,11 +113,25 @@ This module (including items provided in the compendium) contains unofficial con
 
 ### dlc/upgrades
 
-- `icons\dlc\upgrades\bottle_dynamo.svg` remixed from [Mono wheel robot icon](https://game-icons.net/1x1/delapouite/mono-wheel-robot.html)
+- `icons/dlc/upgrades/bottle_dynamo.svg` remixed from [Mono wheel robot icon](https://game-icons.net/1x1/delapouite/mono-wheel-robot.html)
 
 ### dlc/vehicles
 
--
+- `src/icons/dlc/vehicles/ambunaught-m2.svg` remixed from [Ambulance](https://game-icons.net/1x1/delapouite/ambulance.html)
+- `src/icons/dlc/vehicles/america-luxus-15.svg` remixed from [Limosine](https://thenounproject.com/icon/limosine-1911717/)
+- `src/icons/dlc/vehicles/armadillo.svg` created by Aru.Guy
+- `src/icons/dlc/vehicles/bicycle.svg` remixed from [Bicycle Illustration 1](https://www.svgrepo.com/svg/480958/bicycle-illustration-1)
+- `src/icons/dlc/vehicles/dayton-m405-adzep.svg` remixed from [Zeppelin](https://game-icons.net/1x1/skoll/zeppelin.html) & [TV](https://game-icons.net/1x1/delapouite/tv.html)
+- `src/icons/dlc/vehicles/dayton-sky-queen.svg` remixed from [Zeppelin](https://game-icons.net/1x1/skoll/zeppelin.html) & [Laurel Crown](https://game-icons.net/1x1/lorc/laurel-crown.html)
+- `src/icons/dlc/vehicles/f-152-autocopter.svg` remixed from [Helicopter](https://game-icons.net/1x1/delapouite/helicopter.html)
+- `src/icons/dlc/vehicles/hydrosubsidium-bimac.svg` remixed from [Jetski](https://thenounproject.com/icon/jetski-4612709/)
+- `src/icons/dlc/vehicles/punknaught_core.svg` remixed from [Bus](https://game-icons.net/1x1/delapouite/bus.html) & [Rocket Thruster](https://game-icons.net/1x1/delapouite/rocket-thruster.html)
+- `src/icons/dlc/vehicles/triaina-patrol-boat.svg` remixed from [Combat Ship](https://game-icons.net/1x1/delapouite/rocket-thruster.html)
+- `src/icons/dlc/vehicles/ullapool-raider.svg` remixed from [Fishing Boat](https://game-icons.net/1x1/delapouite/fishing-boat.html) & [Missile Pod](https://game-icons.net/1x1/lorc/missile-pod.html)
+- `src/icons/dlc/vehicles/vmw-aerojeep.svg` remixed from [Jeep](https://game-icons.net/1x1/skoll/jeep.html) & [Holosphere](https://game-icons.net/1x1/lord-berandas/holosphere.html)
+- `src/icons/dlc/vehicles/zetatech-moray.svg` remixed from [Submarine](https://game-icons.net/1x1/delapouite/submarine.html)
+- `src/icons/dlc/vehicles/zonda_metrocar.svg` remixed from [Jeep](https://game-icons.net/1x1/delapouite/jeep.html)
+- `src/icons/dlc/vehicles/zonda-r400-trail.svg` remixed from [Motorbike](https://thenounproject.com/icon/motorbike-4308490/)
 
 ### dlc/weapons
 
