@@ -17,7 +17,6 @@ Includes all content from:
 - Black Chrome
 - Black Chrome Plus
 - Chasing the Rabbit
-- Digital Dating in the Dark Future
 - Dreaded Punknaught
 - Exotics of 2045 (Interface RED vol 2)
 - Going Quiet
