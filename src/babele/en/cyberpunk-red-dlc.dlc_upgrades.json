@@ -9,10 +9,6 @@
       "description": "<p>Each installed Raven Black ICE destroys Programs instead of derezzing.</p>\n",
       "dvTable": ""
     },
-    "Aerozep Selfsealing Gasbag": {
-      "name": "Aerozep Selfsealing Gasbag",
-      "description": "<p><strong>Moto Rank Required:</strong> 7</p>\n<p><strong>Availability:</strong> Aerozep</p>\n<hr />\n<p>\n  Hardens an Aerozep's weakpoint and prevents any bonus damage from aimed shots.\n</p>\n"
-    },
     "Airhypo Bayonet": {
       "name": "Airhypo Bayonet",
       "description": "<p>\n  A hypodermic syringe that can deliver 1 dose of any liquid compound to the\n  target.\n</p>\n<blockquote><p>Requires 1 Action to reload the Airhypo Bayonet.</p></blockquote>\n"
@@ -42,8 +38,8 @@
       "name": "Brainwasher",
       "description": "<p><strong>App:</strong> Provides basic therapy.</p>\n<blockquote>\n  <p>\n    Use for 1 week before receiving therapy, then roll [[/r 1d10 #Brainwasher\n    Therapy]]\n  </p>\n  <ul>\n    <li>\n      <p>\n        <strong>On even results:</strong> Therapy is takes 1 less day to\n        complete.\n      </p>\n    </li>\n    <li>\n      <p>\n        <strong>On odd results:</strong> Therapy is takes 1 more day to\n        complete.\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
     },
-    "Bulletproof Enclosure": {
-      "name": "Bulletproof Enclosure",
+    "Bulletproof Glass": {
+      "name": "Bulletproof Glass",
       "description": "<p>\n  Enclosure glass is now considered thin cover with 7 HP. Refer to the cover\n  rules in CP:R, pg. 182.\n</p>\n<p>Bike first requires the Enclosure upgrade to install this upgrade.</p>\n",
       "dvTable": ""
     },
@@ -154,10 +150,6 @@
       "name": "Handprint Scanner",
       "description": "<p>\n  <strong>App</strong> Use your agent to scan a handprint by making a DV13\n  Criminology Check.\n</p>\n<blockquote>\n  <p>\n    Scanning a full handprint takes 3 rounds. 5 partial prints may be combined\n    to create a full handprint.\n  </p>\n</blockquote>\n"
     },
-    "Hangar": {
-      "name": "Hangar",
-      "description": "<p><strong>Moto Rank Required:</strong> 7</p>\n<p><strong>Availability:</strong> Aerozep, Yacht</p>\n<hr />\n<p>\n  Provides safe parking for another vehicle. May be installed multiple times.\n</p>\n"
-    },
     "Hangry Hangry Dragon": {
       "name": "Hangry Hangry Dragon",
       "description": "<p>\n  Everytime an installed Dragon Black ICE destroys a Program it regains full\n  REZ.\n</p>\n",
@@ -195,14 +187,6 @@
       "description": "<p>Bike is now more resistant: +5 SDP and rider can be BODY 11 or more.</p>\n<p>Can't install this Upgrade with Folding Frame Upgrade.</p>\n",
       "dvTable": ""
     },
-    "Reinforced Hull": {
-      "name": "Reinforced Hull",
-      "description": "<p><strong>Moto Rank Required:</strong> 1</p>\n<p><strong>Availability:</strong> All Sea Vehicles</p>\n<hr />\n<p>Hardens a vessel's hull and prevents any bonus damage from aimed shots.</p>\n"
-    },
-    "Reinforced Tires": {
-      "name": "Reinforced Tires",
-      "description": "<p><strong>Moto Rank Required:</strong> 1</p>\n<p><strong>Availability:</strong> All Land Vehicles</p>\n<hr />\n<p>Hardens a vehicle's tires and prevents any bonus damage from aimed shots.</p>\n"
-    },
     "Retina Scanner": {
       "name": "Retina Scanner",
       "description": "<p>\n  <strong>App</strong> Use your agent to scan an eye, requires a camera or\n  MicroVideo upgrade.\n</p>\n<blockquote>\n  <p>\n    Copying a retinal patern takes 5 rounds and may require a number of DV13\n    Brawling Checks to restrain an unwilling subject.\n  </p>\n</blockquote>\n"
@@ -210,10 +194,6 @@
     "Roach Race": {
       "name": "Roach Race",
       "description": "<p><strong>App:</strong> A retro sidescroller game from Poland.</p>\n"
-    },
-    "Sealed Environment": {
-      "name": "Sealed Environment",
-      "description": "<p><strong>Moto Rank Required:</strong> 1</p>\n<p><strong>Availability:</strong> All Vehicles</p>\n<hr />\n<p>\n  Protects occupants from breathing in any hazardous gasses from outside the\n  vehicle.\n</p>\n"
     },
     "Security System": {
       "name": "Security System",
@@ -264,10 +244,6 @@
       "description": "<p>The bike loses weight and gains maneuverability.</p>\n<p>\n  Rider obtain a +2 bonus to Athletics skill checks when riding and doing\n  maneuvers.\n</p>\n",
       "dvTable": ""
     },
-    "Submersible Upgrade": {
-      "name": "Submersible Upgrade",
-      "description": "<p><strong>Moto Rank Required:</strong> 5</p>\n<p>\n  <strong>Availability:</strong> All Land and Sea Vehicles excpet Bikes and\n  Jetskis\n</p>\n<hr />\n<p>\n  Driver may use <strong>Pilot Sea Vehicle</strong> to navigate underwater at\n  <strong>MOVE 20</strong>.\n</p>\n"
-    },
     "Swamp Mist": {
       "name": "Swamp Mist",
       "description": "<p>Wisp Black ICE deal 2d6 damage instead of 1d6.</p>\n<p>Black ICE Program restrictions: Only Wisps can be installed.</p>\n",
@@ -280,23 +256,7 @@
     },
     "The Garden": {
       "name": "The Garden",
-      "description": "<p>\n  <strong>App:</strong> A free social media platform hosted by Ziggurat. Users\n  require an account to comment or publish content.\n</p>\n"
-    },
-    "Titanic Hull (13+ Rooms)": {
-      "name": "Titanic Hull (13+ Rooms)",
-      "description": "<p><strong>Moto Rank Required:</strong> 7</p>\n<p><strong>Availability:</strong> Aerozep, Yacht</p>\n<hr />\n<p>\n  Increase <strong>SDP</strong> for vehicles with <strong>13+ rooms</strong>.\n</p>\n"
-    },
-    "Titanic Hull (1-4 Rooms)": {
-      "name": "Titanic Hull (1-4 Rooms)",
-      "description": "<p><strong>Moto Rank Required:</strong> 7</p>\n<p><strong>Availability:</strong> Aerozep, Yacht</p>\n<hr />\n<p>\n  Increase <strong>SDP</strong> for vehicles with <strong>1-4 rooms</strong>.\n</p>\n"
-    },
-    "Titanic Hull (5-8 Rooms)": {
-      "name": "Titanic Hull (5-8 Rooms)",
-      "description": "<p><strong>Moto Rank Required:</strong> 7</p>\n<p><strong>Availability:</strong> Aerozep, Yacht</p>\n<hr />\n<p>\n  Increase <strong>SDP</strong> for vehicles with <strong>5-8 rooms</strong>.\n</p>\n"
-    },
-    "Titanic Hull (9-12 Rooms)": {
-      "name": "Titanic Hull (9-12 Rooms)",
-      "description": "<p><strong>Moto Rank Required:</strong> 7</p>\n<p><strong>Availability:</strong> Aerozep, Yacht</p>\n<hr />\n<p>\n  Increase <strong>SDP</strong> for vehicles with <strong>9-12 rooms</strong>.\n</p>\n"
+      "description": "<p>\n  <strong>App:</strong> A free social media platform hosted by Ziggurat. Users\n  require an account to comment or publish content.\n</p>\n<p>\n  Find love in The Garden!\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_macros.Macro.3n77kf9lHNb2dFY3]{See who\n  you match with!}\n</p>\n"
     },
     "Trailer": {
       "name": "Trailer",
@@ -306,18 +266,6 @@
     "Turret": {
       "name": "Turret",
       "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  13<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Adds a swivel mount that can support any\n  <strong>2-handed ranged weapon</strong> you already own. This upgrade may be\n  constructed 3 times for each chassis installed into your Punknaught.\n</p>\n<blockquote>\n  <p>\n    A passenger riding the Punknaught may use their Action to fire or reload the\n    weapon.\n  </p>\n</blockquote>\n"
-    },
-    "Vehicle Room (Complex)": {
-      "name": "Vehicle Room (Complex)",
-      "description": "<p>\n  Each room provides the vehicle with additional seating and ample space for\n  specialized purpose.\n</p>\n<table>\n  <tbody>\n    <tr>\n      <td><p style=\"text-align: center\">Vehicle Type</p></td>\n      <td><p style=\"text-align: center\">Seating per Room</p></td>\n      <td><p style=\"text-align: center\">Cost per Room</p></td>\n    </tr>\n    <tr>\n      <td>\n        <p style=\"text-align: center\">\n          <strong>Aerozep<br /></strong>(Minimum 2 rooms)\n        </p>\n      </td>\n      <td><p style=\"text-align: center\">6 seats</p></td>\n      <td>\n        <p style=\"text-align: center\">\n          <span style=\"font-family: Jost, sans-serif\">90,000eb</span>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p style=\"text-align: center\">\n          <strong>Cabin Cruiser<br /></strong>(Minimum 2 rooms)\n        </p>\n      </td>\n      <td><p style=\"text-align: center\">6 seats</p></td>\n      <td>\n        <p style=\"text-align: center\">\n          <span style=\"font-family: Jost, sans-serif\">90,000eb</span>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p style=\"text-align: center\">\n          <strong>Yacht<br /></strong>(Minimum 4 rooms)\n        </p>\n      </td>\n      <td><p style=\"text-align: center\">12 seats</p></td>\n      <td>\n        <p style=\"text-align: center\">\n          <span style=\"font-family: Jost, sans-serif\">150,000eb</span>\n        </p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n"
-    },
-    "Vehicle Room (Luxury)": {
-      "name": "Vehicle Room (Luxury)",
-      "description": "<p>Each room provides the vehicle with Luxury seating.</p>\n<table>\n  <tbody>\n    <tr>\n      <td><p style=\"text-align: center\">Vehicle Type</p></td>\n      <td><p style=\"text-align: center\">Seating per Room</p></td>\n      <td><p style=\"text-align: center\">Cost per Room</p></td>\n    </tr>\n    <tr>\n      <td>\n        <p style=\"text-align: center\">\n          <strong>Aerozep<br /></strong>(Minimum 2 rooms)\n        </p>\n      </td>\n      <td><p style=\"text-align: center\">2 seats</p></td>\n      <td>\n        <p style=\"text-align: center\">\n          <span style=\"font-family: Jost, sans-serif\">60,000eb</span>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p style=\"text-align: center\">\n          <strong>Cabin Cruiser<br /></strong>(Minimum 2 rooms)\n        </p>\n      </td>\n      <td><p style=\"text-align: center\">2 seats</p></td>\n      <td>\n        <p style=\"text-align: center\">\n          <span style=\"font-family: Jost, sans-serif\">60,000eb</span>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p style=\"text-align: center\">\n          <strong>Yacht<br /></strong>(Minimum 4 rooms)\n        </p>\n      </td>\n      <td><p style=\"text-align: center\">4 seats</p></td>\n      <td>\n        <p style=\"text-align: center\">\n          <span style=\"font-family: Jost, sans-serif\">100,000eb</span>\n        </p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n"
-    },
-    "Vehicle Room (Standard)": {
-      "name": "Vehicle Room (Standard)",
-      "description": "<p>Each room provides the vehicle with additional seating.</p>\n<table>\n  <tbody>\n    <tr>\n      <td><p style=\"text-align: center\">Vehicle Type</p></td>\n      <td><p style=\"text-align: center\">Seating per Room</p></td>\n      <td><p style=\"text-align: center\">Cost per Room</p></td>\n    </tr>\n    <tr>\n      <td>\n        <p style=\"text-align: center\">\n          <strong>Aerozep<br /></strong>(Minimum 2 rooms)\n        </p>\n      </td>\n      <td><p style=\"text-align: center\">2 seats</p></td>\n      <td>\n        <p style=\"text-align: center\">\n          <span style=\"font-family: Jost, sans-serif\">30,000eb</span>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p style=\"text-align: center\">\n          <strong>Cabin Cruiser<br /></strong>(Minimum 2 rooms)\n        </p>\n      </td>\n      <td><p style=\"text-align: center\">2 seats</p></td>\n      <td>\n        <p style=\"text-align: center\">\n          <span style=\"font-family: Jost, sans-serif\">30,000eb</span>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p style=\"text-align: center\">\n          <strong>Yacht<br /></strong>(Minimum 4 rooms)\n        </p>\n      </td>\n      <td><p style=\"text-align: center\">4 seats</p></td>\n      <td>\n        <p style=\"text-align: center\">\n          <span style=\"font-family: Jost, sans-serif\">50,000eb</span>\n        </p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n"
     },
     "WatchBox": {
       "name": "WatchBox",
