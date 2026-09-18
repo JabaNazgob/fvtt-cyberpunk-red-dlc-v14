@@ -10,7 +10,7 @@
     },
     "Big Dreem Rounds": {
       "name": "Big Dreem Rounds",
-      "description": "<p>\n  Custom Ammo for use only with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.dnfLVJnDKlEdLkpy]{Big\n  Dreem}.\n</p>\n"
+      "description": "<p>Custom Ammo for the Teen Dreem.</p>\n"
     },
     "Dazzle Dazzle ModBall": {
       "name": "Dazzle Dazzle ModBall",
@@ -35,6 +35,10 @@
     "Fire Extinguisher Charges": {
       "name": "Fire Extinguisher Charges",
       "description": "<p>Requires access to a charging station, takes 5 minutes.</p>\n"
+    },
+    "Harpoons": {
+      "name": "Harpoons",
+      "description": "<p>\n  Additional harpoons for use with the SlamDance Ballistic Harpoon Launcher.\n</p>\n"
     },
     "Heavy Pistol (Junk)": {
       "name": "Heavy Pistol (Junk)",
@@ -72,10 +76,6 @@
       "name": "Mega Ouchie ModBall",
       "description": "<p>\n  Acts as\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Biotoxin}\n  Ammunition\n</p>\n"
     },
-    "Mini-Harpoon": {
-      "name": "Mini-Harpoon",
-      "description": "<p>\n  Mini-Harpoons come pre-loaded into the Hello Cutie Fisher Kitty and cannot be\n  use with any other weapons.\n</p>\n<p>\n  *Note: Reloading the weapon recovers all spent ammo. Refill this stack as\n  needed.\n</p>\n"
-    },
     "Nova Model 757 Rounds": {
       "name": "Nova Model 757 Rounds",
       "description": "<p>\n  For use only in the Nova Model 757 Cityhunter. Comes in packs of 18 instead of\n  the normal 10.\n</p>\n\n<p>\n  Req Targeting Scope Cyberware, otherwise won't fire. If miss single attack by\n  4 or less, roll second attack at same DV 1d10+10 (not normal stat). Can add\n  luck. Target can dodge the second roll as normal if able to do so.\n</p>\n"
@@ -91,10 +91,6 @@
     "Paintball (Poison)": {
       "name": "Paintball (Poison)",
       "description": "<p>\n  Created from 3 Vials of Poison strapped together. Deals no direct damage on\n  hit.\n</p>\n"
-    },
-    "Reloadable Harpoons": {
-      "name": "Reloadable Harpoons",
-      "description": "<p>\n  Additional harpoons for use with the SlamDance Ballistic Harpoon Launcher.\n</p>\n"
     },
     "Rifle (Junk)": {
       "name": "Rifle (Junk)",
