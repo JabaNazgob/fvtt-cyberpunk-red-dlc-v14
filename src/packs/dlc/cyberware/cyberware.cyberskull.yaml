@@ -7,15 +7,15 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: vJUEc0dYqg6XwErP
+      - _id: 5yVLDlF80IMIUtz1
         _stats:
           compendiumSource: Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.jgSJKsyaqUANw0zL
           coreVersion: "13.351"
-          createdTime: 1786564210803
+          createdTime: 1789767872076
           duplicateSource: null
           exportSource: null
           lastModifiedBy: w3682e6R5qVcWyUA
-          modifiedTime: 1786564356599
+          modifiedTime: 1789767872076
           systemId: cyberpunk-red-core
           systemVersion: DUMMY_VALUE
         effects: []
@@ -49,7 +49,7 @@ flags:
           description:
             value: |-
               <p>A personalized faceplate made of durable polymer.</p>
-                                              <p><em>Compatible with your Cyberskull.</em></p>
+                                                              <p><em>Compatible with your Cyberskull.</em></p>
           favorite: false
           fireModes:
             autoFire: 0
@@ -60,7 +60,7 @@ flags:
           ignoreArmorPercent: 0
           ignoreBelowSP: 0
           ignoredByBrowser: true
-          installLocation: mall
+          installLocation: notApplicable
           installedItems:
             allowed: false
             allowedTypes:
@@ -82,7 +82,7 @@ flags:
           providesHardening: false
           revealed: true
           rof: 1
-          size: 0
+          size: 1
           source:
             book: IRv3
             page: 105
@@ -145,9 +145,9 @@ system:
       - cyberware
       - itemUpgrade
     list:
-      - vJUEc0dYqg6XwErP
+      - 5yVLDlF80IMIUtz1
     slots: 1
-    usedSlots: 0
+    usedSlots: 1
   isElectronic: false
   isFoundational: false
   isRanged: false
