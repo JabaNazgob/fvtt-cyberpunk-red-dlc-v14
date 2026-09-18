@@ -12,7 +12,7 @@
     },
     "Esporma Environment Suit": {
       "name": "Tenue de protection Esporma",
-      "description": "<p>\n  Armored Radiation Suit. Protects the wearer from Radiation and comes with an\n  Oxygen Tank that lasts for 30 minutes which can be refilled by spending an\n  hour in clean air.\n</p>\n<p>Nanomachines restore 1SP every hour SP isn't lost on the armor</p>\n"
+      "description": "<p>A self-repairing armored suit to protect you in radioactive environments.</p>\n"
     },
     "FleshWeave (Armor)": {
       "name": "Chair tissée (Armure)",
