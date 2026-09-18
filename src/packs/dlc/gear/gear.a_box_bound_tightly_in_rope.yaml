@@ -28,13 +28,13 @@ system:
       </p>
   equipped: owned
   favorite: false
-  ignoredByBrowser: false
+  ignoredByBrowser: true
   installedItems:
     allowed: true
     allowedTypes:
       - itemUpgrade
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: false
   price:

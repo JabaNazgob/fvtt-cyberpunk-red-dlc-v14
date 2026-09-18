@@ -44,12 +44,12 @@ system:
   ignoredByBrowser: false
   installLocation: clinic
   installedItems:
-    allowed: true
+    allowed: false
     allowedTypes:
       - cyberware
       - itemUpgrade
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: true
   isFoundational: false
