@@ -172,8 +172,8 @@
       "name": "HusTool",
       "description": "<p>\n  <strong>App:</strong> Find odd jobs and get paid! Jobs take 30 minutes to\n  complete and pay 10eb.\n</p>\n<blockquote>\n  <p>Available jobs are determined by the GM, roll [[/r 1d10 #HusTool]]</p>\n  <ul>\n    <li>\n      <p>\n        <strong>On a 1:</strong> Factors outside of your control prevent you\n        from finishing the errand.\n      </p>\n      <ul>\n        <li><p>You waste your time and don't get paid.</p></li>\n      </ul>\n    </li>\n    <li>\n      <p>\n        <strong>On a 10:</strong> The errand is completed, but you encounter\n        trouble.\n      </p>\n      <ul>\n        <li><p>GM rolls on an appropriate encounter table.</p></li>\n      </ul>\n    </li>\n  </ul>\n</blockquote>\n"
     },
-    "Neon Lightning": {
-      "name": "Éclairage néon",
+    "Neon Lighting": {
+      "name": "Neon Lighting",
       "description": "<p>Fiber-optic lights on bike's frame and wheels.</p>\n<p>\n  Considered as a Light Tattoo when on or near the bike (gaining +2 Wardrobe\n  &amp; Style bonus)\n</p>\n",
       "dvTable": ""
     },
