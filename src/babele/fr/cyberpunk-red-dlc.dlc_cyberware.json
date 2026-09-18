@@ -25,7 +25,7 @@
     },
     "Bug Eye": {
       "name": "Oeil Insectoïde",
-      "description": "<p>Large insectoid Cybereye packed with option slots. Borgware.</p>\n",
+      "description": "<p>Large insectoid Cybereye packed with option slots. Counts as Borgware.</p>\n",
       "dvTable": ""
     },
     "ChainRipp": {
