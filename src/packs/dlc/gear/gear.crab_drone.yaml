@@ -1,0 +1,70 @@
+_id: UGfAw1uuMLq5C4NH
+_key: "!items!UGfAw1uuMLq5C4NH"
+effects: []
+flags:
+  cyberpunk-red-core: {}
+folder: null
+img: modules/cyberpunk-red-dlc/icons/dlc/gear/crab-drone.svg
+name: CrAB Drone
+ownership:
+  default: 0
+  w3682e6R5qVcWyUA: 3
+sort: 0
+system:
+  amount: 1
+  brand: ""
+  concealable:
+    concealable: false
+    isConcealed: false
+  description:
+    value: |
+      <p><strong>Active Defense Spider Walking Drone</strong></p>
+      <p><strong>Stats:</strong> 6 MOVE - 7SP - 40HP</p>
+      <p>
+        Can be neutralized in 5 min with a
+        <strong>DV21 Electronic/Security Tech</strong> check.
+      </p>
+      <p><strong>Default Programming:</strong></p>
+      <ul>
+        <li><p>Target enters a restricted area or fails a biometric scan</p></li>
+        <li><p>Attack target with Airhypo</p></li>
+      </ul>
+      <p><strong>Range:</strong></p>
+      <p>
+        Perimeter of a NET Architecture-equipped building or 50m/yds away from a
+        portable NET Architecture.
+      </p>
+      <p><strong>Loadout:</strong></p>
+      <ul>
+        <li>Observation Camera</li>
+        <li>Grip Feet</li>
+        <li>
+          Airhypo loaded with
+          @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.6BM5WFyCyIM8lZib]{Black
+          Lace},
+          @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.UrKzMiFp4xFOLNIC]{Blue
+          Glass}, or
+          @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Biotoxin}
+        </li>
+      </ul>
+  equipped: owned
+  favorite: false
+  ignoredByBrowser: false
+  installedItems:
+    allowed: false
+    allowedTypes:
+      - itemUpgrade
+    list: []
+    slots: 0
+    usedSlots: 0
+  isElectronic: true
+  price:
+    market: 10000
+  providesHardening: false
+  revealed: true
+  source: null
+  sources:
+    - book: Danger Gal Dossier
+      page: 42
+  usage: toggled
+type: gear

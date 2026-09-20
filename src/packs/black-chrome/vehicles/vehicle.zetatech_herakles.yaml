@@ -37,6 +37,8 @@ system:
   sources:
     - book: Black Chrome
       page: 63
+    - book: Danger Gal Dossier
+      page: 112
   speedCombat: 40
   speedNarrative: 200 MPH / 322 KPH
 type: vehicle
