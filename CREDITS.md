@@ -78,11 +78,12 @@ This module (including items provided in the compendium) contains unofficial con
 
 ### dlc/drugs
 
--
+- `src\icons\dlc\drugs\emerald-city.svg` remixed from [Castle](https://game-icons.net/1x1/lorc/castle.html)
 
 ### dlc/gear
 
 - `icons/dlc/gear/smart-ears.svg` remixed from [Headphones](https://thenounproject.com/icon/headphones-8485358/)
+- `src\icons\dlc\gear\crab-drone.svg` remixed from [Crab Robot](https://thenounproject.com/icon/crab-robot-8431759/) & [Multiple Arm Robot](https://thenounproject.com/icon/multiple-arm-robot-8431748/)
 
 ### dlc/rolltables
 
@@ -120,6 +121,7 @@ This module (including items provided in the compendium) contains unofficial con
 
 - `icons/compendium/status/deathtrance.svg` derived from item
 - `icons/compendium/status/berserker*` derived from item
+- `icons/compendium/status/emerald-city*` derived from item
 - `icons/compendium/status/piranha-smash*` derived from item
 - `icons/compendium/status/poser_chip.svg` derived from item
 - `icons/compendium/status/prime_time*` derived from item
