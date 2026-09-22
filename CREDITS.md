@@ -58,7 +58,10 @@ This module (including items provided in the compendium) contains unofficial con
 
 ### dlc/armor
 
--
+- `icons/dlc/armor/diving-helmet.svg` remixed from [Diving Helmet](https://game-icons.net/1x1/delapouite/diving-helmet.html)
+- `icons/dlc/armor/dry-suit.svg` remixed from [wetsuit](https://www.svgrepo.com/svg/20767/wetsuit)
+- `icons/dlc/armor/esporma_enviroment_suit.svg` remixed from [Hazmat Suit](https://game-icons.net/1x1/delapouite/hazmat-suit.html)
+- `icons/dlc/armor/flippers.svg` remixed from [Swimfins](https://game-icons.net/1x1/delapouite/swimfins.html)
 
 ### dlc/clothing
 
@@ -83,7 +86,12 @@ This module (including items provided in the compendium) contains unofficial con
 ### dlc/gear
 
 - `icons/dlc/gear/crab-drone.svg` remixed from [Crab Robot](https://thenounproject.com/icon/crab-robot-8431759/) & [Multiple Arm Robot](https://thenounproject.com/icon/multiple-arm-robot-8431748/)
+- `icons/dlc/gear/diving-rebreather.svg` remixed from [Scuba Tanks](https://game-icons.net/1x1/delapouite/scuba-tanks.html)
+- `icons/dlc/gear/dosimeter-badge.svg` remixed from [Pocket Radio](https://game-icons.net/1x1/delapouite/pocket-radio.html)
+- `icons/dlc/gear/drone_remote-camera.svg` remixed from [Drone 15](https://www.svgrepo.com/svg/477382/drone-15)
+- `icons/dlc/gear/nass-54-underwater-drone.svg` remixed from [Torpedo](https://game-icons.net/1x1/delapouite/torpedo.html)
 - `icons/dlc/gear/smart-ears.svg` remixed from [Headphones](https://thenounproject.com/icon/headphones-8485358/)
+- `icons/dlc/gear/submersible-rov.svg` remixed from [ROV](https://thenounproject.com/icon/rov-6283155/)
 
 ### dlc/rolltables
 
@@ -133,6 +141,8 @@ This module (including items provided in the compendium) contains unofficial con
 ### dlc/upgrades
 
 - `icons/dlc/upgrades/bottle_dynamo.svg` remixed from [Mono wheel robot icon](https://game-icons.net/1x1/delapouite/mono-wheel-robot.html)
+- `icons/dlc/upgrades/manipulator-arm.svg` remixed from [Mechanical Arm](https://game-icons.net/1x1/lorc/mechanical-arm.html)
+- `icons/dlc/upgrades/sonar-system.svg` remixed from [Raydar Sweep](https://game-icons.net/1x1/lorc/radar-sweep.html)
 
 ### dlc/vehicles
 
@@ -143,6 +153,7 @@ This module (including items provided in the compendium) contains unofficial con
 - `icons/dlc/vehicles/dayton-m405-adzep.svg` remixed from [Zeppelin](https://game-icons.net/1x1/skoll/zeppelin.html) & [TV](https://game-icons.net/1x1/delapouite/tv.html)
 - `icons/dlc/vehicles/dayton-sky-queen.svg` remixed from [Zeppelin](https://game-icons.net/1x1/skoll/zeppelin.html) & [Laurel Crown](https://game-icons.net/1x1/lorc/laurel-crown.html)
 - `icons/dlc/vehicles/f-152-autocopter.svg` remixed from [Helicopter](https://game-icons.net/1x1/delapouite/helicopter.html)
+- `icons/dlc/vehicles/fifes-submersible.svg` remixed from [Mini Submarine](https://game-icons.net/1x1/delapouite/mini-submarine.html)
 - `icons/dlc/vehicles/hydrosubsidium-bimac.svg` remixed from [Jetski](https://thenounproject.com/icon/jetski-4612709/)
 - `icons/dlc/vehicles/punknaught_core.svg` remixed from [Bus](https://game-icons.net/1x1/delapouite/bus.html) & [Rocket Thruster](https://game-icons.net/1x1/delapouite/rocket-thruster.html)
 - `icons/dlc/vehicles/triaina-patrol-boat.svg` remixed from [Combat Ship](https://game-icons.net/1x1/delapouite/rocket-thruster.html)
@@ -156,6 +167,7 @@ This module (including items provided in the compendium) contains unofficial con
 
 - `icons/dlc/weapons/ballistic-harpoon-launcher.svg` remixed from [Harpoon](https://thenounproject.com/icon/harpoon-5047630/) & [Harpoon](https://thenounproject.com/icon/harpoon-6929655/)
 - `icons/dlc/weapons/ballistic-harpoon.svg` remixed from [Harpoon](https://thenounproject.com/icon/harpoon-5047630/)
+- `icons/dlc/weapons/scrambler.svg` remixed from [Ray Gun](https://game-icons.net/1x1/lorc/ray-gun.html)
 - `icons/dlc/weapons/thermal-dagger.svg` remixed from [Bowie Knife](https://game-icons.net/1x1/lorc/bowie-knife.html)
 
 ### dlc/weather-effects
