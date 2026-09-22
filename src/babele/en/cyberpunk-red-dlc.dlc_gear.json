@@ -386,6 +386,10 @@
       "name": "My First GRAF3",
       "description": "<p>Personal Drone. Tiny GRAF3 that can be linked to an Agent.</p>\n"
     },
+    "NASS-54 Underwater Drone": {
+      "name": "NASS-54 Underwater Drone",
+      "description": "<p>A semi-autonomous torpedeo drone produced by Militech.</p>\n<p><strong>Stats:</strong> 6 MOVE - 60HP</p>\n<p>\n  Can be neutralized in 5 min with a\n  <strong>DV21 Electronic/Security Tech</strong> check.\n</p>\n<p>Controlled by a Balron-Class Demon aboard a Militech Warship.</p>\n<p><strong>Loadout:</strong></p>\n<ul>\n  <li><p>Observation Camera</p></li>\n  <li><p>Sonar</p></li>\n  <li>\n    <p>Retractable Manipulator Arm</p>\n    <ul>\n      <li><p>Tool Hand</p></li>\n      <li><p>Circular Saw</p></li>\n    </ul>\n  </li>\n  <li><p>2 Grenade Launchers</p></li>\n</ul>\n"
+    },
     "Osmosis Compound": {
       "name": "Osmosis Compound",
       "description": "<p>\n  This additive allows a Vial of Poison or Biotoxin to be absorbed through skin\n  contact. One vial can cover 2 square feet when applied to a surface and lasts\n  for one hour. Can be neutralized by rinsing with water.\n</p>\n<p>\n  The first meat target to touch the affected area with a meat body part is\n  dosed with the poison. A <strong>DV17 Perception</strong> check reveals the\n  poison. More than one dose in the same 2 square foot area has no added effect.\n</p>\n"
@@ -465,6 +469,10 @@
     "Spider Cyberchair": {
       "name": "Spider Cyberchair",
       "description": "<p>\n  The top of the line cyberchair, giving the premier user many options. While\n  using it the operator's base MOVE becomes 5, with all regular movement options\n  remaining available.\n</p>\n<p>\n  Additionally, this cyberchair has room for 4 cyberlimb options*. Any options\n  installed always count as being paired.\n</p>\n<p>\n  Operation of the cyberchair requires either a free hand, or interface plugs.\n</p>\n<p>\n  If the operator suffers a critical injury that reduces their MOVE, the MOVE of\n  the cyberchair is instead effected.\n</p>\n<p>\n  The cyberchair cannot be targeted specifically, nor can it be disabled via EMP\n  effects.\n</p>\n<p><em>*Installing cyberlimb options currently not supported</em></p>\n"
+    },
+    "Submersible ROV Drone": {
+      "name": "Submersible ROV Drone",
+      "description": "<p>A modified ground drone that can freely maneuver underwater.</p>\n<p><strong>Stats:</strong> 4 MOVE - 30HP</p>\n<p>\n  Can be neutralized in 5 min with a\n  <strong>DV21 Electronic/Security Tech</strong> check.\n</p>\n<p>Must be piloted by a remote user.</p>\n<p><strong>Loadout:</strong></p>\n<ul>\n  <li><p>Observation Camera</p></li>\n  <li><p>Lightweight Manipulator Arm</p></li>\n</ul>\n"
     },
     "Suzumebachi Assassin Drone": {
       "name": "Suzumebachi Assassin Drone",
