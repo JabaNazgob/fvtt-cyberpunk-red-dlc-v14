@@ -8,7 +8,7 @@
     },
     "Ash Storm": {
       "name": "Ash Storm",
-      "description": "<p>\n  <span role=\"presentation\"\n    >The weather may impose a <strong>-2 penalty</strong> to any Skill Checks as\n    determined by the GM.</span\n  >\n</p>\n<p>\n  Inhaling the Ash Storm [[/r 2d6#Ash Storm]] damage as if it were a\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Vial\n  of Poison} and creates a\n  @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.xTQ2T50UGNY8DrHl]{Foreign\n  Object} injury.\n</p>\n"
+      "description": "<p>\n  <span role=\"presentation\"\n    >The weather may impose a <strong>-2 penalty</strong> to any Skill Checks as\n    determined by the GM.</span\n  >\n</p>\n<p>\n  Inhaling the Ash Storm [[/r 2d6#Ash Storm]] damage as if it were a\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Vial of\n  Poison} and creates a\n  @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.xTQ2T50UGNY8DrHl]{Foreign\n  Object} injury.\n</p>\n"
     },
     "Cold Snap": {
       "name": "Cold Snap",
@@ -32,7 +32,7 @@
     },
     "Inversion Smog": {
       "name": "Inversion Smog",
-      "description": "<p>\n  <span role=\"presentation\"\n    >The weather may impose a <strong>-4 penalty</strong> to any Skill Checks as\n    determined by the GM.</span\n  >\n</p>\n<p>\n  Inhaling the Inversion Smog deals [[/r 2d6#Inversion Smog]] damage as if it were a\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Vial\n  of Poison}\n</p>\n"
+      "description": "<p>\n  <span role=\"presentation\"\n    >The weather may impose a <strong>-4 penalty</strong> to any Skill Checks as\n    determined by the GM.</span\n  >\n</p>\n<p>\n  Inhaling the Inversion Smog deals [[/r 2d6#Inversion Smog]] damage as if it\n  were a\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Vial of\n  Poison}\n</p>\n"
     },
     "Light Rain/Sleet": {
       "name": "Light Rain/Sleet",
