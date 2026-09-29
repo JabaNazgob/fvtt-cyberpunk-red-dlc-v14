@@ -119,16 +119,16 @@ This module (including items provided in the compendium) contains unofficial con
 
 ### dlc/status
 
-- `icons/compendium/status/deathtrance.svg` derived from item
-- `icons/compendium/status/berserker*` derived from item
-- `icons/compendium/status/emerald-city*` derived from item
-- `icons/compendium/status/piranha-smash*` derived from item
-- `icons/compendium/status/poser_chip.svg` derived from item
-- `icons/compendium/status/prime_time*` derived from item
-- `icons/compendium/status/sedative.svg` derived from item
-- `icons/compendium/status/sixgun*` derived from item
-- `icons/compendium/status/timewarp*` derived from item
-- `icons/compendium/status/veritas*` derived from item
+- `icons/dlc/status/deathtrance.svg` derived from item
+- `icons/dlc/status/beserker*` derived from item
+- `icons/dlc/status/emerald-city*` derived from item
+- `icons/dlc/status/piranha-smash*` derived from item
+- `icons/dlc/status/poser_chip.svg` derived from item
+- `icons/dlc/status/prime_time*` derived from item
+- `icons/dlc/status/sedative.svg` derived from item
+- `icons/dlc/status/sixgun*` derived from item
+- `icons/dlc/status/timewarp*` derived from item
+- `icons/dlc/status/veritas*` derived from item
 
 ### dlc/upgrades
 
