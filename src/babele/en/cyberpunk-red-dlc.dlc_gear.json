@@ -62,6 +62,10 @@
       "name": "Warlock's Book",
       "description": "<p>\n  If you prefer sliding through NET Architectures avoiding Black ICE this is the\n  deck for you.\n</p>\n<p>9 slots to install either Programs or Hardware.</p>\n<p><em>No Attacker or Black ICE Program may be installed.</em></p>\n"
     },
+    "Smart Ears": {
+      "name": "Smart Ears",
+      "description": "<p>\n  A wearable headset with integrated Radio Scanner / Music Player and 2 empty\n  Cyberaudio slots.\n</p>\n"
+    },
     "Kibble Flavors": {
       "name": "Kibble Flavors",
       "description": ""
@@ -473,6 +477,10 @@
     "Wyzard Technologies Merlyn": {
       "name": "Wyzard Technologies Merlyn",
       "description": "<p>\n  Wearable AI Smartphone. +2 Library Search, +2 Wardrobe &amp; Style depending\n  on circumstance.\n</p>\n<blockquote>\n  <p>\n    An <strong>Excellent Quality Agent</strong> includes a touchscreen,\n    microphone, camera, flashlight, and holo-projector.\n  </p>\n  <ul>\n    <li><p>Hacking DV 21</p></li>\n  </ul>\n</blockquote>\n"
+    },
+    "Zetatch CyberConductor": {
+      "name": "Zetatch CyberConductor",
+      "description": "<p>\n  You may install up to 3 cyberdecks into this Cyberconductor*. While you are\n  jacked in, switching between decks de-rezzes all active programs, and deals 3\n  damage directly to your brain.\n</p>\n<p>Installing a cyberdeck into the cyberconductor requires 1 hour.</p>\n<blockquote>\n  <p>\n    *Installing cyberdecks into other items is not currently supported. List any\n    installed cyberdecks on this item.\n  </p>\n</blockquote>\n<ul>\n  <li>[Deck α]</li>\n  <li>[Deck β]</li>\n  <li>[Deck γ]</li>\n</ul>\n"
     },
     "Zetatech Grade A": {
       "name": "Zetatech Grade A",
