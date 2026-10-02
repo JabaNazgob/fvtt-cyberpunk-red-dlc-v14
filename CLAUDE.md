@@ -24,37 +24,24 @@ This repository contains official DLC and expansion content for the
 - Core owns document schemas and runtime behavior. Inspect the matching Core data model, migration, and pack schema
   before changing persisted DLC data; do not guess the shape from a nearby YAML entry alone.
 
-Developer-specific checkout paths belong in the gitignored `foundryconfig.json`. Use `repos.system`, `repos.dlc`,
-and the other configured paths instead of assuming repositories are adjacent.
+## Project change checklist
 
-## Engineering workflow
+Before marking a change ready for review:
 
-Use this lifecycle for substantive changes. Routine, obvious edits do not need planning ceremony, but they still
-need appropriate verification and a final diff review.
-
-1. **Establish the contract**: Treat an issue as the desired outcome and acceptance criteria, not an infallible
-   implementation specification. Confirm the exact content or behavior being changed and how it will be observed.
-2. **Investigate before editing**: Find the source entry, Core schema and behavior, analogous content, generated
-   outputs, tests, and build configuration that own the result.
-3. **Challenge the approach**: Ask what facts could make the proposed solution wrong. Check Core and Foundry
-   compatibility, persisted-data or migration concerns, installed-item references, translations, and pack
-   round-trips. Follow repository evidence over an issue's suggested implementation and explain material deviations.
-4. **Plan when needed**: For nontrivial work, record the approach, affected packs or components, assumptions,
-   compatibility concerns, and verification strategy before editing.
-5. **Integrate, do not patch around**: Follow existing Core and DLC data patterns. Avoid one-off fields, duplicate
-   mechanisms, brittle generated-file edits, and fixes limited to a single demonstrated entry when the underlying
-   rule is broader.
-6. **Verify mechanically**: Run the relevant lint, formatting, build, schema, pack-reference, import/export, and
-   targeted behavior checks. Add regression coverage where practical, and never claim a check that was not run.
-7. **Review and repair**: Review the final diff as if it were someone else's merge request. Look for incomplete
-   issue coverage, invalid references, schema drift, round-trip changes, generated artifacts, accidental scope,
-   stale documentation, and happy-path-only checks. Fix real problems and rerun affected checks.
-8. **Report evidence**: State what changed, why it fits Core's architecture and data model, what was verified, and
-   what remains uncertain. Distinguish facts established by code, tests, or authoritative documentation from
-   inference.
-
-Fix related problems only when they are necessary for the requested result to be correct. Track important unrelated
-findings separately rather than silently expanding the change.
+- Edit compendium source in `src/packs/`; do not edit compiled LevelDB packs. Treat generated Babele content as
+  generated output and do not mechanically overwrite human translations.
+- Confirm persisted fields against the compatible Core DataModel, schema, migration state, and existing analogous
+  entries. Do not add DLC-only data shapes that Core does not support.
+- Preserve document IDs, installed-item references, folder relationships, source citations, and other cross-entry
+  links unless the change intentionally updates them. Run the applicable pack-reference checks.
+- Run `npm ci`, `npm run lint`, and `npx gulp build`. Run the repository's formatting and Markdown checks for files
+  they cover, plus applicable Core schema validation for pack changes. Do not report checks that were not run.
+- When Foundry normalization can affect persisted data, perform an import/export or pack-refresh round-trip against
+  the compatible Core system and review every generated change before committing it.
+- Inspect the final diff for unrelated content normalization, invalid HTML, schema drift, stale generated files, and
+  changes outside the intended entries.
+- Use the current merge-request template and list the exact build, schema, reference, and round-trip checks
+  performed, along with anything left unverified.
 
 ## Validation
 
