@@ -58,6 +58,7 @@
         "dlc_cyberware",
         "dlc_gear",
         "dlc_rolltables",
+        "dlc_scenes",
         "dlc_upgrades",
         "dlc_vehicles",
         "dlc_weapons",
@@ -204,6 +205,14 @@
       "label": "Rolltables",
       "path": "packs/dlc/rolltables",
       "type": "RollTable",
+      "system": "cyberpunk-red-core",
+      "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+    },
+    {
+      "name": "dlc_scenes",
+      "label": "Scenes",
+      "path": "packs/dlc/scenes",
+      "type": "Scene",
       "system": "cyberpunk-red-core",
       "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
     },

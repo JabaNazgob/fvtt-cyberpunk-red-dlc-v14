@@ -6,6 +6,12 @@ This module is the product of the CPR System Dev Team, made possible by this ama
 
 This module (including items provided in the compendium) contains unofficial content provided under the Homebrew Content Policy of R. Talsorian Games and is not approved or endorsed by RTG. This content references materials that are the property of R. Talsorian Games and its licensees.
 
+## Assets
+
+### maps
+
+- `S0L-Corp-Road-Quad-100px.webp` provided by [Solution](https://discord.com/channels/1095235148821303297/1095236127943835689/1543423680569413693)
+
 ## Icons
 
 - Default icons for compendia provided by Lorc, Delapouite, Skoll, sbed, and John Colburn [Game Icons](https://game-icons.net) under the [CC-BY license](https://creativecommons.org/licenses/by/3.0/)
