@@ -1,6 +1,48 @@
 _id: LvFvoVzl06GzOVi0
 _key: "!items!LvFvoVzl06GzOVi0"
-effects: []
+effects:
+  - _id: EuqR1PFrzxtBdD2Y
+    _key: "!items.effects!LvFvoVzl06GzOVi0.EuqR1PFrzxtBdD2Y"
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    changes:
+      - key: system.derivedStats.humanity.max
+        mode: 2
+        value: "2"
+    description: <p>Modular Cyberfingers do not impose max Humanity loss.</p>
+    disabled: false
+    duration:
+      combat: null
+      rounds: null
+      seconds: null
+      startRound: null
+      startTime: null
+      startTurn: null
+      turns: null
+    flags:
+      cyberpunk-red-core:
+        changes:
+          cats:
+            "0": custom
+          situational:
+            "0":
+              isSituational: false
+              onByDefault: false
+    img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+    name: Modular Cyberfinger
+    origin: Item.WTc9DvNPCeq3ub7y
+    sort: 0
+    statuses: []
+    system: {}
+    tint: "#ffffff"
+    transfer: false
+    type: base
 flags:
   cyberpunk-red-core:
     _migration:
@@ -11,7 +53,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
 name: Spray Paint Cyberfinger
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -68,12 +109,13 @@ system:
   revealed: true
   rof: 1
   size: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 26
   type: cyberArm
   unarmedAutomaticCalculation: true
-  usage: toggled
+  usage: installed
   usesType: magazine
   weaponSkill: ""
   weaponType: ""

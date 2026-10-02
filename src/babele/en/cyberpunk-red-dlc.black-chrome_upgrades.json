@@ -47,11 +47,11 @@
     },
     "Montage Variables (Gang Colors)": {
       "name": "Montage Variables (Gang Colors)",
-      "description": "<p>\n  Additional colors and patterns can be purchased via the\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.\n</p>\n<blockquote>\n  <p>Requires an action to swap styles via connected agent.</p>\n</blockquote>\n"
+      "description": "<p>[Describe the color or pattern of your downloaded Gang Color Style here.]</p>\n<blockquote>\n  <p>Requires an action to swap styles via connected agent.</p>\n  <p>\n    Additional colors and patterns can be purchased via the\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.\n  </p>\n</blockquote>\n"
     },
     "Montage Variables (Generic Chic)": {
       "name": "Montage Variables (Generic Chic)",
-      "description": "<p>\n  Additional colors and patterns can be purchased via the\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.\n</p>\n<blockquote>\n  <p>Requires an action to swap styles via connected agent.</p>\n</blockquote>\n"
+      "description": "<p>\n  [Describe the color or pattern of your downloaded Generic Chic Style here.]\n</p>\n<blockquote>\n  <p>Requires an action to swap styles via connected agent.</p>\n  <p>\n    Additional colors and patterns can be purchased via the\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.\n  </p>\n</blockquote>\n"
     },
     "NCPD Crime Database": {
       "name": "NCPD Crime Database",

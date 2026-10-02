@@ -477,6 +477,7 @@ system:
         This heavy SMG is the complete package; it comes with a Smartgun Link,
         Infrared Nightvision Scope, and a Sniping Scope.
       </p>
+      <blockquote><p>These upgrades cannot be removed.</p></blockquote>
   dvTable: DV SMG
   equipped: owned
   favorite: false

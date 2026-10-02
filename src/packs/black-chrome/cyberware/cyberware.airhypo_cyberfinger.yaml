@@ -1,6 +1,48 @@
 _id: AV1y4kaMRtHsVc0D
 _key: "!items!AV1y4kaMRtHsVc0D"
-effects: []
+effects:
+  - _id: zNLJpPfd5tKYVtc2
+    _key: "!items.effects!AV1y4kaMRtHsVc0D.zNLJpPfd5tKYVtc2"
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    changes:
+      - key: system.derivedStats.humanity.max
+        mode: 2
+        value: "2"
+    description: <p>Modular Cyberfingers do not impose max Humanity loss.</p>
+    disabled: false
+    duration:
+      combat: null
+      rounds: null
+      seconds: null
+      startRound: null
+      startTime: null
+      startTurn: null
+      turns: null
+    flags:
+      cyberpunk-red-core:
+        changes:
+          cats:
+            "0": custom
+          situational:
+            "0":
+              isSituational: false
+              onByDefault: false
+    img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+    name: Modular Cyberfinger
+    origin: Actor.bvqhS9KML5foUGjo.Item.AV1y4kaMRtHsVc0D
+    sort: 0
+    statuses: []
+    system: {}
+    tint: "#ffffff"
+    transfer: true
+    type: base
 flags:
   cyberpunk-red-core:
     _migration:
@@ -11,7 +53,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
 name: Airhypo Cyberfinger
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -68,12 +109,13 @@ system:
   revealed: true
   rof: 1
   size: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 24
   type: cyberArm
   unarmedAutomaticCalculation: true
-  usage: toggled
+  usage: installed
   usesType: magazine
   weaponSkill: ""
   weaponType: ""

@@ -31,7 +31,8 @@ system:
     threshold: 0
   description:
     value: |
-      <p><strong>Exotic Shotgun.</strong> The magazine holds 16 shots.</p>
+      <p><strong>Shotgun.</strong> The magazine holds 16 shots.</p>
+      <blockquote><p>Incompatible with magazine upgrades.</p></blockquote>
   dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false
@@ -46,8 +47,9 @@ system:
     allowed: true
     allowedTypes:
       - ammo
+      - itemUpgrade
     list: []
-    slots: 0
+    slots: 3
     usedSlots: 0
   isRanged: true
   magazine:

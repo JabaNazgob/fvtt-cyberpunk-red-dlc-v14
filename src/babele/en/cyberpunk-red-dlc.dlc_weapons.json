@@ -41,7 +41,7 @@
     },
     "ARS-5 Submachine Gun": {
       "name": "ARS-5 Submachine Gun",
-      "description": "<p>\n  This heavy SMG is the complete package; it comes with a Smartgun Link,\n  Infrared Nightvision Scope, and a Sniping Scope.\n</p>\n",
+      "description": "<p>\n  This heavy SMG is the complete package; it comes with a Smartgun Link,\n  Infrared Nightvision Scope, and a Sniping Scope.\n</p>\n<blockquote><p>These upgrades cannot be removed.</p></blockquote>\n",
       "dvTable": "DV SMG"
     },
     "Ballistic Harpoon Launcher": {
@@ -81,7 +81,7 @@
     },
     "Crusher": {
       "name": "Crusher",
-      "description": "<p>\n  An Exotic Very Heavy Pistol that fires shotgun shells. What's not to love?\n</p>\n",
+      "description": "<p>A Very Heavy Pistol that fires shotgun shells. What's not to love?</p>\n",
       "dvTable": "DV Pistol"
     },
     "Dai Lung Cybermag 20": {
@@ -340,7 +340,7 @@
     },
     "M-02 Heavy Rifle": {
       "name": "M-02 Heavy Rifle",
-      "description": "<p>\n  <strong>Exotic Assault Rifle</strong> This weapon fires it's own custom\n  ammunition, priced at 500eb (Expensive) for 80 rounds of Armor-Piercing ammo.\n</p>\n",
+      "description": "<p>\n  <strong>Assault Rifle</strong> This weapon fires it's own custom ammunition,\n  priced at 500eb (Expensive) for 80 rounds of Armor-Piercing ammo.\n</p>\n<blockquote><p>Can only install Scope upgrades.</p></blockquote>\n",
       "dvTable": "DV Assault Rifle"
     },
     "M-95A4 Assault Weapon": {
@@ -430,7 +430,7 @@
     },
     "Multiple Ammunition Pistol": {
       "name": "Multiple Ammunition Pistol",
-      "description": "<p>\n  A very heavy pistol capable of loading up to five different ammo types at\n  once*, with the user able to pick between them before firing.\n</p>\n<p>\n  <em>*Currently not supported, so users have to manually change ammo types</em>\n</p>\n",
+      "description": "<p>\n  A very heavy pistol capable of loading up to five different ammo types at\n  once*, with the user able to pick between them before firing.\n</p>\n<blockquote><p>Incompatible with magazine upgrades.</p></blockquote>\n<p>\n  <em>*Currently not supported, so users have to manually change ammo types</em>\n</p>\n",
       "dvTable": "DV Pistol"
     },
     "Mustang Arms Deathstalker": {
@@ -514,7 +514,7 @@
     },
     "ST-5 Assault Rifle": {
       "name": "ST-5 Assault Rifle",
-      "description": "<p>\n  <strong>Poor Quality Exotic Assault Rifle</strong> A - relatively - reliable\n  gun. If you roll 1 on Attack (Crit fail) you must then [[/r 1dc#ST-5 Assult\n  Rifle - Jam Check]]{toss a coin}. If you win, the gun fires as normal, while\n  if you lose the gun jams and requires using an action to clear.\n</p>\n",
+      "description": "<p>\n  <strong>Poor Quality Assault Rifle</strong> A - relatively - reliable gun. If\n  you roll 1 on Attack (Crit fail) you must then [[/r 1dc#ST-5 Assult Rifle -\n  Jam Check]]{toss a coin}. If you win, the gun fires as normal, while if you\n  lose the gun jams and requires using an action to clear.\n</p>\n",
       "dvTable": "DV Assault Rifle"
     },
     "Sternmeyer P-35": {
@@ -549,7 +549,7 @@
     },
     "TearJerker": {
       "name": "TearJerker",
-      "description": "<p>\n  <strong>Excellent Quality Exotic Grenade Launcher</strong> This weapon can\n  only fire Smoke or Teargas Ammunition.\n</p>\n",
+      "description": "<p>\n  <strong>Excellent Quality Grenade Launcher</strong> This weapon can only fire\n  Smoke or Teargas Ammunition.\n</p>\n",
       "dvTable": "DV Grenade Launcher"
     },
     "Teen Dreem": {
@@ -613,7 +613,7 @@
     },
     "WAA Bullpup Assault Weapon": {
       "name": "WAA Bullpup Assault Weapon",
-      "description": "<p>\n  A bullpup rifle in operation for over two decades. Can fire non-basic\n  ammunition and comes with a Smartgun Link.\n</p>\n",
+      "description": "<p>A bullpup rifle that comes with an integrated Smartgun Link.</p>\n",
       "dvTable": "DV Assault Rifle"
     }
   }

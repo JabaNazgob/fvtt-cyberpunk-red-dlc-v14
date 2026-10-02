@@ -8,7 +8,7 @@ flags:
       previous: "38"
 folder: null
 img: systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun_poor.svg
-name: Rostović Ulični Uništitelj (aka the Street Destroyer)
+name: Rostović Street Destroyer
 ownership:
   default: 0
   rRCcEOJu9poJ2EaX: 3
@@ -31,9 +31,10 @@ system:
   description:
     value: |
       <p>
-        The Rostović Ulični Uništitelj (Street Destroyer) is a Poor Quality Exotic
-        Shotgun. The magazine only holds 3 shots. It can only shoot Shotgun Shells.
+        The Rostović Ulični Uništitelj (Street Destroyer) is a Poor Quality Shotgun.
+        The magazine only holds 3 shots. It can only shoot Shotgun Shells.
       </p>
+      <blockquote><p>Incompatible with magazine upgrades.</p></blockquote>
   dvTable: DV Shotgun (Slug)
   equipped: owned
   favorite: false
@@ -48,8 +49,9 @@ system:
     allowed: true
     allowedTypes:
       - ammo
+      - itemUpgrade
     list: []
-    slots: 0
+    slots: 3
     usedSlots: 0
   isRanged: true
   magazine:

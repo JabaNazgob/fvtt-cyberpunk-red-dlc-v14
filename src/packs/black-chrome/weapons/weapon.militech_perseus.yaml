@@ -30,10 +30,8 @@ system:
     count: 2
     threshold: 0
   description:
-    value: >
-      <p>The Militech Perseus is an Excellent Quality Exotic Very Heavy
-      Pistol.</p>
-
+    value: |
+      <p>The Militech Perseus is an Quality Exotic Very Heavy Pistol.</p>
       <blockquote>
         <p>
           This weapon has a <strong>2 ROF</strong> if it has been fired in the
@@ -56,7 +54,7 @@ system:
       - itemUpgrade
       - ammo
     list: []
-    slots: 0
+    slots: 3
     usedSlots: 0
   isRanged: true
   magazine:

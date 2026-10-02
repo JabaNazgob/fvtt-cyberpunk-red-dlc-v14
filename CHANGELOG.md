@@ -40,3 +40,5 @@ Includes currently supported content from:
 - Elflines Online TCG
 - Going MEtal (Interface RED vol 3)
 - Tales of the RED: Hope Reborn
+
+Compendium Items have been revised to conform with published Errata Changes

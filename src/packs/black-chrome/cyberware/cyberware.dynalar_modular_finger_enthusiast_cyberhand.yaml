@@ -6,12 +6,716 @@ flags:
     _migration:
       current: 44
       previous: "38"
+    cprInstallTree:
+      - _id: JSqb9OYhKDptTcoW
+        _stats:
+          compendiumSource: >-
+            Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.6n9UMTK8mY6yDFB2
+          coreVersion: "13.351"
+          createdTime: 1789849238216
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1789849238216
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: null
+        img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+        name: Standard Cyberfinger
+        ownership:
+          default: 0
+        sort: 100000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Dynalar Technologies
+          canIgnoreArmor: true
+          concealable:
+            concealable: true
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: >-
+              <p>Cyberfinger. Can only be installed on a modular finger
+              cyberhand.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: false
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+              - ammo
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          price:
+            market: 20
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source: null
+          sources:
+            - book: Black Chrome
+              page: 26
+          type: cyberArm
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: ""
+          weaponType: ""
+        type: cyberware
+      - _id: FRU0yeRWAL7hvRNx
+        _stats:
+          compendiumSource: >-
+            Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.6n9UMTK8mY6yDFB2
+          coreVersion: "13.351"
+          createdTime: 1789849240930
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1789849240930
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: null
+        img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+        name: Standard Cyberfinger
+        ownership:
+          default: 0
+        sort: 100000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Dynalar Technologies
+          canIgnoreArmor: true
+          concealable:
+            concealable: true
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: >-
+              <p>Cyberfinger. Can only be installed on a modular finger
+              cyberhand.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: false
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+              - ammo
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          price:
+            market: 20
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source: null
+          sources:
+            - book: Black Chrome
+              page: 26
+          type: cyberArm
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: ""
+          weaponType: ""
+        type: cyberware
+      - _id: QIMCjAfWqfVZkb2h
+        _stats:
+          compendiumSource: >-
+            Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.6n9UMTK8mY6yDFB2
+          coreVersion: "13.351"
+          createdTime: 1789849243268
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1789849243268
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: null
+        img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+        name: Standard Cyberfinger
+        ownership:
+          default: 0
+        sort: 100000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Dynalar Technologies
+          canIgnoreArmor: true
+          concealable:
+            concealable: true
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: >-
+              <p>Cyberfinger. Can only be installed on a modular finger
+              cyberhand.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: false
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+              - ammo
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          price:
+            market: 20
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source: null
+          sources:
+            - book: Black Chrome
+              page: 26
+          type: cyberArm
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: ""
+          weaponType: ""
+        type: cyberware
+      - _id: wM1IdhDO62DY0InE
+        _stats:
+          compendiumSource: >-
+            Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.6n9UMTK8mY6yDFB2
+          coreVersion: "13.351"
+          createdTime: 1789849246422
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1789849246422
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: null
+        img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+        name: Standard Cyberfinger
+        ownership:
+          default: 0
+        sort: 100000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Dynalar Technologies
+          canIgnoreArmor: true
+          concealable:
+            concealable: true
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: >-
+              <p>Cyberfinger. Can only be installed on a modular finger
+              cyberhand.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: false
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+              - ammo
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          price:
+            market: 20
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source: null
+          sources:
+            - book: Black Chrome
+              page: 26
+          type: cyberArm
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: ""
+          weaponType: ""
+        type: cyberware
+      - _id: Rja0XpCK5kG4VEg4
+        _stats:
+          compendiumSource: >-
+            Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.6n9UMTK8mY6yDFB2
+          coreVersion: "13.351"
+          createdTime: 1789849249033
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1789849249033
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: null
+        img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+        name: Standard Cyberfinger
+        ownership:
+          default: 0
+        sort: 100000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Dynalar Technologies
+          canIgnoreArmor: true
+          concealable:
+            concealable: true
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: >-
+              <p>Cyberfinger. Can only be installed on a modular finger
+              cyberhand.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: false
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+              - ammo
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          price:
+            market: 20
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source: null
+          sources:
+            - book: Black Chrome
+              page: 26
+          type: cyberArm
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: ""
+          weaponType: ""
+        type: cyberware
+      - _id: MVy0XWs774zNYqHu
+        _stats:
+          compendiumSource: >-
+            Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.6n9UMTK8mY6yDFB2
+          coreVersion: "13.351"
+          createdTime: 1789849252720
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1789849252720
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: null
+        img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+        name: Standard Cyberfinger
+        ownership:
+          default: 0
+        sort: 100000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Dynalar Technologies
+          canIgnoreArmor: true
+          concealable:
+            concealable: true
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: >-
+              <p>Cyberfinger. Can only be installed on a modular finger
+              cyberhand.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: false
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+              - ammo
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          price:
+            market: 20
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source: null
+          sources:
+            - book: Black Chrome
+              page: 26
+          type: cyberArm
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: ""
+          weaponType: ""
+        type: cyberware
+      - _id: cEtSPpHDNNh3RiRK
+        _stats:
+          compendiumSource: >-
+            Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.6n9UMTK8mY6yDFB2
+          coreVersion: "13.351"
+          createdTime: 1789849255701
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1789849255701
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: null
+        img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+        name: Standard Cyberfinger
+        ownership:
+          default: 0
+        sort: 100000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Dynalar Technologies
+          canIgnoreArmor: true
+          concealable:
+            concealable: true
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: >-
+              <p>Cyberfinger. Can only be installed on a modular finger
+              cyberhand.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: false
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+              - ammo
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          price:
+            market: 20
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source: null
+          sources:
+            - book: Black Chrome
+              page: 26
+          type: cyberArm
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: ""
+          weaponType: ""
+        type: cyberware
+      - _id: zuTcWD9jD3wplWe1
+        _stats:
+          compendiumSource: >-
+            Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.6n9UMTK8mY6yDFB2
+          coreVersion: "13.351"
+          createdTime: 1789849258573
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1789849258573
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 44
+              previous: "38"
+        folder: null
+        img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+        name: Standard Cyberfinger
+        ownership:
+          default: 0
+        sort: 100000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: Dynalar Technologies
+          canIgnoreArmor: true
+          concealable:
+            concealable: true
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: >-
+              <p>Cyberfinger. Can only be installed on a modular finger
+              cyberhand.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: false
+          installLocation: mall
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - itemUpgrade
+              - ammo
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          price:
+            market: 20
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 1
+          source: null
+          sources:
+            - book: Black Chrome
+              page: 26
+          type: cyberArm
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: ""
+          weaponType: ""
+        type: cyberware
 folder: null
 img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/modular-hand.svg
 name: Dynalar Modular Finger Enthusiast Cyberhand
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -30,8 +734,7 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Borgware. Requires cyberarm. Comes with 8 cyberfingers*.</p>
-      <p>*Fingers must be added after installation</p>
+      <p>Borgware. Requires cyberarm. Comes with 8 standard cyberfingers.</p>
   dvTable: ""
   favorite: false
   fireModes:
@@ -49,9 +752,17 @@ system:
     allowedTypes:
       - cyberware
       - ammo
-    list: []
+    list:
+      - JSqb9OYhKDptTcoW
+      - FRU0yeRWAL7hvRNx
+      - QIMCjAfWqfVZkb2h
+      - wM1IdhDO62DY0InE
+      - Rja0XpCK5kG4VEg4
+      - MVy0XWs774zNYqHu
+      - cEtSPpHDNNh3RiRK
+      - zuTcWD9jD3wplWe1
     slots: 8
-    usedSlots: 0
+    usedSlots: 8
   isElectronic: true
   isFoundational: false
   isRanged: false
@@ -66,6 +777,7 @@ system:
   revealed: true
   rof: 1
   size: 2
+  source: null
   sources:
     - book: Black Chrome
       page: 18

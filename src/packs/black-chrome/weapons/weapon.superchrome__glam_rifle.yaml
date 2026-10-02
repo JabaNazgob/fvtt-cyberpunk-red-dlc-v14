@@ -76,8 +76,8 @@ system:
   description:
     value: |
       <p>
-        The Superchrome® Glam Rifle is an Exotic Assault Rifle. It gives the user a +2
-        bonus to Wardrobe and Style when equipped.
+        The Superchrome® Glam Rifle is an Assault Rifle. It gives the user a +2 bonus
+        to Wardrobe and Style when equipped.
       </p>
       <blockquote>
         <p>
@@ -99,8 +99,9 @@ system:
     allowed: true
     allowedTypes:
       - ammo
+      - itemUpgrade
     list: []
-    slots: 0
+    slots: 3
     usedSlots: 0
   isRanged: true
   magazine:

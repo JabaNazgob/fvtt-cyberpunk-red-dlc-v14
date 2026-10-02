@@ -180,10 +180,7 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        A bullpup rifle in operation for over two decades. Can fire non-basic
-        ammunition and comes with a Smartgun Link.
-      </p>
+      <p>A bullpup rifle that comes with an integrated Smartgun Link.</p>
   dvTable: DV Assault Rifle
   equipped: owned
   favorite: false
@@ -201,12 +198,12 @@ system:
       - itemUpgrade
     list:
       - TmiHsI4yG2XmcwMV
-    slots: 2
+    slots: 3
     usedSlots: 2
   isRanged: true
   magazine:
     ammoData: null
-    max: 30
+    max: 35
     value: 0
   price:
     market: 1000

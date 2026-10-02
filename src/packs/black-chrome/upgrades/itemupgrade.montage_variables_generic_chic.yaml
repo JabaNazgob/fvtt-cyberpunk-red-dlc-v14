@@ -29,11 +29,14 @@ system:
   description:
     value: |
       <p>
-        Additional colors and patterns can be purchased via the
-        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.
+        [Describe the color or pattern of your downloaded Generic Chic Style here.]
       </p>
       <blockquote>
         <p>Requires an action to swap styles via connected agent.</p>
+        <p>
+          Additional colors and patterns can be purchased via the
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.
+        </p>
       </blockquote>
   favorite: false
   fireModes:

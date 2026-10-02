@@ -29,7 +29,7 @@ system:
     threshold: 0
   description:
     value: |
-      <p>The GunMart Special is a Poor Quality Exotic Heavy Pistol.</p>
+      <p>The GunMart Special is a Poor Quality Heavy Pistol.</p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false
@@ -44,8 +44,9 @@ system:
     allowed: true
     allowedTypes:
       - ammo
+      - itemUpgrade
     list: []
-    slots: 0
+    slots: 3
     usedSlots: 0
   isRanged: true
   magazine:

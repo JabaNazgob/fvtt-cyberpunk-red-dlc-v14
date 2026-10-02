@@ -7,100 +7,15 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: pvRdfigxWXBF0wYe
-        _stats:
-          compendiumSource: Compendium.cyberpunk-red-core.core_cyberware.Item.BUKAOysOkAkwaRqo
-          coreVersion: "13.351"
-          createdTime: 1789768785864
-          duplicateSource: null
-          exportSource: null
-          lastModifiedBy: w3682e6R5qVcWyUA
-          modifiedTime: 1789768785864
-          systemId: cyberpunk-red-core
-          systemVersion: DUMMY_VALUE
-        effects: []
-        flags:
-          cyberpunk-red-core:
-            _migration:
-              current: 42
-              previous: "41"
-        folder: null
-        img: >-
-          systems/cyberpunk-red-core/icons/compendium/cyberware/standard_hand.svg
-        name: Standard Hand
-        ownership:
-          default: 0
-        sort: 100000
-        system:
-          ammoVariety: []
-          attackmod: 0
-          brand: ""
-          canIgnoreArmor: true
-          concealable:
-            concealable: false
-            isConcealed: false
-          core: false
-          critFailEffect: jammed
-          damage: 1d6
-          damageCrit:
-            bonus: 5
-            count: 2
-            threshold: 0
-          description:
-            value: <p>Looks like a normal hand for the most part.</p>
-          dvTable: ""
-          favorite: false
-          fireModes:
-            autoFire: 0
-            suppressiveFire: false
-          humanityLoss:
-            roll: 1d3
-            static: 2
-          ignoreArmorPercent: 50
-          ignoreBelowSP: 0
-          ignoredByBrowser: false
-          installLocation: clinic
-          installedItems:
-            allowed: false
-            allowedTypes:
-              - cyberware
-            list: []
-            slots: 0
-            usedSlots: 0
-          isElectronic: false
-          isFoundational: false
-          isRanged: false
-          isWeapon: false
-          magazine:
-            ammoData: null
-            max: 0
-            value: 0
-          price:
-            market: 100
-          providesHardening: false
-          revealed: true
-          rof: 1
-          size: 0
-          source: null
-          sources:
-            - book: Cyberpunk RED
-              page: 364
-          type: cyberArm
-          unarmedAutomaticCalculation: true
-          usage: toggled
-          usesType: magazine
-          weaponSkill: Archery
-          weaponType: assaultRifle
-        type: cyberware
-      - _id: U1VcgrlP80TeCrAb
+      - _id: VYYY4PJ6pxzX6sRf
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_cyberware.Item.SbWFgD5rlVtQoadd
           coreVersion: "13.351"
-          createdTime: 1789768785864
+          createdTime: 1789849547827
           duplicateSource: null
           exportSource: null
           lastModifiedBy: w3682e6R5qVcWyUA
-          modifiedTime: 1789768785864
+          modifiedTime: 1789849547827
           systemId: cyberpunk-red-core
           systemVersion: DUMMY_VALUE
         effects: []
@@ -115,7 +30,7 @@ flags:
         name: Exposed Covering (Cyber Arm)
         ownership:
           default: 0
-        sort: 200000
+        sort: 0
         system:
           ammoVariety: []
           attackmod: 0
@@ -134,9 +49,9 @@ flags:
           description:
             value: |-
               <p>
-                Your cybernetics are exposed, maybe you should purchase a covering for your
-                arm?
-              </p>
+                                Your cybernetics are exposed, maybe you should purchase a covering for your
+                                arm?
+                              </p>
           dvTable: ""
           favorite: false
           fireModes:
@@ -172,8 +87,93 @@ flags:
           size: 0
           source: null
           sources:
-            - book: Core
-              page: 366
+            - book: Cyberpunk RED
+              page: 364
+          type: cyberArm
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Archery
+          weaponType: assaultRifle
+        type: cyberware
+      - _id: L54uFBojIePTUmv5
+        _stats:
+          compendiumSource: Compendium.cyberpunk-red-core.core_cyberware.Item.BUKAOysOkAkwaRqo
+          coreVersion: "13.351"
+          createdTime: 1789849547827
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: w3682e6R5qVcWyUA
+          modifiedTime: 1789849547827
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 42
+              previous: "41"
+        folder: null
+        img: >-
+          systems/cyberpunk-red-core/icons/compendium/cyberware/standard_hand.svg
+        name: Standard Hand
+        ownership:
+          default: 0
+        sort: 125000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: ""
+          canIgnoreArmor: true
+          concealable:
+            concealable: false
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: <p>Looks like a normal hand for the most part.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: false
+          installLocation: clinic
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - cyberware
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: false
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          price:
+            market: 100
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 0
+          source: null
+          sources:
+            - book: Cyberpunk RED
+              page: 364
           type: cyberArm
           unarmedAutomaticCalculation: true
           usage: toggled
@@ -227,8 +227,8 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - pvRdfigxWXBF0wYe
-      - U1VcgrlP80TeCrAb
+      - VYYY4PJ6pxzX6sRf
+      - L54uFBojIePTUmv5
     slots: 3
     usedSlots: 0
   isElectronic: true

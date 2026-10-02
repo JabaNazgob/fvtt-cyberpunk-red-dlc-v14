@@ -62,8 +62,9 @@ system:
     allowed: true
     allowedTypes:
       - ammo
+      - itemUpgrade
     list: []
-    slots: 0
+    slots: 3
     usedSlots: 0
   isRanged: true
   magazine:

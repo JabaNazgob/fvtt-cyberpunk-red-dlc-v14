@@ -188,8 +188,8 @@ system:
   description:
     value: |
       <p>
-        The Faisal's Dead Or Alive is a Poor Quality Exotic Shotgun with an integrated
-        Poor Quality Net Launcher.
+        The Faisal's Dead Or Alive is a Poor Quality Shotgun with an integrated Poor
+        Quality Net Launcher.
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned
@@ -208,7 +208,7 @@ system:
       - ammo
     list:
       - N1y0GnZG2Kq3V3wA
-    slots: 2
+    slots: 3
     usedSlots: 2
   isRanged: true
   magazine:

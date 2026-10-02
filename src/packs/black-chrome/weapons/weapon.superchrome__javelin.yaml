@@ -76,8 +76,8 @@ system:
   description:
     value: |
       <p>
-        The Superchrome® Javelin is an Exotic Sniper Rifle. Gives the user a +2 bonus
-        to Wardrobe and Style when equipped.
+        The Superchrome® Javelin is a Sniper Rifle. Gives the user a +2 bonus to
+        Wardrobe and Style when equipped.
       </p>
       <blockquote>
         <p>
@@ -99,8 +99,9 @@ system:
     allowed: true
     allowedTypes:
       - ammo
+      - itemUpgrade
     list: []
-    slots: 0
+    slots: 3
     usedSlots: 0
   isRanged: true
   magazine:

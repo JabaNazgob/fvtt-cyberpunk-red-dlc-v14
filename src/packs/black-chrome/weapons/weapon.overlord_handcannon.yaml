@@ -54,6 +54,7 @@ system:
     allowed: true
     allowedTypes:
       - ammo
+      - itemUpgrade
     list: []
     slots: 0
     usedSlots: 0
@@ -63,7 +64,7 @@ system:
     max: 8
     value: 0
   price:
-    market: 100
+    market: 50
   quality: poor
   revealed: true
   rof: 1

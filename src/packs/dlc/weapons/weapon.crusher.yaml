@@ -30,9 +30,7 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        An Exotic Very Heavy Pistol that fires shotgun shells. What's not to love?
-      </p>
+      <p>A Very Heavy Pistol that fires shotgun shells. What's not to love?</p>
   dvTable: DV Pistol
   equipped: owned
   favorite: false
@@ -47,8 +45,9 @@ system:
     allowed: true
     allowedTypes:
       - ammo
+      - itemUpgrade
     list: []
-    slots: 0
+    slots: 3
     usedSlots: 0
   isRanged: true
   magazine:

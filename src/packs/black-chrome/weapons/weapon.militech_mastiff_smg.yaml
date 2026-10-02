@@ -186,7 +186,7 @@ system:
     threshold: 0
   description:
     value: |
-      <p>The Militech Mastiff SMG is an Exotic Two-Handed SMG and Shotgun.</p>
+      <p>The Militech Mastiff SMG is an Two-Handed SMG and Shotgun.</p>
   dvTable: DV SMG
   equipped: owned
   favorite: false
@@ -212,7 +212,7 @@ system:
     max: 30
     value: 0
   price:
-    market: 1000
+    market: 500
   quality: standard
   revealed: true
   rof: 1

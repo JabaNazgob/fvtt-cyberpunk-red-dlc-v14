@@ -179,8 +179,8 @@ system:
   description:
     value: |
       <p>
-        The GunMart Smart Special is a Poor Quality Exotic Heavy Pistol with an
-        integrated Smartgun Link.
+        The GunMart Smart Special is a Poor Quality Heavy Pistol with an integrated
+        Smartgun Link.
       </p>
   dvTable: DV Pistol
   equipped: owned
@@ -199,7 +199,7 @@ system:
       - ammo
     list:
       - sx0jHH4mdqnXEAnr
-    slots: 2
+    slots: 3
     usedSlots: 2
   isRanged: true
   magazine:

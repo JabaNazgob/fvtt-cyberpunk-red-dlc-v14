@@ -34,6 +34,7 @@ system:
         A very heavy pistol capable of loading up to five different ammo types at
         once*, with the user able to pick between them before firing.
       </p>
+      <blockquote><p>Incompatible with magazine upgrades.</p></blockquote>
       <p>
         <em>*Currently not supported, so users have to manually change ammo types</em>
       </p>
@@ -51,8 +52,9 @@ system:
     allowed: true
     allowedTypes:
       - ammo
+      - itemUpgrade
     list: []
-    slots: 0
+    slots: 3
     usedSlots: 0
   isRanged: true
   magazine:

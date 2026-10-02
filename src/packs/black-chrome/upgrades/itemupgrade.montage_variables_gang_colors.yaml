@@ -27,13 +27,16 @@ system:
     count: 2
     threshold: 0
   description:
-    value: |
-      <p>
-        Additional colors and patterns can be purchased via the
-        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.
-      </p>
+    value: >
+      <p>[Describe the color or pattern of your downloaded Gang Color Style
+      here.]</p>
+
       <blockquote>
         <p>Requires an action to swap styles via connected agent.</p>
+        <p>
+          Additional colors and patterns can be purchased via the
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}.
+        </p>
       </blockquote>
   favorite: false
   fireModes:

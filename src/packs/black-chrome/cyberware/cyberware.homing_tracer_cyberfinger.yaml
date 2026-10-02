@@ -1,6 +1,48 @@
 _id: sKD3i5CPsJLJPzIt
 _key: "!items!sKD3i5CPsJLJPzIt"
-effects: []
+effects:
+  - _id: IT5elr5xLNtng8Cl
+    _key: "!items.effects!sKD3i5CPsJLJPzIt.IT5elr5xLNtng8Cl"
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: null
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    changes:
+      - key: system.derivedStats.humanity.max
+        mode: 2
+        value: "2"
+    description: <p>Modular Cyberfingers do not impose max Humanity loss.</p>
+    disabled: false
+    duration:
+      combat: null
+      rounds: null
+      seconds: null
+      startRound: null
+      startTime: null
+      startTurn: null
+      turns: null
+    flags:
+      cyberpunk-red-core:
+        changes:
+          cats:
+            "0": custom
+          situational:
+            "0":
+              isSituational: false
+              onByDefault: false
+    img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
+    name: Modular Cyberfinger
+    origin: Item.8bz7RKjVkY34wZvP
+    sort: 0
+    statuses: []
+    system: {}
+    tint: "#ffffff"
+    transfer: true
+    type: base
 flags:
   cyberpunk-red-core:
     _migration:
@@ -11,7 +53,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
 name: Homing Tracer Cyberfinger
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -68,6 +109,7 @@ system:
   revealed: true
   rof: 1
   size: 1
+  source: null
   sources:
     - book: Black Chrome
       page: 25
@@ -77,7 +119,7 @@ system:
       page: 82
   type: cyberArm
   unarmedAutomaticCalculation: true
-  usage: toggled
+  usage: installed
   usesType: magazine
   weaponSkill: ""
   weaponType: ""

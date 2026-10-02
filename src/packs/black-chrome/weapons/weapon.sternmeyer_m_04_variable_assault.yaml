@@ -7,15 +7,15 @@ flags:
       current: 44
       previous: "38"
     cprInstallTree:
-      - _id: yrmTWEevIgPkESos
+      - _id: ooEGokmnXeVR8av8
         _stats:
           compendiumSource: Compendium.cyberpunk-red-core.core_upgrades.Item.x6mYA3IJZaNK00nv
           coreVersion: "13.351"
-          createdTime: 1786562647813
+          createdTime: 1789775413150
           duplicateSource: null
           exportSource: null
           lastModifiedBy: w3682e6R5qVcWyUA
-          modifiedTime: 1786562706033
+          modifiedTime: 1789775413150
           systemId: cyberpunk-red-core
           systemVersion: DUMMY_VALUE
         effects: []
@@ -27,7 +27,7 @@ flags:
         folder: null
         img: >-
           systems/cyberpunk-red-core/icons/compendium/upgrades/grenade_launcher_underbarrel.svg
-        name: Grenade Launcher Underbarrel
+        name: Integrated Grenade Launcher
         ownership:
           default: 0
         sort: 0
@@ -49,14 +49,14 @@ flags:
           description:
             value: |-
               <p>
-                                                Functions like a standard grenade launcher, but with a magazine size of 1.
-                                                Requires 2 hands to use, and takes up 2 attachment slots. While attached, the
-                                                weapon can't be concealed under clothing.
-                                              </p>
-                                              <p>
-                                                Note that the weapon inherits any modifiers from the gun it is attached to,
-                                                such as other attachments and quality.
-                                              </p>
+                                                                        Functions like a standard grenade launcher, but with a magazine size of 1.
+                                                                        Requires 2 hands to use, and takes up 2 attachment slots. While attached, the
+                                                                        weapon can't be concealed under clothing.
+                                                                      </p>
+                                                                      <p>
+                                                                        Note that the weapon inherits any modifiers from the gun it is attached to,
+                                                                        such as other attachments and quality.
+                                                                      </p>
           dvTable: DV Grenade Launcher
           favorite: false
           fireModes:
@@ -152,7 +152,7 @@ flags:
           providesHardening: false
           revealed: true
           rof: 1
-          size: 2
+          size: 0
           source:
             book: Core
             page: 343
@@ -193,6 +193,7 @@ system:
         The Sternmeyer M-04 Variable Assault is a Poor Quality Exotic Assault Rifle
         with a custom Grenade Launcher underbarrel.
       </p>
+      <blockquote><p>Only accepts Scope upgrades</p></blockquote>
   dvTable: DV Assault Rifle
   equipped: owned
   favorite: false
@@ -209,9 +210,9 @@ system:
       - itemUpgrade
       - ammo
     list:
-      - yrmTWEevIgPkESos
+      - ooEGokmnXeVR8av8
     slots: 2
-    usedSlots: 2
+    usedSlots: 0
   isRanged: true
   magazine:
     ammoData: null

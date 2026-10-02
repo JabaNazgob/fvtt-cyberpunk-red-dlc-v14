@@ -23,17 +23,18 @@ system:
   description:
     value: |
       <p>
-        Light Armorjack that can swap between pre-programed paterns and styles via the
-        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{Montage
-        Digital Fashion App}
+        Light Armorjack that can swap between pre-programmed patterns and styles via a
+        connected
+        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}
       </p>
       <blockquote>
         <p>
-          Comes with your choice of
+          Comes with your choice of 3 pre-programmed patterns or colors selected from
+          either
           @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.Rs94jDJRrbHVpvIh]{Gang
           Colors} or
           @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.7fXDqCH4Z3ZLo5kL]{Generic
-          Chic}styles.
+          Chic} styles.
         </p>
         <p>Requires an action to swap styles via connected agent.</p>
       </blockquote>
