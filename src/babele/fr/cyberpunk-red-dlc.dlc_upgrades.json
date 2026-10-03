@@ -259,6 +259,10 @@
       "name": "Spike Strip Launcher",
       "description": "<p>\n  <strong>Construction Time:</strong> 1 days<br /><strong>Salvage DV:</strong>\n  9<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  This <strong>Heavy Weapon</strong> launches a coil of metal spikes from the\n  rear of your Punknaught.\n</p>\n<blockquote>\n  <p>\n    Drivers following behind you must make a\n    <strong>DV17 Drive Land Vehicle</strong> check to avoid\n    <strong>4d6</strong> weak point damage.\n  </p>\n</blockquote>\n"
     },
+    "Stun Bayonet": {
+      "name": "Stun Bayonet",
+      "description": "<p>\n  Equips the gun with a non-lethal melee weapon. Target is knocked unconscious\n  if damage dealt would reduce them to under 1 HP. Doesn't cause Critical\n  Injuries or ablate armor.\n</p>\n"
+    },
     "Stunt Frame": {
       "name": "Cadre Freestyle",
       "description": "<p>The bike loses weight and gains maneuverability.</p>\n<p>\n  Rider obtain a +2 bonus to Athletics skill checks when riding and doing\n  maneuvers.\n</p>\n",

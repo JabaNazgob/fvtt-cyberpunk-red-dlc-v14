@@ -48,6 +48,10 @@
       "description": "<p>Implanted Heavy Melee Weapon. Requires Neural Link.</p>\n",
       "dvTable": ""
     },
+    "CyberDude Smart Glove": {
+      "name": "CyberDude Smart Glove",
+      "description": "<p>\n  A fingerless smart glove that allows full access to any installed cyberfinger\n  upgrades. Comes with an Integrated Subdermal grip.\n</p>\n"
+    },
     "Cyberliver": {
       "name": "Cyberfoie",
       "description": "<p>A liver enhancement to mitigate alcohol side effects.</p>\n"
@@ -61,6 +65,10 @@
       "name": "Cybercrâne",
       "description": "<p>\n  User's head is now no longer a 2x weak point. Additionally, user is immune to\n  the Cracked Skull and Broken Jaw critical injuries, both in effect and extra\n  damage. See more info on pg.105 of Interface RED Volume 3.\n</p>\n",
       "dvTable": ""
+    },
+    "Cyberspine": {
+      "name": "Cyberspine",
+      "description": "<p>\n  Provides immunity to\n  @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.pQ2F7FsQvZJyZGXe]{Spinal\n  Injury} while increasing your natural flexibility.\n</p>\n"
     },
     "DeathTrance": {
       "name": "Transe de Mort",
@@ -223,6 +231,15 @@
       "description": "<p>\n  Heavy duty paper shredder, can be concealed. Features an internal storage for\n  paper shreds.\n</p>\n",
       "dvTable": ""
     },
+    "Quick Change Faceplate Mount": {
+      "name": "Quick Change Faceplate Mount",
+      "description": "<p>\n  Once your Quick Change Faceplate Mount has been installed by a Ripperdoc, you\n  may swap between faceplates as an action. Comes with one Personalized\n  Faceplate.\n</p>\n"
+    },
+    "Quick Digits": {
+      "name": "Quick Digits",
+      "description": "<p>\n  Fingers too slow and clumsy? Installing a pair of Quick Digits* grants a +1\n  complementary bonus to many everyday tasks.\n</p>\n<p>*Each cyberhand is sold separately</p>\n",
+      "dvTable": ""
+    },
     "Raven Microcybernetics Drake": {
       "name": "Raven Microcybernetics Drake",
       "description": "<p>Built in agent. Audio only but can be linked with other cybergear.</p>\n<blockquote>\n  <p><strong>Standard Quality</strong> <strong>Internal Agent</strong></p>\n  <ul>\n    <li><p>Remote Hacking DV 21 / Physical Hacking DV 17</p></li>\n  </ul>\n</blockquote>\n",
@@ -244,6 +261,11 @@
     "Signal Jammer": {
       "name": "Brouilleur de signal",
       "description": "<p>\n  Produces a jammer field over 6m/yd by 6m/yd (3x3 squares). Any wireless\n  transmission attempt must succeed at a\n  <strong>DV13 Electronics/Security Tech</strong> <strong>Check</strong> Action.\n</p>\n"
+    },
+    "Skydrivers (Paired)": {
+      "name": "Skydrivers (Paired)",
+      "description": "<p>\n  Skydrivers are installed as a paired unit. Comes with an Integrated Jump\n  Booster and 2 empty option slots. When using your legs to attack a source of\n  cover, you may deal an additional [[/r 3d6dmgab0#Skydriver Bonus Damage vs\n  Cover]]{3d6 damage}.\n</p>\n",
+      "dvTable": ""
     },
     "Smart Lens": {
       "name": "Lentille intelligente",

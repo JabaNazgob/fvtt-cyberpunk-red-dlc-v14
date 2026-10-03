@@ -36,7 +36,7 @@
     },
     "Dynalar Modular Finger Enthusiast Cyberhand": {
       "name": "Dynalar Modular Finger Enthusiast Cyberhand",
-      "description": "<p>Borgware. Requires cyberarm. Comes with 8 cyberfingers*.</p>\n<p>*Fingers must be added after installation</p>\n",
+      "description": "<p>Borgware. Requires cyberarm. Comes with 8 standard cyberfingers.</p>\n",
       "dvTable": ""
     },
     "Explicit Memory Stimulator": {
@@ -141,7 +141,7 @@
     },
     "Modular Finger Cyberhand": {
       "name": "Modular Finger Cyberhand",
-      "description": "<p>Requires cyberarm. Comes with 5 cyberfingers*.</p>\n<p>*Fingers must be added after installation</p>\n",
+      "description": "<p>Requires cyberarm. Comes with 5 standard cyberfingers.</p>\n",
       "dvTable": ""
     },
     "Neo-Soviet Cyberarm": {

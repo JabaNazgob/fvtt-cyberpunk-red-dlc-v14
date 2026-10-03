@@ -11,6 +11,7 @@ Includes all content from:
 - 12 Days of Cybermas
 - 12 Days of Cutiemas
 - 12 Days of Gearmas
+- 12 Days of Redmas
 - Achievements and Loot Boxes
 - All About Agents
 - All About Drones (Interface RED vol 1)
@@ -39,3 +40,5 @@ Includes currently supported content from:
 - Elflines Online TCG
 - Going MEtal (Interface RED vol 3)
 - Tales of the RED: Hope Reborn
+
+Compendium Items have been revised to conform with published Errata Changes

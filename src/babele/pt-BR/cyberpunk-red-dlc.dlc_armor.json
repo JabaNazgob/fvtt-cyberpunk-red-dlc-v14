@@ -22,6 +22,18 @@
       "name": "Heavy Subdermal Plating",
       "description": "<p>Armor Item for Subdermal Armor Cyberware.</p>\n<blockquote>\n  <p>Note: Remove -2 armor penalty for users with BODY 14 or FBC</p>\n</blockquote>\n"
     },
+    "High-Density Bulletproof Shield": {
+      "name": "High-Density Bulletproof Shield",
+      "description": "<p>A sturdy shield that's less likely to break after a single hit.</p>\n<blockquote><p>Cannot be installed into popup cyberware.</p></blockquote>\n"
+    },
+    "Light Metalgear® (Body)": {
+      "name": "Light Metalgear® (Body)",
+      "description": "<p>A lighter model of the famous Metalgear® armor. -3 to REF, DEX, and MOVE.</p>\n"
+    },
+    "Light Metalgear® (Head)": {
+      "name": "Light Metalgear® (Head)",
+      "description": "<p>A lighter model of the famous Metalgear® armor. -3 to REF, DEX, and MOVE.</p>\n"
+    },
     "PackShield": {
       "name": "PackShield",
       "description": "<p>Businesswear Backpack Bulletproof Shield hybrid.</p>\n<p>\n  Can carry items like a\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},\n  and be equipped in your hand like a shield.\n</p>\n<p>Only provides protection when equipped in a hand.</p>\n<p>\n  Cannot be installed in\n  @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup\n  Shield}.\n</p>\n"
