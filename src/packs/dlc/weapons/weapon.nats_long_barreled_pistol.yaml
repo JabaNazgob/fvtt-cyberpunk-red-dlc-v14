@@ -11,7 +11,8 @@ ownership:
   w3682e6R5qVcWyUA: 3
 sort: 0
 system:
-  ammoVariety: []
+  ammoVariety:
+    - vHeavyPistol
   attackmod: 1
   brand: ""
   canIgnoreArmor: false
@@ -27,6 +28,7 @@ system:
   description:
     value: |
       <p>An <strong>Excellent Quality</strong> very heavy pistol.</p>
+  dvTable: DV Long-Barrel Pistol
   equipped: owned
   favorite: false
   fireModes:
