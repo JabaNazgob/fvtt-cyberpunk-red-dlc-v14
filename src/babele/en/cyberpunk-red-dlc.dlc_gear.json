@@ -154,6 +154,18 @@
       "name": "Cargo Container Chic Furniture Set",
       "description": "<p>\n  It might be cheap, but it is real furniture. This is the starting Furniture\n  Set for most cargo containers.\n</p>\n"
     },
+    "Chicken Coop (Basic)": {
+      "name": "Chicken Coop (Basic)",
+      "description": "<p>A home for your chickens to lay eggs or fatten up.</p>\n"
+    },
+    "Chicken (Hen)": {
+      "name": "Chicken (Hen)",
+      "description": "<p>Feed it leftover kibble crumbs and it might lay eggs.</p>\n"
+    },
+    "Chicken (Rooster)": {
+      "name": "Chicken (Rooster)",
+      "description": "<p>Feed it leftover kibble crumbs to fatten it up.</p>\n"
+    },
     "Concealment Sleeve": {
       "name": "Concealment Sleeve",
       "description": "<p>\n  <strong>Very Expensive</strong> custom fitted RealSkinn™ sleeve made just for\n  you.\n</p>\n<blockquote>\n  <p>\n    All cyberware installed into this limb becomes undetectable by\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.JMYvZfk6ZBgt6tK0]{Cyberscanners}\n    and unusable until the sleeve is removed.\n  </p>\n</blockquote>\n"
