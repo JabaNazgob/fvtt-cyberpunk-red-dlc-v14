@@ -14,7 +14,8 @@ ownership:
   default: 0
 sort: 0
 system:
-  ammoVariety: []
+  ammoVariety:
+    - rocket
   attackmod: 0
   brand: Militech
   canIgnoreArmor: false
@@ -49,9 +50,9 @@ system:
   installedItems:
     allowed: true
     allowedTypes:
-      - itemUpgrade
+      - ammo
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isRanged: true
   magazine:
