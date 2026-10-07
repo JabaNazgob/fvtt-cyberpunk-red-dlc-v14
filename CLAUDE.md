@@ -18,10 +18,9 @@ This repository contains official DLC and expansion content for the
 
 - `src/packs/` contains the per-entry YAML source for compendia. Edit YAML rather than compiled LevelDB packs.
 - `src/module.json` declares module metadata, packs, and the compatible Core system version.
-- `src/babele/en/` is generated from pack extraction. Other locales are human translations and should not be
+- `src/babele/en/` is generated from pack extraction. Other locales are human translations and must not be
   mechanically overwritten.
 - `gulpfile.mjs` configures the build tasks for this module.
-- Core owns document schemas and runtime behavior; DLC supplies content in that system's supported data format.
 
 ## Validation
 
