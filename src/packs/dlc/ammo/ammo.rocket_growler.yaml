@@ -24,8 +24,7 @@ system:
     value: |
       <p>
         Experimental ammunition that can only be fired by the
-        @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.X4SWCsdrRq7Dt5cg]{Militech
-        Growler}
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.X4SWCsdrRq7Dt5cg]{Growler}.
       </p>
   favorite: false
   ignoredByBrowser: false
