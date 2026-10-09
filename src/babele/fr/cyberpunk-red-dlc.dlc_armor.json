@@ -2,6 +2,10 @@
   "label": "Armure",
   "mapping": {},
   "entries": {
+    "Diving Helmet": {
+      "name": "Diving Helmet",
+      "description": "<p>\n  A sealed, waterproof diving suit with specialized undergarments to keep the\n  body completely dry and warm in cold water.\n</p>\n"
+    },
     "Dragoon Plating": {
       "name": "Plaque Dragoon",
       "description": "<p>\n  Armor plates compatible with Dragoon Plating cyberware. Dragoon Plating can be\n  removed, and summoned back within 6m/y as an action.\n</p>\n<p><em>Imposes -2 armor penalty while equiped.</em></p>\n"
@@ -9,6 +13,10 @@
     "Dragoon Plating (Metalgear)": {
       "name": "Plaques Dragoon (Metalgear)",
       "description": "<p>\n  Armor plates compatible with Dragoon Plating, Metalgear cyberware. Dragoon\n  Plating can be removed, and summoned back within 6m/y as an action.\n</p>\n<p><em>Imposes -3 armor penalty while equiped.</em></p>\n"
+    },
+    "Dry Suit": {
+      "name": "Dry Suit",
+      "description": "<p>\n  A sealed, waterproof diving suit with specialized undergarments to keep the\n  body completely dry and warm in cold water.\n</p>\n"
     },
     "Esporma Environment Suit": {
       "name": "Tenue de protection Esporma",

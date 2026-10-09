@@ -154,6 +154,18 @@
       "name": "Cargo Container Chic Furniture Set",
       "description": "<p>\n  It might be cheap, but it is real furniture. This is the starting Furniture\n  Set for most cargo containers.\n</p>\n"
     },
+    "Chicken Coop (Basic)": {
+      "name": "Chicken Coop (Basic)",
+      "description": "<p>A home for your chickens to lay eggs or fatten up.</p>\n"
+    },
+    "Chicken (Hen)": {
+      "name": "Chicken (Hen)",
+      "description": "<p>Feed it leftover kibble crumbs and it might lay eggs.</p>\n"
+    },
+    "Chicken (Rooster)": {
+      "name": "Chicken (Rooster)",
+      "description": "<p>Feed it leftover kibble crumbs to fatten it up.</p>\n"
+    },
     "Concealment Sleeve": {
       "name": "Concealment Sleeve",
       "description": "<p>\n  <strong>Very Expensive</strong> custom fitted RealSkinn™ sleeve made just for\n  you.\n</p>\n<blockquote>\n  <p>\n    All cyberware installed into this limb becomes undetectable by\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.JMYvZfk6ZBgt6tK0]{Cyberscanners}\n    and unusable until the sleeve is removed.\n  </p>\n</blockquote>\n"
@@ -165,6 +177,10 @@
     "Continental Brands SmartOven": {
       "name": "Continental Brands SmartOven",
       "description": "<p>\n  Transforms bland kibble into a delicious hot meal. (Unflavored Kibble sold\n  separately.)\n</p>\n"
+    },
+    "CrAB Drone": {
+      "name": "CrAB Drone",
+      "description": "<p><strong>Active Defense Spider Walking Drone</strong></p>\n<p><strong>Stats:</strong> 6 MOVE - 7SP - 40HP</p>\n<p>\n  Can be neutralized in 5 min with a\n  <strong>DV21 Electronic/Security Tech</strong> check.\n</p>\n<p><strong>Default Programming:</strong></p>\n<ul>\n  <li><p>Target enters a restricted area or fails a biometric scan</p></li>\n  <li><p>Attack target with Airhypo</p></li>\n</ul>\n<p><strong>Range:</strong></p>\n<p>\n  Perimeter of a NET Architecture-equipped building or 50m/yds away from a\n  portable NET Architecture.\n</p>\n<p><strong>Loadout:</strong></p>\n<ul>\n  <li>Observation Camera</li>\n  <li>Grip Feet</li>\n  <li>\n    Airhypo loaded with\n    @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.6BM5WFyCyIM8lZib]{Black\n    Lace},\n    @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.UrKzMiFp4xFOLNIC]{Blue\n    Glass}, or\n    @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Biotoxin}\n  </li>\n</ul>\n"
     },
     "Creative Couture Furniture Set": {
       "name": "Creative Couture Furniture Set",
@@ -190,6 +206,10 @@
       "name": "Distilling Compound",
       "description": "<p>\n  This additive increases the Resist Torture/Drugs DV of Poison or Biotoxin\n  Vials by 2. Mixing multiple Distilling Compounds does not increase Resist\n  Torture/Drugs DV beyond the initial +2.\n</p>\n"
     },
+    "Diving Rebreather": {
+      "name": "Diving Rebreather",
+      "description": "<p>\n  A self-contained underwater breathing apparatus that recycles your exhaled\n  breath instead of releasing it into the water as bubbles.\n</p>\n"
+    },
     "DM 5000 Adelhyde": {
       "name": "DM 5000 Adelhyde",
       "description": "<p>\n  The <strong>Drink Master 5000</strong> combines Adelhyde, Bronson Extract,\n  Powdered Delta, Flanergide, and Karmotrine to concoct a wide assortments of\n  beverages.\n</p>\n"
@@ -210,6 +230,10 @@
       "name": "DM 5000 Powdered Delta",
       "description": "<p>\n  The <strong>Drink Master 5000</strong> combines Adelhyde, Bronson Extract,\n  Powdered Delta, Flanergide, and Karmotrine to concoct a wide assortments of\n  beverages.\n</p>\n"
     },
+    "Dosimeter Badge": {
+      "name": "Dosimeter Badge",
+      "description": "<p>\n  A personal device worn to measure and monitor radiation exposure. Alerts when\n  within 10m/yards of dangerous radiation levels.\n</p>\n"
+    },
     "Drink Master 5000": {
       "name": "Drink Master 5000",
       "description": "<p>\n  A large, cabinet-sized, drink mixing machine seen commonly used in bars.\n  Provides 30 HP for the purposes of cover.\n</p>\n<blockquote>\n  <p>\n    See the <strong>Drinktionary</strong> on page 16 of Mixing Drinks—Changing\n    Lives for associated recipes. Each ingredient canister holds 100 units and\n    must be replaced when empty. You may use the following items to track Drink\n    Master 5000's fill state:\n  </p>\n  <ul>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.Ig15Vp79R4lMkHGu]{Adelhyde}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.P6IU6Vm16NgPHJt4]{Bronson\n        Extract}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.NjFzze9SENjPu2U3]{Flanergide}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.87tePbq5yTJxEg49]{Karmotrine}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.eejNk5t7hvr5BsJA]{Powdered\n        Delta}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
@@ -217,6 +241,10 @@
     "Fire Safe": {
       "name": "Fire Safe",
       "description": "<p>Small fireproof lockbox made of Thick Steel.</p>\n<ul>\n  <li>50HP</li>\n  <li>30cm / 1ft</li>\n  <li>Can be picked with a <strong>DV15 Pick Lock</strong> Skill Check</li>\n</ul>\n"
+    },
+    "Flippers": {
+      "name": "Flippers",
+      "description": "<p>A set of diving fins. Negates swimming movement penalty.</p>\n"
     },
     "Fuel Tank": {
       "name": "Fuel Tank",
@@ -374,6 +402,10 @@
       "name": "My First GRAF3",
       "description": "<p>Personal Drone. Tiny GRAF3 that can be linked to an Agent.</p>\n"
     },
+    "NASS-54 Underwater Drone": {
+      "name": "NASS-54 Underwater Drone",
+      "description": "<p>A semi-autonomous torpedeo drone produced by Militech.</p>\n<p><strong>Stats:</strong> 6 MOVE - 60HP</p>\n<p>\n  Can be neutralized in 5 min with a\n  <strong>DV21 Electronic/Security Tech</strong> check.\n</p>\n<p>Controlled by a Balron-Class Demon aboard a Militech Warship.</p>\n<p><strong>Loadout:</strong></p>\n<ul>\n  <li><p>Observation Camera</p></li>\n  <li><p>Sonar</p></li>\n  <li>\n    <p>Retractable Manipulator Arm</p>\n    <ul>\n      <li><p>Tool Hand</p></li>\n      <li><p>Circular Saw</p></li>\n    </ul>\n  </li>\n  <li><p>2 Grenade Launchers</p></li>\n</ul>\n"
+    },
     "Osmosis Compound": {
       "name": "Osmosis Compound",
       "description": "<p>\n  This additive allows a Vial of Poison or Biotoxin to be absorbed through skin\n  contact. One vial can cover 2 square feet when applied to a surface and lasts\n  for one hour. Can be neutralized by rinsing with water.\n</p>\n<p>\n  The first meat target to touch the affected area with a meat body part is\n  dosed with the poison. A <strong>DV17 Perception</strong> check reveals the\n  poison. More than one dose in the same 2 square foot area has no added effect.\n</p>\n"
@@ -393,6 +425,10 @@
     "Professional Disguise Kit": {
       "name": "Professional Disguise Kit",
       "description": "<p>\n  With a combination of stage makeup and RealSkinn™ prosthetics you can look\n  like a whole new you! Provides a +2 bonus to Personal Grooming checks.\n</p>\n"
+    },
+    "Remote Camera Drone": {
+      "name": "Remote Camera Drone",
+      "description": "<p>\n  A personal drone that must be directly controlled via a connected Agent. The\n  drone is equipped with the following upgrades:\n</p>\n<ul>\n  <li><p>Observation Camera</p></li>\n  <li><p>Holographic Projector</p></li>\n  <li><p>Smoke Grenade Launcher</p></li>\n</ul>\n"
     },
     "Retina Lenses": {
       "name": "Retina Lenses",
@@ -449,6 +485,10 @@
     "Spider Cyberchair": {
       "name": "Spider Cyberchair",
       "description": "<p>\n  The top of the line cyberchair, giving the premier user many options. While\n  using it the operator's base MOVE becomes 5, with all regular movement options\n  remaining available.\n</p>\n<p>\n  Additionally, this cyberchair has room for 4 cyberlimb options*. Any options\n  installed always count as being paired.\n</p>\n<p>\n  Operation of the cyberchair requires either a free hand, or interface plugs.\n</p>\n<p>\n  If the operator suffers a critical injury that reduces their MOVE, the MOVE of\n  the cyberchair is instead effected.\n</p>\n<p>\n  The cyberchair cannot be targeted specifically, nor can it be disabled via EMP\n  effects.\n</p>\n<p><em>*Installing cyberlimb options currently not supported</em></p>\n"
+    },
+    "Submersible ROV Drone": {
+      "name": "Submersible ROV Drone",
+      "description": "<p>A modified ground drone that can freely maneuver underwater.</p>\n<p><strong>Stats:</strong> 4 MOVE - 30HP</p>\n<p>\n  Can be neutralized in 5 min with a\n  <strong>DV21 Electronic/Security Tech</strong> check.\n</p>\n<p>Must be piloted by a remote user.</p>\n<p><strong>Loadout:</strong></p>\n<ul>\n  <li><p>Observation Camera</p></li>\n  <li><p>Lightweight Manipulator Arm</p></li>\n</ul>\n"
     },
     "Suzumebachi Assassin Drone": {
       "name": "Suzumebachi Assassin Drone",

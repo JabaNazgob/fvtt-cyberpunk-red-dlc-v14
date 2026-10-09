@@ -22,6 +22,10 @@
       "name": "Dayton Sky Queen",
       "description": "<p><strong>Nomad Access:</strong> N/A</p>\n<hr />\n<p>\n  A Luxury Aerozep that serves as a flying hotel or mobile headquarters boasting\n  50 rooms, 26 luxury rooms, and 14 complex rooms.\n</p>\n"
     },
+    "Fife's Submersible": {
+      "name": "Fife's Submersible",
+      "description": "<p>A small submersible vehicle that contains its own NET Architecture.</p>\n"
+    },
     "Hydrosubsidium Bimac": {
       "name": "Hydrosubsidium Bimac",
       "description": "<p><strong>Nomad Access:</strong> 4</p>\n<hr />\n<p>\n  A military designed CHOOH<sup>2</sup>-powered jetski that can seat two people.\n</p>\n"
@@ -34,9 +38,17 @@
       "name": "Militech F-152 Autocopter",
       "description": "<p><strong>Nomad Access:</strong> 4</p>\n<hr />\n<p>\n  A single seat helicopter with open-air cockpit that is incompatible with the\n  following:\n</p>\n<ul>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.Pj3nZU2coYUGIjR3]{Bulletproof\n      Glass}\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.lw6N5svBE702A6VE]{Seating\n      Upgrade}\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.sAUmDCuqzJa6ioak]{Sealed\n      Environment}\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.CeCRMtA7XTyEm3HM]{Security\n      Upgrade}\n    </p>\n  </li>\n</ul>\n"
     },
+    "NC4-2's SovOil Mi-60": {
+      "name": "NC4-2's SovOil Mi-60",
+      "description": "<p><strong>Nomad Access:</strong> 10</p>\n<hr />\n<p>A refurbished surplus AV used by Trauma Team Squad NC4-2.</p>\n"
+    },
     "Punknaught Core": {
       "name": "Punknaught Core",
       "description": "<p>\n  <strong>Construction Time:</strong> 7 days<br /><strong>Salvage DV:</strong>\n  15<br /><strong>Construction Modifier:</strong> +0\n</p>\n<hr />\n<p>You can't build a Punknaught without a core!</p>\n<blockquote>\n  <p>\n    All Punknaughts are reinforced with a Makeshift Combat Plow and can support\n    up to 3 extra chassis.\n  </p>\n</blockquote>\n"
+    },
+    "SSCI Garfish Stealth Submarine": {
+      "name": "SSCI Garfish Stealth Submarine",
+      "description": "<p>\n  Contains a NET Architecture housing a Balron-Class Demon capable of\n  controlling multiple\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.UKKqkfbap49lWpg3]{NASS-54\n  Underwater Drones}.\n</p>\n<p>\n  SSCI Garfish Stealth Submarine is also equipped with a mounted\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.X4SWCsdrRq7Dt5cg]{Growler}\n</p>\n"
     },
     "TetraCorp America Luxus 15": {
       "name": "TetraCorp America Luxus 15",
