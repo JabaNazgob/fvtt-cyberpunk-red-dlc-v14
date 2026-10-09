@@ -104,6 +104,10 @@
       "name": "Rifle (Small Game)",
       "description": "<p>Small game ammo; not great for people. Deals 2d6 less damage.</p>\n"
     },
+    "Rocket (Growler)": {
+      "name": "Rocket (Growler)",
+      "description": "<p>\n  Experimental ammunition that can only be fired by the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.X4SWCsdrRq7Dt5cg]{Militech\n  Growler}\n</p>\n"
+    },
     "Shotgun Slug (Junk)": {
       "name": "Shotgun Slug (Junk)",
       "description": "<p>\n  Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.\n</p>\n"
