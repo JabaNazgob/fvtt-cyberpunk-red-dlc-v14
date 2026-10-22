@@ -66,6 +66,10 @@
       "name": "Smart Ears",
       "description": "<p>\n  A wearable headset with integrated Radio Scanner / Music Player and 2 empty\n  Cyberaudio slots.\n</p>\n"
     },
+    "Achievment Lootboxes": {
+      "name": "Achievment Lootboxes",
+      "description": ""
+    },
     "Kibble Flavors": {
       "name": "Kibble Flavors",
       "description": ""
@@ -124,7 +128,7 @@
     },
     "Binary Compound": {
       "name": "Binary Compound",
-      "description": "<p>\n  A double-syringe that contains a pair of corrosive chemicals capable of eating\n  through solid objects.\n</p>\n<blockquote>\n  <p>\n    Requires 2 rounds to apply Binary Compound to a 2m/yd<sup>2</sup> surface.\n  </p>\n  <p>\n    Binary Compound remains chemically active for 6 rounds, dealing [[/r 6d6\n    #Binary Compound Damage]] damage per round.\n  </p>\n</blockquote>\n"
+      "description": "<p>\n  A double-syringe that contains a pair of corrosive chemicals capable of eating\n  through solid objects.\n</p>\n<blockquote>\n  <p>\n    Requires 2 rounds to apply Binary Compound to a 2m/yd<sup>2</sup> surface.\n  </p>\n  <p>\n    Binary Compound remains chemically active for 6 rounds, dealing\n    [[/r 6d6 #Binary Compound Damage]] damage per round.\n  </p>\n</blockquote>\n"
     },
     "Branded Jumpsuit (Extreme Security)": {
       "name": "Branded Jumpsuit (Extreme Security)",

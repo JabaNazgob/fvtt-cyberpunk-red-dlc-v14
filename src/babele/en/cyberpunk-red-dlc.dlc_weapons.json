@@ -291,7 +291,7 @@
     },
     "Hello Cutie Fisher Kitty": {
       "name": "Hello Cutie Fisher Kitty",
-      "description": "<p>\n  <strong>Exotic Heavy Pistol (50m/yd Max Range)</strong> Fires mini-harpoons\n  that cannot cause critcal injuries. Each mini-harpoon sticks to its target\n  regardless of damage dealt, and removing a mini-harpoon takes 1 Action. All\n  retractable mini-harpoons are dislodged and recovered when using an action to\n  reloading the weapon.\n</p>\n<blockquote>\n  <p>\n    The user may use an action to electrify the cables connected to each\n    mini-harpoon and deal [[/r 2d6dmgab0cd0#Electric Damage (Ignores\n    Armor)]]{2d6} damage directly to any connected target's HP. If a target is\n    connected by 3 or more mini-harpoons they take [[/r 3d6dmgab0cd0#Electric\n    Damage (Ignores Armor)]]{3d6} damage instead.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  <strong>Exotic Heavy Pistol (50m/yd Max Range)</strong> Fires mini-harpoons\n  that cannot cause critcal injuries. Each mini-harpoon sticks to its target\n  regardless of damage dealt, and removing a mini-harpoon takes 1 Action. All\n  retractable mini-harpoons are dislodged and recovered when using an action to\n  reloading the weapon.\n</p>\n<blockquote>\n  <p>\n    The user may use an action to electrify the cables connected to each\n    mini-harpoon and deal\n    [[/r 2d6dmgab0cd0#Electric Damage (Ignores Armor)]]{2d6} damage directly to\n    any connected target's HP. If a target is connected by 3 or more\n    mini-harpoons they take\n    [[/r 3d6dmgab0cd0#Electric Damage (Ignores Armor)]]{3d6} damage instead.\n  </p>\n</blockquote>\n",
       "dvTable": "DV Bows & Crossbows"
     },
     "Hello Cutie Gun-Gun Friend-Friend": {
@@ -526,7 +526,7 @@
     },
     "ST-5 Assault Rifle": {
       "name": "ST-5 Assault Rifle",
-      "description": "<p>\n  <strong>Poor Quality Assault Rifle</strong> A - relatively - reliable gun. If\n  you roll 1 on Attack (Crit fail) you must then [[/r 1dc#ST-5 Assult Rifle -\n  Jam Check]]{toss a coin}. If you win, the gun fires as normal, while if you\n  lose the gun jams and requires using an action to clear.\n</p>\n",
+      "description": "<p>\n  <strong>Poor Quality Assault Rifle</strong> A - relatively - reliable gun. If\n  you roll 1 on Attack (Crit fail) you must then\n  [[/r 1dc#ST-5 Assult Rifle - Jam Check]]{toss a coin}. If you win, the gun\n  fires as normal, while if you lose the gun jams and requires using an action\n  to clear.\n</p>\n",
       "dvTable": "DV Assault Rifle"
     },
     "Sternmeyer P-35": {

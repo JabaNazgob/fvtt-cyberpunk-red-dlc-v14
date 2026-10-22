@@ -110,10 +110,11 @@ system:
       <blockquote>
         <p>
           The user may use an action to electrify the cables connected to each
-          mini-harpoon and deal [[/r 2d6dmgab0cd0#Electric Damage (Ignores
-          Armor)]]{2d6} damage directly to any connected target's HP. If a target is
-          connected by 3 or more mini-harpoons they take [[/r 3d6dmgab0cd0#Electric
-          Damage (Ignores Armor)]]{3d6} damage instead.
+          mini-harpoon and deal
+          [[/r 2d6dmgab0cd0#Electric Damage (Ignores Armor)]]{2d6} damage directly to
+          any connected target's HP. If a target is connected by 3 or more
+          mini-harpoons they take
+          [[/r 3d6dmgab0cd0#Electric Damage (Ignores Armor)]]{3d6} damage instead.
         </p>
       </blockquote>
   dvTable: DV Bows & Crossbows

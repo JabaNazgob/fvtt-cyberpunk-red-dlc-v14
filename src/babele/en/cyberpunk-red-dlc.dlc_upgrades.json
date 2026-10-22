@@ -40,7 +40,7 @@
     },
     "Brainwasher": {
       "name": "Brainwasher",
-      "description": "<p><strong>App:</strong> Provides basic therapy.</p>\n<blockquote>\n  <p>\n    Use for 1 week before receiving therapy, then roll [[/r 1d10 #Brainwasher\n    Therapy]]\n  </p>\n  <ul>\n    <li>\n      <p>\n        <strong>On even results:</strong> Therapy is takes 1 less day to\n        complete.\n      </p>\n    </li>\n    <li>\n      <p>\n        <strong>On odd results:</strong> Therapy is takes 1 more day to\n        complete.\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
+      "description": "<p><strong>App:</strong> Provides basic therapy.</p>\n<blockquote>\n  <p>\n    Use for 1 week before receiving therapy, then roll\n    [[/r 1d10 #Brainwasher Therapy]]\n  </p>\n  <ul>\n    <li>\n      <p>\n        <strong>On even results:</strong> Therapy is takes 1 less day to\n        complete.\n      </p>\n    </li>\n    <li>\n      <p>\n        <strong>On odd results:</strong> Therapy is takes 1 more day to\n        complete.\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
     },
     "Bulletproof Enclosure": {
       "name": "Bulletproof Enclosure",

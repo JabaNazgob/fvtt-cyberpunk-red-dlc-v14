@@ -7,13 +7,13 @@ flags:
     _migration:
       current: 44
       previous: "38"
-folder: null
+folder: WcF65njAcmPq8Kbn
 img: icons/containers/boxes/crate-reinforced-brown.webp
 name: A Box Covered In Chipped Paint
 ownership:
   IMREvhAZtigyN7Gy: 3
   default: 0
-sort: 0
+sort: 200000
 system:
   amount: 1
   brand: ""

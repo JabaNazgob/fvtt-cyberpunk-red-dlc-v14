@@ -29,8 +29,8 @@ system:
           Requires 2 rounds to apply Binary Compound to a 2m/yd<sup>2</sup> surface.
         </p>
         <p>
-          Binary Compound remains chemically active for 6 rounds, dealing [[/r 6d6
-          #Binary Compound Damage]] damage per round.
+          Binary Compound remains chemically active for 6 rounds, dealing
+          [[/r 6d6 #Binary Compound Damage]] damage per round.
         </p>
       </blockquote>
   equipped: owned

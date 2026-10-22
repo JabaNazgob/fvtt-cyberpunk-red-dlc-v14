@@ -6,13 +6,13 @@ flags:
     _migration:
       current: 44
       previous: "38"
-folder: null
+folder: WcF65njAcmPq8Kbn
 img: icons/containers/boxes/box-gift-blue.webp
 name: A Box Bound Tightly In Rope
 ownership:
   IMREvhAZtigyN7Gy: 3
   default: 0
-sort: 0
+sort: 100000
 system:
   amount: 1
   brand: ""

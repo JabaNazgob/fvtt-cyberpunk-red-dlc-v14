@@ -7,13 +7,13 @@ flags:
     _migration:
       current: 44
       previous: "38"
-folder: null
+folder: WcF65njAcmPq8Kbn
 img: icons/containers/chest/chest-simple-box-blue.webp
 name: A Box Freezing Cold To The Touch
 ownership:
   IMREvhAZtigyN7Gy: 3
   default: 0
-sort: 0
+sort: 400000
 system:
   amount: 1
   brand: ""
