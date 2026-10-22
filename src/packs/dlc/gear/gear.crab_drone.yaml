@@ -41,9 +41,10 @@ system:
         <li>
           Airhypo loaded with
           @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.6BM5WFyCyIM8lZib]{Black
-          Lace},
+       Lace},
           @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.UrKzMiFp4xFOLNIC]{Blue
-          Glass}, or
+       Glass},
+          or
           @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Biotoxin}
         </li>
       </ul>

@@ -72,7 +72,8 @@ system:
       <p>
         Provides immunity to
         @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.pQ2F7FsQvZJyZGXe]{Spinal
-        Injury} while increasing your natural flexibility.
+       Injury}
+        while increasing your natural flexibility.
       </p>
   favorite: false
   fireModes:

@@ -93,7 +93,8 @@ system:
       <p>
         A single use disposable very heavy pistol loaded with
         @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.oFcsVOL1UHu7MTnu]{8
-        Armor-Piercing Rounds}. It can't be concealed or reloaded.
+       Armor-Piercing Rounds}.
+        It can't be concealed or reloaded.
       </p>
   dvTable: DV Pistol
   equipped: owned

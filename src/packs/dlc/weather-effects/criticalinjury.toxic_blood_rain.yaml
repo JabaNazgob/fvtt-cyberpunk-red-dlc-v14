@@ -83,9 +83,10 @@ system:
         >
       </p>
       <p>
-        Toxic Blood Rain deals [[/r 3d6#Toxic Blood Rain]] damage as if it were a
+        Toxic Blood Rain deals [[/r 3d6#Toxic Blood Rain]] damage as if
+        it were a
         @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Vial of
-        Biotoxin}
+       Biotoxin}
       </p>
   favorite: false
   ignoredByBrowser: false

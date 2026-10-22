@@ -41,13 +41,13 @@ system:
           <li>
             <p>
               @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.mlYhAxuDlI3fP9hq]{Arasaka
-              Prototype Heat-Resistant Barrel}
+       Prototype Heat-Resistant Barrel}
             </p>
           </li>
           <li>
             <p>
               @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.nQF0M9n7cLvHS5RY]{Arasaka
-              Prototype Rechargable Battery}
+       Prototype Rechargable Battery}
             </p>
           </li>
         </ul>

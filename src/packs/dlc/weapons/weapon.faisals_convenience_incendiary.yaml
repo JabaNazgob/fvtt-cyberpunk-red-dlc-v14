@@ -97,7 +97,8 @@ system:
       <p>
         A single use disposable very heavy pistol loaded with
         @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.TIDzfziwhCxuIrnT]{8
-        Incendiary Rounds}. It can't be concealed or reloaded.
+       Incendiary Rounds}.
+        It can't be concealed or reloaded.
       </p>
   dvTable: DV Pistol
   equipped: owned

@@ -179,25 +179,25 @@ system:
         <li>
           <p>
             @UUID[Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.Pj3nZU2coYUGIjR3]{Bulletproof
-            Glass}
+       Glass}
           </p>
         </li>
         <li>
           <p>
             @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.lw6N5svBE702A6VE]{Seating
-            Upgrade}
+       Upgrade}
           </p>
         </li>
         <li>
           <p>
             @UUID[Compendium.cyberpunk-red-dlc.dlc_upgrades.Item.sAUmDCuqzJa6ioak]{Sealed
-            Environment}
+       Environment}
           </p>
         </li>
         <li>
           <p>
             @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.CeCRMtA7XTyEm3HM]{Security
-            Upgrade}
+       Upgrade}
           </p>
         </li>
       </ul>

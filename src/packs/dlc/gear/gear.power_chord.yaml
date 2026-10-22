@@ -77,14 +77,15 @@ system:
             Enable the supplied active effect only if your musician has a base skill
             rank of 16 in
             @UUID[Compendium.cyberpunk-red-core.core_skills-play-instrument.Item.WS1dbopsk9h1uTSn]{Play
-            Instrument (Guitar)}.
+       Instrument (Guitar)}.
           </p>
         </li>
         <li>
           <p>
             Non-Rockerboys suffer the
             @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.IKKcCgHU1lBJ4wVd]{Crushed
-            Fingers} injury if they play this instrument longer than 10 minutes.
+       Fingers}
+            injury if they play this instrument longer than 10 minutes.
           </p>
         </li>
         <li>

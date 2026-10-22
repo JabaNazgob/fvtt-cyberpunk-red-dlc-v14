@@ -25,9 +25,10 @@ system:
       <p>
         Contains one stack of
         @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.DvNSK7YR1z3mkyKi]{Numbered
-        Cards} and a
+       Cards}
+        and a
         @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.y4VW60EUNSRVTaXy]{Random
-        Face Card}.
+       Face Card}.
       </p>
   equipped: owned
   favorite: false

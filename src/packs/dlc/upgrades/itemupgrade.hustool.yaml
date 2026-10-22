@@ -34,7 +34,10 @@ system:
         complete and pay 10eb.
       </p>
       <blockquote>
-        <p>Available jobs are determined by the GM, roll [[/r 1d10 #HusTool]]</p>
+        <p>
+          Available jobs are determined by the GM, roll
+          [[/r 1d10 #HusTool]]
+        </p>
         <ul>
           <li>
             <p>

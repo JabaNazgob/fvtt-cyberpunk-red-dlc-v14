@@ -23,7 +23,7 @@ system:
     concealable: false
     isConcealed: false
   critFailEffect: jammed
-  damage: "8d6"
+  damage: 8d6
   damageCrit:
     bonus: 5
     count: 2
@@ -34,7 +34,8 @@ system:
         An Exotic Rocket Launcher. Anything with a biological brain must make a
         <strong>DV 19 Resist Torture/Drugs Check</strong> or suffer a
         @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.oi3MEn9Y8zdbooNe]{Brain
-        Injury} Critical Injury. Reloading takes <strong>2 Actions</strong>. Requires
+       Injury}
+        Critical Injury. Reloading takes <strong>2 Actions</strong>. Requires
         <strong>BODY 11+</strong> unless mounted.
       </p>
       <blockquote>
@@ -44,11 +45,14 @@ system:
         <p>
           Ask your GM if it is able to shoot and deal damage via standard
           @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.dHHTQLHUkd0IX8GI]{Rocket
-          (Armor-Piercing)} &amp;
+       (Armor-Piercing)}
+          &amp;
           @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.e2w1oKiv8t68chiI]{Rocket
-          (Smart)} or if it requires custom
+       (Smart)}
+          or if it requires custom
           @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.FzmgjXxurHiMxdlv]{Rocket
-          (Growler)} ammo that deals <strong>0</strong> damage.
+       (Growler)}
+          ammo that deals <strong>0</strong> damage.
         </p>
       </blockquote>
   dvTable: DV Rocket Launcher

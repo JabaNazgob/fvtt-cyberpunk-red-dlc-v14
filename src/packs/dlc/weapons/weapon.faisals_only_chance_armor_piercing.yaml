@@ -94,8 +94,9 @@ system:
       <p>
         A single use disposable shotgun loaded with
         @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.YFtrIcr5qsT2zO9V]{4
-        Armor-Piercing Rounds}. It can't be concealed or reloaded. If you roll 1 on
-        Attack (Crit fail) the gun jams and requires using an action to clear.
+       Armor-Piercing Rounds}.
+        It can't be concealed or reloaded. If you roll 1 on Attack (Crit fail) the gun
+        jams and requires using an action to clear.
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned

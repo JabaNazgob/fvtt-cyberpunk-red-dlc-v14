@@ -24,7 +24,8 @@ system:
       <p>
         One meal. Which
         @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.wYySmunH9lfLbhN9]{Kibble
-        Flavor} will it be?
+       Flavor}
+        will it be?
       </p>
   equipped: owned
   favorite: false

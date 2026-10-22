@@ -87,10 +87,10 @@ system:
         >
       </p>
       <p>
-        Inhaling the Inversion Smog deals [[/r 2d6#Inversion Smog]] damage as if it
-        were a
+        Inhaling the Inversion Smog deals [[/r 2d6#Inversion Smog]]
+        damage as if it were a
         @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Vial of
-        Poison}
+       Poison}
       </p>
   favorite: false
   ignoredByBrowser: false

@@ -93,7 +93,8 @@ system:
       <p>
         A single use disposable very heavy pistol loaded with
         @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.NQP4I9heyv9fXj46]{8 Basic
-        Rounds}. It can't be concealed or reloaded.
+       Rounds}.
+        It can't be concealed or reloaded.
       </p>
   dvTable: DV Pistol
   equipped: owned

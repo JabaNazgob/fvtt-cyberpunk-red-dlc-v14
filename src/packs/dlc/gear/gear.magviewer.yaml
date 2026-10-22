@@ -28,7 +28,8 @@ system:
           target if you make a successful <strong>Complimentary Skill Check</strong>.
           This bonus does not stack with the bonuses provided by
           @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping
-          Scope} or
+       Scope}
+          or
           @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.
         </p>
       </blockquote>

@@ -24,11 +24,12 @@ system:
         This foam lined carrying case can hold all of the components required to
         maintain and transform the
         @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.OqCYiOiTR4zpimAq]{ModFire
-        10X (Pistol)} into an
+       10X (Pistol)}
+        into an
         @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.ncTaJeIRbjmLuAxM]{SMG
-        }or
+       }or
         @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.oXsfrhGrtFwR75rr]{Assault
-        Rifle}.
+       Rifle}.
       </p>
   equipped: owned
   favorite: false

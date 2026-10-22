@@ -41,7 +41,7 @@ system:
           <li>
             <p>
               @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.P6IU6Vm16NgPHJt4]{Bronson
-              Extract}
+       Extract}
             </p>
           </li>
           <li>
@@ -57,7 +57,7 @@ system:
           <li>
             <p>
               @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.eejNk5t7hvr5BsJA]{Powdered
-              Delta}
+       Delta}
             </p>
           </li>
         </ul>

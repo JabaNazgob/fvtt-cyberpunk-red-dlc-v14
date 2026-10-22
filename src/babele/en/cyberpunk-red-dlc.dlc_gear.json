@@ -72,43 +72,43 @@
     },
     "A Box Bound Tightly In Rope": {
       "name": "A Box Bound Tightly In Rope",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uq1cseo3a1hAx7Pg]{A\n  Box Bound Tightly in Rope}\n</p>\n"
+      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.uq1cseo3a1hAx7Pg]{A\n Box Bound Tightly in Rope}\n</p>\n"
     },
     "A Box Covered In Chipped Paint": {
       "name": "A Box Covered In Chipped Paint",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.xWZowpQzG7fpmoP7]{A\n  Box Covered in Chipped Paint}\n</p>\n"
+      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.xWZowpQzG7fpmoP7]{A\n Box Covered in Chipped Paint}\n</p>\n"
     },
     "A Box Dripping Wet With Fluid": {
       "name": "A Box Dripping Wet With Fluid",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.zRHyYnlEqNlTA4l5]{A\n  Box Dripping Wet With Fluid}\n</p>\n"
+      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.zRHyYnlEqNlTA4l5]{A\n Box Dripping Wet With Fluid}\n</p>\n"
     },
     "A Box Freezing Cold To The Touch": {
       "name": "A Box Freezing Cold To The Touch",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.VszxZ4TJjQ8FGuoc]{A\n  Box Freezing Cold To The Touch}\n</p>\n"
+      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.VszxZ4TJjQ8FGuoc]{A\n Box Freezing Cold To The Touch}\n</p>\n"
     },
     "A Box Handsomely Gift Wrapped": {
       "name": "A Box Handsomely Gift Wrapped",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.4S3emhUCIIDNoTAg]{A\n  Box Handsomely Gift Wrapped}\n</p>\n"
+      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.4S3emhUCIIDNoTAg]{A\n Box Handsomely Gift Wrapped}\n</p>\n"
     },
     "A Box Marked With A Lime Green X": {
       "name": "A Box Marked With A Lime Green X",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.T6pocp9VStxtFPzP]{A\n  Box Marked With A Lime Green X}\n</p>\n"
+      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.T6pocp9VStxtFPzP]{A\n Box Marked With A Lime Green X}\n</p>\n"
     },
     "A Box Melted Out Of Shape": {
       "name": "A Box Melted Out Of Shape",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.bOtq937SNIahmbeK]{A\n  Box Melted Out Of Shape}\n</p>\n"
+      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.bOtq937SNIahmbeK]{A\n Box Melted Out Of Shape}\n</p>\n"
     },
     "A Box Reeking Of Oil": {
       "name": "A Box Reeking Of Oil",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.EVPuZ21eNOpEycGQ]{A\n  Box Reeking Of Oil}\n</p>\n"
+      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.EVPuZ21eNOpEycGQ]{A\n Box Reeking Of Oil}\n</p>\n"
     },
     "A Box Sealed With A Lipstick Kiss": {
       "name": "A Box Sealed With A Lipstick Kiss",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.McQc33tLYAp7djIV]{A\n  Box Sealed With A Lipstick Kiss}\n</p>\n"
+      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.McQc33tLYAp7djIV]{A\n Box Sealed With A Lipstick Kiss}\n</p>\n"
     },
     "A Box Showing Signs Of Repair": {
       "name": "A Box Showing Signs Of Repair",
-      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.WmWdGRlhzhA2ZcmV]{A\n  Box Showing Signs Of Repair}\n</p>\n"
+      "description": "<p>\n  Roll once from\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.WmWdGRlhzhA2ZcmV]{A\n Box Showing Signs Of Repair}\n</p>\n"
     },
     "A Touch of Luxury Furniture Set": {
       "name": "A Touch of Luxury Furniture Set",
@@ -180,7 +180,7 @@
     },
     "CrAB Drone": {
       "name": "CrAB Drone",
-      "description": "<p><strong>Active Defense Spider Walking Drone</strong></p>\n<p><strong>Stats:</strong> 6 MOVE - 7SP - 40HP</p>\n<p>\n  Can be neutralized in 5 min with a\n  <strong>DV21 Electronic/Security Tech</strong> check.\n</p>\n<p><strong>Default Programming:</strong></p>\n<ul>\n  <li><p>Target enters a restricted area or fails a biometric scan</p></li>\n  <li><p>Attack target with Airhypo</p></li>\n</ul>\n<p><strong>Range:</strong></p>\n<p>\n  Perimeter of a NET Architecture-equipped building or 50m/yds away from a\n  portable NET Architecture.\n</p>\n<p><strong>Loadout:</strong></p>\n<ul>\n  <li>Observation Camera</li>\n  <li>Grip Feet</li>\n  <li>\n    Airhypo loaded with\n    @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.6BM5WFyCyIM8lZib]{Black\n    Lace},\n    @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.UrKzMiFp4xFOLNIC]{Blue\n    Glass}, or\n    @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Biotoxin}\n  </li>\n</ul>\n"
+      "description": "<p><strong>Active Defense Spider Walking Drone</strong></p>\n<p><strong>Stats:</strong> 6 MOVE - 7SP - 40HP</p>\n<p>\n  Can be neutralized in 5 min with a\n  <strong>DV21 Electronic/Security Tech</strong> check.\n</p>\n<p><strong>Default Programming:</strong></p>\n<ul>\n  <li><p>Target enters a restricted area or fails a biometric scan</p></li>\n  <li><p>Attack target with Airhypo</p></li>\n</ul>\n<p><strong>Range:</strong></p>\n<p>\n  Perimeter of a NET Architecture-equipped building or 50m/yds away from a\n  portable NET Architecture.\n</p>\n<p><strong>Loadout:</strong></p>\n<ul>\n  <li>Observation Camera</li>\n  <li>Grip Feet</li>\n  <li>\n    Airhypo loaded with\n    @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.6BM5WFyCyIM8lZib]{Black\n Lace},\n    @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.UrKzMiFp4xFOLNIC]{Blue\n Glass},\n    or\n    @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Biotoxin}\n  </li>\n</ul>\n"
     },
     "Creative Couture Furniture Set": {
       "name": "Creative Couture Furniture Set",
@@ -236,7 +236,7 @@
     },
     "Drink Master 5000": {
       "name": "Drink Master 5000",
-      "description": "<p>\n  A large, cabinet-sized, drink mixing machine seen commonly used in bars.\n  Provides 30 HP for the purposes of cover.\n</p>\n<blockquote>\n  <p>\n    See the <strong>Drinktionary</strong> on page 16 of Mixing Drinks—Changing\n    Lives for associated recipes. Each ingredient canister holds 100 units and\n    must be replaced when empty. You may use the following items to track Drink\n    Master 5000's fill state:\n  </p>\n  <ul>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.Ig15Vp79R4lMkHGu]{Adelhyde}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.P6IU6Vm16NgPHJt4]{Bronson\n        Extract}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.NjFzze9SENjPu2U3]{Flanergide}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.87tePbq5yTJxEg49]{Karmotrine}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.eejNk5t7hvr5BsJA]{Powdered\n        Delta}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
+      "description": "<p>\n  A large, cabinet-sized, drink mixing machine seen commonly used in bars.\n  Provides 30 HP for the purposes of cover.\n</p>\n<blockquote>\n  <p>\n    See the <strong>Drinktionary</strong> on page 16 of Mixing Drinks—Changing\n    Lives for associated recipes. Each ingredient canister holds 100 units and\n    must be replaced when empty. You may use the following items to track Drink\n    Master 5000's fill state:\n  </p>\n  <ul>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.Ig15Vp79R4lMkHGu]{Adelhyde}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.P6IU6Vm16NgPHJt4]{Bronson\n Extract}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.NjFzze9SENjPu2U3]{Flanergide}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.87tePbq5yTJxEg49]{Karmotrine}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.eejNk5t7hvr5BsJA]{Powdered\n Delta}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
     },
     "Fire Safe": {
       "name": "Fire Safe",
@@ -332,7 +332,7 @@
     },
     "Kibble Pack: Mystery": {
       "name": "Kibble Pack: Mystery",
-      "description": "<p>\n  One meal. Which\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.wYySmunH9lfLbhN9]{Kibble\n  Flavor} will it be?\n</p>\n"
+      "description": "<p>\n  One meal. Which\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.wYySmunH9lfLbhN9]{Kibble\n Flavor}\n  will it be?\n</p>\n"
     },
     "Kibble Pack: Paprika": {
       "name": "Kibble Pack: Paprika",
@@ -376,7 +376,7 @@
     },
     "MagViewer": {
       "name": "MagViewer",
-      "description": "<p>Binoculars meant for spotting. Provides detail up to 800m/yds.</p>\n<blockquote>\n  <p>\n    Provides another individual with a +1 to their attack roll against a shared\n    target if you make a successful <strong>Complimentary Skill Check</strong>.\n    This bonus does not stack with the bonuses provided by\n    @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping\n    Scope} or\n    @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.\n  </p>\n</blockquote>\n"
+      "description": "<p>Binoculars meant for spotting. Provides detail up to 800m/yds.</p>\n<blockquote>\n  <p>\n    Provides another individual with a +1 to their attack roll against a shared\n    target if you make a successful <strong>Complimentary Skill Check</strong>.\n    This bonus does not stack with the bonuses provided by\n    @UUID[Compendium.cyberpunk-red-core.core_upgrades.Item.Ryex0KHeeDzPQwmN]{Sniping\n Scope}\n    or\n    @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.uApwuxpuIJMe47Vn]{TeleOptics}.\n  </p>\n</blockquote>\n"
     },
     "Master Mechanic's Tool Kit": {
       "name": "Master Mechanic's Tool Kit",
@@ -416,7 +416,7 @@
     },
     "Power Chord": {
       "name": "Power Chord",
-      "description": "<p>Shred righteous bars with this electric guitar.</p>\n<ul>\n  <li>\n    <p>\n      Enable the supplied active effect only if your musician has a base skill\n      rank of 16 in\n      @UUID[Compendium.cyberpunk-red-core.core_skills-play-instrument.Item.WS1dbopsk9h1uTSn]{Play\n      Instrument (Guitar)}.\n    </p>\n  </li>\n  <li>\n    <p>\n      Non-Rockerboys suffer the\n      @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.IKKcCgHU1lBJ4wVd]{Crushed\n      Fingers} injury if they play this instrument longer than 10 minutes.\n    </p>\n  </li>\n  <li>\n    <p>Cannot be damaged by fire or any weapon that deals less than 6d6.</p>\n  </li>\n  <li><p>Tech-Upgradable</p></li>\n</ul>\n"
+      "description": "<p>Shred righteous bars with this electric guitar.</p>\n<ul>\n  <li>\n    <p>\n      Enable the supplied active effect only if your musician has a base skill\n      rank of 16 in\n      @UUID[Compendium.cyberpunk-red-core.core_skills-play-instrument.Item.WS1dbopsk9h1uTSn]{Play\n Instrument (Guitar)}.\n    </p>\n  </li>\n  <li>\n    <p>\n      Non-Rockerboys suffer the\n      @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.IKKcCgHU1lBJ4wVd]{Crushed\n Fingers}\n      injury if they play this instrument longer than 10 minutes.\n    </p>\n  </li>\n  <li>\n    <p>Cannot be damaged by fire or any weapon that deals less than 6d6.</p>\n  </li>\n  <li><p>Tech-Upgradable</p></li>\n</ul>\n"
     },
     "PressureTech Shower Head": {
       "name": "PressureTech Shower Head",

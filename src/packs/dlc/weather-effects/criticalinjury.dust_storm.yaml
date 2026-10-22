@@ -89,7 +89,8 @@ system:
       <p>
         Inhaling the Dust Storm may cause the
         @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.xTQ2T50UGNY8DrHl]{Foreign
-        Object} injury.
+       Object}
+        injury.
       </p>
   favorite: false
   ignoredByBrowser: false

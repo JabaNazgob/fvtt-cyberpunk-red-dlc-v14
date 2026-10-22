@@ -37,19 +37,19 @@ system:
         <li>
           <p>
             @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.wIMBD44ZU3iJ6jNI]{Arasaka
-            Acid}
+       Acid}
           </p>
         </li>
         <li>
           <p>
             @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.9diHOp9hSafmHRqC]{Arasaka
-            Fire}
+       Fire}
           </p>
         </li>
         <li>
           <p>
             @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.LumJXCKgGQTLZJWu]{Arasaka
-            Wound Salt}
+       Wound Salt}
           </p>
         </li>
       </ul>

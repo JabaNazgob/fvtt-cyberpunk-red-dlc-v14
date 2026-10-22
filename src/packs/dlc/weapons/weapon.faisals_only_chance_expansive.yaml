@@ -99,8 +99,9 @@ system:
       <p>
         A single use disposable shotgun loaded with
         @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.WjWIkjjjMW4j5Bzp]{4
-        Expansive Rounds}. If you roll 1 on Attack (Crit fail) the gun jams and
-        requires using an action to clear.
+       Expansive Rounds}.
+        If you roll 1 on Attack (Crit fail) the gun jams and requires using an action
+        to clear.
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned

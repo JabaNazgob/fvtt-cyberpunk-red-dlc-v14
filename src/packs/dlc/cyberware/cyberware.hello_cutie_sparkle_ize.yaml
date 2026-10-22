@@ -85,7 +85,8 @@ system:
           Use an action to force a target to make a
           <strong>DV15 Resist/Torture Drugs Check</strong> or suffer
           @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged
-          Eye} critical injury.
+       Eye}
+          critical injury.
         </p>
       </blockquote>
   dvTable: ""

@@ -26,8 +26,9 @@ system:
     value: |
       <p>
         @UUID[Compendium.cyberpunk-red-core.core_weapons.Item.29p2bEfPcAWHpsTY]{A
-        Thrown Weapon} that sticks to surfaces and plays a musical laser light show
-        before exploding into colorful smoke and glitter.
+       Thrown Weapon}
+        that sticks to surfaces and plays a musical laser light show before exploding
+        into colorful smoke and glitter.
       </p>
       <blockquote>
         <ul>
@@ -43,7 +44,7 @@ system:
             <p>
               After 2 rounds the grenade detonates like a
               @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Grenade
-              (Smoke)}
+       (Smoke)}
             </p>
           </li>
         </ul>

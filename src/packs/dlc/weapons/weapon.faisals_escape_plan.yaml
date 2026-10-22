@@ -38,8 +38,9 @@ system:
         <p>
           Can be thrown as if it were a
           @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Smoke
-          Grenade}. When thrown, any installed attatchments and loaded ammunition are
-          Destroyed Beyond Repair.
+       Grenade}.
+          When thrown, any installed attatchments and loaded ammunition are Destroyed
+          Beyond Repair.
         </p>
       </blockquote>
   dvTable: DV Pistol

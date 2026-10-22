@@ -33,7 +33,7 @@ system:
       <p>
         Cannot be installed in
         @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup
-        Shield}.
+       Shield}.
       </p>
   equipped: owned
   favorite: false

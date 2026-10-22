@@ -98,8 +98,9 @@ system:
       <p>
         A single use disposable shotgun loaded with
         @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.qRKLIX7yU2n83JKJ]{4 Rubber
-        Rounds}. If you roll 1 on Attack (Crit fail) the gun jams and requires using
-        an action to clear.
+       Rounds}.
+        If you roll 1 on Attack (Crit fail) the gun jams and requires using an action
+        to clear.
       </p>
   dvTable: DV Shotgun (Slug)
   equipped: owned
