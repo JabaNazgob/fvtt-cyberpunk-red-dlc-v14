@@ -10,7 +10,7 @@
     },
     "Big Dreem Rounds": {
       "name": "Munitions Big Dreem",
-      "description": "<p>\n  Custom Ammo for use only with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.dnfLVJnDKlEdLkpy]{Big\n  Dreem}.\n</p>\n"
+      "description": "<p>\n  Custom Ammo for use only with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.dnfLVJnDKlEdLkpy]{Big\n Dreem}.\n</p>\n"
     },
     "Dazzle Dazzle ModBall": {
       "name": "Dazzle Dazzle ModBall",
@@ -46,7 +46,7 @@
     },
     "Hello Cutie Chromatic Rave Grenade": {
       "name": "Hello Cutie Chromatic Rave Grenade",
-      "description": "<p>\n  @UUID[Compendium.cyberpunk-red-core.core_weapons.Item.29p2bEfPcAWHpsTY]{A\n  Thrown Weapon} that sticks to surfaces and plays a musical laser light show\n  before exploding into colorful smoke and glitter.\n</p>\n<blockquote>\n  <ul>\n    <li><p>Cannot be loaded into grenade launchers.</p></li>\n    <li>\n      <p>\n        Causes 2 rounds of distraction that impose a\n        <strong>-2 penalty</strong> to all checks for everyone within 10m/yd if\n        they fail a <strong>DV13 Concentration Check</strong>.\n      </p>\n    </li>\n    <li>\n      <p>\n        After 2 rounds the grenade detonates like a\n        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Grenade\n        (Smoke)}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
+      "description": "<p>\n  @UUID[Compendium.cyberpunk-red-core.core_weapons.Item.29p2bEfPcAWHpsTY]{A\n Thrown Weapon}\n  that sticks to surfaces and plays a musical laser light show before exploding\n  into colorful smoke and glitter.\n</p>\n<blockquote>\n  <ul>\n    <li><p>Cannot be loaded into grenade launchers.</p></li>\n    <li>\n      <p>\n        Causes 2 rounds of distraction that impose a\n        <strong>-2 penalty</strong> to all checks for everyone within 10m/yd if\n        they fail a <strong>DV13 Concentration Check</strong>.\n      </p>\n    </li>\n    <li>\n      <p>\n        After 2 rounds the grenade detonates like a\n        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Grenade\n (Smoke)}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
     },
     "Janus Hex Heavy Scent Balls": {
       "name": "Janus Hex Heavy Scent Balls",

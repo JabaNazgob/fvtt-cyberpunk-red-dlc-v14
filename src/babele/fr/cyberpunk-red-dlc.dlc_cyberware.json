@@ -68,7 +68,7 @@
     },
     "Cyberspine": {
       "name": "Cyberspine",
-      "description": "<p>\n  Provides immunity to\n  @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.pQ2F7FsQvZJyZGXe]{Spinal\n  Injury} while increasing your natural flexibility.\n</p>\n"
+      "description": "<p>\n  Provides immunity to\n  @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.pQ2F7FsQvZJyZGXe]{Spinal\n Injury}\n  while increasing your natural flexibility.\n</p>\n"
     },
     "DeathTrance": {
       "name": "Transe de Mort",
@@ -125,7 +125,7 @@
     },
     "Heavy Subdermal Plating": {
       "name": "Plaque subdermique lourde",
-      "description": "<p>\n  <strong>External Body Borgware</strong> requires BODY 10 or FBC. Protects\n  user's head &amp; body with integrated SP13 armor.\n</p>\n<blockquote>\n  <p>\n    Add\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_armor.Item.kEMGWjMaYcA4rGyJ]{Heavy\n    Subdermal Plating} to track SP\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  <strong>External Body Borgware</strong> requires BODY 10 or FBC. Protects\n  user's head &amp; body with integrated SP13 armor.\n</p>\n<blockquote>\n  <p>\n    Add\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_armor.Item.kEMGWjMaYcA4rGyJ]{Heavy\n Subdermal Plating}\n    to track SP\n  </p>\n</blockquote>\n",
       "dvTable": ""
     },
     "Hello Cutie Mono-Paw": {
@@ -135,7 +135,7 @@
     },
     "Hello Cutie Sparkle-Ize": {
       "name": "Hello Cutie Sparkle-Ize",
-      "description": "<p>\n  Must be Paired: Create a powerful beam of light up to 25m/yd that illuminates\n  your surroundings.\n</p>\n<blockquote>\n  <p>\n    Use an action to force a target to make a\n    <strong>DV15 Resist/Torture Drugs Check</strong> or suffer\n    @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged\n    Eye} critical injury.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  Must be Paired: Create a powerful beam of light up to 25m/yd that illuminates\n  your surroundings.\n</p>\n<blockquote>\n  <p>\n    Use an action to force a target to make a\n    <strong>DV15 Resist/Torture Drugs Check</strong> or suffer\n    @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged\n Eye}\n    critical injury.\n  </p>\n</blockquote>\n",
       "dvTable": ""
     },
     "Holo Projector Palm": {
@@ -302,7 +302,7 @@
     },
     "Xtra-Dex Smart Glove": {
       "name": "Gant Intelligent Xtra-Dex",
-      "description": "<p>\n  A Smart Glove with Cyberfinger support. Has 2 Option Slots for Cyberarm\n  Options and is treated as a\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular\n  Finger Cyberhand} for the sake of installing the 5 supported Cyberfingers*.\n</p>\n<p>\n  Requires Interface Plugs to access Cyberarm/Cyberfinger Options installed in\n  the glove.\n</p>\n<p>*Modular Finger Cyberhand must be added after Installation.</p>\n",
+      "description": "<p>\n  A Smart Glove with Cyberfinger support. Has 2 Option Slots for Cyberarm\n  Options and is treated as a\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular\n Finger Cyberhand}\n  for the sake of installing the 5 supported Cyberfingers*.\n</p>\n<p>\n  Requires Interface Plugs to access Cyberarm/Cyberfinger Options installed in\n  the glove.\n</p>\n<p>*Modular Finger Cyberhand must be added after Installation.</p>\n",
       "dvTable": ""
     },
     "Zero Gravity Thrusters": {

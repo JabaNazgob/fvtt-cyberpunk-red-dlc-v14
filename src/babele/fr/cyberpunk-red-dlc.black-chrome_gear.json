@@ -12,7 +12,7 @@
     },
     "Drink Master 3000": {
       "name": "Cocktailotron 3000",
-      "description": "<p>\n  Concoct delicious beverages from a library of 3000 recipes including Smash.\n</p>\n<blockquote>\n  <p>\n    Can make\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.nswZViDvZUMIKyZe]{10\n    drinks} before the internal reservoir needs to be refilled with chemicals\n    worth 100eb.\n  </p>\n  <p>\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.nswZViDvZUMIKyZe]{Drink\n    Master 3000 Beverages} can be used to track the fill status of Drink Master\n    3000's internal reservoir.\n  </p>\n</blockquote>\n"
+      "description": "<p>\n  Concoct delicious beverages from a library of 3000 recipes including Smash.\n</p>\n<blockquote>\n  <p>\n    Can make\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.nswZViDvZUMIKyZe]{10\n drinks}\n    before the internal reservoir needs to be refilled with chemicals worth\n    100eb.\n  </p>\n  <p>\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.nswZViDvZUMIKyZe]{Drink\n Master 3000 Beverages}\n    can be used to track the fill status of Drink Master 3000's internal\n    reservoir.\n  </p>\n</blockquote>\n"
     },
     "EL-F4-NT Linear Frame": {
       "name": "Charpente linéaire EL-PH4-NT",
@@ -72,7 +72,7 @@
     },
     "Modfire 10X Carrying Case": {
       "name": "Modfire 10X Carrying Case",
-      "description": "<p>\n  This foam lined carrying case can hold all of the components required to\n  maintain and transform the\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.OqCYiOiTR4zpimAq]{ModFire\n  10X (Pistol)} into an\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.ncTaJeIRbjmLuAxM]{SMG\n  }or\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.oXsfrhGrtFwR75rr]{Assault\n  Rifle}.\n</p>\n"
+      "description": "<p>\n  This foam lined carrying case can hold all of the components required to\n  maintain and transform the\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.OqCYiOiTR4zpimAq]{ModFire\n 10X (Pistol)}\n  into an\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.ncTaJeIRbjmLuAxM]{SMG\n }or\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.oXsfrhGrtFwR75rr]{Assault\n Rifle}.\n</p>\n"
     },
     "Mr. Biscuit Multi-Food Processor": {
       "name": "Robot de transformation alimentaire toutes denrées M. Biscuit",

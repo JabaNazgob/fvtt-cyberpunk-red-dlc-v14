@@ -6,12 +6,12 @@
   "entries": {
     "Arasaka Prototype Variable Assault Rifle": {
       "name": "Fusil d'assaut modulable prototype Arasaka",
-      "description": "<p>\n  The Arasaka Prototype Variable Assault Rifle is an Excellent Quality Assault\n  Rifle. Assuming you have all the parts, it can use an alternate unique railgun\n  mode.\n</p>\n<blockquote>\n  <p>Railgun Mode requires:</p>\n  <ul>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.mlYhAxuDlI3fP9hq]{Arasaka\n        Prototype Heat-Resistant Barrel}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.8nSzcjNlyulWrZtN]{Arasaka\n        Prototype Railgun Upgrade}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.nQF0M9n7cLvHS5RY]{Arasaka\n        Prototype Rechargable Battery}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n",
+      "description": "<p>\n  The Arasaka Prototype Variable Assault Rifle is an Excellent Quality Assault\n  Rifle. Assuming you have all the parts, it can use an alternate unique railgun\n  mode.\n</p>\n<blockquote>\n  <p>Railgun Mode requires:</p>\n  <ul>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.mlYhAxuDlI3fP9hq]{Arasaka\n Prototype Heat-Resistant Barrel}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.8nSzcjNlyulWrZtN]{Arasaka\n Prototype Railgun Upgrade}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.nQF0M9n7cLvHS5RY]{Arasaka\n Prototype Rechargable Battery}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n",
       "dvTable": "DV Assault Rifle"
     },
     "Arasaka Weeping Reaver Katana": {
       "name": "Katana Larme tranchante Arasaka",
-      "description": "<p>Excellent Quality Two Handed Exotic Very Heavy Melee Weapon.</p>\n<p>\n  Contains three refillable chambers in the hilt for storing proprietary blade\n  coatings:\n</p>\n<ul>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.wIMBD44ZU3iJ6jNI]{Arasaka\n      Acid}\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.9diHOp9hSafmHRqC]{Arasaka\n      Fire}\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.LumJXCKgGQTLZJWu]{Arasaka\n      Wound Salt}\n    </p>\n  </li>\n</ul>\n",
+      "description": "<p>Excellent Quality Two Handed Exotic Very Heavy Melee Weapon.</p>\n<p>\n  Contains three refillable chambers in the hilt for storing proprietary blade\n  coatings:\n</p>\n<ul>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.wIMBD44ZU3iJ6jNI]{Arasaka\n Acid}\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.9diHOp9hSafmHRqC]{Arasaka\n Fire}\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_ammo.Item.LumJXCKgGQTLZJWu]{Arasaka\n Wound Salt}\n    </p>\n  </li>\n</ul>\n",
       "dvTable": ""
     },
     "E-TACK Public Defender": {
@@ -31,7 +31,7 @@
     },
     "Faisal's Magna Knuckles": {
       "name": "Poing de magma de Faisal",
-      "description": "<p>\n  One Handed Exotic Medium Melee Weapon. Battery powered EMP effect which can\n  deactivate cyberware.\n  @UUID[Compendium.cyberpunk-red-core.other_macros.Macro.z8NN97JkdZUUFYud]{Get\n  EMP'd Items}\n</p>\n",
+      "description": "<p>\n  One Handed Exotic Medium Melee Weapon. Battery powered EMP effect which can\n  deactivate cyberware.\n  @UUID[Compendium.cyberpunk-red-core.other_macros.Macro.z8NN97JkdZUUFYud]{Get\n EMP'd Items}\n</p>\n",
       "dvTable": ""
     },
     "Federated Arms Pepper Shaker": {
@@ -131,7 +131,7 @@
     },
     "ModFire 10X (Pistol)": {
       "name": "ModFire 10X (Pistolet)",
-      "description": "<p>\n  The ModFire 10X is an <strong>Exotic Heavy Pistol</strong> that can also be\n  transformed into an <strong>Exotic SMG</strong> or an\n  <strong>Exotic Assault Rifle</strong>.\n</p>\n<blockquote>\n  <p>\n    The ModFire 10X and all its components fit neatly into a sleek\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.RVr6mvr9BQ6hgS1L]{carrying\n    case}. Transforming the weapon from one profile to another takes 1 minute as\n    long as you have all the requisite parts.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  The ModFire 10X is an <strong>Exotic Heavy Pistol</strong> that can also be\n  transformed into an <strong>Exotic SMG</strong> or an\n  <strong>Exotic Assault Rifle</strong>.\n</p>\n<blockquote>\n  <p>\n    The ModFire 10X and all its components fit neatly into a sleek\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_gear.Item.RVr6mvr9BQ6hgS1L]{carrying\n case}.\n    Transforming the weapon from one profile to another takes 1 minute as long\n    as you have all the requisite parts.\n  </p>\n</blockquote>\n",
       "dvTable": "DV Pistol"
     },
     "Nomad Rocker": {
@@ -151,12 +151,12 @@
     },
     "Pursuit Security Bouncer": {
       "name": "Foudre de paume Pursuit Security",
-      "description": "<p>Battery powered glove.</p>\n<p>\n  One Handed Exotic Combination Stun Baton and Microwaver.\n  @UUID[Compendium.cyberpunk-red-core.other_macros.Macro.z8NN97JkdZUUFYud]{Get\n  EMP'd Items}\n</p>\n",
+      "description": "<p>Battery powered glove.</p>\n<p>\n  One Handed Exotic Combination Stun Baton and Microwaver.\n  @UUID[Compendium.cyberpunk-red-core.other_macros.Macro.z8NN97JkdZUUFYud]{Get\n EMP'd Items}\n</p>\n",
       "dvTable": ""
     },
     "Pursuit Security Incorporated Crowd Buster": {
       "name": "Contrôleur de foules Pursuit Security Incorporated",
-      "description": "<p>\n  The Pursuit Security Inc. Crowd Buster is an Assault Rifle with a unique\n  alternate firing mode. It comes with a free pair of\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.NYxdMQPHdjnpYNLE]{Auto\n  Level Dampening Ear Protectors}.\n</p>\n",
+      "description": "<p>\n  The Pursuit Security Inc. Crowd Buster is an Assault Rifle with a unique\n  alternate firing mode. It comes with a free pair of\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.NYxdMQPHdjnpYNLE]{Auto\n Level Dampening Ear Protectors}.\n</p>\n",
       "dvTable": "DV Assault Rifle"
     },
     "Ranger Combat Boomerang": {

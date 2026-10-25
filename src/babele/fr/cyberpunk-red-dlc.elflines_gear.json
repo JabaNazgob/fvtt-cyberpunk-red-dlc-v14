@@ -16,7 +16,7 @@
     },
     "10 Sacred Herbs": {
       "name": "10 Sacred Herbs",
-      "description": "<p>\n  Scan this code using the ELO Elftracker to recieve 10\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.zDjspn0R9fgRILpv]{Sacred\n  Herbs}!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌█▌▌ ▌▌█▌▌▌ █▌█▌▌▌ █▌▌█▌▌▌█▌▌█▌ ▌█▌▌▌ ▌█▌█▌█▌▌ ▌▌█▌▌▌█▌ ▌█▌▌█▌\n    ▌▌▌▌█▌ ▌█▌▌ █▌▌█▌▌█▌▌▌ █▌▌█▌▌█▌ ▌▌█▌▌▌█▌ ▌▌█▌▌ ▌█▌▌█▌▌█▌ ▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
+      "description": "<p>\n  Scan this code using the ELO Elftracker to recieve 10\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.zDjspn0R9fgRILpv]{Sacred\n Herbs}!\n</p>\n<p>\n  <span style=\"font-size: 0.25rem\"\n    >▌ ▌█▌█▌▌█▌▌ ▌▌█▌▌▌ █▌█▌▌▌ █▌▌█▌▌▌█▌▌█▌ ▌█▌▌▌ ▌█▌█▌█▌▌ ▌▌█▌▌▌█▌ ▌█▌▌█▌\n    ▌▌▌▌█▌ ▌█▌▌ █▌▌█▌▌█▌▌▌ █▌▌█▌▌█▌ ▌▌█▌▌▌█▌ ▌▌█▌▌ ▌█▌▌█▌▌█▌ ▌▌ ▌█▌█▌▌</span\n  >\n</p>\n"
     },
     "500 Gold Coins": {
       "name": "500 Gold Coins",
@@ -28,11 +28,11 @@
     },
     "Booster Box": {
       "name": "Booster Box",
-      "description": "<p>\n  A box of 10 ELO-TCG\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.nEITubqXVIVK36c2]{Booster\n  Packs}.\n</p>\n"
+      "description": "<p>\n  A box of 10 ELO-TCG\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_gear.Item.nEITubqXVIVK36c2]{Booster\n Packs}.\n</p>\n"
     },
     "Booster Pack": {
       "name": "Booster Pack",
-      "description": "<p>An unopened pack of Elflines Online trading cards.</p>\n<p>\n  Contains one stack of\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.DvNSK7YR1z3mkyKi]{Numbered\n  Cards} and a\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.y4VW60EUNSRVTaXy]{Random\n  Face Card}.\n</p>\n"
+      "description": "<p>An unopened pack of Elflines Online trading cards.</p>\n<p>\n  Contains one stack of\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.DvNSK7YR1z3mkyKi]{Numbered\n Cards}\n  and a\n  @UUID[Compendium.cyberpunk-red-dlc.elflines_rolltables.RollTable.y4VW60EUNSRVTaXy]{Random\n Face Card}.\n</p>\n"
     },
     "Curse of Enthernox": {
       "name": "Curse of Enthernox",

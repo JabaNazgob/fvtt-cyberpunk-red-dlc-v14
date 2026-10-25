@@ -51,7 +51,7 @@
     },
     "Big Dreem": {
       "name": "Big Dreem",
-      "description": "<p>\n  Exotic SMG. Autofire only. Even if you drop the weapon, it will continue to\n  Autofire.\n</p>\n<blockquote>\n  <p>\n    Can only load custom\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.OCEWvjde4ZKq78ao]{Big Dreem\n    Rounds}, sold seperately.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  Exotic SMG. Autofire only. Even if you drop the weapon, it will continue to\n  Autofire.\n</p>\n<blockquote>\n  <p>\n    Can only load custom\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.OCEWvjde4ZKq78ao]{Big Dreem\n Rounds},\n    sold seperately.\n  </p>\n</blockquote>\n",
       "dvTable": "DV SMG (Autofire)"
     },
     "Burst Flamethrower": {
@@ -156,57 +156,57 @@
     },
     "Faisal's Convenience (Armor-Piercing)": {
       "name": "Faisal's Convenience (Armor-Piercing)",
-      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.oFcsVOL1UHu7MTnu]{8\n  Armor-Piercing Rounds}. It can't be concealed or reloaded.\n</p>\n",
+      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.oFcsVOL1UHu7MTnu]{8\n Armor-Piercing Rounds}.\n  It can't be concealed or reloaded.\n</p>\n",
       "dvTable": "DV Pistol"
     },
     "Faisal's Convenience (Basic)": {
       "name": "Faisal's Convenience (Basic)",
-      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.NQP4I9heyv9fXj46]{8 Basic\n  Rounds}. It can't be concealed or reloaded.\n</p>\n",
+      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.NQP4I9heyv9fXj46]{8 Basic\n Rounds}.\n  It can't be concealed or reloaded.\n</p>\n",
       "dvTable": "DV Pistol"
     },
     "Faisal's Convenience (Expansive)": {
       "name": "Faisal's Convenience (Expansive)",
-      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.6FCKkulioIa0IQOr]{8\n  Expansive Rounds}. It can't be concealed or reloaded.\n</p>\n",
+      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.6FCKkulioIa0IQOr]{8\n Expansive Rounds}.\n  It can't be concealed or reloaded.\n</p>\n",
       "dvTable": "DV Pistol"
     },
     "Faisal's Convenience (Incendiary)": {
       "name": "Faisal's Convenience (Incendiary)",
-      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.TIDzfziwhCxuIrnT]{8\n  Incendiary Rounds}. It can't be concealed or reloaded.\n</p>\n",
+      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.TIDzfziwhCxuIrnT]{8\n Incendiary Rounds}.\n  It can't be concealed or reloaded.\n</p>\n",
       "dvTable": "DV Pistol"
     },
     "Faisal's Convenience (Rubber)": {
       "name": "Faisal's Convenience (Rubber)",
-      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.6ta0PBU9FFrkg97B]{8 Rubber\n  Rounds}. It can't be concealed or reloaded.\n</p>\n",
+      "description": "<p>\n  A single use disposable very heavy pistol loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.6ta0PBU9FFrkg97B]{8 Rubber\n Rounds}.\n  It can't be concealed or reloaded.\n</p>\n",
       "dvTable": "DV Pistol"
     },
     "Faisal's Escape Plan": {
       "name": "Faisal's Escape Plan",
-      "description": "<p>\n  A concealable, medium-sized pistol. If you roll 1 on Attack (Crit fail) the\n  gun jams and requires using an action to clear.\n</p>\n<blockquote>\n  <p>\n    Can be thrown as if it were a\n    @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Smoke\n    Grenade}. When thrown, any installed attatchments and loaded ammunition are\n    Destroyed Beyond Repair.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  A concealable, medium-sized pistol. If you roll 1 on Attack (Crit fail) the\n  gun jams and requires using an action to clear.\n</p>\n<blockquote>\n  <p>\n    Can be thrown as if it were a\n    @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.7xhKxgwOELzaPyYr]{Smoke\n Grenade}.\n    When thrown, any installed attatchments and loaded ammunition are Destroyed\n    Beyond Repair.\n  </p>\n</blockquote>\n",
       "dvTable": "DV Pistol"
     },
     "Faisal's Only Chance (Armor-Piercing)": {
       "name": "Faisal's Only Chance (Armor-Piercing)",
-      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.YFtrIcr5qsT2zO9V]{4\n  Armor-Piercing Rounds}. It can't be concealed or reloaded. If you roll 1 on\n  Attack (Crit fail) the gun jams and requires using an action to clear.\n</p>\n",
+      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.YFtrIcr5qsT2zO9V]{4\n Armor-Piercing Rounds}.\n  It can't be concealed or reloaded. If you roll 1 on Attack (Crit fail) the gun\n  jams and requires using an action to clear.\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
     "Faisal's Only Chance (Basic)": {
       "name": "Faisal's Only Chance (Basic)",
-      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.YFnV9OetCCRru5Ky]{4 Basic\n  Rounds}. It can't be concealed or reloaded. If you roll 1 on Attack (Crit\n  fail) the gun jams and requires using an action to clear.\n</p>\n",
+      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.YFnV9OetCCRru5Ky]{4 Basic\n Rounds}.\n  It can't be concealed or reloaded. If you roll 1 on Attack (Crit fail) the gun\n  jams and requires using an action to clear.\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
     "Faisal's Only Chance (Expansive)": {
       "name": "Faisal's Only Chance (Expansive)",
-      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.WjWIkjjjMW4j5Bzp]{4\n  Expansive Rounds}. If you roll 1 on Attack (Crit fail) the gun jams and\n  requires using an action to clear.\n</p>\n",
+      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.WjWIkjjjMW4j5Bzp]{4\n Expansive Rounds}.\n  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action\n  to clear.\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
     "Faisal's Only Chance (Incendiary)": {
       "name": "Faisal's Only Chance (Incendiary)",
-      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.yxGinCJXUJjdsK0g]{4\n  Incendiary Rounds}. If you roll 1 on Attack (Crit fail) the gun jams and\n  requires using an action to clear.\n</p>\n",
+      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.yxGinCJXUJjdsK0g]{4\n Incendiary Rounds}.\n  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action\n  to clear.\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
     "Faisal's Only Chance (Rubber)": {
       "name": "Faisal's Only Chance (Rubber)",
-      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.qRKLIX7yU2n83JKJ]{4 Rubber\n  Rounds}. If you roll 1 on Attack (Crit fail) the gun jams and requires using\n  an action to clear.\n</p>\n",
+      "description": "<p>\n  A single use disposable shotgun loaded with\n  @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.qRKLIX7yU2n83JKJ]{4 Rubber\n Rounds}.\n  If you roll 1 on Attack (Crit fail) the gun jams and requires using an action\n  to clear.\n</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
     "Federated Arms Super Chief Plus": {
@@ -236,7 +236,7 @@
     },
     "Growler": {
       "name": "Growler",
-      "description": "<p>\n  An Exotic Rocket Launcher. Anything with a biological brain must make a\n  <strong>DV 19 Resist Torture/Drugs Check</strong> or suffer a\n  @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.oi3MEn9Y8zdbooNe]{Brain\n  Injury} Critical Injury. Reloading takes <strong>2 Actions</strong>. Requires\n  <strong>BODY 11+</strong> unless mounted.\n</p>\n<blockquote>\n  <p>\n    The source material is unclear how this experimental weapon should function.\n  </p>\n  <p>\n    Ask your GM if it is able to shoot and deal damage via standard\n    @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.dHHTQLHUkd0IX8GI]{Rocket\n    (Armor-Piercing)} &amp;\n    @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.e2w1oKiv8t68chiI]{Rocket\n    (Smart)} or if it requires custom\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.FzmgjXxurHiMxdlv]{Rocket\n    (Growler)} ammo that deals <strong>0</strong> damage.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  An Exotic Rocket Launcher. Anything with a biological brain must make a\n  <strong>DV 19 Resist Torture/Drugs Check</strong> or suffer a\n  @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.oi3MEn9Y8zdbooNe]{Brain\n Injury}\n  Critical Injury. Reloading takes <strong>2 Actions</strong>. Requires\n  <strong>BODY 11+</strong> unless mounted.\n</p>\n<blockquote>\n  <p>\n    The source material is unclear how this experimental weapon should function.\n  </p>\n  <p>\n    Ask your GM if it is able to shoot and deal damage via standard\n    @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.dHHTQLHUkd0IX8GI]{Rocket\n (Armor-Piercing)}\n    &amp;\n    @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.e2w1oKiv8t68chiI]{Rocket\n (Smart)}\n    or if it requires custom\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.FzmgjXxurHiMxdlv]{Rocket\n (Growler)}\n    ammo that deals <strong>0</strong> damage.\n  </p>\n</blockquote>\n",
       "dvTable": "DV Rocket Launcher"
     },
     "GunMart Hawk's Eye": {
@@ -291,7 +291,7 @@
     },
     "Hello Cutie Fisher Kitty": {
       "name": "Hello Cutie Fisher Kitty",
-      "description": "<p>\n  <strong>Exotic Heavy Pistol (50m/yd Max Range)</strong> Fires mini-harpoons\n  that cannot cause critcal injuries. Each mini-harpoon sticks to its target\n  regardless of damage dealt, and removing a mini-harpoon takes 1 Action. All\n  retractable mini-harpoons are dislodged and recovered when using an action to\n  reloading the weapon.\n</p>\n<blockquote>\n  <p>\n    The user may use an action to electrify the cables connected to each\n    mini-harpoon and deal [[/r 2d6dmgab0cd0#Electric Damage (Ignores\n    Armor)]]{2d6} damage directly to any connected target's HP. If a target is\n    connected by 3 or more mini-harpoons they take [[/r 3d6dmgab0cd0#Electric\n    Damage (Ignores Armor)]]{3d6} damage instead.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  <strong>Exotic Heavy Pistol (50m/yd Max Range)</strong> Fires mini-harpoons\n  that cannot cause critcal injuries. Each mini-harpoon sticks to its target\n  regardless of damage dealt, and removing a mini-harpoon takes 1 Action. All\n  retractable mini-harpoons are dislodged and recovered when using an action to\n  reloading the weapon.\n</p>\n<blockquote>\n  <p>\n    The user may use an action to electrify the cables connected to each\n    mini-harpoon and deal\n    [[/r 2d6dmgab0cd0#Electric Damage (Ignores Armor)]]{2d6} damage directly to\n    any connected target's HP. If a target is connected by 3 or more\n    mini-harpoons they take\n    [[/r 3d6dmgab0cd0#Electric Damage (Ignores Armor)]]{3d6} damage instead.\n  </p>\n</blockquote>\n",
       "dvTable": "DV Bows & Crossbows"
     },
     "Hello Cutie Gun-Gun Friend-Friend": {
@@ -331,7 +331,7 @@
     },
     "Hello Cutie Thundercat Bat": {
       "name": "Hello Cutie Thundercat Bat",
-      "description": "<p>\n  <strong>Excellent Quality Exotic Two-handed Medium Melee Weapon</strong> Comes\n  with an integrated speaker that plays beloved baseball sound effects.\n</p>\n<blockquote>\n  <ul>\n    <li>\n      <p>\n        Both user and target suffer the\n        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qRkCxq0KTuBnw2wj]{Damaged\n        Ear} critical injury if they fail a\n        <strong>DV15 Resist Torture/Drugs Check.</strong>\n      </p>\n    </li>\n    <li>\n      <p>\n        Target is knocked unconscious if damage dealt would reduce them to under\n        1 HP. Doesn't cause Critical Injuries or ablate armor.\n      </p>\n    </li>\n  </ul>\n</blockquote>\n",
+      "description": "<p>\n  <strong>Excellent Quality Exotic Two-handed Medium Melee Weapon</strong> Comes\n  with an integrated speaker that plays beloved baseball sound effects.\n</p>\n<blockquote>\n  <ul>\n    <li>\n      <p>\n        Both user and target suffer the\n        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qRkCxq0KTuBnw2wj]{Damaged\n Ear}\n        critical injury if they fail a\n        <strong>DV15 Resist Torture/Drugs Check.</strong>\n      </p>\n    </li>\n    <li>\n      <p>\n        Target is knocked unconscious if damage dealt would reduce them to under\n        1 HP. Doesn't cause Critical Injuries or ablate armor.\n      </p>\n    </li>\n  </ul>\n</blockquote>\n",
       "dvTable": ""
     },
     "IMI UZ 2045 Pro": {
@@ -516,7 +516,7 @@
     },
     "SlamDance ElectroMag": {
       "name": "SlamDance ElectroMag",
-      "description": "<p>An electromagnetic shotgun that shoots proprietary rounds.</p>\n<p>\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.LjJChw12H7TJSkm5]{ElectroMag\n  (Basic-Shell)}\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.BhtcF9fMOrI5tsQE]{ElectroMag\n  (Incendiary-Shell)}\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.CCEXsWo665wo7cD3]{ElectroMag\n  (Basic-Slug)}\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.F3uxV0pSScgCgKat]{ElectroMag\n  (Incendiary-Slug)}\n</p>\n<blockquote>\n  <p>\n    User may switch proprietary ammo between <strong>Slug</strong> or\n    <strong>Shell</strong> each time they fire the weapon. (Alternate Fire-Modes\n    are not currently supported.)\n  </p>\n</blockquote>\n",
+      "description": "<p>An electromagnetic shotgun that shoots proprietary rounds.</p>\n<p>\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.LjJChw12H7TJSkm5]{ElectroMag\n (Basic-Shell)}\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.BhtcF9fMOrI5tsQE]{ElectroMag\n (Incendiary-Shell)}\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.CCEXsWo665wo7cD3]{ElectroMag\n (Basic-Slug)}\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.F3uxV0pSScgCgKat]{ElectroMag\n (Incendiary-Slug)}\n</p>\n<blockquote>\n  <p>\n    User may switch proprietary ammo between <strong>Slug</strong> or\n    <strong>Shell</strong> each time they fire the weapon. (Alternate Fire-Modes\n    are not currently supported.)\n  </p>\n</blockquote>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
     "SportMaster": {
@@ -526,7 +526,7 @@
     },
     "ST-5 Assault Rifle": {
       "name": "ST-5 Assault Rifle",
-      "description": "<p>\n  <strong>Poor Quality Assault Rifle</strong> A - relatively - reliable gun. If\n  you roll 1 on Attack (Crit fail) you must then [[/r 1dc#ST-5 Assult Rifle -\n  Jam Check]]{toss a coin}. If you win, the gun fires as normal, while if you\n  lose the gun jams and requires using an action to clear.\n</p>\n",
+      "description": "<p>\n  <strong>Poor Quality Assault Rifle</strong> A - relatively - reliable gun. If\n  you roll 1 on Attack (Crit fail) you must then\n  [[/r 1dc#ST-5 Assult Rifle - Jam Check]]{toss a coin}. If you win, the gun\n  fires as normal, while if you lose the gun jams and requires using an action\n  to clear.\n</p>\n",
       "dvTable": "DV Assault Rifle"
     },
     "Sternmeyer P-35": {

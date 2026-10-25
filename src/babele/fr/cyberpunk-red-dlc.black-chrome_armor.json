@@ -76,7 +76,7 @@
     },
     "Montage Variable Clothing": {
       "name": "Montage Variable Clothing",
-      "description": "<p>\n  Light Armorjack that can swap between pre-programmed patterns and styles via a\n  connected\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}\n</p>\n<blockquote>\n  <p>\n    Comes with your choice of 3 pre-programmed patterns or colors selected from\n    either\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.Rs94jDJRrbHVpvIh]{Gang\n    Colors} or\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.7fXDqCH4Z3ZLo5kL]{Generic\n    Chic} styles.\n  </p>\n  <p>Requires an action to swap styles via connected agent.</p>\n</blockquote>\n"
+      "description": "<p>\n  Light Armorjack that can swap between pre-programmed patterns and styles via a\n  connected\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.pDQRjH8q63YyoWSp]{App}\n</p>\n<blockquote>\n  <p>\n    Comes with your choice of 3 pre-programmed patterns or colors selected from\n    either\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.Rs94jDJRrbHVpvIh]{Gang\n Colors}\n    or\n    @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.7fXDqCH4Z3ZLo5kL]{Generic\n Chic}\n    styles.\n  </p>\n  <p>Requires an action to swap styles via connected agent.</p>\n</blockquote>\n"
     },
     "Shock Armor": {
       "name": "Armure taser",

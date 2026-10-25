@@ -15,7 +15,7 @@
     },
     "Arasaka Prototype Railgun Upgrade": {
       "name": "Arasaka Prototype Railgun Upgrade",
-      "description": "<p>\n  You may swap between firing modes at the start of combat or as an action\n  during combat.\n</p>\n<blockquote>\n  <p>Required before use:</p>\n  <ul>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.mlYhAxuDlI3fP9hq]{Arasaka\n        Prototype Heat-Resistant Barrel}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.nQF0M9n7cLvHS5RY]{Arasaka\n        Prototype Rechargable Battery}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n",
+      "description": "<p>\n  You may swap between firing modes at the start of combat or as an action\n  during combat.\n</p>\n<blockquote>\n  <p>Required before use:</p>\n  <ul>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.mlYhAxuDlI3fP9hq]{Arasaka\n Prototype Heat-Resistant Barrel}\n      </p>\n    </li>\n    <li>\n      <p>\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.nQF0M9n7cLvHS5RY]{Arasaka\n Prototype Rechargable Battery}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n",
       "dvTable": "DV Assault Rifle"
     },
     "Arasaka Prototype Rechargable Battery": {
@@ -43,7 +43,7 @@
     },
     "Montage Digital Fashion": {
       "name": "Montage Digital Fashion",
-      "description": "<p>\n  <strong>Agent App:</strong> Allows users to purchase and select styles for\n  their connected Montage Variable Clothing.\n</p>\n<ul>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.Rs94jDJRrbHVpvIh]{Montage\n      Variables (Gang Colors)}\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.7fXDqCH4Z3ZLo5kL]{Montage\n      Variables (Generic Chic)}\n    </p>\n  </li>\n</ul>\n"
+      "description": "<p>\n  <strong>Agent App:</strong> Allows users to purchase and select styles for\n  their connected Montage Variable Clothing.\n</p>\n<ul>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.Rs94jDJRrbHVpvIh]{Montage\n Variables (Gang Colors)}\n    </p>\n  </li>\n  <li>\n    <p>\n      @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.7fXDqCH4Z3ZLo5kL]{Montage\n Variables (Generic Chic)}\n    </p>\n  </li>\n</ul>\n"
     },
     "Montage Variables (Gang Colors)": {
       "name": "Montage Variables (Gang Colors)",
