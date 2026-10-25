@@ -8,7 +8,7 @@ displayRoll: false
 flags: {}
 folder: S3DaoDSZDyQyYrdA
 formula: 1d20
-img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blackout.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
 name: City Blackouts
 ownership:
   GSQleko03XTBUGW9: 3
@@ -31,7 +31,8 @@ results:
     description: Blackout in Little China - Lasts [[3d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blackout.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 1
@@ -53,7 +54,8 @@ results:
     description: Blackout in Old Japantown - Lasts [[3d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blackout.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 2
@@ -75,7 +77,8 @@ results:
     description: Blackout in Old Combat Zone - Lasts [[3d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blackout.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 3
@@ -97,7 +100,8 @@ results:
     description: Blackout in South Night City - Lasts [[3d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 4
@@ -119,7 +123,8 @@ results:
     description: Blackout in ALL combat zones - Lasts [[3d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blackout.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 5
@@ -141,7 +146,8 @@ results:
     description: Blackout in The Glen - Lasts [[1d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blackout.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 6
@@ -163,7 +169,8 @@ results:
     description: Blackout in The University District - Lasts [[1d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blackout.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 7
@@ -185,7 +192,8 @@ results:
     description: Blackout in Little Europe - Lasts [[1d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 8
@@ -207,7 +215,8 @@ results:
     description: Blackout in Upper Marina - Lasts [[1d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 9
@@ -229,7 +238,8 @@ results:
     description: Blackout in The Watson Development Zone - Lasts [[1d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 10
@@ -251,7 +261,8 @@ results:
     description: Blackout in Pacifica Playground - Lasts [[1d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 11
@@ -273,7 +284,8 @@ results:
     description: Blackout in NorCal Military Base - Lasts [[1d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 12
@@ -295,7 +307,8 @@ results:
     description: Blackout on Morro Rock - Lasts [[1d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 13
@@ -317,7 +330,8 @@ results:
     description: Blackout in ALL rebuilding urban centers - Lasts [[1d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 14
@@ -339,7 +353,8 @@ results:
     description: Blackout in Rancho Coronado - Lasts [[2d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 15
@@ -361,7 +376,8 @@ results:
     description: Blackout in Heywood (Santo Domingo) - Lasts [[2d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 16
@@ -383,7 +399,8 @@ results:
     description: Blackout in Heywood Industrial Zone - Lasts [[2d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 17
@@ -405,7 +422,8 @@ results:
     description: Blackout in New Westbrook - Lasts [[2d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 18
@@ -427,7 +445,8 @@ results:
     description: Blackout in ALL  overpacked suburbs - Lasts [[2d6*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 19
@@ -449,7 +468,8 @@ results:
     description: Blackout in the Executive Zone - Lasts [[(2d6kl)*0.5]] hours.
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/electrical-resistance.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: ""
     range:
       - 20

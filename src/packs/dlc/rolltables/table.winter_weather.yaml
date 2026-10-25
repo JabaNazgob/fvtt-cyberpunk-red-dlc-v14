@@ -8,7 +8,7 @@ displayRoll: false
 flags: {}
 folder: S3DaoDSZDyQyYrdA
 formula: 1d6
-img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_calendar.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/calendar.svg
 name: Winter Weather
 ownership:
   GSQleko03XTBUGW9: 3
@@ -31,7 +31,8 @@ results:
     description: "Cold (Around 35°F/2°C) Conditions:  Clear"
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_clear.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/clear.svg
     name: ""
     range:
       - 1
@@ -53,7 +54,8 @@ results:
     description: "Cold (Around 40°F/4°C) Conditions:  Light Rain/Sleet"
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_rain-sleet.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/rain-sleet.svg
     name: ""
     range:
       - 2
@@ -75,7 +77,8 @@ results:
     description: "Cold (Around 40°F/4°C)  Conditions: Overcast"
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_overcast.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/overcast.svg
     name: ""
     range:
       - 3
@@ -97,7 +100,8 @@ results:
     description: "Cold (Around 50°F/10°C)  Conditions: Overcast"
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_overcast.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/overcast.svg
     name: ""
     range:
       - 4
@@ -119,7 +123,8 @@ results:
     description: "Cold (Around 50°F/10°C)  Conditions: Heavy Rain/Sleet"
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_thunder-storm.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/thunder-storm.svg
     name: ""
     range:
       - 5
@@ -142,7 +147,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.D9INs26wmotstYTr
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/raining.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/rain-sleet.svg
     name: Light Rain/Sleet
     range:
       - 2
@@ -165,7 +171,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.lkG3eyCLhyMZ5cLo
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/raining.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/thunder-storm.svg
     name: Heavy Rain/Sleet
     range:
       - 5
@@ -187,7 +194,8 @@ results:
     description: "Cool (Around 60°F/15°C) Conditions: Strange"
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_strange.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/strange.svg
     name: ""
     range:
       - 6
@@ -210,7 +218,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.5L9UqQ3LZTTUAzoZ
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/entangled-typhoon.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/strange.svg
     name: Strange Weather
     range:
       - 6

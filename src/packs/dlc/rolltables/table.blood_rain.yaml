@@ -8,7 +8,8 @@ displayRoll: false
 flags: {}
 folder: S3DaoDSZDyQyYrdA
 formula: 1d6
-img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blood-rain.svg
+img: >-
+  modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blood-rain.svg
 name: Blood Rain
 ownership:
   GSQleko03XTBUGW9: 3
@@ -31,7 +32,8 @@ results:
     description: An acidic Blood Rain lasts for [[1d6]] hours
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blood-rain.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blood-rain.svg
     name: ""
     range:
       - 1
@@ -53,7 +55,8 @@ results:
     description: A toxic Blood Rain lasts for [[1d6]] hours
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blood-rain.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blood-rain.svg
     name: ""
     range:
       - 4
@@ -76,7 +79,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.yd5RKbg33WnbwKAE
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_acid-rain.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/acid-rain.svg
     name: Acid Rain
     range:
       - 1
@@ -99,7 +103,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.SKqisyIQrtc6AOd1
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_acid-rain.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/acid-rain.svg
     name: Toxic Blood Rain
     range:
       - 4

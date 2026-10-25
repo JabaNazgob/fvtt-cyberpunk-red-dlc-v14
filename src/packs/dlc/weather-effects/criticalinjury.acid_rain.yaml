@@ -49,7 +49,8 @@ effects:
             "3":
               isSituational: false
               onByDefault: false
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_acid-rain.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/acid-rain.svg
     name: Acid Rain
     origin: Item.rIY59a8aTD54qgrG
     sort: 0
@@ -65,7 +66,8 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_acid-rain.svg
+img: >-
+  modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/acid-rain.svg
 name: Acid Rain
 ownership:
   GSQleko03XTBUGW9: 3

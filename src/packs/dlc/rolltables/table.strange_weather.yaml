@@ -8,7 +8,7 @@ displayRoll: false
 flags: {}
 folder: S3DaoDSZDyQyYrdA
 formula: 1d10
-img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_strange.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/strange.svg
 name: Strange Weather
 ownership:
   GSQleko03XTBUGW9: 3
@@ -34,7 +34,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_nuclear-wind-storm.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/nuclear-wind-storm.svg
     name: ""
     range:
       - 1
@@ -56,7 +56,8 @@ results:
     description: Ash Storm that lasts for [[1d6*10]] minutes.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_ash-storm.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/ash-storm.svg
     name: ""
     range:
       - 2
@@ -78,7 +79,8 @@ results:
     description: Flooding that lasts for [[1d6]] days.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_flood.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/flood.svg
     name: ""
     range:
       - 3
@@ -100,7 +102,8 @@ results:
     description: Acid Rain that lasts for [[1d6]] hours.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_acid-rain.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/acid-rain.svg
     name: ""
     range:
       - 5
@@ -122,7 +125,8 @@ results:
     description: Deadly Thunderstorm that lasts for [[1d6*10]] minute.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_thunder-storm.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/thunder-storm.svg
     name: ""
     range:
       - 6
@@ -144,7 +148,8 @@ results:
     description: Inversion Smog that lasts for [[1d6]] days.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_inversion-smog.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/inversion-smog.svg
     name: ""
     range:
       - 7
@@ -169,7 +174,7 @@ results:
     drawn: false
     flags: {}
     img: >-
-      modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_extreme-temperature.svg
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/extreme-temperature.svg
     name: ""
     range:
       - 8
@@ -191,7 +196,8 @@ results:
     description: Dust Storm that lasts for [[1d6*10]] minutes.
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_dust-storm.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/dust-storm.svg
     name: ""
     range:
       - 9
@@ -214,7 +220,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.tYhpiNpi0aGvdKje
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/blood-rain.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blood-rain.svg
     name: Blood Rain
     range:
       - 4
@@ -237,7 +244,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.o2161gOXy1TkjTLl
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_blackout.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: City Blackouts
     range:
       - 10
@@ -260,7 +268,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_rolltables.RollTable.o2161gOXy1TkjTLl
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/power-pylon.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/blackout.svg
     name: City Blackouts
     range:
       - 6
@@ -283,7 +292,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.lkG3eyCLhyMZ5cLo
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/raining.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/thunder-storm.svg
     name: Heavy Rain/Sleet
     range:
       - 6
@@ -306,7 +316,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.Vxnb6BIq796jkYjJ
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/fog.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/inversion-smog.svg
     name: Inversion Smog
     range:
       - 7
@@ -329,7 +340,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.ZKsirEcYw5QpYwIT
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/thermometer-cold.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/cold-snap.svg
     name: Cold Snap
     range:
       - 8
@@ -352,7 +364,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.NXlGE2j6mbV4TzwQ
     drawn: false
     flags: {}
-    img: modules/datapool-image-library/icons/thermometer-hot.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/cold-snap.svg
     name: Heat Wave
     range:
       - 8
@@ -375,7 +388,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.LCnlplKGlV0Da39B
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_ash-storm.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/ash-storm.svg
     name: Ash Storm
     range:
       - 2
@@ -398,7 +412,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.RN6s8BEuouhd8mve
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_dust-storm.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/dust-storm.svg
     name: Dust Storm
     range:
       - 9
@@ -421,7 +436,8 @@ results:
     documentUuid: Compendium.cyberpunk-red-dlc.dlc_weather-effects.Item.yd5RKbg33WnbwKAE
     drawn: false
     flags: {}
-    img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/weather_acid-rain.svg
+    img: >-
+      modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/acid-rain.svg
     name: Acid Rain
     range:
       - 5

@@ -407,6 +407,11 @@ This module (including items provided in the compendium) contains unofficial con
 
 ### dlc/rolltables/
 
+- `src/icons/dlc/rolltables/gunpath-table.svg` remixed from []()
+- `src/icons/dlc/rolltables/punknaught_death.svg` remixed from []()
+- `src/icons/dlc/rolltables/random-loot-box.svg` remixed from []()
+- `src/icons/dlc/rolltables/roll-gunpath.svg` remixed from []()
+
 #### digital_dating/
 
 - `src/icons/dlc/rolltables/digital_dating/date-begin.svg` remixed from [Hearts](https://game-icons.net/1x1/skoll/hearts.html) & [Hourglass](https://game-icons.net/1x1/lorc/hourglass.html)
@@ -439,17 +444,59 @@ This module (including items provided in the compendium) contains unofficial con
 - `src/icons/dlc/rolltables/digital_dating/tech.svg` remixed from [Auto Repair](https://game-icons.net/1x1/lorc/auto-repair.html)
 - `src/icons/dlc/rolltables/digital_dating/traits.svg` remixed from [Skills](https://game-icons.net/1x1/delapouite/skills.html)
 
-#### gunpath/
-
 #### night_city_tarot/
+
+- `src/icons/dlc/rolltables/night_city_tarot/death.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/judgement.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/justice.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/strength.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/temperance.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_chariot.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_devil.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_emperor.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_empress.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_fool.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_hanged_man.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_hermit.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_hierophant.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_high_priestess.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_lovers.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_magician.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_moon.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_star.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_sun.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_tower.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/the_world.svg` remixed from []()
+- `src/icons/dlc/rolltables/night_city_tarot/wheel_of_fortune.svg` remixed from []()
+
+#### night_city_weather/
+
+- `src/icons/dlc/rolltables/night_city_weather/acid-rain.svg` remixed from [Heavy Rain](https://game-icons.net/1x1/lorc/heavy-rain.html)
+- `src/icons/dlc/rolltables/night_city_weather/ash-storm.svg` remixed from [Snowing](https://game-icons.net/1x1/lorc/snowing.html)
+- `src/icons/dlc/rolltables/night_city_weather/blackout.svg` remixed from [Electric resistance](https://game-icons.net/1x1/delapouite/electrical-resistance.html)
+- `src/icons/dlc/rolltables/night_city_weather/blood-rain.svg` remixed from [Blood](https://game-icons.net/1x1/skoll/blood.html)
+- `src/icons/dlc/rolltables/night_city_weather/calendar.svg` remixed from [Calendar](https://game-icons.net/1x1/delapouite/calendar.html)
+- `src/icons/dlc/rolltables/night_city_weather/clear.svg` remixed from [Sun](https://game-icons.net/1x1/lorc/sun.html)
+- `src/icons/dlc/rolltables/night_city_weather/cold-snap.svg` remixed from [Thermometer Cold](https://game-icons.net/1x1/delapouite/thermometer-cold.html)
+- `src/icons/dlc/rolltables/night_city_weather/dust-storm.svg` remixed from [Whirlwind](https://game-icons.net/1x1/lorc/whirlwind.html)
+- `src/icons/dlc/rolltables/night_city_weather/extreme-temperature.svg` remixed from [Hazard Sign](https://game-icons.net/1x1/lorc/hazard-sign.html)
+- `src/icons/dlc/rolltables/night_city_weather/flood.svg` remixed from [Flood](https://game-icons.net/1x1/delapouite/flood.html)
+- `src/icons/dlc/rolltables/night_city_weather/heat-wave.svg` remixed from [Thermometer Hot](https://game-icons.net/1x1/delapouite/thermometer-hot.html)
+- `src/icons/dlc/rolltables/night_city_weather/inversion-smog.svg` remixed from [Fog](https://game-icons.net/1x1/delapouite/fog.html)
+- `src/icons/dlc/rolltables/night_city_weather/nuclear-wind-storm.svg` remixed from [Nuclear Plant](https://game-icons.net/1x1/delapouite/nuclear-plant.html)
+- `src/icons/dlc/rolltables/night_city_weather/overcast.svg` remixed from [Sun Cloud](https://game-icons.net/1x1/delapouite/sun-cloud.html)
+- `src/icons/dlc/rolltables/night_city_weather/rain-sleet.svg` remixed from [Raining](https://game-icons.net/1x1/lorc/raining.html)
+- `src/icons/dlc/rolltables/night_city_weather/strange.svg` remixed from [Entangled Typhoon](https://game-icons.net/1x1/lorc/entangled-typhoon.html)
+- `src/icons/dlc/rolltables/night_city_weather/thunder-storm.svg` remixed from [Lightning Storm](https://game-icons.net/1x1/lorc/lightning-storm.html)
 
 ### dlc/status/
 
-- `src/icons/dlc/status/deathtrance.svg` derived from item
 - `src/icons/dlc/status/beserker*` derived from item
+- `src/icons/dlc/status/deathtrance.svg` derived from item
 - `src/icons/dlc/status/emerald-city*` derived from item
 - `src/icons/dlc/status/piranha-smash*` derived from item
 - `src/icons/dlc/status/poser_chip.svg` derived from item
+- `src/icons/dlc/status/power-chord.svg` derived from item
 - `src/icons/dlc/status/prime_time*` derived from item
 - `src/icons/dlc/status/sedative.svg` derived from item
 - `src/icons/dlc/status/sixgun*` derived from item
@@ -458,9 +505,79 @@ This module (including items provided in the compendium) contains unofficial con
 
 ### dlc/upgrades/
 
+- `src/icons/dlc/upgrades/1TruLuv-Onboard-Agent.svg` remixed from [Female Elf Face](https://game-icons.net/1x1/delapouite/woman-elf-face.html) & [TV](https://game-icons.net/1x1/delapouite/tv.html)
+- `src/icons/dlc/upgrades/aerie.svg` remixed from [Raven](https://game-icons.net/1x1/lorc/raven.html) & prototype
+- `src/icons/dlc/upgrades/aerozep-selfsealing-gasbag.svg` remixed from [Zeppelin](https://game-icons.net/1x1/skoll/zeppelin.html)
+- `src/icons/dlc/upgrades/airhypo-bayonet.svg` remixed from [Syringe](https://game-icons.net/1x1/sbed/syringe.html) & [Bayonet](https://game-icons.net/1x1/skoll/bayonet.html)
+- `src/icons/dlc/upgrades/app_ask-alex-anything.svg` remixed from [Uncertainty](https://game-icons.net/1x1/lorc/uncertainty.html) & prototype
+- `src/icons/dlc/upgrades/app_babel-chat.svg` remixed from [Talk](https://game-icons.net/1x1/skoll/talk.html) & prototype
+- `src/icons/dlc/upgrades/app_bang-me.svg` remixed from prototype
+- `src/icons/dlc/upgrades/app_big-saai.svg` remixed from [Processor](https://game-icons.net/1x1/lorc/processor.html), [Circuitry](https://game-icons.net/1x1/lorc/circuitry.html) & prototype
+- `src/icons/dlc/upgrades/app_brainwasher.svg` remixed from [Brain](https://game-icons.net/1x1/lorc/brain.html), [Soap](https://game-icons.net/1x1/delapouite/soap.html) & prototype
+- `src/icons/dlc/upgrades/app_elo-elftracker.svg` remixed from [Skills](https://game-icons.net/1x1/delapouite/skills.html) & prototype
+- `src/icons/dlc/upgrades/app_hustool.svg` remixed from [Money](https://game-icons.net/1x1/delapouite/money-stack.html) & prototype
+- `src/icons/dlc/upgrades/app_roach-race.svg` remixed from [Horse](https://thenounproject.com/icon/horse-12533/) & prototype
+- `src/icons/dlc/upgrades/app_segotari-agent-game.svg` remixed from prototype by Aru.Guy
+- `src/icons/dlc/upgrades/app_the-garden.svg` remixed from [Flax](https://game-icons.net/1x1/delapouite/flax.html), [pButterfly insect](https://game-icons.net/1x1/delapouite/butterfly-flower.html) & prototype
+- `src/icons/dlc/upgrades/app_z-post.svg` remixed from [Envelope](https://game-icons.net/1x1/lorc/envelope.html) & prototype
 - `src/icons/dlc/upgrades/bottle_dynamo.svg` remixed from [Mono wheel robot icon](https://game-icons.net/1x1/delapouite/mono-wheel-robot.html)
+- `src/icons/dlc/upgrades/bushido_accelerator.svg` remixed from [Robot Helmet](https://game-icons.net/1x1/delapouite/robot-helmet.html) & prototype
+- `src/icons/dlc/upgrades/cold-weather-jacket-lining.svg` remixed from [Thermometer Cold](https://game-icons.net/1x1/delapouite/thermometer-cold.html)
+- `src/icons/dlc/upgrades/combat_recorder.svg` remixed from [Protection Glasses](https://game-icons.net/1x1/delapouite/protection-glasses.html)
+- `src/icons/dlc/upgrades/concealed-umbrella-blade.svg` remixed from [Umbrella](https://game-icons.net/1x1/lorc/umbrella.html)
+- `src/icons/dlc/upgrades/crunch_whistle.svg` remixed from [Whistle](https://game-icons.net/1x1/delapouite/whistle.html) & prototype
+- `src/icons/dlc/upgrades/cuddlefish-costly.svg` remixed from [Turban](https://game-icons.net/1x1/delapouite/turban.html)
+- `src/icons/dlc/upgrades/cuddlefish-everyday.svg` remixed from [Pirate Hat](https://game-icons.net/1x1/delapouite/pirate-hat.html)
+- `src/icons/dlc/upgrades/cycle_armor.svg` remixed from `bicycle.svg`
+- `src/icons/dlc/upgrades/defense_sequencer.svg` remixed from [Abdominal Armor](https://game-icons.net/1x1/delapouite/abdominal-armor.html) & prototype
+- `src/icons/dlc/upgrades/electric_pedal_assist.svg` remixed from []()
+- `src/icons/dlc/upgrades/enclosure.svg` remixed from []()
+- `src/icons/dlc/upgrades/extended_seat.svg` remixed from []()
+- `src/icons/dlc/upgrades/feline_instinct.svg` remixed from [Saber Tooth](https://game-icons.net/1x1/lorc/saber-tooth.html) & prototype
+- `src/icons/dlc/upgrades/folding_frame.svg` remixed from []()
+- `src/icons/dlc/upgrades/grapple-gun-underbarrel.svg` remixed from [Cannon](https://game-icons.net/1x1/lorc/cannon-shot.html) & [Grapple](https://game-icons.net/1x1/lorc/grapple.html)
+- `src/icons/dlc/upgrades/handprint-scanner.svg` remixed from [Halt](https://game-icons.net/1x1/skoll/halt.html) & prototype
+- `src/icons/dlc/upgrades/hangar.svg` remixed from [Fishing Boat](https://game-icons.net/1x1/delapouite/fishing-boat.html) & [Helcopter](https://game-icons.net/1x1/delapouite/helicopter.html)
+- `src/icons/dlc/upgrades/hangry_hangry_dragon.svg` remixed from [Spiked Dragon Head](https://game-icons.net/1x1/delapouite/spiked-dragon-head.html) & Prototype
+- `src/icons/dlc/upgrades/hot-weather-jacket-lining.svg` remixed from [Thermometer Hot](https://game-icons.net/1x1/delapouite/thermometer-hot.html)
 - `src/icons/dlc/upgrades/manipulator-arm.svg` remixed from [Mechanical Arm](https://game-icons.net/1x1/lorc/mechanical-arm.html)
+- `src/icons/dlc/upgrades/nanomachines.svg` remixed from [Health Capsule](https://game-icons.net/1x1/delapouite/health-capsule.html) & [Nano Bot](https://game-icons.net/1x1/delapouite/nano-bot.html)
+- `src/icons/dlc/upgrades/neon_lighting.svg` remixed from [Tube Light](https://thenounproject.com/icon/tube-light-378197/)
+- `src/icons/dlc/upgrades/oxygen-tanks.svg` remixed from [Scuba Tanks](https://game-icons.net/1x1/delapouite/scuba-tanks.html)
+- `src/icons/dlc/upgrades/perfume_shoppe.svg` remixed from [Fox Tail](https://game-icons.net/1x1/delapouite/fox-tail.html) & prototype
+- `src/icons/dlc/upgrades/punknaught_armor.svg` remixed from [Steel Door](https://game-icons.net/1x1/skoll/steel-door.html)
+- `src/icons/dlc/upgrades/punknaught_buzzsaw-arm.svg` remixed from [Pizza Cutter](https://game-icons.net/1x1/lorc/pizza-cutter.html)
+- `src/icons/dlc/upgrades/punknaught_catapult.svg` remixed from [CAtapult](https://game-icons.net/1x1/heavenly-dog/catapult.html)
+- `src/icons/dlc/upgrades/punknaught_cockpit-glass.svg` remixed from CORE `bulletproof_glass.svg`
+- `src/icons/dlc/upgrades/punknaught_combat-spikes.svg` remixed from [Stakes Fence](https://game-icons.net/1x1/delapouite/stakes-fence.html)
+- `src/icons/dlc/upgrades/punknaught_extra-chasis.svg` remixed from [Bus](https://game-icons.net/1x1/delapouite/bus.html) & [Rocket Thruster](https://game-icons.net/1x1/delapouite/rocket-thruster.html)
+- `src/icons/dlc/upgrades/punknaught_extra-engine.svg` remixed from [Rocket Thruster](https://game-icons.net/1x1/delapouite/rocket-thruster.html)
+- `src/icons/dlc/upgrades/punknaught_nos.svg` remixed from CORE `nos.svg`
+- `src/icons/dlc/upgrades/punknaught_spike-strip-launcher.svg` remixed from [Spiky Pit](https://game-icons.net/1x1/delapouite/spiky-pit.html)
+- `src/icons/dlc/upgrades/punknaught_turret.svg` remixed from [Turret](https://game-icons.net/1x1/sbed/turret.html)
+- `src/icons/dlc/upgrades/punknaught*` [Anarchy](https://game-icons.net/1x1/delapouite/anarchy.html)
+- `src/icons/dlc/upgrades/reinforced_frame.svg` remixed from [Bicycle Illustration](https://www.svgrepo.com/svg/480958/bicycle-illustration-1) & [Weight Hanging](https://www.svgrepo.com/svg/352684/weight-hanging)
+- `src/icons/dlc/upgrades/reinforced-hull.svg` remixed from [Ship](https://game-icons.net/1x1/delapouite/ship-bow.html)
+- `src/icons/dlc/upgrades/reinforced-tires.svg` remixed from [Car Wheel](https://game-icons.net/1x1/delapouite/car-wheel.html)
+- `src/icons/dlc/upgrades/retina-scanner.svg` remixed from prototype & [Look At](https://game-icons.net/1x1/delapouite/look-at.html)
+- `src/icons/dlc/upgrades/rocket-launcher-underbarrel.svg` remixed from [Gunshot](https://game-icons.net/1x1/lorc/gunshot.html) & [rocket](https://game-icons.net/1x1/lorc/rocket.html)
+- `src/icons/dlc/upgrades/sealed-environment.svg` remixed from [Mechanic Garage](https://game-icons.net/1x1/delapouite/mechanic-garage.html) & [Mushroom Cloud](https://game-icons.net/1x1/lorc/mushroom-cloud.html)
+- `src/icons/dlc/upgrades/security_system.svg` remixed from []()
+- `src/icons/dlc/upgrades/segotari-elflines-online.svg` remixed from CORE `memory_chip.svg`, [Croc Sword](https://game-icons.net/1x1/lorc/croc-sword.html) & [Rune Sword](https://game-icons.net/1x1/lorc/rune-sword.html)
+- `src/icons/dlc/upgrades/segotari-rush-game-used.svg` remixed from CORE `memory_chip.svg` []()
+- `src/icons/dlc/upgrades/segotari-rush-game.svg` remixed from CORE `memory_chip.svg`
+- `src/icons/dlc/upgrades/shining_finger.svg` remixed from prototype & [Sexual Activity Sex Sexual Relationship Adult Content SVG Vector ](https://www.svgrepo.com/svg/308075/sexual-activity-sex-sexual-relationship-adult-content)
+- `src/icons/dlc/upgrades/silencer.svg` Created by Aru.Guy
+- `src/icons/dlc/upgrades/smithy.svg` remixed from CORE prototype & [Hammer Drop](https://game-icons.net/1x1/lorc/hammer-drop.html)
+- `src/icons/dlc/upgrades/snaketrap.svg` remixed from CORE prototype & [Snake 4](https://www.svgrepo.com/svg/481363/snake-4)
 - `src/icons/dlc/upgrades/sonar-system.svg` remixed from [Raydar Sweep](https://game-icons.net/1x1/lorc/radar-sweep.html)
+- `src/icons/dlc/upgrades/submersible-upgrade.svg` remixed from [Periscope](https://game-icons.net/1x1/delapouite/periscope.html)
+- `src/icons/dlc/upgrades/swamp_mist.svg` remixed from CORE prototype & [Dead Eye](https://game-icons.net/1x1/lorc/dead-eye.html)
+- `src/icons/dlc/upgrades/swifty_clean.svg` remixed from CORE prototype & []()
+- `src/icons/dlc/upgrades/titanic-hull.svg` remixed from [Ship](https://game-icons.net/1x1/delapouite/ship-bow.html) & [Weight](https://game-icons.net/1x1/delapouite/weight.html)
+- `src/icons/dlc/upgrades/trailer.svg` remixed from [Bicycle Trailer](https://www.svgrepo.com/svg/490019/bicycle-trailer)
+- `src/icons/dlc/upgrades/vehicle-rooms.svg` remixed from [Armor Blueprint](https://game-icons.net/1x1/seregacthtuf/armor-blueprint.html)
+- `src/icons/dlc/upgrades/waterproof-jacket-lining.svg` remixed from [Raining](https://game-icons.net/1x1/lorc/raining.html)
 
 ### dlc/vehicles/
 
@@ -474,6 +591,7 @@ This module (including items provided in the compendium) contains unofficial con
 - `src/icons/dlc/vehicles/fifes-submersible.svg` remixed from [Mini Submarine](https://game-icons.net/1x1/delapouite/mini-submarine.html)
 - `src/icons/dlc/vehicles/hydrosubsidium-bimac.svg` remixed from [Jetski](https://thenounproject.com/icon/jetski-4612709/)
 - `src/icons/dlc/vehicles/punknaught_core.svg` remixed from [Bus](https://game-icons.net/1x1/delapouite/bus.html) & [Rocket Thruster](https://game-icons.net/1x1/delapouite/rocket-thruster.html)
+- `src/icons/dlc/vehicles/sovoil-mi-60.svg` remixed from [Rocket Thurster](https://game-icons.net/1x1/delapouite/rocket-thruster.html), [Hospital Cross](https://game-icons.net/1x1/lorc/hospital-cross.html) & [Minigun](https://game-icons.net/1x1/lorc/minigun.html)
 - `src/icons/dlc/vehicles/triaina-patrol-boat.svg` remixed from [Combat Ship](https://game-icons.net/1x1/delapouite/rocket-thruster.html)
 - `src/icons/dlc/vehicles/ullapool-raider.svg` remixed from [Fishing Boat](https://game-icons.net/1x1/delapouite/fishing-boat.html) & [Missile Pod](https://game-icons.net/1x1/lorc/missile-pod.html)
 - `src/icons/dlc/vehicles/vmw-aerojeep.svg` remixed from [Jeep](https://game-icons.net/1x1/skoll/jeep.html) & [Holosphere](https://game-icons.net/1x1/lord-berandas/holosphere.html)
@@ -483,43 +601,46 @@ This module (including items provided in the compendium) contains unofficial con
 
 ### dlc/weapons/
 
+- `src/icons/dlc/weapons/ars-5-submachine-gun.svg` remixed from [Famas](https://game-icons.net/1x1/skoll/famas.html)
 - `src/icons/dlc/weapons/ballistic-harpoon-launcher.svg` remixed from [Harpoon](https://thenounproject.com/icon/harpoon-5047630/) & [Harpoon](https://thenounproject.com/icon/harpoon-6929655/)
 - `src/icons/dlc/weapons/ballistic-harpoon.svg` remixed from [Harpoon](https://thenounproject.com/icon/harpoon-5047630/)
-- `src/icons/dlc/weapons/long-barreled-pistol.svg` remixed from Core `veryHeavyPisotol.svg`
+- `src/icons/dlc/weapons/big-dreem.svg` remixed from [Mac 10](https://game-icons.net/1x1/skoll/mac-10.html)
+- `src/icons/dlc/weapons/captain-cuddlefish-ultra-snag-em.svg` remixed from [Squid Head](https://game-icons.net/1x1/lorc/squid-head.html)
+- `src/icons/dlc/weapons/fire-extinguisher.svg` remixed from [Fire Extinguisher](https://game-icons.net/1x1/delapouite/fire-extinguisher.html)
+- `src/icons/dlc/weapons/hello-cutie-fisher-kitty.svg` remixed from [CZ Skorpion](https://game-icons.net/1x1/skoll/cz-skorpion.html)
+- `src/icons/dlc/weapons/hello-cutie-happy-dancer.svg` remixed from CORE `heavySMG.svg` & [Sound On](https://game-icons.net/1x1/delapouite/sound-on.html)
+- `src/icons/dlc/weapons/hello-cutie-hypurr-hammer.svg` remixed from CORE `Sledgehammer.svg`
+- `src/icons/dlc/weapons/hello-cutie-thundercat-bat.svg` remixed from [Baseball Bat](https://game-icons.net/1x1/delapouite/baseball-bat.html) & [Sound On](https://game-icons.net/1x1/delapouite/sound-on.html)
+- `src/icons/dlc/weapons/long-barreled-pistol.svg` remixed from CORE `veryHeavyPisotol.svg`
+- `src/icons/dlc/weapons/malorian-arms-sub-flechette-gun.svg` remixed from [Spectre M4](https://game-icons.net/1x1/skoll/spectre-m4.html)
+- `src/icons/dlc/weapons/militech-crusher.svg` remixed from [MP5](https://game-icons.net/1x1/skoll/mp5.html)
+- `src/icons/dlc/weapons/molotov-cocktail.svg` remixed from [Molotov](https://game-icons.net/1x1/lorc/molotov.html)
+- `src/icons/dlc/weapons/nomad-air-cannon.svg` remixed from [Water Gun](https://game-icons.net/1x1/delapouite/water-gun.html)
 - `src/icons/dlc/weapons/scrambler.svg` remixed from [Ray Gun](https://game-icons.net/1x1/lorc/ray-gun.html)
+- `src/icons/dlc/weapons/tactical-umbrella.svg` remixed from [Umbrella Bayonet](https://game-icons.net/1x1/delapouite/umbrella-bayonet.html)
+- `src/icons/dlc/weapons/teen-dreem.svg` remixed from [Uzi](https://game-icons.net/1x1/delapouite/uzi.html)
 - `src/icons/dlc/weapons/thermal-dagger.svg` remixed from [Bowie Knife](https://game-icons.net/1x1/lorc/bowie-knife.html)
-
-### dlc/weather-effects/
-
--
-
-### elflines/ammo/
-
--
-
-### elflines/armor/
-
--
-
-### elflines/clothing/
-
--
+- `src/icons/dlc/weapons/waa-bullpup-assault-weapon.svg` remixed from [P90](https://game-icons.net/1x1/skoll/p90.html)
+- `src/icons/dlc/weapons/ww1-rifle-to-pistol-conversion.svg` remixed from [Musket](https://game-icons.net/1x1/skoll/musket.html)
 
 ### elflines/gear/
 
--
-
-### elflines/macros/
-
--
-
-### elflines/rolltables/
-
--
-
-### elflines/weapons/
-
--
+- `src/icons/elflines/gear/tcg-booster-box.svg` remixed from [Cardboard Box Closed](https://game-icons.net/1x1/delapouite/cardboard-box-closed.html) & [Card Random](https://game-icons.net/1x1/faithtoken/card-random.html)
+- `src/icons/elflines/gear/tcg-booster-pack.svg` remixed from [Card Pick](https://game-icons.net/1x1/faithtoken/card-pick.html)
+- `src/icons/elflines/gear/tcg-card-jack-clubs.svg` remixed from [Card Jack of Clubs](https://game-icons.net/1x1/aussiesim/card-jack-clubs.html)
+- `src/icons/elflines/gear/tcg-card-jack-diamonds.svg` remixed from [Card Jack of Diamonds](https://game-icons.net/1x1/aussiesim/card-jack-diamonds.html)
+- `src/icons/elflines/gear/tcg-card-jack-hearts.svg` remixed from [Card Jack of Hearts](https://game-icons.net/1x1/aussiesim/card-jack-hearts.html)
+- `src/icons/elflines/gear/tcg-card-jack-spades.svg` remixed from [Card Jack of Spades](https://game-icons.net/1x1/aussiesim/card-jack-spades.html)
+- `src/icons/elflines/gear/tcg-card-joker.svg` remixed from [Card Joker](https://game-icons.net/1x1/delapouite/card-joker.html)
+- `src/icons/elflines/gear/tcg-card-king-clubs.svg` remixed from [Card King of Clubs](https://game-icons.net/1x1/aussiesim/card-king-clubs.html)
+- `src/icons/elflines/gear/tcg-card-king-diamonds.svg` remixed from [Card King of Diamonds](https://game-icons.net/1x1/aussiesim/card-king-diamonds.html)
+- `src/icons/elflines/gear/tcg-card-king-hearts.svg` remixed from [Card King of Hearts](https://game-icons.net/1x1/aussiesim/card-king-hearts.html)
+- `src/icons/elflines/gear/tcg-card-king-spades.svg` remixed from [Card King of Spades](https://game-icons.net/1x1/aussiesim/card-king-spades.html)
+- `src/icons/elflines/gear/tcg-card-numbered.svg` remixed from [Suits](https://game-icons.net/1x1/lorc/suits.html)
+- `src/icons/elflines/gear/tcg-card-queen-clubs.svg` remixed from [Card Queen of Clubs](https://game-icons.net/1x1/aussiesim/card-queen-clubs.html)
+- `src/icons/elflines/gear/tcg-card-queen-diamonds.svg` remixed from [Card Queen of Diamonds](https://game-icons.net/1x1/aussiesim/card-queen-diamonds.html)
+- `src/icons/elflines/gear/tcg-card-queen-hearts.svg` remixed from [Card Queen of Hearts](https://game-icons.net/1x1/aussiesim/card-queen-hearts.html)
+- `src/icons/elflines/gear/tcg-card-queen-spades.svg` remixed from [Card Queen of Spades](https://game-icons.net/1x1/aussiesim/card-queen-spades.html)
 
 ### prototypes/badges/
 
