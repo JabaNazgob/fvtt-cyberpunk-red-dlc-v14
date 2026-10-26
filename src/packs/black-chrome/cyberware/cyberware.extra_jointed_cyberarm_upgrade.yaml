@@ -38,7 +38,7 @@ effects:
               isSituational: false
               onByDefault: false
     img: >-
-      modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/extra-joined-cyberarm.svg
+      modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/extra-jointed-cyberarm.svg
     name: Extra-Jointed Cyberarm
     origin: null
     sort: 0
@@ -54,7 +54,7 @@ flags:
       previous: "38"
 folder: null
 img: >-
-  modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/extra-joined-cyberarm.svg
+  modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/extra-jointed-cyberarm.svg
 name: Extra-Jointed Cyberarm Upgrade
 ownership:
   default: 0

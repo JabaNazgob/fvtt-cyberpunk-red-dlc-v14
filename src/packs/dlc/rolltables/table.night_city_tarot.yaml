@@ -1,12 +1,14 @@
 _id: tGZeMCLLDQBRFLY8
 _key: "!tables!tGZeMCLLDQBRFLY8"
-description: Roll on this rolltable if you roll a triple six result on a damage roll.
+description: >-
+  <p>Roll on this rolltable if you roll a triple six result on a damage
+  roll.</p>
 displayRoll: false
 flags: {}
 folder: null
 formula: 1d22
-img: systems/cyberpunk-red-core/icons/compendium/default/Defult_Card_Hand.svg
-name: Tarot Cards
+img: modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_tarot/3d6_tarot.svg
+name: Night City Tarot
 ownership:
   GhPkzdD89HrVDo6W: 3
   default: 0

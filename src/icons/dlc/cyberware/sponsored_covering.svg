@@ -13,6 +13,12 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs12">
+    <rect
+       x="88.188351"
+       y="108.4907"
+       width="87.553902"
+       height="101.51177"
+       id="rect1" />
     <inkscape:path-effect
        effect="perspective-envelope"
        id="path-effect5"

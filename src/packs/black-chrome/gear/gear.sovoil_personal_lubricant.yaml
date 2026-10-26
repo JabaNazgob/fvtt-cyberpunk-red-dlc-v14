@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/sovoil-lubricant.svg
+img: modules/cyberpunk-red-dlc/icons/black-chrome/gear/sovoil-lubricant-personal.svg
 name: SovOil Personal Lubricant
 ownership:
   default: 0

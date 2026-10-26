@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/cybereye.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/sponsored_cybereye.svg
 name: Sponsored Cybereye
 ownership:
   default: 0

@@ -7,7 +7,7 @@ flags:
       current: 44
       previous: "38"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/cyberaudio_suite.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/discount_cyberaudio_suite.svg
 name: Discount Cyberaudio Suite
 ownership:
   default: 0
