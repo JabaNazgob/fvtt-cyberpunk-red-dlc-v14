@@ -65,7 +65,7 @@
       "description": "<p>\n  <strong>Construction Time:</strong> 3 days<br /><strong>Salvage DV:</strong>\n  15<br /><strong>Construction Modifier:</strong> +1\n</p>\n<hr />\n<p>\n  Protects the driver and occupants with\n  <strong>Thick Bulletproof Glass</strong> 30(HP).\n</p>\n"
     },
     "Cold-Weather Jacket Lining": {
-      "name": "Doublure de veste pour temps froid",
+      "name": "Doublure isolante d'hiver",
       "description": "<p>\n  Upgrade for any Jacket fashion item. User will not suffer Exposure penalties\n  from cold temperatures (CP:R pg 181).\n</p>\n",
       "dvTable": ""
     },
@@ -164,7 +164,7 @@
       "dvTable": ""
     },
     "Hot-Weather Jacket Lining": {
-      "name": "Doublure de veste pour temps chaud",
+      "name": "Doublure isolante d'été",
       "description": "<p>\n  Upgrade for any Jacket fashion item. User will not suffer Exposure penalties\n  from hot temperatures (CP:R pg 181).\n</p>\n<p>\n  Heatwaves double all penalties from heavier armor (NCW pg 5). For example, a\n  user with Medium Armorjack takes a -4 penalty to MOVE, DEX, and REF during a\n  Heatwave. Hot-Weather Jacket Lining decreases each of these penalties by 1.\n</p>\n",
       "dvTable": ""
     },
@@ -328,7 +328,7 @@
       "description": "<p><strong>App:</strong> Turns your agent into an alarm system.</p>\n<blockquote>\n  <p>\n    Requires 5 minutes to scan and establish a security perimeter. The alarm is\n    triggered by loud noises, bright lights, and movement.\n  </p>\n  <p><strong>DV13 Stealth Check</strong> to avoid detection.</p>\n</blockquote>\n"
     },
     "Waterproof Jacket Lining": {
-      "name": "Doublure imperméable de veste",
+      "name": "Doublure imperméable",
       "description": "<p>\n  Upgrade for any Jacket fashion item. Mechanically similar to an umbrella, does\n  not serve as a wetsuit.\n</p>\n<p>\n  Protects against Acid Rain. For every minute exposed to Acid Rain, all armor\n  ablates by 1 SP (NCW pg 4).\n</p>\n<p>\n  +2 to Resist Torture/Drugs Checks from Blood Rain exposure. Severe Blood Rain\n  applies the effects of a Vial of Biotoxin on failed check (NCW pg 4).\n</p>\n",
       "dvTable": ""
     },
