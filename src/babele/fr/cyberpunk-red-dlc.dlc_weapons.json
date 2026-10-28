@@ -435,7 +435,7 @@
       "dvTable": "DV SMG"
     },
     "Multiple Ammunition Pistol": {
-      "name": "Revolver à munitions multiples",
+      "name": "Pistolet à munitions multiples",
       "description": "<p>\n  A very heavy pistol capable of loading up to five different ammo types at\n  once*, with the user able to pick between them before firing.\n</p>\n<blockquote><p>Incompatible with magazine upgrades.</p></blockquote>\n<p>\n  <em>*Currently not supported, so users have to manually change ammo types</em>\n</p>\n",
       "dvTable": "DV Pistol"
     },
