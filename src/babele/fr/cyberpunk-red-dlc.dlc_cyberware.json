@@ -104,7 +104,7 @@
       "description": "<p>\n  A physical conversion to a chosen animal type of human size. Few are willing\n  to carry out the surgery.\n</p>\n<p>\n  Procedure requires a <strong>DV21 Surgery Check</strong> and materials are\n  1,000eb\n</p>\n"
     },
     "Firebreather": {
-      "name": "Souffle de feu",
+      "name": "Souffle ardent",
       "description": "<p>Implanted Exotic Shotgun. Can only hold one incendiary shotgun shell.</p>\n",
       "dvTable": "DV Shotgun (Slug)"
     },
@@ -189,7 +189,7 @@
       "dvTable": ""
     },
     "NeuTongue": {
-      "name": "NovLangue",
+      "name": "NeuLangue",
       "description": "<p>\n  Simulates flavor sensations. Use a linked Agent to customize flavor profiles.\n  Can be deactivated without an Action. No sense of taste when deactivated.\n</p>\n<p>Replaces Meat tongue.</p>\n",
       "dvTable": ""
     },
