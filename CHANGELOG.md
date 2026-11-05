@@ -45,3 +45,4 @@
 - Item descriptions have been revised to provide a unified format
   - Armor
   - Clothing
+  - Ammo
