@@ -22,13 +22,16 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Net for the net launcher that grapples the target on hit.</p>
       <p>
-        On hit, grapples target. Target can escape with a
-        <strong>DV13 Contortionist Check</strong> (net victim only) or a
-        <strong>DV13 Brawling Check</strong> which can be attempted by anyone. Net can
-        also be destroyed.
+        A retractable net for the net launcher that <strong>Grapples</strong> the
+        target on hit. Targets may escape with by rolling
+        [[/r 1d10red+@stats.dex+@skills.contortionist #DV13 Contortionist]]{DV13Contortionist}
+        if they are trapped in the net. Targets may be freed if an ally rolls
+        [[/r 1d10red+@stats.dex+@skills.brawling #DV13 Brawling]]{DV13 Brawling}
       </p>
+      <blockquote>
+        <p>The Net has 15hp and is destroyed when reduced to 0.</p>
+      </blockquote>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

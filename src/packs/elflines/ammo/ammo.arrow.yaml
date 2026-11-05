@@ -22,7 +22,7 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Basic ammo, nothing special.</p>
+      <p>Basic virtual ammo, nothing special.</p>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

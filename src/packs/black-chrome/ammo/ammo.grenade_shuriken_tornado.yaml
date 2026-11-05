@@ -22,10 +22,8 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>
-        A literal explosion of shurikens. Armor Piercing grenade. Each shuriken from
-        explosion deals individual damage.
-      </p>
+      <p><em>A literal explosion of shurikens.</em></p>
+      <blockquote><p>Roll damage individually for each target.</p></blockquote>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

@@ -23,9 +23,22 @@ system:
   description:
     value: |
       <p>
-        Coating for Arasaka Weeping Reaver Katana only. Ignites target. Multiple
-        effects do not stack.
+        Produces a weapon coating that lights the target
+        <strong>On Fire (Mild)</strong>. The target takes 2 damage to HP at end of
+        their turn unless they use action to extinguish flames.
       </p>
+      <blockquote>
+        <ul>
+          <li><p>Fire effects do not stack.</p></li>
+          <li><p>Effect lasts for 1 minute.</p></li>
+          <li>
+            <p>
+              Only intended for use with
+              @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.Ifp6KgNYeZ0wfKSN]{Arasaka Weeping Reaver Katana}
+            </p>
+          </li>
+        </ul>
+      </blockquote>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

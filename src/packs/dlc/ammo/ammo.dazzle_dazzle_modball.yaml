@@ -25,10 +25,18 @@ system:
   description:
     value: |
       <p>
-        Acts as a single target
-        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.e8gDMbdK1oPKwhqW]{Flashbang}.
-        Can ignite flamable surfaces.
+        Deals no damage. Does not ablate armor. If hit, targets roll
+        [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV15 Resist Torture/Drugs]]{DV15 Resist Torture/Drugs}
+        On a failure, targets suffer the
+        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged Eye}
+        and
+        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qRkCxq0KTuBnw2wj]{Damaged Ear}
+        Critical injuries (see pg. 188) for 1 minute.
       </p>
+      <blockquote>
+        <p>Does not affect inorganic targets.</p>
+        <p>Can ignite flamable surfaces.</p>
+      </blockquote>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

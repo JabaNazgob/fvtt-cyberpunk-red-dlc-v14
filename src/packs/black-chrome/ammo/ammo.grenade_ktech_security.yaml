@@ -22,7 +22,7 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Armor piercing Grenade. Deals damage to targets but not to cover.</p>
+      <p>Armor piercing Grenade. Deals damage to targets, but not to cover.</p>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

@@ -22,7 +22,10 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Magnetic ammo designed for the SlamDance ElectroMag.</p>
+      <p>
+        Magnetic ammo designed for the
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.YsjeyDYFrWcWjeAc]{SlamDance ElectroMag}.
+      </p>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

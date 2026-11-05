@@ -4,7 +4,7 @@
   "entries": {
     "Arrow": {
       "name": "Arrow",
-      "description": "<p>Basic ammo, nothing special.</p>\n"
+      "description": "<p>Basic virtual ammo, nothing special.</p>\n"
     },
     "Elflines Online Playing Cards": {
       "name": "Elflines Online Playing Cards",
@@ -12,7 +12,7 @@
     },
     "Poison Arrow": {
       "name": "Poison Arrow",
-      "description": "<p>\n  No immediate damage. If meat target hit,\n  <strong>DV13 Resist Torture/Drugs</strong> Check. On a fail 2d6 damage to HP.\n  No Ablation.\n</p>\n"
+      "description": "<p>\n  No immediate damage. If hit target rolls a\n  [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV13 Resist Torture/Drugs]]{DV13 Resist Torture/Drugs}.\n  On a failure, the target takes [[/r 2d6dmg#Poison Damage]]{2d6 Damage}\n  directly.\n</p>\n<blockquote><p>Does not affect inorganic targets.</p></blockquote>\n"
     }
   }
 }

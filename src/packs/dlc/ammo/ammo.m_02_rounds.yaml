@@ -23,7 +23,8 @@ system:
   description:
     value: |
       <p>
-        Special Armor-Piercing rounds for use only in the Sternmeyer M-02 Heavy Rifle.
+        Special Armor-Piercing rounds for use only in the Sternmeyer
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.qqNh3sElWPyVT4Qq]{M-02 Heavy Rifle}.
         Comes in a drum of 80.
       </p>
   favorite: false

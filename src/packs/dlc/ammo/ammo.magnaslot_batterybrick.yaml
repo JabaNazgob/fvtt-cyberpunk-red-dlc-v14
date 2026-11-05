@@ -23,8 +23,9 @@ system:
   description:
     value: |
       <p>
-        Battery pack that only fits the Radline Blitzkrieg Arc-Thrower Cyberarm. Can
-        be recharged in 1 hour.
+        Battery pack that only fits the
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.mqxZ6A9U0LhaDwJm]{Blitzkrieg Arc-Thrower Cyberarm}.
+        Can be recharged in 1 hour.
       </p>
   favorite: false
   ignoredByBrowser: false

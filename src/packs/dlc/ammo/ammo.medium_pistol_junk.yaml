@@ -22,9 +22,13 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>
-        Junk ammo; cheap but deals 1d6 less damage against anyone with 1SP or more.
-      </p>
+      <p>Deals less damage against anyone with 1SP or more.</p>
+      <blockquote>
+        <p>
+          Not currently supported - This item always deals 1d6 less damage to ALL
+          targets.
+        </p>
+      </blockquote>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

@@ -21,9 +21,19 @@ system:
     concealable: true
     isConcealed: false
   description:
-    value: >
-      <p>Coating for Arasaka Weeping Reaver Katana only. Improves ablation
-      effect.</p>
+    value: |
+      <p>Produces a weapon coating that improves armor ablation.</p>
+      <blockquote>
+        <ul>
+          <li><p>Effect lasts for 1 minute.</p></li>
+          <li>
+            <p>
+              Only intended for use with
+              @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.Ifp6KgNYeZ0wfKSN]{Arasaka Weeping Reaver Katana}
+            </p>
+          </li>
+        </ul>
+      </blockquote>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

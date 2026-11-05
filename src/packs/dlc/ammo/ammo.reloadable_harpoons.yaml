@@ -23,7 +23,8 @@ system:
   description:
     value: |
       <p>
-        Additional harpoons for use with the SlamDance Ballistic Harpoon Launcher.
+        Additional harpoons for use with the SlamDance
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.UnVRX1UNOtUtN5xz]{Ballistic Harpoon Launcher}.
       </p>
   favorite: false
   ignoredByBrowser: false

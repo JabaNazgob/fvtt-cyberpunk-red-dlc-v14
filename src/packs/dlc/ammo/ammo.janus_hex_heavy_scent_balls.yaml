@@ -24,9 +24,18 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Pack of 4 Janus Hex Heavy Scent Balls.</p>
+      <p>
+        Targets roll
+        [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV13 Resist Torture/Drugs]]{DV13 Resist Torture/Drugs}.
+        On failure, the target suffers
+        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged Eye}
+        Critical Injury for 1 minute.
+      </p>
       <blockquote>
-        <p>Requires Maker Rank 6 or higher to Fabricate or Modify.</p>
+        <p>Does not affect inorganic targets.</p>
+        <p>
+          Requires <strong>Maker Rank 6</strong> or higher to fabricate or modify.
+        </p>
       </blockquote>
   favorite: false
   ignoredByBrowser: false

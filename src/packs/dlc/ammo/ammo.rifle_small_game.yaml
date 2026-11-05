@@ -22,7 +22,7 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Small game ammo; not great for people. Deals 2d6 less damage.</p>
+      <p>Small game ammo; not great for people.</p>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

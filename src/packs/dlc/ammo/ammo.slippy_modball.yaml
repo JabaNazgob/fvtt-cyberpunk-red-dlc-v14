@@ -24,22 +24,19 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Balls filled with a slippery lubricant.</p>
-      <ul>
-        <li>
-          <p>
-            Covers a 2m/yd<sup>2 </sup>surface that requires a
-            <strong>DV13 Athletic Check</strong> to avoid falling Prone when entering
-            or occupying the covered area.
-          </p>
-        </li>
-        <li>
-          <p>
-            Targets receive a +1 Bonus to <strong>Contortionist Checks</strong> made
-            to escape a grapple.
-          </p>
-        </li>
-      </ul>
+      <p>
+        Balls filled with a slippery lubricant. Covers a 2m/yd<sup>2 </sup>surface
+        that requires a
+        [[/r 1d10red+@stats.body+@skills.athletics #DV13 Athletics]]{DV13 Athletics}
+        <strong></strong>check to avoid falling <strong>Prone</strong> when entering
+        or occupying the covered area.
+      </p>
+      <blockquote>
+        <p>
+          Targets receive a +1 Bonus to <strong>Contortionist Checks</strong> made to
+          escape a grapple
+        </p>
+      </blockquote>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall

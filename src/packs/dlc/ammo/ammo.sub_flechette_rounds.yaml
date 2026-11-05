@@ -24,8 +24,8 @@ system:
   description:
     value: |
       <p>
-        Special ammo to only be used with the Malorian Arms Sub-Flechette Gun. Ablates
-        armor by 4 SP per hit.
+        Special ammo to only be used with the Malorian Arms
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_weapons.Item.iKzJWiFQqBcDQ7Gm]{Sub-Flechette Gun}.
       </p>
   favorite: false
   ignoredByBrowser: false

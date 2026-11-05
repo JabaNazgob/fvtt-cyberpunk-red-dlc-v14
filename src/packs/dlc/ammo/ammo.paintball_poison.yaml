@@ -23,9 +23,18 @@ system:
   description:
     value: |
       <p>
-        Created from 3 Vials of Poison strapped together. Deals no direct damage on
-        hit.
+        No immediate damage. If hit target rolls a
+        [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV13 Resist Torture/Drugs]]{DV13 Resist Torture/Drugs}.
+        On a failure, the target takes [[/r 3d6dmg#Poison Damage]]{2d6 Damage}
+        directly.
       </p>
+      <blockquote>
+        <p>Does not affect inorganic targets.</p>
+        <p>
+          Created from 3
+          @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Vials of Poison}
+        </p>
+      </blockquote>
   favorite: false
   ignoredByBrowser: false
   installLocation: mall
@@ -35,9 +44,9 @@ system:
       mode: none
       value: -1
     crit:
-      bonus: 5
-      count: 2
-      override: false
+      bonus: 0
+      count: 0
+      override: true
       threshold: 0
     damage:
       minimum: 1d6
