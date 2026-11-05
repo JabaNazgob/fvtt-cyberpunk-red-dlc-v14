@@ -22,9 +22,21 @@ system:
   description:
     value: |
       <p>
-        A nice jacket carrying a surprise; using an action anyone wearing this jacket
-        can consume a battery to let off a blinding light.
+        A supercharged
+        @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.y3Ij43Eg3b0tq16F]{Urban Flash Jacket}.
+        As an action, anyone within 5m/yds that can see the jacket must make a
+        [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV15 Resist Torture/Drugs]]{DV15 Resist Torture/Drugs}
+        or suffer the
+        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged Eye}
+        critical injury for 1 minute.
       </p>
+      <blockquote>
+        <p>
+          Each activation requires a
+          @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.MfuoJ69NL1FiP7B8]{Battery Pack}
+          that is destroyed an unable to be recharged after use.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   ignoredByBrowser: false

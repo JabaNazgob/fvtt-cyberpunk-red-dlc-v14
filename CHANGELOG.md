@@ -4,11 +4,7 @@
 
 ## Version 0.1.0
 
-### New Features
-
-Includes all content from:
-
-### Included Content:
+### Included Content
 
 - 12 Days of Cybermas
 - 12 Days of Cutiemas
@@ -36,19 +32,16 @@ Includes all content from:
 - Toggles Temple
 - Woodchippers Garage
 
-Includes currently supported content from:
-
-#### Partialy Supported Content:
+#### Partialy Supported Content
 
 - Danger Gal Dossier
 - Elflines Online TCG
 - Going MEtal (Interface RED vol 3)
 - Tales of the RED: Hope Reborn
 
-Compendium Items have been revised to conform with published Errata Changes
-
-### New Features:
+### New Features
 
 - Compendium Items have been revised to conform with published Errata Changes
 - Item descriptions have been revised to provide a unified format
   - Armor
+  - Clothing

@@ -22,8 +22,9 @@ system:
   description:
     value: |
       <p>
-        Holographic clothing that can get disabled by EMP blasts for a minute. Can
-        swap styles with an action if purchased.
+        Holographic clothing that can be swapped between downloaded styles as an
+        action. EMP blasts may disrupt this clothing. Holo-Wear does not provide any
+        protection from the environment.
       </p>
   equipped: owned
   favorite: false
