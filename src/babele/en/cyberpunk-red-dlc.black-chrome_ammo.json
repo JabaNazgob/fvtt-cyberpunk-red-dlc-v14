@@ -4,15 +4,15 @@
   "entries": {
     "Arasaka Acid": {
       "name": "Arasaka Acid",
-      "description": "<p>Produces a weapon coating that improves armor ablation.</p>\n<blockquote>\n  <ul>\n    <li><p>Effect lasts for 1 minute.</p></li>\n    <li>\n      <p>\n        Only intended for use with\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.Ifp6KgNYeZ0wfKSN]{Arasaka Weeping Reaver Katana}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
+      "description": "<p>\n  A proprietary weapon coating for use with\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.Ifp6KgNYeZ0wfKSN]{Arasaka Weeping Reaver Katana}\n  that improves armor ablation.\n</p>\n<blockquote>\n  <ul>\n    <li><p>Coating lasts for 1 minute.</p></li>\n  </ul>\n</blockquote>\n"
     },
     "Arasaka Fire": {
       "name": "Arasaka Fire",
-      "description": "<p>\n  Produces a weapon coating that lights the target\n  <strong>On Fire (Mild)</strong>. The target takes 2 damage to HP at end of\n  their turn unless they use action to extinguish flames.\n</p>\n<blockquote>\n  <ul>\n    <li><p>Fire effects do not stack.</p></li>\n    <li><p>Effect lasts for 1 minute.</p></li>\n    <li>\n      <p>\n        Only intended for use with\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.Ifp6KgNYeZ0wfKSN]{Arasaka Weeping Reaver Katana}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
+      "description": "<p>\n  A proprietary weapon coating for use with\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.Ifp6KgNYeZ0wfKSN]{Arasaka Weeping Reaver Katana}\n  that lights the target <strong>On</strong> <strong>Fire (Mild)</strong>.\n</p>\n<blockquote>\n  <ul>\n    <li><p>Coating lasts for 1 minute.</p></li>\n  </ul>\n</blockquote>\n"
     },
     "Arasaka Wound Salt": {
       "name": "Arasaka Wound Salt",
-      "description": "<p>\n  Produces a weapon coating that adds a second critical injury applying Critical\n  Damage.\n</p>\n<blockquote>\n  <ul>\n    <li><p>Does not deal any additional Critical Damage.</p></li>\n    <li><p>Effect lasts for 1 minute.</p></li>\n    <li>\n      <p>\n        Only intended for use with\n        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.Ifp6KgNYeZ0wfKSN]{Arasaka Weeping Reaver Katana}\n      </p>\n    </li>\n  </ul>\n</blockquote>\n"
+      "description": "<p>\n  A proprietary weapon coating for use with\n  @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.Ifp6KgNYeZ0wfKSN]{Arasaka Weeping Reaver Katana}\n  that adds a second critical injury when applying Critical Damage.\n</p>\n<blockquote>\n  <ul>\n    <li><p>Coating lasts for 1 minute.</p></li>\n    <li><p>Does not deal any additional Critical Damage.</p></li>\n  </ul>\n</blockquote>\n"
     },
     "Doberman 500 Marking Scent": {
       "name": "Doberman 500 Marking Scent",

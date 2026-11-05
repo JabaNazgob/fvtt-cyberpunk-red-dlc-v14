@@ -23,19 +23,14 @@ system:
   description:
     value: |
       <p>
-        Produces a weapon coating that adds a second critical injury applying Critical
-        Damage.
+        A proprietary weapon coating for use with
+        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.Ifp6KgNYeZ0wfKSN]{Arasaka Weeping Reaver Katana}
+        that adds a second critical injury when applying Critical Damage.
       </p>
       <blockquote>
         <ul>
+          <li><p>Coating lasts for 1 minute.</p></li>
           <li><p>Does not deal any additional Critical Damage.</p></li>
-          <li><p>Effect lasts for 1 minute.</p></li>
-          <li>
-            <p>
-              Only intended for use with
-              @UUID[Compendium.cyberpunk-red-dlc.black-chrome_weapons.Item.Ifp6KgNYeZ0wfKSN]{Arasaka Weeping Reaver Katana}
-            </p>
-          </li>
         </ul>
       </blockquote>
   favorite: false
