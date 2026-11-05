@@ -24,7 +24,9 @@ system:
   description:
     value: |
       <p>
-        Light Armorjack made from a Mimic Clothing Kit and "Businesswear" clothing.
+        Light Armorjack made from a Mimic Clothing Kit and
+        @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.2mb53u4D65ddOlNx]{Businesswear}
+        clothing.
       </p>
   equipped: owned
   favorite: false

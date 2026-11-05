@@ -8,6 +8,8 @@
 
 Includes all content from:
 
+### Included Content:
+
 - 12 Days of Cybermas
 - 12 Days of Cutiemas
 - 12 Days of Gearmas
@@ -36,9 +38,17 @@ Includes all content from:
 
 Includes currently supported content from:
 
+#### Partialy Supported Content:
+
 - Danger Gal Dossier
 - Elflines Online TCG
 - Going MEtal (Interface RED vol 3)
 - Tales of the RED: Hope Reborn
 
 Compendium Items have been revised to conform with published Errata Changes
+
+### New Features:
+
+- Compendium Items have been revised to conform with published Errata Changes
+- Item descriptions have been revised to provide a unified format
+  - Armor

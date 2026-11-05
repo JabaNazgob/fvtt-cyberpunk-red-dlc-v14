@@ -23,7 +23,13 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Armor Item for Sycust FleshWeave Cyberware.</p>
+      <blockquote>
+        <p>
+          Armor Item for tracking the SP of
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.8Az7bJTWSZSK577k]{Sycust FleshWeave}
+          Cyberware.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   headLocation:

@@ -24,7 +24,9 @@ system:
   description:
     value: |
       <p>
-        Light Armorjack made from a Mimic Clothing Kit and "Nomad Leathers" clothing.
+        Light Armorjack made from a Mimic Clothing Kit and
+        @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.5ieeaIfU392bw34p]{Nomad Leathers}
+        clothing.
       </p>
   equipped: owned
   favorite: false

@@ -24,7 +24,9 @@ system:
   description:
     value: |
       <p>
-        Light Armorjack made from a Mimic Clothing Kit and "Urban Flash" clothing.
+        Light Armorjack made from a Mimic Clothing Kit and
+        @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.y3Ij43Eg3b0tq16F]{Urban Flash}
+        clothing.
       </p>
   equipped: owned
   favorite: false

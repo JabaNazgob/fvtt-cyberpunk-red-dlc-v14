@@ -24,7 +24,9 @@ system:
   description:
     value: |
       <p>
-        Light Armorjack made from a Mimic Clothing Kit and "Bag Lady Chic" clothing.
+        Light Armorjack made from a Mimic Clothing Kit and
+        @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.3g3tb3EuuakVaYgt]{Bag Lady Chic}
+        clothing.
       </p>
   equipped: owned
   favorite: false

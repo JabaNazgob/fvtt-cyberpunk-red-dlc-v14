@@ -27,11 +27,16 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>
-        Armor plates compatible with Dragoon Plating cyberware. Dragoon Plating can be
-        removed, and summoned back within 6m/y as an action.
-      </p>
-      <p><em>Imposes -2 armor penalty while equiped.</em></p>
+      <blockquote>
+        <p>
+          Armor plates compatible with
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.u3xfpRFcEbrt8FK2]{Dragoon Plating}
+          cyberware.
+        </p>
+        <p>
+          Dragoon Plating can be removed, and summoned back within 6m/y as an action.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   headLocation:

@@ -24,7 +24,9 @@ system:
   description:
     value: |
       <p>
-        Light Armorjack made from a Mimic Clothing Kit and "High Fashion" clothing.
+        Light Armorjack made from a Mimic Clothing Kit and
+        @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.z2Gfkljp1A65Onoo]{High Fashion}
+        clothing.
       </p>
   equipped: owned
   favorite: false

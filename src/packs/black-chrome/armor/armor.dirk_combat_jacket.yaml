@@ -24,9 +24,12 @@ system:
   description:
     value: |
       <p>
-        Leisurewear-styled Light Armorjack and the ability to conceal two standard
-        magazines without a check.
+        Light Armorjack that looks like
+        @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.Yxw3WxrFc8yIz2Vh]{Leisurewear}.
       </p>
+      <blockquote>
+        <p>Bulky enough to conceal two standard magazines without a check.</p>
+      </blockquote>
   equipped: owned
   favorite: false
   headLocation:

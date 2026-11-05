@@ -68,10 +68,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >
-      <p>An armored Urban Flash Jacket that counts as a Light Tattoo while
-      worn.</p>
-
+    value: |
+      <p>
+        An armored Urban Flash Jacket that counts as a
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.VbMY2fs3im1sP2dJ]{Light Tattoo}
+        while worn.
+      </p>
       <blockquote>
         <p>
           +2 to Wardrobe &amp; Style if you have at least two Light Tattoos installed

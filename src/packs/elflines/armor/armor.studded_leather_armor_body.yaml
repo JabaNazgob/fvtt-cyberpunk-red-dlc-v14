@@ -23,7 +23,7 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Standard Studded Leather Armor. No armor penalty.</p>
+      <p>Virtual armor for you body made of studded leather.</p>
   equipped: owned
   favorite: false
   headLocation:

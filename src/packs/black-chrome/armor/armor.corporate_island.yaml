@@ -23,7 +23,10 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Light Armorjack that looks like businesswear.</p>
+      <p>
+        Light Armorjack that looks like
+        @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.2mb53u4D65ddOlNx]{businesswear}.
+      </p>
   equipped: owned
   favorite: false
   headLocation:

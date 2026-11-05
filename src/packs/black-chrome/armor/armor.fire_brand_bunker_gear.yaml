@@ -308,10 +308,7 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>
-        Fireproof flak armor with a built in gas mask and oxygen tank. -4 to REF, DEX,
-        and MOVE.
-      </p>
+      <p>Fireproof flak armor with a built in gas mask and oxygen tank.</p>
   equipped: owned
   favorite: false
   headLocation:

@@ -167,8 +167,11 @@ system:
   description:
     value: |
       <p>
-        Kevlar Body Armor that ignores the Whiplash critical injury from car crashes
-        as long as the armor's CO<sub>2</sub> tank is full.
+        Kevlar Body Armor that ignores the
+        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.e5wyX6r4Tem6bNwQ]{Whiplash}
+        critical injury from car crashes as long as the armor's
+        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_upgrades.Item.7OjWV0lnM3L3mG9X]{CO2 tank}
+        is full.
       </p>
   equipped: owned
   favorite: false

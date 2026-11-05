@@ -22,14 +22,12 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Kevlar armor designed for prison use.</p>
-      <blockquote>
-        <p>
-          Use an action on your turn during a grapple to shock the attacker. The
-          grapple ends immediately on a failed
-          <strong>DV15 Resist Torture/Dugs Check</strong>.
-        </p>
-      </blockquote>
+      <p>
+        Kevlar armor designed for prison use. While <strong>Grappled</strong>, you may
+        use an action on your turn shock your attacker forcing them to roll
+        [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV15 Resist Torture/Drugs]]{DV15 Resist Torture/Drugs}.
+        On a failure the grapple ends immediately.
+      </p>
   equipped: owned
   favorite: false
   headLocation:

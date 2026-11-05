@@ -8,11 +8,11 @@
     },
     "Dragoon Plating": {
       "name": "Dragoon Plating",
-      "description": "<p>\n  Armor plates compatible with Dragoon Plating cyberware. Dragoon Plating can be\n  removed, and summoned back within 6m/y as an action.\n</p>\n<p><em>Imposes -2 armor penalty while equiped.</em></p>\n"
+      "description": "<blockquote>\n  <p>\n    Armor plates compatible with\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.u3xfpRFcEbrt8FK2]{Dragoon Plating}\n    cyberware.\n  </p>\n  <p>\n    Dragoon Plating can be removed, and summoned back within 6m/y as an action.\n  </p>\n</blockquote>\n"
     },
     "Dragoon Plating (Metalgear)": {
       "name": "Dragoon Plating (Metalgear)",
-      "description": "<p>\n  Armor plates compatible with Dragoon Plating, Metalgear cyberware. Dragoon\n  Plating can be removed, and summoned back within 6m/y as an action.\n</p>\n<p><em>Imposes -3 armor penalty while equiped.</em></p>\n"
+      "description": "<blockquote>\n  <p>\n    Armor plates compatible with\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.YMu6SNA9VbtKHFL8]{Dragoon Plating (Metalgear)}\n    cyberware.\n  </p>\n  <p>\n    Dragoon Plating can be removed, and summoned back within 6m/y as an action.\n  </p>\n</blockquote>\n"
     },
     "Dry Suit": {
       "name": "Dry Suit",
@@ -24,11 +24,11 @@
     },
     "FleshWeave (Armor)": {
       "name": "FleshWeave (Armor)",
-      "description": "<p>Armor Item for Sycust FleshWeave Cyberware.</p>\n"
+      "description": "<blockquote>\n  <p>\n    Armor Item for tracking the SP of\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.8Az7bJTWSZSK577k]{Sycust FleshWeave}\n    Cyberware.\n  </p>\n</blockquote>\n"
     },
     "Heavy Subdermal Plating": {
       "name": "Heavy Subdermal Plating",
-      "description": "<p>Armor Item for Subdermal Armor Cyberware.</p>\n<blockquote>\n  <p>Note: Remove -2 armor penalty for users with BODY 14 or FBC</p>\n</blockquote>\n"
+      "description": "<blockquote>\n  <p>\n    Armor item for tracking the SP of\n    @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.JZWQbhT7YjmqZIt6]{Heavy Subdermal Plating}\n    Cyberware.\n  </p>\n</blockquote>\n"
     },
     "High-Density Bulletproof Shield": {
       "name": "High-Density Bulletproof Shield",
@@ -36,15 +36,15 @@
     },
     "Light Metalgear® (Body)": {
       "name": "Light Metalgear® (Body)",
-      "description": "<p>A lighter model of the famous Metalgear® armor. -3 to REF, DEX, and MOVE.</p>\n"
+      "description": "<p>A lighter model of the famous Metalgear® armor.</p>\n"
     },
     "Light Metalgear® (Head)": {
       "name": "Light Metalgear® (Head)",
-      "description": "<p>A lighter model of the famous Metalgear® armor. -3 to REF, DEX, and MOVE.</p>\n"
+      "description": "<p>A lighter model of the famous Metalgear® armor.</p>\n"
     },
     "PackShield": {
       "name": "PackShield",
-      "description": "<p>Businesswear Backpack Bulletproof Shield hybrid.</p>\n<p>\n  Can carry items like a\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},\n  and be equipped in your hand like a shield.\n</p>\n<p>Only provides protection when equipped in a hand.</p>\n<p>\n  Cannot be installed in\n  @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup\n Shield}.\n</p>\n"
+      "description": "<p>\n  Businesswear Backpack Bulletproof Shield hybrid. Can store items like a\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},\n  and be equipped in your hand like a shield.\n</p>\n<blockquote>\n  <p>Requires a free arm to be effective.</p>\n  <p>\n    Cannot be installed in\n    @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup Shield}.\n  </p>\n</blockquote>\n"
     },
     "Roller Derby Helmet": {
       "name": "Roller Derby Helmet",
@@ -56,7 +56,7 @@
     },
     "Scavenged Armor": {
       "name": "Scavenged Armor",
-      "description": "<p>\n  A scavenged set of Light Armorjack body armor that is unable to be repaired.\n</p>\n"
+      "description": "<p>A scavenged set of Light Armorjack that is unable to be repaired.</p>\n"
     }
   }
 }

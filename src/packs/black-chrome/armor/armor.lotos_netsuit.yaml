@@ -24,11 +24,15 @@ system:
   description:
     value: |
       <p>
-        A netsuit allowing an extra cyberdeck hardware slot that's installed directly
-        into the suit which is uninstalled if the suit is removed. Comes standard with
-        an Excellent Quality Cyberdeck*. -2 to REF, DEX, and MOVE.
+        Comes with a standard
+        @UUID[Compendium.cyberpunk-red-core.core_gear.Item.AUMkHYqfODTjgtMD]{Excellent Quality Cyberdeck}.
       </p>
-      <p><em>*Must be manually added after acquiring the armor</em></p>
+      <blockquote>
+        <p>
+          This Netsuit adds an extra cyberdeck hardware slot that's installed directly
+          into the suit which is uninstalled if the suit is removed.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   headLocation:

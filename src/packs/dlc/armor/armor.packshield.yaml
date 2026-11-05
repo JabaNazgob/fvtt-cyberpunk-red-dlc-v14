@@ -23,18 +23,18 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Businesswear Backpack Bulletproof Shield hybrid.</p>
       <p>
-        Can carry items like a
+        Businesswear Backpack Bulletproof Shield hybrid. Can store items like a
         @UUID[Compendium.cyberpunk-red-core.core_gear.Item.y2a4HDhIl7FlJyD7]{Carryall},
         and be equipped in your hand like a shield.
       </p>
-      <p>Only provides protection when equipped in a hand.</p>
-      <p>
-        Cannot be installed in
-        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup
-       Shield}.
-      </p>
+      <blockquote>
+        <p>Requires a free arm to be effective.</p>
+        <p>
+          Cannot be installed in
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.I08f3hOEgAPNG4kJ]{Popup Shield}.
+        </p>
+      </blockquote>
   equipped: owned
   favorite: false
   headLocation:

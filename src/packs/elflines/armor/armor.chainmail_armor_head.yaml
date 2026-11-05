@@ -23,10 +23,7 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>
-        Armor made up of innumerable metal rings for your head. -2 to REF, DEX, and
-        MOVE.
-      </p>
+      <p>Virtual armor for you head made of chainmail.</p>
   equipped: owned
   favorite: false
   headLocation:

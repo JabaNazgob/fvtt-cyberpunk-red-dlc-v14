@@ -22,9 +22,12 @@ system:
     concealable: false
     isConcealed: false
   description:
-    value: >
-      <p>Light Armorjack made from a Mimic Clothing Kit and "Asia Pop"
-      clothing.</p>
+    value: |
+      <p>
+        Light Armorjack made from a Mimic Clothing Kit and
+        @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.GeRARcHHEFINHOzz]{Asia Pop}
+        clothing.
+      </p>
   equipped: owned
   favorite: false
   headLocation:

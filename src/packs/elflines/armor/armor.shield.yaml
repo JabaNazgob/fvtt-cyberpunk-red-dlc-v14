@@ -23,7 +23,8 @@ system:
     isConcealed: false
   description:
     value: |
-      <p>Requires an arm and has HP that is reduced by damage.</p>
+      <p>A virtual shield to protect you on your adventure.</p>
+      <blockquote><p>Must be equipped to a free arm.</p></blockquote>
   equipped: owned
   favorite: false
   headLocation:

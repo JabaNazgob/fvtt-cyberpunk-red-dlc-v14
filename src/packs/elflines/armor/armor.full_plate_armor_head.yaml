@@ -24,8 +24,8 @@ system:
   description:
     value: |
       <p>
-        Metal plated armor to resist the most powerful hits to your head. -4 to REF,
-        DEX, and MOVE.
+        Virtual armor for you head made of plate metal to withstand the heaviest
+        blows.
       </p>
   equipped: owned
   favorite: false
