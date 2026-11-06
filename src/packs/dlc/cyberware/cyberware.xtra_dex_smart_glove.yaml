@@ -32,16 +32,16 @@ system:
     value: |
       <p>
         A Smart Glove with Cyberfinger support. Has 2 Option Slots for Cyberarm
-        Options and is treated as a
-        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular
-       Finger Cyberhand}
-        for the sake of installing the 5 supported Cyberfingers*.
+        Options and 5 slots for Cyberfingers.
       </p>
-      <p>
-        Requires Interface Plugs to access Cyberarm/Cyberfinger Options installed in
-        the glove.
-      </p>
-      <p>*Modular Finger Cyberhand must be added after Installation.</p>
+      <blockquote>
+        <p>
+          Requires
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.KofoAolDFb3rvpbL]{Interface Plugs}
+          to access Cyberarm/Cyberfinger Options installed in the glove.
+        </p>
+        <p>Remember to set HL to 0 when installing cyberwear options.</p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:
@@ -60,7 +60,7 @@ system:
       - itemUpgrade
       - ammo
     list: []
-    slots: 3
+    slots: 7
     usedSlots: 0
   isElectronic: true
   isFoundational: true

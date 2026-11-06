@@ -27,27 +27,29 @@ system:
   critFailEffect: jammed
   damage: 4d6
   damageCrit:
-    bonus: 5
-    count: 2
+    bonus: 0
+    count: 0
     threshold: 0
   description:
     value: |
       <p>
-        An "arm" in name only, the Arc-Thrower is a massive electricity cannon. 0
-        option slots.
+        An "arm" in name only, the Arc-Thrower is a massive non-lethal electricity
+        cannon that uses the <strong>Heavy Weapons Skill</strong>; there is no room
+        for a hand or any other option slots.
       </p>
-      <p>
-        The Arc-Thrower is One-Handed Exotic Poor Quality Shotgun that uses Heavy
-        Weapons Skill. Fires "Shotgun Shell" electricity blast with 4d6 damage.
-        Critical Injuries are not possible. Armor is not ablated. If target goes under
-        1HP from the blast, target has 1HP and is Unconscious.
-      </p>
-      <p>
-        Firing the Arc-Thrower consumes a charge from the included Radline MagnaSlot
-        BatteryBrick (100eb). BatteryBrick has a 32 shot capacity and can be recharged
-        in 1 hour. Use an Action to swap in a fresh battery pack even if user has no
-        free hands available. Arc-Thrower does not have a hand attachment.
-      </p>
+      <blockquote>
+        <p>
+          Firing the Arc-Thrower consumes a charge from the included
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_ammo.Item.rRM8ArZ4RlX7EnBh]{Radline MagnaSlot BatteryBrick }.
+          Use an Action to swap in a fresh battery pack even if you have no free hands
+          available.
+        </p>
+        <p>
+          Critical Injuries are not possible. Armor is not ablated. If target goes
+          under 1HP from the blast, target has 1HP and is
+          <strong>Unconscious</strong>.
+        </p>
+      </blockquote>
   dvTable: DV Shotgun (Slug)
   favorite: false
   fireModes:
@@ -63,7 +65,6 @@ system:
   installedItems:
     allowed: true
     allowedTypes:
-      - itemUpgrade
       - ammo
     list: []
     slots: 0

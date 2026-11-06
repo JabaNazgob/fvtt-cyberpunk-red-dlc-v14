@@ -31,9 +31,15 @@ system:
     value: |
       <p>
         Projects a small hologram from the User's palm. User can interact with
-        hologram to control a linked Agent's functions. Can be installed in meat arm
-        if it's the only piece of cyberware in that arm.
+        hologram to control a linked Agent's functions.
       </p>
+      <blockquote>
+        <p>
+          Can be installed into your
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.WzgaetvvHUQeD19B]{Meat Arm}
+          as the only piece of cyberware.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

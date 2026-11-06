@@ -30,7 +30,12 @@ system:
   description:
     value: |
       <p>A personalized faceplate made of durable polymer.</p>
-      <p><em>Compatible with your Cyberskull.</em></p>
+      <blockquote>
+        <p>
+          Compatible with your
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.KLdu0wuFwC95vtss]{Cyberskull}.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

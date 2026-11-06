@@ -6,12 +6,98 @@ flags:
     _migration:
       current: 44
       previous: "38"
+    cprInstallTree:
+      - _id: y6doAmz3hYQM33d0
+        _stats:
+          compendiumSource: Compendium.cyberpunk-red-core.core_cyberware.Item.pYFotQ9V3dtVO4ks
+          coreVersion: "13.351"
+          createdTime: 1794360624358
+          duplicateSource: null
+          exportSource: null
+          lastModifiedBy: L5BVRBGb798QfKk9
+          modifiedTime: 1794360624358
+          systemId: cyberpunk-red-core
+          systemVersion: DUMMY_VALUE
+        effects: []
+        flags:
+          cyberpunk-red-core:
+            _migration:
+              current: 42
+              previous: "41"
+        folder: null
+        img: systems/cyberpunk-red-core/icons/compendium/cyberware/chyron.svg
+        name: Sponsored Chyron
+        ownership:
+          default: 0
+        sort: 200000
+        system:
+          ammoVariety: []
+          attackmod: 0
+          brand: ""
+          canIgnoreArmor: true
+          concealable:
+            concealable: false
+            isConcealed: false
+          core: false
+          critFailEffect: jammed
+          damage: 1d6
+          damageCrit:
+            bonus: 5
+            count: 2
+            threshold: 0
+          description:
+            value: >-
+              <p>Tiny screen in your eye that occasionally shows popup
+              advertisements.</p>
+          dvTable: ""
+          favorite: false
+          fireModes:
+            autoFire: 0
+            suppressiveFire: false
+          humanityLoss:
+            roll: "0"
+            static: 0
+          ignoreArmorPercent: 50
+          ignoreBelowSP: 0
+          ignoredByBrowser: true
+          installLocation: notApplicable
+          installedItems:
+            allowed: false
+            allowedTypes:
+              - cyberware
+            list: []
+            slots: 0
+            usedSlots: 0
+          isElectronic: true
+          isFoundational: false
+          isRanged: false
+          isWeapon: false
+          magazine:
+            ammoData: null
+            max: 0
+            value: 0
+          price:
+            market: 0
+          providesHardening: false
+          revealed: true
+          rof: 1
+          size: 0
+          source: null
+          sources:
+            - book: Black Chrome
+              page: 22
+          type: cyberEye
+          unarmedAutomaticCalculation: true
+          usage: toggled
+          usesType: magazine
+          weaponSkill: Archery
+          weaponType: assaultRifle
+        type: cyberware
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/sponsored_cybereye.svg
 name: Sponsored Cybereye
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -30,11 +116,7 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        A replacement eye. Chyron comes pre-installed*. User randomly experiences
-        random ads.
-      </p>
-      <p><em>*Chyron must be added after installation</em></p>
+      <p>A replacement eye with an ad-supported Chyron.</p>
   dvTable: ""
   favorite: false
   fireModes:
@@ -53,8 +135,9 @@ system:
       - itemUpgrade
       - cyberware
       - ammo
-    list: []
-    slots: 3
+    list:
+      - y6doAmz3hYQM33d0
+    slots: 2
     usedSlots: 0
   isElectronic: true
   isFoundational: true
@@ -70,6 +153,7 @@ system:
   revealed: true
   rof: 1
   size: 0
+  source: null
   sources:
     - book: Black Chrome
       page: 22

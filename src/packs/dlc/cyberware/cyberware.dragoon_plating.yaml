@@ -35,13 +35,16 @@ system:
   description:
     value: |
       <p>
-        Requires BODY 16 or higher unless using a Full Body Conversion. Borgware.
-        External Body Cyberware*. Head and Body Armor SP15 and recovers 1SP/day.
+        Requires <strong>BODY 16</strong> or higher unless using a Full Body
+        Conversion.
       </p>
-      <p>
-        Comes with one set of detatchable Dragoon Armor Plates, additonal plates sold
-        seperately.
-      </p>
+      <blockquote>
+        <p>
+          Comes with one set of detachable
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_armor.Item.8cIb7t0rAaC64HEt]{Dragoon Armor Plating},
+          additional plates sold separately.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

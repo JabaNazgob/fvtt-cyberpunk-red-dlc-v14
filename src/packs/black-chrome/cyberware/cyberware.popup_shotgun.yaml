@@ -11,7 +11,6 @@ img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/popup-shotgun.svg
 name: Popup Shotgun
 ownership:
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety:
@@ -33,10 +32,27 @@ system:
   description:
     value: |
       <p>
-        A concealable shotgun. Comes with a smartgun link pre-installed*. Can't hold
-        anything with this hand while activated.
+        A concealable
+        @UUID[Compendium.cyberpunk-red-core.core_weapons.Item.PJhu6eY766OegZBo]{shotgun}.
       </p>
-      <p><em>* Smart Link must be manually added.</em></p>
+      <blockquote>
+        <p>Can't hold anything with this hand while activated.</p>
+        <p>
+          Incompatible with all upgrades except
+          <a
+            class="content-link"
+            draggable="true"
+            data-link
+            data-uuid="Compendium.cyberpunk-red-core.core_upgrades.Item.BC8S1sdK0QGdyHNC"
+            data-id="BC8S1sdK0QGdyHNC"
+            data-type="Item"
+            data-pack="cyberpunk-red-core.core_upgrades"
+            data-tooltip="Item"
+            data-tooltip-text="Upgrade Item"
+            >Smartgun Link</a
+          >.
+        </p>
+      </blockquote>
   dvTable: DV Shotgun (Slug)
   favorite: false
   fireModes:
@@ -52,8 +68,8 @@ system:
   installedItems:
     allowed: true
     allowedTypes:
-      - itemUpgrade
       - ammo
+      - itemUpgrade
     list: []
     slots: 0
     usedSlots: 0
@@ -66,11 +82,12 @@ system:
     max: 2
     value: 0
   price:
-    market: 500
+    market: 1000
   providesHardening: false
   revealed: true
   rof: 1
   size: 3
+  source: null
   sources:
     - book: Black Chrome
       page: 21

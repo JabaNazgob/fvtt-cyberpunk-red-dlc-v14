@@ -33,6 +33,13 @@ system:
       <p>
         A cyberhand capable of wireless interface and up to 50% typing speed increase.
       </p>
+      <blockquote>
+        <p>
+          Can be installed into your
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.WzgaetvvHUQeD19B]{Meat Arm}
+          as the only piece of cyberware.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

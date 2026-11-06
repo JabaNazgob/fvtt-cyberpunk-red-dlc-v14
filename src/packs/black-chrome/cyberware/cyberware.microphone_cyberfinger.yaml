@@ -31,9 +31,15 @@ system:
   description:
     value: |
       <p>
-        Cyberfinger holding a concealed recording device. Can only be installed on a
-        modular finger cyberhand.
+        Cyberfinger that conceals an
+        @UUID[Compendium.cyberpunk-red-core.core_gear.Item.Lo7rXsc5ToQf2KlN]{Audio Recorder}.
       </p>
+      <blockquote>
+        <p>
+          Can only be installed on a
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular Finger Cyberhand}.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

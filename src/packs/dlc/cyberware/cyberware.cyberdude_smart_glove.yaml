@@ -121,6 +121,9 @@ system:
         A fingerless smart glove that allows full access to any installed cyberfinger
         upgrades. Comes with an Integrated Subdermal grip.
       </p>
+      <blockquote>
+        <p>*Remember to set HL to 0 when installing cyberwear options.</p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

@@ -32,14 +32,17 @@ system:
   description:
     value: |
       <p>
-        High fashion Cyberlegs with integrated Talon Foot blades in each heel. Blades
-        can not be removed.
+        High fashion Cyberlegs with integrated
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.lJRnJRm5wsZRC7SK]{Talon Foot}
+        blades that cannot be removed without destroying the legs.
       </p>
-      <p>
-        Paired Cyberlegs, 1000eb for both legs. Each leg has 3 slots for Cyberleg or
-        Cyberlimb Options. Roll Humanity Loss once for the pair of legs. Each leg can
-        suffer separate Critical Injuries and must be repaired individually.
-      </p>
+      <blockquote>
+        <p>These paired cyberlegs are purchased as a single unit.</p>
+        <p>
+          Install 2 copies of this item, but only pay the
+          <strong>Humanity Loss</strong> once.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

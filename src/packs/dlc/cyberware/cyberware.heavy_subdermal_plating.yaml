@@ -33,14 +33,13 @@ system:
   description:
     value: |
       <p>
-        <strong>External Body Borgware</strong> requires BODY 10 or FBC. Protects
-        user's head &amp; body with integrated SP13 armor.
+        Requires <strong>BODY 10</strong> or higher unless using a Full Body
+        Conversion.
       </p>
       <blockquote>
         <p>
           Add
-          @UUID[Compendium.cyberpunk-red-dlc.dlc_armor.Item.kEMGWjMaYcA4rGyJ]{Heavy
-       Subdermal Plating}
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_armor.Item.kEMGWjMaYcA4rGyJ]{Heavy Subdermal Plating}
           to track SP
         </p>
       </blockquote>

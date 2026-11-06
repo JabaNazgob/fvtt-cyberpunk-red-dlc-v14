@@ -31,8 +31,9 @@ system:
   description:
     value: |
       <p>
-        Internal Agent with retractable screen on the user's forearm. Requires a
-        Cyberarm.
+        Internal
+        @UUID[Compendium.cyberpunk-red-core.core_gear.Item.GqYz689ddSKQHMen]{Agent}
+        with retractable screen on the user's forearm.
       </p>
   dvTable: ""
   favorite: false

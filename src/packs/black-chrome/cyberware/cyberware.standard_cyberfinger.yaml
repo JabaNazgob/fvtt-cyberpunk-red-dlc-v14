@@ -19,7 +19,7 @@ system:
   brand: Dynalar Technologies
   canIgnoreArmor: true
   concealable:
-    concealable: true
+    concealable: false
     isConcealed: false
   core: false
   critFailEffect: jammed
@@ -30,7 +30,10 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Cyberfinger. Can only be installed on a modular finger cyberhand.</p>
+      <p>
+        A finger for your
+        @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular Finger Cyberhand}
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

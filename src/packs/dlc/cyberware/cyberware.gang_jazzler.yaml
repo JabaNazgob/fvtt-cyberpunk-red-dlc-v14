@@ -31,17 +31,24 @@ system:
   description:
     value: |
       <p>
-        Use a Choke Action to stab a grappled target with a popout electrified needle.
-        The target takes no damage but must make a
-        <strong>DV13 Resist Torture/Drugs</strong> Check. On failed check, target
-        falls Unconscious for 1 minute.
+        Popout an electrified needle as an action while <strong>Grappling</strong> a
+        target to force a
+        [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV13 Resist Torture/Drugs]]{DV13 Resist Torture/Drugs}
+        check. On a failure, the target falls <strong>Unconscious</strong> for 1
+        minute.
       </p>
-      <p>
-        Powered by a rechargeable battery pack (50eb). Battery pack must be recharged
-        for 1 hour after each use. No check is necessary to conceal Gang Jazzler and
-        battery pack. Can be installed in meat arm if it's the only piece of cyberware
-        in that arm.
-      </p>
+      <blockquote>
+        <p>
+          Requires a
+          @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.MfuoJ69NL1FiP7B8]{Battery Pack}
+          that must be recharged after each use.
+        </p>
+        <p>
+          Can be installed into your
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.WzgaetvvHUQeD19B]{Meat Arm}
+          as the only piece of cyberware.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

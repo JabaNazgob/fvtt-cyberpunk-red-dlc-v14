@@ -31,19 +31,45 @@ system:
   description:
     value: |
       <p>
-        Color-shifting eye lenses. Color is dependent on Neural Link "mood" scans.
-        <strong>DV 21 Acting</strong> check to fake a mood scan and change color
-        accordingly. Lenses can be deactivated without an action.
+        MoodSync lenses that changed color based on data provided by your
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.ju5Rq9rOe2lpDKKl]{Neural Link}.
       </p>
-      <ul>
-        <li>Red: Rage</li>
-        <li>Blue: Sorrow</li>
-        <li>Yellow: Terror</li>
-        <li>Pink: Horny</li>
-        <li>Green: Envy</li>
-        <li>Gray: Flatlined</li>
-      </ul>
-      <p>Fashionware. Requires Neural Link.</p>
+      <p>
+        Lenses can be activated or deactivated without an action, however a
+        [[/r 1d10red+@stats.cool+@skills.acting #DV21 Acting]]{DV 21 Acting} check is
+        required to fool your cyberware.
+      </p>
+      <blockquote>
+        <p>
+          Requires a
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.ju5Rq9rOe2lpDKKl]{Neural Link}
+          to be installed to monitor your mood.
+        </p>
+      </blockquote>
+      <table>
+        <tbody>
+          <tr>
+            <td style="background-color: #dc143c">
+              <p style="text-align: center">Rage</p>
+            </td>
+            <td style="background-color: #6495ed">
+              <p style="text-align: center">Sorrow</p>
+            </td>
+            <td style="background-color: #daa520">
+              <p style="text-align: center">Terror</p>
+            </td>
+            <td style="background-color: #ff69b4">
+              <p style="text-align: center">Horny</p>
+            </td>
+            <td style="background-color: #008000">
+              <p style="text-align: center">Envy</p>
+            </td>
+            <td style="background-color: #808080">
+              <p style="text-align: center">Flatlined</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
   dvTable: ""
   favorite: false
   fireModes:

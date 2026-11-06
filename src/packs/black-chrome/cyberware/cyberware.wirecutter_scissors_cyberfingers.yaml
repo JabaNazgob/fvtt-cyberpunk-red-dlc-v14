@@ -72,9 +72,16 @@ system:
   description:
     value: |
       <p>
-        Cyberfinger pair that can serve as scissors or wirecutters. Can only be
-        installed on a modular finger cyberhand.
+        A pair of cyberfinger that conceal retractable scissor blades tough enough to
+        cut small wires.
       </p>
+      <blockquote>
+        <p>
+          Can only be installed on a
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular Finger Cyberhand}.
+        </p>
+        <p>Function as a <strong>Poor Quality</strong> weapon.</p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

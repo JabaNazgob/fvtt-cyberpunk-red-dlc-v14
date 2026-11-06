@@ -26,7 +26,16 @@ system:
     count: 2
     threshold: 0
   description:
-    value: ""
+    value: |
+      <p>Play classic Segotari games in your mind.</p>
+      <blockquote>
+        <p>Each game sold separately</p>
+        <p>
+          Chipware must be installed into a
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.IJarQGKk5rPayoLT]{Chipware Socket}
+          or similar device.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

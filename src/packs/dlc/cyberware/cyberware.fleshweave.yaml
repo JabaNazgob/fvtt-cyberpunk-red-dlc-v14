@@ -31,17 +31,15 @@ system:
   description:
     value: |
       <p>
-        External Body Cyberware*. 7 SP for head and body.<br />Skinweave armor with
-        advanced self-healing functionality. Billions of nanobots repair all damage to
-        FleshWeave(body and head) armor after 10 minutes of rest. Armor does not
-        stack.
+        Advanced self-repairing armor implanted into your skin. Billions of nanobots
+        repair all damage after 10 minutes of rest.
       </p>
-      <p>
-        <em
-          >* Cyberware Armor does not function as armor in the system, please add the
-          "Sycust FleshWeave (Armor)" item to the character/mook to track</em
-        >
-      </p>
+      <blockquote>
+        <p>
+          Track SP via
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_armor.Item.q7x8ew6xdBFmBeVk]{FleshWeave (Armor)}
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

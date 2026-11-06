@@ -64,7 +64,7 @@
     },
     "Smart Ears": {
       "name": "Smart Ears",
-      "description": "<p>\n  A wearable headset with integrated Radio Scanner / Music Player and 2 empty\n  Cyberaudio slots.\n</p>\n"
+      "description": "<p>\n  A wearable headset with integrated Radio Scanner / Music Player and 2 empty\n  Cyberaudio slots.\n</p>\n<blockquote>\n  <p>Remember to set HL to 0 when installing cyberwear options.</p>\n</blockquote>\n"
     },
     "Achievment Lootboxes": {
       "name": "Achievment Lootboxes",

@@ -31,9 +31,10 @@ system:
   description:
     value: |
       <p>
-        Produces a jammer field over 6m/yd by 6m/yd (3x3 squares). Any wireless
-        transmission attempt must succeed at a
-        <strong>DV13 Electronics/Security Tech</strong> <strong>Check</strong> Action.
+        Produces a 6m/yd field of electromagnetic noise that disrupts nearby wireless
+        transmissions. While in this area
+        [[/r 1d10red+@stats.tech+@skills.electronicsOrSecurityTech# DV13 Electronics/Security Tech]]{DV13 Electronics/Security Tech}
+        check is required to maintain communication.
       </p>
   favorite: false
   fireModes:

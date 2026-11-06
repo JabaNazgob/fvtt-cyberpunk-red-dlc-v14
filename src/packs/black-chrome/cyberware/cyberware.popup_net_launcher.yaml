@@ -31,10 +31,10 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        A concealable exotic net launcher. Can't hold anything with this hand while
-        activated.
-      </p>
+      <p>A concealable exotic net launcher.</p>
+      <blockquote>
+        <p>Can't hold anything with this hand while activated.</p>
+      </blockquote>
   dvTable: DV Shotgun (Slug)
   favorite: false
   fireModes:

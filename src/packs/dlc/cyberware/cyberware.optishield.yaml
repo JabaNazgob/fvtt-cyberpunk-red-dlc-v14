@@ -31,8 +31,13 @@ system:
   description:
     value: |
       <p>
-        Embedded retractable Mirrorshades. When activated as an Action, user is immune
-        to negative effects of bright light, such as from flashbangs.
+        Embedded
+        @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.jhwXtXIbJFgwirQO]{Mirrorshades}
+        that can be retracted as an action.
+      </p>
+      <p>
+        Provides immunity to dazzling effects like those produced by
+        @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.e8gDMbdK1oPKwhqW]{Flashbang Grenades}.
       </p>
   dvTable: ""
   favorite: false

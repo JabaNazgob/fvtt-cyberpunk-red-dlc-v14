@@ -9,15 +9,17 @@ effects:
       createdTime: null
       duplicateSource: null
       exportSource: null
-      lastModifiedBy: null
-      modifiedTime: null
+      lastModifiedBy: uZdNL8lFVztc95PE
+      modifiedTime: 1794179207393
       systemId: cyberpunk-red-core
-      systemVersion: v0.92.1
+      systemVersion: DUMMY_VALUE
     changes:
       - key: system.stats.body.value
         mode: 5
-        priority: null
         value: "12"
+      - key: bonuses.run
+        mode: 2
+        value: "4"
     description: ""
     disabled: false
     duration:
@@ -33,8 +35,12 @@ effects:
         changes:
           cats:
             "0": stat
+            "1": combat
           situational:
             "0":
+              isSituational: false
+              onByDefault: false
+            "1":
               isSituational: false
               onByDefault: false
     img: >-
@@ -76,15 +82,22 @@ system:
     threshold: 0
   description:
     value: |
-      <ul>
-        <li>Requires BODY 8, 2 Grafted Muscle and Bone Lace</li>
-        <li>
-          Increases BODY stat to 12 (adjusting your HP, Wound Threshold, and Death
-          Save)
-        </li>
-        <li>No movement penalty for jumping</li>
-        <li>Operates as if paired Skate Feet are installed</li>
-      </ul>
+      <p>
+        Increases your <strong>BODY</strong> stat to 12 and enhance running speed. No
+        penalty for jumping.
+      </p>
+      <p>
+        An Internal Linear Frame can be identified with a
+        [[/r 1d10red+@stats.tech+@skills.cybertech #DV13 Cybertech]]{DV13 Cybertech}
+        check.
+      </p>
+      <blockquote>
+        <p>
+          Requires
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.Lx9FSNDEIxLZ7Pyh]{Grafted Muscle and Bone Lace}
+          x2 (Installed Separately) &amp; <strong>BODY</strong> 8
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

@@ -77,17 +77,18 @@ system:
   description:
     value: |
       <p>
-        Must be Paired: Create a powerful beam of light up to 25m/yd that illuminates
-        your surroundings.
+        Create a powerful beam of light up to 25m/yd that illuminates your
+        surroundings.
+      </p>
+      <p>
+        Focus the beam as an action to force your target to make a
+        [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV15 Resist Torture/Drugs]]{DV15 Resist Torture/Drugs Check}.
+        On a failure, they suffer the
+        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged Eye}
+        critical injury.
       </p>
       <blockquote>
-        <p>
-          Use an action to force a target to make a
-          <strong>DV15 Resist/Torture Drugs Check</strong> or suffer
-          @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.qoegLCfpEOQifeZq]{Damaged
-       Eye}
-          critical injury.
-        </p>
+        <p>Cyberware must be paired to provide associated benefit.</p>
       </blockquote>
   dvTable: ""
   favorite: false

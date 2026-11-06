@@ -75,13 +75,10 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Built in agent. Audio only but can be linked with other cybergear.</p>
-      <blockquote>
-        <p><strong>Excellent Quality</strong> <strong>Internal Agent</strong></p>
-        <ul>
-          <li><p>Remote Hacking DV 24 / Physical Hacking DV 21</p></li>
-        </ul>
-      </blockquote>
+      <p>
+        A built in Excellent Quality Agent that provides only audio-based features.
+        Can be linked to other installed cyberware items.
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

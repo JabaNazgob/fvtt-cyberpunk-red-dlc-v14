@@ -30,7 +30,11 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Internal cyberware. Grants immunity to whiplash.</p>
+      <p>
+        Grants immunity to the
+        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.e5wyX6r4Tem6bNwQ]{Whiplash}
+        critical injury.
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

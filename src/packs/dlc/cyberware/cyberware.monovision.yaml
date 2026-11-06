@@ -30,16 +30,20 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        Single-optic Cybereye visor that takes the place of two meat eyes. Too large
-        for a MultiOptic Mount.
-      </p>
-      <p>
-        Cybereye Options are always "paired" even if there is only one of each type.
-        Penalties from Lost Eye Critical Injury are doubled if the target solely
-        relies on the Monovision for sight.
-      </p>
-      <p>Borgware.</p>
+      <p>Single-optic Cybereye visor that takes the place of two meat eyes.</p>
+      <p>"paired" even if there is only one of each type.</p>
+      <blockquote>
+        <p>Installed cybereye options always count as paired.</p>
+        <p>
+          Counts as Borgware that is incompatible with the
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.Iu2wDz9q6Ov0UAKo]{MultiOptic Mount}.
+        </p>
+        <p>
+          Whenever you suffer the
+          @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.vysFvuTpuG2aDDIz]{Lost Eye}
+          Critical Injury, add a second copy to your sheet.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

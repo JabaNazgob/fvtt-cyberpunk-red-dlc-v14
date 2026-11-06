@@ -243,18 +243,23 @@ system:
     threshold: 0
   description:
     value: |
-      <ul>
-        <li>Requires BODY 8, 2 Grafted Muscle and Bone Lace</li>
-        <li>
-          Increases BODY stat to 12 (adjusting your HP, Wound Threshold, and Death
-          Save)
-        </li>
-        <li>Increase Stealth +2</li>
-        <li>Drawing and sheathing the frame's weapons does not require an Action</li>
-        <li>
-          A Conceal check is not required for the weapons concealed in the frame.
-        </li>
-      </ul>
+      <p>
+        Increases your <strong>BODY</strong> stat to 12 and
+        <strong>Stealth</strong> +2. Drawing and sheathing the frame's weapons does
+        not require an Action and can be concealed without a check.
+      </p>
+      <p>
+        An Internal Linear Frame can be identified with a
+        [[/r 1d10red+@stats.tech+@skills.cybertech #DV13 Cybertech]]{DV13 Cybertech}
+        check.
+      </p>
+      <blockquote>
+        <p>
+          Requires
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.Lx9FSNDEIxLZ7Pyh]{Grafted Muscle and Bone Lace}
+          x2 (Installed Separately) &amp; <strong>BODY</strong> 8
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

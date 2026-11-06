@@ -94,7 +94,7 @@ flags:
           weaponSkill: Handgun
         type: cyberware
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/deathtrance.svg
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/quick-change-faceplate.svg
 name: Quick Change Faceplate Mount
 ownership:
   default: 0
@@ -117,11 +117,14 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        Once your Quick Change Faceplate Mount has been installed by a Ripperdoc, you
-        may swap between faceplates as an action. Comes with one Personalized
-        Faceplate.
-      </p>
+      <p>Allows you to swap between faceplates as an action.</p>
+      <blockquote>
+        <p>
+          Comes with one
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.jgSJKsyaqUANw0zL]{Personalized Faceplate},
+          additional faceplates sold separately.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

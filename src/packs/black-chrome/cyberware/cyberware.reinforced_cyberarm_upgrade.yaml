@@ -29,9 +29,12 @@ system:
     count: 2
     threshold: 0
   description:
-    value: >
-      <p>Requires cyberarm. The cyberarm this is installed on cannot be
-      broken.</p>
+    value: |
+      <p>
+        Durable reinforcement for your limb that prevents the
+        @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-body.Item.Y65igO9rtakP4qSs]{Broken Arm}
+        critical injury.
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

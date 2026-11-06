@@ -35,15 +35,17 @@ system:
         retracted without an Action. User can not use the hand on the ChainRipp's
         Cyberarm when blade is drawn.
       </p>
-      <p>
-        When deployed, ChainRipp can be revved as an Action and qualifies as an
-        Excellent Quality One-Handed Exotic Very Heavy Melee Weapon. ChainRipp remains
-        revved until deactivated as an Action.
-      </p>
-      <p>
-        In the deployed but un-revved state, the ChainRipp is a One-Handed Very Heavy
-        Melee Weapon.
-      </p>
+      <blockquote>
+        <p>
+          When deployed, ChainRipp can be revved as an Action and qualifies as an
+          Excellent Quality One-Handed Exotic Very Heavy Melee Weapon. ChainRipp
+          remains revved until deactivated as an Action.
+        </p>
+        <p>
+          In the deployed but un-revved state, the ChainRipp is a One-Handed Very
+          Heavy Melee Weapon.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

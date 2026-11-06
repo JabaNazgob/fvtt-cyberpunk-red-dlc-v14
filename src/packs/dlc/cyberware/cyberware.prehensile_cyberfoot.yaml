@@ -9,15 +9,17 @@ effects:
       createdTime: null
       duplicateSource: null
       exportSource: null
-      lastModifiedBy: null
-      modifiedTime: null
+      lastModifiedBy: U3UBVQwttnJxG7TD
+      modifiedTime: 1794352582290
       systemId: cyberpunk-red-core
-      systemVersion: v0.0.0dev
+      systemVersion: DUMMY_VALUE
     changes:
       - key: system.stats.move.value
         mode: 2
-        priority: null
         value: "-4"
+      - key: bonuses.hands
+        mode: 2
+        value: "1"
     description: ""
     disabled: true
     duration:
@@ -33,7 +35,7 @@ effects:
         changes:
           cats:
             "0": stat
-            "1": stat
+            "1": combat
           situational:
             "0":
               isSituational: false
@@ -42,7 +44,7 @@ effects:
               isSituational: false
               onByDefault: false
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/prehensile-cyberfoot.svg
-    name: Prehensile Feet
+    name: Prehensile Foot
     origin: Item.6aOF9KaUCHusFxsM
     sort: 0
     statuses: []
@@ -83,13 +85,20 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Transform a Cyberleg into a Cyberarm as an action.</p>
       <p>
-        <em
-          >-4 MOVE penalty while transformed unless in Zero-G. Cannot install cyberarm
-          upgrades.</em
-        >
+        Transform your
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.APmOX0zOhga6Z1e6]{Cyberleg}
+        into a
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.RT4NU0EbvmkgoSpZ]{Cyberarm}
+        as an action.
       </p>
+      <blockquote>
+        <p>
+          <em
+            >-4 <strong>MOVE</strong> penalty while transformed unless in Zero-G.</em
+          >
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

@@ -71,10 +71,13 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        Cyberfinger holding a concealed Laser Pointer. Can only be installed on a
-        modular finger cyberhand.
-      </p>
+      <p>Cyberfinger that conceals a Laser Pointer.</p>
+      <blockquote>
+        <p>
+          Can only be installed on a
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular Finger Cyberhand}.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

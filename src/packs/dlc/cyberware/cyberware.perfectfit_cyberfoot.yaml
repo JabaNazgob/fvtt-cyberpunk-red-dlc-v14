@@ -31,10 +31,16 @@ system:
   description:
     value: |
       <p>
-        Adjust foot size to perfectly fit any footwear. User can ignore penalties for
-        wearing footwear that would otherwise be uncomfortable or impracticable.<br />Can
-        be installed in meat leg if it's the only piece of cyberware in that leg.
+        User can ignore penalties for wearing footwear that would otherwise be
+        uncomfortable or impracticable.
       </p>
+      <blockquote>
+        <p>
+          Can be installed into your
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.gDN0U6mp3axrm9KQ]{Meat Leg}
+          as the only piece of cyberware.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

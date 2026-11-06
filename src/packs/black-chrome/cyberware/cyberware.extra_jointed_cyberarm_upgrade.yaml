@@ -77,7 +77,7 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Enchances cyberarm articulation. +2 Contortionist.</p>
+      <p>Enchances cyberarm articulation. +2 <strong>Contortionist</strong>.</p>
   dvTable: ""
   favorite: false
   fireModes:

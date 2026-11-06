@@ -269,7 +269,7 @@ flags:
         type: cyberware
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/skydrivers.svg
-name: Skydrivers (Paired)
+name: Skydrivers
 ownership:
   default: 0
   w3682e6R5qVcWyUA: 3
@@ -292,11 +292,16 @@ system:
   description:
     value: |
       <p>
-        Skydrivers are installed as a paired unit. Comes with an Integrated Jump
-        Booster and 2 empty option slots. When using your legs to attack a source of
-        cover, you may deal an additional [[/r 3d6dmgab0#Skydriver Bonus Damage vs
-        Cover]]{3d6 damage}.
+        When using your legs to attack a source of cover, you may deal an additional
+        [[/r 3d6dmgab0#Skydriver Bonus Damage vs Cover]]{3d6 damage}.
       </p>
+      <blockquote>
+        <p>These paired cyberlegs are purchased as a single unit.</p>
+        <p>
+          Install 2 copies of this item, but only pay the
+          <strong>Humanity Loss</strong> once.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

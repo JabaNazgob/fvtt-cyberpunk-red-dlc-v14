@@ -29,9 +29,9 @@ system:
     count: 2
     threshold: 0
   description:
-    value: |
-      <p>Borgware.</p>
-      <p>This is installed to is not affected by EMP effects.</p>
+    value: >
+      <p>Install into a piece of Borgware to make it resistant to EMP
+      effects.</p>
   dvTable: ""
   favorite: false
   fireModes:

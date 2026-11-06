@@ -72,9 +72,9 @@ system:
     count: 2
     threshold: 0
   description:
-    value: >
-      <p>Large insectoid Cybereye packed with option slots. Counts as
-      Borgware.</p>
+    value: |
+      <p>Large insectoid Cybereye packed with option slots.</p>
+      <blockquote><p>Counts as Borgware.</p></blockquote>
   dvTable: ""
   favorite: false
   fireModes:

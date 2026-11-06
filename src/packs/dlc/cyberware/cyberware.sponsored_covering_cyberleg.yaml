@@ -32,10 +32,14 @@ system:
       <p>
         Earn 20eb monthly by sporting a light-up advertisement on your Cyberleg. User
         may be responsible for paying the installation fee. Corporate sponsorship may
-        be revoked if the terms are violated, such as obscuring the advertisement with
-        clothing or engaging in "off-brand" activities.
+        be revoked if the terms are violated.
       </p>
-      <p>Can not be installed in Meat leg.</p>
+      <blockquote>
+        <p>
+          Can not be installed in
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.gDN0U6mp3axrm9KQ]{Meat Leg}.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

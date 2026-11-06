@@ -30,11 +30,11 @@ system:
     count: 2
     threshold: 0
   description:
-    value: |
-      <p>
-        A hand replacement with each finger housing a concealed gun barrel. An Exotic
-        weapon but able to use non-basic ammo.
-      </p>
+    value: >
+      <p>A fully articulated hand that conceals a gun barrel in each finger.</p>
+
+      <blockquote><p>Exotic weapon that can load non-basic
+      ammo.</p></blockquote>
   dvTable: DV Pistol
   favorite: false
   fireModes:
@@ -51,9 +51,8 @@ system:
     allowed: true
     allowedTypes:
       - ammo
-      - itemUpgrade
     list: []
-    slots: 3
+    slots: 0
     usedSlots: 0
   isElectronic: true
   isFoundational: false

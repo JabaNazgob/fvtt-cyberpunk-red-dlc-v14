@@ -1,18 +1,16 @@
-_id: P19OmJOcdgjhgjLm
-_key: "!items!P19OmJOcdgjhgjLm"
+_id: 32JRSwP48sfbhAUH
+_key: "!items!32JRSwP48sfbhAUH"
 effects:
   - _id: wCVnIEpRw7zhqmZD
-    _key: "!items.effects!P19OmJOcdgjhgjLm.wCVnIEpRw7zhqmZD"
+    _key: "!items.effects!32JRSwP48sfbhAUH.wCVnIEpRw7zhqmZD"
     _stats:
       compendiumSource: null
       coreVersion: "13.351"
-      createdTime: null
       duplicateSource: null
       exportSource: null
       lastModifiedBy: null
-      modifiedTime: null
       systemId: cyberpunk-red-core
-      systemVersion: v0.92.1
+      systemVersion: DUMMY_VALUE
     changes:
       - key: bonuses.acting
         mode: 2
@@ -47,22 +45,19 @@ effects:
     transfer: true
     type: base
   - _id: joudVbiOapxtTJl8
-    _key: "!items.effects!P19OmJOcdgjhgjLm.joudVbiOapxtTJl8"
+    _key: "!items.effects!32JRSwP48sfbhAUH.joudVbiOapxtTJl8"
     _stats:
       compendiumSource: null
       coreVersion: "13.351"
-      createdTime: null
       duplicateSource: null
       exportSource: null
       lastModifiedBy: null
-      modifiedTime: null
       systemId: cyberpunk-red-core
-      systemVersion: v0.92.1
+      systemVersion: DUMMY_VALUE
     changes:
       - key: bonuses.acting
         mode: 2
-        priority: null
-        value: "5"
+        value: "1"
     description: ""
     disabled: false
     duration:
@@ -83,7 +78,7 @@ effects:
               isSituational: true
               onByDefault: false
     img: modules/cyberpunk-red-dlc/icons/dlc/status/poser_chip.svg
-    name: Poser Chip (Roleplay)
+    name: Poser Chip (Convincing Roleplay)
     origin: null
     sort: 0
     statuses: []
@@ -98,10 +93,10 @@ flags:
       previous: "38"
 folder: null
 img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/poser_chip.svg
-name: Poser Chip
+name: Poser Chip (Personalized)
 ownership:
+  U3UBVQwttnJxG7TD: 3
   default: 0
-  rRCcEOJu9poJ2EaX: 3
 sort: 0
 system:
   ammoVariety: []
@@ -121,18 +116,21 @@ system:
   description:
     value: |
       <p>
-        Chipware. Allows User to effortlessly mimic speech patterns and mannerisms of
-        a pre-programmed personality. Standard-issue Cyberware for Poser Gangs.
+        Pre-programmed with with 10+ hours of footage documenting the speech patterns
+        and mannerisms of a private individual.
       </p>
-      <ul>
-        <li>+4 to Acting Checks when imitating that specific personality.</li>
-        <li>+5 to Acting Checks with convincing Roleplay.</li>
-      </ul>
       <p>
-        Poser Chips programmed with countless hours of celebrity footage cost 500eb.
-        More personalized Poser Chips programmed with 10+ hours of footage of a
-        private individual cost 1000eb.
+        Provides a +4 bonus to <strong>Acting</strong> checks when imitating that
+        specific personality and increasing to +5 when engaging in convincing
+        roleplay.
       </p>
+      <blockquote>
+        <p>
+          Chipware must be installed into a
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.IJarQGKk5rPayoLT]{Chipware Socket}
+          or similar device.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:
@@ -144,7 +142,7 @@ system:
   ignoreArmorPercent: 50
   ignoreBelowSP: 0
   ignoredByBrowser: false
-  installLocation: mall
+  installLocation: notApplicable
   installedItems:
     allowed: true
     allowedTypes:
@@ -161,11 +159,12 @@ system:
     max: 0
     value: 0
   price:
-    market: 500
+    market: 1000
   providesHardening: false
   revealed: true
   rof: 1
   size: 1
+  source: null
   sources:
     - book: 12 Days of Cybermas
       page: 4

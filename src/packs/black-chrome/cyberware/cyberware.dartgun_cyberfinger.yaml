@@ -73,9 +73,15 @@ system:
   description:
     value: |
       <p>
-        Cyberfinger that holds a concealed Dartgun. Can only be installed on a modular
-        finger cyberhand.
+        Cyberfinger that conceals a
+        @UUID[Compendium.cyberpunk-red-core.core_weapons.Item.fSvkIl83Rsqd7O16]{Dartgun}.
       </p>
+      <blockquote>
+        <p>
+          Can only be installed on a
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular Finger Cyberhand}.
+        </p>
+      </blockquote>
   dvTable: DV Pistol
   favorite: false
   fireModes:

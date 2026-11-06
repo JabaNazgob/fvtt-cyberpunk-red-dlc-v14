@@ -29,12 +29,14 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Internal Body Cyberware.</p>
       <p>
-        Use an Action to load one dose of Street Drug into a subdermal storage pod.
-        Optionally, one can configure a Biomonitor to automatically dose the user upon
-        entering combat, suffering a critical injury, or reaching a predetermined
-        Wound State threshold.
+        Use an Action to load one dose of a Street Drug into a subdermal storage pod.
+        Once loaded, you may use another action to manually release the dose into your
+        bloodstream. Additonaly, If you have a
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.0d2bEozOFhfPgkUP]{Biomonitor}
+        installed, you can program it to automatically dose yourself upon entering
+        combat, suffering a critical injury, or reaching a predetermined Wound State
+        threshold.
       </p>
   dvTable: ""
   favorite: false

@@ -78,10 +78,18 @@ system:
   description:
     value: |
       <p>
-        A wrist-mounted collection of instruments and probes to facilitate surgery.<br />+1
-        to Medtech Surgery Checks.
+        A wrist-mounted collection of instruments and probes that provide a +1 to the
+        Medtech's <strong>Surgery</strong> Checks.
       </p>
-      <p>Takes up 1 Cyberarm Option slot and 1 Neural Link Option slot.</p>
+      <blockquote>
+        <p>
+          Requires the
+          @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.cXiuzusDFmK7Aivh]{MicroWaldo Co-Processor}
+          to be installed into a
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.ju5Rq9rOe2lpDKKl]{Neural Link}
+          to function.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

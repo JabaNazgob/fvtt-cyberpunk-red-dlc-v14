@@ -86,10 +86,20 @@ system:
     threshold: 0
   description:
     value: |
+      <p>Increases your <strong>BODY</strong> stat to 16</p>
       <p>
-        Increases your BODY stat to 16 (adjusting your HP and Wound Threshold and
-        Death Save). Counts as two installations for the purposes of Maximum HL.
+        An Internal Linear Frame can be identified with a
+        [[/r 1d10red+@stats.tech+@skills.cybertech #DV13 Cybertech]]{DV13 Cybertech}
+        check.
       </p>
+      <blockquote>
+        <p>
+          Requires
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.Lx9FSNDEIxLZ7Pyh]{Grafted Muscle and Bone Lace}
+          x3 (Installed Separately) &amp; <strong>BODY</strong> 10
+        </p>
+        <p>Counts as two installations for the purposes of Maximum Humanity Loss.</p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

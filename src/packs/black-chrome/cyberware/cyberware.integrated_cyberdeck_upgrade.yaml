@@ -29,9 +29,17 @@ system:
     count: 2
     threshold: 0
   description:
-    value: >
-      <p>Requires Cyberdeck (Hardwired), adds an extra slot to the
-      cyberdeck.</p>
+    value: |
+      <blockquote>
+        <p>
+          Requires
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.eZg3gGGEJ7r2K9ng]{Cyberdeck (Hardwired)}
+        </p>
+        <p>
+          Adds an extra slot to the cyberdeck — Not currently supported requires
+          manual update.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

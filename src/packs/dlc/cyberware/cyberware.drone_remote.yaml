@@ -30,8 +30,13 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Allows you to control a drone with your mind instead of your agent.</p>
-      <p><em>Increases maximum broadcast range to 20m/yds.</em></p>
+      <p>
+        Allows you to control a drone with your mind instead of your
+        @UUID[Compendium.cyberpunk-red-core.core_gear.Item.GqYz689ddSKQHMen]{Agent}.
+      </p>
+      <blockquote>
+        <p><em>Maximum broadcast range: 20m/yds.</em></p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

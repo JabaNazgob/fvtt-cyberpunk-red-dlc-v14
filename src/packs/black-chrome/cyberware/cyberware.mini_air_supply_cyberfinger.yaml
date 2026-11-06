@@ -70,11 +70,16 @@ system:
     count: 2
     threshold: 0
   description:
-    value: |
-      <p>
-        Cyberfinger with an integrated air tank. Can only be installed on a modular
-        finger cyberhand.
-      </p>
+    value: >
+      <p>Cyberfinger that conceals 10min of breathable air. Recharges in
+      1hr.</p>
+
+      <blockquote>
+        <p>
+          Can only be installed on a
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular Finger Cyberhand}.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

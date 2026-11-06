@@ -75,13 +75,11 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Built in agent. Audio only but can be linked with other cybergear.</p>
-      <blockquote>
-        <p><strong>Standard Quality</strong> <strong>Internal Agent</strong></p>
-        <ul>
-          <li><p>Remote Hacking DV 21 / Physical Hacking DV 17</p></li>
-        </ul>
-      </blockquote>
+      <p>
+        Built in standard quality
+        @UUID[Compendium.cyberpunk-red-core.core_gear.Item.GqYz689ddSKQHMen]{Agent}.
+        Audio only but can be linked with other cybergear.
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

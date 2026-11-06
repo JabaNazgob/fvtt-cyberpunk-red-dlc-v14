@@ -31,8 +31,10 @@ system:
   description:
     value: |
       <p>
-        Implanted flexible video screen. Use a socketed Memory Chip or linked Agent to
-        stream video to Vidscreen.
+        Implanted flexible video screen capable of streaming video from a
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.gAfBLrpJzkKVtr8o]{Memory Chip}
+        or linked
+        @UUID[Compendium.cyberpunk-red-core.core_gear.Item.GqYz689ddSKQHMen]{Agent}.
       </p>
   dvTable: ""
   favorite: false

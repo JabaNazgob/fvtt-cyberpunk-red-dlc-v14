@@ -71,10 +71,13 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        Cyberfinger that can be used to conceal two rounds of ammunition of any type.
-        Can only be installed on a modular finger cyberhand.
-      </p>
+      <p>Cyberfinger that conceals two bullets of any type.</p>
+      <blockquote>
+        <p>
+          Can only be installed on a
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular Finger Cyberhand}.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

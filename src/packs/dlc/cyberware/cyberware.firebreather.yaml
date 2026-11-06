@@ -30,9 +30,14 @@ system:
     count: 2
     threshold: 0
   description:
-    value: >
-      <p>Implanted Exotic Shotgun. Can only hold one incendiary shotgun
-      shell.</p>
+    value: |
+      <p>Breathe fire like a dragon.</p>
+      <blockquote>
+        <p>
+          Requires a
+          @UUID[Compendium.cyberpunk-red-core.core_ammo.Item.MdA5gBfCKbBuHGof]{Shotgun Shell (Incendiary)}
+        </p>
+      </blockquote>
   dvTable: DV Shotgun (Slug)
   favorite: false
   fireModes:

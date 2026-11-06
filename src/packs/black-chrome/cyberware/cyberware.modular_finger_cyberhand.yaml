@@ -30,7 +30,7 @@ flags:
         name: Standard Cyberfinger
         ownership:
           default: 0
-        sort: 100000
+        sort: 0
         system:
           ammoVariety: []
           attackmod: 0
@@ -470,7 +470,14 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Requires cyberarm. Comes with 5 standard cyberfingers.</p>
+      <p>Comes with 5 standard cyberfingers.</p>
+      <blockquote>
+        <p>
+          Can be installed into your
+          @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.WzgaetvvHUQeD19B]{Meat Arm}
+          as the only piece of cyberware.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

@@ -71,10 +71,13 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        Cyberfinger that can hold and spray various liquids. Can only be installed on
-        a modular finger cyberhand.
-      </p>
+      <p>Cyberfinger that conceals and sprays various non-corrosive liquids.</p>
+      <blockquote>
+        <p>
+          Can only be installed on a
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular Finger Cyberhand}.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

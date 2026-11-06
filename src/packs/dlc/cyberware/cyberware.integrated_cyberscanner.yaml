@@ -31,7 +31,7 @@ system:
   description:
     value: |
       <p>
-        Can scan an individual within 2m/yds and provide a list of all installed
+        Scan an individual within 2m/yds and provide a list of all installed
         Cyberware, takes 1 minute. Spits out an error if a Hardened, Tech Upgraded, or
         Unique piece of Cyberware is detected.
       </p>

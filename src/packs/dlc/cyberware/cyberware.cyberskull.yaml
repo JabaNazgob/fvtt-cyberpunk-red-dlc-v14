@@ -123,10 +123,19 @@ system:
   description:
     value: |
       <p>
-        User's head is now no longer a 2x weak point. Additionally, user is immune to
-        the Cracked Skull and Broken Jaw critical injuries, both in effect and extra
-        damage. See more info on pg.105 of Interface RED Volume 3.
+        Protect your grey matter with a ChromeDome today!
+        <sub>ChromeDome products do not protect against brain injury.</sub>
       </p>
+      <blockquote>
+        <p>Your head no longer sustains double damage from aimed shots.</p>
+        <p>
+          You are immune to the bonus damage and effects of the
+          @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.jcOCxBFrKo5oBmOy]{Cracked Skull}
+          and
+          @UUID[Compendium.cyberpunk-red-core.core_critical-injuries-head.Item.VWmTqmsW6S5v51FO]{Broken Jaw}
+          critical injuries.
+        </p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

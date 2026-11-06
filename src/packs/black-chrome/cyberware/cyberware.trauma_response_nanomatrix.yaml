@@ -30,7 +30,13 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Can fully repair skinweave or subdermal armor once a day.</p>
+      <p>
+        Can fully repair
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.micrAI9oicghVbcG]{Skinweave}
+        or
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.O5GmxTYCrrs8uWAd]{Subdermal Armor}
+        once a day.
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

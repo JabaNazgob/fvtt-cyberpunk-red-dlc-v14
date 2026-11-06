@@ -31,13 +31,15 @@ system:
   description:
     value: |
       <p>
-        A physical conversion to a chosen animal type of human size. Few are willing
-        to carry out the surgery.
+        A physical conversion to a chosen animal type of human size, however few
+        hospitals are willing to carry out the surgery.
       </p>
-      <p>
-        Procedure requires a <strong>DV21 Surgery Check</strong> and materials are
-        1,000eb
-      </p>
+      <blockquote>
+        <p>
+          A <strong>MEDTECH</strong> may perform this procedure by passing a
+          <strong>DV21 Surgery Check</strong> and consuming materials worth 1,000eb.
+        </p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

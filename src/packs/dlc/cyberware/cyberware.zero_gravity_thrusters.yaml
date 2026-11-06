@@ -37,9 +37,11 @@ system:
       <p>
         Negates all penalties related to movement in Zero Gravity. Runs off
         @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.bktOKB09aEQNj9cP]{fuel tanks}
-        that cost 100eb, must be replaced after 24 hours of use.
+        that must be replaced after 24 hours of use.
       </p>
-      <p>Requires 2 Cyberlegs, and must be paired.</p>
+      <blockquote>
+        <p>Cyberware must be paired to provide associated benefit.</p>
+      </blockquote>
   dvTable: ""
   favorite: false
   fireModes:

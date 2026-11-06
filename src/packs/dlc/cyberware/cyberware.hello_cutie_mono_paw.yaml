@@ -33,9 +33,8 @@ system:
   description:
     value: |
       <p>
-        Cyberarm Option. A concealable
-        <strong>Excellent Quality Medium Melee Weapon</strong> that deals 1d6 damage
-        and ignores armor lower than SP11.
+        Retractable feline claws that ignore armor below 11SP. Can be concealed
+        without a check.
       </p>
   dvTable: ""
   favorite: false

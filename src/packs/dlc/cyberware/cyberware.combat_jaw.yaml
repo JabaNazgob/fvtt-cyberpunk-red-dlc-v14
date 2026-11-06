@@ -30,7 +30,7 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Implanted Very Heavy Melee Weapon.</p>
+      <p>Turns your mouth into a weapon.</p>
   dvTable: ""
   favorite: false
   fireModes:

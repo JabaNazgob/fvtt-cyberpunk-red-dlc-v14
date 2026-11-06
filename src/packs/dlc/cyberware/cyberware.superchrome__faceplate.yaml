@@ -74,8 +74,19 @@ system:
     threshold: 0
   description:
     value: |
-      <p>A personalized faceplate made of Superchrome® alloys.</p>
-      <p><em>Compatible with your Cyberskull.</em></p>
+      <p>
+        A metallic coating for your face. Provides +2 to
+        <strong>Wardrobe and Style</strong>.
+      </p>
+      <blockquote>
+        <p>
+          <em
+            >Compatible with your
+            @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.KLdu0wuFwC95vtss]{Cyberskull}.</em
+          >
+        </p>
+        <p>Effects do not stack</p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

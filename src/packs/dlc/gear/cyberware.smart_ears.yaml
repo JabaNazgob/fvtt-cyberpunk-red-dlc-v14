@@ -119,6 +119,9 @@ system:
         A wearable headset with integrated Radio Scanner / Music Player and 2 empty
         Cyberaudio slots.
       </p>
+      <blockquote>
+        <p>Remember to set HL to 0 when installing cyberwear options.</p>
+      </blockquote>
   favorite: false
   fireModes:
     autoFire: 0

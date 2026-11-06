@@ -31,7 +31,11 @@ system:
     threshold: 0
   description:
     value: |
-      <p>Requires biomonitor. Can know HP at a glance.</p>
+      <p>
+        Requires
+        @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.0d2bEozOFhfPgkUP]{Biomonitor}.
+        Can know HP at a glance.
+      </p>
   dvTable: ""
   favorite: false
   fireModes:

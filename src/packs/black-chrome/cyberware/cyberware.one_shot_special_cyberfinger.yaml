@@ -72,10 +72,13 @@ system:
     threshold: 0
   description:
     value: |
-      <p>
-        Cyberfinger that holds a concealed Exotic Heavy Pistol. Can only be installed
-        on a modular finger cyberhand.
-      </p>
+      <p>Cyberfinger that conceals a single shot Pistol.</p>
+      <blockquote>
+        <p>
+          Can only be installed on a
+          @UUID[Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.f9u0uhwRBcunP0gz]{Modular Finger Cyberhand}.
+        </p>
+      </blockquote>
   dvTable: DV Pistol
   favorite: false
   fireModes:
