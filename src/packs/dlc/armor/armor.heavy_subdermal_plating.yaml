@@ -27,13 +27,12 @@ system:
     isConcealed: false
   description:
     value: |
-      <blockquote>
-        <p>
-          Armor item for tracking the SP of
-          @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.JZWQbhT7YjmqZIt6]{Heavy Subdermal Plating}
-          Cyberware.
-        </p>
-      </blockquote>
+      <p>
+        Armor item for tracking the SP of
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.JZWQbhT7YjmqZIt6]{Heavy Subdermal Plating}
+        Cyberware.
+      </p>
+      <blockquote><p>Recovers 1SP per day</p></blockquote>
   equipped: owned
   favorite: false
   headLocation:

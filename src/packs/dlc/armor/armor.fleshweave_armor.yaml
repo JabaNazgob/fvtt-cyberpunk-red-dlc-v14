@@ -23,13 +23,12 @@ system:
     isConcealed: false
   description:
     value: |
-      <blockquote>
-        <p>
-          Armor Item for tracking the SP of
-          @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.8Az7bJTWSZSK577k]{Sycust FleshWeave}
-          Cyberware.
-        </p>
-      </blockquote>
+      <p>
+        Armor Item for tracking the SP of
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.8Az7bJTWSZSK577k]{Sycust FleshWeave}
+        Cyberware.
+      </p>
+      <blockquote><p>Fully restores SP after 10 minutes</p></blockquote>
   equipped: owned
   favorite: false
   headLocation:

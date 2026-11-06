@@ -12,7 +12,7 @@
     },
     "Executive Armor": {
       "name": "Executive Armor",
-      "description": "<p>\n  Light Armorjack that looks like\n  @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.2mb53u4D65ddOlNx]{businesswear}.\n  Restores 1SP every day SP isn't lost on the armor.\n</p>\n"
+      "description": "<p>\n  Light Armorjack that looks like\n  @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.2mb53u4D65ddOlNx]{businesswear}.\n</p>\n<blockquote>\n  <p>Restores 1SP every day SP isn't lost on the armor.</p>\n</blockquote>\n"
     },
     "Fire Brand Bunker Gear": {
       "name": "Fire Brand Bunker Gear",

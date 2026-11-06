@@ -26,8 +26,10 @@ system:
       <p>
         Light Armorjack that looks like
         @UUID[Compendium.cyberpunk-red-core.core_clothing.Item.2mb53u4D65ddOlNx]{businesswear}.
-        Restores 1SP every day SP isn't lost on the armor.
       </p>
+      <blockquote>
+        <p>Restores 1SP every day SP isn't lost on the armor.</p>
+      </blockquote>
   equipped: owned
   favorite: false
   headLocation:

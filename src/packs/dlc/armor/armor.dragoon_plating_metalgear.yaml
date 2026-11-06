@@ -27,15 +27,16 @@ system:
     isConcealed: false
   description:
     value: |
+      <p>
+        Armor plates compatible with
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.YMu6SNA9VbtKHFL8]{Dragoon Plating (Metalgear)}
+        cyberware.
+      </p>
       <blockquote>
-        <p>
-          Armor plates compatible with
-          @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.YMu6SNA9VbtKHFL8]{Dragoon Plating (Metalgear)}
-          cyberware.
-        </p>
         <p>
           Dragoon Plating can be removed, and summoned back within 6m/y as an action.
         </p>
+        <p>Recovers 1SP per day</p>
       </blockquote>
   equipped: owned
   favorite: false
