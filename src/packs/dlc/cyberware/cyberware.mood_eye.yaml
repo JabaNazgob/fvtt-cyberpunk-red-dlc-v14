@@ -49,22 +49,22 @@ system:
       <table>
         <tbody>
           <tr>
-            <td style="background-color: #dc143c">
+            <td style="background-color: var(--cpr-chip-red)">
               <p style="text-align: center">Rage</p>
             </td>
-            <td style="background-color: #6495ed">
+            <td style="background-color: var(--cpr-chip-blue)">
               <p style="text-align: center">Sorrow</p>
             </td>
-            <td style="background-color: #daa520">
+            <td style="background-color: var(--cpr-chip-yellow)">
               <p style="text-align: center">Terror</p>
             </td>
-            <td style="background-color: #ff69b4">
+            <td style="background-color: var(--cpr-chip-pink)">
               <p style="text-align: center">Horny</p>
             </td>
-            <td style="background-color: #008000">
+            <td style="background-color: var(--cpr-chip-green)">
               <p style="text-align: center">Envy</p>
             </td>
-            <td style="background-color: #808080">
+            <td style="background-color: var(--cpr-chip-grey)">
               <p style="text-align: center">Flatlined</p>
             </td>
           </tr>
