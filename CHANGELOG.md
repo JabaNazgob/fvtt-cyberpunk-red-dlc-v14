@@ -47,3 +47,4 @@
   - Armor
   - Clothing
   - Consumables
+  - Cyberware
