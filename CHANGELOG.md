@@ -43,6 +43,7 @@
 
 - Compendium Items have been revised to conform with published Errata Changes
 - Item descriptions have been revised to provide a unified format
+  - Ammo
   - Armor
   - Clothing
-  - Ammo
+  - Consumables
