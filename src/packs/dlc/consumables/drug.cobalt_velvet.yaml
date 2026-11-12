@@ -22,7 +22,11 @@ system:
   consumed: None
   description:
     value: |
-      <p>One of a number of drinks the Drink Master 5000 can mix.</p>
+      <p>
+        One of a number of drinks the
+        @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.rl7LT2WYItMqMoLm]{Drink Master 5000}
+        can mix.
+      </p>
   equipped: owned
   favorite: false
   ignoredByBrowser: false
