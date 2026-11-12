@@ -4,7 +4,7 @@
   "entries": {
     "Bad Touch": {
       "name": "Bad Touch",
-      "description": "<p>One of a number of drinks the Drink Master 5000 can mix.</p>\n"
+      "description": "<p>\n  One of a number of drinks the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_gear.Item.rl7LT2WYItMqMoLm]{Drink Master 5000}\n  can mix.\n</p>\n"
     },
     "Beer": {
       "name": "Beer",
@@ -104,7 +104,7 @@
     },
     "Sedative": {
       "name": "Sedative",
-      "description": "<p>MedTech pharmaceutical.</p>\n<p>\n  Applies the Unconscious condition for 4 hours on a willing target. +2 bonus to\n  MechTech Surgery checks on targets dosed with Sedative.\n</p>\n<p>\n  Unwilling target must make a <strong>DV15 Resist Torture/Drugs</strong> check.\n  On failed check, target is unconscious for 1 minute or 20 rounds in combat.\n  Target wakes upon taking damage. Others can use an Action to awaken target.\n</p>\n"
+      "description": "<p>\n  Applies the <strong>Unconscious</strong> condition for 4 hours on a willing\n  target. Provides a +2 bonus to a Mechtech's <strong>Surgery</strong> check\n  against targets dosed with this pharmaceutical.\n</p>\n<p>\n  Unwilling targets must make a\n  [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV15 Resist Torture/Drugs]]{DV15 Resist Torture/Drugs}\n  check. On a failure, the target is <strong>unconscious</strong> for 1 minute,\n  and wakes upon taking damage or if awakened as an action by another actor.\n</p>\n<blockquote>\n  <p>+2 Surgery Bonus must be applied manually</p>\n  <p>\n    Pharmaceuticals must be administered by a trained <strong>Medtech</strong>\n  </p>\n  <p>Effects do not stack</p>\n</blockquote>\n"
     },
     "Sixgun": {
       "name": "Sixgun",
@@ -136,7 +136,7 @@
     },
     "Veritas": {
       "name": "Veritas",
-      "description": "<p>Dose lasts 10 minutes.</p>\n<p>MedTech pharmaceutical.</p>\n<p>\n  Target must make a <strong>DV17 Resist Torture/Drugs</strong> check. On failed\n  check, target suffers -5 to Acting, Concentration, Conversation, Deduction,\n  Human Perception, and Persuasion Checks\n</p>\n"
+      "description": "<p>\n  Unwilling targets must make a\n  [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV17 Resist Torture/Drugs]]{DV17 Resist Torture/Drugs}\n  check. On a failure, the target suffers -5 to <strong>Acting</strong>,\n  <strong>Concentration</strong>, <strong>Conversation</strong>,\n  <strong>Deduction</strong>, <strong>Human</strong>\n  <strong>Perception</strong>, and <strong>Persuasion</strong> Checks.\n</p>\n<p>Each does lasts 10 minutes.</p>\n<blockquote>\n  <p>\n    Pharmaceuticals must be administered by a trained <strong>Medtech</strong>\n  </p>\n  <p>Add this item to the target's inventory to apply the supplied AE</p>\n</blockquote>\n"
     },
     "Zen Star": {
       "name": "Zen Star",

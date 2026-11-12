@@ -22,16 +22,24 @@ system:
   consumed: None
   description:
     value: |
-      <p>MedTech pharmaceutical.</p>
       <p>
-        Applies the Unconscious condition for 4 hours on a willing target. +2 bonus to
-        MechTech Surgery checks on targets dosed with Sedative.
+        Applies the <strong>Unconscious</strong> condition for 4 hours on a willing
+        target. Provides a +2 bonus to a Mechtech's <strong>Surgery</strong> check
+        against targets dosed with this pharmaceutical.
       </p>
       <p>
-        Unwilling target must make a <strong>DV15 Resist Torture/Drugs</strong> check.
-        On failed check, target is unconscious for 1 minute or 20 rounds in combat.
-        Target wakes upon taking damage. Others can use an Action to awaken target.
+        Unwilling targets must make a
+        [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV15 Resist Torture/Drugs]]{DV15 Resist Torture/Drugs}
+        check. On a failure, the target is <strong>unconscious</strong> for 1 minute,
+        and wakes upon taking damage or if awakened as an action by another actor.
       </p>
+      <blockquote>
+        <p>+2 Surgery Bonus must be applied manually</p>
+        <p>
+          Pharmaceuticals must be administered by a trained <strong>Medtech</strong>
+        </p>
+        <p>Effects do not stack</p>
+      </blockquote>
   equipped: owned
   favorite: false
   ignoredByBrowser: false

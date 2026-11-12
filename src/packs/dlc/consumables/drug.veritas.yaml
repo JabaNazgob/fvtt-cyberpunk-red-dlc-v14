@@ -107,13 +107,21 @@ system:
   consumed: Veritas Primary
   description:
     value: |
-      <p>Dose lasts 10 minutes.</p>
-      <p>MedTech pharmaceutical.</p>
       <p>
-        Target must make a <strong>DV17 Resist Torture/Drugs</strong> check. On failed
-        check, target suffers -5 to Acting, Concentration, Conversation, Deduction,
-        Human Perception, and Persuasion Checks
+        Unwilling targets must make a
+        [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV17 Resist Torture/Drugs]]{DV17 Resist Torture/Drugs}
+        check. On a failure, the target suffers -5 to <strong>Acting</strong>,
+        <strong>Concentration</strong>, <strong>Conversation</strong>,
+        <strong>Deduction</strong>, <strong>Human</strong>
+        <strong>Perception</strong>, and <strong>Persuasion</strong> Checks.
       </p>
+      <p>Each does lasts 10 minutes.</p>
+      <blockquote>
+        <p>
+          Pharmaceuticals must be administered by a trained <strong>Medtech</strong>
+        </p>
+        <p>Add this item to the target's inventory to apply the supplied AE</p>
+      </blockquote>
   equipped: owned
   favorite: false
   ignoredByBrowser: false
