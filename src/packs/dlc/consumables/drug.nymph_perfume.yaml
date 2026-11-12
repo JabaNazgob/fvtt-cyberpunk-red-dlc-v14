@@ -68,9 +68,10 @@ system:
   description:
     value: |
       <p>
-        <strong>Inhaled Pheromones</strong> linger for 1 hour. Anyone who spends 3
-        rounds within 6m/yds of the source must make a Resist Torture/Drugs check or
-        become confused for 1 hour.
+        <strong>Inhaled Pheromones</strong> that linger for 1 hour. Anyone who spends
+        3 rounds within 6m/yds of the source must make a
+        [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV13 Resist Torture/Drugs]]{DV13 Resist Torture/Drugs}
+        check or become <strong>confused</strong> for 1 hour.
       </p>
       <blockquote>
         <p>

@@ -9,22 +9,19 @@ effects:
       createdTime: null
       duplicateSource: null
       exportSource: null
-      lastModifiedBy: null
-      modifiedTime: null
+      lastModifiedBy: L5BVRBGb798QfKk9
+      modifiedTime: 1794516830077
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
     changes:
       - key: system.stats.move.value
         mode: 2
-        priority: null
         value: "-2"
       - key: system.stats.ref.value
         mode: 2
-        priority: null
         value: "-2"
       - key: bonuses.speed
         mode: 2
-        priority: null
         value: "2"
     description: ""
     disabled: true
@@ -70,14 +67,13 @@ effects:
       createdTime: null
       duplicateSource: null
       exportSource: null
-      lastModifiedBy: null
-      modifiedTime: null
+      lastModifiedBy: L5BVRBGb798QfKk9
+      modifiedTime: 1794516785201
       systemId: cyberpunk-red-core
-      systemVersion: v0.92.1
+      systemVersion: DUMMY_VALUE
     changes:
       - key: bonuses.speed
         mode: 2
-        priority: null
         value: "-2"
     description: ""
     disabled: true
@@ -189,23 +185,41 @@ system:
   consumed: Sixgun Primary
   description:
     value: |
-      <p>Leave meatspace behind and supercharge your synapses.</p>
-      <p><strong>Primary Effect</strong></p>
-      <p>Dose lasts 4 hours.</p>
+      <p><strong>Primary Effect</strong> Dose lasts 4 hours.</p>
       <ul>
-        <li>+2 to Speed while Netrunning</li>
-        <li>-2 To MOVE (Minimum 1)</li>
-        <li>-2 To REF to a (Minimum 1)</li>
         <li>
-          User does not suffer the penalties of an Unsafe Jack Out unless forced to
-          Jack Out by a program.
+          <p>+2 to <strong>Speed</strong> while Netrunning</p>
         </li>
-        <li>User can burn 1 Humanity for 1 additional NET Action once per turn.</li>
+        <li>
+          <p>-2 To <strong>MOVE</strong> &amp; <strong>REF</strong> (Minimum 1)</p>
+        </li>
+        <li>
+          <p>
+            User does not suffer the penalties of an
+            <strong>Unsafe Jack Out</strong> unless forced to Jack Out by a program.
+          </p>
+        </li>
+        <li>
+          <p>
+            User can burn 1 Humanity for 1 additional <strong>NET Action</strong> once
+            per turn.
+          </p>
+        </li>
       </ul>
-      <p><strong>Secondary (DV17)</strong></p>
-      <p>Unless under Primary Effect</p>
+      <hr />
+      <p>
+        <strong
+          >Secondary Effect
+          [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV17 Resist Torture/Drugs]]{DV17 Resist Torture/Drugs}</strong
+        >
+      </p>
       <ul>
-        <li>-2 to Speed while Netrunning</li>
+        <li>
+          <p>
+            -2 to <strong>Speed</strong> while Netrunning when Primary Effect is not
+            active
+          </p>
+        </li>
       </ul>
   equipped: owned
   favorite: false

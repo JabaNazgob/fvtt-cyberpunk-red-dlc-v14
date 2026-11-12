@@ -9,18 +9,16 @@ effects:
       createdTime: null
       duplicateSource: null
       exportSource: null
-      lastModifiedBy: null
-      modifiedTime: null
+      lastModifiedBy: L5BVRBGb798QfKk9
+      modifiedTime: 1794516598386
       systemId: cyberpunk-red-core
-      systemVersion: v0.92.1
+      systemVersion: DUMMY_VALUE
     changes:
       - key: system.stats.cool.value
         mode: 2
-        priority: null
         value: "2"
       - key: system.stats.will.value
         mode: 2
-        priority: null
         value: "2"
     description: ""
     disabled: true
@@ -62,15 +60,17 @@ effects:
       createdTime: null
       duplicateSource: null
       exportSource: null
-      lastModifiedBy: null
-      modifiedTime: null
+      lastModifiedBy: L5BVRBGb798QfKk9
+      modifiedTime: 1794515590820
       systemId: cyberpunk-red-core
-      systemVersion: v0.92.1
+      systemVersion: DUMMY_VALUE
     changes:
       - key: system.stats.cool.value
         mode: 2
-        priority: null
         value: "-2"
+      - key: system.derivedStats.humanity.max
+        mode: 2
+        value: "-1"
     description: ""
     disabled: true
     duration:
@@ -86,8 +86,12 @@ effects:
         changes:
           cats:
             "0": stat
+            "1": custom
           situational:
             "0":
+              isSituational: false
+              onByDefault: false
+            "1":
               isSituational: false
               onByDefault: false
     img: modules/cyberpunk-red-dlc/icons/dlc/status/prime_time_addiction.svg
@@ -120,22 +124,38 @@ system:
   consumed: Prime Time
   description:
     value: |
-      <p><strong>Primary Effect</strong></p>
-      <p>Dose last 4 Hours.</p>
+      <p><strong>Primary Effect</strong> Dose last 4 Hours.</p>
       <ul>
-        <li>Sharpens focus and willpower at the cost of dampened emotions</li>
-        <li>-4d6 Humanity until dose wears off*</li>
-        <li>+2 to COOL and WILL stats. User's max HP not affected by the +2 WILL</li>
+        <li>
+          <p>Sharpens your focus and resolve at the expense of your emotions.</p>
+        </li>
+        <li>
+          <p>
+            +2 to <strong>COOL</strong> and <strong>WILL</strong> stats — User's max
+            HP not affected
+          </p>
+        </li>
+        <li>
+          <p>
+            Roll [[/r 4d6 #Humanity Loss]]{4d6 Humanity Loss} — Humanity is returned
+            when effect wears off.
+          </p>
+        </li>
       </ul>
-      <p><em>* Humanity can not fall under 0 from taking Prime Time</em></p>
-      <p><strong>Secondary (DV17)</strong></p>
+      <hr />
       <p>
-        When the dose wears off, the user rolls
-        <strong>WILL + Resist Torture/Drugs + 1d10 against Secondary DV</strong>.
+        <strong
+          >Secondary Effect
+          [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV17 Resist Torture/Drugs]]{DV17 Resist Torture/Drugs}</strong
+        >
       </p>
       <ul>
-        <li>-1 Humanity Loss</li>
-        <li>-2 to COOL while addicted and not currently dosed with Prime Time.</li>
+        <li>
+          <p>-1 <strong>Humanity Loss</strong></p>
+        </li>
+        <li>
+          <p>-2 to <strong>COOL</strong> while addicted and not currently dosed</p>
+        </li>
       </ul>
   equipped: owned
   favorite: false

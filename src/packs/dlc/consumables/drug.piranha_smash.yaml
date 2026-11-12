@@ -192,38 +192,30 @@ system:
   consumed: Piranha Smash Primary
   description:
     value: |
+      <p><strong>Primary Effect</strong> Dose lasts 4 hours.</p>
+      <ul>
+        <li>
+          <p>
+            The user feels happy and satisfied, receiving a temporary modifier of +2
+            to <strong>Multiple Skills</strong>
+          </p>
+        </li>
+      </ul>
+      <hr />
       <p>
-        Looks like smash but it's smash with a lime flavor. And a lower risk of
-        addiction.
-      </p>
-      <p><strong>Primary Effect</strong></p>
-      <p>Dose lasts 4 hours.</p>
-      <p>
-        The user feels happy and satisfied, receiving a temporary modifier of +2 to
-        the following skills
+        <strong
+          >Secondary Effect
+          [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV9 Resist Torture/Drugs]]{DV9 Resist Torture/Drugs}</strong
+        >
       </p>
       <ul>
-        <li>Acting</li>
-        <li>Dance</li>
-        <li>Contortionist</li>
-        <li>Conversation</li>
-        <li>Human Perception</li>
-        <li>Persuasion</li>
+        <li>
+          <p>-2 to <strong>Multiple Skills</strong> while addicted.</p>
+        </li>
       </ul>
-      <p><strong>Secondary Effect (DV9)</strong></p>
-      <p>
-        When the dose wears off, the user rolls
-        <strong>WILL + Resist Torture/Drugs + 1d10 against Secondary DV</strong>.
-      </p>
-      <p>If this fails, they take a -2 to the following skills</p>
-      <ul>
-        <li>Acting</li>
-        <li>Dance</li>
-        <li>Contortionist</li>
-        <li>Conversation</li>
-        <li>Human Perception</li>
-        <li>Persuasion</li>
-      </ul>
+      <blockquote>
+        <p>GM will tell your when you crave more Smash. Roleplay accordingly.</p>
+      </blockquote>
   equipped: owned
   favorite: false
   ignoredByBrowser: false

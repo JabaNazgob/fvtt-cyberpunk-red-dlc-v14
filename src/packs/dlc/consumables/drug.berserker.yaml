@@ -9,15 +9,17 @@ effects:
       createdTime: null
       duplicateSource: null
       exportSource: null
-      lastModifiedBy: null
-      modifiedTime: null
+      lastModifiedBy: L5BVRBGb798QfKk9
+      modifiedTime: 1794510971210
       systemId: cyberpunk-red-core
-      systemVersion: v0.92.1
+      systemVersion: DUMMY_VALUE
     changes:
       - key: bonuses.deathSavePenalty
         mode: 2
-        priority: null
         value: "1"
+      - key: system.derivedStats.humanity.max
+        mode: 2
+        value: "-2"
     description: ""
     disabled: true
     duration:
@@ -33,13 +35,61 @@ effects:
         changes:
           cats:
             "0": combat
+            "1": custom
           situational:
             "0":
+              isSituational: false
+              onByDefault: false
+            "1":
               isSituational: false
               onByDefault: false
     img: modules/cyberpunk-red-dlc/icons/dlc/status/beserker_addiction.svg
     name: Berserker Addiction
     origin: null
+    sort: 0
+    statuses: []
+    system: {}
+    tint: "#ffffff"
+    transfer: true
+    type: base
+  - _id: cbYx1SsnLl0jFUpx
+    _key: "!items.effects!lzmfwfxPjDjYE1nM.cbYx1SsnLl0jFUpx"
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: 1794511321843
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: L5BVRBGb798QfKk9
+      modifiedTime: 1794511409239
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    changes:
+      - key: bonuses.hasPainSuppression
+        mode: 2
+        value: "1"
+    description: ""
+    disabled: true
+    duration:
+      combat: null
+      rounds: null
+      seconds: null
+      startRound: null
+      startTime: null
+      startTurn: null
+      turns: null
+    flags:
+      cyberpunk-red-core:
+        changes:
+          cats:
+            "0": misc
+          situational:
+            "0":
+              isSituational: false
+              onByDefault: false
+    img: modules/cyberpunk-red-dlc/icons/dlc/status/beserker.svg
+    name: Berserker Primary
+    origin: Compendium.cyberpunk-red-dlc.dlc_consumables.Item.lzmfwfxPjDjYE1nM
     sort: 0
     statuses: []
     system: {}
@@ -64,31 +114,41 @@ system:
   concealable:
     concealable: false
     isConcealed: false
-  consumed: None
+  consumed: Berserker Primary
   description:
     value: |
-      <p><strong>Primary Effect</strong></p>
-      <p>Dose lasts for 10 Minutes.</p>
+      <p><strong>Primary Effect</strong> lasts for 10 Minutes.</p>
       <ul>
-        <li>Induces a state of frenzy and increased aggression</li>
-        <li>User takes no Bonus Damage for any Critical Injury</li>
-        <li>Wound State/Facedown penalties to Skill or Stat checks are halved*</li>
-      </ul>
-      <p><strong>Secondary Effect (DV17)</strong></p>
-      <p>
-        When the dose wears off, the user rolls
-        <strong>WILL + Resist Torture/Drugs + 1d10 against Secondary DV</strong>.
-      </p>
-      <ul>
-        <li>-2 Humanity Loss.</li>
+        <li><p>Induces a state of frenzy and increased aggression</p></li>
         <li>
-          User is now addicted to Berserker if not already addicted. +1 to Base Death
-          Save Penalty while addicted.
+          <p>
+            <strong>Wound State/Facedown</strong> penalties to Skill or Stat checks
+            are halved
+          </p>
+        </li>
+        <li>
+          <p>
+            User takes no Bonus Damage for any <strong>Critical Injury</strong> — No
+            automation provided
+          </p>
         </li>
       </ul>
+      <hr />
       <p>
-        <em>*This is not supported by the system and must be manually adjusted.</em>
+        <strong
+          >Secondary Effect
+          [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV17 Resist Torture/Drugs]]{DV17 Resist Torture/Drugs}</strong
+        >
       </p>
+      <ul>
+        <li><p>User is now addicted to Berserker if not already addicted</p></li>
+        <li>
+          <p>+1 to <strong>Death Save</strong> while addicted</p>
+        </li>
+        <li>
+          <p>-2 <strong>Humanity Loss</strong> while addicted</p>
+        </li>
+      </ul>
   equipped: owned
   favorite: false
   ignoredByBrowser: false
@@ -100,5 +160,5 @@ system:
       page: 2
     - book: Interface RED v4
       page: 4
-  usage: toggled
+  usage: snorted
 type: drug

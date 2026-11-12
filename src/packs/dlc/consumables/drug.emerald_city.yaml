@@ -106,26 +106,29 @@ system:
   consumed: Emerald City
   description:
     value: |
-      <p><strong>Primary Effect</strong></p>
-      <p>Dose lasts 8 hours.</p>
+      <p><strong>Primary Effect</strong> Dose lasts 8 hours.</p>
       <ul>
-        <li><p>Ignore the effects of Seriously Wounded</p></li>
+        <li>
+          <p>Ignore the effects of <strong>Seriously Wounded</strong></p>
+        </li>
         <li>
           <p>
             The GM may incite hallucinations where you cannot tell friend from foe.
           </p>
         </li>
       </ul>
-      <p><strong>Secondary (DV15)</strong></p>
       <p>
-        When the dose wears off, the user rolls
-        <strong>WILL + Resist Torture/Drugs + 1d10 against Secondary DV</strong>.
+        <strong
+          >Secondary Effect
+          [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV15 Resist Torture/Drugs]]{DV15 Resist Torture/Drugs}</strong
+        >
       </p>
       <ul>
         <li>
-          If the user becomes addicted to Emerald City: the GM may continue to incite
-          hallucinations, but you can tell friend from foe as long as you aren't
-          subject to the primary effect.
+          <p>
+            The GM may continue to incite hallucinations, but you can tell friend from
+            foe as long as you aren't subject to the primary effect.
+          </p>
         </li>
       </ul>
   equipped: owned
