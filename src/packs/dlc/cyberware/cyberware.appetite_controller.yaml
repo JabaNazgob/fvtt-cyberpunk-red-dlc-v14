@@ -39,11 +39,10 @@ system:
           @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.0d2bEozOFhfPgkUP]{Biomonitor}
         </p>
         <p>
-          Users must Roll a
-          [[/r (1d10red+@derivedStats.deathSave) #Death Save]]{Death Save} at start of
-          the 7th consecutive day without eating. Each additional day increases the
-          save by +1.
+          Users must Roll a <strong>Death Save</strong> at start of the 7th
+          consecutive day without eating.
         </p>
+        <p>Each additional day increases the save by +1.</p>
       </blockquote>
   dvTable: ""
   favorite: false

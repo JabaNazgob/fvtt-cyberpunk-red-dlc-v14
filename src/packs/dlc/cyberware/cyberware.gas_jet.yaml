@@ -13,7 +13,8 @@ ownership:
   default: 0
 sort: 0
 system:
-  ammoVariety: []
+  ammoVariety:
+    - shotgunShell
   attackmod: 0
   brand: Pursuit Security Inc.
   canIgnoreArmor: true
@@ -22,10 +23,10 @@ system:
     isConcealed: false
   core: false
   critFailEffect: jammed
-  damage: 1d6
+  damage: "0"
   damageCrit:
-    bonus: 5
-    count: 2
+    bonus: 0
+    count: 0
     threshold: 0
   description:
     value: |
@@ -34,7 +35,7 @@ system:
         or Biotoxin as if you are shooting a Shotgun. All unprotected organic targets
         in range suffer the effects as normal. Can be concealed without a check.
       </p>
-  dvTable: ""
+  dvTable: DV Shotgun (Slug)
   favorite: false
   fireModes:
     autoFire: 0
@@ -42,23 +43,24 @@ system:
   humanityLoss:
     roll: 2d6
     static: 7
-  ignoreArmorPercent: 50
+  ignoreArmorPercent: 100
   ignoreBelowSP: 0
   ignoredByBrowser: false
   installLocation: clinic
   installedItems:
     allowed: true
-    allowedTypes: []
+    allowedTypes:
+      - ammo
     list: []
     slots: 0
     usedSlots: 0
   isElectronic: true
   isFoundational: false
-  isRanged: false
-  isWeapon: false
+  isRanged: true
+  isWeapon: true
   magazine:
     ammoData: null
-    max: 0
+    max: 1
     value: 0
   price:
     market: 500

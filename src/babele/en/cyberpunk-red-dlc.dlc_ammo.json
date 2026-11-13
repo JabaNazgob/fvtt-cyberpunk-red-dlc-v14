@@ -36,6 +36,38 @@
       "name": "Fire Extinguisher Charges",
       "description": "<p>Requires access to a charging station, takes 5 minutes.</p>\n"
     },
+    "Gas Jet (Berserker)": {
+      "name": "Gas Jet (Berserker)",
+      "description": "<p>\n  Constructed from 3 doses of\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_consumables.Item.lzmfwfxPjDjYE1nM]{Berserker}\n  for use with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.ELLIHejsxsklkxkC]{Gas Jet}\n  cyberarm upgrade.\n</p>\n<p>\n  Unprotected organic targets suffer the <strong>Primary</strong> and\n  <strong>Secondary</strong> <strong>Effects</strong> of the drug as if they had\n  taken a dose.\n</p>\n"
+    },
+    "Gas Jet (Biotoxin)": {
+      "name": "Gas Jet (Biotoxin)",
+      "description": "<p>\n  Constructed from 3\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.tr7G2kdlPBTvyTON]{Vials of Biotoxin}\n  for use with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.ELLIHejsxsklkxkC]{Gas Jet}\n  cyberarm upgrade.\n</p>\n<p>\n  Targets must succeed a\n  [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV15 Resist Torture/Drugs]]{DV15 Resist Torture/Drugs}\n  or take damage.\n</p>\n"
+    },
+    "Gas Jet (Black Lace)": {
+      "name": "Gas Jet (Black Lace)",
+      "description": "<p>\n  Constructed from 3 doses of\n  @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.6BM5WFyCyIM8lZib]{Black Lace}\n  for use with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.ELLIHejsxsklkxkC]{Gas Jet}\n  cyberarm upgrade.\n</p>\n<p>\n  Unprotected organic targets suffer the <strong>Primary</strong> and\n  <strong>Secondary</strong> <strong>Effects</strong> of the drug as if they had\n  taken a dose.\n</p>\n"
+    },
+    "Gas Jet (Blue Glass)": {
+      "name": "Gas Jet (Blue Glass)",
+      "description": "<p>\n  Constructed from 3 doses of\n  @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.UrKzMiFp4xFOLNIC]{Blue Glass}\n  for use with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.ELLIHejsxsklkxkC]{Gas Jet}\n  cyberarm upgrade.\n</p>\n<p>\n  Unprotected organic targets suffer the <strong>Primary</strong> and\n  <strong>Secondary</strong> <strong>Effects</strong> of the drug as if they had\n  taken a dose.\n</p>\n"
+    },
+    "Gas Jet (Emerald City)": {
+      "name": "Gas Jet (Emerald City)",
+      "description": "<p>\n  Constructed from 3 doses of\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_consumables.Item.FIVTc5dNR52C5O6h]{Emerald City}\n  for use with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.ELLIHejsxsklkxkC]{Gas Jet}\n  cyberarm upgrade.\n</p>\n<p>\n  Unprotected organic targets suffer the <strong>Primary</strong> and\n  <strong>Secondary</strong> <strong>Effects</strong> of the drug as if they had\n  taken a dose.\n</p>\n"
+    },
+    "Gas Jet (Poison)": {
+      "name": "Gas Jet (Poison)",
+      "description": "<p>\n  Constructed from 3\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.gaGUmTGViuxZ4mqR]{Vials of Poison}\n  for use with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.ELLIHejsxsklkxkC]{Gas Jet}\n  cyberarm upgrade.\n</p>\n<p>\n  Targets must succeed a\n  [[/r 1d10red+@stats.will+@skills.resistTortureOrDrugs #DV13 Resist Torture/Drugs]]{DV13 Resist Torture/Drugs}\n  or take damage.\n</p>\n"
+    },
+    "Gas Jet (Sythcoke)": {
+      "name": "Gas Jet (Sythcoke)",
+      "description": "<p>\n  Constructed from 3 doses of\n  @UUID[Compendium.cyberpunk-red-core.core_drugs.Item.CyYpPh89G7IYyryM]{Synthcoke}\n  for use with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.ELLIHejsxsklkxkC]{Gas Jet}\n  cyberarm upgrade.\n</p>\n<p>\n  Unprotected organic targets suffer the <strong>Primary</strong> and\n  <strong>Secondary</strong> <strong>Effects</strong> of the drug as if they had\n  taken a dose.\n</p>\n"
+    },
+    "Gas Jet (Time Warp)": {
+      "name": "Gas Jet (Time Warp)",
+      "description": "<p>\n  Constructed from 3 doses of\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_consumables.Item.8nOTvNR4qZP54nKy]{Timewarp}\n  for use with the\n  @UUID[Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.ELLIHejsxsklkxkC]{Gas Jet}\n  cyberarm upgrade.\n</p>\n<p>\n  Unprotected organic targets suffer the <strong>Primary</strong> and\n  <strong>Secondary</strong> <strong>Effects</strong> of the drug as if they had\n  taken a dose.\n</p>\n"
+    },
     "Heavy Pistol (Junk)": {
       "name": "Heavy Pistol (Junk)",
       "description": "<p>Deals less damage against anyone with 1SP or more.</p>\n<blockquote>\n  <p>\n    Not currently supported - This item always deals 1d6 less damage to ALL\n    targets.\n  </p>\n</blockquote>\n"
