@@ -560,6 +560,7 @@ This module (including items provided in the compendium) contains unofficial con
 - `src/icons/dlc/upgrades/reinforced-hull.svg` remixed from [Ship](https://game-icons.net/1x1/delapouite/ship-bow.html)
 - `src/icons/dlc/upgrades/reinforced-tires.svg` remixed from [Car Wheel](https://game-icons.net/1x1/delapouite/car-wheel.html)
 - `src/icons/dlc/upgrades/retina-scanner.svg` remixed from prototype & [Look At](https://game-icons.net/1x1/delapouite/look-at.html)
+- `src/icons/dlc/upgrades/revved_up.svg` remixed from [Speedmeter](https://thenounproject.com/icon/speedmeter-323334/)
 - `src/icons/dlc/upgrades/rocket-launcher-underbarrel.svg` remixed from [Gunshot](https://game-icons.net/1x1/lorc/gunshot.html) & [rocket](https://game-icons.net/1x1/lorc/rocket.html)
 - `src/icons/dlc/upgrades/sealed-environment.svg` remixed from [Mechanic Garage](https://game-icons.net/1x1/delapouite/mechanic-garage.html) & [Mushroom Cloud](https://game-icons.net/1x1/lorc/mushroom-cloud.html)
 - `src/icons/dlc/upgrades/security_system.svg` remixed from core icons

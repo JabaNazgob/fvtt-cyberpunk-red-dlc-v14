@@ -30,7 +30,7 @@
     },
     "ChainRipp": {
       "name": "ChainRipp",
-      "description": "<p>\n  A popout Cyberarm chainsaw with integreated exhaust port. Can be deployed and\n  retracted without an Action. User can not use the hand on the ChainRipp's\n  Cyberarm when blade is drawn.\n</p>\n<blockquote>\n  <p>\n    When deployed, ChainRipp can be revved as an Action and qualifies as an\n    Excellent Quality One-Handed Exotic Very Heavy Melee Weapon. ChainRipp\n    remains revved until deactivated as an Action.\n  </p>\n  <p>\n    In the deployed but un-revved state, the ChainRipp is a One-Handed Very\n    Heavy Melee Weapon.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  A popout Cyberarm chainsaw with integreated exhaust port. Can be deployed and\n  retracted without an Action.\n</p>\n<blockquote>\n  <p>\n    User can not use the hand on the ChainRipp's Cyberarm when blade is drawn.\n  </p>\n</blockquote>\n",
       "dvTable": ""
     },
     "Chipware Compartment": {
