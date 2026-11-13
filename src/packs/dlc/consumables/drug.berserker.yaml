@@ -61,13 +61,10 @@ effects:
       duplicateSource: null
       exportSource: null
       lastModifiedBy: L5BVRBGb798QfKk9
-      modifiedTime: 1794511409239
+      modifiedTime: 1794544229158
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.hasPainSuppression
-        mode: 2
-        value: "1"
+    changes: []
     description: ""
     disabled: true
     duration:
@@ -81,12 +78,8 @@ effects:
     flags:
       cyberpunk-red-core:
         changes:
-          cats:
-            "0": misc
-          situational:
-            "0":
-              isSituational: false
-              onByDefault: false
+          cats: {}
+          situational: {}
     img: modules/cyberpunk-red-dlc/icons/dlc/status/beserker.svg
     name: Berserker Primary
     origin: Compendium.cyberpunk-red-dlc.dlc_consumables.Item.lzmfwfxPjDjYE1nM
@@ -123,7 +116,7 @@ system:
         <li>
           <p>
             <strong>Wound State/Facedown</strong> penalties to Skill or Stat checks
-            are halved
+            are halved — No automation provided
           </p>
         </li>
         <li>

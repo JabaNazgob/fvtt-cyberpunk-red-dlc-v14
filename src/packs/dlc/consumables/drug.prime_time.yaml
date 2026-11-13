@@ -61,16 +61,13 @@ effects:
       duplicateSource: null
       exportSource: null
       lastModifiedBy: L5BVRBGb798QfKk9
-      modifiedTime: 1794515590820
+      modifiedTime: 1794544689045
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
     changes:
       - key: system.stats.cool.value
         mode: 2
         value: "-2"
-      - key: system.derivedStats.humanity.max
-        mode: 2
-        value: "-1"
     description: ""
     disabled: true
     duration:
@@ -86,12 +83,8 @@ effects:
         changes:
           cats:
             "0": stat
-            "1": custom
           situational:
             "0":
-              isSituational: false
-              onByDefault: false
-            "1":
               isSituational: false
               onByDefault: false
     img: modules/cyberpunk-red-dlc/icons/dlc/status/prime_time_addiction.svg
@@ -138,7 +131,12 @@ system:
         <li>
           <p>
             Roll [[/r 4d6 #Humanity Loss]]{4d6 Humanity Loss} — Humanity is returned
-            when effect wears off.
+            when effect wears off
+          </p>
+        </li>
+        <li>
+          <p>
+            Cannot reduce <strong>Current</strong> <strong>Humanity</strong> below 0.
           </p>
         </li>
       </ul>
@@ -151,7 +149,10 @@ system:
       </p>
       <ul>
         <li>
-          <p>-1 <strong>Humanity Loss</strong></p>
+          <p>
+            -1 <strong>Humanity Loss</strong> — Must be manually applied after every
+            dose while addicted
+          </p>
         </li>
         <li>
           <p>-2 to <strong>COOL</strong> while addicted and not currently dosed</p>
