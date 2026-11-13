@@ -9,8 +9,8 @@ effects:
       createdTime: 1794261612167
       duplicateSource: null
       exportSource: null
-      lastModifiedBy: uZdNL8lFVztc95PE
-      modifiedTime: 1794261649562
+      lastModifiedBy: L5BVRBGb798QfKk9
+      modifiedTime: 1794550431281
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
     changes:
@@ -18,7 +18,7 @@ effects:
         mode: 2
         value: "2"
     description: ""
-    disabled: false
+    disabled: true
     duration:
       combat: null
       rounds: null
