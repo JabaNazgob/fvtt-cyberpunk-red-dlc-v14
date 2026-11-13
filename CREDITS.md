@@ -189,6 +189,7 @@ This module (including items provided in the compendium) contains unofficial con
 - `src/icons/compendium/ammo/grenade*` remixed from core icons ammo & `src/icons/prototypes/badges`
 - `src/icons/dlc/ammo/bow*` remixed from core icons & `src/icons/prototypes/badges`
 - `src/icons/dlc/ammo/cannister_basic.svg` remixed from [Soda Can](https://game-icons.net/1x1/guard13007/soda-can.html), [Gas Grenade](https://thenounproject.com/icon/gas-grenade-688890/) & `src/icons/prototypes/badges`
+- `src/icons/dlc/ammo/gas_jet.svg` remixed from `src/icons/black-chrome/ammo/arasaka_acid.svg`
 - `src/icons/dlc/ammo/harpoon*` remixed from core icons ammo & `src/icons/prototypes/badges`
 - `src/icons/dlc/ammo/modball*` remixed from core icons ammo & `src/icons/prototypes/badges`
 - `src/icons/dlc/ammo/osmosis_compound.svg` remixed from core icons ammo & `src/icons/prototypes/badges`
