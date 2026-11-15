@@ -197,7 +197,9 @@ system:
         <li>
           <p>
             The user feels happy and satisfied, receiving a temporary modifier of +2
-            to <strong>Multiple Skills</strong>
+            to <strong>Acting</strong>, <strong>Contortionist</strong>,
+            <strong>Conversation</strong>, <strong>Dance</strong>,
+            <strong>Human Perception</strong>, and <strong>Persuasion</strong>
           </p>
         </li>
       </ul>
@@ -210,7 +212,12 @@ system:
       </p>
       <ul>
         <li>
-          <p>-2 to <strong>Multiple Skills</strong> while addicted.</p>
+          <p>
+            -2 to <strong>Acting</strong>, <strong>Contortionist</strong>,
+            <strong>Conversation</strong>, <strong>Dance</strong>,
+            <strong>Human Perception</strong>, and <strong>Persuasion</strong> while
+            addicted.
+          </p>
         </li>
       </ul>
       <blockquote>
