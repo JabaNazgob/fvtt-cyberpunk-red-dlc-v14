@@ -244,7 +244,7 @@ This module (including items provided in the compendium) contains unofficial con
 - `src/icons/dlc/cyberware/external_vidscreen.svg` remixed from core icons & [TV](https://game-icons.net/1x1/delapouite/tv.html)
 - `src/icons/dlc/cyberware/extra-jointed-cyberarm.svg` remixed from core icons
 - `src/icons/dlc/cyberware/extra-jointed-cyberleg.svg` remixed from core icons
-- `src/icons/dlc/cyberware/extreme_biosculpting.svg` remixed from [Panda](https://game-icons.net/1x1/delapouite/panda.html)
+- `src/icons/dlc/cyberware/extreme_biosculpt.svg` remixed from core icons
 - `src/icons/dlc/cyberware/firebreather.svg` remixed from [Fire Breath](https://game-icons.net/1x1/lorc/fire-breath.html)
 - `src/icons/dlc/cyberware/gas-jet.svg` remixed from core icons & [Chemical Arrow](https://game-icons.net/1x1/lorc/chemical-arrow.html)
 - `src/icons/dlc/cyberware/hardend_shielding.svg` from core icons

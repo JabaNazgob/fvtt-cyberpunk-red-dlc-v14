@@ -1,14 +1,58 @@
 _id: h8mS30jnIMvWNOst
 _key: "!items!h8mS30jnIMvWNOst"
-effects: []
+effects:
+  - _id: lrGhSnAidIle85tk
+    _key: "!items.effects!h8mS30jnIMvWNOst.lrGhSnAidIle85tk"
+    _stats:
+      compendiumSource: null
+      coreVersion: "13.351"
+      createdTime: 1794767714981
+      duplicateSource: null
+      exportSource: null
+      lastModifiedBy: L5BVRBGb798QfKk9
+      modifiedTime: 1794767894920
+      systemId: cyberpunk-red-core
+      systemVersion: DUMMY_VALUE
+    changes:
+      - key: system.derivedStats.humanity.max
+        mode: 2
+        value: "2"
+    description: ""
+    disabled: false
+    duration:
+      combat: null
+      rounds: null
+      seconds: null
+      startRound: null
+      startTime: null
+      startTurn: null
+      turns: null
+    flags:
+      cyberpunk-red-core:
+        changes:
+          cats:
+            "0": custom
+          situational:
+            "0":
+              isSituational: false
+              onByDefault: false
+    img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/extreme_biosculpt.svg
+    name: Extreme Biosculpt
+    origin: Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.h8mS30jnIMvWNOst
+    sort: 0
+    statuses: []
+    system: {}
+    tint: "#ffffff"
+    transfer: true
+    type: base
 flags:
   cyberpunk-red-core:
     _migration:
       current: 44
       previous: "38"
 folder: null
-img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/extreme_biosculpting.svg
-name: Extreme Biosculpting
+img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/extreme_biosculpt.svg
+name: Extreme Biosculpt
 ownership:
   default: 0
   pLIpYgHBYUznkgBy: 3
@@ -78,7 +122,7 @@ system:
       page: 15
   type: fashionware
   unarmedAutomaticCalculation: true
-  usage: toggled
+  usage: installed
   usesType: magazine
   weaponSkill: Handgun
 type: cyberware

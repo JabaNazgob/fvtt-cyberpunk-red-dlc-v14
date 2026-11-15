@@ -99,8 +99,8 @@
       "description": "<p>\n  Implanted flexible video screen capable of streaming video from a\n  @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.gAfBLrpJzkKVtr8o]{Memory Chip}\n  or linked\n  @UUID[Compendium.cyberpunk-red-core.core_gear.Item.GqYz689ddSKQHMen]{Agent}.\n</p>\n",
       "dvTable": ""
     },
-    "Extreme Biosculpting": {
-      "name": "Extreme Biosculpting",
+    "Extreme Biosculpt": {
+      "name": "Extreme Biosculpt",
       "description": "<p>\n  A physical conversion to a chosen animal type of human size, however few\n  hospitals are willing to carry out the surgery.\n</p>\n<blockquote>\n  <p>\n    A <strong>MEDTECH</strong> may perform this procedure by passing a\n    <strong>DV21 Surgery Check</strong> and consuming materials worth 1,000eb.\n  </p>\n</blockquote>\n"
     },
     "Firebreather": {
