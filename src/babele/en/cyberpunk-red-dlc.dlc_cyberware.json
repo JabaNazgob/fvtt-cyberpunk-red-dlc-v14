@@ -219,12 +219,12 @@
     },
     "Poser Chip (Celebrity)": {
       "name": "Poser Chip (Celebrity)",
-      "description": "<p>\n  Pre-programmed with with countless hours of footage documenting the speech\n  patterns and mannerisms of a well known celebrity figure. Standard-issue\n  Cyberware for Poser Gangs.\n</p>\n<p>\n  Provides a +4 bonus to <strong>Acting</strong> checks when imitating that\n  specific personality and increasing to +5 when engaging in convincing\n  roleplay.\n</p>\n<blockquote>\n  <p>\n    Chipware must be installed into a\n    @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.IJarQGKk5rPayoLT]{Chipware Socket}\n    or similar device.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  Pre-programmed with countless hours of footage documenting the speech patterns\n  and mannerisms of a well known celebrity figure. Standard-issue Cyberware for\n  Poser Gangs.\n</p>\n<p>\n  Provides a +4 bonus to <strong>Acting</strong> checks when imitating that\n  specific personality and increasing to +5 when engaging in convincing\n  roleplay.\n</p>\n<blockquote>\n  <p>\n    Chipware must be installed into a\n    @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.IJarQGKk5rPayoLT]{Chipware Socket}\n    or similar device.\n  </p>\n</blockquote>\n",
       "dvTable": ""
     },
     "Poser Chip (Personalized)": {
       "name": "Poser Chip (Personalized)",
-      "description": "<p>\n  Pre-programmed with with 10+ hours of footage documenting the speech patterns\n  and mannerisms of a private individual.\n</p>\n<p>\n  Provides a +4 bonus to <strong>Acting</strong> checks when imitating that\n  specific personality and increasing to +5 when engaging in convincing\n  roleplay.\n</p>\n<blockquote>\n  <p>\n    Chipware must be installed into a\n    @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.IJarQGKk5rPayoLT]{Chipware Socket}\n    or similar device.\n  </p>\n</blockquote>\n",
+      "description": "<p>\n  Pre-programmed with 10+ hours of footage documenting the speech patterns and\n  mannerisms of a private individual.\n</p>\n<p>\n  Provides a +4 bonus to <strong>Acting</strong> checks when imitating that\n  specific personality and increasing to +5 when engaging in convincing\n  roleplay.\n</p>\n<blockquote>\n  <p>\n    Chipware must be installed into a\n    @UUID[Compendium.cyberpunk-red-core.core_cyberware.Item.IJarQGKk5rPayoLT]{Chipware Socket}\n    or similar device.\n  </p>\n</blockquote>\n",
       "dvTable": ""
     },
     "Prehensile Cyberfoot": {
