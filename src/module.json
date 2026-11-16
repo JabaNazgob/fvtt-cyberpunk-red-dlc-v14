@@ -13,9 +13,9 @@
     }
   ],
   "compatibility": {
-    "minimum": "13",
-    "verified": "13",
-    "maximum": "13"
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
   },
   "relationships": {
     "systems": [
@@ -23,9 +23,9 @@
         "id": "cyberpunk-red-core",
         "type": "system",
         "compatibility": {
-          "minimum": "v0.89",
-          "verified": "v0.89",
-          "maximum": "v0.92.1"
+          "minimum": "v0.93",
+          "verified": "v0.93",
+          "maximum": "v0.93"
         }
       }
     ]

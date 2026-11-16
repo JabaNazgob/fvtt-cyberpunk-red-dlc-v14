@@ -41,6 +41,8 @@
 
 ### New Features
 
+- Add Foundry v14 Support (requires Cyberpunk RED - CORE v0.93)
+- Remove Foundry v13 Support
 - Compendium Items have been revised to conform with published Errata Changes
 - Item descriptions have been revised to provide a unified format
   - Ammo
