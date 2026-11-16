@@ -13,21 +13,13 @@ effects:
       modifiedTime: 1759629106266
       systemId: cyberpunk-red-core
       systemVersion: v0.89.2
-    changes:
-      - key: bonuses.acting
-        mode: 2
-        priority: null
-        value: "4"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -37,13 +29,22 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/animal_behaviour_chip.svg
     name: Animal Behavior Chip
     origin: >-
       Compendium.cyberpunk-red-dlc.dlc_mixing-drinks-changing-lives.Item.TVgFdyPTl0aVAQz5
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.acting
+          phase: initial
+          priority: null
+          type: add
+          value: 4
     tint: "#ffffff"
     transfer: true
     type: base

@@ -13,25 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.0.0dev
-    changes:
-      - key: system.stats.body.value
-        mode: 5
-        priority: null
-        value: "16"
-      - key: system.derivedStats.humanity.max
-        mode: 2
-        priority: null
-        value: "-4"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -45,13 +33,27 @@ effects:
             "1":
               isSituational: false
               onByDefault: false
+    folder: null
     img: >-
       systems/cyberpunk-red-core/icons/compendium/cyberware/implanted_linearframe_sigma.svg
     name: Implanted Linear Frame Omega
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.stats.body.value
+          phase: initial
+          priority: null
+          type: override
+          value: 16
+        - key: system.derivedStats.humanity.max
+          phase: initial
+          priority: null
+          type: add
+          value: -4
     tint: "#ffffff"
     transfer: true
     type: base

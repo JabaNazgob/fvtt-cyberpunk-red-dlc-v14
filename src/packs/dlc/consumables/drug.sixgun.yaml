@@ -13,26 +13,13 @@ effects:
       modifiedTime: 1794516830077
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: system.stats.move.value
-        mode: 2
-        value: "-2"
-      - key: system.stats.ref.value
-        mode: 2
-        value: "-2"
-      - key: bonuses.speed
-        mode: 2
-        value: "2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -50,12 +37,28 @@ effects:
             "2":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/sixgun.svg
     name: Sixgun Primary
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.stats.move.value
+          phase: initial
+          type: add
+          value: -2
+        - key: system.stats.ref.value
+          phase: initial
+          type: add
+          value: -2
+        - key: bonuses.speed
+          phase: initial
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base
@@ -71,20 +74,13 @@ effects:
       modifiedTime: 1794516785201
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.speed
-        mode: 2
-        value: "-2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -94,12 +90,20 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/sixgun_addiction.svg
     name: Sixgun Addiction
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.speed
+          phase: initial
+          type: add
+          value: -2
     tint: "#ffffff"
     transfer: true
     type: base
@@ -115,29 +119,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: system.stats.move.value
-        mode: 2
-        priority: null
-        value: "2"
-      - key: system.stats.ref.value
-        mode: 2
-        priority: null
-        value: "2"
-      - key: bonuses.speed
-        mode: 2
-        priority: null
-        value: "4"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -155,12 +143,31 @@ effects:
             "2":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/sixgun_addiction.svg
     name: Sixgun Addiction Primary
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.stats.move.value
+          phase: initial
+          priority: null
+          type: add
+          value: 2
+        - key: system.stats.ref.value
+          phase: initial
+          priority: null
+          type: add
+          value: 2
+        - key: bonuses.speed
+          phase: initial
+          priority: null
+          type: add
+          value: 4
     tint: "#ffffff"
     transfer: true
     type: base

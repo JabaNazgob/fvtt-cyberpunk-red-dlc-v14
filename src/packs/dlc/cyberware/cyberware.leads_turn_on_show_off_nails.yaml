@@ -13,20 +13,13 @@ effects:
       modifiedTime: 1794550431281
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.wardrobeAndStyle
-        mode: 2
-        value: "2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -36,13 +29,21 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: >-
       modules/cyberpunk-red-dlc/icons/dlc/cyberware/leads_turn_on_show_off_nails.svg
     name: Light Tattoo
     origin: Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.37RCGTuozpxgA9EN
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.wardrobeAndStyle
+          phase: initial
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base

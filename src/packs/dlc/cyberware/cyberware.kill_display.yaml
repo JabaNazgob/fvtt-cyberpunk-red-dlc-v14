@@ -13,21 +13,13 @@ effects:
       modifiedTime: 1794550517483
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: bonuses.wardrobeAndStyle
-        mode: 2
-        priority: null
-        value: "2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -37,12 +29,21 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/kill_display.svg
     name: Kill Display
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.wardrobeAndStyle
+          phase: initial
+          priority: null
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base

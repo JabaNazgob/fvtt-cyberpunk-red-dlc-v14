@@ -13,21 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: bonuses.wardrobeAndStyle
-        mode: 2
-        priority: null
-        value: "2"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: 1768694527
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -37,12 +29,27 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
+    folder: null
     img: systems/cyberpunk-red-core/icons/compendium/weapons/veryHeavyPistol.svg
     name: Superchrome® Sidearm
     origin: null
+    showIcon: 1
     sort: 0
+    start:
+      combat: null
+      combatant: null
+      initiative: null
+      round: null
+      time: 1768694527
+      turn: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.wardrobeAndStyle
+          phase: initial
+          priority: null
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base

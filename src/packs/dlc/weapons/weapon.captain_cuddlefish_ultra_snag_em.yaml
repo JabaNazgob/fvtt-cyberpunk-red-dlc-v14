@@ -13,21 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.0.0dev
-    changes:
-      - key: bonuses.aimedShot
-        mode: 2
-        priority: null
-        value: "2"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -37,12 +29,21 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
+    folder: null
     img: systems/cyberpunk-red-core/icons/compendium/status/dismembered_hand.svg
     name: Aimed Shot
     origin: Compendium.world.the-12-days-of-cutiemas.Item.MvS9E2fJEq9SEmoy
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.aimedShot
+          phase: initial
+          priority: null
+          type: add
+          value: 2
     tint: "#ff69b4"
     transfer: true
     type: base

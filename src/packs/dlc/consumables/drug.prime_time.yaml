@@ -13,23 +13,13 @@ effects:
       modifiedTime: 1794516598386
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: system.stats.cool.value
-        mode: 2
-        value: "2"
-      - key: system.stats.will.value
-        mode: 2
-        value: "2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -43,12 +33,24 @@ effects:
             "1":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/prime_time.svg
     name: Prime Time
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.stats.cool.value
+          phase: initial
+          type: add
+          value: 2
+        - key: system.stats.will.value
+          phase: initial
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base
@@ -64,20 +66,13 @@ effects:
       modifiedTime: 1794544689045
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: system.stats.cool.value
-        mode: 2
-        value: "-2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -87,12 +82,20 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/prime_time_addiction.svg
     name: Prime Time Addiction
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.stats.cool.value
+          phase: initial
+          type: add
+          value: -2
     tint: "#ffffff"
     transfer: true
     type: base

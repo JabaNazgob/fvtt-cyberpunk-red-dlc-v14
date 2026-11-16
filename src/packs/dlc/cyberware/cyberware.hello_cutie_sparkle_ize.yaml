@@ -13,21 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.0.0dev
-    changes:
-      - key: ATL.light.bright
-        mode: 2
-        priority: null
-        value: "50"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -37,12 +29,21 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/hello-cutie-sparkle-ize.svg
     name: Sparkle-Ize
     origin: Actor.3nIbzRmka0bIzjRr.Item.9oUBiXijnKS8fS8r
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: ATL.light.bright
+          phase: initial
+          priority: null
+          type: add
+          value: 50
     tint: "#ffffff"
     transfer: true
     type: base

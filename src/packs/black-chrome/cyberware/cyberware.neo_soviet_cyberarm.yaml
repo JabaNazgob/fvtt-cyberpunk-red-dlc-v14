@@ -13,20 +13,13 @@ effects:
       modifiedTime: 1794339884614
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.allActionsHands
-        mode: 2
-        value: "-1"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -36,13 +29,21 @@ effects:
             "0":
               isSituational: true
               onByDefault: true
+    folder: null
     img: >-
       modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/neo-soviet-cyberarm.svg
     name: Neo-Soviet Cyberarm
     origin: Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.MfNQoF64u5w8cK7A
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.allActionsHands
+          phase: initial
+          type: add
+          value: -1
     tint: "#ffffff"
     transfer: true
     type: base

@@ -54,16 +54,22 @@ system:
   modifiers:
     attackmod:
       isSituational: false
+      onByDefault: false
       type: modifier
       value: null
     damage:
       isSituational: false
+      onByDefault: false
       type: modifier
       value: null
     magazine:
+      isSituational: false
+      onByDefault: false
       type: modifier
       value: null
     rof:
+      isSituational: false
+      onByDefault: false
       type: modifier
       value: null
     secondaryWeapon:

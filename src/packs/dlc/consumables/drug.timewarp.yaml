@@ -13,21 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: bonuses.initiative
-        mode: 2
-        priority: null
-        value: "3"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -37,12 +29,21 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/timewarp.svg
     name: Timewarp Primary
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.initiative
+          phase: initial
+          priority: null
+          type: add
+          value: 3
     tint: "#ffffff"
     transfer: true
     type: base
@@ -58,21 +59,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: bonuses.initiative
-        mode: 2
-        priority: null
-        value: "-2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -82,12 +75,21 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/timewarp_addiction.svg
     name: Timewarp Addiction
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.initiative
+          phase: initial
+          priority: null
+          type: add
+          value: -2
     tint: "#ffffff"
     transfer: true
     type: base
@@ -103,21 +105,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: bonuses.initiative
-        mode: 2
-        priority: null
-        value: "5"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -127,12 +121,21 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/timewarp_addiction.svg
     name: Timewarp Addiction Primary
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.initiative
+          phase: initial
+          priority: null
+          type: add
+          value: 5
     tint: "#ffffff"
     transfer: true
     type: base

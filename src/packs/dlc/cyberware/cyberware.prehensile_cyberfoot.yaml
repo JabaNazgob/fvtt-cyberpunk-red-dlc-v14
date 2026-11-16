@@ -13,23 +13,13 @@ effects:
       modifiedTime: 1794352582290
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: system.stats.move.value
-        mode: 2
-        value: "-4"
-      - key: bonuses.hands
-        mode: 2
-        value: "1"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -43,12 +33,24 @@ effects:
             "1":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/prehensile-cyberfoot.svg
     name: Prehensile Foot
     origin: Item.6aOF9KaUCHusFxsM
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.stats.move.value
+          phase: initial
+          type: add
+          value: -4
+        - key: bonuses.hands
+          phase: initial
+          type: add
+          value: 1
     tint: "#ffffff"
     transfer: true
     type: base

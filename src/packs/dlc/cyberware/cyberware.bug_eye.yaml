@@ -13,20 +13,13 @@ effects:
       modifiedTime: 1789767673984
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: system.derivedStats.humanity.max
-        mode: 2
-        value: "-2"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -36,12 +29,20 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/bug-eye.svg
     name: Bug Eye Borgware
     origin: Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.avqM5i0tzCS4kkF0
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.derivedStats.humanity.max
+          phase: initial
+          type: add
+          value: -2
     tint: "#ffffff"
     transfer: true
     type: base

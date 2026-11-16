@@ -13,21 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.0.0dev
-    changes:
-      - key: system.stats.body.value
-        mode: 2
-        priority: null
-        value: "2"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: 0
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -41,12 +33,27 @@ effects:
             "1":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/hydraulic-underjack.svg
     name: Húsafell Hydrualic Underjack
     origin: Compendium.world.the-12-days-of-cutiemas.Item.oWbuZFDNkG4ZEYt4
+    showIcon: 1
     sort: 0
+    start:
+      combat: null
+      combatant: null
+      initiative: null
+      round: null
+      time: 0
+      turn: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.stats.body.value
+          phase: initial
+          priority: null
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base
@@ -62,21 +69,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.0.0dev
-    changes:
-      - key: system.stats.body.value
-        mode: 3
-        priority: null
-        value: "10"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: 0
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -90,12 +89,27 @@ effects:
             "1":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/gear/hydraulic-underjack.svg
     name: Max Body 10
     origin: Compendium.world.the-12-days-of-cutiemas.Item.oWbuZFDNkG4ZEYt4
+    showIcon: 1
     sort: 0
+    start:
+      combat: null
+      combatant: null
+      initiative: null
+      round: null
+      time: 0
+      turn: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.stats.body.value
+          phase: initial
+          priority: null
+          type: downgrade
+          value: 10
     tint: "#ffffff"
     transfer: true
     type: base

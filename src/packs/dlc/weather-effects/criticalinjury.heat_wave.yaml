@@ -13,29 +13,13 @@ effects:
       modifiedTime: 1777077479073
       systemId: cyberpunk-red-core
       systemVersion: v0.0.0dev
-    changes:
-      - key: system.stats.ref.value
-        mode: 2
-        priority: null
-        value: "-2"
-      - key: system.stats.dex.value
-        mode: 2
-        priority: null
-        value: "-2"
-      - key: system.stats.move.value
-        mode: 2
-        priority: null
-        value: "-2"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -53,13 +37,32 @@ effects:
             "2":
               isSituational: false
               onByDefault: false
+    folder: null
     img: >-
       modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/heat-wave.svg
     name: Heat Wave
     origin: Item.rIY59a8aTD54qgrG
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.stats.ref.value
+          phase: initial
+          priority: null
+          type: add
+          value: -2
+        - key: system.stats.dex.value
+          phase: initial
+          priority: null
+          type: add
+          value: -2
+        - key: system.stats.move.value
+          phase: initial
+          priority: null
+          type: add
+          value: -2
     tint: "#ffffff"
     transfer: true
     type: base

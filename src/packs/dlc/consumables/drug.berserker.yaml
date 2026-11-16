@@ -13,23 +13,13 @@ effects:
       modifiedTime: 1794510971210
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.deathSavePenalty
-        mode: 2
-        value: "1"
-      - key: system.derivedStats.humanity.max
-        mode: 2
-        value: "-2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -43,12 +33,24 @@ effects:
             "1":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/beserker_addiction.svg
     name: Berserker Addiction
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.deathSavePenalty
+          phase: initial
+          type: add
+          value: 1
+        - key: system.derivedStats.humanity.max
+          phase: initial
+          type: add
+          value: -2
     tint: "#ffffff"
     transfer: true
     type: base
@@ -64,28 +66,28 @@ effects:
       modifiedTime: 1794544229158
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes: []
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
           cats: {}
           situational: {}
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/beserker.svg
     name: Berserker Primary
     origin: Compendium.cyberpunk-red-dlc.dlc_consumables.Item.lzmfwfxPjDjYE1nM
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes: []
     tint: "#ffffff"
     transfer: true
     type: base

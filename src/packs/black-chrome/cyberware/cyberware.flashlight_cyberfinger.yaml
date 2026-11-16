@@ -11,20 +11,13 @@ effects:
       lastModifiedBy: null
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: system.derivedStats.humanity.max
-        mode: 2
-        value: "2"
     description: <p>Modular Cyberfingers do not impose max Humanity loss.</p>
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -34,12 +27,20 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
     name: Modular Cyberfinger
     origin: Item.QQAf7xEY24ddCpmk
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.derivedStats.humanity.max
+          phase: initial
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base
@@ -55,20 +56,13 @@ effects:
       modifiedTime: 1794260300097
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: ATL.light.bright
-        mode: 2
-        value: "50"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -78,12 +72,20 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
+    folder: null
     img: systems/cyberpunk-red-core/icons/compendium/gear/flashlight.svg
     name: Finger Flashlight
     origin: Compendium.cyberpunk-red-dlc.black-chrome_cyberware.Item.QQcjD2PAqtd0qxY4
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: ATL.light.bright
+          phase: initial
+          type: add
+          value: 50
     tint: "#ffffff"
     transfer: true
     type: base

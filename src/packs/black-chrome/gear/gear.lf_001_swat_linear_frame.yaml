@@ -13,21 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: system.stats.body.value
-        mode: 5
-        priority: null
-        value: "12"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -37,13 +29,22 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: >-
       systems/cyberpunk-red-core/icons/compendium/default/default-linearframe.svg
     name: LF-001 SWAT Linear Frame
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.stats.body.value
+          phase: initial
+          priority: null
+          type: override
+          value: 12
     tint: "#ffffff"
     transfer: true
     type: base

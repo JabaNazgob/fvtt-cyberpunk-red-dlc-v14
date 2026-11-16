@@ -13,21 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.0.0dev
-    changes:
-      - key: bonuses.playInstrument(Guitar)
-        mode: 2
-        priority: null
-        value: "2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: 1766361727
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -41,12 +33,27 @@ effects:
             "1":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/power-chord.svg
     name: Rock Star
     origin: Item.6o8Km7tlww9Luim4
+    showIcon: 1
     sort: 0
+    start:
+      combat: null
+      combatant: null
+      initiative: null
+      round: null
+      time: 1766361727
+      turn: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.playInstrument(Guitar)
+          phase: initial
+          priority: null
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base

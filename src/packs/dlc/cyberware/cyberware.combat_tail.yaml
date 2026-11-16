@@ -13,20 +13,13 @@ effects:
       modifiedTime: 1793994187868
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.allActionsHands
-        mode: 2
-        value: "-4"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -36,12 +29,20 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/combat-tail.svg
     name: Use Prehensile Tail
     origin: Compendium.cyberpunk-red-dlc.dlc_cyberware.Item.VFGaOCbuOSyWbkbJ
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.allActionsHands
+          phase: initial
+          type: add
+          value: -4
     tint: "#ffffff"
     transfer: true
     type: base

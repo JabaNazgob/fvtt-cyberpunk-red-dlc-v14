@@ -13,21 +13,13 @@ effects:
       modifiedTime: 1777078131311
       systemId: cyberpunk-red-core
       systemVersion: v0.0.0dev
-    changes:
-      - key: bonuses.allActions
-        mode: 2
-        priority: null
-        value: "-2"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -53,13 +45,22 @@ effects:
             "4":
               isSituational: false
               onByDefault: false
+    folder: null
     img: >-
       modules/cyberpunk-red-dlc/icons/dlc/rolltables/night_city_weather/dust-storm.svg
     name: Dust Storm
     origin: Item.rIY59a8aTD54qgrG
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.allActions
+          phase: initial
+          priority: null
+          type: add
+          value: -2
     tint: "#ffffff"
     transfer: true
     type: base

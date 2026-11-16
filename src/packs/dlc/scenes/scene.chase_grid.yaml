@@ -1,19 +1,6 @@
 _id: pBQGiLen5fM33fpL
 _key: "!scenes!pBQGiLen5fM33fpL"
 active: false
-background:
-  alphaThreshold: 0
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  offsetX: 0
-  offsetY: 0
-  rotation: 0
-  scaleX: 1
-  scaleY: 1
-  src: modules/cyberpunk-red-dlc/assets/maps/S0L-Corp-Road-Quad-100px.webp
-  tint: "#ffffff"
-backgroundColor: "#999999"
 drawings:
   - _id: qjvFdrLvIV3sdfJL
     _key: "!scenes.drawings!pBQGiLen5fM33fpL.qjvFdrLvIV3sdfJL"
@@ -28,6 +15,7 @@ drawings:
     fontSize: 48
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -59,6 +47,7 @@ drawings:
     fontSize: 48
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -90,6 +79,7 @@ drawings:
     fontSize: 48
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -121,6 +111,7 @@ drawings:
     fontSize: 48
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -152,6 +143,7 @@ drawings:
     fontSize: 48
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -183,6 +175,7 @@ drawings:
     fontSize: 48
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -214,6 +207,7 @@ drawings:
     fontSize: 48
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -245,6 +239,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -276,6 +271,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -307,6 +303,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -338,6 +335,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -369,6 +367,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -400,6 +399,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -431,6 +431,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -462,6 +463,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -493,6 +495,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -524,6 +527,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -555,6 +559,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -586,6 +591,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -617,6 +623,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -648,6 +655,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -679,6 +687,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -710,6 +719,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -741,6 +751,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -772,6 +783,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -803,6 +815,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -834,6 +847,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -865,6 +879,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -896,6 +911,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -927,6 +943,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -958,6 +975,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -989,6 +1007,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1020,6 +1039,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1051,6 +1071,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1082,6 +1103,7 @@ drawings:
     fontSize: 24
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1113,6 +1135,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1144,6 +1167,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1175,6 +1199,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1206,6 +1231,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1237,6 +1263,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1268,6 +1295,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1299,6 +1327,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1330,6 +1359,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1361,6 +1391,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1392,6 +1423,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1423,6 +1455,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1454,6 +1487,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1485,6 +1519,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1516,6 +1551,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1547,6 +1583,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1578,6 +1615,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1609,6 +1647,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1640,6 +1679,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1671,6 +1711,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1702,6 +1743,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1733,6 +1775,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1764,6 +1807,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1795,6 +1839,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1826,6 +1871,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1857,6 +1903,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1888,6 +1935,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1919,6 +1967,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1950,6 +1999,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -1981,6 +2031,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2012,6 +2063,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2043,6 +2095,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2074,6 +2127,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2105,6 +2159,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2136,6 +2191,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2167,6 +2223,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2198,6 +2255,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2229,6 +2287,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2260,6 +2319,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2291,6 +2351,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2322,6 +2383,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2353,6 +2415,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2384,6 +2447,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2415,6 +2479,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2446,6 +2511,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2477,6 +2543,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2508,6 +2575,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2539,6 +2607,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2570,6 +2639,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2601,6 +2671,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2632,6 +2703,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2663,6 +2735,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2694,6 +2767,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2725,6 +2799,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2756,6 +2831,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2787,6 +2863,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2818,6 +2895,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2849,6 +2927,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2880,6 +2959,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2911,6 +2991,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2942,6 +3023,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -2973,6 +3055,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3004,6 +3087,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3035,6 +3119,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3066,6 +3151,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3097,6 +3183,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3128,6 +3215,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3159,6 +3247,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3190,6 +3279,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3221,6 +3311,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3252,6 +3343,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3283,6 +3375,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3314,6 +3407,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3345,6 +3439,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3376,6 +3471,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3407,6 +3503,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3438,6 +3535,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3469,6 +3567,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3500,6 +3599,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3531,6 +3631,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3562,6 +3663,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3593,6 +3695,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3624,6 +3727,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3655,6 +3759,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3686,6 +3791,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3717,6 +3823,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3748,6 +3855,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3779,6 +3887,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3810,6 +3919,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3841,6 +3951,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3872,6 +3983,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3903,6 +4015,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3934,6 +4047,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3965,6 +4079,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -3996,6 +4111,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4027,6 +4143,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4058,6 +4175,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4089,6 +4207,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4120,6 +4239,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4151,6 +4271,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4182,6 +4303,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4213,6 +4335,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4244,6 +4367,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4275,6 +4399,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4306,6 +4431,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4337,6 +4463,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4368,6 +4495,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4399,6 +4527,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4430,6 +4559,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4461,6 +4591,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4492,6 +4623,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4523,6 +4655,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4554,6 +4687,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4585,6 +4719,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4616,6 +4751,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4647,6 +4783,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4678,6 +4815,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4709,6 +4847,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4740,6 +4879,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4771,6 +4911,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4802,6 +4943,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4833,6 +4975,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4864,6 +5007,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4895,6 +5039,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4926,6 +5071,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4957,6 +5103,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -4988,6 +5135,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5019,6 +5167,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5050,6 +5199,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5081,6 +5231,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5112,6 +5263,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5143,6 +5295,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5174,6 +5327,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5205,6 +5359,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5236,6 +5391,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5267,6 +5423,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5298,6 +5455,7 @@ drawings:
     fontSize: 32
     hidden: false
     interface: false
+    levels: []
     locked: true
     rotation: 0
     shape:
@@ -5350,11 +5508,8 @@ fog:
   colors:
     explored: null
     unexplored: null
-  exploration: true
-  overlay: null
+  mode: 1
 folder: null
-foreground: null
-foregroundElevation: null
 grid:
   alpha: 0
   color: "#000000"
@@ -5369,9 +5524,40 @@ initial:
   scale: null
   x: null
   "y": null
+initialLevel: defaultLevel0000
 journal: null
 journalEntryPage: null
-levels: []
+levels:
+  - _id: defaultLevel0000
+    _key: "!scenes.levels!pBQGiLen5fM33fpL.defaultLevel0000"
+    background:
+      alphaThreshold: 0.75
+      color: "#999999"
+      src: modules/cyberpunk-red-dlc/assets/maps/S0L-Corp-Road-Quad-100px.webp
+      tint: "#ffffff"
+    elevation:
+      bottom: 0
+      top: null
+    flags: {}
+    fog:
+      src: null
+    foreground:
+      alphaThreshold: 0.75
+      src: null
+      tint: "#ffffff"
+    name: Chase-Grid
+    sort: 0
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      scaleX: 1
+      scaleY: 1
+    visibility:
+      levels: []
 lights: []
 name: Chase-Grid
 navName: Chase-Grid
@@ -5386,6 +5572,9 @@ playlistSound: null
 regions:
   - _id: KbSvfNasnPE2XKXZ
     _key: "!scenes.regions!pBQGiLen5fM33fpL.KbSvfNasnPE2XKXZ"
+    _shapeConstraints: null
+    attachment:
+      token: null
     behaviors:
       - _id: 9PtKBsldRLcZPzHh
         _key: >-
@@ -5432,14 +5621,28 @@ regions:
             });
         type: executeScript
     color: "#ff0000"
+    displayMeasurements: false
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     flags: {}
+    hidden: false
+    highlightMode: shapes
+    levels: []
     locked: false
     name: Range_000-006
+    ownership:
+      default: 0
+    restriction:
+      enabled: false
+      priority: 0
+      type: move
     shapes:
-      - height: 800
+      - anchorX: 0
+        anchorY: 0
+        gridBased: false
+        height: 800
         hole: false
         rotation: 0
         type: rectangle
@@ -5449,6 +5652,9 @@ regions:
     visibility: 0
   - _id: Y3leKwNGqJspA9CF
     _key: "!scenes.regions!pBQGiLen5fM33fpL.Y3leKwNGqJspA9CF"
+    _shapeConstraints: null
+    attachment:
+      token: null
     behaviors:
       - _id: SsX5I3Te2qJtESSK
         _key: >-
@@ -5495,14 +5701,28 @@ regions:
             });
         type: executeScript
     color: "#ff8040"
+    displayMeasurements: false
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     flags: {}
+    hidden: false
+    highlightMode: shapes
+    levels: []
     locked: false
     name: Range_007-012
+    ownership:
+      default: 0
+    restriction:
+      enabled: false
+      priority: 0
+      type: move
     shapes:
-      - height: 800
+      - anchorX: 0
+        anchorY: 0
+        gridBased: false
+        height: 800
         hole: false
         rotation: 0
         type: rectangle
@@ -5512,6 +5732,9 @@ regions:
     visibility: 0
   - _id: rMAe79taCr3pkdKT
     _key: "!scenes.regions!pBQGiLen5fM33fpL.rMAe79taCr3pkdKT"
+    _shapeConstraints: null
+    attachment:
+      token: null
     behaviors:
       - _id: pxbbB1ZPTl4sshrY
         _key: >-
@@ -5558,14 +5781,28 @@ regions:
             });
         type: executeScript
     color: "#ffff00"
+    displayMeasurements: false
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     flags: {}
+    hidden: false
+    highlightMode: shapes
+    levels: []
     locked: false
     name: Range_013-025
+    ownership:
+      default: 0
+    restriction:
+      enabled: false
+      priority: 0
+      type: move
     shapes:
-      - height: 800
+      - anchorX: 0
+        anchorY: 0
+        gridBased: false
+        height: 800
         hole: false
         rotation: 0
         type: rectangle
@@ -5575,6 +5812,9 @@ regions:
     visibility: 0
   - _id: IQqoj6GpteWVuOYV
     _key: "!scenes.regions!pBQGiLen5fM33fpL.IQqoj6GpteWVuOYV"
+    _shapeConstraints: null
+    attachment:
+      token: null
     behaviors:
       - _id: yHby98iZu5PWG5zc
         _key: >-
@@ -5621,14 +5861,28 @@ regions:
             });
         type: executeScript
     color: "#00ff00"
+    displayMeasurements: false
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     flags: {}
+    hidden: false
+    highlightMode: shapes
+    levels: []
     locked: false
     name: Range_026-050
+    ownership:
+      default: 0
+    restriction:
+      enabled: false
+      priority: 0
+      type: move
     shapes:
-      - height: 800
+      - anchorX: 0
+        anchorY: 0
+        gridBased: false
+        height: 800
         hole: false
         rotation: 0
         type: rectangle
@@ -5638,6 +5892,9 @@ regions:
     visibility: 0
   - _id: gT167PPnoUAd1Pvp
     _key: "!scenes.regions!pBQGiLen5fM33fpL.gT167PPnoUAd1Pvp"
+    _shapeConstraints: null
+    attachment:
+      token: null
     behaviors:
       - _id: pLuP6cG6nDPfeygT
         _key: >-
@@ -5684,14 +5941,28 @@ regions:
             });
         type: executeScript
     color: "#00ffff"
+    displayMeasurements: false
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     flags: {}
+    hidden: false
+    highlightMode: shapes
+    levels: []
     locked: false
     name: Range_051-100
+    ownership:
+      default: 0
+    restriction:
+      enabled: false
+      priority: 0
+      type: move
     shapes:
-      - height: 800
+      - anchorX: 0
+        anchorY: 0
+        gridBased: false
+        height: 800
         hole: false
         rotation: 0
         type: rectangle
@@ -5701,6 +5972,9 @@ regions:
     visibility: 0
   - _id: kLc6geEpGSjRb8e5
     _key: "!scenes.regions!pBQGiLen5fM33fpL.kLc6geEpGSjRb8e5"
+    _shapeConstraints: null
+    attachment:
+      token: null
     behaviors:
       - _id: P2AhLX0yiXabxVpu
         _key: >-
@@ -5748,14 +6022,28 @@ regions:
             });
         type: executeScript
     color: "#0000ff"
+    displayMeasurements: false
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     flags: {}
+    hidden: false
+    highlightMode: shapes
+    levels: []
     locked: false
     name: Range_101-200
+    ownership:
+      default: 0
+    restriction:
+      enabled: false
+      priority: 0
+      type: move
     shapes:
-      - height: 800
+      - anchorX: 0
+        anchorY: 0
+        gridBased: false
+        height: 800
         hole: false
         rotation: 0
         type: rectangle
@@ -5765,6 +6053,9 @@ regions:
     visibility: 0
   - _id: FIBfWnCkKM8WuA83
     _key: "!scenes.regions!pBQGiLen5fM33fpL.FIBfWnCkKM8WuA83"
+    _shapeConstraints: null
+    attachment:
+      token: null
     behaviors:
       - _id: cGaPMdUN7NFSSiF4
         _key: >-
@@ -5812,14 +6103,28 @@ regions:
             });
         type: executeScript
     color: "#ff00ff"
+    displayMeasurements: false
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     flags: {}
+    hidden: false
+    highlightMode: shapes
+    levels: []
     locked: false
     name: Range_401-800
+    ownership:
+      default: 0
+    restriction:
+      enabled: false
+      priority: 0
+      type: move
     shapes:
-      - height: 800
+      - anchorX: 0
+        anchorY: 0
+        gridBased: false
+        height: 800
         hole: false
         rotation: 0
         type: rectangle
@@ -5827,6 +6132,8 @@ regions:
         x: 1300
         "y": 500
     visibility: 0
+shiftX: 0
+shiftY: 0
 sort: 0
 sounds: []
 templates: []
@@ -5834,6 +6141,10 @@ thumb: modules/cyberpunk-red-dlc/assets/scenes/pBQGiLen5fM33fpL-thumb.webp
 tiles: []
 tokenVision: false
 tokens: []
+transition:
+  activeOnly: false
+  duration: 1500
+  type: null
 walls: []
 weather: ""
 width: 4000

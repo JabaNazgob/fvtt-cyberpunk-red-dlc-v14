@@ -13,25 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.0.0dev
-    changes:
-      - key: bonuses.librarySearch
-        mode: 2
-        priority: null
-        value: "2"
-      - key: bonuses.wardrobeAndStyle
-        mode: 2
-        priority: null
-        value: "2"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: 1768348927
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -45,12 +33,32 @@ effects:
             "1":
               isSituational: true
               onByDefault: false
+    folder: null
     img: systems/cyberpunk-red-core/icons/compendium/gear/agent.svg
     name: Agent
     origin: null
+    showIcon: 1
     sort: 0
+    start:
+      combat: null
+      combatant: null
+      initiative: null
+      round: null
+      time: 1768348927
+      turn: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.librarySearch
+          phase: initial
+          priority: null
+          type: add
+          value: 2
+        - key: bonuses.wardrobeAndStyle
+          phase: initial
+          priority: null
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base

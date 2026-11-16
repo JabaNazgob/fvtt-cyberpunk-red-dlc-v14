@@ -13,41 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: bonuses.dance
-        mode: 2
-        priority: null
-        value: "2"
-      - key: bonuses.contortionist
-        mode: 2
-        priority: null
-        value: "2"
-      - key: bonuses.conversation
-        mode: 2
-        priority: null
-        value: "2"
-      - key: bonuses.humanPerception
-        mode: 2
-        priority: null
-        value: "2"
-      - key: bonuses.persuasion
-        mode: 2
-        priority: null
-        value: "2"
-      - key: bonuses.acting
-        mode: 2
-        priority: null
-        value: "2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -77,12 +49,46 @@ effects:
             "5":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/piranha-smash.svg
     name: Piranha Smash Primary
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.dance
+          phase: initial
+          priority: null
+          type: add
+          value: 2
+        - key: bonuses.contortionist
+          phase: initial
+          priority: null
+          type: add
+          value: 2
+        - key: bonuses.conversation
+          phase: initial
+          priority: null
+          type: add
+          value: 2
+        - key: bonuses.humanPerception
+          phase: initial
+          priority: null
+          type: add
+          value: 2
+        - key: bonuses.persuasion
+          phase: initial
+          priority: null
+          type: add
+          value: 2
+        - key: bonuses.acting
+          phase: initial
+          priority: null
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base
@@ -98,41 +104,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: bonuses.dance
-        mode: 2
-        priority: null
-        value: "-2"
-      - key: bonuses.contortionist
-        mode: 2
-        priority: null
-        value: "-2"
-      - key: bonuses.conversation
-        mode: 2
-        priority: null
-        value: "-2"
-      - key: bonuses.humanPerception
-        mode: 2
-        priority: null
-        value: "-2"
-      - key: bonuses.persuasion
-        mode: 2
-        priority: null
-        value: "-2"
-      - key: bonuses.acting
-        mode: 2
-        priority: null
-        value: "-2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -162,12 +140,46 @@ effects:
             "5":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/piranha-smash-addiction.svg
     name: Piranha Smash Addiciton
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.dance
+          phase: initial
+          priority: null
+          type: add
+          value: -2
+        - key: bonuses.contortionist
+          phase: initial
+          priority: null
+          type: add
+          value: -2
+        - key: bonuses.conversation
+          phase: initial
+          priority: null
+          type: add
+          value: -2
+        - key: bonuses.humanPerception
+          phase: initial
+          priority: null
+          type: add
+          value: -2
+        - key: bonuses.persuasion
+          phase: initial
+          priority: null
+          type: add
+          value: -2
+        - key: bonuses.acting
+          phase: initial
+          priority: null
+          type: add
+          value: -2
     tint: "#ffffff"
     transfer: true
     type: base

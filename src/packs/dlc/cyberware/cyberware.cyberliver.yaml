@@ -13,21 +13,13 @@ effects:
       modifiedTime: 1759629692202
       systemId: cyberpunk-red-core
       systemVersion: v0.89.2
-    changes:
-      - key: bonuses.resistTortureOrDrugs
-        mode: 2
-        priority: null
-        value: "6"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -37,13 +29,22 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/cyberliver.svg
     name: Cyberliver
     origin: >-
       Compendium.cyberpunk-red-dlc.dlc_mixing-drinks-changing-lives.Item.Pf0nIIWogwohv3gc
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.resistTortureOrDrugs
+          phase: initial
+          priority: null
+          type: add
+          value: 6
     tint: "#ffffff"
     transfer: true
     type: base

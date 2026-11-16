@@ -13,21 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.0.0dev
-    changes:
-      - key: bonuses.librarySearch
-        mode: 2
-        priority: null
-        value: "1"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -37,12 +29,21 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: systems/cyberpunk-red-core/icons/compendium/default/Default_Program.svg
     name: Big SAAI
     origin: Item.oIw1opOKWYASRv0G
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.librarySearch
+          phase: initial
+          priority: null
+          type: add
+          value: 1
     tint: "#ffffff"
     transfer: true
     type: base

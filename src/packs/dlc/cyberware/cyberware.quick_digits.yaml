@@ -11,38 +11,13 @@ effects:
       lastModifiedBy: null
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.concealOrRevealObject
-        mode: 2
-        value: "1"
-      - key: bonuses.contortionist
-        mode: 2
-        value: "1"
-      - key: bonuses.firstAid
-        mode: 2
-        value: "1"
-      - key: bonuses.forgery
-        mode: 2
-        value: "1"
-      - key: bonuses.paramedic
-        mode: 2
-        value: "1"
-      - key: bonuses.pickLock
-        mode: 2
-        value: "1"
-      - key: bonuses.pickPocket
-        mode: 2
-        value: "1"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -76,12 +51,44 @@ effects:
             "6":
               isSituational: true
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/quick-digits.svg
     name: "Complementary Bonus: Quick Digits"
     origin: Item.kW2OGQmsEOEZCazp
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.concealOrRevealObject
+          phase: initial
+          type: add
+          value: 1
+        - key: bonuses.contortionist
+          phase: initial
+          type: add
+          value: 1
+        - key: bonuses.firstAid
+          phase: initial
+          type: add
+          value: 1
+        - key: bonuses.forgery
+          phase: initial
+          type: add
+          value: 1
+        - key: bonuses.paramedic
+          phase: initial
+          type: add
+          value: 1
+        - key: bonuses.pickLock
+          phase: initial
+          type: add
+          value: 1
+        - key: bonuses.pickPocket
+          phase: initial
+          type: add
+          value: 1
     tint: "#ffffff"
     transfer: true
     type: base

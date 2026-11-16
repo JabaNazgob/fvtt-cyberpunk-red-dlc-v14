@@ -11,21 +11,13 @@ effects:
       lastModifiedBy: null
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.acting
-        mode: 2
-        priority: null
-        value: "4"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -35,12 +27,21 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/poser_chip.svg
     name: Poser Chip (Impersonate)
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.acting
+          phase: initial
+          priority: null
+          type: add
+          value: 4
     tint: "#ffffff"
     transfer: true
     type: base
@@ -54,20 +55,13 @@ effects:
       lastModifiedBy: null
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.acting
-        mode: 2
-        value: "1"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -77,12 +71,20 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/poser_chip.svg
     name: Poser Chip (Convincing Roleplay)
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.acting
+          phase: initial
+          type: add
+          value: 1
     tint: "#ffffff"
     transfer: true
     type: base

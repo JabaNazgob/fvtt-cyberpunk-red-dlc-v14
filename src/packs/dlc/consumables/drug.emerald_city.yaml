@@ -13,20 +13,13 @@ effects:
       modifiedTime: 1789929049989
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.hasPainSuppression
-        mode: 2
-        value: "2"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -36,12 +29,20 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/emerald-city.svg
     name: Emerald City
     origin: Compendium.cyberpunk-red-dlc.dlc_consumables.Item.FIVTc5dNR52C5O6h
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.hasPainSuppression
+          phase: initial
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base
@@ -57,20 +58,13 @@ effects:
       modifiedTime: 1789929040593
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.hasPainSuppression
-        mode: 2
-        value: "0"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -80,12 +74,20 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/emerald-city_addiction.svg
     name: Emerald City Addiction
     origin: Compendium.cyberpunk-red-dlc.dlc_consumables.Item.FIVTc5dNR52C5O6h
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.hasPainSuppression
+          phase: initial
+          type: add
+          value: 0
     tint: "#ffffff"
     transfer: true
     type: base

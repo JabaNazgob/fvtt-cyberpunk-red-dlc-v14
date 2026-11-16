@@ -13,41 +13,13 @@ effects:
       modifiedTime: null
       systemId: cyberpunk-red-core
       systemVersion: v0.92.1
-    changes:
-      - key: bonuses.acting
-        mode: 2
-        priority: null
-        value: "-5"
-      - key: bonuses.concentration
-        mode: 2
-        priority: null
-        value: "-5"
-      - key: bonuses.conversation
-        mode: 2
-        priority: null
-        value: "-5"
-      - key: bonuses.deduction
-        mode: 2
-        priority: null
-        value: "-5"
-      - key: bonuses.humanPerception
-        mode: 2
-        priority: null
-        value: "-5"
-      - key: bonuses.persuasion
-        mode: 2
-        priority: null
-        value: "-5"
     description: ""
     disabled: true
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -77,12 +49,46 @@ effects:
             "5":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/status/veritas.svg
     name: Veritas Primary
     origin: null
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.acting
+          phase: initial
+          priority: null
+          type: add
+          value: -5
+        - key: bonuses.concentration
+          phase: initial
+          priority: null
+          type: add
+          value: -5
+        - key: bonuses.conversation
+          phase: initial
+          priority: null
+          type: add
+          value: -5
+        - key: bonuses.deduction
+          phase: initial
+          priority: null
+          type: add
+          value: -5
+        - key: bonuses.humanPerception
+          phase: initial
+          priority: null
+          type: add
+          value: -5
+        - key: bonuses.persuasion
+          phase: initial
+          priority: null
+          type: add
+          value: -5
     tint: "#ffffff"
     transfer: true
     type: base

@@ -13,21 +13,13 @@ effects:
       modifiedTime: 1759684951667
       systemId: cyberpunk-red-core
       systemVersion: v0.89.2
-    changes:
-      - key: bonuses.stealth
-        mode: 2
-        priority: null
-        value: "2"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -37,13 +29,22 @@ effects:
             "0":
               isSituational: true
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/vic_jammer.svg
     name: VIC Jammer
     origin: >-
       Compendium.cyberpunk-red-dlc.dlc_mixing-drinks-changing-lives.Item.D7TFt1EHP20nKr8S
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.stealth
+          phase: initial
+          priority: null
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base

@@ -11,20 +11,13 @@ effects:
       lastModifiedBy: null
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: bonuses.contortionist
-        mode: 2
-        value: "1"
     description: ""
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -34,12 +27,20 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/dlc/cyberware/cyberspine.svg
     name: Cyberspine
     origin: Item.I6Vj5Q1tdO3tdnZg
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: bonuses.contortionist
+          phase: initial
+          type: add
+          value: 1
     tint: "#ffffff"
     transfer: true
     type: base

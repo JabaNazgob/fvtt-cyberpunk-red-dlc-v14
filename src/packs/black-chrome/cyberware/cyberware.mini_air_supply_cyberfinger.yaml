@@ -11,20 +11,13 @@ effects:
       lastModifiedBy: null
       systemId: cyberpunk-red-core
       systemVersion: DUMMY_VALUE
-    changes:
-      - key: system.derivedStats.humanity.max
-        mode: 2
-        value: "2"
     description: <p>Modular Cyberfingers do not impose max Humanity loss.</p>
     disabled: false
     duration:
-      combat: null
-      rounds: null
-      seconds: null
-      startRound: null
-      startTime: null
-      startTurn: null
-      turns: null
+      expired: false
+      expiry: null
+      units: seconds
+      value: null
     flags:
       cyberpunk-red-core:
         changes:
@@ -34,12 +27,20 @@ effects:
             "0":
               isSituational: false
               onByDefault: false
+    folder: null
     img: modules/cyberpunk-red-dlc/icons/black-chrome/cyberware/cyberfinger.svg
     name: Modular Cyberfinger
     origin: Item.xbUSlHc1HtdXzd08
+    showIcon: 1
     sort: 0
+    start: null
     statuses: []
-    system: {}
+    system:
+      changes:
+        - key: system.derivedStats.humanity.max
+          phase: initial
+          type: add
+          value: 2
     tint: "#ffffff"
     transfer: true
     type: base
